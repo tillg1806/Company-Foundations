@@ -1,7 +1,7 @@
 # Company Foundations
 
 mission "Company Foundations: Company Board"
-	name "Firmenhauptsitz"
+	name "Company Headquarters"
 	description "Review your active company and change how it is managed."
 	repeat
 	to offer
@@ -199,12 +199,12 @@ mission "Company Foundations: Company Board"
 				"cf: company value" += "cf: station daily income" * 365
 				"cf: company value" >?= 0
 			`Your company terminal opens the current balance board. The detailed registration lives at your headquarters, but the operating ledger can be reviewed from any relay office.`
-			`	FIRMENPANEL`
-			`	Firmenwert: &[credits@cf: company value].`
-			`	Guthaben: &[credits@cf: reserve].`
-			`	Taeglicher Umsatz (durchschnittlich): &[credits@cf: projected gross].`
-			`	Taegliche Einnahmen (durchschnittlich): &[credits@cf: projected net].`
-			`	Cash: company reserve &[credits@cf: reserve], AutoPay-Warteschlange &[credits@cf: owner payable], lifetime owner cash received &[credits@cf: total owner payouts].`
+			`	COMPANY BOARD`
+			`	Firm value: &[credits@cf: company value].`
+			`	Reserve: &[credits@cf: reserve].`
+			`	Daily gross (average): &[credits@cf: projected gross].`
+			`	Daily net income (average): &[credits@cf: projected net].`
+			`	Cash: company reserve &[credits@cf: reserve], AutoPay queue &[credits@cf: owner payable], lifetime owner cash received &[credits@cf: total owner payouts].`
 			`	Last period: gross &[credits@cf: last gross], expenses &[credits@cf: last expenses], net &[credits@cf: last net profit], owner allocation &[credits@cf: last owner payout], retained &[credits@cf: last retained earnings].`
 			`	Policy: payout share &[number@cf: payout share]%. AutoPay is always on; owner payouts are transferred automatically with no tax or transaction deduction.`
 			`	Staff and taxes: &[number@cf: worker staff] workers, &[number@cf: office staff] office staff, &[number@cf: specialist staff] specialist(s), &[number@cf: total staff] total. Office payroll &[credits@cf: office daily cost]/day, employee tax &[credits@cf: employee tax]/day, HQ tax &[credits@cf: hq daily tax]/day.`
@@ -250,46 +250,46 @@ mission "Company Foundations: Company Board"
 			`	HQ history: relocations &[number@cf: hq relocation count], relocation costs &[credits@cf: total relocation costs], access suspensions &[number@cf: hq suspension count].`
 			`	Lifetime: gross &[credits@cf: total gross], operating expenses &[credits@cf: total operating expenses], manager costs &[credits@cf: total manager costs], taxes &[credits@cf: total tax paid], net profit &[credits@cf: total net profit], owner allocations &[credits@cf: total owner allocations], retained earnings &[credits@cf: total retained earnings].`
 			choice
-				`	Gesamt / Holding bearbeiten.`
+				`	Manage company / holding.`
 					goto "menu total"
-				`	Shuttle-Sparte bearbeiten.`
+				`	Manage shuttle division.`
 					to display
 						has "cf: shuttle"
 					goto "menu shuttle"
-				`	Mining-Sparte bearbeiten.`
+				`	Manage mining division.`
 					to display
 						has "cf: mining"
 					goto "menu mining"
-				`	Trading-Sparte bearbeiten.`
+				`	Manage trading division.`
 					to display
 						has "cf: trading"
 					goto "menu trading"
-				`	Security-Sparte bearbeiten.`
+				`	Manage security division.`
 					to display
 						has "cf: security"
 					goto "menu security"
 				`	File the report and leave.`
 					decline
 			label "menu total"
-			`Gesamtverwaltung der Holding.`
+			`Holding administration.`
 			choice
-				`	Payout anpassen.`
+				`	Adjust payout.`
 					goto "menu payout"
-				`	Lizenzen kaufen.`
+				`	Buy licenses.`
 					goto "menu licenses"
-				`	Schiffe kaufen.`
+				`	Buy ships.`
 					goto "menu ships"
-				`	Manager kaufen/verwalten.`
+				`	Hire/manage manager.`
 					goto "menu manager"
-				`	Detaillierte Bilanz.`
+				`	Detailed balance.`
 					goto "menu balance"
-				`	HQ verwalten.`
+				`	Manage HQ.`
 					goto "menu hq"
-				`	Stationen bauen.`
+				`	Build stations.`
 					goto "menu stations"
-				`	Investieren.`
+				`	Invest.`
 					goto "menu invest"
-				`	Zur Spartenauswahl.`
+				`	Back to division selection.`
 					goto "company main menu"
 			label "menu payout"
 			`Payout policy and owner transfers.`
@@ -9528,14 +9528,14 @@ mission "Company Foundations: Company Board"
 				"cf: security projected expenses" += "cf: security admiral" * 20000
 				"cf: security projected expenses" += "cf: managed" * 10000
 				"cf: security projected net" = "cf: security projected gross" - "cf: security projected expenses"
-			`Shuttle-Sparte: routes &[number@cf: shuttle route count], ships &[number@cf: shuttle fleet], last gross &[credits@cf: shuttle last gross], last expenses &[credits@cf: shuttle last expenses], last net &[credits@cf: shuttle last net].`
+			`Shuttle division: routes &[number@cf: shuttle route count], ships &[number@cf: shuttle fleet], last gross &[credits@cf: shuttle last gross], last expenses &[credits@cf: shuttle last expenses], last net &[credits@cf: shuttle last net].`
 			`Shuttle average: daily gross &[credits@cf: shuttle projected gross], daily expenses &[credits@cf: shuttle projected expenses], daily net &[credits@cf: shuttle projected net]. Lifetime net &[credits@cf: shuttle total net].`
 			choice
-				`	Shuttle-Lizenzen kaufen.`
+				`	Buy shuttle licenses.`
 					goto "menu shuttle licenses"
-				`	Shuttle-Schiffe kaufen.`
+				`	Buy shuttle ships.`
 					goto "menu shuttle ships"
-				`	Zur Spartenauswahl.`
+				`	Back to division selection.`
 					goto "company main menu"
 			label "menu shuttle licenses"
 			`Shuttle routes and passenger rights.`
@@ -10236,14 +10236,14 @@ mission "Company Foundations: Company Board"
 				"cf: security projected expenses" += "cf: security admiral" * 20000
 				"cf: security projected expenses" += "cf: managed" * 10000
 				"cf: security projected net" = "cf: security projected gross" - "cf: security projected expenses"
-			`Mining-Sparte: claims &[number@cf: mining claim count], ships &[number@cf: mining fleet], drones &[number@cf: mining drones]/&[number@cf: mining drone capacity], last gross &[credits@cf: mining last gross], last expenses &[credits@cf: mining last expenses], last net &[credits@cf: mining last net].`
+			`Mining division: claims &[number@cf: mining claim count], ships &[number@cf: mining fleet], drones &[number@cf: mining drones]/&[number@cf: mining drone capacity], last gross &[credits@cf: mining last gross], last expenses &[credits@cf: mining last expenses], last net &[credits@cf: mining last net].`
 			`Mining average: daily gross &[credits@cf: mining projected gross], daily expenses &[credits@cf: mining projected expenses], daily net &[credits@cf: mining projected net]. Lifetime net &[credits@cf: mining total net].`
 			choice
-				`	Mining-Lizenzen kaufen.`
+				`	Buy mining licenses.`
 					goto "menu mining licenses"
-				`	Mining-Schiffe kaufen.`
+				`	Buy mining ships.`
 					goto "menu mining ships"
-				`	Zur Spartenauswahl.`
+				`	Back to division selection.`
 					goto "company main menu"
 			label "menu mining licenses"
 			`Mining claims and rights.`
@@ -10650,14 +10650,14 @@ mission "Company Foundations: Company Board"
 				"cf: security projected expenses" += "cf: security admiral" * 20000
 				"cf: security projected expenses" += "cf: managed" * 10000
 				"cf: security projected net" = "cf: security projected gross" - "cf: security projected expenses"
-			`Trading-Sparte: licenses &[number@cf: trading route count], ships &[number@cf: trading fleet], last gross &[credits@cf: trading last gross], last expenses &[credits@cf: trading last expenses], last net &[credits@cf: trading last net].`
+			`Trading division: licenses &[number@cf: trading route count], ships &[number@cf: trading fleet], last gross &[credits@cf: trading last gross], last expenses &[credits@cf: trading last expenses], last net &[credits@cf: trading last net].`
 			`Trading average: daily gross &[credits@cf: trading projected gross], daily expenses &[credits@cf: trading projected expenses], daily net &[credits@cf: trading projected net]. Lifetime net &[credits@cf: trading total net].`
 			choice
-				`	Trading-Lizenzen kaufen.`
+				`	Buy trading licenses.`
 					goto "menu trading licenses"
-				`	Trading-Schiffe kaufen.`
+				`	Buy trading ships.`
 					goto "menu trading ships"
-				`	Zur Spartenauswahl.`
+				`	Back to division selection.`
 					goto "company main menu"
 			label "menu trading licenses"
 			`Trading licenses and route rights.`
@@ -12243,16 +12243,16 @@ mission "Company Foundations: Company Board"
 				"cf: security projected expenses" += "cf: security admiral" * 20000
 				"cf: security projected expenses" += "cf: managed" * 10000
 				"cf: security projected net" = "cf: security projected gross" - "cf: security projected expenses"
-			`Security-Sparte: licenses &[number@cf: security contract count], escort ships &[number@cf: security fleet], escort rating &[number@cf: security combat rating], last gross &[credits@cf: security last gross], last expenses &[credits@cf: security last expenses], last net &[credits@cf: security last net].`
+			`Security division: licenses &[number@cf: security contract count], escort ships &[number@cf: security fleet], escort rating &[number@cf: security combat rating], last gross &[credits@cf: security last gross], last expenses &[credits@cf: security last expenses], last net &[credits@cf: security last net].`
 			`Security average: daily gross &[credits@cf: security projected gross], daily expenses &[credits@cf: security projected expenses], daily net &[credits@cf: security projected net]. Lifetime net &[credits@cf: security total net].`
 			choice
-				`	Security-Lizenzen kaufen.`
+				`	Buy security licenses.`
 					goto "menu security licenses"
-				`	Security-Schiffe kaufen.`
+				`	Buy security ships.`
 					goto "menu security ships"
-				`	Admiral verwalten.`
+				`	Manage admiral.`
 					goto "menu manager"
-				`	Zur Spartenauswahl.`
+				`	Back to division selection.`
 					goto "company main menu"
 			label "menu security licenses"
 			`Escort licenses and protection contracts.`

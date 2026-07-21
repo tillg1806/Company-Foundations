@@ -1,7 +1,7 @@
 # Company Foundations
 
 mission "Company Foundations: Registrar: Aava-Aasa-Khora"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Aava-Aasa-Khora. The cheapest charter costs 650,000 credits."
 	minor
 	source Aava-Aasa-Khora
@@ -210,7 +210,7 @@ mission "Company Foundations: Registrar: Aava-Aasa-Khora"
 				decline
 
 mission "Company Foundations: Registrar: Ablub's Invention"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ablub's Invention. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ablub's Invention"
@@ -379,7 +379,7 @@ mission "Company Foundations: Registrar: Ablub's Invention"
 				decline
 
 mission "Company Foundations: Registrar: Ada"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ada. The cheapest charter costs 650,000 credits."
 	minor
 	source Ada
@@ -656,7 +656,7 @@ mission "Company Foundations: Registrar: Ada"
 				decline
 
 mission "Company Foundations: Registrar: Ahr"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ahr. The cheapest charter costs 650,000 credits."
 	minor
 	source Ahr
@@ -865,7 +865,7 @@ mission "Company Foundations: Registrar: Ahr"
 				decline
 
 mission "Company Foundations: Registrar: Albatross"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Albatross. The cheapest charter costs 650,000 credits."
 	minor
 	source Albatross
@@ -1034,7 +1034,7 @@ mission "Company Foundations: Registrar: Albatross"
 				decline
 
 mission "Company Foundations: Registrar: Alexandria"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Alexandria. The cheapest charter costs 650,000 credits."
 	minor
 	source Alexandria
@@ -1203,7 +1203,7 @@ mission "Company Foundations: Registrar: Alexandria"
 				decline
 
 mission "Company Foundations: Registrar: Alfheim"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Alfheim. The cheapest charter costs 650,000 credits."
 	minor
 	source Alfheim
@@ -1372,7 +1372,7 @@ mission "Company Foundations: Registrar: Alfheim"
 				decline
 
 mission "Company Foundations: Registrar: Allhome"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Allhome. The cheapest charter costs 650,000 credits."
 	minor
 	source Allhome
@@ -1541,7 +1541,7 @@ mission "Company Foundations: Registrar: Allhome"
 				decline
 
 mission "Company Foundations: Registrar: Alta Hai"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Alta Hai. The cheapest charter costs 650,000 credits."
 	minor
 	source "Alta Hai"
@@ -1710,7 +1710,7 @@ mission "Company Foundations: Registrar: Alta Hai"
 				decline
 
 mission "Company Foundations: Registrar: Alvorada"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Alvorada. The cheapest charter costs 650,000 credits."
 	minor
 	source Alvorada
@@ -1879,7 +1879,7 @@ mission "Company Foundations: Registrar: Alvorada"
 				decline
 
 mission "Company Foundations: Registrar: Amathil"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Amathil. The cheapest charter costs 650,000 credits."
 	minor
 	source Amathil
@@ -2048,7 +2048,7 @@ mission "Company Foundations: Registrar: Amathil"
 				decline
 
 mission "Company Foundations: Registrar: Amazon"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Amazon. The cheapest charter costs 650,000 credits."
 	minor
 	source Amazon
@@ -2217,7 +2217,7 @@ mission "Company Foundations: Registrar: Amazon"
 				decline
 
 mission "Company Foundations: Registrar: Angko"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Angko. The cheapest charter costs 650,000 credits."
 	minor
 	source Angko
@@ -2386,7 +2386,7 @@ mission "Company Foundations: Registrar: Angko"
 				decline
 
 mission "Company Foundations: Registrar: Antipode"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Antipode. The cheapest charter costs 650,000 credits."
 	minor
 	source Antipode
@@ -2555,7 +2555,7 @@ mission "Company Foundations: Registrar: Antipode"
 				decline
 
 mission "Company Foundations: Registrar: Arabia"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Arabia. The cheapest charter costs 650,000 credits."
 	minor
 	source Arabia
@@ -2724,7 +2724,7 @@ mission "Company Foundations: Registrar: Arabia"
 				decline
 
 mission "Company Foundations: Registrar: Araio"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Araio. The cheapest charter costs 650,000 credits."
 	minor
 	source Araio
@@ -2893,7 +2893,7 @@ mission "Company Foundations: Registrar: Araio"
 				decline
 
 mission "Company Foundations: Registrar: Arroharg"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Arroharg. The cheapest charter costs 650,000 credits."
 	minor
 	source Arroharg
@@ -3062,7 +3062,7 @@ mission "Company Foundations: Registrar: Arroharg"
 				decline
 
 mission "Company Foundations: Registrar: Asgard"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Asgard. The cheapest charter costs 650,000 credits."
 	minor
 	source Asgard
@@ -3275,7 +3275,7 @@ mission "Company Foundations: Registrar: Asgard"
 				decline
 
 mission "Company Foundations: Registrar: Ashy Reach"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ashy Reach. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ashy Reach"
@@ -3444,7 +3444,7 @@ mission "Company Foundations: Registrar: Ashy Reach"
 				decline
 
 mission "Company Foundations: Registrar: Aventine"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Aventine. The cheapest charter costs 650,000 credits."
 	minor
 	source Aventine
@@ -3649,7 +3649,7 @@ mission "Company Foundations: Registrar: Aventine"
 				decline
 
 mission "Company Foundations: Registrar: Aviskir"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Aviskir. The cheapest charter costs 650,000 credits."
 	minor
 	source Aviskir
@@ -3818,7 +3818,7 @@ mission "Company Foundations: Registrar: Aviskir"
 				decline
 
 mission "Company Foundations: Registrar: Bailey"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bailey. The cheapest charter costs 650,000 credits."
 	minor
 	source Bailey
@@ -3987,7 +3987,7 @@ mission "Company Foundations: Registrar: Bailey"
 				decline
 
 mission "Company Foundations: Registrar: Bank of Blugtad"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bank of Blugtad. The cheapest charter costs 650,000 credits."
 	minor
 	source "Bank of Blugtad"
@@ -4196,7 +4196,7 @@ mission "Company Foundations: Registrar: Bank of Blugtad"
 				decline
 
 mission "Company Foundations: Registrar: Belug's Plunge"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Belug's Plunge. The cheapest charter costs 650,000 credits."
 	minor
 	source "Belug's Plunge"
@@ -4365,7 +4365,7 @@ mission "Company Foundations: Registrar: Belug's Plunge"
 				decline
 
 mission "Company Foundations: Registrar: Big Sky"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Big Sky. The cheapest charter costs 650,000 credits."
 	minor
 	source "Big Sky"
@@ -4534,7 +4534,7 @@ mission "Company Foundations: Registrar: Big Sky"
 				decline
 
 mission "Company Foundations: Registrar: Bivrost"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bivrost. The cheapest charter costs 650,000 credits."
 	minor
 	source Bivrost
@@ -4703,7 +4703,7 @@ mission "Company Foundations: Registrar: Bivrost"
 				decline
 
 mission "Company Foundations: Registrar: Bloodsea"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bloodsea. The cheapest charter costs 650,000 credits."
 	minor
 	source Bloodsea
@@ -4872,7 +4872,7 @@ mission "Company Foundations: Registrar: Bloodsea"
 				decline
 
 mission "Company Foundations: Registrar: Bloptab's Furnace"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bloptab's Furnace. The cheapest charter costs 650,000 credits."
 	minor
 	source "Bloptab's Furnace"
@@ -5041,7 +5041,7 @@ mission "Company Foundations: Registrar: Bloptab's Furnace"
 				decline
 
 mission "Company Foundations: Registrar: Blubipad's Workshop"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Blubipad's Workshop. The cheapest charter costs 650,000 credits."
 	minor
 	source "Blubipad's Workshop"
@@ -5210,7 +5210,7 @@ mission "Company Foundations: Registrar: Blubipad's Workshop"
 				decline
 
 mission "Company Foundations: Registrar: Blue Interior"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Blue Interior. The cheapest charter costs 650,000 credits."
 	minor
 	source "Blue Interior"
@@ -5415,7 +5415,7 @@ mission "Company Foundations: Registrar: Blue Interior"
 				decline
 
 mission "Company Foundations: Registrar: Bluestone"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bluestone. The cheapest charter costs 650,000 credits."
 	minor
 	source Bluestone
@@ -5584,7 +5584,7 @@ mission "Company Foundations: Registrar: Bluestone"
 				decline
 
 mission "Company Foundations: Registrar: Bosunothro"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bosunothro. The cheapest charter costs 650,000 credits."
 	minor
 	source Bosunothro
@@ -5785,7 +5785,7 @@ mission "Company Foundations: Registrar: Bosunothro"
 				decline
 
 mission "Company Foundations: Registrar: Bounty"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bounty. The cheapest charter costs 650,000 credits."
 	minor
 	source Bounty
@@ -5954,7 +5954,7 @@ mission "Company Foundations: Registrar: Bounty"
 				decline
 
 mission "Company Foundations: Registrar: Bourne"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bourne. The cheapest charter costs 650,000 credits."
 	minor
 	source Bourne
@@ -6123,7 +6123,7 @@ mission "Company Foundations: Registrar: Bourne"
 				decline
 
 mission "Company Foundations: Registrar: Brass Second"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Brass Second. The cheapest charter costs 650,000 credits."
 	minor
 	source "Brass Second"
@@ -6292,7 +6292,7 @@ mission "Company Foundations: Registrar: Brass Second"
 				decline
 
 mission "Company Foundations: Registrar: Bright Echo"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bright Echo. The cheapest charter costs 650,000 credits."
 	minor
 	source "Bright Echo"
@@ -6497,7 +6497,7 @@ mission "Company Foundations: Registrar: Bright Echo"
 				decline
 
 mission "Company Foundations: Registrar: Buccaneer Bay"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Buccaneer Bay. The cheapest charter costs 650,000 credits."
 	minor
 	source "Buccaneer Bay"
@@ -6750,7 +6750,7 @@ mission "Company Foundations: Registrar: Buccaneer Bay"
 				decline
 
 mission "Company Foundations: Registrar: Bunthro"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Bunthro. The cheapest charter costs 650,000 credits."
 	minor
 	source Bunthro
@@ -6919,7 +6919,7 @@ mission "Company Foundations: Registrar: Bunthro"
 				decline
 
 mission "Company Foundations: Registrar: Burthen"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Burthen. The cheapest charter costs 650,000 credits."
 	minor
 	source Burthen
@@ -7088,7 +7088,7 @@ mission "Company Foundations: Registrar: Burthen"
 				decline
 
 mission "Company Foundations: Registrar: Caelian"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Caelian. The cheapest charter costs 650,000 credits."
 	minor
 	source Caelian
@@ -7293,7 +7293,7 @@ mission "Company Foundations: Registrar: Caelian"
 				decline
 
 mission "Company Foundations: Registrar: Calda"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Calda. The cheapest charter costs 650,000 credits."
 	minor
 	source Calda
@@ -7462,7 +7462,7 @@ mission "Company Foundations: Registrar: Calda"
 				decline
 
 mission "Company Foundations: Registrar: Canyon"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Canyon. The cheapest charter costs 650,000 credits."
 	minor
 	source Canyon
@@ -7631,7 +7631,7 @@ mission "Company Foundations: Registrar: Canyon"
 				decline
 
 mission "Company Foundations: Registrar: Celestial Third"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Celestial Third. The cheapest charter costs 650,000 credits."
 	minor
 	source "Celestial Third"
@@ -7800,7 +7800,7 @@ mission "Company Foundations: Registrar: Celestial Third"
 				decline
 
 mission "Company Foundations: Registrar: Charon Station"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Charon Station. The cheapest charter costs 650,000 credits."
 	minor
 	source "Charon Station"
@@ -7969,7 +7969,7 @@ mission "Company Foundations: Registrar: Charon Station"
 				decline
 
 mission "Company Foundations: Registrar: Chiron"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Chiron. The cheapest charter costs 650,000 credits."
 	minor
 	source Chiron
@@ -8202,7 +8202,7 @@ mission "Company Foundations: Registrar: Chiron"
 				decline
 
 mission "Company Foundations: Registrar: Chosen Nexus"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Chosen Nexus. The cheapest charter costs 650,000 credits."
 	minor
 	source "Chosen Nexus"
@@ -8451,7 +8451,7 @@ mission "Company Foundations: Registrar: Chosen Nexus"
 				decline
 
 mission "Company Foundations: Registrar: Cipi"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Cipi. The cheapest charter costs 650,000 credits."
 	minor
 	source Cipi
@@ -8620,7 +8620,7 @@ mission "Company Foundations: Registrar: Cipi"
 				decline
 
 mission "Company Foundations: Registrar: Clark"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Clark. The cheapest charter costs 650,000 credits."
 	minor
 	source Clark
@@ -8805,7 +8805,7 @@ mission "Company Foundations: Registrar: Clark"
 				decline
 
 mission "Company Foundations: Registrar: Cloudfire"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Cloudfire. The cheapest charter costs 650,000 credits."
 	minor
 	source Cloudfire
@@ -8994,7 +8994,7 @@ mission "Company Foundations: Registrar: Cloudfire"
 				decline
 
 mission "Company Foundations: Registrar: Cold Horizon"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Cold Horizon. The cheapest charter costs 650,000 credits."
 	minor
 	source "Cold Horizon"
@@ -9163,7 +9163,7 @@ mission "Company Foundations: Registrar: Cold Horizon"
 				decline
 
 mission "Company Foundations: Registrar: Cool Forest"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Cool Forest. The cheapest charter costs 650,000 credits."
 	minor
 	source "Cool Forest"
@@ -9332,7 +9332,7 @@ mission "Company Foundations: Registrar: Cool Forest"
 				decline
 
 mission "Company Foundations: Registrar: Cornucopia"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Cornucopia. The cheapest charter costs 650,000 credits."
 	minor
 	source Cornucopia
@@ -9501,7 +9501,7 @@ mission "Company Foundations: Registrar: Cornucopia"
 				decline
 
 mission "Company Foundations: Registrar: Corral of Meblumem"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Corral of Meblumem. The cheapest charter costs 650,000 credits."
 	minor
 	source "Corral of Meblumem"
@@ -9670,7 +9670,7 @@ mission "Company Foundations: Registrar: Corral of Meblumem"
 				decline
 
 mission "Company Foundations: Registrar: Covert"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Covert. The cheapest charter costs 650,000 credits."
 	minor
 	source Covert
@@ -9887,7 +9887,7 @@ mission "Company Foundations: Registrar: Covert"
 				decline
 
 mission "Company Foundations: Registrar: Crossroads"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Crossroads. The cheapest charter costs 650,000 credits."
 	minor
 	source Crossroads
@@ -10056,7 +10056,7 @@ mission "Company Foundations: Registrar: Crossroads"
 				decline
 
 mission "Company Foundations: Registrar: Cyreal"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Cyreal. The cheapest charter costs 650,000 credits."
 	minor
 	source Cyreal
@@ -10225,7 +10225,7 @@ mission "Company Foundations: Registrar: Cyreal"
 				decline
 
 mission "Company Foundations: Registrar: Dancer"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Dancer. The cheapest charter costs 650,000 credits."
 	minor
 	source Dancer
@@ -10394,7 +10394,7 @@ mission "Company Foundations: Registrar: Dancer"
 				decline
 
 mission "Company Foundations: Registrar: Darkcloak"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Darkcloak. The cheapest charter costs 650,000 credits."
 	minor
 	source Darkcloak
@@ -10583,7 +10583,7 @@ mission "Company Foundations: Registrar: Darkcloak"
 				decline
 
 mission "Company Foundations: Registrar: Darkmetal"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Darkmetal. The cheapest charter costs 650,000 credits."
 	minor
 	source Darkmetal
@@ -10752,7 +10752,7 @@ mission "Company Foundations: Registrar: Darkmetal"
 				decline
 
 mission "Company Foundations: Registrar: Darkstone"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Darkstone. The cheapest charter costs 650,000 credits."
 	minor
 	source Darkstone
@@ -10921,7 +10921,7 @@ mission "Company Foundations: Registrar: Darkstone"
 				decline
 
 mission "Company Foundations: Registrar: Deadman's Cove"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Deadman's Cove. The cheapest charter costs 650,000 credits."
 	minor
 	source "Deadman's Cove"
@@ -11090,7 +11090,7 @@ mission "Company Foundations: Registrar: Deadman's Cove"
 				decline
 
 mission "Company Foundations: Registrar: Deep"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Deep. The cheapest charter costs 650,000 credits."
 	minor
 	source Deep
@@ -11259,7 +11259,7 @@ mission "Company Foundations: Registrar: Deep"
 				decline
 
 mission "Company Foundations: Registrar: Deep Treasure"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Deep Treasure. The cheapest charter costs 650,000 credits."
 	minor
 	source "Deep Treasure"
@@ -11428,7 +11428,7 @@ mission "Company Foundations: Registrar: Deep Treasure"
 				decline
 
 mission "Company Foundations: Registrar: Deep Water"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Deep Water. The cheapest charter costs 650,000 credits."
 	minor
 	source "Deep Water"
@@ -11597,7 +11597,7 @@ mission "Company Foundations: Registrar: Deep Water"
 				decline
 
 mission "Company Foundations: Registrar: Deli Kasi"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Deli Kasi. The cheapest charter costs 650,000 credits."
 	minor
 	source "Deli Kasi"
@@ -11766,7 +11766,7 @@ mission "Company Foundations: Registrar: Deli Kasi"
 				decline
 
 mission "Company Foundations: Registrar: Deli Kat"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Deli Kat. The cheapest charter costs 650,000 credits."
 	minor
 	source "Deli Kat"
@@ -11935,7 +11935,7 @@ mission "Company Foundations: Registrar: Deli Kat"
 				decline
 
 mission "Company Foundations: Registrar: Delve"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Delve. The cheapest charter costs 650,000 credits."
 	minor
 	source Delve
@@ -12144,7 +12144,7 @@ mission "Company Foundations: Registrar: Delve"
 				decline
 
 mission "Company Foundations: Registrar: Delve of Bloptab"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Delve of Bloptab. The cheapest charter costs 650,000 credits."
 	minor
 	source "Delve of Bloptab"
@@ -12313,7 +12313,7 @@ mission "Company Foundations: Registrar: Delve of Bloptab"
 				decline
 
 mission "Company Foundations: Registrar: Disara"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Disara. The cheapest charter costs 650,000 credits."
 	minor
 	source Disara
@@ -12514,7 +12514,7 @@ mission "Company Foundations: Registrar: Disara"
 				decline
 
 mission "Company Foundations: Registrar: Double Haze"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Double Haze. The cheapest charter costs 650,000 credits."
 	minor
 	source "Double Haze"
@@ -12683,7 +12683,7 @@ mission "Company Foundations: Registrar: Double Haze"
 				decline
 
 mission "Company Foundations: Registrar: Dueitch Ae"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Dueitch Ae. The cheapest charter costs 650,000 credits."
 	minor
 	source "Dueitch Ae"
@@ -12864,7 +12864,7 @@ mission "Company Foundations: Registrar: Dueitch Ae"
 				decline
 
 mission "Company Foundations: Registrar: Dueyu Eitch"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Dueyu Eitch. The cheapest charter costs 650,000 credits."
 	minor
 	source "Dueyu Eitch"
@@ -13057,7 +13057,7 @@ mission "Company Foundations: Registrar: Dueyu Eitch"
 				decline
 
 mission "Company Foundations: Registrar: Dune"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Dune. The cheapest charter costs 650,000 credits."
 	minor
 	source Dune
@@ -13226,7 +13226,7 @@ mission "Company Foundations: Registrar: Dune"
 				decline
 
 mission "Company Foundations: Registrar: Dusk Companion"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Dusk Companion. The cheapest charter costs 650,000 credits."
 	minor
 	source "Dusk Companion"
@@ -13395,7 +13395,7 @@ mission "Company Foundations: Registrar: Dusk Companion"
 				decline
 
 mission "Company Foundations: Registrar: Dustmaker"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Dustmaker. The cheapest charter costs 650,000 credits."
 	minor
 	source Dustmaker
@@ -13564,7 +13564,7 @@ mission "Company Foundations: Registrar: Dustmaker"
 				decline
 
 mission "Company Foundations: Registrar: Dwelling of Speloog"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Dwelling of Speloog. The cheapest charter costs 650,000 credits."
 	minor
 	source "Dwelling of Speloog"
@@ -13733,7 +13733,7 @@ mission "Company Foundations: Registrar: Dwelling of Speloog"
 				decline
 
 mission "Company Foundations: Registrar: Earth"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Earth. The cheapest charter costs 650,000 credits."
 	minor
 	source Earth
@@ -13902,7 +13902,7 @@ mission "Company Foundations: Registrar: Earth"
 				decline
 
 mission "Company Foundations: Registrar: Echo"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Echo. The cheapest charter costs 650,000 credits."
 	minor
 	source Echo
@@ -14071,7 +14071,7 @@ mission "Company Foundations: Registrar: Echo"
 				decline
 
 mission "Company Foundations: Registrar: Ef Aourtdye"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ef Aourtdye. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ef Aourtdye"
@@ -14252,7 +14252,7 @@ mission "Company Foundations: Registrar: Ef Aourtdye"
 				decline
 
 mission "Company Foundations: Registrar: Ef Osch"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ef Osch. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ef Osch"
@@ -14421,7 +14421,7 @@ mission "Company Foundations: Registrar: Ef Osch"
 				decline
 
 mission "Company Foundations: Registrar: Ember Reaches"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ember Reaches. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ember Reaches"
@@ -14589,7 +14589,7 @@ mission "Company Foundations: Registrar: Ember Reaches"
 				decline
 
 mission "Company Foundations: Registrar: Ember Wormhole"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ember Wormhole. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ember Wormhole"
@@ -14757,7 +14757,7 @@ mission "Company Foundations: Registrar: Ember Wormhole"
 				decline
 
 mission "Company Foundations: Registrar: Enbye"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Enbye. The cheapest charter costs 650,000 credits."
 	minor
 	source Enbye
@@ -14946,7 +14946,7 @@ mission "Company Foundations: Registrar: Enbye"
 				decline
 
 mission "Company Foundations: Registrar: Enn Bue"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Enn Bue. The cheapest charter costs 650,000 credits."
 	minor
 	source "Enn Bue"
@@ -15143,7 +15143,7 @@ mission "Company Foundations: Registrar: Enn Bue"
 				decline
 
 mission "Company Foundations: Registrar: Erabuthro"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Erabuthro. The cheapest charter costs 650,000 credits."
 	minor
 	source Erabuthro
@@ -15356,7 +15356,7 @@ mission "Company Foundations: Registrar: Erabuthro"
 				decline
 
 mission "Company Foundations: Registrar: Eragarthro"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Eragarthro. The cheapest charter costs 650,000 credits."
 	minor
 	source Eragarthro
@@ -15541,7 +15541,7 @@ mission "Company Foundations: Registrar: Eragarthro"
 				decline
 
 mission "Company Foundations: Registrar: Ergastirio Station"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ergastirio Station. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ergastirio Station"
@@ -15710,7 +15710,7 @@ mission "Company Foundations: Registrar: Ergastirio Station"
 				decline
 
 mission "Company Foundations: Registrar: Essime"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Essime. The cheapest charter costs 650,000 credits."
 	minor
 	source Essime
@@ -15879,7 +15879,7 @@ mission "Company Foundations: Registrar: Essime"
 				decline
 
 mission "Company Foundations: Registrar: Everhope"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Everhope. The cheapest charter costs 650,000 credits."
 	minor
 	source Everhope
@@ -16048,7 +16048,7 @@ mission "Company Foundations: Registrar: Everhope"
 				decline
 
 mission "Company Foundations: Registrar: Factory of Eblumab"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Factory of Eblumab. The cheapest charter costs 650,000 credits."
 	minor
 	source "Factory of Eblumab"
@@ -16217,7 +16217,7 @@ mission "Company Foundations: Registrar: Factory of Eblumab"
 				decline
 
 mission "Company Foundations: Registrar: Far Garden"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Far Garden. The cheapest charter costs 650,000 credits."
 	minor
 	source "Far Garden"
@@ -16386,7 +16386,7 @@ mission "Company Foundations: Registrar: Far Garden"
 				decline
 
 mission "Company Foundations: Registrar: Far Home"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Far Home. The cheapest charter costs 650,000 credits."
 	minor
 	source "Far Home"
@@ -16635,7 +16635,7 @@ mission "Company Foundations: Registrar: Far Home"
 				decline
 
 mission "Company Foundations: Registrar: Farpoint"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Farpoint. The cheapest charter costs 650,000 credits."
 	minor
 	source Farpoint
@@ -16804,7 +16804,7 @@ mission "Company Foundations: Registrar: Farpoint"
 				decline
 
 mission "Company Foundations: Registrar: Farseer"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Farseer. The cheapest charter costs 650,000 credits."
 	minor
 	source Farseer
@@ -16973,7 +16973,7 @@ mission "Company Foundations: Registrar: Farseer"
 				decline
 
 mission "Company Foundations: Registrar: Farwater"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Farwater. The cheapest charter costs 650,000 credits."
 	minor
 	source Farwater
@@ -17142,7 +17142,7 @@ mission "Company Foundations: Registrar: Farwater"
 				decline
 
 mission "Company Foundations: Registrar: Featherweight"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Featherweight. The cheapest charter costs 650,000 credits."
 	minor
 	source Featherweight
@@ -17311,7 +17311,7 @@ mission "Company Foundations: Registrar: Featherweight"
 				decline
 
 mission "Company Foundations: Registrar: Fenrir Station"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Fenrir Station. The cheapest charter costs 650,000 credits."
 	minor
 	source "Fenrir Station"
@@ -17480,7 +17480,7 @@ mission "Company Foundations: Registrar: Fenrir Station"
 				decline
 
 mission "Company Foundations: Registrar: Feo Platform"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Feo Platform. The cheapest charter costs 650,000 credits."
 	minor
 	source "Feo Platform"
@@ -17713,7 +17713,7 @@ mission "Company Foundations: Registrar: Feo Platform"
 				decline
 
 mission "Company Foundations: Registrar: Firelode"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Firelode. The cheapest charter costs 650,000 credits."
 	minor
 	source Firelode
@@ -17882,7 +17882,7 @@ mission "Company Foundations: Registrar: Firelode"
 				decline
 
 mission "Company Foundations: Registrar: Flood"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Flood. The cheapest charter costs 650,000 credits."
 	minor
 	source Flood
@@ -18051,7 +18051,7 @@ mission "Company Foundations: Registrar: Flood"
 				decline
 
 mission "Company Foundations: Registrar: Flowing Fields"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Flowing Fields. The cheapest charter costs 650,000 credits."
 	minor
 	source "Flowing Fields"
@@ -18220,7 +18220,7 @@ mission "Company Foundations: Registrar: Flowing Fields"
 				decline
 
 mission "Company Foundations: Registrar: Follower"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Follower. The cheapest charter costs 650,000 credits."
 	minor
 	source Follower
@@ -18457,7 +18457,7 @@ mission "Company Foundations: Registrar: Follower"
 				decline
 
 mission "Company Foundations: Registrar: Forpelog"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Forpelog. The cheapest charter costs 650,000 credits."
 	minor
 	source Forpelog
@@ -18626,7 +18626,7 @@ mission "Company Foundations: Registrar: Forpelog"
 				decline
 
 mission "Company Foundations: Registrar: Foundry"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Foundry. The cheapest charter costs 650,000 credits."
 	minor
 	source Foundry
@@ -18891,7 +18891,7 @@ mission "Company Foundations: Registrar: Foundry"
 				decline
 
 mission "Company Foundations: Registrar: Fourth Shadow"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Fourth Shadow. The cheapest charter costs 650,000 credits."
 	minor
 	source "Fourth Shadow"
@@ -19060,7 +19060,7 @@ mission "Company Foundations: Registrar: Fourth Shadow"
 				decline
 
 mission "Company Foundations: Registrar: Freedom"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Freedom. The cheapest charter costs 650,000 credits."
 	minor
 	source Freedom
@@ -19289,7 +19289,7 @@ mission "Company Foundations: Registrar: Freedom"
 				decline
 
 mission "Company Foundations: Registrar: Frostmark"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Frostmark. The cheapest charter costs 650,000 credits."
 	minor
 	source Frostmark
@@ -19458,7 +19458,7 @@ mission "Company Foundations: Registrar: Frostmark"
 				decline
 
 mission "Company Foundations: Registrar: Furnace"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Furnace. The cheapest charter costs 650,000 credits."
 	minor
 	source Furnace
@@ -19627,7 +19627,7 @@ mission "Company Foundations: Registrar: Furnace"
 				decline
 
 mission "Company Foundations: Registrar: Gagarin"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Gagarin. The cheapest charter costs 650,000 credits."
 	minor
 	source Gagarin
@@ -19796,7 +19796,7 @@ mission "Company Foundations: Registrar: Gagarin"
 				decline
 
 mission "Company Foundations: Registrar: Garden Empyreal"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Garden Empyreal. The cheapest charter costs 650,000 credits."
 	minor
 	source "Garden Empyreal"
@@ -19965,7 +19965,7 @@ mission "Company Foundations: Registrar: Garden Empyreal"
 				decline
 
 mission "Company Foundations: Registrar: Geminus"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Geminus. The cheapest charter costs 650,000 credits."
 	minor
 	source Geminus
@@ -20246,7 +20246,7 @@ mission "Company Foundations: Registrar: Geminus"
 				decline
 
 mission "Company Foundations: Registrar: Gemstone"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Gemstone. The cheapest charter costs 650,000 credits."
 	minor
 	source Gemstone
@@ -20415,7 +20415,7 @@ mission "Company Foundations: Registrar: Gemstone"
 				decline
 
 mission "Company Foundations: Registrar: Gentle Rain"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Gentle Rain. The cheapest charter costs 650,000 credits."
 	minor
 	source "Gentle Rain"
@@ -20584,7 +20584,7 @@ mission "Company Foundations: Registrar: Gentle Rain"
 				decline
 
 mission "Company Foundations: Registrar: Geyser"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Geyser. The cheapest charter costs 650,000 credits."
 	minor
 	source Geyser
@@ -20753,7 +20753,7 @@ mission "Company Foundations: Registrar: Geyser"
 				decline
 
 mission "Company Foundations: Registrar: Gi Tiures"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Gi Tiures. The cheapest charter costs 650,000 credits."
 	minor
 	source "Gi Tiures"
@@ -20922,7 +20922,7 @@ mission "Company Foundations: Registrar: Gi Tiures"
 				decline
 
 mission "Company Foundations: Registrar: Giaru Gegno"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Giaru Gegno. The cheapest charter costs 650,000 credits."
 	minor
 	source "Giaru Gegno"
@@ -21091,7 +21091,7 @@ mission "Company Foundations: Registrar: Giaru Gegno"
 				decline
 
 mission "Company Foundations: Registrar: Giverstone"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Giverstone. The cheapest charter costs 650,000 credits."
 	minor
 	source Giverstone
@@ -21292,7 +21292,7 @@ mission "Company Foundations: Registrar: Giverstone"
 				decline
 
 mission "Company Foundations: Registrar: Glaze"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Glaze. The cheapest charter costs 650,000 credits."
 	minor
 	source Glaze
@@ -21497,7 +21497,7 @@ mission "Company Foundations: Registrar: Glaze"
 				decline
 
 mission "Company Foundations: Registrar: Glittering Ice"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Glittering Ice. The cheapest charter costs 650,000 credits."
 	minor
 	source "Glittering Ice"
@@ -21666,7 +21666,7 @@ mission "Company Foundations: Registrar: Glittering Ice"
 				decline
 
 mission "Company Foundations: Registrar: Glory"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Glory. The cheapest charter costs 650,000 credits."
 	minor
 	source Glory
@@ -21835,7 +21835,7 @@ mission "Company Foundations: Registrar: Glory"
 				decline
 
 mission "Company Foundations: Registrar: Graede"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Graede. The cheapest charter costs 650,000 credits."
 	minor
 	source Graede
@@ -22028,7 +22028,7 @@ mission "Company Foundations: Registrar: Graede"
 				decline
 
 mission "Company Foundations: Registrar: Grakhord"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Grakhord. The cheapest charter costs 650,000 credits."
 	minor
 	source Grakhord
@@ -22197,7 +22197,7 @@ mission "Company Foundations: Registrar: Grakhord"
 				decline
 
 mission "Company Foundations: Registrar: Greenbloom"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Greenbloom. The cheapest charter costs 650,000 credits."
 	minor
 	source Greenbloom
@@ -22366,7 +22366,7 @@ mission "Company Foundations: Registrar: Greenbloom"
 				decline
 
 mission "Company Foundations: Registrar: Greenrock"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Greenrock. The cheapest charter costs 650,000 credits."
 	minor
 	source Greenrock
@@ -22623,7 +22623,7 @@ mission "Company Foundations: Registrar: Greenrock"
 				decline
 
 mission "Company Foundations: Registrar: Greenview"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Greenview. The cheapest charter costs 650,000 credits."
 	minor
 	source Greenview
@@ -22792,7 +22792,7 @@ mission "Company Foundations: Registrar: Greenview"
 				decline
 
 mission "Company Foundations: Registrar: Greenwater"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Greenwater. The cheapest charter costs 650,000 credits."
 	minor
 	source Greenwater
@@ -22993,7 +22993,7 @@ mission "Company Foundations: Registrar: Greenwater"
 				decline
 
 mission "Company Foundations: Registrar: Gresku Fodar"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Gresku Fodar. The cheapest charter costs 650,000 credits."
 	minor
 	source "Gresku Fodar"
@@ -23162,7 +23162,7 @@ mission "Company Foundations: Registrar: Gresku Fodar"
 				decline
 
 mission "Company Foundations: Registrar: Greymoon"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Greymoon. The cheapest charter costs 650,000 credits."
 	minor
 	source Greymoon
@@ -23331,7 +23331,7 @@ mission "Company Foundations: Registrar: Greymoon"
 				decline
 
 mission "Company Foundations: Registrar: Guardian Array Sapphire"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Guardian Array Sapphire. The cheapest charter costs 650,000 credits."
 	minor
 	source "Guardian Array Sapphire"
@@ -23500,7 +23500,7 @@ mission "Company Foundations: Registrar: Guardian Array Sapphire"
 				decline
 
 mission "Company Foundations: Registrar: Gue Faur"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Gue Faur. The cheapest charter costs 650,000 credits."
 	minor
 	source "Gue Faur"
@@ -23685,7 +23685,7 @@ mission "Company Foundations: Registrar: Gue Faur"
 				decline
 
 mission "Company Foundations: Registrar: Hai-home"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Hai-home. The cheapest charter costs 650,000 credits."
 	minor
 	source Hai-home
@@ -23906,7 +23906,7 @@ mission "Company Foundations: Registrar: Hai-home"
 				decline
 
 mission "Company Foundations: Registrar: Hammer of Debrugt"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Hammer of Debrugt. The cheapest charter costs 650,000 credits."
 	minor
 	source "Hammer of Debrugt"
@@ -24115,7 +24115,7 @@ mission "Company Foundations: Registrar: Hammer of Debrugt"
 				decline
 
 mission "Company Foundations: Registrar: Harmony"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Harmony. The cheapest charter costs 650,000 credits."
 	minor
 	source Harmony
@@ -24284,7 +24284,7 @@ mission "Company Foundations: Registrar: Harmony"
 				decline
 
 mission "Company Foundations: Registrar: Haven"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Haven. The cheapest charter costs 650,000 credits."
 	minor
 	source Haven
@@ -24517,7 +24517,7 @@ mission "Company Foundations: Registrar: Haven"
 				decline
 
 mission "Company Foundations: Registrar: Haze"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Haze. The cheapest charter costs 650,000 credits."
 	minor
 	source Haze
@@ -24714,7 +24714,7 @@ mission "Company Foundations: Registrar: Haze"
 				decline
 
 mission "Company Foundations: Registrar: Heartland"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Heartland. The cheapest charter costs 650,000 credits."
 	minor
 	source Heartland
@@ -24883,7 +24883,7 @@ mission "Company Foundations: Registrar: Heartland"
 				decline
 
 mission "Company Foundations: Registrar: Heartvalley"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Heartvalley. The cheapest charter costs 650,000 credits."
 	minor
 	source Heartvalley
@@ -25072,7 +25072,7 @@ mission "Company Foundations: Registrar: Heartvalley"
 				decline
 
 mission "Company Foundations: Registrar: Helheim"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Helheim. The cheapest charter costs 650,000 credits."
 	minor
 	source Helheim
@@ -25241,7 +25241,7 @@ mission "Company Foundations: Registrar: Helheim"
 				decline
 
 mission "Company Foundations: Registrar: Hephaestus"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Hephaestus. The cheapest charter costs 650,000 credits."
 	minor
 	source Hephaestus
@@ -25490,7 +25490,7 @@ mission "Company Foundations: Registrar: Hephaestus"
 				decline
 
 mission "Company Foundations: Registrar: Hermes"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Hermes. The cheapest charter costs 650,000 credits."
 	minor
 	source Hermes
@@ -25659,7 +25659,7 @@ mission "Company Foundations: Registrar: Hermes"
 				decline
 
 mission "Company Foundations: Registrar: Hestia"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Hestia. The cheapest charter costs 650,000 credits."
 	minor
 	source Hestia
@@ -25828,7 +25828,7 @@ mission "Company Foundations: Registrar: Hestia"
 				decline
 
 mission "Company Foundations: Registrar: Hippocrates"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Hippocrates. The cheapest charter costs 650,000 credits."
 	minor
 	source Hippocrates
@@ -25997,7 +25997,7 @@ mission "Company Foundations: Registrar: Hippocrates"
 				decline
 
 mission "Company Foundations: Registrar: Hopper"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Hopper. The cheapest charter costs 650,000 credits."
 	minor
 	source Hopper
@@ -26166,7 +26166,7 @@ mission "Company Foundations: Registrar: Hopper"
 				decline
 
 mission "Company Foundations: Registrar: Humanika"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Humanika. The cheapest charter costs 650,000 credits."
 	minor
 	source Humanika
@@ -26335,7 +26335,7 @@ mission "Company Foundations: Registrar: Humanika"
 				decline
 
 mission "Company Foundations: Registrar: Icefall"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Icefall. The cheapest charter costs 650,000 credits."
 	minor
 	source Icefall
@@ -26504,7 +26504,7 @@ mission "Company Foundations: Registrar: Icefall"
 				decline
 
 mission "Company Foundations: Registrar: Icelake"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Icelake. The cheapest charter costs 650,000 credits."
 	minor
 	source Icelake
@@ -26705,7 +26705,7 @@ mission "Company Foundations: Registrar: Icelake"
 				decline
 
 mission "Company Foundations: Registrar: Iddesato"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Iddesato. The cheapest charter costs 650,000 credits."
 	minor
 	source Iddesato
@@ -26874,7 +26874,7 @@ mission "Company Foundations: Registrar: Iddesato"
 				decline
 
 mission "Company Foundations: Registrar: Iemn Eitch"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Iemn Eitch. The cheapest charter costs 650,000 credits."
 	minor
 	source "Iemn Eitch"
@@ -27043,7 +27043,7 @@ mission "Company Foundations: Registrar: Iemn Eitch"
 				decline
 
 mission "Company Foundations: Registrar: Illbo Avo"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Illbo Avo. The cheapest charter costs 650,000 credits."
 	minor
 	source "Illbo Avo"
@@ -27244,7 +27244,7 @@ mission "Company Foundations: Registrar: Illbo Avo"
 				decline
 
 mission "Company Foundations: Registrar: Illbo Elo"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Illbo Elo. The cheapest charter costs 650,000 credits."
 	minor
 	source "Illbo Elo"
@@ -27413,7 +27413,7 @@ mission "Company Foundations: Registrar: Illbo Elo"
 				decline
 
 mission "Company Foundations: Registrar: Ingot"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ingot. The cheapest charter costs 650,000 credits."
 	minor
 	source Ingot
@@ -27582,7 +27582,7 @@ mission "Company Foundations: Registrar: Ingot"
 				decline
 
 mission "Company Foundations: Registrar: Inmost Blue"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Inmost Blue. The cheapest charter costs 650,000 credits."
 	minor
 	source "Inmost Blue"
@@ -27751,7 +27751,7 @@ mission "Company Foundations: Registrar: Inmost Blue"
 				decline
 
 mission "Company Foundations: Registrar: Into White"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Into White. The cheapest charter costs 650,000 credits."
 	minor
 	source "Into White"
@@ -27920,7 +27920,7 @@ mission "Company Foundations: Registrar: Into White"
 				decline
 
 mission "Company Foundations: Registrar: Iyra-Ijasa-Iret"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Iyra-Ijasa-Iret. The cheapest charter costs 650,000 credits."
 	minor
 	source Iyra-Ijasa-Iret
@@ -28089,7 +28089,7 @@ mission "Company Foundations: Registrar: Iyra-Ijasa-Iret"
 				decline
 
 mission "Company Foundations: Registrar: Jakobsen"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Jakobsen. The cheapest charter costs 650,000 credits."
 	minor
 	source Jakobsen
@@ -28258,7 +28258,7 @@ mission "Company Foundations: Registrar: Jakobsen"
 				decline
 
 mission "Company Foundations: Registrar: Jentuthro"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Jentuthro. The cheapest charter costs 650,000 credits."
 	minor
 	source Jentuthro
@@ -28443,7 +28443,7 @@ mission "Company Foundations: Registrar: Jentuthro"
 				decline
 
 mission "Company Foundations: Registrar: Karek Fornati"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Karek Fornati. The cheapest charter costs 650,000 credits."
 	minor
 	source "Karek Fornati"
@@ -28612,7 +28612,7 @@ mission "Company Foundations: Registrar: Karek Fornati"
 				decline
 
 mission "Company Foundations: Registrar: Kasii-Cavasaa-Oa"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kasii-Cavasaa-Oa. The cheapest charter costs 650,000 credits."
 	minor
 	source Kasii-Cavasaa-Oa
@@ -28809,7 +28809,7 @@ mission "Company Foundations: Registrar: Kasii-Cavasaa-Oa"
 				decline
 
 mission "Company Foundations: Registrar: Kasii-Tuur-Saqru"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kasii-Tuur-Saqru. The cheapest charter costs 650,000 credits."
 	minor
 	source Kasii-Tuur-Saqru
@@ -28994,7 +28994,7 @@ mission "Company Foundations: Registrar: Kasii-Tuur-Saqru"
 				decline
 
 mission "Company Foundations: Registrar: Kasi-Osolaa-Sossa"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kasi-Osolaa-Sossa. The cheapest charter costs 650,000 credits."
 	minor
 	source Kasi-Osolaa-Sossa
@@ -29163,7 +29163,7 @@ mission "Company Foundations: Registrar: Kasi-Osolaa-Sossa"
 				decline
 
 mission "Company Foundations: Registrar: Kessel Sepret"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kessel Sepret. The cheapest charter costs 650,000 credits."
 	minor
 	source "Kessel Sepret"
@@ -29332,7 +29332,7 @@ mission "Company Foundations: Registrar: Kessel Sepret"
 				decline
 
 mission "Company Foundations: Registrar: Khora-Vasa-Reyyaa"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Khora-Vasa-Reyyaa. The cheapest charter costs 650,000 credits."
 	minor
 	source Khora-Vasa-Reyyaa
@@ -29553,7 +29553,7 @@ mission "Company Foundations: Registrar: Khora-Vasa-Reyyaa"
 				decline
 
 mission "Company Foundations: Registrar: Ki Patek Ka"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ki Patek Ka. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ki Patek Ka"
@@ -29758,7 +29758,7 @@ mission "Company Foundations: Registrar: Ki Patek Ka"
 				decline
 
 mission "Company Foundations: Registrar: Kisarra"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kisarra. The cheapest charter costs 650,000 credits."
 	minor
 	source Kisarra
@@ -29927,7 +29927,7 @@ mission "Company Foundations: Registrar: Kisarra"
 				decline
 
 mission "Company Foundations: Registrar: Korati Efreti"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Korati Efreti. The cheapest charter costs 650,000 credits."
 	minor
 	source "Korati Efreti"
@@ -30096,7 +30096,7 @@ mission "Company Foundations: Registrar: Korati Efreti"
 				decline
 
 mission "Company Foundations: Registrar: Kort Kehai"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kort Kehai. The cheapest charter costs 650,000 credits."
 	minor
 	source "Kort Kehai"
@@ -30265,7 +30265,7 @@ mission "Company Foundations: Registrar: Kort Kehai"
 				decline
 
 mission "Company Foundations: Registrar: Kort Vek'kri"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kort Vek'kri. The cheapest charter costs 650,000 credits."
 	minor
 	source "Kort Vek'kri"
@@ -30434,7 +30434,7 @@ mission "Company Foundations: Registrar: Kort Vek'kri"
 				decline
 
 mission "Company Foundations: Registrar: Kraken Station"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kraken Station. The cheapest charter costs 650,000 credits."
 	minor
 	source "Kraken Station"
@@ -30603,7 +30603,7 @@ mission "Company Foundations: Registrar: Kraken Station"
 				decline
 
 mission "Company Foundations: Registrar: Kua-Oa-Aava"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kua-Oa-Aava. The cheapest charter costs 650,000 credits."
 	minor
 	source Kua-Oa-Aava
@@ -30772,7 +30772,7 @@ mission "Company Foundations: Registrar: Kua-Oa-Aava"
 				decline
 
 mission "Company Foundations: Registrar: Kuwaru Efreti"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Kuwaru Efreti. The cheapest charter costs 650,000 credits."
 	minor
 	source "Kuwaru Efreti"
@@ -30941,7 +30941,7 @@ mission "Company Foundations: Registrar: Kuwaru Efreti"
 				decline
 
 mission "Company Foundations: Registrar: Lagrange"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Lagrange. The cheapest charter costs 650,000 credits."
 	minor
 	source Lagrange
@@ -31110,7 +31110,7 @@ mission "Company Foundations: Registrar: Lagrange"
 				decline
 
 mission "Company Foundations: Registrar: Laki Nemparu"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Laki Nemparu. The cheapest charter costs 650,000 credits."
 	minor
 	source "Laki Nemparu"
@@ -31279,7 +31279,7 @@ mission "Company Foundations: Registrar: Laki Nemparu"
 				decline
 
 mission "Company Foundations: Registrar: Leviathan Station"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Leviathan Station. The cheapest charter costs 650,000 credits."
 	minor
 	source "Leviathan Station"
@@ -31448,7 +31448,7 @@ mission "Company Foundations: Registrar: Leviathan Station"
 				decline
 
 mission "Company Foundations: Registrar: Lichen"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Lichen. The cheapest charter costs 650,000 credits."
 	minor
 	source Lichen
@@ -31617,7 +31617,7 @@ mission "Company Foundations: Registrar: Lichen"
 				decline
 
 mission "Company Foundations: Registrar: Livolua"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Livolua. The cheapest charter costs 650,000 credits."
 	minor
 	source Livolua
@@ -31786,7 +31786,7 @@ mission "Company Foundations: Registrar: Livolua"
 				decline
 
 mission "Company Foundations: Registrar: Lodestone"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Lodestone. The cheapest charter costs 650,000 credits."
 	minor
 	source Lodestone
@@ -31955,7 +31955,7 @@ mission "Company Foundations: Registrar: Lodestone"
 				decline
 
 mission "Company Foundations: Registrar: Longjump"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Longjump. The cheapest charter costs 650,000 credits."
 	minor
 	source Longjump
@@ -32124,7 +32124,7 @@ mission "Company Foundations: Registrar: Longjump"
 				decline
 
 mission "Company Foundations: Registrar: Luna"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Luna. The cheapest charter costs 650,000 credits."
 	minor
 	source Luna
@@ -32389,7 +32389,7 @@ mission "Company Foundations: Registrar: Luna"
 				decline
 
 mission "Company Foundations: Registrar: Maelstrom"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Maelstrom. The cheapest charter costs 650,000 credits."
 	minor
 	source Maelstrom
@@ -32558,7 +32558,7 @@ mission "Company Foundations: Registrar: Maelstrom"
 				decline
 
 mission "Company Foundations: Registrar: Mainsail"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Mainsail. The cheapest charter costs 650,000 credits."
 	minor
 	source Mainsail
@@ -32791,7 +32791,7 @@ mission "Company Foundations: Registrar: Mainsail"
 				decline
 
 mission "Company Foundations: Registrar: Maker"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Maker. The cheapest charter costs 650,000 credits."
 	minor
 	source Maker
@@ -32960,7 +32960,7 @@ mission "Company Foundations: Registrar: Maker"
 				decline
 
 mission "Company Foundations: Registrar: Makerplace"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Makerplace. The cheapest charter costs 650,000 credits."
 	minor
 	source Makerplace
@@ -33173,7 +33173,7 @@ mission "Company Foundations: Registrar: Makerplace"
 				decline
 
 mission "Company Foundations: Registrar: Mani"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Mani. The cheapest charter costs 650,000 credits."
 	minor
 	source Mani
@@ -33342,7 +33342,7 @@ mission "Company Foundations: Registrar: Mani"
 				decline
 
 mission "Company Foundations: Registrar: Market of Gupta"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Market of Gupta. The cheapest charter costs 650,000 credits."
 	minor
 	source "Market of Gupta"
@@ -33551,7 +33551,7 @@ mission "Company Foundations: Registrar: Market of Gupta"
 				decline
 
 mission "Company Foundations: Registrar: Mars"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Mars. The cheapest charter costs 650,000 credits."
 	minor
 	source Mars
@@ -33720,7 +33720,7 @@ mission "Company Foundations: Registrar: Mars"
 				decline
 
 mission "Company Foundations: Registrar: Martini"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Martini. The cheapest charter costs 650,000 credits."
 	minor
 	source Martini
@@ -33889,7 +33889,7 @@ mission "Company Foundations: Registrar: Martini"
 				decline
 
 mission "Company Foundations: Registrar: Mavra-Sol-Kvel"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Mavra-Sol-Kvel. The cheapest charter costs 650,000 credits."
 	minor
 	source Mavra-Sol-Kvel
@@ -34058,7 +34058,7 @@ mission "Company Foundations: Registrar: Mavra-Sol-Kvel"
 				decline
 
 mission "Company Foundations: Registrar: Mebla's Portion"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Mebla's Portion. The cheapest charter costs 650,000 credits."
 	minor
 	source "Mebla's Portion"
@@ -34227,7 +34227,7 @@ mission "Company Foundations: Registrar: Mebla's Portion"
 				decline
 
 mission "Company Foundations: Registrar: Melenci"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Melenci. The cheapest charter costs 650,000 credits."
 	minor
 	source Melenci
@@ -34412,7 +34412,7 @@ mission "Company Foundations: Registrar: Melenci"
 				decline
 
 mission "Company Foundations: Registrar: Memory"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Memory. The cheapest charter costs 650,000 credits."
 	minor
 	source Memory
@@ -34581,7 +34581,7 @@ mission "Company Foundations: Registrar: Memory"
 				decline
 
 mission "Company Foundations: Registrar: Mere"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Mere. The cheapest charter costs 650,000 credits."
 	minor
 	source Mere
@@ -34750,7 +34750,7 @@ mission "Company Foundations: Registrar: Mere"
 				decline
 
 mission "Company Foundations: Registrar: Miblulub's Plenty"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Miblulub's Plenty. The cheapest charter costs 650,000 credits."
 	minor
 	source "Miblulub's Plenty"
@@ -34919,7 +34919,7 @@ mission "Company Foundations: Registrar: Miblulub's Plenty"
 				decline
 
 mission "Company Foundations: Registrar: Midgard"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Midgard. The cheapest charter costs 650,000 credits."
 	minor
 	source Midgard
@@ -35148,7 +35148,7 @@ mission "Company Foundations: Registrar: Midgard"
 				decline
 
 mission "Company Foundations: Registrar: Midway Emerald"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Midway Emerald. The cheapest charter costs 650,000 credits."
 	minor
 	source "Midway Emerald"
@@ -35333,7 +35333,7 @@ mission "Company Foundations: Registrar: Midway Emerald"
 				decline
 
 mission "Company Foundations: Registrar: Millrace"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Millrace. The cheapest charter costs 650,000 credits."
 	minor
 	source Millrace
@@ -35502,7 +35502,7 @@ mission "Company Foundations: Registrar: Millrace"
 				decline
 
 mission "Company Foundations: Registrar: Mirrorlake"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Mirrorlake. The cheapest charter costs 650,000 credits."
 	minor
 	source Mirrorlake
@@ -35671,7 +35671,7 @@ mission "Company Foundations: Registrar: Mirrorlake"
 				decline
 
 mission "Company Foundations: Registrar: Moonshake"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Moonshake. The cheapest charter costs 650,000 credits."
 	minor
 	source Moonshake
@@ -35840,7 +35840,7 @@ mission "Company Foundations: Registrar: Moonshake"
 				decline
 
 mission "Company Foundations: Registrar: Mordente-Bridi"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Mordente-Bridi. The cheapest charter costs 650,000 credits."
 	minor
 	source Mordente-Bridi
@@ -36089,7 +36089,7 @@ mission "Company Foundations: Registrar: Mordente-Bridi"
 				decline
 
 mission "Company Foundations: Registrar: Mosaa-Oa-Vyret"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Mosaa-Oa-Vyret. The cheapest charter costs 650,000 credits."
 	minor
 	source Mosaa-Oa-Vyret
@@ -36258,7 +36258,7 @@ mission "Company Foundations: Registrar: Mosaa-Oa-Vyret"
 				decline
 
 mission "Company Foundations: Registrar: Muninn Station"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Muninn Station. The cheapest charter costs 650,000 credits."
 	minor
 	source "Muninn Station"
@@ -36427,7 +36427,7 @@ mission "Company Foundations: Registrar: Muninn Station"
 				decline
 
 mission "Company Foundations: Registrar: Muspel"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Muspel. The cheapest charter costs 650,000 credits."
 	minor
 	source Muspel
@@ -36596,7 +36596,7 @@ mission "Company Foundations: Registrar: Muspel"
 				decline
 
 mission "Company Foundations: Registrar: Navigeo Yards"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Navigeo Yards. The cheapest charter costs 650,000 credits."
 	minor
 	source "Navigeo Yards"
@@ -36885,7 +36885,7 @@ mission "Company Foundations: Registrar: Navigeo Yards"
 				decline
 
 mission "Company Foundations: Registrar: Nearby Jade"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Nearby Jade. The cheapest charter costs 650,000 credits."
 	minor
 	source "Nearby Jade"
@@ -37054,7 +37054,7 @@ mission "Company Foundations: Registrar: Nearby Jade"
 				decline
 
 mission "Company Foundations: Registrar: New Argentina"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Argentina. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Argentina"
@@ -37223,7 +37223,7 @@ mission "Company Foundations: Registrar: New Argentina"
 				decline
 
 mission "Company Foundations: Registrar: New Austria"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Austria. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Austria"
@@ -37392,7 +37392,7 @@ mission "Company Foundations: Registrar: New Austria"
 				decline
 
 mission "Company Foundations: Registrar: New Boston"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Boston. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Boston"
@@ -37577,7 +37577,7 @@ mission "Company Foundations: Registrar: New Boston"
 				decline
 
 mission "Company Foundations: Registrar: New Britain"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Britain. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Britain"
@@ -37778,7 +37778,7 @@ mission "Company Foundations: Registrar: New Britain"
 				decline
 
 mission "Company Foundations: Registrar: New China"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New China. The cheapest charter costs 650,000 credits."
 	minor
 	source "New China"
@@ -37947,7 +37947,7 @@ mission "Company Foundations: Registrar: New China"
 				decline
 
 mission "Company Foundations: Registrar: New Finding"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Finding. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Finding"
@@ -38116,7 +38116,7 @@ mission "Company Foundations: Registrar: New Finding"
 				decline
 
 mission "Company Foundations: Registrar: New Greenland"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Greenland. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Greenland"
@@ -38285,7 +38285,7 @@ mission "Company Foundations: Registrar: New Greenland"
 				decline
 
 mission "Company Foundations: Registrar: New Holland"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Holland. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Holland"
@@ -38454,7 +38454,7 @@ mission "Company Foundations: Registrar: New Holland"
 				decline
 
 mission "Company Foundations: Registrar: New Iceland"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Iceland. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Iceland"
@@ -38623,7 +38623,7 @@ mission "Company Foundations: Registrar: New Iceland"
 				decline
 
 mission "Company Foundations: Registrar: New India"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New India. The cheapest charter costs 650,000 credits."
 	minor
 	source "New India"
@@ -38792,7 +38792,7 @@ mission "Company Foundations: Registrar: New India"
 				decline
 
 mission "Company Foundations: Registrar: New Kansas"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Kansas. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Kansas"
@@ -38961,7 +38961,7 @@ mission "Company Foundations: Registrar: New Kansas"
 				decline
 
 mission "Company Foundations: Registrar: New Portland"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Portland. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Portland"
@@ -39130,7 +39130,7 @@ mission "Company Foundations: Registrar: New Portland"
 				decline
 
 mission "Company Foundations: Registrar: New Sahara"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Sahara. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Sahara"
@@ -39299,7 +39299,7 @@ mission "Company Foundations: Registrar: New Sahara"
 				decline
 
 mission "Company Foundations: Registrar: New Switzerland"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Switzerland. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Switzerland"
@@ -39468,7 +39468,7 @@ mission "Company Foundations: Registrar: New Switzerland"
 				decline
 
 mission "Company Foundations: Registrar: New Tibet"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Tibet. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Tibet"
@@ -39637,7 +39637,7 @@ mission "Company Foundations: Registrar: New Tibet"
 				decline
 
 mission "Company Foundations: Registrar: New Tortuga"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Tortuga. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Tortuga"
@@ -39922,7 +39922,7 @@ mission "Company Foundations: Registrar: New Tortuga"
 				decline
 
 mission "Company Foundations: Registrar: New Wales"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Wales. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Wales"
@@ -40091,7 +40091,7 @@ mission "Company Foundations: Registrar: New Wales"
 				decline
 
 mission "Company Foundations: Registrar: New Washington"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on New Washington. The cheapest charter costs 650,000 credits."
 	minor
 	source "New Washington"
@@ -40260,7 +40260,7 @@ mission "Company Foundations: Registrar: New Washington"
 				decline
 
 mission "Company Foundations: Registrar: Newhome"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Newhome. The cheapest charter costs 650,000 credits."
 	minor
 	source Newhome
@@ -40429,7 +40429,7 @@ mission "Company Foundations: Registrar: Newhome"
 				decline
 
 mission "Company Foundations: Registrar: Nifel"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Nifel. The cheapest charter costs 650,000 credits."
 	minor
 	source Nifel
@@ -40598,7 +40598,7 @@ mission "Company Foundations: Registrar: Nifel"
 				decline
 
 mission "Company Foundations: Registrar: Nimbus"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Nimbus. The cheapest charter costs 650,000 credits."
 	minor
 	source Nimbus
@@ -40767,7 +40767,7 @@ mission "Company Foundations: Registrar: Nimbus"
 				decline
 
 mission "Company Foundations: Registrar: Norn"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Norn. The cheapest charter costs 650,000 credits."
 	minor
 	source Norn
@@ -40964,7 +40964,7 @@ mission "Company Foundations: Registrar: Norn"
 				decline
 
 mission "Company Foundations: Registrar: Oasis"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Oasis. The cheapest charter costs 650,000 credits."
 	minor
 	source Oasis
@@ -41133,7 +41133,7 @@ mission "Company Foundations: Registrar: Oasis"
 				decline
 
 mission "Company Foundations: Registrar: Oblivion"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Oblivion. The cheapest charter costs 650,000 credits."
 	minor
 	source Oblivion
@@ -41302,7 +41302,7 @@ mission "Company Foundations: Registrar: Oblivion"
 				decline
 
 mission "Company Foundations: Registrar: Ochrescoop"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ochrescoop. The cheapest charter costs 650,000 credits."
 	minor
 	source Ochrescoop
@@ -41471,7 +41471,7 @@ mission "Company Foundations: Registrar: Ochrescoop"
 				decline
 
 mission "Company Foundations: Registrar: Ogmur's Siphon"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ogmur's Siphon. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ogmur's Siphon"
@@ -41640,7 +41640,7 @@ mission "Company Foundations: Registrar: Ogmur's Siphon"
 				decline
 
 mission "Company Foundations: Registrar: Okoity"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Okoity. The cheapest charter costs 650,000 credits."
 	minor
 	source Okoity
@@ -41825,7 +41825,7 @@ mission "Company Foundations: Registrar: Okoity"
 				decline
 
 mission "Company Foundations: Registrar: Oup Je"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Oup Je. The cheapest charter costs 650,000 credits."
 	minor
 	source "Oup Je"
@@ -41994,7 +41994,7 @@ mission "Company Foundations: Registrar: Oup Je"
 				decline
 
 mission "Company Foundations: Registrar: Outpost Enka"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Outpost Enka. The cheapest charter costs 650,000 credits."
 	minor
 	source "Outpost Enka"
@@ -42243,7 +42243,7 @@ mission "Company Foundations: Registrar: Outpost Enka"
 				decline
 
 mission "Company Foundations: Registrar: Outpost Leto"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Outpost Leto. The cheapest charter costs 650,000 credits."
 	minor
 	source "Outpost Leto"
@@ -42412,7 +42412,7 @@ mission "Company Foundations: Registrar: Outpost Leto"
 				decline
 
 mission "Company Foundations: Registrar: Outpost Pilos"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Outpost Pilos. The cheapest charter costs 650,000 credits."
 	minor
 	source "Outpost Pilos"
@@ -42581,7 +42581,7 @@ mission "Company Foundations: Registrar: Outpost Pilos"
 				decline
 
 mission "Company Foundations: Registrar: Outpost Tekis"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Outpost Tekis. The cheapest charter costs 650,000 credits."
 	minor
 	source "Outpost Tekis"
@@ -42826,7 +42826,7 @@ mission "Company Foundations: Registrar: Outpost Tekis"
 				decline
 
 mission "Company Foundations: Registrar: O-Vasa-Oa"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on O-Vasa-Oa. The cheapest charter costs 650,000 credits."
 	minor
 	source O-Vasa-Oa
@@ -43055,7 +43055,7 @@ mission "Company Foundations: Registrar: O-Vasa-Oa"
 				decline
 
 mission "Company Foundations: Registrar: Pearl"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Pearl. The cheapest charter costs 650,000 credits."
 	minor
 	source Pearl
@@ -43224,7 +43224,7 @@ mission "Company Foundations: Registrar: Pearl"
 				decline
 
 mission "Company Foundations: Registrar: Pelubta Station"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Pelubta Station. The cheapest charter costs 650,000 credits."
 	minor
 	source "Pelubta Station"
@@ -43393,7 +43393,7 @@ mission "Company Foundations: Registrar: Pelubta Station"
 				decline
 
 mission "Company Foundations: Registrar: Periaxle Circuit"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Periaxle Circuit. The cheapest charter costs 650,000 credits."
 	minor
 	source "Periaxle Circuit"
@@ -43562,7 +43562,7 @@ mission "Company Foundations: Registrar: Periaxle Circuit"
 				decline
 
 mission "Company Foundations: Registrar: Peripheria"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Peripheria. The cheapest charter costs 650,000 credits."
 	minor
 	source Peripheria
@@ -43819,7 +43819,7 @@ mission "Company Foundations: Registrar: Peripheria"
 				decline
 
 mission "Company Foundations: Registrar: Pilot"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Pilot. The cheapest charter costs 650,000 credits."
 	minor
 	source Pilot
@@ -43988,7 +43988,7 @@ mission "Company Foundations: Registrar: Pilot"
 				decline
 
 mission "Company Foundations: Registrar: Placer"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Placer. The cheapest charter costs 650,000 credits."
 	minor
 	source Placer
@@ -44157,7 +44157,7 @@ mission "Company Foundations: Registrar: Placer"
 				decline
 
 mission "Company Foundations: Registrar: Plort's Water"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Plort's Water. The cheapest charter costs 650,000 credits."
 	minor
 	source "Plort's Water"
@@ -44326,7 +44326,7 @@ mission "Company Foundations: Registrar: Plort's Water"
 				decline
 
 mission "Company Foundations: Registrar: Poisonwood"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Poisonwood. The cheapest charter costs 650,000 credits."
 	minor
 	source Poisonwood
@@ -44495,7 +44495,7 @@ mission "Company Foundations: Registrar: Poisonwood"
 				decline
 
 mission "Company Foundations: Registrar: Pon'tes"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Pon'tes. The cheapest charter costs 650,000 credits."
 	minor
 	source Pon'tes
@@ -44684,7 +44684,7 @@ mission "Company Foundations: Registrar: Pon'tes"
 				decline
 
 mission "Company Foundations: Registrar: Poseidos"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Poseidos. The cheapest charter costs 650,000 credits."
 	minor
 	source Poseidos
@@ -44853,7 +44853,7 @@ mission "Company Foundations: Registrar: Poseidos"
 				decline
 
 mission "Company Foundations: Registrar: Prime"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Prime. The cheapest charter costs 650,000 credits."
 	minor
 	source Prime
@@ -45106,7 +45106,7 @@ mission "Company Foundations: Registrar: Prime"
 				decline
 
 mission "Company Foundations: Registrar: Pugglemug"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Pugglemug. The cheapest charter costs 650,000 credits."
 	minor
 	source Pugglemug
@@ -45275,7 +45275,7 @@ mission "Company Foundations: Registrar: Pugglemug"
 				decline
 
 mission "Company Foundations: Registrar: Pugglequat"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Pugglequat. The cheapest charter costs 650,000 credits."
 	minor
 	source Pugglequat
@@ -45444,7 +45444,7 @@ mission "Company Foundations: Registrar: Pugglequat"
 				decline
 
 mission "Company Foundations: Registrar: Quicksilver"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Quicksilver. The cheapest charter costs 650,000 credits."
 	minor
 	source Quicksilver
@@ -45613,7 +45613,7 @@ mission "Company Foundations: Registrar: Quicksilver"
 				decline
 
 mission "Company Foundations: Registrar: Raaqa-Kvelq-Ryuit"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Raaqa-Kvelq-Ryuit. The cheapest charter costs 650,000 credits."
 	minor
 	source Raaqa-Kvelq-Ryuit
@@ -45782,7 +45782,7 @@ mission "Company Foundations: Registrar: Raaqa-Kvelq-Ryuit"
 				decline
 
 mission "Company Foundations: Registrar: Raaqa-Puan-Uuoru"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Raaqa-Puan-Uuoru. The cheapest charter costs 650,000 credits."
 	minor
 	source Raaqa-Puan-Uuoru
@@ -45979,7 +45979,7 @@ mission "Company Foundations: Registrar: Raaqa-Puan-Uuoru"
 				decline
 
 mission "Company Foundations: Registrar: Rand"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Rand. The cheapest charter costs 650,000 credits."
 	minor
 	source Rand
@@ -46148,7 +46148,7 @@ mission "Company Foundations: Registrar: Rand"
 				decline
 
 mission "Company Foundations: Registrar: Redias"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Redias. The cheapest charter costs 650,000 credits."
 	minor
 	source Redias
@@ -46317,7 +46317,7 @@ mission "Company Foundations: Registrar: Redias"
 				decline
 
 mission "Company Foundations: Registrar: Refuge of Belugt"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Refuge of Belugt. The cheapest charter costs 650,000 credits."
 	minor
 	source "Refuge of Belugt"
@@ -46486,7 +46486,7 @@ mission "Company Foundations: Registrar: Refuge of Belugt"
 				decline
 
 mission "Company Foundations: Registrar: Relic"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Relic. The cheapest charter costs 650,000 credits."
 	minor
 	source Relic
@@ -46655,7 +46655,7 @@ mission "Company Foundations: Registrar: Relic"
 				decline
 
 mission "Company Foundations: Registrar: Remnant Wormhole"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Remnant Wormhole. The cheapest charter costs 650,000 credits."
 	minor
 	source "Remnant Wormhole"
@@ -46823,7 +46823,7 @@ mission "Company Foundations: Registrar: Remnant Wormhole"
 				decline
 
 mission "Company Foundations: Registrar: Remote Blue"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Remote Blue. The cheapest charter costs 650,000 credits."
 	minor
 	source "Remote Blue"
@@ -47012,7 +47012,7 @@ mission "Company Foundations: Registrar: Remote Blue"
 				decline
 
 mission "Company Foundations: Registrar: Reunion"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Reunion. The cheapest charter costs 650,000 credits."
 	minor
 	source Reunion
@@ -47245,7 +47245,7 @@ mission "Company Foundations: Registrar: Reunion"
 				decline
 
 mission "Company Foundations: Registrar: Ring of Friendship"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ring of Friendship. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ring of Friendship"
@@ -47414,7 +47414,7 @@ mission "Company Foundations: Registrar: Ring of Friendship"
 				decline
 
 mission "Company Foundations: Registrar: Ring of Power"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ring of Power. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ring of Power"
@@ -47583,7 +47583,7 @@ mission "Company Foundations: Registrar: Ring of Power"
 				decline
 
 mission "Company Foundations: Registrar: Ring of Wisdom"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ring of Wisdom. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ring of Wisdom"
@@ -47752,7 +47752,7 @@ mission "Company Foundations: Registrar: Ring of Wisdom"
 				decline
 
 mission "Company Foundations: Registrar: Ruelogakk"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ruelogakk. The cheapest charter costs 650,000 credits."
 	minor
 	source Ruelogakk
@@ -47921,7 +47921,7 @@ mission "Company Foundations: Registrar: Ruelogakk"
 				decline
 
 mission "Company Foundations: Registrar: Rust"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Rust. The cheapest charter costs 650,000 credits."
 	minor
 	source Rust
@@ -48142,7 +48142,7 @@ mission "Company Foundations: Registrar: Rust"
 				decline
 
 mission "Company Foundations: Registrar: Rusty Second"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Rusty Second. The cheapest charter costs 650,000 credits."
 	minor
 	source "Rusty Second"
@@ -48327,7 +48327,7 @@ mission "Company Foundations: Registrar: Rusty Second"
 				decline
 
 mission "Company Foundations: Registrar: Safaresk Enlai"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Safaresk Enlai. The cheapest charter costs 650,000 credits."
 	minor
 	source "Safaresk Enlai"
@@ -48496,7 +48496,7 @@ mission "Company Foundations: Registrar: Safaresk Enlai"
 				decline
 
 mission "Company Foundations: Registrar: Sandy Two"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Sandy Two. The cheapest charter costs 650,000 credits."
 	minor
 	source "Sandy Two"
@@ -48665,7 +48665,7 @@ mission "Company Foundations: Registrar: Sandy Two"
 				decline
 
 mission "Company Foundations: Registrar: Sardva"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Sardva. The cheapest charter costs 650,000 credits."
 	minor
 	source Sardva
@@ -48834,7 +48834,7 @@ mission "Company Foundations: Registrar: Sardva"
 				decline
 
 mission "Company Foundations: Registrar: Saros"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Saros. The cheapest charter costs 650,000 credits."
 	minor
 	source Saros
@@ -49039,7 +49039,7 @@ mission "Company Foundations: Registrar: Saros"
 				decline
 
 mission "Company Foundations: Registrar: Saska-Aa-Noorr"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Saska-Aa-Noorr. The cheapest charter costs 650,000 credits."
 	minor
 	source Saska-Aa-Noorr
@@ -49208,7 +49208,7 @@ mission "Company Foundations: Registrar: Saska-Aa-Noorr"
 				decline
 
 mission "Company Foundations: Registrar: Second Cerulean"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Second Cerulean. The cheapest charter costs 650,000 credits."
 	minor
 	source "Second Cerulean"
@@ -49377,7 +49377,7 @@ mission "Company Foundations: Registrar: Second Cerulean"
 				decline
 
 mission "Company Foundations: Registrar: Second Rose"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Second Rose. The cheapest charter costs 650,000 credits."
 	minor
 	source "Second Rose"
@@ -49546,7 +49546,7 @@ mission "Company Foundations: Registrar: Second Rose"
 				decline
 
 mission "Company Foundations: Registrar: Second Viridian"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Second Viridian. The cheapest charter costs 650,000 credits."
 	minor
 	source "Second Viridian"
@@ -49715,7 +49715,7 @@ mission "Company Foundations: Registrar: Second Viridian"
 				decline
 
 mission "Company Foundations: Registrar: Secret Sky"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Secret Sky. The cheapest charter costs 650,000 credits."
 	minor
 	source "Secret Sky"
@@ -49884,7 +49884,7 @@ mission "Company Foundations: Registrar: Secret Sky"
 				decline
 
 mission "Company Foundations: Registrar: Separa Tiklar"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Separa Tiklar. The cheapest charter costs 650,000 credits."
 	minor
 	source "Separa Tiklar"
@@ -50053,7 +50053,7 @@ mission "Company Foundations: Registrar: Separa Tiklar"
 				decline
 
 mission "Company Foundations: Registrar: Septar Lorku"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Septar Lorku. The cheapest charter costs 650,000 credits."
 	minor
 	source "Septar Lorku"
@@ -50222,7 +50222,7 @@ mission "Company Foundations: Registrar: Septar Lorku"
 				decline
 
 mission "Company Foundations: Registrar: Serpens"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Serpens. The cheapest charter costs 650,000 credits."
 	minor
 	source Serpens
@@ -50391,7 +50391,7 @@ mission "Company Foundations: Registrar: Serpens"
 				decline
 
 mission "Company Foundations: Registrar: Sessiliki Far"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Sessiliki Far. The cheapest charter costs 650,000 credits."
 	minor
 	source "Sessiliki Far"
@@ -50560,7 +50560,7 @@ mission "Company Foundations: Registrar: Sessiliki Far"
 				decline
 
 mission "Company Foundations: Registrar: Setar Fort"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Setar Fort. The cheapest charter costs 650,000 credits."
 	minor
 	source "Setar Fort"
@@ -50729,7 +50729,7 @@ mission "Company Foundations: Registrar: Setar Fort"
 				decline
 
 mission "Company Foundations: Registrar: Shadow of Leaves"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Shadow of Leaves. The cheapest charter costs 650,000 credits."
 	minor
 	source "Shadow of Leaves"
@@ -50898,7 +50898,7 @@ mission "Company Foundations: Registrar: Shadow of Leaves"
 				decline
 
 mission "Company Foundations: Registrar: Shadowed Valley"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Shadowed Valley. The cheapest charter costs 650,000 credits."
 	minor
 	source "Shadowed Valley"
@@ -51067,7 +51067,7 @@ mission "Company Foundations: Registrar: Shadowed Valley"
 				decline
 
 mission "Company Foundations: Registrar: Shangri-La"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Shangri-La. The cheapest charter costs 650,000 credits."
 	minor
 	source Shangri-La
@@ -51276,7 +51276,7 @@ mission "Company Foundations: Registrar: Shangri-La"
 				decline
 
 mission "Company Foundations: Registrar: Shassa-Wyra-Orrou"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Shassa-Wyra-Orrou. The cheapest charter costs 650,000 credits."
 	minor
 	source Shassa-Wyra-Orrou
@@ -51445,7 +51445,7 @@ mission "Company Foundations: Registrar: Shassa-Wyra-Orrou"
 				decline
 
 mission "Company Foundations: Registrar: Shifting Sand"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Shifting Sand. The cheapest charter costs 650,000 credits."
 	minor
 	source "Shifting Sand"
@@ -51614,7 +51614,7 @@ mission "Company Foundations: Registrar: Shifting Sand"
 				decline
 
 mission "Company Foundations: Registrar: Shiver"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Shiver. The cheapest charter costs 650,000 credits."
 	minor
 	source Shiver
@@ -51783,7 +51783,7 @@ mission "Company Foundations: Registrar: Shiver"
 				decline
 
 mission "Company Foundations: Registrar: Shorebreak"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Shorebreak. The cheapest charter costs 650,000 credits."
 	minor
 	source Shorebreak
@@ -51952,7 +51952,7 @@ mission "Company Foundations: Registrar: Shorebreak"
 				decline
 
 mission "Company Foundations: Registrar: Shroud"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Shroud. The cheapest charter costs 650,000 credits."
 	minor
 	source Shroud
@@ -52149,7 +52149,7 @@ mission "Company Foundations: Registrar: Shroud"
 				decline
 
 mission "Company Foundations: Registrar: Siedi"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Siedi. The cheapest charter costs 650,000 credits."
 	minor
 	source Siedi
@@ -52318,7 +52318,7 @@ mission "Company Foundations: Registrar: Siedi"
 				decline
 
 mission "Company Foundations: Registrar: Sies Upi"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Sies Upi. The cheapest charter costs 650,000 credits."
 	minor
 	source "Sies Upi"
@@ -52487,7 +52487,7 @@ mission "Company Foundations: Registrar: Sies Upi"
 				decline
 
 mission "Company Foundations: Registrar: Silo of Ablodab"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Silo of Ablodab. The cheapest charter costs 650,000 credits."
 	minor
 	source "Silo of Ablodab"
@@ -52656,7 +52656,7 @@ mission "Company Foundations: Registrar: Silo of Ablodab"
 				decline
 
 mission "Company Foundations: Registrar: Silver"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Silver. The cheapest charter costs 650,000 credits."
 	minor
 	source Silver
@@ -52825,7 +52825,7 @@ mission "Company Foundations: Registrar: Silver"
 				decline
 
 mission "Company Foundations: Registrar: Sinter"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Sinter. The cheapest charter costs 650,000 credits."
 	minor
 	source Sinter
@@ -52994,7 +52994,7 @@ mission "Company Foundations: Registrar: Sinter"
 				decline
 
 mission "Company Foundations: Registrar: Skillet"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Skillet. The cheapest charter costs 650,000 credits."
 	minor
 	source Skillet
@@ -53163,7 +53163,7 @@ mission "Company Foundations: Registrar: Skillet"
 				decline
 
 mission "Company Foundations: Registrar: Skyfarm"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Skyfarm. The cheapest charter costs 650,000 credits."
 	minor
 	source Skyfarm
@@ -53332,7 +53332,7 @@ mission "Company Foundations: Registrar: Skyfarm"
 				decline
 
 mission "Company Foundations: Registrar: Skymoot"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Skymoot. The cheapest charter costs 650,000 credits."
 	minor
 	source Skymoot
@@ -53501,7 +53501,7 @@ mission "Company Foundations: Registrar: Skymoot"
 				decline
 
 mission "Company Foundations: Registrar: Smuggler's Den"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Smuggler's Den. The cheapest charter costs 650,000 credits."
 	minor
 	source "Smuggler's Den"
@@ -53746,7 +53746,7 @@ mission "Company Foundations: Registrar: Smuggler's Den"
 				decline
 
 mission "Company Foundations: Registrar: Snowfeather"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Snowfeather. The cheapest charter costs 650,000 credits."
 	minor
 	source Snowfeather
@@ -53915,7 +53915,7 @@ mission "Company Foundations: Registrar: Snowfeather"
 				decline
 
 mission "Company Foundations: Registrar: Solace"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Solace. The cheapest charter costs 650,000 credits."
 	minor
 	source Solace
@@ -54084,7 +54084,7 @@ mission "Company Foundations: Registrar: Solace"
 				decline
 
 mission "Company Foundations: Registrar: Sopoyra"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Sopoyra. The cheapest charter costs 650,000 credits."
 	minor
 	source Sopoyra
@@ -54269,7 +54269,7 @@ mission "Company Foundations: Registrar: Sopoyra"
 				decline
 
 mission "Company Foundations: Registrar: Spec Inci"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Spec Inci. The cheapest charter costs 650,000 credits."
 	minor
 	source "Spec Inci"
@@ -54438,7 +54438,7 @@ mission "Company Foundations: Registrar: Spec Inci"
 				decline
 
 mission "Company Foundations: Registrar: Splashdown"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Splashdown. The cheapest charter costs 650,000 credits."
 	minor
 	source Splashdown
@@ -54607,7 +54607,7 @@ mission "Company Foundations: Registrar: Splashdown"
 				decline
 
 mission "Company Foundations: Registrar: Staja-Kella-Oa"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Staja-Kella-Oa. The cheapest charter costs 650,000 credits."
 	minor
 	source Staja-Kella-Oa
@@ -54776,7 +54776,7 @@ mission "Company Foundations: Registrar: Staja-Kella-Oa"
 				decline
 
 mission "Company Foundations: Registrar: Starcross"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Starcross. The cheapest charter costs 650,000 credits."
 	minor
 	source Starcross
@@ -54945,7 +54945,7 @@ mission "Company Foundations: Registrar: Starcross"
 				decline
 
 mission "Company Foundations: Registrar: Starting Rubin"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Starting Rubin. The cheapest charter costs 650,000 credits."
 	minor
 	source "Starting Rubin"
@@ -55134,7 +55134,7 @@ mission "Company Foundations: Registrar: Starting Rubin"
 				decline
 
 mission "Company Foundations: Registrar: Station Cian"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Station Cian. The cheapest charter costs 650,000 credits."
 	minor
 	source "Station Cian"
@@ -55303,7 +55303,7 @@ mission "Company Foundations: Registrar: Station Cian"
 				decline
 
 mission "Company Foundations: Registrar: Stilacrest"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Stilacrest. The cheapest charter costs 650,000 credits."
 	minor
 	source Stilacrest
@@ -55472,7 +55472,7 @@ mission "Company Foundations: Registrar: Stilacrest"
 				decline
 
 mission "Company Foundations: Registrar: Stonebreak"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Stonebreak. The cheapest charter costs 650,000 credits."
 	minor
 	source Stonebreak
@@ -55685,7 +55685,7 @@ mission "Company Foundations: Registrar: Stonebreak"
 				decline
 
 mission "Company Foundations: Registrar: Stormhold"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Stormhold. The cheapest charter costs 650,000 credits."
 	minor
 	source Stormhold
@@ -55854,7 +55854,7 @@ mission "Company Foundations: Registrar: Stormhold"
 				decline
 
 mission "Company Foundations: Registrar: Stronghold of Flugbu"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Stronghold of Flugbu. The cheapest charter costs 650,000 credits."
 	minor
 	source "Stronghold of Flugbu"
@@ -56023,7 +56023,7 @@ mission "Company Foundations: Registrar: Stronghold of Flugbu"
 				decline
 
 mission "Company Foundations: Registrar: Successor Wormhole"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Successor Wormhole. The cheapest charter costs 650,000 credits."
 	minor
 	source "Successor Wormhole"
@@ -56191,7 +56191,7 @@ mission "Company Foundations: Registrar: Successor Wormhole"
 				decline
 
 mission "Company Foundations: Registrar: Sundive"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Sundive. The cheapest charter costs 650,000 credits."
 	minor
 	source Sundive
@@ -56360,7 +56360,7 @@ mission "Company Foundations: Registrar: Sundive"
 				decline
 
 mission "Company Foundations: Registrar: Sundrinker"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Sundrinker. The cheapest charter costs 650,000 credits."
 	minor
 	source Sundrinker
@@ -56529,7 +56529,7 @@ mission "Company Foundations: Registrar: Sundrinker"
 				decline
 
 mission "Company Foundations: Registrar: Sunracer"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Sunracer. The cheapest charter costs 650,000 credits."
 	minor
 	source Sunracer
@@ -56770,7 +56770,7 @@ mission "Company Foundations: Registrar: Sunracer"
 				decline
 
 mission "Company Foundations: Registrar: Swiftsong"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Swiftsong. The cheapest charter costs 650,000 credits."
 	minor
 	source Swiftsong
@@ -56939,7 +56939,7 @@ mission "Company Foundations: Registrar: Swiftsong"
 				decline
 
 mission "Company Foundations: Registrar: Tebuteb's Table"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Tebuteb's Table. The cheapest charter costs 650,000 credits."
 	minor
 	source "Tebuteb's Table"
@@ -57108,7 +57108,7 @@ mission "Company Foundations: Registrar: Tebuteb's Table"
 				decline
 
 mission "Company Foundations: Registrar: Ternituul"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ternituul. The cheapest charter costs 650,000 credits."
 	minor
 	source Ternituul
@@ -57277,7 +57277,7 @@ mission "Company Foundations: Registrar: Ternituul"
 				decline
 
 mission "Company Foundations: Registrar: Thilos"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Thilos. The cheapest charter costs 650,000 credits."
 	minor
 	source Thilos
@@ -57446,7 +57446,7 @@ mission "Company Foundations: Registrar: Thilos"
 				decline
 
 mission "Company Foundations: Registrar: Third Umber"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Third Umber. The cheapest charter costs 650,000 credits."
 	minor
 	source "Third Umber"
@@ -57615,7 +57615,7 @@ mission "Company Foundations: Registrar: Third Umber"
 				decline
 
 mission "Company Foundations: Registrar: Thrall"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Thrall. The cheapest charter costs 650,000 credits."
 	minor
 	source Thrall
@@ -57784,7 +57784,7 @@ mission "Company Foundations: Registrar: Thrall"
 				decline
 
 mission "Company Foundations: Registrar: Thshybothro"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Thshybothro. The cheapest charter costs 650,000 credits."
 	minor
 	source Thshybothro
@@ -57953,7 +57953,7 @@ mission "Company Foundations: Registrar: Thshybothro"
 				decline
 
 mission "Company Foundations: Registrar: Thule"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Thule. The cheapest charter costs 650,000 credits."
 	minor
 	source Thule
@@ -58122,7 +58122,7 @@ mission "Company Foundations: Registrar: Thule"
 				decline
 
 mission "Company Foundations: Registrar: Thunder"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Thunder. The cheapest charter costs 650,000 credits."
 	minor
 	source Thunder
@@ -58291,7 +58291,7 @@ mission "Company Foundations: Registrar: Thunder"
 				decline
 
 mission "Company Foundations: Registrar: Tik Klai"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Tik Klai. The cheapest charter costs 650,000 credits."
 	minor
 	source "Tik Klai"
@@ -58460,7 +58460,7 @@ mission "Company Foundations: Registrar: Tik Klai"
 				decline
 
 mission "Company Foundations: Registrar: Tinker"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Tinker. The cheapest charter costs 650,000 credits."
 	minor
 	source Tinker
@@ -58685,7 +58685,7 @@ mission "Company Foundations: Registrar: Tinker"
 				decline
 
 mission "Company Foundations: Registrar: Trinket"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Trinket. The cheapest charter costs 650,000 credits."
 	minor
 	source Trinket
@@ -58854,7 +58854,7 @@ mission "Company Foundations: Registrar: Trinket"
 				decline
 
 mission "Company Foundations: Registrar: Triton Station"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Triton Station. The cheapest charter costs 650,000 credits."
 	minor
 	source "Triton Station"
@@ -59023,7 +59023,7 @@ mission "Company Foundations: Registrar: Triton Station"
 				decline
 
 mission "Company Foundations: Registrar: Trove"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Trove. The cheapest charter costs 650,000 credits."
 	minor
 	source Trove
@@ -59192,7 +59192,7 @@ mission "Company Foundations: Registrar: Trove"
 				decline
 
 mission "Company Foundations: Registrar: Truklar"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Truklar. The cheapest charter costs 650,000 credits."
 	minor
 	source Truklar
@@ -59361,7 +59361,7 @@ mission "Company Foundations: Registrar: Truklar"
 				decline
 
 mission "Company Foundations: Registrar: Tschyss"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Tschyss. The cheapest charter costs 650,000 credits."
 	minor
 	source Tschyss
@@ -59530,7 +59530,7 @@ mission "Company Foundations: Registrar: Tschyss"
 				decline
 
 mission "Company Foundations: Registrar: Tundra"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Tundra. The cheapest charter costs 650,000 credits."
 	minor
 	source Tundra
@@ -59699,7 +59699,7 @@ mission "Company Foundations: Registrar: Tundra"
 				decline
 
 mission "Company Foundations: Registrar: Turquoise Four"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Turquoise Four. The cheapest charter costs 650,000 credits."
 	minor
 	source "Turquoise Four"
@@ -59868,7 +59868,7 @@ mission "Company Foundations: Registrar: Turquoise Four"
 				decline
 
 mission "Company Foundations: Registrar: Tuur-Aasa-Kaska"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Tuur-Aasa-Kaska. The cheapest charter costs 650,000 credits."
 	minor
 	source Tuur-Aasa-Kaska
@@ -60045,7 +60045,7 @@ mission "Company Foundations: Registrar: Tuur-Aasa-Kaska"
 				decline
 
 mission "Company Foundations: Registrar: Twinstar"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Twinstar. The cheapest charter costs 650,000 credits."
 	minor
 	source Twinstar
@@ -60214,7 +60214,7 @@ mission "Company Foundations: Registrar: Twinstar"
 				decline
 
 mission "Company Foundations: Registrar: Uo-Oraa-Vayya"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Uo-Oraa-Vayya. The cheapest charter costs 650,000 credits."
 	minor
 	source Uo-Oraa-Vayya
@@ -60383,7 +60383,7 @@ mission "Company Foundations: Registrar: Uo-Oraa-Vayya"
 				decline
 
 mission "Company Foundations: Registrar: Ut Divitas"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Ut Divitas. The cheapest charter costs 650,000 credits."
 	minor
 	source "Ut Divitas"
@@ -60552,7 +60552,7 @@ mission "Company Foundations: Registrar: Ut Divitas"
 				decline
 
 mission "Company Foundations: Registrar: Vail"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Vail. The cheapest charter costs 650,000 credits."
 	minor
 	source Vail
@@ -60721,7 +60721,7 @@ mission "Company Foundations: Registrar: Vail"
 				decline
 
 mission "Company Foundations: Registrar: Valhalla"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Valhalla. The cheapest charter costs 650,000 credits."
 	minor
 	source Valhalla
@@ -60970,7 +60970,7 @@ mission "Company Foundations: Registrar: Valhalla"
 				decline
 
 mission "Company Foundations: Registrar: Var' Kar'i'i"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Var' Kar'i'i. The cheapest charter costs 650,000 credits."
 	minor
 	source "Var' Kar'i'i"
@@ -61151,7 +61151,7 @@ mission "Company Foundations: Registrar: Var' Kar'i'i"
 				decline
 
 mission "Company Foundations: Registrar: Var' Kayi"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Var' Kayi. The cheapest charter costs 650,000 credits."
 	minor
 	source "Var' Kayi"
@@ -61340,7 +61340,7 @@ mission "Company Foundations: Registrar: Var' Kayi"
 				decline
 
 mission "Company Foundations: Registrar: Var' Roi"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Var' Roi. The cheapest charter costs 650,000 credits."
 	minor
 	source "Var' Roi"
@@ -61509,7 +61509,7 @@ mission "Company Foundations: Registrar: Var' Roi"
 				decline
 
 mission "Company Foundations: Registrar: Vara Kehi'ki"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Vara Kehi'ki. The cheapest charter costs 650,000 credits."
 	minor
 	source "Vara Kehi'ki"
@@ -61678,7 +61678,7 @@ mission "Company Foundations: Registrar: Vara Kehi'ki"
 				decline
 
 mission "Company Foundations: Registrar: Vara Ke'sok"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Vara Ke'sok. The cheapest charter costs 650,000 credits."
 	minor
 	source "Vara Ke'sok"
@@ -61847,7 +61847,7 @@ mission "Company Foundations: Registrar: Vara Ke'sok"
 				decline
 
 mission "Company Foundations: Registrar: Vara Ke'stai"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Vara Ke'stai. The cheapest charter costs 650,000 credits."
 	minor
 	source "Vara Ke'stai"
@@ -62016,7 +62016,7 @@ mission "Company Foundations: Registrar: Vara Ke'stai"
 				decline
 
 mission "Company Foundations: Registrar: Vara Pug"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Vara Pug. The cheapest charter costs 650,000 credits."
 	minor
 	source "Vara Pug"
@@ -62185,7 +62185,7 @@ mission "Company Foundations: Registrar: Vara Pug"
 				decline
 
 mission "Company Foundations: Registrar: Vara Rakak"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Vara Rakak. The cheapest charter costs 650,000 credits."
 	minor
 	source "Vara Rakak"
@@ -62366,7 +62366,7 @@ mission "Company Foundations: Registrar: Vara Rakak"
 				decline
 
 mission "Company Foundations: Registrar: Varu Ek'lak'lai"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Varu Ek'lak'lai. The cheapest charter costs 650,000 credits."
 	minor
 	source "Varu Ek'lak'lai"
@@ -62535,7 +62535,7 @@ mission "Company Foundations: Registrar: Varu Ek'lak'lai"
 				decline
 
 mission "Company Foundations: Registrar: Varu K'est"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Varu K'est. The cheapest charter costs 650,000 credits."
 	minor
 	source "Varu K'est"
@@ -62716,7 +62716,7 @@ mission "Company Foundations: Registrar: Varu K'est"
 				decline
 
 mission "Company Foundations: Registrar: Varu K'prai"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Varu K'prai. The cheapest charter costs 650,000 credits."
 	minor
 	source "Varu K'prai"
@@ -62885,7 +62885,7 @@ mission "Company Foundations: Registrar: Varu K'prai"
 				decline
 
 mission "Company Foundations: Registrar: Varu Mer'ek"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Varu Mer'ek. The cheapest charter costs 650,000 credits."
 	minor
 	source "Varu Mer'ek"
@@ -63074,7 +63074,7 @@ mission "Company Foundations: Registrar: Varu Mer'ek"
 				decline
 
 mission "Company Foundations: Registrar: Varu Tek'kai"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Varu Tek'kai. The cheapest charter costs 650,000 credits."
 	minor
 	source "Varu Tek'kai"
@@ -63243,7 +63243,7 @@ mission "Company Foundations: Registrar: Varu Tek'kai"
 				decline
 
 mission "Company Foundations: Registrar: Varu Tev'kei"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Varu Tev'kei. The cheapest charter costs 650,000 credits."
 	minor
 	source "Varu Tev'kei"
@@ -63412,7 +63412,7 @@ mission "Company Foundations: Registrar: Varu Tev'kei"
 				decline
 
 mission "Company Foundations: Registrar: Vibrant Water"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Vibrant Water. The cheapest charter costs 650,000 credits."
 	minor
 	source "Vibrant Water"
@@ -63581,7 +63581,7 @@ mission "Company Foundations: Registrar: Vibrant Water"
 				decline
 
 mission "Company Foundations: Registrar: Viminal"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Viminal. The cheapest charter costs 650,000 credits."
 	minor
 	source Viminal
@@ -63786,7 +63786,7 @@ mission "Company Foundations: Registrar: Viminal"
 				decline
 
 mission "Company Foundations: Registrar: Vinci"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Vinci. The cheapest charter costs 650,000 credits."
 	minor
 	source Vinci
@@ -63955,7 +63955,7 @@ mission "Company Foundations: Registrar: Vinci"
 				decline
 
 mission "Company Foundations: Registrar: Warfeed"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Warfeed. The cheapest charter costs 650,000 credits."
 	minor
 	source Warfeed
@@ -64124,7 +64124,7 @@ mission "Company Foundations: Registrar: Warfeed"
 				decline
 
 mission "Company Foundations: Registrar: Warm Slope"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Warm Slope. The cheapest charter costs 650,000 credits."
 	minor
 	source "Warm Slope"
@@ -64293,7 +64293,7 @@ mission "Company Foundations: Registrar: Warm Slope"
 				decline
 
 mission "Company Foundations: Registrar: Warm Wind"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Warm Wind. The cheapest charter costs 650,000 credits."
 	minor
 	source "Warm Wind"
@@ -64462,7 +64462,7 @@ mission "Company Foundations: Registrar: Warm Wind"
 				decline
 
 mission "Company Foundations: Registrar: Wayfarer"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Wayfarer. The cheapest charter costs 650,000 credits."
 	minor
 	source Wayfarer
@@ -64695,7 +64695,7 @@ mission "Company Foundations: Registrar: Wayfarer"
 				decline
 
 mission "Company Foundations: Registrar: Weir of Glubatub"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Weir of Glubatub. The cheapest charter costs 650,000 credits."
 	minor
 	source "Weir of Glubatub"
@@ -64864,7 +64864,7 @@ mission "Company Foundations: Registrar: Weir of Glubatub"
 				decline
 
 mission "Company Foundations: Registrar: Weledos"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Weledos. The cheapest charter costs 650,000 credits."
 	minor
 	source Weledos
@@ -65033,7 +65033,7 @@ mission "Company Foundations: Registrar: Weledos"
 				decline
 
 mission "Company Foundations: Registrar: Windblain"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Windblain. The cheapest charter costs 650,000 credits."
 	minor
 	source Windblain
@@ -65202,7 +65202,7 @@ mission "Company Foundations: Registrar: Windblain"
 				decline
 
 mission "Company Foundations: Registrar: Winter"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Winter. The cheapest charter costs 650,000 credits."
 	minor
 	source Winter
@@ -65371,7 +65371,7 @@ mission "Company Foundations: Registrar: Winter"
 				decline
 
 mission "Company Foundations: Registrar: Wyvern Station"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Wyvern Station. The cheapest charter costs 650,000 credits."
 	minor
 	source "Wyvern Station"
@@ -65540,7 +65540,7 @@ mission "Company Foundations: Registrar: Wyvern Station"
 				decline
 
 mission "Company Foundations: Registrar: Yoqqa-Vasa-Vasa"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Yoqqa-Vasa-Vasa. The cheapest charter costs 650,000 credits."
 	minor
 	source Yoqqa-Vasa-Vasa
@@ -65757,7 +65757,7 @@ mission "Company Foundations: Registrar: Yoqqa-Vasa-Vasa"
 				decline
 
 mission "Company Foundations: Registrar: Zenith"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Zenith. The cheapest charter costs 650,000 credits."
 	minor
 	source Zenith
@@ -65926,7 +65926,7 @@ mission "Company Foundations: Registrar: Zenith"
 				decline
 
 mission "Company Foundations: Registrar: Zug"
-	name "Firma gruenden"
+	name "Found Company"
 	description "Found a small company headquartered on Zug. The cheapest charter costs 650,000 credits."
 	minor
 	source Zug

@@ -96,9 +96,9 @@ prices.
 Claim tiers:
 
 - Local: 160 cargo cap, 3-day cycle.
-- Regional: 300 cargo cap, 5-day cycle, 220,000 credits.
-- Deep: 480 cargo cap, 7-day cycle, 420,000 credits.
-- Frontier: 700 cargo cap, 9-day cycle, 700,000 credits.
+- Regional: 300 cargo cap, 5-day cycle.
+- Deep: 480 cargo cap, 7-day cycle.
+- Frontier: 700 cargo cap, 9-day cycle.
 
 Mining fleets use discovered utility ships with suitable cargo capacity, plus the
 starter Sunder and Mule mining conversion. Mining Drones cost 58,000 credits each,
@@ -114,9 +114,9 @@ are capped by licensed cargo throughput.
 Route tiers:
 
 - Local: 250 cargo cap, 4-day cycle.
-- Regional: 500 cargo cap, 6-day cycle, 180,000 credits.
-- Long: 900 cargo cap, 8-day cycle, 400,000 credits.
-- Frontier: 1,300 cargo cap, 10-day cycle, 750,000 credits.
+- Regional: 500 cargo cap, 6-day cycle.
+- Long: 900 cargo cap, 8-day cycle.
+- Frontier: 1,300 cargo cap, 10-day cycle.
 
 Trading fleets use discovered freighters, transports, utility ships, and space
 liners with enough cargo capacity. A specialist trader can be assigned to each
@@ -132,9 +132,9 @@ uninhabited systems in between do not need separate paperwork.
 Contract tiers:
 
 - Local: rating cap 8, 4-day cycle.
-- Regional: rating cap 14, 6-day cycle, 250,000 credits.
-- Long: rating cap 22, 8-day cycle, 550,000 credits.
-- Frontier: rating cap 34, 10-day cycle, 950,000 credits.
+- Regional: rating cap 14, 6-day cycle.
+- Long: rating cap 22, 8-day cycle.
+- Frontier: rating cap 34, 10-day cycle.
 
 Security fleets use discovered interceptors and warships. Crew costs are based on
 real ship crew requirements, and route capacity is based on escort rating.

@@ -1,0 +1,13 @@
+# Company Foundations
+# Generated index. The plugin data is split across the files listed below.
+# Do not edit generated files by hand; edit tools/generate_company_foundations.ps1 instead.
+
+# - company core.txt
+# - company discovery generated.txt
+# - company founding generated.txt
+# - company admiral locations generated.txt
+# - company hq generated.txt
+# - company hq presence generated.txt
+# - company manager investments generated.txt
+# - company access generated.txt
+# - company operations.txt

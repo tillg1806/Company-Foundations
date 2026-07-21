@@ -11,8 +11,8 @@ orbital infrastructure, and company valuation.
 ## Starting A Company
 
 Company registrars are available at eligible visited spaceports when your
-reputation allows you to land there. The generated data currently supports 366
-accessible visitable headquarters.
+reputation allows you to land there. The current data supports 366 accessible
+visitable headquarters.
 
 Starting options:
 
@@ -90,8 +90,7 @@ double the package cost in reserve.
 ## Mining Division
 
 Mining companies start with a real nearby mineral claim and one simulated Sunder.
-Additional rights are generated from actual system minables and local market
-prices.
+Additional rights are based on actual system minables and local market prices.
 
 Claim tiers:
 
@@ -108,8 +107,8 @@ capacity on company mining ships.
 ## Trading Division
 
 Trading companies start with one local trade license and one simulated Star Barge.
-Additional trade licenses are generated from real system trade-price tables and
-are capped by licensed cargo throughput.
+Additional trade licenses are based on real system trade-price tables and are
+capped by licensed cargo throughput.
 
 Route tiers:
 

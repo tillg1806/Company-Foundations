@@ -1,7 +1,6 @@
 # Company Foundations
 
-Language: English | [Deutsch](README_DE.md)  
-Tax info: [English](tax-info_EN.md) | [Deutsch](tax-info_DE.md)
+Tax details: [tax-info.md](tax-info.md)
 
 Company Foundations adds a playable company-management layer for normal Endless
 Sky pilots. You can register a company at accessible inhabited spaceports and run

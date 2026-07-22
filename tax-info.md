@@ -1,7 +1,6 @@
 ﻿# Company Foundations Tax Info
 
-Language: English | [Deutsch](tax-info_DE.md)  
-README: [English](README_EN.md) | [Deutsch](README_DE.md)
+README: [README.md](README.md)
 
 This overview lists the daily headquarters base tax for every possible headquarters planet and explains how taxes scale during operation.
 

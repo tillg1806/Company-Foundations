@@ -1,19 +1,19 @@
-﻿# Company Foundations Steuerinfo
+# Company Foundations Steuerinfo
 
 Sprache: [English](tax-info_EN.md) | Deutsch  
 README: [English](README_EN.md) | [Deutsch](README_DE.md)
 
-Diese Uebersicht zeigt die taegliche HQ-Grundsteuer pro moeglichem Hauptquartier sowie die Skalierung, mit der die Steuer im laufenden Betrieb steigt.
+Diese Übersicht zeigt die tägliche HQ-Grundsteuer pro möglichem Hauptquartier sowie die Skalierung, mit der die Steuer im laufenden Betrieb steigt.
 
 ## Steuerformel
 
 ```text
-taegliche HQ-Steuer = max(0, HQ-Grundsteuer + Personalsteuer - Stationsentlastung)
+tägliche HQ-Steuer = max(0, HQ-Grundsteuer + Personalsteuer - Stationsentlastung)
 ```
 
 - Die HQ-Grundsteuer kommt aus Planet, Regierung und lokalen Attributen.
 - Personalsteuer skaliert mit der gesamten Belegschaft.
-- Ein orbitales Buero reduziert die HQ-Steuer um 500 Credits pro Tag.
+- Ein orbitales Büro reduziert die HQ-Steuer um 500 Credits pro Tag.
 - Die finale HQ-Grundsteuer wird bei 100 Credits Minimum und 2,000 Credits Maximum gekappt.
 
 ## Grundsteuer-Skalierung
@@ -33,7 +33,7 @@ taegliche HQ-Steuer = max(0, HQ-Grundsteuer + Personalsteuer - Stationsentlastun
 
 ## Personalsteuer-Skalierung
 
-Personalsteuer wird ueber `total staff` berechnet. Divisionen in der Formel sind ganzzahlige Schwellenwerte.
+Personalsteuer wird über `total staff` berechnet. Divisionen in der Formel sind ganzzahlige Schwellenwerte.
 
 | Bestandteil | Berechnung |
 | --- | ---: |
@@ -50,16 +50,16 @@ Personalsteuer wird ueber `total staff` berechnet. Divisionen in der Formel sind
 
 | Bestandteil | Berechnung |
 | --- | --- |
-| Worker staff | Schiff-Crew der aktiven Routen, Claims, Security-Vertraege und Admiralflotte / 100 |
+| Worker staff | Schiff-Crew der aktiven Routen, Claims, Security-Verträge und Admiralflotte / 100 |
 | Office staff | max(worker staff - 1, 0) / 2 |
 | Specialist staff | aktive Specialist Trader + Manager + Fleet Admiral |
 | Total staff | worker staff + office staff + specialist staff |
 
 ## Planetentabelle
 
-Anzahl moeglicher Hauptquartiere: 366
+Anzahl möglicher Hauptquartiere: 366
 
-| Planet | Government | HQ-Grundsteuer / Tag |
+| Planet | Regierung | HQ-Grundsteuer / Tag |
 | --- | --- | ---: |
 | Aava-Aasa-Khora | Old Houses | 300 |
 | Ablub's Invention | Coalition | 700 |

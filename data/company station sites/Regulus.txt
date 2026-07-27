@@ -1,0 +1,15 @@
+# Company Foundations
+
+event "Company Foundations: Station Site: Regulus"
+	system Regulus
+		object "Company Headquarters"
+			sprite planet/station5
+			distance 379
+			period 147
+	planet "Company Headquarters"
+		government "Company Foundations Player Company"
+		attributes "cf station" "cf company hq" spaceport
+		landscape land/space4
+		description `This compact corporate station is the registered headquarters of your company. Its first ring contains administration offices, traffic control, crew services, reserve storage, and enough docking arms to support a growing private operation.`
+		spaceport `The station concourse is still new enough that the walls look unfinished in places. Company clerks, independent contractors, and shuttle crews move between temporary counters and sealed work bays while your name sits above the central operations terminal.`
+

@@ -17,6 +17,7 @@ mission "Company Foundations: Starter Supplier Backfill: Shuttle"
 		set "cf: ship available: Shuttle"
 		log "Company Foundations" "Procurement Backfill" `The company records its starter Shuttle procurement channel as an available supplier for future simulated purchases.`
 
+		fail
 mission "Company Foundations: Starter Supplier Backfill: Sunder"
 	name "Company Starter Supplier Backfill"
 	invisible
@@ -30,6 +31,7 @@ mission "Company Foundations: Starter Supplier Backfill: Sunder"
 		set "cf: ship available: Sunder"
 		log "Company Foundations" "Procurement Backfill" `The company records its starter Sunder procurement channel as an available supplier for future simulated purchases.`
 
+		fail
 mission "Company Foundations: Starter Supplier Backfill: Star Barge"
 	name "Company Starter Supplier Backfill"
 	invisible
@@ -43,6 +45,7 @@ mission "Company Foundations: Starter Supplier Backfill: Star Barge"
 		set "cf: ship available: Star Barge"
 		log "Company Foundations" "Procurement Backfill" `The company records its starter Star Barge procurement channel as an available supplier for future simulated purchases.`
 
+		fail
 mission "Company Foundations: Starter Supplier Backfill: Manta"
 	name "Company Starter Supplier Backfill"
 	invisible
@@ -56,3 +59,4 @@ mission "Company Foundations: Starter Supplier Backfill: Manta"
 		set "cf: ship available: Manta"
 		log "Company Foundations" "Procurement Backfill" `The company records its starter Manta procurement channel as an available supplier for future simulated purchases.`
 
+		fail

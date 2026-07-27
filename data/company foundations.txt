@@ -4,6 +4,8 @@
 # - company core.txt
 # - company discovery.txt
 # - company founding.txt
+# - company stations.txt
+# - company station sites/*.txt
 # - company admiral locations.txt
 # - company hq.txt
 # - company hq presence.txt

@@ -1,0 +1,45 @@
+# Company Foundations
+
+government "Company Foundations Player Company"
+	"display name" "Your Company"
+	"player reputation" 1000
+	"default attitude" 1
+	"friendly hail" "friendly civilian"
+	"friendly disabled hail" "friendly disabled"
+	"penalty for"
+		assist 0
+		disable 0
+		board 0
+		capture 0
+		destroy 0
+		atrocity 0
+
+outfitter "Company Station Outfitter"
+	"Hyperdrive"
+	"Ramscoop"
+	"Fuel Pod"
+	"Cargo Expansion"
+	"Bunk Room"
+	"LP036a Battery Pack"
+	"Cooling Ducts"
+	"Laser Rifle"
+	"Local Map"
+
+shipyard "Company Station Shipyard"
+	"Shuttle"
+	"Heavy Shuttle"
+	"Star Barge"
+	"Freighter"
+	"Scout"
+	"Sparrow"
+	"Sunder"
+	"Mining Drone"
+
+event "Company Foundations: Station Stage 2 Outfitter"
+	planet "Company Headquarters"
+		outfitter "Company Station Outfitter"
+
+event "Company Foundations: Station Stage 3 Shipyard"
+	planet "Company Headquarters"
+		shipyard "Company Station Shipyard"
+

@@ -21,6 +21,7 @@ mission "Company Foundations: Discover Port: Aava-Aasa-Khora"
 		set "cf: ship available: Myaede (Naive)"
 		set "cf: ship available: Stolsaqra (Naive)"
 
+		fail
 mission "Company Foundations: Discover Port: Ablub's Invention"
 	name "Company Port Discovery"
 	invisible
@@ -32,6 +33,7 @@ mission "Company Foundations: Discover Port: Ablub's Invention"
 		set "cf: known planet: Ablub's Invention"
 		set "cf: known system: Ablub"
 
+		fail
 mission "Company Foundations: Discover Port: Ada"
 	name "Company Port Discovery"
 	invisible
@@ -70,6 +72,7 @@ mission "Company Foundations: Discover Port: Ada"
 		set "cf: known shipyard: Tycho Crater Advanced"
 		set "cf: ship available: Hogshead"
 
+		fail
 mission "Company Foundations: Discover Port: Ahr"
 	name "Company Port Discovery"
 	invisible
@@ -91,6 +94,7 @@ mission "Company Foundations: Discover Port: Ahr"
 		set "cf: ship available: Kimek Thorn"
 		set "cf: ship available: Saryd Runabout"
 
+		fail
 mission "Company Foundations: Discover Port: Albatross"
 	name "Company Port Discovery"
 	invisible
@@ -102,6 +106,7 @@ mission "Company Foundations: Discover Port: Albatross"
 		set "cf: known planet: Albatross"
 		set "cf: known system: Nunki"
 
+		fail
 mission "Company Foundations: Discover Port: Alexandria"
 	name "Company Port Discovery"
 	invisible
@@ -113,6 +118,7 @@ mission "Company Foundations: Discover Port: Alexandria"
 		set "cf: known planet: Alexandria"
 		set "cf: known system: Markeb"
 
+		fail
 mission "Company Foundations: Discover Port: Alfheim"
 	name "Company Port Discovery"
 	invisible
@@ -124,6 +130,7 @@ mission "Company Foundations: Discover Port: Alfheim"
 		set "cf: known planet: Alfheim"
 		set "cf: known system: Wezen"
 
+		fail
 mission "Company Foundations: Discover Port: Allhome"
 	name "Company Port Discovery"
 	invisible
@@ -135,6 +142,7 @@ mission "Company Foundations: Discover Port: Allhome"
 		set "cf: known planet: Allhome"
 		set "cf: known system: Heia Due"
 
+		fail
 mission "Company Foundations: Discover Port: Alta Hai"
 	name "Company Port Discovery"
 	invisible
@@ -146,6 +154,7 @@ mission "Company Foundations: Discover Port: Alta Hai"
 		set "cf: known planet: Alta Hai"
 		set "cf: known system: Hevru Hai"
 
+		fail
 mission "Company Foundations: Discover Port: Alvorada"
 	name "Company Port Discovery"
 	invisible
@@ -157,6 +166,7 @@ mission "Company Foundations: Discover Port: Alvorada"
 		set "cf: known planet: Alvorada"
 		set "cf: known system: Citadelle"
 
+		fail
 mission "Company Foundations: Discover Port: Amathil"
 	name "Company Port Discovery"
 	invisible
@@ -168,6 +178,7 @@ mission "Company Foundations: Discover Port: Amathil"
 		set "cf: known planet: Amathil"
 		set "cf: known system: Wake"
 
+		fail
 mission "Company Foundations: Discover Port: Amazon"
 	name "Company Port Discovery"
 	invisible
@@ -179,6 +190,7 @@ mission "Company Foundations: Discover Port: Amazon"
 		set "cf: known planet: Amazon"
 		set "cf: known system: Schedar"
 
+		fail
 mission "Company Foundations: Discover Port: Angko"
 	name "Company Port Discovery"
 	invisible
@@ -190,6 +202,7 @@ mission "Company Foundations: Discover Port: Angko"
 		set "cf: known planet: Angko"
 		set "cf: known system: Mego Inito"
 
+		fail
 mission "Company Foundations: Discover Port: Antipode"
 	name "Company Port Discovery"
 	invisible
@@ -201,6 +214,7 @@ mission "Company Foundations: Discover Port: Antipode"
 		set "cf: known planet: Antipode"
 		set "cf: known system: Matar"
 
+		fail
 mission "Company Foundations: Discover Port: Arabia"
 	name "Company Port Discovery"
 	invisible
@@ -212,6 +226,7 @@ mission "Company Foundations: Discover Port: Arabia"
 		set "cf: known planet: Arabia"
 		set "cf: known system: Ascella"
 
+		fail
 mission "Company Foundations: Discover Port: Araio"
 	name "Company Port Discovery"
 	invisible
@@ -223,6 +238,7 @@ mission "Company Foundations: Discover Port: Araio"
 		set "cf: known planet: Araio"
 		set "cf: known system: Sail"
 
+		fail
 mission "Company Foundations: Discover Port: Arroharg"
 	name "Company Port Discovery"
 	invisible
@@ -234,6 +250,7 @@ mission "Company Foundations: Discover Port: Arroharg"
 		set "cf: known planet: Arroharg"
 		set "cf: known system: Actannka"
 
+		fail
 mission "Company Foundations: Discover Port: Asgard"
 	name "Company Port Discovery"
 	invisible
@@ -256,6 +273,7 @@ mission "Company Foundations: Discover Port: Asgard"
 		set "cf: ship available: Raven"
 		set "cf: ship available: Scout"
 
+		fail
 mission "Company Foundations: Discover Port: Ashy Reach"
 	name "Company Port Discovery"
 	invisible
@@ -267,6 +285,7 @@ mission "Company Foundations: Discover Port: Ashy Reach"
 		set "cf: known planet: Ashy Reach"
 		set "cf: known system: 3 Axis"
 
+		fail
 mission "Company Foundations: Discover Port: Aventine"
 	name "Company Port Discovery"
 	invisible
@@ -287,6 +306,7 @@ mission "Company Foundations: Discover Port: Aventine"
 		set "cf: ship available: Starling"
 		set "cf: ship available: Tern"
 
+		fail
 mission "Company Foundations: Discover Port: Aviskir"
 	name "Company Port Discovery"
 	invisible
@@ -298,6 +318,7 @@ mission "Company Foundations: Discover Port: Aviskir"
 		set "cf: known planet: Aviskir"
 		set "cf: known system: Anax"
 
+		fail
 mission "Company Foundations: Discover Port: Bailey"
 	name "Company Port Discovery"
 	invisible
@@ -309,6 +330,7 @@ mission "Company Foundations: Discover Port: Bailey"
 		set "cf: known planet: Bailey"
 		set "cf: known system: Citadelle"
 
+		fail
 mission "Company Foundations: Discover Port: Bank of Blugtad"
 	name "Company Port Discovery"
 	invisible
@@ -330,6 +352,7 @@ mission "Company Foundations: Discover Port: Bank of Blugtad"
 		set "cf: ship available: Kimek Thorn"
 		set "cf: ship available: Saryd Runabout"
 
+		fail
 mission "Company Foundations: Discover Port: Belug's Plunge"
 	name "Company Port Discovery"
 	invisible
@@ -341,6 +364,7 @@ mission "Company Foundations: Discover Port: Belug's Plunge"
 		set "cf: known planet: Belug's Plunge"
 		set "cf: known system: Belug"
 
+		fail
 mission "Company Foundations: Discover Port: Big Sky"
 	name "Company Port Discovery"
 	invisible
@@ -352,6 +376,7 @@ mission "Company Foundations: Discover Port: Big Sky"
 		set "cf: known planet: Big Sky"
 		set "cf: known system: Sarin"
 
+		fail
 mission "Company Foundations: Discover Port: Bivrost"
 	name "Company Port Discovery"
 	invisible
@@ -363,6 +388,7 @@ mission "Company Foundations: Discover Port: Bivrost"
 		set "cf: known planet: Bivrost"
 		set "cf: known system: Markeb"
 
+		fail
 mission "Company Foundations: Discover Port: Bloodsea"
 	name "Company Port Discovery"
 	invisible
@@ -374,6 +400,7 @@ mission "Company Foundations: Discover Port: Bloodsea"
 		set "cf: known planet: Bloodsea"
 		set "cf: known system: Antares"
 
+		fail
 mission "Company Foundations: Discover Port: Bloptab's Furnace"
 	name "Company Port Discovery"
 	invisible
@@ -385,6 +412,7 @@ mission "Company Foundations: Discover Port: Bloptab's Furnace"
 		set "cf: known planet: Bloptab's Furnace"
 		set "cf: known system: Bloptab"
 
+		fail
 mission "Company Foundations: Discover Port: Blubipad's Workshop"
 	name "Company Port Discovery"
 	invisible
@@ -396,6 +424,7 @@ mission "Company Foundations: Discover Port: Blubipad's Workshop"
 		set "cf: known planet: Blubipad's Workshop"
 		set "cf: known system: Blubipad"
 
+		fail
 mission "Company Foundations: Discover Port: Blue Interior"
 	name "Company Port Discovery"
 	invisible
@@ -416,6 +445,7 @@ mission "Company Foundations: Discover Port: Blue Interior"
 		set "cf: ship available: Kimek Thistle"
 		set "cf: ship available: Kimek Thorn"
 
+		fail
 mission "Company Foundations: Discover Port: Bluestone"
 	name "Company Port Discovery"
 	invisible
@@ -427,6 +457,7 @@ mission "Company Foundations: Discover Port: Bluestone"
 		set "cf: known planet: Bluestone"
 		set "cf: known system: Bellatrix"
 
+		fail
 mission "Company Foundations: Discover Port: Bosunothro"
 	name "Company Port Discovery"
 	invisible
@@ -446,6 +477,7 @@ mission "Company Foundations: Discover Port: Bosunothro"
 		set "cf: ship available: Tanto"
 		set "cf: ship available: Tekkan"
 
+		fail
 mission "Company Foundations: Discover Port: Bounty"
 	name "Company Port Discovery"
 	invisible
@@ -457,6 +489,7 @@ mission "Company Foundations: Discover Port: Bounty"
 		set "cf: known planet: Bounty"
 		set "cf: known system: Delta Velorum"
 
+		fail
 mission "Company Foundations: Discover Port: Bourne"
 	name "Company Port Discovery"
 	invisible
@@ -468,6 +501,7 @@ mission "Company Foundations: Discover Port: Bourne"
 		set "cf: known planet: Bourne"
 		set "cf: known system: Gamma Corvi"
 
+		fail
 mission "Company Foundations: Discover Port: Brass Second"
 	name "Company Port Discovery"
 	invisible
@@ -479,6 +513,7 @@ mission "Company Foundations: Discover Port: Brass Second"
 		set "cf: known planet: Brass Second"
 		set "cf: known system: 3 Pole"
 
+		fail
 mission "Company Foundations: Discover Port: Bright Echo"
 	name "Company Port Discovery"
 	invisible
@@ -499,6 +534,7 @@ mission "Company Foundations: Discover Port: Bright Echo"
 		set "cf: ship available: Saryd Traveler"
 		set "cf: ship available: Saryd Visitor"
 
+		fail
 mission "Company Foundations: Discover Port: Buccaneer Bay"
 	name "Company Port Discovery"
 	invisible
@@ -531,6 +567,7 @@ mission "Company Foundations: Discover Port: Buccaneer Bay"
 		set "cf: ship available: Hawk"
 		set "cf: ship available: Scrapper"
 
+		fail
 mission "Company Foundations: Discover Port: Bunthro"
 	name "Company Port Discovery"
 	invisible
@@ -542,6 +579,7 @@ mission "Company Foundations: Discover Port: Bunthro"
 		set "cf: known planet: Bunthro"
 		set "cf: known system: Bunri Lemeta"
 
+		fail
 mission "Company Foundations: Discover Port: Burthen"
 	name "Company Port Discovery"
 	invisible
@@ -553,6 +591,7 @@ mission "Company Foundations: Discover Port: Burthen"
 		set "cf: known planet: Burthen"
 		set "cf: known system: Al Dhanab"
 
+		fail
 mission "Company Foundations: Discover Port: Caelian"
 	name "Company Port Discovery"
 	invisible
@@ -573,6 +612,7 @@ mission "Company Foundations: Discover Port: Caelian"
 		set "cf: ship available: Starling"
 		set "cf: ship available: Tern"
 
+		fail
 mission "Company Foundations: Discover Port: Calda"
 	name "Company Port Discovery"
 	invisible
@@ -584,6 +624,7 @@ mission "Company Foundations: Discover Port: Calda"
 		set "cf: known planet: Calda"
 		set "cf: known system: Tejat"
 
+		fail
 mission "Company Foundations: Discover Port: Canyon"
 	name "Company Port Discovery"
 	invisible
@@ -595,6 +636,7 @@ mission "Company Foundations: Discover Port: Canyon"
 		set "cf: known planet: Canyon"
 		set "cf: known system: Zaurak"
 
+		fail
 mission "Company Foundations: Discover Port: Celestial Third"
 	name "Company Port Discovery"
 	invisible
@@ -606,6 +648,7 @@ mission "Company Foundations: Discover Port: Celestial Third"
 		set "cf: known planet: Celestial Third"
 		set "cf: known system: 1 Axis"
 
+		fail
 mission "Company Foundations: Discover Port: Charon Station"
 	name "Company Port Discovery"
 	invisible
@@ -617,6 +660,7 @@ mission "Company Foundations: Discover Port: Charon Station"
 		set "cf: known planet: Charon Station"
 		set "cf: known system: Aldhibain"
 
+		fail
 mission "Company Foundations: Discover Port: Chiron"
 	name "Company Port Discovery"
 	invisible
@@ -644,6 +688,7 @@ mission "Company Foundations: Discover Port: Chiron"
 		set "cf: known shipyard: Tycho Crater Advanced"
 		set "cf: ship available: Hogshead"
 
+		fail
 mission "Company Foundations: Discover Port: Chosen Nexus"
 	name "Company Port Discovery"
 	invisible
@@ -675,6 +720,7 @@ mission "Company Foundations: Discover Port: Chosen Nexus"
 		set "cf: ship available: Saryd Traveler"
 		set "cf: ship available: Saryd Visitor"
 
+		fail
 mission "Company Foundations: Discover Port: Cipi"
 	name "Company Port Discovery"
 	invisible
@@ -686,6 +732,7 @@ mission "Company Foundations: Discover Port: Cipi"
 		set "cf: known planet: Cipi"
 		set "cf: known system: Zeinar"
 
+		fail
 mission "Company Foundations: Discover Port: Clark"
 	name "Company Port Discovery"
 	invisible
@@ -701,6 +748,7 @@ mission "Company Foundations: Discover Port: Clark"
 		set "cf: ship available: Sparrow"
 		set "cf: ship available: Star Barge"
 
+		fail
 mission "Company Foundations: Discover Port: Cloudfire"
 	name "Company Port Discovery"
 	invisible
@@ -717,6 +765,7 @@ mission "Company Foundations: Discover Port: Cloudfire"
 		set "cf: known shipyard: Mon Ki i'Hiya Basics"
 		set "cf: ship available: Aphid"
 
+		fail
 mission "Company Foundations: Discover Port: Cold Horizon"
 	name "Company Port Discovery"
 	invisible
@@ -728,6 +777,7 @@ mission "Company Foundations: Discover Port: Cold Horizon"
 		set "cf: known planet: Cold Horizon"
 		set "cf: known system: Fell Omen"
 
+		fail
 mission "Company Foundations: Discover Port: Cool Forest"
 	name "Company Port Discovery"
 	invisible
@@ -739,6 +789,7 @@ mission "Company Foundations: Discover Port: Cool Forest"
 		set "cf: known planet: Cool Forest"
 		set "cf: known system: Belonging"
 
+		fail
 mission "Company Foundations: Discover Port: Cornucopia"
 	name "Company Port Discovery"
 	invisible
@@ -750,6 +801,7 @@ mission "Company Foundations: Discover Port: Cornucopia"
 		set "cf: known planet: Cornucopia"
 		set "cf: known system: Kappa Centauri"
 
+		fail
 mission "Company Foundations: Discover Port: Corral of Meblumem"
 	name "Company Port Discovery"
 	invisible
@@ -761,6 +813,7 @@ mission "Company Foundations: Discover Port: Corral of Meblumem"
 		set "cf: known planet: Corral of Meblumem"
 		set "cf: known system: Meblumem"
 
+		fail
 mission "Company Foundations: Discover Port: Covert"
 	name "Company Port Discovery"
 	invisible
@@ -784,6 +837,7 @@ mission "Company Foundations: Discover Port: Covert"
 		set "cf: ship available: Hawk"
 		set "cf: ship available: Scrapper"
 
+		fail
 mission "Company Foundations: Discover Port: Crossroads"
 	name "Company Port Discovery"
 	invisible
@@ -795,6 +849,7 @@ mission "Company Foundations: Discover Port: Crossroads"
 		set "cf: known planet: Crossroads"
 		set "cf: known system: Ruchbah"
 
+		fail
 mission "Company Foundations: Discover Port: Cyreal"
 	name "Company Port Discovery"
 	invisible
@@ -806,6 +861,7 @@ mission "Company Foundations: Discover Port: Cyreal"
 		set "cf: known planet: Cyreal"
 		set "cf: known system: Thread"
 
+		fail
 mission "Company Foundations: Discover Port: Dancer"
 	name "Company Port Discovery"
 	invisible
@@ -817,6 +873,7 @@ mission "Company Foundations: Discover Port: Dancer"
 		set "cf: known planet: Dancer"
 		set "cf: known system: Rastaban"
 
+		fail
 mission "Company Foundations: Discover Port: Darkcloak"
 	name "Company Port Discovery"
 	invisible
@@ -833,6 +890,7 @@ mission "Company Foundations: Discover Port: Darkcloak"
 		set "cf: ship available: Sea Scorpion"
 		set "cf: ship available: Shield Beetle (Unfettered Shipyards)"
 
+		fail
 mission "Company Foundations: Discover Port: Darkmetal"
 	name "Company Port Discovery"
 	invisible
@@ -844,6 +902,7 @@ mission "Company Foundations: Discover Port: Darkmetal"
 		set "cf: known planet: Darkmetal"
 		set "cf: known system: Mei Yohn"
 
+		fail
 mission "Company Foundations: Discover Port: Darkstone"
 	name "Company Port Discovery"
 	invisible
@@ -855,6 +914,7 @@ mission "Company Foundations: Discover Port: Darkstone"
 		set "cf: known planet: Darkstone"
 		set "cf: known system: Han"
 
+		fail
 mission "Company Foundations: Discover Port: Deadman's Cove"
 	name "Company Port Discovery"
 	invisible
@@ -866,6 +926,7 @@ mission "Company Foundations: Discover Port: Deadman's Cove"
 		set "cf: known planet: Deadman's Cove"
 		set "cf: known system: Almach"
 
+		fail
 mission "Company Foundations: Discover Port: Deep"
 	name "Company Port Discovery"
 	invisible
@@ -877,6 +938,7 @@ mission "Company Foundations: Discover Port: Deep"
 		set "cf: known planet: Deep"
 		set "cf: known system: Kornephoros"
 
+		fail
 mission "Company Foundations: Discover Port: Deep Treasure"
 	name "Company Port Discovery"
 	invisible
@@ -888,6 +950,7 @@ mission "Company Foundations: Discover Port: Deep Treasure"
 		set "cf: known planet: Deep Treasure"
 		set "cf: known system: Silver String"
 
+		fail
 mission "Company Foundations: Discover Port: Deep Water"
 	name "Company Port Discovery"
 	invisible
@@ -899,6 +962,7 @@ mission "Company Foundations: Discover Port: Deep Water"
 		set "cf: known planet: Deep Water"
 		set "cf: known system: Remembrance"
 
+		fail
 mission "Company Foundations: Discover Port: Deli Kasi"
 	name "Company Port Discovery"
 	invisible
@@ -910,6 +974,7 @@ mission "Company Foundations: Discover Port: Deli Kasi"
 		set "cf: known planet: Deli Kasi"
 		set "cf: known system: Mego Seo"
 
+		fail
 mission "Company Foundations: Discover Port: Deli Kat"
 	name "Company Port Discovery"
 	invisible
@@ -921,6 +986,7 @@ mission "Company Foundations: Discover Port: Deli Kat"
 		set "cf: known planet: Deli Kat"
 		set "cf: known system: Mego Faro"
 
+		fail
 mission "Company Foundations: Discover Port: Delve"
 	name "Company Port Discovery"
 	invisible
@@ -942,6 +1008,7 @@ mission "Company Foundations: Discover Port: Delve"
 		set "cf: ship available: Sunder"
 		set "cf: ship available: Wasp"
 
+		fail
 mission "Company Foundations: Discover Port: Delve of Bloptab"
 	name "Company Port Discovery"
 	invisible
@@ -953,6 +1020,7 @@ mission "Company Foundations: Discover Port: Delve of Bloptab"
 		set "cf: known planet: Delve of Bloptab"
 		set "cf: known system: Bloptab"
 
+		fail
 mission "Company Foundations: Discover Port: Disara"
 	name "Company Port Discovery"
 	invisible
@@ -972,6 +1040,7 @@ mission "Company Foundations: Discover Port: Disara"
 		set "cf: ship available: Tanto"
 		set "cf: ship available: Tekkan"
 
+		fail
 mission "Company Foundations: Discover Port: Double Haze"
 	name "Company Port Discovery"
 	invisible
@@ -983,6 +1052,7 @@ mission "Company Foundations: Discover Port: Double Haze"
 		set "cf: known planet: Double Haze"
 		set "cf: known system: 4 Summer Rising"
 
+		fail
 mission "Company Foundations: Discover Port: Dueitch Ae"
 	name "Company Port Discovery"
 	invisible
@@ -997,6 +1067,7 @@ mission "Company Foundations: Discover Port: Dueitch Ae"
 		set "cf: ship available: Felsic"
 		set "cf: ship available: Mica"
 
+		fail
 mission "Company Foundations: Discover Port: Dueyu Eitch"
 	name "Company Port Discovery"
 	invisible
@@ -1014,6 +1085,7 @@ mission "Company Foundations: Discover Port: Dueyu Eitch"
 		set "cf: ship available: Conglomerate"
 		set "cf: ship available: Granofel"
 
+		fail
 mission "Company Foundations: Discover Port: Dune"
 	name "Company Port Discovery"
 	invisible
@@ -1025,6 +1097,7 @@ mission "Company Foundations: Discover Port: Dune"
 		set "cf: known planet: Dune"
 		set "cf: known system: Zeta Centauri"
 
+		fail
 mission "Company Foundations: Discover Port: Dusk Companion"
 	name "Company Port Discovery"
 	invisible
@@ -1036,6 +1109,7 @@ mission "Company Foundations: Discover Port: Dusk Companion"
 		set "cf: known planet: Dusk Companion"
 		set "cf: known system: 8 Winter Below"
 
+		fail
 mission "Company Foundations: Discover Port: Dustmaker"
 	name "Company Port Discovery"
 	invisible
@@ -1047,6 +1121,7 @@ mission "Company Foundations: Discover Port: Dustmaker"
 		set "cf: known planet: Dustmaker"
 		set "cf: known system: Rati Cal"
 
+		fail
 mission "Company Foundations: Discover Port: Dwelling of Speloog"
 	name "Company Port Discovery"
 	invisible
@@ -1058,6 +1133,7 @@ mission "Company Foundations: Discover Port: Dwelling of Speloog"
 		set "cf: known planet: Dwelling of Speloog"
 		set "cf: known system: Speloog"
 
+		fail
 mission "Company Foundations: Discover Port: Earth"
 	name "Company Port Discovery"
 	invisible
@@ -1069,6 +1145,7 @@ mission "Company Foundations: Discover Port: Earth"
 		set "cf: known planet: Earth"
 		set "cf: known system: Sol"
 
+		fail
 mission "Company Foundations: Discover Port: Echo"
 	name "Company Port Discovery"
 	invisible
@@ -1080,6 +1157,7 @@ mission "Company Foundations: Discover Port: Echo"
 		set "cf: known planet: Echo"
 		set "cf: known system: Tarazed"
 
+		fail
 mission "Company Foundations: Discover Port: Ef Aourtdye"
 	name "Company Port Discovery"
 	invisible
@@ -1094,6 +1172,7 @@ mission "Company Foundations: Discover Port: Ef Aourtdye"
 		set "cf: ship available: Conglomerate"
 		set "cf: ship available: Granofel"
 
+		fail
 mission "Company Foundations: Discover Port: Ef Osch"
 	name "Company Port Discovery"
 	invisible
@@ -1105,6 +1184,7 @@ mission "Company Foundations: Discover Port: Ef Osch"
 		set "cf: known planet: Ef Osch"
 		set "cf: known system: Pbelnep"
 
+		fail
 mission "Company Foundations: Discover Port: Ember Reaches"
 	name "Company Port Discovery"
 	invisible
@@ -1116,6 +1196,7 @@ mission "Company Foundations: Discover Port: Ember Reaches"
 		set "cf: known planet: Ember Reaches"
 		set "cf: known system: Convector"
 
+		fail
 mission "Company Foundations: Discover Port: Ember Wormhole"
 	name "Company Port Discovery"
 	invisible
@@ -1127,6 +1208,7 @@ mission "Company Foundations: Discover Port: Ember Wormhole"
 		set "cf: known planet: Ember Wormhole"
 		set "cf: known system: Insitor"
 
+		fail
 mission "Company Foundations: Discover Port: Enbye"
 	name "Company Port Discovery"
 	invisible
@@ -1143,6 +1225,7 @@ mission "Company Foundations: Discover Port: Enbye"
 		set "cf: ship available: Gneiss"
 		set "cf: ship available: Hornfel"
 
+		fail
 mission "Company Foundations: Discover Port: Enn Bue"
 	name "Company Port Discovery"
 	invisible
@@ -1161,6 +1244,7 @@ mission "Company Foundations: Discover Port: Enn Bue"
 		set "cf: ship available: Feldspar"
 		set "cf: ship available: Felsic"
 
+		fail
 mission "Company Foundations: Discover Port: Erabuthro"
 	name "Company Port Discovery"
 	invisible
@@ -1183,6 +1267,7 @@ mission "Company Foundations: Discover Port: Erabuthro"
 		set "cf: ship available: Chigiriki"
 		set "cf: ship available: Sasumata"
 
+		fail
 mission "Company Foundations: Discover Port: Eragarthro"
 	name "Company Port Discovery"
 	invisible
@@ -1198,6 +1283,7 @@ mission "Company Foundations: Discover Port: Eragarthro"
 		set "cf: ship available: Tanto"
 		set "cf: ship available: Tekkan"
 
+		fail
 mission "Company Foundations: Discover Port: Ergastirio Station"
 	name "Company Port Discovery"
 	invisible
@@ -1209,6 +1295,7 @@ mission "Company Foundations: Discover Port: Ergastirio Station"
 		set "cf: known planet: Ergastirio Station"
 		set "cf: known system: Symphony"
 
+		fail
 mission "Company Foundations: Discover Port: Essime"
 	name "Company Port Discovery"
 	invisible
@@ -1220,6 +1307,7 @@ mission "Company Foundations: Discover Port: Essime"
 		set "cf: known planet: Essime"
 		set "cf: known system: Ptetubo"
 
+		fail
 mission "Company Foundations: Discover Port: Everhope"
 	name "Company Port Discovery"
 	invisible
@@ -1231,6 +1319,7 @@ mission "Company Foundations: Discover Port: Everhope"
 		set "cf: known planet: Everhope"
 		set "cf: known system: Bote Asu"
 
+		fail
 mission "Company Foundations: Discover Port: Factory of Eblumab"
 	name "Company Port Discovery"
 	invisible
@@ -1242,6 +1331,7 @@ mission "Company Foundations: Discover Port: Factory of Eblumab"
 		set "cf: known planet: Factory of Eblumab"
 		set "cf: known system: Eblumab"
 
+		fail
 mission "Company Foundations: Discover Port: Far Garden"
 	name "Company Port Discovery"
 	invisible
@@ -1253,6 +1343,7 @@ mission "Company Foundations: Discover Port: Far Garden"
 		set "cf: known planet: Far Garden"
 		set "cf: known system: Companion"
 
+		fail
 mission "Company Foundations: Discover Port: Far Home"
 	name "Company Port Discovery"
 	invisible
@@ -1284,6 +1375,7 @@ mission "Company Foundations: Discover Port: Far Home"
 		set "cf: ship available: Saryd Traveler"
 		set "cf: ship available: Saryd Visitor"
 
+		fail
 mission "Company Foundations: Discover Port: Farpoint"
 	name "Company Port Discovery"
 	invisible
@@ -1295,6 +1387,7 @@ mission "Company Foundations: Discover Port: Farpoint"
 		set "cf: known planet: Farpoint"
 		set "cf: known system: Alnitak"
 
+		fail
 mission "Company Foundations: Discover Port: Farseer"
 	name "Company Port Discovery"
 	invisible
@@ -1306,6 +1399,7 @@ mission "Company Foundations: Discover Port: Farseer"
 		set "cf: known planet: Farseer"
 		set "cf: known system: Kursa"
 
+		fail
 mission "Company Foundations: Discover Port: Farwater"
 	name "Company Port Discovery"
 	invisible
@@ -1317,6 +1411,7 @@ mission "Company Foundations: Discover Port: Farwater"
 		set "cf: known planet: Farwater"
 		set "cf: known system: Wah Oh"
 
+		fail
 mission "Company Foundations: Discover Port: Featherweight"
 	name "Company Port Discovery"
 	invisible
@@ -1328,6 +1423,7 @@ mission "Company Foundations: Discover Port: Featherweight"
 		set "cf: known planet: Featherweight"
 		set "cf: known system: Mebsuta"
 
+		fail
 mission "Company Foundations: Discover Port: Fenrir Station"
 	name "Company Port Discovery"
 	invisible
@@ -1339,6 +1435,7 @@ mission "Company Foundations: Discover Port: Fenrir Station"
 		set "cf: known planet: Fenrir Station"
 		set "cf: known system: Avior"
 
+		fail
 mission "Company Foundations: Discover Port: Feo Platform"
 	name "Company Port Discovery"
 	invisible
@@ -1366,6 +1463,7 @@ mission "Company Foundations: Discover Port: Feo Platform"
 		set "cf: ship available: Undulon"
 		set "cf: ship available: Vibratia"
 
+		fail
 mission "Company Foundations: Discover Port: Firelode"
 	name "Company Port Discovery"
 	invisible
@@ -1377,6 +1475,7 @@ mission "Company Foundations: Discover Port: Firelode"
 		set "cf: known planet: Firelode"
 		set "cf: known system: Ehma Ti"
 
+		fail
 mission "Company Foundations: Discover Port: Flood"
 	name "Company Port Discovery"
 	invisible
@@ -1388,6 +1487,7 @@ mission "Company Foundations: Discover Port: Flood"
 		set "cf: known planet: Flood"
 		set "cf: known system: Unukalhai"
 
+		fail
 mission "Company Foundations: Discover Port: Flowing Fields"
 	name "Company Port Discovery"
 	invisible
@@ -1399,6 +1499,7 @@ mission "Company Foundations: Discover Port: Flowing Fields"
 		set "cf: known planet: Flowing Fields"
 		set "cf: known system: Four Pillars"
 
+		fail
 mission "Company Foundations: Discover Port: Follower"
 	name "Company Port Discovery"
 	invisible
@@ -1427,6 +1528,7 @@ mission "Company Foundations: Discover Port: Follower"
 		set "cf: ship available: Raven"
 		set "cf: ship available: Scout"
 
+		fail
 mission "Company Foundations: Discover Port: Forpelog"
 	name "Company Port Discovery"
 	invisible
@@ -1438,6 +1540,7 @@ mission "Company Foundations: Discover Port: Forpelog"
 		set "cf: known planet: Forpelog"
 		set "cf: known system: Sadalsuud"
 
+		fail
 mission "Company Foundations: Discover Port: Foundry"
 	name "Company Port Discovery"
 	invisible
@@ -1473,6 +1576,7 @@ mission "Company Foundations: Discover Port: Foundry"
 		set "cf: ship available: Sunder"
 		set "cf: ship available: Wasp"
 
+		fail
 mission "Company Foundations: Discover Port: Fourth Shadow"
 	name "Company Port Discovery"
 	invisible
@@ -1484,6 +1588,7 @@ mission "Company Foundations: Discover Port: Fourth Shadow"
 		set "cf: known planet: Fourth Shadow"
 		set "cf: known system: 3 Spring Rising"
 
+		fail
 mission "Company Foundations: Discover Port: Freedom"
 	name "Company Port Discovery"
 	invisible
@@ -1510,6 +1615,7 @@ mission "Company Foundations: Discover Port: Freedom"
 		set "cf: ship available: Headhunter"
 		set "cf: ship available: Scrapper"
 
+		fail
 mission "Company Foundations: Discover Port: Frostmark"
 	name "Company Port Discovery"
 	invisible
@@ -1521,6 +1627,7 @@ mission "Company Foundations: Discover Port: Frostmark"
 		set "cf: known planet: Frostmark"
 		set "cf: known system: Da Lest"
 
+		fail
 mission "Company Foundations: Discover Port: Furnace"
 	name "Company Port Discovery"
 	invisible
@@ -1532,6 +1639,7 @@ mission "Company Foundations: Discover Port: Furnace"
 		set "cf: known planet: Furnace"
 		set "cf: known system: Alderamin"
 
+		fail
 mission "Company Foundations: Discover Port: Gagarin"
 	name "Company Port Discovery"
 	invisible
@@ -1543,6 +1651,7 @@ mission "Company Foundations: Discover Port: Gagarin"
 		set "cf: known planet: Gagarin"
 		set "cf: known system: Belenos"
 
+		fail
 mission "Company Foundations: Discover Port: Garden Empyreal"
 	name "Company Port Discovery"
 	invisible
@@ -1554,6 +1663,7 @@ mission "Company Foundations: Discover Port: Garden Empyreal"
 		set "cf: known planet: Garden Empyreal"
 		set "cf: known system: 9 Spring Above"
 
+		fail
 mission "Company Foundations: Discover Port: Geminus"
 	name "Company Port Discovery"
 	invisible
@@ -1593,6 +1703,7 @@ mission "Company Foundations: Discover Port: Geminus"
 		set "cf: ship available: Rainmaker"
 		set "cf: ship available: Surveillance Drone"
 
+		fail
 mission "Company Foundations: Discover Port: Gemstone"
 	name "Company Port Discovery"
 	invisible
@@ -1604,6 +1715,7 @@ mission "Company Foundations: Discover Port: Gemstone"
 		set "cf: known planet: Gemstone"
 		set "cf: known system: Turais"
 
+		fail
 mission "Company Foundations: Discover Port: Gentle Rain"
 	name "Company Port Discovery"
 	invisible
@@ -1615,6 +1727,7 @@ mission "Company Foundations: Discover Port: Gentle Rain"
 		set "cf: known planet: Gentle Rain"
 		set "cf: known system: Last Word"
 
+		fail
 mission "Company Foundations: Discover Port: Geyser"
 	name "Company Port Discovery"
 	invisible
@@ -1626,6 +1739,7 @@ mission "Company Foundations: Discover Port: Geyser"
 		set "cf: known planet: Geyser"
 		set "cf: known system: Denebola"
 
+		fail
 mission "Company Foundations: Discover Port: Gi Tiures"
 	name "Company Port Discovery"
 	invisible
@@ -1637,6 +1751,7 @@ mission "Company Foundations: Discover Port: Gi Tiures"
 		set "cf: known planet: Gi Tiures"
 		set "cf: known system: Uttna"
 
+		fail
 mission "Company Foundations: Discover Port: Giaru Gegno"
 	name "Company Port Discovery"
 	invisible
@@ -1648,6 +1763,7 @@ mission "Company Foundations: Discover Port: Giaru Gegno"
 		set "cf: known planet: Giaru Gegno"
 		set "cf: known system: Aleit"
 
+		fail
 mission "Company Foundations: Discover Port: Giverstone"
 	name "Company Port Discovery"
 	invisible
@@ -1667,6 +1783,7 @@ mission "Company Foundations: Discover Port: Giverstone"
 		set "cf: ship available: Aphid"
 		set "cf: ship available: Grasshopper"
 
+		fail
 mission "Company Foundations: Discover Port: Glaze"
 	name "Company Port Discovery"
 	invisible
@@ -1687,6 +1804,7 @@ mission "Company Foundations: Discover Port: Glaze"
 		set "cf: ship available: Fury"
 		set "cf: ship available: Hauler"
 
+		fail
 mission "Company Foundations: Discover Port: Glittering Ice"
 	name "Company Port Discovery"
 	invisible
@@ -1698,6 +1816,7 @@ mission "Company Foundations: Discover Port: Glittering Ice"
 		set "cf: known planet: Glittering Ice"
 		set "cf: known system: Beginning"
 
+		fail
 mission "Company Foundations: Discover Port: Glory"
 	name "Company Port Discovery"
 	invisible
@@ -1709,6 +1828,7 @@ mission "Company Foundations: Discover Port: Glory"
 		set "cf: known planet: Glory"
 		set "cf: known system: Wazn"
 
+		fail
 mission "Company Foundations: Discover Port: Graede"
 	name "Company Port Discovery"
 	invisible
@@ -1726,6 +1846,7 @@ mission "Company Foundations: Discover Port: Graede"
 		set "cf: ship available: Gneiss"
 		set "cf: ship available: Hornfel"
 
+		fail
 mission "Company Foundations: Discover Port: Grakhord"
 	name "Company Port Discovery"
 	invisible
@@ -1737,6 +1858,7 @@ mission "Company Foundations: Discover Port: Grakhord"
 		set "cf: known planet: Grakhord"
 		set "cf: known system: Sadalmelik"
 
+		fail
 mission "Company Foundations: Discover Port: Greenbloom"
 	name "Company Port Discovery"
 	invisible
@@ -1748,6 +1870,7 @@ mission "Company Foundations: Discover Port: Greenbloom"
 		set "cf: known planet: Greenbloom"
 		set "cf: known system: Due Yoot"
 
+		fail
 mission "Company Foundations: Discover Port: Greenrock"
 	name "Company Port Discovery"
 	invisible
@@ -1781,6 +1904,7 @@ mission "Company Foundations: Discover Port: Greenrock"
 		set "cf: ship available: Hawk"
 		set "cf: ship available: Scrapper"
 
+		fail
 mission "Company Foundations: Discover Port: Greenview"
 	name "Company Port Discovery"
 	invisible
@@ -1792,6 +1916,7 @@ mission "Company Foundations: Discover Port: Greenview"
 		set "cf: known planet: Greenview"
 		set "cf: known system: Due Yoot"
 
+		fail
 mission "Company Foundations: Discover Port: Greenwater"
 	name "Company Port Discovery"
 	invisible
@@ -1811,6 +1936,7 @@ mission "Company Foundations: Discover Port: Greenwater"
 		set "cf: ship available: Aphid"
 		set "cf: ship available: Grasshopper"
 
+		fail
 mission "Company Foundations: Discover Port: Gresku Fodar"
 	name "Company Port Discovery"
 	invisible
@@ -1822,6 +1948,7 @@ mission "Company Foundations: Discover Port: Gresku Fodar"
 		set "cf: known planet: Gresku Fodar"
 		set "cf: known system: Kor Men"
 
+		fail
 mission "Company Foundations: Discover Port: Greymoon"
 	name "Company Port Discovery"
 	invisible
@@ -1833,6 +1960,7 @@ mission "Company Foundations: Discover Port: Greymoon"
 		set "cf: known planet: Greymoon"
 		set "cf: known system: Io Lowe"
 
+		fail
 mission "Company Foundations: Discover Port: Guardian Array Sapphire"
 	name "Company Port Discovery"
 	invisible
@@ -1844,6 +1972,7 @@ mission "Company Foundations: Discover Port: Guardian Array Sapphire"
 		set "cf: known planet: Guardian Array Sapphire"
 		set "cf: known system: Ablodab"
 
+		fail
 mission "Company Foundations: Discover Port: Gue Faur"
 	name "Company Port Discovery"
 	invisible
@@ -1859,6 +1988,7 @@ mission "Company Foundations: Discover Port: Gue Faur"
 		set "cf: ship available: Halite"
 		set "cf: ship available: Tridymite"
 
+		fail
 mission "Company Foundations: Discover Port: Hai-home"
 	name "Company Port Discovery"
 	invisible
@@ -1883,6 +2013,7 @@ mission "Company Foundations: Discover Port: Hai-home"
 		set "cf: ship available: Aphid"
 		set "cf: ship available: Grasshopper"
 
+		fail
 mission "Company Foundations: Discover Port: Hammer of Debrugt"
 	name "Company Port Discovery"
 	invisible
@@ -1904,6 +2035,7 @@ mission "Company Foundations: Discover Port: Hammer of Debrugt"
 		set "cf: ship available: Kimek Thorn"
 		set "cf: ship available: Saryd Runabout"
 
+		fail
 mission "Company Foundations: Discover Port: Harmony"
 	name "Company Port Discovery"
 	invisible
@@ -1915,6 +2047,7 @@ mission "Company Foundations: Discover Port: Harmony"
 		set "cf: known planet: Harmony"
 		set "cf: known system: Girtab"
 
+		fail
 mission "Company Foundations: Discover Port: Haven"
 	name "Company Port Discovery"
 	invisible
@@ -1942,6 +2075,7 @@ mission "Company Foundations: Discover Port: Haven"
 		set "cf: ship available: Headhunter"
 		set "cf: ship available: Scrapper"
 
+		fail
 mission "Company Foundations: Discover Port: Haze"
 	name "Company Port Discovery"
 	invisible
@@ -1960,6 +2094,7 @@ mission "Company Foundations: Discover Port: Haze"
 		set "cf: ship available: Raven"
 		set "cf: ship available: Scout"
 
+		fail
 mission "Company Foundations: Discover Port: Heartland"
 	name "Company Port Discovery"
 	invisible
@@ -1971,6 +2106,7 @@ mission "Company Foundations: Discover Port: Heartland"
 		set "cf: known planet: Heartland"
 		set "cf: known system: Cor Caroli"
 
+		fail
 mission "Company Foundations: Discover Port: Heartvalley"
 	name "Company Port Discovery"
 	invisible
@@ -1987,6 +2123,7 @@ mission "Company Foundations: Discover Port: Heartvalley"
 		set "cf: known shipyard: Mon Ki i'Hiya Basics"
 		set "cf: ship available: Aphid"
 
+		fail
 mission "Company Foundations: Discover Port: Helheim"
 	name "Company Port Discovery"
 	invisible
@@ -1998,6 +2135,7 @@ mission "Company Foundations: Discover Port: Helheim"
 		set "cf: known planet: Helheim"
 		set "cf: known system: Suhail"
 
+		fail
 mission "Company Foundations: Discover Port: Hephaestus"
 	name "Company Port Discovery"
 	invisible
@@ -2029,6 +2167,7 @@ mission "Company Foundations: Discover Port: Hephaestus"
 		set "cf: ship available: Sunder"
 		set "cf: ship available: Wasp"
 
+		fail
 mission "Company Foundations: Discover Port: Hermes"
 	name "Company Port Discovery"
 	invisible
@@ -2040,6 +2179,7 @@ mission "Company Foundations: Discover Port: Hermes"
 		set "cf: known planet: Hermes"
 		set "cf: known system: Capella"
 
+		fail
 mission "Company Foundations: Discover Port: Hestia"
 	name "Company Port Discovery"
 	invisible
@@ -2051,6 +2191,7 @@ mission "Company Foundations: Discover Port: Hestia"
 		set "cf: known planet: Hestia"
 		set "cf: known system: Talita"
 
+		fail
 mission "Company Foundations: Discover Port: Hippocrates"
 	name "Company Port Discovery"
 	invisible
@@ -2062,6 +2203,7 @@ mission "Company Foundations: Discover Port: Hippocrates"
 		set "cf: known planet: Hippocrates"
 		set "cf: known system: Alnair"
 
+		fail
 mission "Company Foundations: Discover Port: Hopper"
 	name "Company Port Discovery"
 	invisible
@@ -2073,6 +2215,7 @@ mission "Company Foundations: Discover Port: Hopper"
 		set "cf: known planet: Hopper"
 		set "cf: known system: Kaus Australis"
 
+		fail
 mission "Company Foundations: Discover Port: Humanika"
 	name "Company Port Discovery"
 	invisible
@@ -2084,6 +2227,7 @@ mission "Company Foundations: Discover Port: Humanika"
 		set "cf: known planet: Humanika"
 		set "cf: known system: Sadalmelik"
 
+		fail
 mission "Company Foundations: Discover Port: Icefall"
 	name "Company Port Discovery"
 	invisible
@@ -2095,6 +2239,7 @@ mission "Company Foundations: Discover Port: Icefall"
 		set "cf: known planet: Icefall"
 		set "cf: known system: Menkar"
 
+		fail
 mission "Company Foundations: Discover Port: Icelake"
 	name "Company Port Discovery"
 	invisible
@@ -2114,6 +2259,7 @@ mission "Company Foundations: Discover Port: Icelake"
 		set "cf: ship available: Aphid"
 		set "cf: ship available: Grasshopper"
 
+		fail
 mission "Company Foundations: Discover Port: Iddesato"
 	name "Company Port Discovery"
 	invisible
@@ -2125,6 +2271,7 @@ mission "Company Foundations: Discover Port: Iddesato"
 		set "cf: known planet: Iddesato"
 		set "cf: known system: Elabi Choati"
 
+		fail
 mission "Company Foundations: Discover Port: Iemn Eitch"
 	name "Company Port Discovery"
 	invisible
@@ -2136,6 +2283,7 @@ mission "Company Foundations: Discover Port: Iemn Eitch"
 		set "cf: known planet: Iemn Eitch"
 		set "cf: known system: Heutesl"
 
+		fail
 mission "Company Foundations: Discover Port: Illbo Avo"
 	name "Company Port Discovery"
 	invisible
@@ -2155,6 +2303,7 @@ mission "Company Foundations: Discover Port: Illbo Avo"
 		set "cf: ship available: Tanto"
 		set "cf: ship available: Tekkan"
 
+		fail
 mission "Company Foundations: Discover Port: Illbo Elo"
 	name "Company Port Discovery"
 	invisible
@@ -2166,6 +2315,7 @@ mission "Company Foundations: Discover Port: Illbo Elo"
 		set "cf: known planet: Illbo Elo"
 		set "cf: known system: Elo Chigo"
 
+		fail
 mission "Company Foundations: Discover Port: Ingot"
 	name "Company Port Discovery"
 	invisible
@@ -2177,6 +2327,7 @@ mission "Company Foundations: Discover Port: Ingot"
 		set "cf: known planet: Ingot"
 		set "cf: known system: Tania Australis"
 
+		fail
 mission "Company Foundations: Discover Port: Inmost Blue"
 	name "Company Port Discovery"
 	invisible
@@ -2188,6 +2339,7 @@ mission "Company Foundations: Discover Port: Inmost Blue"
 		set "cf: known planet: Inmost Blue"
 		set "cf: known system: 4 Winter Rising"
 
+		fail
 mission "Company Foundations: Discover Port: Into White"
 	name "Company Port Discovery"
 	invisible
@@ -2199,6 +2351,7 @@ mission "Company Foundations: Discover Port: Into White"
 		set "cf: known planet: Into White"
 		set "cf: known system: 5 Winter Above"
 
+		fail
 mission "Company Foundations: Discover Port: Iyra-Ijasa-Iret"
 	name "Company Port Discovery"
 	invisible
@@ -2210,6 +2363,7 @@ mission "Company Foundations: Discover Port: Iyra-Ijasa-Iret"
 		set "cf: known planet: Iyra-Ijasa-Iret"
 		set "cf: known system: Mosaa-Iyra"
 
+		fail
 mission "Company Foundations: Discover Port: Jakobsen"
 	name "Company Port Discovery"
 	invisible
@@ -2221,6 +2375,7 @@ mission "Company Foundations: Discover Port: Jakobsen"
 		set "cf: known planet: Jakobsen"
 		set "cf: known system: Alpherg"
 
+		fail
 mission "Company Foundations: Discover Port: Jentuthro"
 	name "Company Port Discovery"
 	invisible
@@ -2236,6 +2391,7 @@ mission "Company Foundations: Discover Port: Jentuthro"
 		set "cf: ship available: Tanto"
 		set "cf: ship available: Tekkan"
 
+		fail
 mission "Company Foundations: Discover Port: Karek Fornati"
 	name "Company Port Discovery"
 	invisible
@@ -2247,6 +2403,7 @@ mission "Company Foundations: Discover Port: Karek Fornati"
 		set "cf: known planet: Karek Fornati"
 		set "cf: known system: Sumprast"
 
+		fail
 mission "Company Foundations: Discover Port: Kasii-Cavasaa-Oa"
 	name "Company Port Discovery"
 	invisible
@@ -2265,6 +2422,7 @@ mission "Company Foundations: Discover Port: Kasii-Cavasaa-Oa"
 		set "cf: ship available: Myaede (Naive)"
 		set "cf: ship available: Stolsaqra (Naive)"
 
+		fail
 mission "Company Foundations: Discover Port: Kasii-Tuur-Saqru"
 	name "Company Port Discovery"
 	invisible
@@ -2280,6 +2438,7 @@ mission "Company Foundations: Discover Port: Kasii-Tuur-Saqru"
 		set "cf: known shipyard: Successor Basics"
 		set "cf: ship available: Kvelqde (Naive)"
 
+		fail
 mission "Company Foundations: Discover Port: Kasi-Osolaa-Sossa"
 	name "Company Port Discovery"
 	invisible
@@ -2291,6 +2450,7 @@ mission "Company Foundations: Discover Port: Kasi-Osolaa-Sossa"
 		set "cf: known planet: Kasi-Osolaa-Sossa"
 		set "cf: known system: Maspa-Cavaasa"
 
+		fail
 mission "Company Foundations: Discover Port: Kessel Sepret"
 	name "Company Port Discovery"
 	invisible
@@ -2302,6 +2462,7 @@ mission "Company Foundations: Discover Port: Kessel Sepret"
 		set "cf: known planet: Kessel Sepret"
 		set "cf: known system: Kor En'lakfar"
 
+		fail
 mission "Company Foundations: Discover Port: Khora-Vasa-Reyyaa"
 	name "Company Port Discovery"
 	invisible
@@ -2326,6 +2487,7 @@ mission "Company Foundations: Discover Port: Khora-Vasa-Reyyaa"
 		set "cf: ship available: Ojde (Naive)"
 		set "cf: ship available: Stolsaqra (Naive)"
 
+		fail
 mission "Company Foundations: Discover Port: Ki Patek Ka"
 	name "Company Port Discovery"
 	invisible
@@ -2346,6 +2508,7 @@ mission "Company Foundations: Discover Port: Ki Patek Ka"
 		set "cf: ship available: Kimek Thistle"
 		set "cf: ship available: Kimek Thorn"
 
+		fail
 mission "Company Foundations: Discover Port: Kisarra"
 	name "Company Port Discovery"
 	invisible
@@ -2357,6 +2520,7 @@ mission "Company Foundations: Discover Port: Kisarra"
 		set "cf: known planet: Kisarra"
 		set "cf: known system: Kifrana Terberah"
 
+		fail
 mission "Company Foundations: Discover Port: Korati Efreti"
 	name "Company Port Discovery"
 	invisible
@@ -2368,6 +2532,7 @@ mission "Company Foundations: Discover Port: Korati Efreti"
 		set "cf: known planet: Korati Efreti"
 		set "cf: known system: Dokdobaru"
 
+		fail
 mission "Company Foundations: Discover Port: Kort Kehai"
 	name "Company Port Discovery"
 	invisible
@@ -2379,6 +2544,7 @@ mission "Company Foundations: Discover Port: Kort Kehai"
 		set "cf: known planet: Kort Kehai"
 		set "cf: known system: Ek'kek'ru"
 
+		fail
 mission "Company Foundations: Discover Port: Kort Vek'kri"
 	name "Company Port Discovery"
 	invisible
@@ -2390,6 +2556,7 @@ mission "Company Foundations: Discover Port: Kort Vek'kri"
 		set "cf: known planet: Kort Vek'kri"
 		set "cf: known system: Chirr'ay'akai"
 
+		fail
 mission "Company Foundations: Discover Port: Kraken Station"
 	name "Company Port Discovery"
 	invisible
@@ -2401,6 +2568,7 @@ mission "Company Foundations: Discover Port: Kraken Station"
 		set "cf: known planet: Kraken Station"
 		set "cf: known system: Caph"
 
+		fail
 mission "Company Foundations: Discover Port: Kua-Oa-Aava"
 	name "Company Port Discovery"
 	invisible
@@ -2412,6 +2580,7 @@ mission "Company Foundations: Discover Port: Kua-Oa-Aava"
 		set "cf: known planet: Kua-Oa-Aava"
 		set "cf: known system: Uuoru-Kella"
 
+		fail
 mission "Company Foundations: Discover Port: Kuwaru Efreti"
 	name "Company Port Discovery"
 	invisible
@@ -2423,6 +2592,7 @@ mission "Company Foundations: Discover Port: Kuwaru Efreti"
 		set "cf: known planet: Kuwaru Efreti"
 		set "cf: known system: Dokdobaru"
 
+		fail
 mission "Company Foundations: Discover Port: Lagrange"
 	name "Company Port Discovery"
 	invisible
@@ -2434,6 +2604,7 @@ mission "Company Foundations: Discover Port: Lagrange"
 		set "cf: known planet: Lagrange"
 		set "cf: known system: Enif"
 
+		fail
 mission "Company Foundations: Discover Port: Laki Nemparu"
 	name "Company Port Discovery"
 	invisible
@@ -2445,6 +2616,7 @@ mission "Company Foundations: Discover Port: Laki Nemparu"
 		set "cf: known planet: Laki Nemparu"
 		set "cf: known system: Kashikt"
 
+		fail
 mission "Company Foundations: Discover Port: Leviathan Station"
 	name "Company Port Discovery"
 	invisible
@@ -2456,6 +2628,7 @@ mission "Company Foundations: Discover Port: Leviathan Station"
 		set "cf: known planet: Leviathan Station"
 		set "cf: known system: Suhail"
 
+		fail
 mission "Company Foundations: Discover Port: Lichen"
 	name "Company Port Discovery"
 	invisible
@@ -2467,6 +2640,7 @@ mission "Company Foundations: Discover Port: Lichen"
 		set "cf: known planet: Lichen"
 		set "cf: known system: Atria"
 
+		fail
 mission "Company Foundations: Discover Port: Livolua"
 	name "Company Port Discovery"
 	invisible
@@ -2478,6 +2652,7 @@ mission "Company Foundations: Discover Port: Livolua"
 		set "cf: known planet: Livolua"
 		set "cf: known system: Clip"
 
+		fail
 mission "Company Foundations: Discover Port: Lodestone"
 	name "Company Port Discovery"
 	invisible
@@ -2489,6 +2664,7 @@ mission "Company Foundations: Discover Port: Lodestone"
 		set "cf: known planet: Lodestone"
 		set "cf: known system: Ankaa"
 
+		fail
 mission "Company Foundations: Discover Port: Longjump"
 	name "Company Port Discovery"
 	invisible
@@ -2500,6 +2676,7 @@ mission "Company Foundations: Discover Port: Longjump"
 		set "cf: known planet: Longjump"
 		set "cf: known system: Sabik"
 
+		fail
 mission "Company Foundations: Discover Port: Luna"
 	name "Company Port Discovery"
 	invisible
@@ -2535,6 +2712,7 @@ mission "Company Foundations: Discover Port: Luna"
 		set "cf: known shipyard: Tycho Crater Advanced"
 		set "cf: ship available: Hogshead"
 
+		fail
 mission "Company Foundations: Discover Port: Maelstrom"
 	name "Company Port Discovery"
 	invisible
@@ -2546,6 +2724,7 @@ mission "Company Foundations: Discover Port: Maelstrom"
 		set "cf: known planet: Maelstrom"
 		set "cf: known system: Nihal"
 
+		fail
 mission "Company Foundations: Discover Port: Mainsail"
 	name "Company Port Discovery"
 	invisible
@@ -2573,6 +2752,7 @@ mission "Company Foundations: Discover Port: Mainsail"
 		set "cf: ship available: Shuttle"
 		set "cf: ship available: Star Queen"
 
+		fail
 mission "Company Foundations: Discover Port: Maker"
 	name "Company Port Discovery"
 	invisible
@@ -2584,6 +2764,7 @@ mission "Company Foundations: Discover Port: Maker"
 		set "cf: known planet: Maker"
 		set "cf: known system: Delta Capricorni"
 
+		fail
 mission "Company Foundations: Discover Port: Makerplace"
 	name "Company Port Discovery"
 	invisible
@@ -2606,6 +2787,7 @@ mission "Company Foundations: Discover Port: Makerplace"
 		set "cf: ship available: Aphid"
 		set "cf: ship available: Grasshopper"
 
+		fail
 mission "Company Foundations: Discover Port: Mani"
 	name "Company Port Discovery"
 	invisible
@@ -2617,6 +2799,7 @@ mission "Company Foundations: Discover Port: Mani"
 		set "cf: known planet: Mani"
 		set "cf: known system: Avior"
 
+		fail
 mission "Company Foundations: Discover Port: Market of Gupta"
 	name "Company Port Discovery"
 	invisible
@@ -2638,6 +2821,7 @@ mission "Company Foundations: Discover Port: Market of Gupta"
 		set "cf: ship available: Kimek Thorn"
 		set "cf: ship available: Saryd Runabout"
 
+		fail
 mission "Company Foundations: Discover Port: Mars"
 	name "Company Port Discovery"
 	invisible
@@ -2649,6 +2833,7 @@ mission "Company Foundations: Discover Port: Mars"
 		set "cf: known planet: Mars"
 		set "cf: known system: Sol"
 
+		fail
 mission "Company Foundations: Discover Port: Martini"
 	name "Company Port Discovery"
 	invisible
@@ -2660,6 +2845,7 @@ mission "Company Foundations: Discover Port: Martini"
 		set "cf: known planet: Martini"
 		set "cf: known system: Pollux"
 
+		fail
 mission "Company Foundations: Discover Port: Mavra-Sol-Kvel"
 	name "Company Port Discovery"
 	invisible
@@ -2671,6 +2857,7 @@ mission "Company Foundations: Discover Port: Mavra-Sol-Kvel"
 		set "cf: known planet: Mavra-Sol-Kvel"
 		set "cf: known system: Stiidej-Nnesa"
 
+		fail
 mission "Company Foundations: Discover Port: Mebla's Portion"
 	name "Company Port Discovery"
 	invisible
@@ -2682,6 +2869,7 @@ mission "Company Foundations: Discover Port: Mebla's Portion"
 		set "cf: known planet: Mebla's Portion"
 		set "cf: known system: Mebla"
 
+		fail
 mission "Company Foundations: Discover Port: Melenci"
 	name "Company Port Discovery"
 	invisible
@@ -2697,6 +2885,7 @@ mission "Company Foundations: Discover Port: Melenci"
 		set "cf: ship available: Tanto"
 		set "cf: ship available: Tekkan"
 
+		fail
 mission "Company Foundations: Discover Port: Memory"
 	name "Company Port Discovery"
 	invisible
@@ -2708,6 +2897,7 @@ mission "Company Foundations: Discover Port: Memory"
 		set "cf: known planet: Memory"
 		set "cf: known system: Zosma"
 
+		fail
 mission "Company Foundations: Discover Port: Mere"
 	name "Company Port Discovery"
 	invisible
@@ -2719,6 +2909,7 @@ mission "Company Foundations: Discover Port: Mere"
 		set "cf: known planet: Mere"
 		set "cf: known system: Kochab"
 
+		fail
 mission "Company Foundations: Discover Port: Miblulub's Plenty"
 	name "Company Port Discovery"
 	invisible
@@ -2730,6 +2921,7 @@ mission "Company Foundations: Discover Port: Miblulub's Plenty"
 		set "cf: known planet: Miblulub's Plenty"
 		set "cf: known system: Miblulub"
 
+		fail
 mission "Company Foundations: Discover Port: Midgard"
 	name "Company Port Discovery"
 	invisible
@@ -2756,6 +2948,7 @@ mission "Company Foundations: Discover Port: Midgard"
 		set "cf: ship available: Raven"
 		set "cf: ship available: Scout"
 
+		fail
 mission "Company Foundations: Discover Port: Midway Emerald"
 	name "Company Port Discovery"
 	invisible
@@ -2771,6 +2964,7 @@ mission "Company Foundations: Discover Port: Midway Emerald"
 		set "cf: ship available: Kimek Thorn"
 		set "cf: ship available: Saryd Runabout"
 
+		fail
 mission "Company Foundations: Discover Port: Millrace"
 	name "Company Port Discovery"
 	invisible
@@ -2782,6 +2976,7 @@ mission "Company Foundations: Discover Port: Millrace"
 		set "cf: known planet: Millrace"
 		set "cf: known system: Fomalhaut"
 
+		fail
 mission "Company Foundations: Discover Port: Mirrorlake"
 	name "Company Port Discovery"
 	invisible
@@ -2793,6 +2988,7 @@ mission "Company Foundations: Discover Port: Mirrorlake"
 		set "cf: known planet: Mirrorlake"
 		set "cf: known system: Ya Hai"
 
+		fail
 mission "Company Foundations: Discover Port: Moonshake"
 	name "Company Port Discovery"
 	invisible
@@ -2804,6 +3000,7 @@ mission "Company Foundations: Discover Port: Moonshake"
 		set "cf: known planet: Moonshake"
 		set "cf: known system: Alpheratz"
 
+		fail
 mission "Company Foundations: Discover Port: Mordente-Bridi"
 	name "Company Port Discovery"
 	invisible
@@ -2835,6 +3032,7 @@ mission "Company Foundations: Discover Port: Mordente-Bridi"
 		set "cf: ship available: Hawk"
 		set "cf: ship available: Scrapper"
 
+		fail
 mission "Company Foundations: Discover Port: Mosaa-Oa-Vyret"
 	name "Company Port Discovery"
 	invisible
@@ -2846,6 +3044,7 @@ mission "Company Foundations: Discover Port: Mosaa-Oa-Vyret"
 		set "cf: known planet: Mosaa-Oa-Vyret"
 		set "cf: known system: Aaura-Kaska"
 
+		fail
 mission "Company Foundations: Discover Port: Muninn Station"
 	name "Company Port Discovery"
 	invisible
@@ -2857,6 +3056,7 @@ mission "Company Foundations: Discover Port: Muninn Station"
 		set "cf: known planet: Muninn Station"
 		set "cf: known system: Zosma"
 
+		fail
 mission "Company Foundations: Discover Port: Muspel"
 	name "Company Port Discovery"
 	invisible
@@ -2868,6 +3068,7 @@ mission "Company Foundations: Discover Port: Muspel"
 		set "cf: known planet: Muspel"
 		set "cf: known system: Adhara"
 
+		fail
 mission "Company Foundations: Discover Port: Navigeo Yards"
 	name "Company Port Discovery"
 	invisible
@@ -2909,6 +3110,7 @@ mission "Company Foundations: Discover Port: Navigeo Yards"
 		set "cf: ship available: Undulon"
 		set "cf: ship available: Vibratia"
 
+		fail
 mission "Company Foundations: Discover Port: Nearby Jade"
 	name "Company Port Discovery"
 	invisible
@@ -2920,6 +3122,7 @@ mission "Company Foundations: Discover Port: Nearby Jade"
 		set "cf: known planet: Nearby Jade"
 		set "cf: known system: 5 Summer Above"
 
+		fail
 mission "Company Foundations: Discover Port: New Argentina"
 	name "Company Port Discovery"
 	invisible
@@ -2931,6 +3134,7 @@ mission "Company Foundations: Discover Port: New Argentina"
 		set "cf: known planet: New Argentina"
 		set "cf: known system: Vindemiatrix"
 
+		fail
 mission "Company Foundations: Discover Port: New Austria"
 	name "Company Port Discovery"
 	invisible
@@ -2942,6 +3146,7 @@ mission "Company Foundations: Discover Port: New Austria"
 		set "cf: known planet: New Austria"
 		set "cf: known system: Menkent"
 
+		fail
 mission "Company Foundations: Discover Port: New Boston"
 	name "Company Port Discovery"
 	invisible
@@ -2957,6 +3162,7 @@ mission "Company Foundations: Discover Port: New Boston"
 		set "cf: ship available: Sparrow"
 		set "cf: ship available: Star Barge"
 
+		fail
 mission "Company Foundations: Discover Port: New Britain"
 	name "Company Port Discovery"
 	invisible
@@ -2976,6 +3182,7 @@ mission "Company Foundations: Discover Port: New Britain"
 		set "cf: ship available: Hawk"
 		set "cf: ship available: Sparrow"
 
+		fail
 mission "Company Foundations: Discover Port: New China"
 	name "Company Port Discovery"
 	invisible
@@ -2987,6 +3194,7 @@ mission "Company Foundations: Discover Port: New China"
 		set "cf: known planet: New China"
 		set "cf: known system: Merak"
 
+		fail
 mission "Company Foundations: Discover Port: New Finding"
 	name "Company Port Discovery"
 	invisible
@@ -2998,6 +3206,7 @@ mission "Company Foundations: Discover Port: New Finding"
 		set "cf: known planet: New Finding"
 		set "cf: known system: Answer"
 
+		fail
 mission "Company Foundations: Discover Port: New Greenland"
 	name "Company Port Discovery"
 	invisible
@@ -3009,6 +3218,7 @@ mission "Company Foundations: Discover Port: New Greenland"
 		set "cf: known planet: New Greenland"
 		set "cf: known system: Arcturus"
 
+		fail
 mission "Company Foundations: Discover Port: New Holland"
 	name "Company Port Discovery"
 	invisible
@@ -3020,6 +3230,7 @@ mission "Company Foundations: Discover Port: New Holland"
 		set "cf: known planet: New Holland"
 		set "cf: known system: Alphecca"
 
+		fail
 mission "Company Foundations: Discover Port: New Iceland"
 	name "Company Port Discovery"
 	invisible
@@ -3031,6 +3242,7 @@ mission "Company Foundations: Discover Port: New Iceland"
 		set "cf: known planet: New Iceland"
 		set "cf: known system: Kaus Borealis"
 
+		fail
 mission "Company Foundations: Discover Port: New India"
 	name "Company Port Discovery"
 	invisible
@@ -3042,6 +3254,7 @@ mission "Company Foundations: Discover Port: New India"
 		set "cf: known planet: New India"
 		set "cf: known system: Albaldah"
 
+		fail
 mission "Company Foundations: Discover Port: New Kansas"
 	name "Company Port Discovery"
 	invisible
@@ -3053,6 +3266,7 @@ mission "Company Foundations: Discover Port: New Kansas"
 		set "cf: known planet: New Kansas"
 		set "cf: known system: Muhlifain"
 
+		fail
 mission "Company Foundations: Discover Port: New Portland"
 	name "Company Port Discovery"
 	invisible
@@ -3064,6 +3278,7 @@ mission "Company Foundations: Discover Port: New Portland"
 		set "cf: known planet: New Portland"
 		set "cf: known system: Delta Sagittarii"
 
+		fail
 mission "Company Foundations: Discover Port: New Sahara"
 	name "Company Port Discovery"
 	invisible
@@ -3075,6 +3290,7 @@ mission "Company Foundations: Discover Port: New Sahara"
 		set "cf: known planet: New Sahara"
 		set "cf: known system: Phecda"
 
+		fail
 mission "Company Foundations: Discover Port: New Switzerland"
 	name "Company Port Discovery"
 	invisible
@@ -3086,6 +3302,7 @@ mission "Company Foundations: Discover Port: New Switzerland"
 		set "cf: known planet: New Switzerland"
 		set "cf: known system: Porrima"
 
+		fail
 mission "Company Foundations: Discover Port: New Tibet"
 	name "Company Port Discovery"
 	invisible
@@ -3097,6 +3314,7 @@ mission "Company Foundations: Discover Port: New Tibet"
 		set "cf: known planet: New Tibet"
 		set "cf: known system: Alioth"
 
+		fail
 mission "Company Foundations: Discover Port: New Tortuga"
 	name "Company Port Discovery"
 	invisible
@@ -3137,6 +3355,7 @@ mission "Company Foundations: Discover Port: New Tortuga"
 		set "cf: ship available: Hawk"
 		set "cf: ship available: Scrapper"
 
+		fail
 mission "Company Foundations: Discover Port: New Wales"
 	name "Company Port Discovery"
 	invisible
@@ -3148,6 +3367,7 @@ mission "Company Foundations: Discover Port: New Wales"
 		set "cf: known planet: New Wales"
 		set "cf: known system: Algorel"
 
+		fail
 mission "Company Foundations: Discover Port: New Washington"
 	name "Company Port Discovery"
 	invisible
@@ -3159,6 +3379,7 @@ mission "Company Foundations: Discover Port: New Washington"
 		set "cf: known planet: New Washington"
 		set "cf: known system: Peacock"
 
+		fail
 mission "Company Foundations: Discover Port: Newhome"
 	name "Company Port Discovery"
 	invisible
@@ -3170,6 +3391,7 @@ mission "Company Foundations: Discover Port: Newhome"
 		set "cf: known planet: Newhome"
 		set "cf: known system: Da Ent"
 
+		fail
 mission "Company Foundations: Discover Port: Nifel"
 	name "Company Port Discovery"
 	invisible
@@ -3181,6 +3403,7 @@ mission "Company Foundations: Discover Port: Nifel"
 		set "cf: known planet: Nifel"
 		set "cf: known system: Gomeisa"
 
+		fail
 mission "Company Foundations: Discover Port: Nimbus"
 	name "Company Port Discovery"
 	invisible
@@ -3192,6 +3415,7 @@ mission "Company Foundations: Discover Port: Nimbus"
 		set "cf: known planet: Nimbus"
 		set "cf: known system: Alpha Hydri"
 
+		fail
 mission "Company Foundations: Discover Port: Norn"
 	name "Company Port Discovery"
 	invisible
@@ -3210,6 +3434,7 @@ mission "Company Foundations: Discover Port: Norn"
 		set "cf: ship available: Raven"
 		set "cf: ship available: Scout"
 
+		fail
 mission "Company Foundations: Discover Port: Oasis"
 	name "Company Port Discovery"
 	invisible
@@ -3221,6 +3446,7 @@ mission "Company Foundations: Discover Port: Oasis"
 		set "cf: known planet: Oasis"
 		set "cf: known system: Spica"
 
+		fail
 mission "Company Foundations: Discover Port: Oblivion"
 	name "Company Port Discovery"
 	invisible
@@ -3232,6 +3458,7 @@ mission "Company Foundations: Discover Port: Oblivion"
 		set "cf: known planet: Oblivion"
 		set "cf: known system: Rasalhague"
 
+		fail
 mission "Company Foundations: Discover Port: Ochrescoop"
 	name "Company Port Discovery"
 	invisible
@@ -3243,6 +3470,7 @@ mission "Company Foundations: Discover Port: Ochrescoop"
 		set "cf: known planet: Ochrescoop"
 		set "cf: known system: Wah Oh"
 
+		fail
 mission "Company Foundations: Discover Port: Ogmur's Siphon"
 	name "Company Port Discovery"
 	invisible
@@ -3254,6 +3482,7 @@ mission "Company Foundations: Discover Port: Ogmur's Siphon"
 		set "cf: known planet: Ogmur's Siphon"
 		set "cf: known system: Ablodab"
 
+		fail
 mission "Company Foundations: Discover Port: Okoity"
 	name "Company Port Discovery"
 	invisible
@@ -3269,6 +3498,7 @@ mission "Company Foundations: Discover Port: Okoity"
 		set "cf: ship available: Tanto"
 		set "cf: ship available: Tekkan"
 
+		fail
 mission "Company Foundations: Discover Port: Oup Je"
 	name "Company Port Discovery"
 	invisible
@@ -3280,6 +3510,7 @@ mission "Company Foundations: Discover Port: Oup Je"
 		set "cf: known planet: Oup Je"
 		set "cf: known system: Auhru"
 
+		fail
 mission "Company Foundations: Discover Port: Outpost Enka"
 	name "Company Port Discovery"
 	invisible
@@ -3311,6 +3542,7 @@ mission "Company Foundations: Discover Port: Outpost Enka"
 		set "cf: ship available: Akoustiki"
 		set "cf: ship available: Sonikis"
 
+		fail
 mission "Company Foundations: Discover Port: Outpost Leto"
 	name "Company Port Discovery"
 	invisible
@@ -3322,6 +3554,7 @@ mission "Company Foundations: Discover Port: Outpost Leto"
 		set "cf: known planet: Outpost Leto"
 		set "cf: known system: Demilude"
 
+		fail
 mission "Company Foundations: Discover Port: Outpost Pilos"
 	name "Company Port Discovery"
 	invisible
@@ -3333,6 +3566,7 @@ mission "Company Foundations: Discover Port: Outpost Pilos"
 		set "cf: known planet: Outpost Pilos"
 		set "cf: known system: Anthem"
 
+		fail
 mission "Company Foundations: Discover Port: Outpost Tekis"
 	name "Company Port Discovery"
 	invisible
@@ -3363,6 +3597,7 @@ mission "Company Foundations: Discover Port: Outpost Tekis"
 		set "cf: ship available: Akoustiki"
 		set "cf: ship available: Sonikis"
 
+		fail
 mission "Company Foundations: Discover Port: O-Vasa-Oa"
 	name "Company Port Discovery"
 	invisible
@@ -3389,6 +3624,7 @@ mission "Company Foundations: Discover Port: O-Vasa-Oa"
 		set "cf: ship available: Ojde (Naive)"
 		set "cf: ship available: Stolsaqra (Naive)"
 
+		fail
 mission "Company Foundations: Discover Port: Pearl"
 	name "Company Port Discovery"
 	invisible
@@ -3400,6 +3636,7 @@ mission "Company Foundations: Discover Port: Pearl"
 		set "cf: known planet: Pearl"
 		set "cf: known system: Phurad"
 
+		fail
 mission "Company Foundations: Discover Port: Pelubta Station"
 	name "Company Port Discovery"
 	invisible
@@ -3411,6 +3648,7 @@ mission "Company Foundations: Discover Port: Pelubta Station"
 		set "cf: known planet: Pelubta Station"
 		set "cf: known system: Pelubta"
 
+		fail
 mission "Company Foundations: Discover Port: Periaxle Circuit"
 	name "Company Port Discovery"
 	invisible
@@ -3422,6 +3660,7 @@ mission "Company Foundations: Discover Port: Periaxle Circuit"
 		set "cf: known planet: Periaxle Circuit"
 		set "cf: known system: Silver Bell"
 
+		fail
 mission "Company Foundations: Discover Port: Peripheria"
 	name "Company Port Discovery"
 	invisible
@@ -3455,6 +3694,7 @@ mission "Company Foundations: Discover Port: Peripheria"
 		set "cf: ship available: Undulon"
 		set "cf: ship available: Vibratia"
 
+		fail
 mission "Company Foundations: Discover Port: Pilot"
 	name "Company Port Discovery"
 	invisible
@@ -3466,6 +3706,7 @@ mission "Company Foundations: Discover Port: Pilot"
 		set "cf: known planet: Pilot"
 		set "cf: known system: Elnath"
 
+		fail
 mission "Company Foundations: Discover Port: Placer"
 	name "Company Port Discovery"
 	invisible
@@ -3477,6 +3718,7 @@ mission "Company Foundations: Discover Port: Placer"
 		set "cf: known planet: Placer"
 		set "cf: known system: Mirach"
 
+		fail
 mission "Company Foundations: Discover Port: Plort's Water"
 	name "Company Port Discovery"
 	invisible
@@ -3488,6 +3730,7 @@ mission "Company Foundations: Discover Port: Plort's Water"
 		set "cf: known planet: Plort's Water"
 		set "cf: known system: Plort"
 
+		fail
 mission "Company Foundations: Discover Port: Poisonwood"
 	name "Company Port Discovery"
 	invisible
@@ -3499,6 +3742,7 @@ mission "Company Foundations: Discover Port: Poisonwood"
 		set "cf: known planet: Poisonwood"
 		set "cf: known system: Graffias"
 
+		fail
 mission "Company Foundations: Discover Port: Pon'tes"
 	name "Company Port Discovery"
 	invisible
@@ -3515,6 +3759,7 @@ mission "Company Foundations: Discover Port: Pon'tes"
 		set "cf: ship available: Nimbo Stratus"
 		set "cf: ship available: Nimbus"
 
+		fail
 mission "Company Foundations: Discover Port: Poseidos"
 	name "Company Port Discovery"
 	invisible
@@ -3526,6 +3771,7 @@ mission "Company Foundations: Discover Port: Poseidos"
 		set "cf: known planet: Poseidos"
 		set "cf: known system: Izar"
 
+		fail
 mission "Company Foundations: Discover Port: Prime"
 	name "Company Port Discovery"
 	invisible
@@ -3558,6 +3804,7 @@ mission "Company Foundations: Discover Port: Prime"
 		set "cf: ship available: Rainmaker"
 		set "cf: ship available: Surveillance Drone"
 
+		fail
 mission "Company Foundations: Discover Port: Pugglemug"
 	name "Company Port Discovery"
 	invisible
@@ -3569,6 +3816,7 @@ mission "Company Foundations: Discover Port: Pugglemug"
 		set "cf: known planet: Pugglemug"
 		set "cf: known system: Deneb"
 
+		fail
 mission "Company Foundations: Discover Port: Pugglequat"
 	name "Company Port Discovery"
 	invisible
@@ -3580,6 +3828,7 @@ mission "Company Foundations: Discover Port: Pugglequat"
 		set "cf: known planet: Pugglequat"
 		set "cf: known system: Deneb"
 
+		fail
 mission "Company Foundations: Discover Port: Quicksilver"
 	name "Company Port Discovery"
 	invisible
@@ -3591,6 +3840,7 @@ mission "Company Foundations: Discover Port: Quicksilver"
 		set "cf: known planet: Quicksilver"
 		set "cf: known system: Algol"
 
+		fail
 mission "Company Foundations: Discover Port: Raaqa-Kvelq-Ryuit"
 	name "Company Port Discovery"
 	invisible
@@ -3602,6 +3852,7 @@ mission "Company Foundations: Discover Port: Raaqa-Kvelq-Ryuit"
 		set "cf: known planet: Raaqa-Kvelq-Ryuit"
 		set "cf: known system: Ojstaan-Sola"
 
+		fail
 mission "Company Foundations: Discover Port: Raaqa-Puan-Uuoru"
 	name "Company Port Discovery"
 	invisible
@@ -3620,6 +3871,7 @@ mission "Company Foundations: Discover Port: Raaqa-Puan-Uuoru"
 		set "cf: known shipyard: Successor Basics"
 		set "cf: ship available: Kvelqde (Naive)"
 
+		fail
 mission "Company Foundations: Discover Port: Rand"
 	name "Company Port Discovery"
 	invisible
@@ -3631,6 +3883,7 @@ mission "Company Foundations: Discover Port: Rand"
 		set "cf: known planet: Rand"
 		set "cf: known system: Zeta Aquilae"
 
+		fail
 mission "Company Foundations: Discover Port: Redias"
 	name "Company Port Discovery"
 	invisible
@@ -3642,6 +3895,7 @@ mission "Company Foundations: Discover Port: Redias"
 		set "cf: known planet: Redias"
 		set "cf: known system: Dom'us"
 
+		fail
 mission "Company Foundations: Discover Port: Refuge of Belugt"
 	name "Company Port Discovery"
 	invisible
@@ -3653,6 +3907,7 @@ mission "Company Foundations: Discover Port: Refuge of Belugt"
 		set "cf: known planet: Refuge of Belugt"
 		set "cf: known system: Belugt"
 
+		fail
 mission "Company Foundations: Discover Port: Relic"
 	name "Company Port Discovery"
 	invisible
@@ -3664,6 +3919,7 @@ mission "Company Foundations: Discover Port: Relic"
 		set "cf: known planet: Relic"
 		set "cf: known system: Sirius"
 
+		fail
 mission "Company Foundations: Discover Port: Remnant Wormhole"
 	name "Company Port Discovery"
 	invisible
@@ -3675,6 +3931,7 @@ mission "Company Foundations: Discover Port: Remnant Wormhole"
 		set "cf: known planet: Remnant Wormhole"
 		set "cf: known system: Edusa"
 
+		fail
 mission "Company Foundations: Discover Port: Remote Blue"
 	name "Company Port Discovery"
 	invisible
@@ -3691,6 +3948,7 @@ mission "Company Foundations: Discover Port: Remote Blue"
 		set "cf: ship available: Kimek Thistle"
 		set "cf: ship available: Kimek Thorn"
 
+		fail
 mission "Company Foundations: Discover Port: Reunion"
 	name "Company Port Discovery"
 	invisible
@@ -3718,6 +3976,7 @@ mission "Company Foundations: Discover Port: Reunion"
 		set "cf: known shipyard: Tycho Crater Advanced"
 		set "cf: ship available: Hogshead"
 
+		fail
 mission "Company Foundations: Discover Port: Ring of Friendship"
 	name "Company Port Discovery"
 	invisible
@@ -3729,6 +3988,7 @@ mission "Company Foundations: Discover Port: Ring of Friendship"
 		set "cf: known planet: Ring of Friendship"
 		set "cf: known system: Quaru"
 
+		fail
 mission "Company Foundations: Discover Port: Ring of Power"
 	name "Company Port Discovery"
 	invisible
@@ -3740,6 +4000,7 @@ mission "Company Foundations: Discover Port: Ring of Power"
 		set "cf: known planet: Ring of Power"
 		set "cf: known system: Ki War Ek"
 
+		fail
 mission "Company Foundations: Discover Port: Ring of Wisdom"
 	name "Company Port Discovery"
 	invisible
@@ -3751,6 +4012,7 @@ mission "Company Foundations: Discover Port: Ring of Wisdom"
 		set "cf: known planet: Ring of Wisdom"
 		set "cf: known system: Ekuarik"
 
+		fail
 mission "Company Foundations: Discover Port: Ruelogakk"
 	name "Company Port Discovery"
 	invisible
@@ -3762,6 +4024,7 @@ mission "Company Foundations: Discover Port: Ruelogakk"
 		set "cf: known planet: Ruelogakk"
 		set "cf: known system: Ghhil"
 
+		fail
 mission "Company Foundations: Discover Port: Rust"
 	name "Company Port Discovery"
 	invisible
@@ -3786,6 +4049,7 @@ mission "Company Foundations: Discover Port: Rust"
 		set "cf: ship available: Fury"
 		set "cf: ship available: Hauler"
 
+		fail
 mission "Company Foundations: Discover Port: Rusty Second"
 	name "Company Port Discovery"
 	invisible
@@ -3801,6 +4065,7 @@ mission "Company Foundations: Discover Port: Rusty Second"
 		set "cf: ship available: Kimek Thorn"
 		set "cf: ship available: Saryd Runabout"
 
+		fail
 mission "Company Foundations: Discover Port: Safaresk Enlai"
 	name "Company Port Discovery"
 	invisible
@@ -3812,6 +4077,7 @@ mission "Company Foundations: Discover Port: Safaresk Enlai"
 		set "cf: known planet: Safaresk Enlai"
 		set "cf: known system: Kor Nor'peli"
 
+		fail
 mission "Company Foundations: Discover Port: Sandy Two"
 	name "Company Port Discovery"
 	invisible
@@ -3823,6 +4089,7 @@ mission "Company Foundations: Discover Port: Sandy Two"
 		set "cf: known planet: Sandy Two"
 		set "cf: known system: 7 Autumn Rising"
 
+		fail
 mission "Company Foundations: Discover Port: Sardva"
 	name "Company Port Discovery"
 	invisible
@@ -3834,6 +4101,7 @@ mission "Company Foundations: Discover Port: Sardva"
 		set "cf: known planet: Sardva"
 		set "cf: known system: Shini Bori"
 
+		fail
 mission "Company Foundations: Discover Port: Saros"
 	name "Company Port Discovery"
 	invisible
@@ -3854,6 +4122,7 @@ mission "Company Foundations: Discover Port: Saros"
 		set "cf: ship available: Saryd Traveler"
 		set "cf: ship available: Saryd Visitor"
 
+		fail
 mission "Company Foundations: Discover Port: Saska-Aa-Noorr"
 	name "Company Port Discovery"
 	invisible
@@ -3865,6 +4134,7 @@ mission "Company Foundations: Discover Port: Saska-Aa-Noorr"
 		set "cf: known planet: Saska-Aa-Noorr"
 		set "cf: known system: Ojstaan-Sola"
 
+		fail
 mission "Company Foundations: Discover Port: Second Cerulean"
 	name "Company Port Discovery"
 	invisible
@@ -3876,6 +4146,7 @@ mission "Company Foundations: Discover Port: Second Cerulean"
 		set "cf: known planet: Second Cerulean"
 		set "cf: known system: 5 Axis"
 
+		fail
 mission "Company Foundations: Discover Port: Second Rose"
 	name "Company Port Discovery"
 	invisible
@@ -3887,6 +4158,7 @@ mission "Company Foundations: Discover Port: Second Rose"
 		set "cf: known planet: Second Rose"
 		set "cf: known system: 10 Pole"
 
+		fail
 mission "Company Foundations: Discover Port: Second Viridian"
 	name "Company Port Discovery"
 	invisible
@@ -3898,6 +4170,7 @@ mission "Company Foundations: Discover Port: Second Viridian"
 		set "cf: known planet: Second Viridian"
 		set "cf: known system: 14 Summer Above"
 
+		fail
 mission "Company Foundations: Discover Port: Secret Sky"
 	name "Company Port Discovery"
 	invisible
@@ -3909,6 +4182,7 @@ mission "Company Foundations: Discover Port: Secret Sky"
 		set "cf: known planet: Secret Sky"
 		set "cf: known system: Far Horizon"
 
+		fail
 mission "Company Foundations: Discover Port: Separa Tiklar"
 	name "Company Port Discovery"
 	invisible
@@ -3920,6 +4194,7 @@ mission "Company Foundations: Discover Port: Separa Tiklar"
 		set "cf: known planet: Separa Tiklar"
 		set "cf: known system: Kor Zena'i"
 
+		fail
 mission "Company Foundations: Discover Port: Septar Lorku"
 	name "Company Port Discovery"
 	invisible
@@ -3931,6 +4206,7 @@ mission "Company Foundations: Discover Port: Septar Lorku"
 		set "cf: known planet: Septar Lorku"
 		set "cf: known system: Kor Fel'tar"
 
+		fail
 mission "Company Foundations: Discover Port: Serpens"
 	name "Company Port Discovery"
 	invisible
@@ -3942,6 +4218,7 @@ mission "Company Foundations: Discover Port: Serpens"
 		set "cf: known planet: Serpens"
 		set "cf: known system: Phact"
 
+		fail
 mission "Company Foundations: Discover Port: Sessiliki Far"
 	name "Company Port Discovery"
 	invisible
@@ -3953,6 +4230,7 @@ mission "Company Foundations: Discover Port: Sessiliki Far"
 		set "cf: known planet: Sessiliki Far"
 		set "cf: known system: Kor Tar'bei"
 
+		fail
 mission "Company Foundations: Discover Port: Setar Fort"
 	name "Company Port Discovery"
 	invisible
@@ -3964,6 +4242,7 @@ mission "Company Foundations: Discover Port: Setar Fort"
 		set "cf: known planet: Setar Fort"
 		set "cf: known system: Sevrelect"
 
+		fail
 mission "Company Foundations: Discover Port: Shadow of Leaves"
 	name "Company Port Discovery"
 	invisible
@@ -3975,6 +4254,7 @@ mission "Company Foundations: Discover Port: Shadow of Leaves"
 		set "cf: known planet: Shadow of Leaves"
 		set "cf: known system: Hunter"
 
+		fail
 mission "Company Foundations: Discover Port: Shadowed Valley"
 	name "Company Port Discovery"
 	invisible
@@ -3986,6 +4266,7 @@ mission "Company Foundations: Discover Port: Shadowed Valley"
 		set "cf: known planet: Shadowed Valley"
 		set "cf: known system: Fallen Leaf"
 
+		fail
 mission "Company Foundations: Discover Port: Shangri-La"
 	name "Company Port Discovery"
 	invisible
@@ -4007,6 +4288,7 @@ mission "Company Foundations: Discover Port: Shangri-La"
 		set "cf: ship available: Sunder"
 		set "cf: ship available: Wasp"
 
+		fail
 mission "Company Foundations: Discover Port: Shassa-Wyra-Orrou"
 	name "Company Port Discovery"
 	invisible
@@ -4018,6 +4300,7 @@ mission "Company Foundations: Discover Port: Shassa-Wyra-Orrou"
 		set "cf: known planet: Shassa-Wyra-Orrou"
 		set "cf: known system: Pelaa-Muora"
 
+		fail
 mission "Company Foundations: Discover Port: Shifting Sand"
 	name "Company Port Discovery"
 	invisible
@@ -4029,6 +4312,7 @@ mission "Company Foundations: Discover Port: Shifting Sand"
 		set "cf: known planet: Shifting Sand"
 		set "cf: known system: Good Omen"
 
+		fail
 mission "Company Foundations: Discover Port: Shiver"
 	name "Company Port Discovery"
 	invisible
@@ -4040,6 +4324,7 @@ mission "Company Foundations: Discover Port: Shiver"
 		set "cf: known planet: Shiver"
 		set "cf: known system: Altair"
 
+		fail
 mission "Company Foundations: Discover Port: Shorebreak"
 	name "Company Port Discovery"
 	invisible
@@ -4051,6 +4336,7 @@ mission "Company Foundations: Discover Port: Shorebreak"
 		set "cf: known planet: Shorebreak"
 		set "cf: known system: Mimosa"
 
+		fail
 mission "Company Foundations: Discover Port: Shroud"
 	name "Company Port Discovery"
 	invisible
@@ -4069,6 +4355,7 @@ mission "Company Foundations: Discover Port: Shroud"
 		set "cf: ship available: Shuttle"
 		set "cf: ship available: Star Queen"
 
+		fail
 mission "Company Foundations: Discover Port: Siedi"
 	name "Company Port Discovery"
 	invisible
@@ -4080,6 +4367,7 @@ mission "Company Foundations: Discover Port: Siedi"
 		set "cf: known planet: Siedi"
 		set "cf: known system: Scija"
 
+		fail
 mission "Company Foundations: Discover Port: Sies Upi"
 	name "Company Port Discovery"
 	invisible
@@ -4091,6 +4379,7 @@ mission "Company Foundations: Discover Port: Sies Upi"
 		set "cf: known planet: Sies Upi"
 		set "cf: known system: Nnaug"
 
+		fail
 mission "Company Foundations: Discover Port: Silo of Ablodab"
 	name "Company Port Discovery"
 	invisible
@@ -4102,6 +4391,7 @@ mission "Company Foundations: Discover Port: Silo of Ablodab"
 		set "cf: known planet: Silo of Ablodab"
 		set "cf: known system: Ablodab"
 
+		fail
 mission "Company Foundations: Discover Port: Silver"
 	name "Company Port Discovery"
 	invisible
@@ -4113,6 +4403,7 @@ mission "Company Foundations: Discover Port: Silver"
 		set "cf: known planet: Silver"
 		set "cf: known system: Vega"
 
+		fail
 mission "Company Foundations: Discover Port: Sinter"
 	name "Company Port Discovery"
 	invisible
@@ -4124,6 +4415,7 @@ mission "Company Foundations: Discover Port: Sinter"
 		set "cf: known planet: Sinter"
 		set "cf: known system: Albireo"
 
+		fail
 mission "Company Foundations: Discover Port: Skillet"
 	name "Company Port Discovery"
 	invisible
@@ -4135,6 +4427,7 @@ mission "Company Foundations: Discover Port: Skillet"
 		set "cf: known planet: Skillet"
 		set "cf: known system: Saiph"
 
+		fail
 mission "Company Foundations: Discover Port: Skyfarm"
 	name "Company Port Discovery"
 	invisible
@@ -4146,6 +4439,7 @@ mission "Company Foundations: Discover Port: Skyfarm"
 		set "cf: known planet: Skyfarm"
 		set "cf: known system: Io Mann"
 
+		fail
 mission "Company Foundations: Discover Port: Skymoot"
 	name "Company Port Discovery"
 	invisible
@@ -4157,6 +4451,7 @@ mission "Company Foundations: Discover Port: Skymoot"
 		set "cf: known planet: Skymoot"
 		set "cf: known system: Hadar"
 
+		fail
 mission "Company Foundations: Discover Port: Smuggler's Den"
 	name "Company Port Discovery"
 	invisible
@@ -4187,6 +4482,7 @@ mission "Company Foundations: Discover Port: Smuggler's Den"
 		set "cf: ship available: Hawk"
 		set "cf: ship available: Scrapper"
 
+		fail
 mission "Company Foundations: Discover Port: Snowfeather"
 	name "Company Port Discovery"
 	invisible
@@ -4198,6 +4494,7 @@ mission "Company Foundations: Discover Port: Snowfeather"
 		set "cf: known planet: Snowfeather"
 		set "cf: known system: Bore Fah"
 
+		fail
 mission "Company Foundations: Discover Port: Solace"
 	name "Company Port Discovery"
 	invisible
@@ -4209,6 +4506,7 @@ mission "Company Foundations: Discover Port: Solace"
 		set "cf: known planet: Solace"
 		set "cf: known system: Pherkad"
 
+		fail
 mission "Company Foundations: Discover Port: Sopoyra"
 	name "Company Port Discovery"
 	invisible
@@ -4224,6 +4522,7 @@ mission "Company Foundations: Discover Port: Sopoyra"
 		set "cf: ship available: Tanto"
 		set "cf: ship available: Tekkan"
 
+		fail
 mission "Company Foundations: Discover Port: Spec Inci"
 	name "Company Port Discovery"
 	invisible
@@ -4235,6 +4534,7 @@ mission "Company Foundations: Discover Port: Spec Inci"
 		set "cf: known planet: Spec Inci"
 		set "cf: known system: Cura Dic"
 
+		fail
 mission "Company Foundations: Discover Port: Splashdown"
 	name "Company Port Discovery"
 	invisible
@@ -4246,6 +4546,7 @@ mission "Company Foundations: Discover Port: Splashdown"
 		set "cf: known planet: Splashdown"
 		set "cf: known system: Canopus"
 
+		fail
 mission "Company Foundations: Discover Port: Staja-Kella-Oa"
 	name "Company Port Discovery"
 	invisible
@@ -4257,6 +4558,7 @@ mission "Company Foundations: Discover Port: Staja-Kella-Oa"
 		set "cf: known planet: Staja-Kella-Oa"
 		set "cf: known system: Vade-Staja"
 
+		fail
 mission "Company Foundations: Discover Port: Starcross"
 	name "Company Port Discovery"
 	invisible
@@ -4268,6 +4570,7 @@ mission "Company Foundations: Discover Port: Starcross"
 		set "cf: known planet: Starcross"
 		set "cf: known system: Acrux"
 
+		fail
 mission "Company Foundations: Discover Port: Starting Rubin"
 	name "Company Port Discovery"
 	invisible
@@ -4284,6 +4587,7 @@ mission "Company Foundations: Discover Port: Starting Rubin"
 		set "cf: ship available: Kimek Thistle"
 		set "cf: ship available: Kimek Thorn"
 
+		fail
 mission "Company Foundations: Discover Port: Station Cian"
 	name "Company Port Discovery"
 	invisible
@@ -4295,6 +4599,7 @@ mission "Company Foundations: Discover Port: Station Cian"
 		set "cf: known planet: Station Cian"
 		set "cf: known system: 12 Autumn Above"
 
+		fail
 mission "Company Foundations: Discover Port: Stilacrest"
 	name "Company Port Discovery"
 	invisible
@@ -4306,6 +4611,7 @@ mission "Company Foundations: Discover Port: Stilacrest"
 		set "cf: known planet: Stilacrest"
 		set "cf: known system: Soar"
 
+		fail
 mission "Company Foundations: Discover Port: Stonebreak"
 	name "Company Port Discovery"
 	invisible
@@ -4328,6 +4634,7 @@ mission "Company Foundations: Discover Port: Stonebreak"
 		set "cf: ship available: Aphid"
 		set "cf: ship available: Grasshopper"
 
+		fail
 mission "Company Foundations: Discover Port: Stormhold"
 	name "Company Port Discovery"
 	invisible
@@ -4339,6 +4646,7 @@ mission "Company Foundations: Discover Port: Stormhold"
 		set "cf: known planet: Stormhold"
 		set "cf: known system: Alcyone"
 
+		fail
 mission "Company Foundations: Discover Port: Stronghold of Flugbu"
 	name "Company Port Discovery"
 	invisible
@@ -4350,6 +4658,7 @@ mission "Company Foundations: Discover Port: Stronghold of Flugbu"
 		set "cf: known planet: Stronghold of Flugbu"
 		set "cf: known system: Flugbu"
 
+		fail
 mission "Company Foundations: Discover Port: Successor Wormhole"
 	name "Company Port Discovery"
 	invisible
@@ -4361,6 +4670,7 @@ mission "Company Foundations: Discover Port: Successor Wormhole"
 		set "cf: known planet: Successor Wormhole"
 		set "cf: known system: Oublaa-Khora"
 
+		fail
 mission "Company Foundations: Discover Port: Sundive"
 	name "Company Port Discovery"
 	invisible
@@ -4372,6 +4682,7 @@ mission "Company Foundations: Discover Port: Sundive"
 		set "cf: known planet: Sundive"
 		set "cf: known system: Sheratan"
 
+		fail
 mission "Company Foundations: Discover Port: Sundrinker"
 	name "Company Port Discovery"
 	invisible
@@ -4383,6 +4694,7 @@ mission "Company Foundations: Discover Port: Sundrinker"
 		set "cf: known planet: Sundrinker"
 		set "cf: known system: Dschubba"
 
+		fail
 mission "Company Foundations: Discover Port: Sunracer"
 	name "Company Port Discovery"
 	invisible
@@ -4412,6 +4724,7 @@ mission "Company Foundations: Discover Port: Sunracer"
 		set "cf: ship available: Sunder"
 		set "cf: ship available: Wasp"
 
+		fail
 mission "Company Foundations: Discover Port: Swiftsong"
 	name "Company Port Discovery"
 	invisible
@@ -4423,6 +4736,7 @@ mission "Company Foundations: Discover Port: Swiftsong"
 		set "cf: known planet: Swiftsong"
 		set "cf: known system: Uwa Fahn"
 
+		fail
 mission "Company Foundations: Discover Port: Tebuteb's Table"
 	name "Company Port Discovery"
 	invisible
@@ -4434,6 +4748,7 @@ mission "Company Foundations: Discover Port: Tebuteb's Table"
 		set "cf: known planet: Tebuteb's Table"
 		set "cf: known system: Tebuteb"
 
+		fail
 mission "Company Foundations: Discover Port: Ternituul"
 	name "Company Port Discovery"
 	invisible
@@ -4445,6 +4760,7 @@ mission "Company Foundations: Discover Port: Ternituul"
 		set "cf: known planet: Ternituul"
 		set "cf: known system: Ookmya"
 
+		fail
 mission "Company Foundations: Discover Port: Thilos"
 	name "Company Port Discovery"
 	invisible
@@ -4456,6 +4772,7 @@ mission "Company Foundations: Discover Port: Thilos"
 		set "cf: known planet: Thilos"
 		set "cf: known system: Anax"
 
+		fail
 mission "Company Foundations: Discover Port: Third Umber"
 	name "Company Port Discovery"
 	invisible
@@ -4467,6 +4784,7 @@ mission "Company Foundations: Discover Port: Third Umber"
 		set "cf: known planet: Third Umber"
 		set "cf: known system: 11 Spring Below"
 
+		fail
 mission "Company Foundations: Discover Port: Thrall"
 	name "Company Port Discovery"
 	invisible
@@ -4478,6 +4796,7 @@ mission "Company Foundations: Discover Port: Thrall"
 		set "cf: known planet: Thrall"
 		set "cf: known system: Pollux"
 
+		fail
 mission "Company Foundations: Discover Port: Thshybothro"
 	name "Company Port Discovery"
 	invisible
@@ -4489,6 +4808,7 @@ mission "Company Foundations: Discover Port: Thshybothro"
 		set "cf: known planet: Thshybothro"
 		set "cf: known system: Thshybo Le"
 
+		fail
 mission "Company Foundations: Discover Port: Thule"
 	name "Company Port Discovery"
 	invisible
@@ -4500,6 +4820,7 @@ mission "Company Foundations: Discover Port: Thule"
 		set "cf: known planet: Thule"
 		set "cf: known system: Men"
 
+		fail
 mission "Company Foundations: Discover Port: Thunder"
 	name "Company Port Discovery"
 	invisible
@@ -4511,6 +4832,7 @@ mission "Company Foundations: Discover Port: Thunder"
 		set "cf: known planet: Thunder"
 		set "cf: known system: Alkaid"
 
+		fail
 mission "Company Foundations: Discover Port: Tik Klai"
 	name "Company Port Discovery"
 	invisible
@@ -4522,6 +4844,7 @@ mission "Company Foundations: Discover Port: Tik Klai"
 		set "cf: known planet: Tik Klai"
 		set "cf: known system: Iyech'yek"
 
+		fail
 mission "Company Foundations: Discover Port: Tinker"
 	name "Company Port Discovery"
 	invisible
@@ -4547,6 +4870,7 @@ mission "Company Foundations: Discover Port: Tinker"
 		set "cf: ship available: Sunder"
 		set "cf: ship available: Wasp"
 
+		fail
 mission "Company Foundations: Discover Port: Trinket"
 	name "Company Port Discovery"
 	invisible
@@ -4558,6 +4882,7 @@ mission "Company Foundations: Discover Port: Trinket"
 		set "cf: known planet: Trinket"
 		set "cf: known system: Sargas"
 
+		fail
 mission "Company Foundations: Discover Port: Triton Station"
 	name "Company Port Discovery"
 	invisible
@@ -4569,6 +4894,7 @@ mission "Company Foundations: Discover Port: Triton Station"
 		set "cf: known planet: Triton Station"
 		set "cf: known system: Alheka"
 
+		fail
 mission "Company Foundations: Discover Port: Trove"
 	name "Company Port Discovery"
 	invisible
@@ -4580,6 +4906,7 @@ mission "Company Foundations: Discover Port: Trove"
 		set "cf: known planet: Trove"
 		set "cf: known system: Hamal"
 
+		fail
 mission "Company Foundations: Discover Port: Truklar"
 	name "Company Port Discovery"
 	invisible
@@ -4591,6 +4918,7 @@ mission "Company Foundations: Discover Port: Truklar"
 		set "cf: known planet: Truklar"
 		set "cf: known system: Actannka"
 
+		fail
 mission "Company Foundations: Discover Port: Tschyss"
 	name "Company Port Discovery"
 	invisible
@@ -4602,6 +4930,7 @@ mission "Company Foundations: Discover Port: Tschyss"
 		set "cf: known planet: Tschyss"
 		set "cf: known system: Oosuoro"
 
+		fail
 mission "Company Foundations: Discover Port: Tundra"
 	name "Company Port Discovery"
 	invisible
@@ -4613,6 +4942,7 @@ mission "Company Foundations: Discover Port: Tundra"
 		set "cf: known planet: Tundra"
 		set "cf: known system: Cebalrai"
 
+		fail
 mission "Company Foundations: Discover Port: Turquoise Four"
 	name "Company Port Discovery"
 	invisible
@@ -4624,6 +4954,7 @@ mission "Company Foundations: Discover Port: Turquoise Four"
 		set "cf: known planet: Turquoise Four"
 		set "cf: known system: 9 Spring Above"
 
+		fail
 mission "Company Foundations: Discover Port: Tuur-Aasa-Kaska"
 	name "Company Port Discovery"
 	invisible
@@ -4637,6 +4968,7 @@ mission "Company Foundations: Discover Port: Tuur-Aasa-Kaska"
 		set "cf: known shipyard: Successor Basics"
 		set "cf: ship available: Kvelqde (Naive)"
 
+		fail
 mission "Company Foundations: Discover Port: Twinstar"
 	name "Company Port Discovery"
 	invisible
@@ -4648,6 +4980,7 @@ mission "Company Foundations: Discover Port: Twinstar"
 		set "cf: known planet: Twinstar"
 		set "cf: known system: Alniyat"
 
+		fail
 mission "Company Foundations: Discover Port: Uo-Oraa-Vayya"
 	name "Company Port Discovery"
 	invisible
@@ -4659,6 +4992,7 @@ mission "Company Foundations: Discover Port: Uo-Oraa-Vayya"
 		set "cf: known planet: Uo-Oraa-Vayya"
 		set "cf: known system: Pelaa-Muora"
 
+		fail
 mission "Company Foundations: Discover Port: Ut Divitas"
 	name "Company Port Discovery"
 	invisible
@@ -4670,6 +5004,7 @@ mission "Company Foundations: Discover Port: Ut Divitas"
 		set "cf: known planet: Ut Divitas"
 		set "cf: known system: Cura Dic"
 
+		fail
 mission "Company Foundations: Discover Port: Vail"
 	name "Company Port Discovery"
 	invisible
@@ -4681,6 +5016,7 @@ mission "Company Foundations: Discover Port: Vail"
 		set "cf: known planet: Vail"
 		set "cf: known system: Tejat"
 
+		fail
 mission "Company Foundations: Discover Port: Valhalla"
 	name "Company Port Discovery"
 	invisible
@@ -4712,6 +5048,7 @@ mission "Company Foundations: Discover Port: Valhalla"
 		set "cf: ship available: Raven"
 		set "cf: ship available: Scout"
 
+		fail
 mission "Company Foundations: Discover Port: Var' Kar'i'i"
 	name "Company Port Discovery"
 	invisible
@@ -4726,6 +5063,7 @@ mission "Company Foundations: Discover Port: Var' Kar'i'i"
 		set "cf: ship available: Earth Shaper"
 		set "cf: ship available: Summer Leaf"
 
+		fail
 mission "Company Foundations: Discover Port: Var' Kayi"
 	name "Company Port Discovery"
 	invisible
@@ -4742,6 +5080,7 @@ mission "Company Foundations: Discover Port: Var' Kayi"
 		set "cf: ship available: Strong Wind"
 		set "cf: ship available: Summer Leaf"
 
+		fail
 mission "Company Foundations: Discover Port: Var' Roi"
 	name "Company Port Discovery"
 	invisible
@@ -4753,6 +5092,7 @@ mission "Company Foundations: Discover Port: Var' Roi"
 		set "cf: known planet: Var' Roi"
 		set "cf: known system: Si'yak'ku"
 
+		fail
 mission "Company Foundations: Discover Port: Vara Kehi'ki"
 	name "Company Port Discovery"
 	invisible
@@ -4764,6 +5104,7 @@ mission "Company Foundations: Discover Port: Vara Kehi'ki"
 		set "cf: known planet: Vara Kehi'ki"
 		set "cf: known system: Iyech'yek"
 
+		fail
 mission "Company Foundations: Discover Port: Vara Ke'sok"
 	name "Company Port Discovery"
 	invisible
@@ -4775,6 +5116,7 @@ mission "Company Foundations: Discover Port: Vara Ke'sok"
 		set "cf: known planet: Vara Ke'sok"
 		set "cf: known system: Sich'ka'ara"
 
+		fail
 mission "Company Foundations: Discover Port: Vara Ke'stai"
 	name "Company Port Discovery"
 	invisible
@@ -4786,6 +5128,7 @@ mission "Company Foundations: Discover Port: Vara Ke'stai"
 		set "cf: known planet: Vara Ke'stai"
 		set "cf: known system: Ka'pru"
 
+		fail
 mission "Company Foundations: Discover Port: Vara Pug"
 	name "Company Port Discovery"
 	invisible
@@ -4797,6 +5140,7 @@ mission "Company Foundations: Discover Port: Vara Pug"
 		set "cf: known planet: Vara Pug"
 		set "cf: known system: Pug Iyik"
 
+		fail
 mission "Company Foundations: Discover Port: Vara Rakak"
 	name "Company Port Discovery"
 	invisible
@@ -4811,6 +5155,7 @@ mission "Company Foundations: Discover Port: Vara Rakak"
 		set "cf: ship available: Earth Shaper"
 		set "cf: ship available: Summer Leaf"
 
+		fail
 mission "Company Foundations: Discover Port: Varu Ek'lak'lai"
 	name "Company Port Discovery"
 	invisible
@@ -4822,6 +5167,7 @@ mission "Company Foundations: Discover Port: Varu Ek'lak'lai"
 		set "cf: known planet: Varu Ek'lak'lai"
 		set "cf: known system: Kiru'kichi"
 
+		fail
 mission "Company Foundations: Discover Port: Varu K'est"
 	name "Company Port Discovery"
 	invisible
@@ -4836,6 +5182,7 @@ mission "Company Foundations: Discover Port: Varu K'est"
 		set "cf: ship available: Earth Shaper"
 		set "cf: ship available: Summer Leaf"
 
+		fail
 mission "Company Foundations: Discover Port: Varu K'prai"
 	name "Company Port Discovery"
 	invisible
@@ -4847,6 +5194,7 @@ mission "Company Foundations: Discover Port: Varu K'prai"
 		set "cf: known planet: Varu K'prai"
 		set "cf: known system: Aya'k'k"
 
+		fail
 mission "Company Foundations: Discover Port: Varu Mer'ek"
 	name "Company Port Discovery"
 	invisible
@@ -4863,6 +5211,7 @@ mission "Company Foundations: Discover Port: Varu Mer'ek"
 		set "cf: ship available: Strong Wind"
 		set "cf: ship available: Summer Leaf"
 
+		fail
 mission "Company Foundations: Discover Port: Varu Tek'kai"
 	name "Company Port Discovery"
 	invisible
@@ -4874,6 +5223,7 @@ mission "Company Foundations: Discover Port: Varu Tek'kai"
 		set "cf: known planet: Varu Tek'kai"
 		set "cf: known system: Si'yak'ku"
 
+		fail
 mission "Company Foundations: Discover Port: Varu Tev'kei"
 	name "Company Port Discovery"
 	invisible
@@ -4885,6 +5235,7 @@ mission "Company Foundations: Discover Port: Varu Tev'kei"
 		set "cf: known planet: Varu Tev'kei"
 		set "cf: known system: Ap'arak"
 
+		fail
 mission "Company Foundations: Discover Port: Vibrant Water"
 	name "Company Port Discovery"
 	invisible
@@ -4896,6 +5247,7 @@ mission "Company Foundations: Discover Port: Vibrant Water"
 		set "cf: known planet: Vibrant Water"
 		set "cf: known system: Lone Cloud"
 
+		fail
 mission "Company Foundations: Discover Port: Viminal"
 	name "Company Port Discovery"
 	invisible
@@ -4916,6 +5268,7 @@ mission "Company Foundations: Discover Port: Viminal"
 		set "cf: ship available: Starling"
 		set "cf: ship available: Tern"
 
+		fail
 mission "Company Foundations: Discover Port: Vinci"
 	name "Company Port Discovery"
 	invisible
@@ -4927,6 +5280,7 @@ mission "Company Foundations: Discover Port: Vinci"
 		set "cf: known planet: Vinci"
 		set "cf: known system: Miaplacidus"
 
+		fail
 mission "Company Foundations: Discover Port: Warfeed"
 	name "Company Port Discovery"
 	invisible
@@ -4938,6 +5292,7 @@ mission "Company Foundations: Discover Port: Warfeed"
 		set "cf: known planet: Warfeed"
 		set "cf: known system: Hi Yahr"
 
+		fail
 mission "Company Foundations: Discover Port: Warm Slope"
 	name "Company Port Discovery"
 	invisible
@@ -4949,6 +5304,7 @@ mission "Company Foundations: Discover Port: Warm Slope"
 		set "cf: known planet: Warm Slope"
 		set "cf: known system: Steep Roof"
 
+		fail
 mission "Company Foundations: Discover Port: Warm Wind"
 	name "Company Port Discovery"
 	invisible
@@ -4960,6 +5316,7 @@ mission "Company Foundations: Discover Port: Warm Wind"
 		set "cf: known planet: Warm Wind"
 		set "cf: known system: Broken Bowl"
 
+		fail
 mission "Company Foundations: Discover Port: Wayfarer"
 	name "Company Port Discovery"
 	invisible
@@ -4987,6 +5344,7 @@ mission "Company Foundations: Discover Port: Wayfarer"
 		set "cf: ship available: Hawk"
 		set "cf: ship available: Sparrow"
 
+		fail
 mission "Company Foundations: Discover Port: Weir of Glubatub"
 	name "Company Port Discovery"
 	invisible
@@ -4998,6 +5356,7 @@ mission "Company Foundations: Discover Port: Weir of Glubatub"
 		set "cf: known planet: Weir of Glubatub"
 		set "cf: known system: Glubatub"
 
+		fail
 mission "Company Foundations: Discover Port: Weledos"
 	name "Company Port Discovery"
 	invisible
@@ -5009,6 +5368,7 @@ mission "Company Foundations: Discover Port: Weledos"
 		set "cf: known planet: Weledos"
 		set "cf: known system: Ensemble"
 
+		fail
 mission "Company Foundations: Discover Port: Windblain"
 	name "Company Port Discovery"
 	invisible
@@ -5020,6 +5380,7 @@ mission "Company Foundations: Discover Port: Windblain"
 		set "cf: known planet: Windblain"
 		set "cf: known system: Regor"
 
+		fail
 mission "Company Foundations: Discover Port: Winter"
 	name "Company Port Discovery"
 	invisible
@@ -5031,6 +5392,7 @@ mission "Company Foundations: Discover Port: Winter"
 		set "cf: known planet: Winter"
 		set "cf: known system: Yed Prior"
 
+		fail
 mission "Company Foundations: Discover Port: Wormhole Alpha"
 	name "Company Port Discovery"
 	invisible
@@ -5042,6 +5404,7 @@ mission "Company Foundations: Discover Port: Wormhole Alpha"
 		set "cf: known planet: Wormhole Alpha"
 		set "cf: known system: Waypoint"
 
+		fail
 mission "Company Foundations: Discover Port: Wyvern Station"
 	name "Company Port Discovery"
 	invisible
@@ -5053,6 +5416,7 @@ mission "Company Foundations: Discover Port: Wyvern Station"
 		set "cf: known planet: Wyvern Station"
 		set "cf: known system: Izar"
 
+		fail
 mission "Company Foundations: Discover Port: Yoqqa-Vasa-Vasa"
 	name "Company Port Discovery"
 	invisible
@@ -5076,6 +5440,7 @@ mission "Company Foundations: Discover Port: Yoqqa-Vasa-Vasa"
 		set "cf: ship available: Myaede (Naive)"
 		set "cf: ship available: Stolsaqra (Naive)"
 
+		fail
 mission "Company Foundations: Discover Port: Zenith"
 	name "Company Port Discovery"
 	invisible
@@ -5087,6 +5452,7 @@ mission "Company Foundations: Discover Port: Zenith"
 		set "cf: known planet: Zenith"
 		set "cf: known system: Alnilam"
 
+		fail
 mission "Company Foundations: Discover Port: Zug"
 	name "Company Port Discovery"
 	invisible
@@ -5111,3 +5477,4 @@ mission "Company Foundations: Discover Port: Zug"
 		set "cf: ship available: Fury"
 		set "cf: ship available: Hauler"
 
+		fail

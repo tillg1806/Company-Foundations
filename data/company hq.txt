@@ -4863,37 +4863,57 @@ mission "Company Foundations: Company Board"
 						has "cf: manual owner payout controls enabled"
 						"cf: owner payable" >= 250000
 					goto "confirm collect owner 250000"
-				`	Build an orbital company office for 5M company credits.`
+				`	Build a corporate station core for 5M company credits.`
 					to display
 						has "cf: active"
 						not "cf: hq suspended"
 						not "cf: station orbital office"
 						"cf: reserve" >= 5000000
-					goto "confirm build orbital office"
-				`	Build a logistics station for 15M company credits.`
+					goto "menu station sites"
+				`	Install a station outfitter deck for 15M company credits.`
 					to display
 						has "cf: station orbital office"
 						not "cf: hq suspended"
 						not "cf: station logistics hub"
 						"cf: reserve" >= 15000000
 					goto "confirm build logistics station"
-				`	Build an industrial dock station for 45M company credits.`
+				`	Install an industrial shipyard dock for 45M company credits.`
 					to display
 						has "cf: station logistics hub"
 						not "cf: hq suspended"
 						not "cf: station industrial dock"
 						"cf: reserve" >= 45000000
 					goto "confirm build industrial station"
+				`	Invest 1,000 personal credits into the company reserve.`
+					to display
+						has "cf: active"
+						"credits" >= 1000
+					goto "invest 1000"
+				`	Invest 10,000 personal credits into the company reserve.`
+					to display
+						has "cf: active"
+						"credits" >= 10000
+					goto "invest 10000"
 				`	Invest 100,000 personal credits into the company reserve.`
 					to display
 						has "cf: active"
 						"credits" >= 100000
-					goto "invest 100k"
-				`	Withdraw 50,000 credits from the company reserve.`
+					goto "invest 100000"
+				`	Invest 1,000,000 personal credits into the company reserve.`
 					to display
 						has "cf: active"
-						"cf: reserve" >= 50000
-					goto "withdraw 50k"
+						"credits" >= 1000000
+					goto "invest 1000000"
+				`	Invest 10,000,000 personal credits into the company reserve.`
+					to display
+						has "cf: active"
+						"credits" >= 10000000
+					goto "invest 10000000"
+				`	Invest 100,000,000 personal credits into the company reserve.`
+					to display
+						has "cf: active"
+						"credits" >= 100000000
+					goto "invest 100000000"
 				`	Close the operating-loss file.`
 					to display
 						has "cf: distress open"
@@ -9421,21 +9441,21 @@ mission "Company Foundations: Company Board"
 			label "menu stations"
 			`Station construction.`
 			choice
-				`	Build an orbital company office for 5M company credits.`
+				`	Build a corporate station core for 5M company credits.`
 					to display
 						has "cf: active"
 						not "cf: hq suspended"
 						not "cf: station orbital office"
 						"cf: reserve" >= 5000000
-					goto "confirm build orbital office"
-				`	Build a logistics station for 15M company credits.`
+					goto "menu station sites"
+				`	Install a station outfitter deck for 15M company credits.`
 					to display
 						has "cf: station orbital office"
 						not "cf: hq suspended"
 						not "cf: station logistics hub"
 						"cf: reserve" >= 15000000
 					goto "confirm build logistics station"
-				`	Build an industrial dock station for 45M company credits.`
+				`	Install an industrial shipyard dock for 45M company credits.`
 					to display
 						has "cf: station logistics hub"
 						not "cf: hq suspended"
@@ -9444,19 +9464,471 @@ mission "Company Foundations: Company Board"
 					goto "confirm build industrial station"
 				`	Back.`
 					goto "company main menu"
+			label "menu station sites"
+			`Choose a human-space system with no landable planet for the company headquarters station.`
+			choice
+				`	Build in Acamar.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Acamar"
+				`	Build in Algieba.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Algieba"
+				`	Build in Alnasl.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Alnasl"
+				`	Build in Alpha Arae.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Alpha Arae"
+				`	Build in Aspidiske.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Aspidiske"
+				`	Build in Atik.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Atik"
+				`	Build in Beta Lupi.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Beta Lupi"
+				`	Build in Boral.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Boral"
+				`	Build in Cardax.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Cardax"
+				`	Build in Danoa.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Danoa"
+				`	Build in Durax.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Durax"
+				`	Build in Eber.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Eber"
+				`	Build in Eltanin.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Eltanin"
+				`	Build in Eteron.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Eteron"
+				`	Build in Fala.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Fala"
+				`	Build in Fingol.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Fingol"
+				`	Build in Fumalsamakah.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Fumalsamakah"
+				`	Build in Gacrux.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Gacrux"
+				`	Build in Gamma Cassiopeiae.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Gamma Cassiopeiae"
+				`	Build in Gorvi.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Gorvi"
+				`	Build in Hassaleh.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Hassaleh"
+				`	Build in Hatysa.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Hatysa"
+				`	Build in Hintar.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Hintar"
+				`	Build in Holeb.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Holeb"
+				`	Build in Ildaria.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Ildaria"
+				`	Build in Ipsing.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Ipsing"
+				`	Build in Kugel.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Kugel"
+				`	Build in Lesath.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Lesath"
+				`	Build in Limen.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Limen"
+				`	Build in Lolami.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Lolami"
+				`	Build in Lurata.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Lurata"
+				`	Build in Menkalinan.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Menkalinan"
+				`	Build in Minkar.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Minkar"
+				`	Build in Mintaka.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Mintaka"
+				`	Build in Mirzam.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Mirzam"
+				`	Build in Mizar.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Mizar"
+				`	Build in Moktar.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Moktar"
+				`	Build in Mora.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Mora"
+				`	Build in Muphrid.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Muphrid"
+				`	Build in Naper.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Naper"
+				`	Build in Nocte.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Nocte"
+				`	Build in Oblate.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Oblate"
+				`	Build in Orbona.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Orbona"
+				`	Build in Orvala.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Orvala"
+				`	Build in Persian.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Persian"
+				`	Build in Procyon.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Procyon"
+				`	Build in Rajak.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Rajak"
+				`	Build in Regulus.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Regulus"
+				`	Build in Rigel.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Rigel"
+				`	Build in Sadr.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Sadr"
+				`	Build in Sospi.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Sospi"
+				`	Build in Sumar.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Sumar"
+				`	Build in Tais.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Tais"
+				`	Build in Terminus.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Terminus"
+				`	Build in Thuban.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Thuban"
+				`	Build in Tortor.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Tortor"
+				`	Build in Umbral.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Umbral"
+				`	Build in Unagi.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Unagi"
+				`	Build in Volax.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Volax"
+				`	Build in Wei.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Wei"
+				`	Build in Zubenelgenubi.`
+					to display
+						has "cf: active"
+						not "cf: hq suspended"
+						not "cf: station orbital office"
+						"cf: reserve" >= 5000000
+					goto "confirm build station in Zubenelgenubi"
+				`	Back.`
+					goto "menu stations"
 			label "menu invest"
 			`Move money between your personal account and the company reserve.`
 			choice
+				`	Invest 1,000 personal credits into the company reserve.`
+					to display
+						has "cf: active"
+						"credits" >= 1000
+					goto "confirm invest 1000"
+				`	Invest 10,000 personal credits into the company reserve.`
+					to display
+						has "cf: active"
+						"credits" >= 10000
+					goto "confirm invest 10000"
 				`	Invest 100,000 personal credits into the company reserve.`
 					to display
 						has "cf: active"
 						"credits" >= 100000
-					goto "confirm invest 100k"
-				`	Withdraw 50,000 credits from the company reserve.`
+					goto "confirm invest 100000"
+				`	Invest 1,000,000 personal credits into the company reserve.`
 					to display
 						has "cf: active"
-						"cf: reserve" >= 50000
-					goto "confirm withdraw 50k"
+						"credits" >= 1000000
+					goto "confirm invest 1000000"
+				`	Invest 10,000,000 personal credits into the company reserve.`
+					to display
+						has "cf: active"
+						"credits" >= 10000000
+					goto "confirm invest 10000000"
+				`	Invest 100,000,000 personal credits into the company reserve.`
+					to display
+						has "cf: active"
+						"credits" >= 100000000
+					goto "confirm invest 100000000"
 				`	Back.`
 					goto "company main menu"
 			label "menu shuttle"
@@ -14345,6 +14817,18 @@ mission "Company Foundations: Company Board"
 			choice
 				`	Return to the company board.`
 					goto "company main menu"
+				`	Return to payout policy.`
+					goto "menu payout"
+				`	Return to licenses.`
+					goto "menu licenses"
+				`	Return to ships.`
+					goto "menu ships"
+				`	Return to manager.`
+					goto "menu manager"
+				`	Return to station construction.`
+					goto "menu stations"
+				`	Return to investment.`
+					goto "menu invest"
 			label "confirm sell company"
 			`Sell the entire company for the currently calculated firm value of &[credits@cf: company value]? This closes every active company division.`
 			choice
@@ -29989,27 +30473,1594 @@ mission "Company Foundations: Company Board"
 				"cf: total owner payouts" += 250000
 			`You collect 250.000 credits from the company's payable owner balance.`
 				goto "company transaction summary"
-			label "confirm build orbital office"
-			`Build an orbital company office for 5,000,000 company credits?`
+			label "confirm build station in Acamar"
+			`Build the company headquarters station in the Acamar system for 5,000,000 company credits?`
 			choice
 				`	Build station.`
-					goto "build orbital office"
+					goto "build station in Acamar"
 				`	Cancel.`
-					goto "company main menu"
-			label "build orbital office"
+					goto "menu station sites"
+			label "build station in Acamar"
 			action
 				"cf: reserve" -= 5000000
 				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Acamar"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
 				"cf: station daily income" += 1500
 				"cf: station daily upkeep" += 800
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
-			`Your company builds a compact orbital office above headquarters. It handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				event "Company Foundations: Station Site: Acamar"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Acamar system.`
+			`Your company charters a compact headquarters station in the Acamar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Algieba"
+			`Build the company headquarters station in the Algieba system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Algieba"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Algieba"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Algieba"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Algieba"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Algieba system.`
+			`Your company charters a compact headquarters station in the Algieba system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Alnasl"
+			`Build the company headquarters station in the Alnasl system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Alnasl"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Alnasl"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Alnasl"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Alnasl"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Alnasl system.`
+			`Your company charters a compact headquarters station in the Alnasl system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Alpha Arae"
+			`Build the company headquarters station in the Alpha Arae system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Alpha Arae"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Alpha Arae"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Alpha Arae"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Alpha Arae"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Alpha Arae system.`
+			`Your company charters a compact headquarters station in the Alpha Arae system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Aspidiske"
+			`Build the company headquarters station in the Aspidiske system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Aspidiske"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Aspidiske"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Aspidiske"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Aspidiske"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Aspidiske system.`
+			`Your company charters a compact headquarters station in the Aspidiske system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Atik"
+			`Build the company headquarters station in the Atik system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Atik"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Atik"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Atik"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Atik"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Atik system.`
+			`Your company charters a compact headquarters station in the Atik system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Beta Lupi"
+			`Build the company headquarters station in the Beta Lupi system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Beta Lupi"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Beta Lupi"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Beta Lupi"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Beta Lupi"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Beta Lupi system.`
+			`Your company charters a compact headquarters station in the Beta Lupi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Boral"
+			`Build the company headquarters station in the Boral system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Boral"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Boral"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Boral"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Boral"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Boral system.`
+			`Your company charters a compact headquarters station in the Boral system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Cardax"
+			`Build the company headquarters station in the Cardax system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Cardax"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Cardax"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Cardax"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Cardax"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Cardax system.`
+			`Your company charters a compact headquarters station in the Cardax system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Danoa"
+			`Build the company headquarters station in the Danoa system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Danoa"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Danoa"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Danoa"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Danoa"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Danoa system.`
+			`Your company charters a compact headquarters station in the Danoa system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Durax"
+			`Build the company headquarters station in the Durax system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Durax"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Durax"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Durax"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Durax"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Durax system.`
+			`Your company charters a compact headquarters station in the Durax system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Eber"
+			`Build the company headquarters station in the Eber system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Eber"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Eber"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Eber"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Eber"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Eber system.`
+			`Your company charters a compact headquarters station in the Eber system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Eltanin"
+			`Build the company headquarters station in the Eltanin system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Eltanin"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Eltanin"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Eltanin"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Eltanin"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Eltanin system.`
+			`Your company charters a compact headquarters station in the Eltanin system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Eteron"
+			`Build the company headquarters station in the Eteron system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Eteron"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Eteron"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Eteron"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Eteron"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Eteron system.`
+			`Your company charters a compact headquarters station in the Eteron system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Fala"
+			`Build the company headquarters station in the Fala system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Fala"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Fala"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Fala"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Fala"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Fala system.`
+			`Your company charters a compact headquarters station in the Fala system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Fingol"
+			`Build the company headquarters station in the Fingol system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Fingol"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Fingol"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Fingol"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Fingol"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Fingol system.`
+			`Your company charters a compact headquarters station in the Fingol system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Fumalsamakah"
+			`Build the company headquarters station in the Fumalsamakah system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Fumalsamakah"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Fumalsamakah"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Fumalsamakah"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Fumalsamakah"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Fumalsamakah system.`
+			`Your company charters a compact headquarters station in the Fumalsamakah system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Gacrux"
+			`Build the company headquarters station in the Gacrux system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Gacrux"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Gacrux"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Gacrux"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Gacrux"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Gacrux system.`
+			`Your company charters a compact headquarters station in the Gacrux system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Gamma Cassiopeiae"
+			`Build the company headquarters station in the Gamma Cassiopeiae system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Gamma Cassiopeiae"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Gamma Cassiopeiae"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Gamma Cassiopeiae"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Gamma Cassiopeiae"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Gamma Cassiopeiae system.`
+			`Your company charters a compact headquarters station in the Gamma Cassiopeiae system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Gorvi"
+			`Build the company headquarters station in the Gorvi system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Gorvi"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Gorvi"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Gorvi"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Gorvi"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Gorvi system.`
+			`Your company charters a compact headquarters station in the Gorvi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Hassaleh"
+			`Build the company headquarters station in the Hassaleh system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Hassaleh"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Hassaleh"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Hassaleh"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Hassaleh"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Hassaleh system.`
+			`Your company charters a compact headquarters station in the Hassaleh system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Hatysa"
+			`Build the company headquarters station in the Hatysa system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Hatysa"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Hatysa"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Hatysa"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Hatysa"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Hatysa system.`
+			`Your company charters a compact headquarters station in the Hatysa system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Hintar"
+			`Build the company headquarters station in the Hintar system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Hintar"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Hintar"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Hintar"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Hintar"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Hintar system.`
+			`Your company charters a compact headquarters station in the Hintar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Holeb"
+			`Build the company headquarters station in the Holeb system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Holeb"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Holeb"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Holeb"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Holeb"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Holeb system.`
+			`Your company charters a compact headquarters station in the Holeb system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Ildaria"
+			`Build the company headquarters station in the Ildaria system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Ildaria"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Ildaria"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Ildaria"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Ildaria"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Ildaria system.`
+			`Your company charters a compact headquarters station in the Ildaria system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Ipsing"
+			`Build the company headquarters station in the Ipsing system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Ipsing"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Ipsing"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Ipsing"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Ipsing"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Ipsing system.`
+			`Your company charters a compact headquarters station in the Ipsing system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Kugel"
+			`Build the company headquarters station in the Kugel system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Kugel"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Kugel"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Kugel"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Kugel"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Kugel system.`
+			`Your company charters a compact headquarters station in the Kugel system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Lesath"
+			`Build the company headquarters station in the Lesath system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Lesath"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Lesath"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Lesath"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Lesath"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Lesath system.`
+			`Your company charters a compact headquarters station in the Lesath system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Limen"
+			`Build the company headquarters station in the Limen system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Limen"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Limen"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Limen"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Limen"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Limen system.`
+			`Your company charters a compact headquarters station in the Limen system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Lolami"
+			`Build the company headquarters station in the Lolami system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Lolami"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Lolami"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Lolami"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Lolami"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Lolami system.`
+			`Your company charters a compact headquarters station in the Lolami system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Lurata"
+			`Build the company headquarters station in the Lurata system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Lurata"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Lurata"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Lurata"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Lurata"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Lurata system.`
+			`Your company charters a compact headquarters station in the Lurata system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Menkalinan"
+			`Build the company headquarters station in the Menkalinan system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Menkalinan"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Menkalinan"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Menkalinan"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Menkalinan"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Menkalinan system.`
+			`Your company charters a compact headquarters station in the Menkalinan system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Minkar"
+			`Build the company headquarters station in the Minkar system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Minkar"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Minkar"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Minkar"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Minkar"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Minkar system.`
+			`Your company charters a compact headquarters station in the Minkar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Mintaka"
+			`Build the company headquarters station in the Mintaka system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Mintaka"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Mintaka"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Mintaka"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Mintaka"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Mintaka system.`
+			`Your company charters a compact headquarters station in the Mintaka system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Mirzam"
+			`Build the company headquarters station in the Mirzam system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Mirzam"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Mirzam"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Mirzam"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Mirzam"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Mirzam system.`
+			`Your company charters a compact headquarters station in the Mirzam system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Mizar"
+			`Build the company headquarters station in the Mizar system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Mizar"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Mizar"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Mizar"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Mizar"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Mizar system.`
+			`Your company charters a compact headquarters station in the Mizar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Moktar"
+			`Build the company headquarters station in the Moktar system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Moktar"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Moktar"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Moktar"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Moktar"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Moktar system.`
+			`Your company charters a compact headquarters station in the Moktar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Mora"
+			`Build the company headquarters station in the Mora system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Mora"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Mora"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Mora"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Mora"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Mora system.`
+			`Your company charters a compact headquarters station in the Mora system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Muphrid"
+			`Build the company headquarters station in the Muphrid system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Muphrid"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Muphrid"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Muphrid"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Muphrid"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Muphrid system.`
+			`Your company charters a compact headquarters station in the Muphrid system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Naper"
+			`Build the company headquarters station in the Naper system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Naper"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Naper"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Naper"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Naper"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Naper system.`
+			`Your company charters a compact headquarters station in the Naper system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Nocte"
+			`Build the company headquarters station in the Nocte system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Nocte"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Nocte"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Nocte"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Nocte"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Nocte system.`
+			`Your company charters a compact headquarters station in the Nocte system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Oblate"
+			`Build the company headquarters station in the Oblate system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Oblate"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Oblate"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Oblate"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Oblate"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Oblate system.`
+			`Your company charters a compact headquarters station in the Oblate system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Orbona"
+			`Build the company headquarters station in the Orbona system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Orbona"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Orbona"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Orbona"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Orbona"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Orbona system.`
+			`Your company charters a compact headquarters station in the Orbona system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Orvala"
+			`Build the company headquarters station in the Orvala system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Orvala"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Orvala"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Orvala"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Orvala"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Orvala system.`
+			`Your company charters a compact headquarters station in the Orvala system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Persian"
+			`Build the company headquarters station in the Persian system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Persian"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Persian"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Persian"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Persian"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Persian system.`
+			`Your company charters a compact headquarters station in the Persian system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Procyon"
+			`Build the company headquarters station in the Procyon system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Procyon"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Procyon"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Procyon"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Procyon"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Procyon system.`
+			`Your company charters a compact headquarters station in the Procyon system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Rajak"
+			`Build the company headquarters station in the Rajak system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Rajak"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Rajak"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Rajak"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Rajak"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Rajak system.`
+			`Your company charters a compact headquarters station in the Rajak system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Regulus"
+			`Build the company headquarters station in the Regulus system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Regulus"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Regulus"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Regulus"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Regulus"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Regulus system.`
+			`Your company charters a compact headquarters station in the Regulus system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Rigel"
+			`Build the company headquarters station in the Rigel system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Rigel"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Rigel"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Rigel"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Rigel"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Rigel system.`
+			`Your company charters a compact headquarters station in the Rigel system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Sadr"
+			`Build the company headquarters station in the Sadr system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Sadr"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Sadr"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Sadr"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Sadr"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Sadr system.`
+			`Your company charters a compact headquarters station in the Sadr system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Sospi"
+			`Build the company headquarters station in the Sospi system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Sospi"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Sospi"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Sospi"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Sospi"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Sospi system.`
+			`Your company charters a compact headquarters station in the Sospi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Sumar"
+			`Build the company headquarters station in the Sumar system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Sumar"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Sumar"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Sumar"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Sumar"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Sumar system.`
+			`Your company charters a compact headquarters station in the Sumar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Tais"
+			`Build the company headquarters station in the Tais system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Tais"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Tais"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Tais"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Tais"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Tais system.`
+			`Your company charters a compact headquarters station in the Tais system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Terminus"
+			`Build the company headquarters station in the Terminus system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Terminus"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Terminus"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Terminus"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Terminus"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Terminus system.`
+			`Your company charters a compact headquarters station in the Terminus system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Thuban"
+			`Build the company headquarters station in the Thuban system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Thuban"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Thuban"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Thuban"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Thuban"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Thuban system.`
+			`Your company charters a compact headquarters station in the Thuban system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Tortor"
+			`Build the company headquarters station in the Tortor system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Tortor"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Tortor"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Tortor"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Tortor"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Tortor system.`
+			`Your company charters a compact headquarters station in the Tortor system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Umbral"
+			`Build the company headquarters station in the Umbral system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Umbral"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Umbral"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Umbral"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Umbral"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Umbral system.`
+			`Your company charters a compact headquarters station in the Umbral system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Unagi"
+			`Build the company headquarters station in the Unagi system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Unagi"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Unagi"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Unagi"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Unagi"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Unagi system.`
+			`Your company charters a compact headquarters station in the Unagi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Volax"
+			`Build the company headquarters station in the Volax system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Volax"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Volax"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Volax"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Volax"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Volax system.`
+			`Your company charters a compact headquarters station in the Volax system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Wei"
+			`Build the company headquarters station in the Wei system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Wei"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Wei"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Wei"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Wei"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Wei system.`
+			`Your company charters a compact headquarters station in the Wei system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+				goto "company transaction summary"
+			label "confirm build station in Zubenelgenubi"
+			`Build the company headquarters station in the Zubenelgenubi system for 5,000,000 company credits?`
+			choice
+				`	Build station.`
+					goto "build station in Zubenelgenubi"
+				`	Cancel.`
+					goto "menu station sites"
+			label "build station in Zubenelgenubi"
+			action
+				"cf: reserve" -= 5000000
+				set "cf: station orbital office"
+				set "cf: hq station built"
+				set "cf: hq: Company Headquarters"
+				set "cf: hq station system: Zubenelgenubi"
+				set "cf: at hq"
+				"reputation: Company Foundations Player Company" >?= 1000
+				"cf: station count" ++
+				"cf: station value" += 5000000
+				"cf: station daily income" += 1500
+				"cf: station daily upkeep" += 800
+				"cf: hq tax relief" += 500
+				"cf: hq daily tax" -= 500
+				event "Company Foundations: Station Site: Zubenelgenubi"
+				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Zubenelgenubi system.`
+			`Your company charters a compact headquarters station in the Zubenelgenubi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build logistics station"
-			`Build a logistics station for 15,000,000 company credits?`
+			`Install a station outfitter deck for 15,000,000 company credits?`
 			choice
 				`	Build station.`
 					goto "build logistics station"
@@ -30023,10 +32074,11 @@ mission "Company Foundations: Company Board"
 				"cf: station value" += 15000000
 				"cf: station daily income" += 5000
 				"cf: station daily upkeep" += 2000
-			`The company expands its orbital presence into a logistics station. Cargo handling, shuttle transfers, and crew services add 5,000 credits per day in station income, with 2,000 credits per day in upkeep.`
+				event "Company Foundations: Station Stage 2 Outfitter"
+			`The company expands the headquarters station with an outfitter deck. Cargo handling, shuttle transfers, and crew services add 5,000 credits per day in station income, with 2,000 credits per day in upkeep.`
 				goto "company transaction summary"
 			label "confirm build industrial station"
-			`Build an industrial dock station for 45,000,000 company credits?`
+			`Install an industrial shipyard dock for 45,000,000 company credits?`
 			choice
 				`	Build station.`
 					goto "build industrial station"
@@ -30040,34 +32092,86 @@ mission "Company Foundations: Company Board"
 				"cf: station value" += 45000000
 				"cf: station daily income" += 14000
 				"cf: station daily upkeep" += 6500
-			`The company builds an industrial dock station with repair berths, warehousing, and contractor shops. It adds 14,000 credits per day in station income, with 6,500 credits per day in upkeep.`
+				event "Company Foundations: Station Stage 3 Shipyard"
+			`The company builds an industrial shipyard dock with repair berths, warehousing, and contractor shops. It adds 14,000 credits per day in station income, with 6,500 credits per day in upkeep.`
 				goto "company transaction summary"
-			label "confirm invest 100k"
+			label "confirm invest 1000"
+			`Invest 1,000 personal credits into the company reserve?`
+			choice
+				`	Invest.`
+					goto "invest 1000"
+				`	Cancel.`
+					goto "menu invest"
+			label "invest 1000"
+			action
+				payment -1000
+				"cf: reserve" += 1000
+			`You transfer 1,000 credits into the company reserve.`
+				goto "company transaction summary"
+			label "confirm invest 10000"
+			`Invest 10,000 personal credits into the company reserve?`
+			choice
+				`	Invest.`
+					goto "invest 10000"
+				`	Cancel.`
+					goto "menu invest"
+			label "invest 10000"
+			action
+				payment -10000
+				"cf: reserve" += 10000
+			`You transfer 10,000 credits into the company reserve.`
+				goto "company transaction summary"
+			label "confirm invest 100000"
 			`Invest 100,000 personal credits into the company reserve?`
 			choice
 				`	Invest.`
-					goto "invest 100k"
+					goto "invest 100000"
 				`	Cancel.`
-					goto "company main menu"
-			label "invest 100k"
+					goto "menu invest"
+			label "invest 100000"
 			action
 				payment -100000
 				"cf: reserve" += 100000
 			`You transfer 100,000 credits into the company reserve.`
 				goto "company transaction summary"
-			label "confirm withdraw 50k"
-			`Withdraw 50,000 credits from the company reserve into your personal account?`
+			label "confirm invest 1000000"
+			`Invest 1,000,000 personal credits into the company reserve?`
 			choice
-				`	Withdraw.`
-					goto "withdraw 50k"
+				`	Invest.`
+					goto "invest 1000000"
 				`	Cancel.`
-					goto "company main menu"
-			label "withdraw 50k"
+					goto "menu invest"
+			label "invest 1000000"
 			action
-				payment 50000
-				"cf: reserve" -= 50000
-				"cf: total owner payouts" += 50000
-			`You withdraw 50,000 credits from the company reserve.`
+				payment -1000000
+				"cf: reserve" += 1000000
+			`You transfer 1,000,000 credits into the company reserve.`
+				goto "company transaction summary"
+			label "confirm invest 10000000"
+			`Invest 10,000,000 personal credits into the company reserve?`
+			choice
+				`	Invest.`
+					goto "invest 10000000"
+				`	Cancel.`
+					goto "menu invest"
+			label "invest 10000000"
+			action
+				payment -10000000
+				"cf: reserve" += 10000000
+			`You transfer 10,000,000 credits into the company reserve.`
+				goto "company transaction summary"
+			label "confirm invest 100000000"
+			`Invest 100,000,000 personal credits into the company reserve?`
+			choice
+				`	Invest.`
+					goto "invest 100000000"
+				`	Cancel.`
+					goto "menu invest"
+			label "invest 100000000"
+			action
+				payment -100000000
+				"cf: reserve" += 100000000
+			`You transfer 100,000,000 credits into the company reserve.`
 				goto "company transaction summary"
 			label "confirm close distress file"
 			`Close the current operating-loss file?`

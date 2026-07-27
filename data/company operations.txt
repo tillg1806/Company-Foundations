@@ -28,6 +28,7 @@ mission "Company Foundations: Manager Optimize local Shuttle Route"
 		set "cf: shuttle local luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the local route with 1 Blackbird and 2 Heavy Shuttles for 3.170.000 company credits after keeping at least double the package cost in reserve.`
 
+		fail
 mission "Company Foundations: Manager Optimize regional Shuttle Route"
 	name "Manager Fleet Optimization"
 	invisible
@@ -56,6 +57,7 @@ mission "Company Foundations: Manager Optimize regional Shuttle Route"
 		set "cf: shuttle regional luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the regional route with 1 Blackbird and 3 Bounders for 5.650.000 company credits after keeping at least double the package cost in reserve.`
 
+		fail
 mission "Company Foundations: Manager Optimize long Shuttle Route"
 	name "Manager Fleet Optimization"
 	invisible
@@ -84,6 +86,7 @@ mission "Company Foundations: Manager Optimize long Shuttle Route"
 		set "cf: shuttle long luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the long route with 1 Hogshead and 2 Blackbirds for 7.610.000 company credits after keeping at least double the package cost in reserve.`
 
+		fail
 mission "Company Foundations: Manager Optimize frontier Shuttle Route"
 	name "Manager Fleet Optimization"
 	invisible
@@ -112,6 +115,7 @@ mission "Company Foundations: Manager Optimize frontier Shuttle Route"
 		set "cf: shuttle frontier luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the frontier route with 2 Hogsheads and 3 Bounders for 9.720.000 company credits after keeping at least double the package cost in reserve.`
 
+		fail
 mission "Company Foundations: Repair Shuttle Manual Operations"
 	name "Company Operations Repair"
 	invisible
@@ -163,6 +167,7 @@ mission "Company Foundations: Repair Shuttle Manual Operations"
 		set "cf: manual pending"
 		log "Company Foundations" "Operations Repair" `A stale failed shuttle manual operations state was cleared. The company will restart owner-managed daily accounting on the next landing.`
 
+		fail
 mission "Company Foundations: Repair Shuttle Managed Operations"
 	name "Company Operations Repair"
 	invisible
@@ -214,6 +219,7 @@ mission "Company Foundations: Repair Shuttle Managed Operations"
 		set "cf: manager pending"
 		log "Company Foundations" "Operations Repair" `A stale failed shuttle managed operations state was cleared. The company will restart manager-run daily accounting on the next landing.`
 
+		fail
 mission "Company Foundations: Repair Mining Manual Operations"
 	name "Company Operations Repair"
 	invisible
@@ -265,6 +271,7 @@ mission "Company Foundations: Repair Mining Manual Operations"
 		set "cf: manual pending"
 		log "Company Foundations" "Operations Repair" `A stale failed mining manual operations state was cleared. The company will restart owner-managed daily accounting on the next landing.`
 
+		fail
 mission "Company Foundations: Repair Mining Managed Operations"
 	name "Company Operations Repair"
 	invisible
@@ -316,6 +323,7 @@ mission "Company Foundations: Repair Mining Managed Operations"
 		set "cf: manager pending"
 		log "Company Foundations" "Operations Repair" `A stale failed mining managed operations state was cleared. The company will restart manager-run daily accounting on the next landing.`
 
+		fail
 mission "Company Foundations: Repair Trading Manual Operations"
 	name "Company Operations Repair"
 	invisible
@@ -367,6 +375,7 @@ mission "Company Foundations: Repair Trading Manual Operations"
 		set "cf: manual pending"
 		log "Company Foundations" "Operations Repair" `A stale failed trading manual operations state was cleared. The company will restart owner-managed daily accounting on the next landing.`
 
+		fail
 mission "Company Foundations: Repair Trading Managed Operations"
 	name "Company Operations Repair"
 	invisible
@@ -418,6 +427,7 @@ mission "Company Foundations: Repair Trading Managed Operations"
 		set "cf: manager pending"
 		log "Company Foundations" "Operations Repair" `A stale failed trading managed operations state was cleared. The company will restart manager-run daily accounting on the next landing.`
 
+		fail
 mission "Company Foundations: Repair Security Manual Operations"
 	name "Company Operations Repair"
 	invisible
@@ -469,6 +479,7 @@ mission "Company Foundations: Repair Security Manual Operations"
 		set "cf: manual pending"
 		log "Company Foundations" "Operations Repair" `A stale failed security manual operations state was cleared. The company will restart owner-managed daily accounting on the next landing.`
 
+		fail
 mission "Company Foundations: Repair Security Managed Operations"
 	name "Company Operations Repair"
 	invisible
@@ -520,6 +531,7 @@ mission "Company Foundations: Repair Security Managed Operations"
 		set "cf: manager pending"
 		log "Company Foundations" "Operations Repair" `A stale failed security managed operations state was cleared. The company will restart manager-run daily accounting on the next landing.`
 
+		fail
 mission "Company Foundations: Enforce AutoPay"
 	name "Company AutoPay Enforcement"
 	invisible
@@ -532,6 +544,7 @@ mission "Company Foundations: Enforce AutoPay"
 		set "cf: autopay"
 		log "Company Foundations" "AutoPay" `AutoPay was enabled automatically because owner payout buffers are now only technical transfer queues.`
 
+		fail
 mission "Company Foundations: Allocate Positive Net Profit"
 	name "Company Profit Allocation"
 	invisible
@@ -553,6 +566,7 @@ mission "Company Foundations: Allocate Positive Net Profit"
 		"cf: unallocated net" = 0
 		clear "cf: distress open"
 
+		fail
 mission "Company Foundations: AutoPay Transfer 250000"
 	name "Company AutoPay Transfer"
 	invisible
@@ -571,6 +585,7 @@ mission "Company Foundations: AutoPay Transfer 250000"
 		"cf: autopay fees" += 0
 		"cf: autopay transfers" ++
 
+		fail
 mission "Company Foundations: AutoPay Transfer 50000"
 	name "Company AutoPay Transfer"
 	invisible
@@ -589,6 +604,7 @@ mission "Company Foundations: AutoPay Transfer 50000"
 		"cf: autopay fees" += 0
 		"cf: autopay transfers" ++
 
+		fail
 mission "Company Foundations: AutoPay Transfer 10000"
 	name "Company AutoPay Transfer"
 	invisible
@@ -607,6 +623,7 @@ mission "Company Foundations: AutoPay Transfer 10000"
 		"cf: autopay fees" += 0
 		"cf: autopay transfers" ++
 
+		fail
 mission "Company Foundations: AutoPay Transfer 5000"
 	name "Company AutoPay Transfer"
 	invisible
@@ -625,6 +642,7 @@ mission "Company Foundations: AutoPay Transfer 5000"
 		"cf: autopay fees" += 0
 		"cf: autopay transfers" ++
 
+		fail
 mission "Company Foundations: AutoPay Transfer 1000"
 	name "Company AutoPay Transfer"
 	invisible
@@ -643,6 +661,7 @@ mission "Company Foundations: AutoPay Transfer 1000"
 		"cf: autopay fees" += 0
 		"cf: autopay transfers" ++
 
+		fail
 mission "Company Foundations: AutoPay Transfer 100"
 	name "Company AutoPay Transfer"
 	invisible
@@ -661,6 +680,7 @@ mission "Company Foundations: AutoPay Transfer 100"
 		"cf: autopay fees" += 0
 		"cf: autopay transfers" ++
 
+		fail
 mission "Company Foundations: AutoPay Transfer 10"
 	name "Company AutoPay Transfer"
 	invisible
@@ -679,6 +699,7 @@ mission "Company Foundations: AutoPay Transfer 10"
 		"cf: autopay fees" += 0
 		"cf: autopay transfers" ++
 
+		fail
 mission "Company Foundations: AutoPay Transfer 1"
 	name "Company AutoPay Transfer"
 	invisible
@@ -697,6 +718,7 @@ mission "Company Foundations: AutoPay Transfer 1"
 		"cf: autopay fees" += 0
 		"cf: autopay transfers" ++
 
+		fail
 mission "Company Foundations: Manager Salary Reset"
 	name "Company Manager Salary Reset"
 	invisible
@@ -710,6 +732,7 @@ mission "Company Foundations: Manager Salary Reset"
 		"cf: manager unpaid days" = 0
 		clear "cf: manager salary checked"
 
+		fail
 mission "Company Foundations: Manager Salary Missed"
 	name "Company Manager Salary Missed"
 	invisible
@@ -725,6 +748,7 @@ mission "Company Foundations: Manager Salary Missed"
 		set "cf: manager salary checked"
 		log "Company Foundations" "Manager Salary" `The operations manager could not draw the 10,000 credit daily salary because company reserve was below 10,000 credits.`
 
+		fail
 mission "Company Foundations: Manager Resignation"
 	name "Company Manager Resignation"
 	landing

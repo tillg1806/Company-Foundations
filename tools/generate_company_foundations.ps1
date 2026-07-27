@@ -1,9 +1,57 @@
 param(
-    [string]$BaseData = "E:\steam\steamapps\common\Endless Sky\data\map planets.txt",
-    [string]$SystemData = "E:\steam\steamapps\common\Endless Sky\data\map systems.txt",
-    [string]$DataRoot = "E:\steam\steamapps\common\Endless Sky\data",
-    [string]$OutFile = "C:\Users\RDPadmin\AppData\Roaming\endless-sky\plugins\Company Foundations\data\company foundations.txt"
+    [string]$BaseData = "",
+    [string]$SystemData = "",
+    [string]$DataRoot = "",
+    [string]$OutFile = ""
 )
+
+$explicitParameters = @{}
+foreach($key in $PSBoundParameters.Keys) {
+    $explicitParameters[$key] = $PSBoundParameters[$key]
+}
+
+$scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+$pluginRoot = Split-Path -Parent $scriptRoot
+$localConfigPath = Join-Path $scriptRoot "company_foundations.local.ps1"
+
+if(Test-Path -LiteralPath $localConfigPath) {
+    . $localConfigPath
+}
+
+foreach($key in $explicitParameters.Keys) {
+    Set-Variable -Name $key -Value $explicitParameters[$key] -Scope Local
+}
+
+if(-not $DataRoot) {
+    $DataRoot = $env:ENDLESS_SKY_DATA
+}
+
+if(-not $DataRoot) {
+    $steamCandidates = @(
+        $(if(${env:ProgramFiles(x86)}) { Join-Path ${env:ProgramFiles(x86)} "Steam\steamapps\common\Endless Sky\data" }),
+        $(if($env:ProgramFiles) { Join-Path $env:ProgramFiles "Steam\steamapps\common\Endless Sky\data" })
+    ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) }
+
+    if($steamCandidates.Count -gt 0) {
+        $DataRoot = $steamCandidates[0]
+    }
+}
+
+if(-not $DataRoot) {
+    throw "Set -DataRoot, ENDLESS_SKY_DATA, or tools/company_foundations.local.ps1."
+}
+
+if(-not $BaseData) {
+    $BaseData = Join-Path $DataRoot "map planets.txt"
+}
+
+if(-not $SystemData) {
+    $SystemData = Join-Path $DataRoot "map systems.txt"
+}
+
+if(-not $OutFile) {
+    $OutFile = Join-Path $pluginRoot "data\company foundations.txt"
+}
 
 $excludedAttributes = @(
     "avgi", "bunrodea", "coalition", "gegno", "hai", "incipias", "ka'het",

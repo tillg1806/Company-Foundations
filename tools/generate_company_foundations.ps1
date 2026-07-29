@@ -79,6 +79,31 @@ $companyGovernmentName = "Company Foundations Player Company"
 $companyStationPlanetName = "Company Headquarters"
 $companyStationOutfitterName = "Company Station Outfitter"
 $companyStationShipyardName = "Company Station Shipyard"
+$companyStationCore = [pscustomobject]@{
+    Cost = 5000000
+    Income = 3000
+    Crew = 12
+    Payroll = 1200
+    Maintenance = 800
+    Upkeep = 2000
+    TaxRelief = 500
+}
+$companyStationOutfitter = [pscustomobject]@{
+    Cost = 15000000
+    Income = 8500
+    Crew = 30
+    Payroll = 3000
+    Maintenance = 3000
+    Upkeep = 6000
+}
+$companyStationShipyard = [pscustomobject]@{
+    Cost = 45000000
+    Income = 24000
+    Crew = 80
+    Payroll = 8000
+    Maintenance = 9000
+    Upkeep = 17000
+}
 
 function ConvertFrom-ESTokenLine {
     param([string]$Line)
@@ -298,6 +323,7 @@ function Add-StaffAndTaxCalculationLines {
         Add-Line "		`"cf: worker staff`" += `"cf: security $($contract.Prefix) daily crew`" / 100"
     }
     Add-Line "		`"cf: worker staff`" += `"cf: admiral daily crew`" / 100"
+    Add-Line "		`"cf: worker staff`" += `"cf: station crew`""
 
     Add-Line "		`"cf: office staff`" = `"cf: worker staff`""
     Add-Line "		`"cf: office staff`" -= 1"
@@ -1558,6 +1584,7 @@ function Add-CompanyProjectionActionLines {
         Add-Line "$Indent`"cf: worker staff`" += `"cf: security $($contract.Prefix) daily crew`" / 100"
     }
     Add-Line "$Indent`"cf: worker staff`" += `"cf: admiral daily crew`" / 100"
+    Add-Line "$Indent`"cf: worker staff`" += `"cf: station crew`""
 
     Add-Line "$Indent`"cf: office staff`" = `"cf: worker staff`""
     Add-Line "$Indent`"cf: office staff`" -= 1"
@@ -1803,26 +1830,30 @@ function Add-AutoPayTransferMission {
 }
 
 function Add-StationBuildChoices {
-    Add-Line "				``	Build a corporate station core for 5M company credits.``"
+    $coreCost = Format-CreditAmount $companyStationCore.Cost
+    $outfitterCost = Format-CreditAmount $companyStationOutfitter.Cost
+    $shipyardCost = Format-CreditAmount $companyStationShipyard.Cost
+
+    Add-Line "				``	Build a corporate station core for $coreCost company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: active`""
     Add-Line "						not `"cf: hq suspended`""
     Add-Line "						not `"cf: station orbital office`""
-    Add-Line "						`"cf: reserve`" >= 5000000"
+    Add-Line "						`"cf: reserve`" >= $($companyStationCore.Cost)"
     Add-Line "					goto `"menu station sites`""
-    Add-Line "				``	Install a station outfitter deck for 15M company credits.``"
+    Add-Line "				``	Install a station outfitter deck for $outfitterCost company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: station orbital office`""
     Add-Line "						not `"cf: hq suspended`""
     Add-Line "						not `"cf: station logistics hub`""
-    Add-Line "						`"cf: reserve`" >= 15000000"
+    Add-Line "						`"cf: reserve`" >= $($companyStationOutfitter.Cost)"
     Add-Line "					goto `"confirm build logistics station`""
-    Add-Line "				``	Install an industrial shipyard dock for 45M company credits.``"
+    Add-Line "				``	Install an industrial shipyard dock for $shipyardCost company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: station logistics hub`""
     Add-Line "						not `"cf: hq suspended`""
     Add-Line "						not `"cf: station industrial dock`""
-    Add-Line "						`"cf: reserve`" >= 45000000"
+    Add-Line "						`"cf: reserve`" >= $($companyStationShipyard.Cost)"
     Add-Line "					goto `"confirm build industrial station`""
 }
 
@@ -1834,7 +1865,7 @@ function Add-StationSiteChoices {
         Add-Line "						has `"cf: active`""
         Add-Line "						not `"cf: hq suspended`""
         Add-Line "						not `"cf: station orbital office`""
-        Add-Line "						`"cf: reserve`" >= 5000000"
+        Add-Line "						`"cf: reserve`" >= $($companyStationCore.Cost)"
         Add-Line "					goto `"confirm build station in $systemName`""
     }
 }
@@ -1842,10 +1873,10 @@ function Add-StationSiteChoices {
 function Add-StationBuildLabels {
     foreach($system in $companyStationSystems) {
         $systemName = $system.Name
-        Add-ConfirmationLabel "confirm build station in $systemName" "build station in $systemName" "Build the company headquarters station in the $systemName system for 5,000,000 company credits?" "Build station." "menu station sites"
+        Add-ConfirmationLabel "confirm build station in $systemName" "build station in $systemName" "Build the company headquarters station in the $systemName system for $(Format-CreditAmount $companyStationCore.Cost) company credits?" "Build station." "menu station sites"
         Add-Line "			label `"build station in $systemName`""
         Add-Line "			action"
-        Add-Line "				`"cf: reserve`" -= 5000000"
+        Add-Line "				`"cf: reserve`" -= $($companyStationCore.Cost)"
         Add-Line "				set `"cf: station orbital office`""
         Add-Line "				set `"cf: hq station built`""
         Add-ConditionLine "set" "cf: hq: $companyStationPlanetName" "				"
@@ -1853,40 +1884,49 @@ function Add-StationBuildLabels {
         Add-Line "				set `"cf: at hq`""
         Add-Line "				`"reputation: $companyGovernmentName`" >?= 1000"
         Add-Line "				`"cf: station count`" ++"
-        Add-Line "				`"cf: station value`" += 5000000"
-        Add-Line "				`"cf: station daily income`" += 1500"
-        Add-Line "				`"cf: station daily upkeep`" += 800"
-        Add-Line "				`"cf: hq tax relief`" += 500"
-        Add-Line "				`"cf: hq daily tax`" -= 500"
+        Add-Line "				`"cf: station value`" += $($companyStationCore.Cost)"
+        Add-Line "				`"cf: station crew`" += $($companyStationCore.Crew)"
+        Add-Line "				`"cf: station payroll`" += $($companyStationCore.Payroll)"
+        Add-Line "				`"cf: station maintenance`" += $($companyStationCore.Maintenance)"
+        Add-Line "				`"cf: station daily income`" += $($companyStationCore.Income)"
+        Add-Line "				`"cf: station daily upkeep`" += $($companyStationCore.Upkeep)"
+        Add-Line "				`"cf: hq tax relief`" += $($companyStationCore.TaxRelief)"
+        Add-Line "				`"cf: hq daily tax`" -= $($companyStationCore.TaxRelief)"
         Add-Line "				event `"Company Foundations: Station Site: $systemName`""
         Add-Line "				log `"Company Foundations`" `"Headquarters Station`" ``Built the company headquarters station in the $systemName system.``"
-        Add-Line "			``Your company charters a compact headquarters station in the $systemName system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.``"
+        Add-Line "			``Your company charters a compact headquarters station in the $systemName system. The core hires $($companyStationCore.Crew) station crew, adds $(Format-CreditAmount $companyStationCore.Income) credits per day in service income, costs $(Format-CreditAmount $companyStationCore.Upkeep) credits per day in payroll and maintenance, and reduces local HQ taxes by $(Format-CreditAmount $companyStationCore.TaxRelief) credits per day.``"
         Add-CompanyOutlookReturn
     }
 
-    Add-ConfirmationLabel "confirm build logistics station" "build logistics station" "Install a station outfitter deck for 15,000,000 company credits?" "Build station."
+    Add-ConfirmationLabel "confirm build logistics station" "build logistics station" "Install a station outfitter deck for $(Format-CreditAmount $companyStationOutfitter.Cost) company credits?" "Build station."
     Add-Line "			label `"build logistics station`""
     Add-Line "			action"
-    Add-Line "				`"cf: reserve`" -= 15000000"
+    Add-Line "				`"cf: reserve`" -= $($companyStationOutfitter.Cost)"
     Add-Line "				set `"cf: station logistics hub`""
     Add-Line "				`"cf: station count`" ++"
-    Add-Line "				`"cf: station value`" += 15000000"
-    Add-Line "				`"cf: station daily income`" += 5000"
-    Add-Line "				`"cf: station daily upkeep`" += 2000"
+    Add-Line "				`"cf: station value`" += $($companyStationOutfitter.Cost)"
+    Add-Line "				`"cf: station crew`" += $($companyStationOutfitter.Crew)"
+    Add-Line "				`"cf: station payroll`" += $($companyStationOutfitter.Payroll)"
+    Add-Line "				`"cf: station maintenance`" += $($companyStationOutfitter.Maintenance)"
+    Add-Line "				`"cf: station daily income`" += $($companyStationOutfitter.Income)"
+    Add-Line "				`"cf: station daily upkeep`" += $($companyStationOutfitter.Upkeep)"
     Add-Line "				event `"Company Foundations: Station Stage 2 Outfitter`""
-    Add-Line "			``The company expands the headquarters station with an outfitter deck. Cargo handling, shuttle transfers, and crew services add 5,000 credits per day in station income, with 2,000 credits per day in upkeep.``"
+    Add-Line "			``The company expands the headquarters station with an outfitter deck. Cargo handling, shuttle transfers, and crew services hire $($companyStationOutfitter.Crew) additional crew, add $(Format-CreditAmount $companyStationOutfitter.Income) credits per day in station income, and add $(Format-CreditAmount $companyStationOutfitter.Upkeep) credits per day in payroll and maintenance.``"
     Add-CompanyOutlookReturn
-    Add-ConfirmationLabel "confirm build industrial station" "build industrial station" "Install an industrial shipyard dock for 45,000,000 company credits?" "Build station."
+    Add-ConfirmationLabel "confirm build industrial station" "build industrial station" "Install an industrial shipyard dock for $(Format-CreditAmount $companyStationShipyard.Cost) company credits?" "Build station."
     Add-Line "			label `"build industrial station`""
     Add-Line "			action"
-    Add-Line "				`"cf: reserve`" -= 45000000"
+    Add-Line "				`"cf: reserve`" -= $($companyStationShipyard.Cost)"
     Add-Line "				set `"cf: station industrial dock`""
     Add-Line "				`"cf: station count`" ++"
-    Add-Line "				`"cf: station value`" += 45000000"
-    Add-Line "				`"cf: station daily income`" += 14000"
-    Add-Line "				`"cf: station daily upkeep`" += 6500"
+    Add-Line "				`"cf: station value`" += $($companyStationShipyard.Cost)"
+    Add-Line "				`"cf: station crew`" += $($companyStationShipyard.Crew)"
+    Add-Line "				`"cf: station payroll`" += $($companyStationShipyard.Payroll)"
+    Add-Line "				`"cf: station maintenance`" += $($companyStationShipyard.Maintenance)"
+    Add-Line "				`"cf: station daily income`" += $($companyStationShipyard.Income)"
+    Add-Line "				`"cf: station daily upkeep`" += $($companyStationShipyard.Upkeep)"
     Add-Line "				event `"Company Foundations: Station Stage 3 Shipyard`""
-    Add-Line "			``The company builds an industrial shipyard dock with repair berths, warehousing, and contractor shops. It adds 14,000 credits per day in station income, with 6,500 credits per day in upkeep.``"
+    Add-Line "			``The company builds an industrial shipyard dock with repair berths, warehousing, and contractor shops. It hires $($companyStationShipyard.Crew) additional station crew, adds $(Format-CreditAmount $companyStationShipyard.Income) credits per day in station income, and adds $(Format-CreditAmount $companyStationShipyard.Upkeep) credits per day in payroll and maintenance.``"
     Add-CompanyOutlookReturn
 }
 
@@ -1900,6 +1940,9 @@ function Add-CompanySellActions {
     Add-Line "$Indent`"cf: fleet value`" = 0"
     Add-Line "$Indent`"cf: station value`" = 0"
     Add-Line "$Indent`"cf: station count`" = 0"
+    Add-Line "$Indent`"cf: station crew`" = 0"
+    Add-Line "$Indent`"cf: station payroll`" = 0"
+    Add-Line "$Indent`"cf: station maintenance`" = 0"
     Add-Line "$Indent`"cf: station daily income`" = 0"
     Add-Line "$Indent`"cf: station daily upkeep`" = 0"
     Add-Line "$Indent`"cf: payout share`" = 0"
@@ -3053,6 +3096,7 @@ function Add-GenericCompanyBoardMission {
     Add-Line "mission `"Company Foundations: Company Board`""
     Add-Line "	name `"Company Headquarters`""
     Add-Line "	description `"Review your active company and change how it is managed.`""
+    Add-Line "	minor"
     Add-Line "	repeat"
     Add-Line "	to offer"
     Add-Line "		has `"cf: active`""
@@ -3100,7 +3144,7 @@ function Add-GenericCompanyBoardMission {
     Add-Line "			``	Admiral command: &[number@cf: admiral fleet] strike ship(s), fleet rating &[number@cf: admiral rating], tribute contracts &[number@cf: admiral tribute count], daily tribute &[credits@cf: admiral tribute income], lifetime tribute &[credits@cf: admiral tribute revenue].``"
     Add-Line "				to display"
     Add-Line "					has `"cf: security admiral`""
-    Add-Line "			``	Company stations: &[number@cf: station count] orbital asset(s), station value &[credits@cf: station value], daily station income &[credits@cf: station daily income], upkeep &[credits@cf: station daily upkeep], lifetime station revenue &[credits@cf: total station revenue].``"
+    Add-Line "			``	Company stations: &[number@cf: station count] station module(s), station value &[credits@cf: station value], crew &[number@cf: station crew], daily station income &[credits@cf: station daily income], upkeep &[credits@cf: station daily upkeep] (payroll &[credits@cf: station payroll], maintenance &[credits@cf: station maintenance]), lifetime station revenue &[credits@cf: total station revenue].``"
     Add-Line "				to display"
     Add-Line "					has `"cf: station orbital office`""
     Add-Line "			``	AUTOPAY``"
@@ -4318,7 +4362,7 @@ foreach($planet in $eligible) {
     Add-Line "				to display"
     Add-Line "					has `"cf: security admiral`""
     Add-Line "					`"cf: admiral travel days`" > 0"
-    Add-Line "			``	Company stations: &[number@cf: station count] orbital asset(s), station value &[credits@cf: station value], daily station income &[credits@cf: station daily income], upkeep &[credits@cf: station daily upkeep], lifetime station revenue &[credits@cf: total station revenue].``"
+    Add-Line "			``	Company stations: &[number@cf: station count] station module(s), station value &[credits@cf: station value], crew &[number@cf: station crew], daily station income &[credits@cf: station daily income], upkeep &[credits@cf: station daily upkeep] (payroll &[credits@cf: station payroll], maintenance &[credits@cf: station maintenance]), lifetime station revenue &[credits@cf: total station revenue].``"
     Add-Line "				to display"
     Add-Line "					has `"cf: station orbital office`""
     Add-Line "			``	Fleet admiral retained: independent pirate-tribute command costs 20,000 credits per day before owner payout, plus crew costs for admiral fleet ships.``"
@@ -5321,7 +5365,7 @@ Add-Line "		conversation"
 Add-Line "			``Your company office transmits its monthly balance report as soon as you touch down.``"
 Add-Line "			``	Period ending day &[number@cf: days operated]. Company reserve: &[credits@cf: reserve]. AutoPay queue: &[credits@cf: owner payable].``"
 Add-Line "			``	Monthly gross: &[credits@cf: month gross]. Monthly expenses: &[credits@cf: month expenses]. Manager costs: &[credits@cf: month manager costs]. Office staff costs: &[credits@cf: month office staff costs]. Taxes: &[credits@cf: month tax paid]. Net profit: &[credits@cf: month net profit].``"
-Add-Line "			``	Station operations: revenue &[credits@cf: month station revenue], upkeep &[credits@cf: month station upkeep], station assets &[number@cf: station count].``"
+Add-Line "			``	Station operations: revenue &[credits@cf: month station revenue], upkeep &[credits@cf: month station upkeep], crew &[number@cf: station crew], modules &[number@cf: station count].``"
 Add-Line "				to display"
 Add-Line "					has `"cf: station orbital office`""
 Add-Line "			``	Owner allocation: &[credits@cf: month owner allocations]. Retained earnings: &[credits@cf: month retained earnings]. Lifetime net profit: &[credits@cf: total net profit].``"

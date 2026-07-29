@@ -3,6 +3,7 @@
 mission "Company Foundations: Company Board"
 	name "Company Headquarters"
 	description "Review your active company and change how it is managed."
+	minor
 	repeat
 	to offer
 		has "cf: active"
@@ -29,6 +30,7 @@ mission "Company Foundations: Company Board"
 				"cf: worker staff" += "cf: security long daily crew" / 100
 				"cf: worker staff" += "cf: security frontier daily crew" / 100
 				"cf: worker staff" += "cf: admiral daily crew" / 100
+				"cf: worker staff" += "cf: station crew"
 				"cf: office staff" = "cf: worker staff"
 				"cf: office staff" -= 1
 				"cf: office staff" >?= 0
@@ -234,7 +236,7 @@ mission "Company Foundations: Company Board"
 			`	Admiral command: &[number@cf: admiral fleet] strike ship(s), fleet rating &[number@cf: admiral rating], tribute contracts &[number@cf: admiral tribute count], daily tribute &[credits@cf: admiral tribute income], lifetime tribute &[credits@cf: admiral tribute revenue].`
 				to display
 					has "cf: security admiral"
-			`	Company stations: &[number@cf: station count] orbital asset(s), station value &[credits@cf: station value], daily station income &[credits@cf: station daily income], upkeep &[credits@cf: station daily upkeep], lifetime station revenue &[credits@cf: total station revenue].`
+			`	Company stations: &[number@cf: station count] station module(s), station value &[credits@cf: station value], crew &[number@cf: station crew], daily station income &[credits@cf: station daily income], upkeep &[credits@cf: station daily upkeep] (payroll &[credits@cf: station payroll], maintenance &[credits@cf: station maintenance]), lifetime station revenue &[credits@cf: total station revenue].`
 				to display
 					has "cf: station orbital office"
 			`	AUTOPAY`
@@ -4863,21 +4865,21 @@ mission "Company Foundations: Company Board"
 						has "cf: manual owner payout controls enabled"
 						"cf: owner payable" >= 250000
 					goto "confirm collect owner 250000"
-				`	Build a corporate station core for 5M company credits.`
+				`	Build a corporate station core for 5,000,000 company credits.`
 					to display
 						has "cf: active"
 						not "cf: hq suspended"
 						not "cf: station orbital office"
 						"cf: reserve" >= 5000000
 					goto "menu station sites"
-				`	Install a station outfitter deck for 15M company credits.`
+				`	Install a station outfitter deck for 15,000,000 company credits.`
 					to display
 						has "cf: station orbital office"
 						not "cf: hq suspended"
 						not "cf: station logistics hub"
 						"cf: reserve" >= 15000000
 					goto "confirm build logistics station"
-				`	Install an industrial shipyard dock for 45M company credits.`
+				`	Install an industrial shipyard dock for 45,000,000 company credits.`
 					to display
 						has "cf: station logistics hub"
 						not "cf: hq suspended"
@@ -9316,6 +9318,7 @@ mission "Company Foundations: Company Board"
 				"cf: worker staff" += "cf: security long daily crew" / 100
 				"cf: worker staff" += "cf: security frontier daily crew" / 100
 				"cf: worker staff" += "cf: admiral daily crew" / 100
+				"cf: worker staff" += "cf: station crew"
 				"cf: office staff" = "cf: worker staff"
 				"cf: office staff" -= 1
 				"cf: office staff" >?= 0
@@ -9441,21 +9444,21 @@ mission "Company Foundations: Company Board"
 			label "menu stations"
 			`Station construction.`
 			choice
-				`	Build a corporate station core for 5M company credits.`
+				`	Build a corporate station core for 5,000,000 company credits.`
 					to display
 						has "cf: active"
 						not "cf: hq suspended"
 						not "cf: station orbital office"
 						"cf: reserve" >= 5000000
 					goto "menu station sites"
-				`	Install a station outfitter deck for 15M company credits.`
+				`	Install a station outfitter deck for 15,000,000 company credits.`
 					to display
 						has "cf: station orbital office"
 						not "cf: hq suspended"
 						not "cf: station logistics hub"
 						"cf: reserve" >= 15000000
 					goto "confirm build logistics station"
-				`	Install an industrial shipyard dock for 45M company credits.`
+				`	Install an industrial shipyard dock for 45,000,000 company credits.`
 					to display
 						has "cf: station logistics hub"
 						not "cf: hq suspended"
@@ -14718,6 +14721,7 @@ mission "Company Foundations: Company Board"
 				"cf: worker staff" += "cf: security long daily crew" / 100
 				"cf: worker staff" += "cf: security frontier daily crew" / 100
 				"cf: worker staff" += "cf: admiral daily crew" / 100
+				"cf: worker staff" += "cf: station crew"
 				"cf: office staff" = "cf: worker staff"
 				"cf: office staff" -= 1
 				"cf: office staff" >?= 0
@@ -14972,6 +14976,9 @@ mission "Company Foundations: Company Board"
 				"cf: fleet value" = 0
 				"cf: station value" = 0
 				"cf: station count" = 0
+				"cf: station crew" = 0
+				"cf: station payroll" = 0
+				"cf: station maintenance" = 0
 				"cf: station daily income" = 0
 				"cf: station daily upkeep" = 0
 				"cf: payout share" = 0
@@ -30491,13 +30498,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Acamar"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Acamar system.`
-			`Your company charters a compact headquarters station in the Acamar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Acamar system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Algieba"
 			`Build the company headquarters station in the Algieba system for 5,000,000 company credits?`
@@ -30517,13 +30527,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Algieba"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Algieba system.`
-			`Your company charters a compact headquarters station in the Algieba system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Algieba system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Alnasl"
 			`Build the company headquarters station in the Alnasl system for 5,000,000 company credits?`
@@ -30543,13 +30556,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Alnasl"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Alnasl system.`
-			`Your company charters a compact headquarters station in the Alnasl system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Alnasl system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Alpha Arae"
 			`Build the company headquarters station in the Alpha Arae system for 5,000,000 company credits?`
@@ -30569,13 +30585,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Alpha Arae"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Alpha Arae system.`
-			`Your company charters a compact headquarters station in the Alpha Arae system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Alpha Arae system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Aspidiske"
 			`Build the company headquarters station in the Aspidiske system for 5,000,000 company credits?`
@@ -30595,13 +30614,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Aspidiske"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Aspidiske system.`
-			`Your company charters a compact headquarters station in the Aspidiske system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Aspidiske system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Atik"
 			`Build the company headquarters station in the Atik system for 5,000,000 company credits?`
@@ -30621,13 +30643,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Atik"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Atik system.`
-			`Your company charters a compact headquarters station in the Atik system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Atik system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Beta Lupi"
 			`Build the company headquarters station in the Beta Lupi system for 5,000,000 company credits?`
@@ -30647,13 +30672,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Beta Lupi"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Beta Lupi system.`
-			`Your company charters a compact headquarters station in the Beta Lupi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Beta Lupi system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Boral"
 			`Build the company headquarters station in the Boral system for 5,000,000 company credits?`
@@ -30673,13 +30701,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Boral"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Boral system.`
-			`Your company charters a compact headquarters station in the Boral system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Boral system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Cardax"
 			`Build the company headquarters station in the Cardax system for 5,000,000 company credits?`
@@ -30699,13 +30730,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Cardax"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Cardax system.`
-			`Your company charters a compact headquarters station in the Cardax system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Cardax system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Danoa"
 			`Build the company headquarters station in the Danoa system for 5,000,000 company credits?`
@@ -30725,13 +30759,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Danoa"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Danoa system.`
-			`Your company charters a compact headquarters station in the Danoa system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Danoa system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Durax"
 			`Build the company headquarters station in the Durax system for 5,000,000 company credits?`
@@ -30751,13 +30788,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Durax"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Durax system.`
-			`Your company charters a compact headquarters station in the Durax system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Durax system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Eber"
 			`Build the company headquarters station in the Eber system for 5,000,000 company credits?`
@@ -30777,13 +30817,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Eber"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Eber system.`
-			`Your company charters a compact headquarters station in the Eber system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Eber system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Eltanin"
 			`Build the company headquarters station in the Eltanin system for 5,000,000 company credits?`
@@ -30803,13 +30846,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Eltanin"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Eltanin system.`
-			`Your company charters a compact headquarters station in the Eltanin system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Eltanin system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Eteron"
 			`Build the company headquarters station in the Eteron system for 5,000,000 company credits?`
@@ -30829,13 +30875,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Eteron"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Eteron system.`
-			`Your company charters a compact headquarters station in the Eteron system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Eteron system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Fala"
 			`Build the company headquarters station in the Fala system for 5,000,000 company credits?`
@@ -30855,13 +30904,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Fala"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Fala system.`
-			`Your company charters a compact headquarters station in the Fala system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Fala system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Fingol"
 			`Build the company headquarters station in the Fingol system for 5,000,000 company credits?`
@@ -30881,13 +30933,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Fingol"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Fingol system.`
-			`Your company charters a compact headquarters station in the Fingol system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Fingol system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Fumalsamakah"
 			`Build the company headquarters station in the Fumalsamakah system for 5,000,000 company credits?`
@@ -30907,13 +30962,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Fumalsamakah"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Fumalsamakah system.`
-			`Your company charters a compact headquarters station in the Fumalsamakah system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Fumalsamakah system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Gacrux"
 			`Build the company headquarters station in the Gacrux system for 5,000,000 company credits?`
@@ -30933,13 +30991,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Gacrux"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Gacrux system.`
-			`Your company charters a compact headquarters station in the Gacrux system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Gacrux system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Gamma Cassiopeiae"
 			`Build the company headquarters station in the Gamma Cassiopeiae system for 5,000,000 company credits?`
@@ -30959,13 +31020,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Gamma Cassiopeiae"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Gamma Cassiopeiae system.`
-			`Your company charters a compact headquarters station in the Gamma Cassiopeiae system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Gamma Cassiopeiae system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Gorvi"
 			`Build the company headquarters station in the Gorvi system for 5,000,000 company credits?`
@@ -30985,13 +31049,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Gorvi"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Gorvi system.`
-			`Your company charters a compact headquarters station in the Gorvi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Gorvi system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Hassaleh"
 			`Build the company headquarters station in the Hassaleh system for 5,000,000 company credits?`
@@ -31011,13 +31078,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Hassaleh"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Hassaleh system.`
-			`Your company charters a compact headquarters station in the Hassaleh system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Hassaleh system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Hatysa"
 			`Build the company headquarters station in the Hatysa system for 5,000,000 company credits?`
@@ -31037,13 +31107,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Hatysa"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Hatysa system.`
-			`Your company charters a compact headquarters station in the Hatysa system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Hatysa system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Hintar"
 			`Build the company headquarters station in the Hintar system for 5,000,000 company credits?`
@@ -31063,13 +31136,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Hintar"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Hintar system.`
-			`Your company charters a compact headquarters station in the Hintar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Hintar system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Holeb"
 			`Build the company headquarters station in the Holeb system for 5,000,000 company credits?`
@@ -31089,13 +31165,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Holeb"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Holeb system.`
-			`Your company charters a compact headquarters station in the Holeb system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Holeb system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Ildaria"
 			`Build the company headquarters station in the Ildaria system for 5,000,000 company credits?`
@@ -31115,13 +31194,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Ildaria"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Ildaria system.`
-			`Your company charters a compact headquarters station in the Ildaria system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Ildaria system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Ipsing"
 			`Build the company headquarters station in the Ipsing system for 5,000,000 company credits?`
@@ -31141,13 +31223,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Ipsing"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Ipsing system.`
-			`Your company charters a compact headquarters station in the Ipsing system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Ipsing system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Kugel"
 			`Build the company headquarters station in the Kugel system for 5,000,000 company credits?`
@@ -31167,13 +31252,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Kugel"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Kugel system.`
-			`Your company charters a compact headquarters station in the Kugel system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Kugel system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Lesath"
 			`Build the company headquarters station in the Lesath system for 5,000,000 company credits?`
@@ -31193,13 +31281,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Lesath"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Lesath system.`
-			`Your company charters a compact headquarters station in the Lesath system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Lesath system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Limen"
 			`Build the company headquarters station in the Limen system for 5,000,000 company credits?`
@@ -31219,13 +31310,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Limen"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Limen system.`
-			`Your company charters a compact headquarters station in the Limen system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Limen system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Lolami"
 			`Build the company headquarters station in the Lolami system for 5,000,000 company credits?`
@@ -31245,13 +31339,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Lolami"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Lolami system.`
-			`Your company charters a compact headquarters station in the Lolami system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Lolami system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Lurata"
 			`Build the company headquarters station in the Lurata system for 5,000,000 company credits?`
@@ -31271,13 +31368,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Lurata"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Lurata system.`
-			`Your company charters a compact headquarters station in the Lurata system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Lurata system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Menkalinan"
 			`Build the company headquarters station in the Menkalinan system for 5,000,000 company credits?`
@@ -31297,13 +31397,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Menkalinan"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Menkalinan system.`
-			`Your company charters a compact headquarters station in the Menkalinan system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Menkalinan system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Minkar"
 			`Build the company headquarters station in the Minkar system for 5,000,000 company credits?`
@@ -31323,13 +31426,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Minkar"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Minkar system.`
-			`Your company charters a compact headquarters station in the Minkar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Minkar system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Mintaka"
 			`Build the company headquarters station in the Mintaka system for 5,000,000 company credits?`
@@ -31349,13 +31455,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Mintaka"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Mintaka system.`
-			`Your company charters a compact headquarters station in the Mintaka system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Mintaka system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Mirzam"
 			`Build the company headquarters station in the Mirzam system for 5,000,000 company credits?`
@@ -31375,13 +31484,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Mirzam"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Mirzam system.`
-			`Your company charters a compact headquarters station in the Mirzam system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Mirzam system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Mizar"
 			`Build the company headquarters station in the Mizar system for 5,000,000 company credits?`
@@ -31401,13 +31513,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Mizar"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Mizar system.`
-			`Your company charters a compact headquarters station in the Mizar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Mizar system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Moktar"
 			`Build the company headquarters station in the Moktar system for 5,000,000 company credits?`
@@ -31427,13 +31542,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Moktar"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Moktar system.`
-			`Your company charters a compact headquarters station in the Moktar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Moktar system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Mora"
 			`Build the company headquarters station in the Mora system for 5,000,000 company credits?`
@@ -31453,13 +31571,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Mora"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Mora system.`
-			`Your company charters a compact headquarters station in the Mora system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Mora system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Muphrid"
 			`Build the company headquarters station in the Muphrid system for 5,000,000 company credits?`
@@ -31479,13 +31600,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Muphrid"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Muphrid system.`
-			`Your company charters a compact headquarters station in the Muphrid system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Muphrid system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Naper"
 			`Build the company headquarters station in the Naper system for 5,000,000 company credits?`
@@ -31505,13 +31629,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Naper"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Naper system.`
-			`Your company charters a compact headquarters station in the Naper system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Naper system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Nocte"
 			`Build the company headquarters station in the Nocte system for 5,000,000 company credits?`
@@ -31531,13 +31658,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Nocte"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Nocte system.`
-			`Your company charters a compact headquarters station in the Nocte system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Nocte system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Oblate"
 			`Build the company headquarters station in the Oblate system for 5,000,000 company credits?`
@@ -31557,13 +31687,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Oblate"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Oblate system.`
-			`Your company charters a compact headquarters station in the Oblate system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Oblate system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Orbona"
 			`Build the company headquarters station in the Orbona system for 5,000,000 company credits?`
@@ -31583,13 +31716,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Orbona"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Orbona system.`
-			`Your company charters a compact headquarters station in the Orbona system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Orbona system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Orvala"
 			`Build the company headquarters station in the Orvala system for 5,000,000 company credits?`
@@ -31609,13 +31745,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Orvala"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Orvala system.`
-			`Your company charters a compact headquarters station in the Orvala system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Orvala system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Persian"
 			`Build the company headquarters station in the Persian system for 5,000,000 company credits?`
@@ -31635,13 +31774,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Persian"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Persian system.`
-			`Your company charters a compact headquarters station in the Persian system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Persian system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Procyon"
 			`Build the company headquarters station in the Procyon system for 5,000,000 company credits?`
@@ -31661,13 +31803,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Procyon"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Procyon system.`
-			`Your company charters a compact headquarters station in the Procyon system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Procyon system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Rajak"
 			`Build the company headquarters station in the Rajak system for 5,000,000 company credits?`
@@ -31687,13 +31832,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Rajak"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Rajak system.`
-			`Your company charters a compact headquarters station in the Rajak system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Rajak system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Regulus"
 			`Build the company headquarters station in the Regulus system for 5,000,000 company credits?`
@@ -31713,13 +31861,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Regulus"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Regulus system.`
-			`Your company charters a compact headquarters station in the Regulus system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Regulus system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Rigel"
 			`Build the company headquarters station in the Rigel system for 5,000,000 company credits?`
@@ -31739,13 +31890,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Rigel"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Rigel system.`
-			`Your company charters a compact headquarters station in the Rigel system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Rigel system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Sadr"
 			`Build the company headquarters station in the Sadr system for 5,000,000 company credits?`
@@ -31765,13 +31919,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Sadr"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Sadr system.`
-			`Your company charters a compact headquarters station in the Sadr system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Sadr system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Sospi"
 			`Build the company headquarters station in the Sospi system for 5,000,000 company credits?`
@@ -31791,13 +31948,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Sospi"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Sospi system.`
-			`Your company charters a compact headquarters station in the Sospi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Sospi system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Sumar"
 			`Build the company headquarters station in the Sumar system for 5,000,000 company credits?`
@@ -31817,13 +31977,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Sumar"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Sumar system.`
-			`Your company charters a compact headquarters station in the Sumar system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Sumar system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Tais"
 			`Build the company headquarters station in the Tais system for 5,000,000 company credits?`
@@ -31843,13 +32006,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Tais"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Tais system.`
-			`Your company charters a compact headquarters station in the Tais system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Tais system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Terminus"
 			`Build the company headquarters station in the Terminus system for 5,000,000 company credits?`
@@ -31869,13 +32035,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Terminus"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Terminus system.`
-			`Your company charters a compact headquarters station in the Terminus system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Terminus system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Thuban"
 			`Build the company headquarters station in the Thuban system for 5,000,000 company credits?`
@@ -31895,13 +32064,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Thuban"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Thuban system.`
-			`Your company charters a compact headquarters station in the Thuban system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Thuban system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Tortor"
 			`Build the company headquarters station in the Tortor system for 5,000,000 company credits?`
@@ -31921,13 +32093,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Tortor"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Tortor system.`
-			`Your company charters a compact headquarters station in the Tortor system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Tortor system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Umbral"
 			`Build the company headquarters station in the Umbral system for 5,000,000 company credits?`
@@ -31947,13 +32122,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Umbral"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Umbral system.`
-			`Your company charters a compact headquarters station in the Umbral system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Umbral system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Unagi"
 			`Build the company headquarters station in the Unagi system for 5,000,000 company credits?`
@@ -31973,13 +32151,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Unagi"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Unagi system.`
-			`Your company charters a compact headquarters station in the Unagi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Unagi system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Volax"
 			`Build the company headquarters station in the Volax system for 5,000,000 company credits?`
@@ -31999,13 +32180,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Volax"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Volax system.`
-			`Your company charters a compact headquarters station in the Volax system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Volax system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Wei"
 			`Build the company headquarters station in the Wei system for 5,000,000 company credits?`
@@ -32025,13 +32209,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Wei"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Wei system.`
-			`Your company charters a compact headquarters station in the Wei system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Wei system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build station in Zubenelgenubi"
 			`Build the company headquarters station in the Zubenelgenubi system for 5,000,000 company credits?`
@@ -32051,13 +32238,16 @@ mission "Company Foundations: Company Board"
 				"reputation: Company Foundations Player Company" >?= 1000
 				"cf: station count" ++
 				"cf: station value" += 5000000
-				"cf: station daily income" += 1500
-				"cf: station daily upkeep" += 800
+				"cf: station crew" += 12
+				"cf: station payroll" += 1200
+				"cf: station maintenance" += 800
+				"cf: station daily income" += 3000
+				"cf: station daily upkeep" += 2000
 				"cf: hq tax relief" += 500
 				"cf: hq daily tax" -= 500
 				event "Company Foundations: Station Site: Zubenelgenubi"
 				log "Company Foundations" "Headquarters Station" `Built the company headquarters station in the Zubenelgenubi system.`
-			`Your company charters a compact headquarters station in the Zubenelgenubi system. The new station handles customs, berthing contracts, and dispatch traffic, adding 1,500 credits per day in service income, 800 credits per day in upkeep, and reducing local HQ taxes by 500 credits per day.`
+			`Your company charters a compact headquarters station in the Zubenelgenubi system. The core hires 12 station crew, adds 3,000 credits per day in service income, costs 2,000 credits per day in payroll and maintenance, and reduces local HQ taxes by 500 credits per day.`
 				goto "company transaction summary"
 			label "confirm build logistics station"
 			`Install a station outfitter deck for 15,000,000 company credits?`
@@ -32072,10 +32262,13 @@ mission "Company Foundations: Company Board"
 				set "cf: station logistics hub"
 				"cf: station count" ++
 				"cf: station value" += 15000000
-				"cf: station daily income" += 5000
-				"cf: station daily upkeep" += 2000
+				"cf: station crew" += 30
+				"cf: station payroll" += 3000
+				"cf: station maintenance" += 3000
+				"cf: station daily income" += 8500
+				"cf: station daily upkeep" += 6000
 				event "Company Foundations: Station Stage 2 Outfitter"
-			`The company expands the headquarters station with an outfitter deck. Cargo handling, shuttle transfers, and crew services add 5,000 credits per day in station income, with 2,000 credits per day in upkeep.`
+			`The company expands the headquarters station with an outfitter deck. Cargo handling, shuttle transfers, and crew services hire 30 additional crew, add 8,500 credits per day in station income, and add 6,000 credits per day in payroll and maintenance.`
 				goto "company transaction summary"
 			label "confirm build industrial station"
 			`Install an industrial shipyard dock for 45,000,000 company credits?`
@@ -32090,10 +32283,13 @@ mission "Company Foundations: Company Board"
 				set "cf: station industrial dock"
 				"cf: station count" ++
 				"cf: station value" += 45000000
-				"cf: station daily income" += 14000
-				"cf: station daily upkeep" += 6500
+				"cf: station crew" += 80
+				"cf: station payroll" += 8000
+				"cf: station maintenance" += 9000
+				"cf: station daily income" += 24000
+				"cf: station daily upkeep" += 17000
 				event "Company Foundations: Station Stage 3 Shipyard"
-			`The company builds an industrial shipyard dock with repair berths, warehousing, and contractor shops. It adds 14,000 credits per day in station income, with 6,500 credits per day in upkeep.`
+			`The company builds an industrial shipyard dock with repair berths, warehousing, and contractor shops. It hires 80 additional station crew, adds 24,000 credits per day in station income, and adds 17,000 credits per day in payroll and maintenance.`
 				goto "company transaction summary"
 			label "confirm invest 1000"
 			`Invest 1,000 personal credits into the company reserve?`

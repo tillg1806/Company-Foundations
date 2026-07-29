@@ -849,7 +849,7 @@ mission "Company Foundations: Monthly Balance Report"
 			`Your company office transmits its monthly balance report as soon as you touch down.`
 			`	Period ending day &[number@cf: days operated]. Company reserve: &[credits@cf: reserve]. AutoPay queue: &[credits@cf: owner payable].`
 			`	Monthly gross: &[credits@cf: month gross]. Monthly expenses: &[credits@cf: month expenses]. Manager costs: &[credits@cf: month manager costs]. Office staff costs: &[credits@cf: month office staff costs]. Taxes: &[credits@cf: month tax paid]. Net profit: &[credits@cf: month net profit].`
-			`	Station operations: revenue &[credits@cf: month station revenue], upkeep &[credits@cf: month station upkeep], station assets &[number@cf: station count].`
+			`	Station operations: revenue &[credits@cf: month station revenue], upkeep &[credits@cf: month station upkeep], crew &[number@cf: station crew], modules &[number@cf: station count].`
 				to display
 					has "cf: station orbital office"
 			`	Owner allocation: &[credits@cf: month owner allocations]. Retained earnings: &[credits@cf: month retained earnings]. Lifetime net profit: &[credits@cf: total net profit].`
@@ -991,6 +991,7 @@ mission "Company Foundations: Shuttle Manual Operations"
 		"cf: worker staff" += "cf: security long daily crew" / 100
 		"cf: worker staff" += "cf: security frontier daily crew" / 100
 		"cf: worker staff" += "cf: admiral daily crew" / 100
+		"cf: worker staff" += "cf: station crew"
 		"cf: office staff" = "cf: worker staff"
 		"cf: office staff" -= 1
 		"cf: office staff" >?= 0
@@ -1159,6 +1160,7 @@ mission "Company Foundations: Mining Manual Operations"
 		"cf: worker staff" += "cf: security long daily crew" / 100
 		"cf: worker staff" += "cf: security frontier daily crew" / 100
 		"cf: worker staff" += "cf: admiral daily crew" / 100
+		"cf: worker staff" += "cf: station crew"
 		"cf: office staff" = "cf: worker staff"
 		"cf: office staff" -= 1
 		"cf: office staff" >?= 0
@@ -1319,6 +1321,7 @@ mission "Company Foundations: Trading Manual Operations"
 		"cf: worker staff" += "cf: security long daily crew" / 100
 		"cf: worker staff" += "cf: security frontier daily crew" / 100
 		"cf: worker staff" += "cf: admiral daily crew" / 100
+		"cf: worker staff" += "cf: station crew"
 		"cf: office staff" = "cf: worker staff"
 		"cf: office staff" -= 1
 		"cf: office staff" >?= 0
@@ -1490,6 +1493,7 @@ mission "Company Foundations: Security Manual Operations"
 		"cf: worker staff" += "cf: security long daily crew" / 100
 		"cf: worker staff" += "cf: security frontier daily crew" / 100
 		"cf: worker staff" += "cf: admiral daily crew" / 100
+		"cf: worker staff" += "cf: station crew"
 		"cf: office staff" = "cf: worker staff"
 		"cf: office staff" -= 1
 		"cf: office staff" >?= 0
@@ -1668,6 +1672,7 @@ mission "Company Foundations: Shuttle Managed Operations"
 		"cf: worker staff" += "cf: security long daily crew" / 100
 		"cf: worker staff" += "cf: security frontier daily crew" / 100
 		"cf: worker staff" += "cf: admiral daily crew" / 100
+		"cf: worker staff" += "cf: station crew"
 		"cf: office staff" = "cf: worker staff"
 		"cf: office staff" -= 1
 		"cf: office staff" >?= 0
@@ -1850,6 +1855,7 @@ mission "Company Foundations: Mining Managed Operations"
 		"cf: worker staff" += "cf: security long daily crew" / 100
 		"cf: worker staff" += "cf: security frontier daily crew" / 100
 		"cf: worker staff" += "cf: admiral daily crew" / 100
+		"cf: worker staff" += "cf: station crew"
 		"cf: office staff" = "cf: worker staff"
 		"cf: office staff" -= 1
 		"cf: office staff" >?= 0
@@ -2024,6 +2030,7 @@ mission "Company Foundations: Trading Managed Operations"
 		"cf: worker staff" += "cf: security long daily crew" / 100
 		"cf: worker staff" += "cf: security frontier daily crew" / 100
 		"cf: worker staff" += "cf: admiral daily crew" / 100
+		"cf: worker staff" += "cf: station crew"
 		"cf: office staff" = "cf: worker staff"
 		"cf: office staff" -= 1
 		"cf: office staff" >?= 0
@@ -2209,6 +2216,7 @@ mission "Company Foundations: Security Managed Operations"
 		"cf: worker staff" += "cf: security long daily crew" / 100
 		"cf: worker staff" += "cf: security frontier daily crew" / 100
 		"cf: worker staff" += "cf: admiral daily crew" / 100
+		"cf: worker staff" += "cf: station crew"
 		"cf: office staff" = "cf: worker staff"
 		"cf: office staff" -= 1
 		"cf: office staff" >?= 0

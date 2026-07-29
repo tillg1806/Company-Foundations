@@ -4,6 +4,11 @@ README: [README.md](README.md)
 
 This overview lists the daily headquarters base tax for every possible headquarters planet and explains how taxes scale during operation.
 
+Current status: the tax model is part of the playable MVP balance pass. Company
+taxes are treated as operating expenses before owner payout allocation. AutoPay
+does not add a tax or transaction fee; it only transfers already allocated owner
+payouts from the technical queue to the pilot.
+
 ## Tax Formula
 
 ```text
@@ -12,8 +17,9 @@ daily HQ tax = max(0, HQ base tax + employee tax - station tax relief)
 
 - HQ base tax comes from the planet, government, and local attributes.
 - Employee tax scales with total staff.
-- An orbital office reduces HQ tax by 500 credits per day.
-- Final HQ base tax is clamped to a 100 credit minimum and a 2,000 credit maximum.
+- An orbital company office reduces HQ tax by 500 credits per day.
+- The computed planetary base tax is clamped to a 100 credit minimum and a 2,000
+  credit maximum before employee tax and station relief are applied.
 
 ## Base Tax Scaling
 
@@ -57,6 +63,10 @@ Employee tax is calculated from `total staff`. Divisions in the formula use inte
 ## Planet Table
 
 Possible headquarters count: 366
+
+The table shows the starting headquarters base tax for each possible registration
+planet. The actual daily bill can rise with staff and can fall with station tax
+relief, as shown in the formula above.
 
 | Planet | Government | HQ base tax / day |
 | --- | --- | ---: |

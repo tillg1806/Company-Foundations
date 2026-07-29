@@ -3,12 +3,20 @@
 Tax details: [tax-info.md](tax-info.md)
 
 Company Foundations adds a playable company-management layer for normal Endless
-Sky pilots. You can register a company at accessible inhabited spaceports and run
-Shuttle, Mining, Trading, and Security divisions from a headquarters planet.
+Sky pilots. You can register a company at accessible inhabited spaceports, choose
+an operating focus, and grow it into a multi-division business with simulated
+fleets, licenses, managers, taxes, headquarters logistics, orbital infrastructure,
+and company valuation.
 
-The current build is an MVP balance pass for fresh playthroughs, with simulated
-company fleets, route and license growth, managers, headquarters accounting,
-orbital infrastructure, and company valuation.
+Current status: this is a playable MVP balance pass intended for fresh
+playthroughs. The core loop is in place, including Shuttle, Mining, Trading, and
+Security starts; exploration-gated procurement; daily and monthly accounting;
+AutoPay owner payouts; manager-driven reinvestment; headquarters relocation;
+station construction; fleet-admiral deployments; pirate tribute pressure; and
+selling the company.
+
+The plugin is still a prototype: it focuses on systems, balance, and progression
+over story polish, custom artwork, or handcrafted mission arcs.
 
 ## Starting A Company
 
@@ -59,10 +67,10 @@ construction, and investment.
 Positive net profit is allocated according to the owner payout share. Supported
 shares are 0%, 10%, 25%, 50%, 75%, and 100%.
 
-AutoPay is now the normal payout path. Owner allocations enter a technical transfer
-queue and are automatically paid to the pilot in batches with no tax or transaction
-deduction. Manual payout and AutoPay-disable controls are hidden behind explicit
-debug or compatibility conditions.
+AutoPay is the normal payout path. Owner allocations enter a technical transfer
+queue and are automatically paid to the pilot in batches with no tax or
+transaction deduction. Manual payout and AutoPay-disable controls are hidden
+behind explicit debug or compatibility conditions.
 
 Operating losses do not create owner payouts. Instead, they open a distress report
 until the reserve is stabilized and the issue is closed at headquarters.
@@ -174,12 +182,13 @@ keeps the existing management mode.
 
 Companies can build simulated orbital infrastructure from company reserves:
 
-- Orbital company office: costs 5M credits, adds 1,500 credits per day, costs 800
-  credits per day in upkeep, and reduces headquarters taxes by 500 credits per day.
-- Logistics station: costs 15M credits, adds 5,000 credits per day, and costs
-  2,000 credits per day in upkeep.
-- Industrial dock station: costs 45M credits, adds 14,000 credits per day, and
-  costs 6,500 credits per day in upkeep.
+- Orbital company office: costs 5M credits, adds 3,000 credits per day, costs
+  2,000 credits per day in upkeep, and reduces headquarters taxes by 500 credits
+  per day.
+- Logistics outfitter deck: costs 15M credits, adds 8,500 credits per day, and
+  costs 6,000 credits per day in upkeep.
+- Industrial shipyard dock: costs 45M credits, adds 24,000 credits per day, and
+  costs 17,000 credits per day in upkeep.
 
 Station operations are included in daily accounting, monthly reports, projections,
 and company valuation. They pause with the company when headquarters access is

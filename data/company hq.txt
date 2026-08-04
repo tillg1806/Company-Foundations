@@ -3,11 +3,1478 @@
 mission "Company Foundations: Company Board"
 	name "Company Headquarters"
 	description "Review your active company and change how it is managed."
-	minor
+	non-blocking
 	repeat
 	to offer
 		has "cf: active"
-		has "cf: at hq"
+		or
+			and
+				has "cf: hq station built"
+				has "flagship planet: Company Headquarters"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Aava-Aasa-Khora"
+				has "flagship planet: Aava-Aasa-Khora"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ablub's Invention"
+				has "flagship planet: Ablub's Invention"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ada"
+				has "flagship planet: Ada"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ahr"
+				has "flagship planet: Ahr"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Albatross"
+				has "flagship planet: Albatross"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Alexandria"
+				has "flagship planet: Alexandria"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Alfheim"
+				has "flagship planet: Alfheim"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Allhome"
+				has "flagship planet: Allhome"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Alta Hai"
+				has "flagship planet: Alta Hai"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Alvorada"
+				has "flagship planet: Alvorada"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Amathil"
+				has "flagship planet: Amathil"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Amazon"
+				has "flagship planet: Amazon"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Angko"
+				has "flagship planet: Angko"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Antipode"
+				has "flagship planet: Antipode"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Arabia"
+				has "flagship planet: Arabia"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Araio"
+				has "flagship planet: Araio"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Arroharg"
+				has "flagship planet: Arroharg"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Asgard"
+				has "flagship planet: Asgard"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ashy Reach"
+				has "flagship planet: Ashy Reach"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Aventine"
+				has "flagship planet: Aventine"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Aviskir"
+				has "flagship planet: Aviskir"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bailey"
+				has "flagship planet: Bailey"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bank of Blugtad"
+				has "flagship planet: Bank of Blugtad"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Belug's Plunge"
+				has "flagship planet: Belug's Plunge"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Big Sky"
+				has "flagship planet: Big Sky"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bivrost"
+				has "flagship planet: Bivrost"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bloodsea"
+				has "flagship planet: Bloodsea"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bloptab's Furnace"
+				has "flagship planet: Bloptab's Furnace"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Blubipad's Workshop"
+				has "flagship planet: Blubipad's Workshop"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Blue Interior"
+				has "flagship planet: Blue Interior"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bluestone"
+				has "flagship planet: Bluestone"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bosunothro"
+				has "flagship planet: Bosunothro"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bounty"
+				has "flagship planet: Bounty"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bourne"
+				has "flagship planet: Bourne"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Brass Second"
+				has "flagship planet: Brass Second"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bright Echo"
+				has "flagship planet: Bright Echo"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Buccaneer Bay"
+				has "flagship planet: Buccaneer Bay"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Bunthro"
+				has "flagship planet: Bunthro"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Burthen"
+				has "flagship planet: Burthen"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Caelian"
+				has "flagship planet: Caelian"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Calda"
+				has "flagship planet: Calda"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Canyon"
+				has "flagship planet: Canyon"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Celestial Third"
+				has "flagship planet: Celestial Third"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Charon Station"
+				has "flagship planet: Charon Station"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Chiron"
+				has "flagship planet: Chiron"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Chosen Nexus"
+				has "flagship planet: Chosen Nexus"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Cipi"
+				has "flagship planet: Cipi"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Clark"
+				has "flagship planet: Clark"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Cloudfire"
+				has "flagship planet: Cloudfire"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Cold Horizon"
+				has "flagship planet: Cold Horizon"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Cool Forest"
+				has "flagship planet: Cool Forest"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Cornucopia"
+				has "flagship planet: Cornucopia"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Corral of Meblumem"
+				has "flagship planet: Corral of Meblumem"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Covert"
+				has "flagship planet: Covert"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Crossroads"
+				has "flagship planet: Crossroads"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Cyreal"
+				has "flagship planet: Cyreal"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Dancer"
+				has "flagship planet: Dancer"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Darkcloak"
+				has "flagship planet: Darkcloak"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Darkmetal"
+				has "flagship planet: Darkmetal"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Darkstone"
+				has "flagship planet: Darkstone"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Deadman's Cove"
+				has "flagship planet: Deadman's Cove"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Deep"
+				has "flagship planet: Deep"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Deep Treasure"
+				has "flagship planet: Deep Treasure"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Deep Water"
+				has "flagship planet: Deep Water"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Deli Kasi"
+				has "flagship planet: Deli Kasi"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Deli Kat"
+				has "flagship planet: Deli Kat"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Delve"
+				has "flagship planet: Delve"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Delve of Bloptab"
+				has "flagship planet: Delve of Bloptab"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Disara"
+				has "flagship planet: Disara"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Double Haze"
+				has "flagship planet: Double Haze"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Dueitch Ae"
+				has "flagship planet: Dueitch Ae"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Dueyu Eitch"
+				has "flagship planet: Dueyu Eitch"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Dune"
+				has "flagship planet: Dune"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Dusk Companion"
+				has "flagship planet: Dusk Companion"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Dustmaker"
+				has "flagship planet: Dustmaker"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Dwelling of Speloog"
+				has "flagship planet: Dwelling of Speloog"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Earth"
+				has "flagship planet: Earth"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Echo"
+				has "flagship planet: Echo"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ef Aourtdye"
+				has "flagship planet: Ef Aourtdye"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ef Osch"
+				has "flagship planet: Ef Osch"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ember Reaches"
+				has "flagship planet: Ember Reaches"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ember Wormhole"
+				has "flagship planet: Ember Wormhole"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Enbye"
+				has "flagship planet: Enbye"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Enn Bue"
+				has "flagship planet: Enn Bue"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Erabuthro"
+				has "flagship planet: Erabuthro"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Eragarthro"
+				has "flagship planet: Eragarthro"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ergastirio Station"
+				has "flagship planet: Ergastirio Station"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Essime"
+				has "flagship planet: Essime"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Everhope"
+				has "flagship planet: Everhope"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Factory of Eblumab"
+				has "flagship planet: Factory of Eblumab"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Far Garden"
+				has "flagship planet: Far Garden"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Far Home"
+				has "flagship planet: Far Home"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Farpoint"
+				has "flagship planet: Farpoint"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Farseer"
+				has "flagship planet: Farseer"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Farwater"
+				has "flagship planet: Farwater"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Featherweight"
+				has "flagship planet: Featherweight"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Fenrir Station"
+				has "flagship planet: Fenrir Station"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Feo Platform"
+				has "flagship planet: Feo Platform"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Firelode"
+				has "flagship planet: Firelode"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Flood"
+				has "flagship planet: Flood"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Flowing Fields"
+				has "flagship planet: Flowing Fields"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Follower"
+				has "flagship planet: Follower"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Forpelog"
+				has "flagship planet: Forpelog"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Foundry"
+				has "flagship planet: Foundry"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Fourth Shadow"
+				has "flagship planet: Fourth Shadow"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Freedom"
+				has "flagship planet: Freedom"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Frostmark"
+				has "flagship planet: Frostmark"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Furnace"
+				has "flagship planet: Furnace"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Gagarin"
+				has "flagship planet: Gagarin"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Garden Empyreal"
+				has "flagship planet: Garden Empyreal"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Geminus"
+				has "flagship planet: Geminus"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Gemstone"
+				has "flagship planet: Gemstone"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Gentle Rain"
+				has "flagship planet: Gentle Rain"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Geyser"
+				has "flagship planet: Geyser"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Gi Tiures"
+				has "flagship planet: Gi Tiures"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Giaru Gegno"
+				has "flagship planet: Giaru Gegno"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Giverstone"
+				has "flagship planet: Giverstone"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Glaze"
+				has "flagship planet: Glaze"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Glittering Ice"
+				has "flagship planet: Glittering Ice"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Glory"
+				has "flagship planet: Glory"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Graede"
+				has "flagship planet: Graede"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Grakhord"
+				has "flagship planet: Grakhord"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Greenbloom"
+				has "flagship planet: Greenbloom"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Greenrock"
+				has "flagship planet: Greenrock"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Greenview"
+				has "flagship planet: Greenview"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Greenwater"
+				has "flagship planet: Greenwater"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Gresku Fodar"
+				has "flagship planet: Gresku Fodar"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Greymoon"
+				has "flagship planet: Greymoon"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Guardian Array Sapphire"
+				has "flagship planet: Guardian Array Sapphire"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Gue Faur"
+				has "flagship planet: Gue Faur"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Hai-home"
+				has "flagship planet: Hai-home"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Hammer of Debrugt"
+				has "flagship planet: Hammer of Debrugt"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Harmony"
+				has "flagship planet: Harmony"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Haven"
+				has "flagship planet: Haven"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Haze"
+				has "flagship planet: Haze"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Heartland"
+				has "flagship planet: Heartland"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Heartvalley"
+				has "flagship planet: Heartvalley"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Helheim"
+				has "flagship planet: Helheim"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Hephaestus"
+				has "flagship planet: Hephaestus"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Hermes"
+				has "flagship planet: Hermes"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Hestia"
+				has "flagship planet: Hestia"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Hippocrates"
+				has "flagship planet: Hippocrates"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Hopper"
+				has "flagship planet: Hopper"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Humanika"
+				has "flagship planet: Humanika"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Icefall"
+				has "flagship planet: Icefall"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Icelake"
+				has "flagship planet: Icelake"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Iddesato"
+				has "flagship planet: Iddesato"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Iemn Eitch"
+				has "flagship planet: Iemn Eitch"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Illbo Avo"
+				has "flagship planet: Illbo Avo"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Illbo Elo"
+				has "flagship planet: Illbo Elo"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ingot"
+				has "flagship planet: Ingot"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Inmost Blue"
+				has "flagship planet: Inmost Blue"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Into White"
+				has "flagship planet: Into White"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Iyra-Ijasa-Iret"
+				has "flagship planet: Iyra-Ijasa-Iret"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Jakobsen"
+				has "flagship planet: Jakobsen"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Jentuthro"
+				has "flagship planet: Jentuthro"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Karek Fornati"
+				has "flagship planet: Karek Fornati"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kasii-Cavasaa-Oa"
+				has "flagship planet: Kasii-Cavasaa-Oa"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kasii-Tuur-Saqru"
+				has "flagship planet: Kasii-Tuur-Saqru"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kasi-Osolaa-Sossa"
+				has "flagship planet: Kasi-Osolaa-Sossa"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kessel Sepret"
+				has "flagship planet: Kessel Sepret"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Khora-Vasa-Reyyaa"
+				has "flagship planet: Khora-Vasa-Reyyaa"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ki Patek Ka"
+				has "flagship planet: Ki Patek Ka"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kisarra"
+				has "flagship planet: Kisarra"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Korati Efreti"
+				has "flagship planet: Korati Efreti"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kort Kehai"
+				has "flagship planet: Kort Kehai"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kort Vek'kri"
+				has "flagship planet: Kort Vek'kri"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kraken Station"
+				has "flagship planet: Kraken Station"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kua-Oa-Aava"
+				has "flagship planet: Kua-Oa-Aava"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Kuwaru Efreti"
+				has "flagship planet: Kuwaru Efreti"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Lagrange"
+				has "flagship planet: Lagrange"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Laki Nemparu"
+				has "flagship planet: Laki Nemparu"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Leviathan Station"
+				has "flagship planet: Leviathan Station"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Lichen"
+				has "flagship planet: Lichen"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Livolua"
+				has "flagship planet: Livolua"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Lodestone"
+				has "flagship planet: Lodestone"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Longjump"
+				has "flagship planet: Longjump"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Luna"
+				has "flagship planet: Luna"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Maelstrom"
+				has "flagship planet: Maelstrom"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Mainsail"
+				has "flagship planet: Mainsail"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Maker"
+				has "flagship planet: Maker"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Makerplace"
+				has "flagship planet: Makerplace"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Mani"
+				has "flagship planet: Mani"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Market of Gupta"
+				has "flagship planet: Market of Gupta"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Mars"
+				has "flagship planet: Mars"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Martini"
+				has "flagship planet: Martini"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Mavra-Sol-Kvel"
+				has "flagship planet: Mavra-Sol-Kvel"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Mebla's Portion"
+				has "flagship planet: Mebla's Portion"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Melenci"
+				has "flagship planet: Melenci"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Memory"
+				has "flagship planet: Memory"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Mere"
+				has "flagship planet: Mere"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Miblulub's Plenty"
+				has "flagship planet: Miblulub's Plenty"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Midgard"
+				has "flagship planet: Midgard"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Midway Emerald"
+				has "flagship planet: Midway Emerald"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Millrace"
+				has "flagship planet: Millrace"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Mirrorlake"
+				has "flagship planet: Mirrorlake"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Moonshake"
+				has "flagship planet: Moonshake"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Mordente-Bridi"
+				has "flagship planet: Mordente-Bridi"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Mosaa-Oa-Vyret"
+				has "flagship planet: Mosaa-Oa-Vyret"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Muninn Station"
+				has "flagship planet: Muninn Station"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Muspel"
+				has "flagship planet: Muspel"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Navigeo Yards"
+				has "flagship planet: Navigeo Yards"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Nearby Jade"
+				has "flagship planet: Nearby Jade"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Argentina"
+				has "flagship planet: New Argentina"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Austria"
+				has "flagship planet: New Austria"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Boston"
+				has "flagship planet: New Boston"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Britain"
+				has "flagship planet: New Britain"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New China"
+				has "flagship planet: New China"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Finding"
+				has "flagship planet: New Finding"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Greenland"
+				has "flagship planet: New Greenland"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Holland"
+				has "flagship planet: New Holland"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Iceland"
+				has "flagship planet: New Iceland"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New India"
+				has "flagship planet: New India"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Kansas"
+				has "flagship planet: New Kansas"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Portland"
+				has "flagship planet: New Portland"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Sahara"
+				has "flagship planet: New Sahara"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Switzerland"
+				has "flagship planet: New Switzerland"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Tibet"
+				has "flagship planet: New Tibet"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Tortuga"
+				has "flagship planet: New Tortuga"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Wales"
+				has "flagship planet: New Wales"
+			and
+				not "cf: hq station built"
+				has "cf: hq: New Washington"
+				has "flagship planet: New Washington"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Newhome"
+				has "flagship planet: Newhome"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Nifel"
+				has "flagship planet: Nifel"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Nimbus"
+				has "flagship planet: Nimbus"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Norn"
+				has "flagship planet: Norn"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Oasis"
+				has "flagship planet: Oasis"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Oblivion"
+				has "flagship planet: Oblivion"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ochrescoop"
+				has "flagship planet: Ochrescoop"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ogmur's Siphon"
+				has "flagship planet: Ogmur's Siphon"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Okoity"
+				has "flagship planet: Okoity"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Oup Je"
+				has "flagship planet: Oup Je"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Outpost Enka"
+				has "flagship planet: Outpost Enka"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Outpost Leto"
+				has "flagship planet: Outpost Leto"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Outpost Pilos"
+				has "flagship planet: Outpost Pilos"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Outpost Tekis"
+				has "flagship planet: Outpost Tekis"
+			and
+				not "cf: hq station built"
+				has "cf: hq: O-Vasa-Oa"
+				has "flagship planet: O-Vasa-Oa"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Pearl"
+				has "flagship planet: Pearl"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Pelubta Station"
+				has "flagship planet: Pelubta Station"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Periaxle Circuit"
+				has "flagship planet: Periaxle Circuit"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Peripheria"
+				has "flagship planet: Peripheria"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Pilot"
+				has "flagship planet: Pilot"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Placer"
+				has "flagship planet: Placer"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Plort's Water"
+				has "flagship planet: Plort's Water"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Poisonwood"
+				has "flagship planet: Poisonwood"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Pon'tes"
+				has "flagship planet: Pon'tes"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Poseidos"
+				has "flagship planet: Poseidos"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Prime"
+				has "flagship planet: Prime"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Pugglemug"
+				has "flagship planet: Pugglemug"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Pugglequat"
+				has "flagship planet: Pugglequat"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Quicksilver"
+				has "flagship planet: Quicksilver"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Raaqa-Kvelq-Ryuit"
+				has "flagship planet: Raaqa-Kvelq-Ryuit"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Raaqa-Puan-Uuoru"
+				has "flagship planet: Raaqa-Puan-Uuoru"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Rand"
+				has "flagship planet: Rand"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Redias"
+				has "flagship planet: Redias"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Refuge of Belugt"
+				has "flagship planet: Refuge of Belugt"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Relic"
+				has "flagship planet: Relic"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Remnant Wormhole"
+				has "flagship planet: Remnant Wormhole"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Remote Blue"
+				has "flagship planet: Remote Blue"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Reunion"
+				has "flagship planet: Reunion"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ring of Friendship"
+				has "flagship planet: Ring of Friendship"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ring of Power"
+				has "flagship planet: Ring of Power"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ring of Wisdom"
+				has "flagship planet: Ring of Wisdom"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ruelogakk"
+				has "flagship planet: Ruelogakk"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Rust"
+				has "flagship planet: Rust"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Rusty Second"
+				has "flagship planet: Rusty Second"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Safaresk Enlai"
+				has "flagship planet: Safaresk Enlai"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Sandy Two"
+				has "flagship planet: Sandy Two"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Sardva"
+				has "flagship planet: Sardva"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Saros"
+				has "flagship planet: Saros"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Saska-Aa-Noorr"
+				has "flagship planet: Saska-Aa-Noorr"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Second Cerulean"
+				has "flagship planet: Second Cerulean"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Second Rose"
+				has "flagship planet: Second Rose"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Second Viridian"
+				has "flagship planet: Second Viridian"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Secret Sky"
+				has "flagship planet: Secret Sky"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Separa Tiklar"
+				has "flagship planet: Separa Tiklar"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Septar Lorku"
+				has "flagship planet: Septar Lorku"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Serpens"
+				has "flagship planet: Serpens"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Sessiliki Far"
+				has "flagship planet: Sessiliki Far"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Setar Fort"
+				has "flagship planet: Setar Fort"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Shadow of Leaves"
+				has "flagship planet: Shadow of Leaves"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Shadowed Valley"
+				has "flagship planet: Shadowed Valley"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Shangri-La"
+				has "flagship planet: Shangri-La"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Shassa-Wyra-Orrou"
+				has "flagship planet: Shassa-Wyra-Orrou"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Shifting Sand"
+				has "flagship planet: Shifting Sand"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Shiver"
+				has "flagship planet: Shiver"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Shorebreak"
+				has "flagship planet: Shorebreak"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Shroud"
+				has "flagship planet: Shroud"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Siedi"
+				has "flagship planet: Siedi"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Sies Upi"
+				has "flagship planet: Sies Upi"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Silo of Ablodab"
+				has "flagship planet: Silo of Ablodab"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Silver"
+				has "flagship planet: Silver"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Sinter"
+				has "flagship planet: Sinter"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Skillet"
+				has "flagship planet: Skillet"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Skyfarm"
+				has "flagship planet: Skyfarm"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Skymoot"
+				has "flagship planet: Skymoot"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Smuggler's Den"
+				has "flagship planet: Smuggler's Den"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Snowfeather"
+				has "flagship planet: Snowfeather"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Solace"
+				has "flagship planet: Solace"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Sopoyra"
+				has "flagship planet: Sopoyra"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Spec Inci"
+				has "flagship planet: Spec Inci"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Splashdown"
+				has "flagship planet: Splashdown"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Staja-Kella-Oa"
+				has "flagship planet: Staja-Kella-Oa"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Starcross"
+				has "flagship planet: Starcross"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Starting Rubin"
+				has "flagship planet: Starting Rubin"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Station Cian"
+				has "flagship planet: Station Cian"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Stilacrest"
+				has "flagship planet: Stilacrest"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Stonebreak"
+				has "flagship planet: Stonebreak"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Stormhold"
+				has "flagship planet: Stormhold"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Stronghold of Flugbu"
+				has "flagship planet: Stronghold of Flugbu"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Successor Wormhole"
+				has "flagship planet: Successor Wormhole"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Sundive"
+				has "flagship planet: Sundive"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Sundrinker"
+				has "flagship planet: Sundrinker"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Sunracer"
+				has "flagship planet: Sunracer"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Swiftsong"
+				has "flagship planet: Swiftsong"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Tebuteb's Table"
+				has "flagship planet: Tebuteb's Table"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ternituul"
+				has "flagship planet: Ternituul"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Thilos"
+				has "flagship planet: Thilos"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Third Umber"
+				has "flagship planet: Third Umber"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Thrall"
+				has "flagship planet: Thrall"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Thshybothro"
+				has "flagship planet: Thshybothro"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Thule"
+				has "flagship planet: Thule"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Thunder"
+				has "flagship planet: Thunder"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Tik Klai"
+				has "flagship planet: Tik Klai"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Tinker"
+				has "flagship planet: Tinker"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Trinket"
+				has "flagship planet: Trinket"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Triton Station"
+				has "flagship planet: Triton Station"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Trove"
+				has "flagship planet: Trove"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Truklar"
+				has "flagship planet: Truklar"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Tschyss"
+				has "flagship planet: Tschyss"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Tundra"
+				has "flagship planet: Tundra"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Turquoise Four"
+				has "flagship planet: Turquoise Four"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Tuur-Aasa-Kaska"
+				has "flagship planet: Tuur-Aasa-Kaska"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Twinstar"
+				has "flagship planet: Twinstar"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Uo-Oraa-Vayya"
+				has "flagship planet: Uo-Oraa-Vayya"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Ut Divitas"
+				has "flagship planet: Ut Divitas"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Vail"
+				has "flagship planet: Vail"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Valhalla"
+				has "flagship planet: Valhalla"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Var' Kar'i'i"
+				has "flagship planet: Var' Kar'i'i"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Var' Kayi"
+				has "flagship planet: Var' Kayi"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Var' Roi"
+				has "flagship planet: Var' Roi"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Vara Kehi'ki"
+				has "flagship planet: Vara Kehi'ki"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Vara Ke'sok"
+				has "flagship planet: Vara Ke'sok"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Vara Ke'stai"
+				has "flagship planet: Vara Ke'stai"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Vara Pug"
+				has "flagship planet: Vara Pug"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Vara Rakak"
+				has "flagship planet: Vara Rakak"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Varu Ek'lak'lai"
+				has "flagship planet: Varu Ek'lak'lai"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Varu K'est"
+				has "flagship planet: Varu K'est"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Varu K'prai"
+				has "flagship planet: Varu K'prai"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Varu Mer'ek"
+				has "flagship planet: Varu Mer'ek"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Varu Tek'kai"
+				has "flagship planet: Varu Tek'kai"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Varu Tev'kei"
+				has "flagship planet: Varu Tev'kei"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Vibrant Water"
+				has "flagship planet: Vibrant Water"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Viminal"
+				has "flagship planet: Viminal"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Vinci"
+				has "flagship planet: Vinci"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Warfeed"
+				has "flagship planet: Warfeed"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Warm Slope"
+				has "flagship planet: Warm Slope"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Warm Wind"
+				has "flagship planet: Warm Wind"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Wayfarer"
+				has "flagship planet: Wayfarer"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Weir of Glubatub"
+				has "flagship planet: Weir of Glubatub"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Weledos"
+				has "flagship planet: Weledos"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Windblain"
+				has "flagship planet: Windblain"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Winter"
+				has "flagship planet: Winter"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Wyvern Station"
+				has "flagship planet: Wyvern Station"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Yoqqa-Vasa-Vasa"
+				has "flagship planet: Yoqqa-Vasa-Vasa"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Zenith"
+				has "flagship planet: Zenith"
+			and
+				not "cf: hq station built"
+				has "cf: hq: Zug"
+				has "flagship planet: Zug"
 	on offer
 		conversation
 			label "company main menu"

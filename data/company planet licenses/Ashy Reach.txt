@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Ashy Reach.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: 3 Axis
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 4 energy 1.98 (5.6%); large rock count 10 energy 1.1715 (14.1%); medium metal count 5 energy 0.99 (7.0%); medium rock count 39 energy 1.8645 (54.9%); small metal count 12 energy 2.4585 (16.9%); small rock count 1 energy 2.1945 (1.4%)
+# 	hq minables: silicon abundance 20 density 2.91457 (77.5%); tungsten abundance 5 density 3.38084 (22.5%)
+# 	mining system: 3 Axis
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 4 energy 1.98 (5.6%); large rock count 10 energy 1.1715 (14.1%); medium metal count 5 energy 0.99 (7.0%); medium rock count 39 energy 1.8645 (54.9%); small metal count 12 energy 2.4585 (16.9%); small rock count 1 energy 2.1945 (1.4%)
+# 	mining minables: silicon abundance 20 density 2.91457 (77.5%); tungsten abundance 5 density 3.38084 (22.5%)
+# 	shuttle route: Ashy Reach -> Celestial Third
+# 	shuttle system: 1 Axis
+# 	shuttle distance: 1
+# 	trading route: Ashy Reach -> Celestial Third
+# 	trading system: 1 Axis
+# 	trading distance: 1
+# 	trading commodity: Food
+# 	trading base value: 73
+# 	trading optimized value: 121
+# 	security route: Ashy Reach -> Celestial Third
+# 	security system: 1 Axis
+# 	security distance: 1
+
+# license "cf license ashy reach 1 axis"
+# 	tier: local
+# 	distance: 1
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license ashy reach 11 spring below"
+# 	tier: local
+# 	distance: 1
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license ashy reach 4 axis"
+# 	tier: local
+# 	distance: 1
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license ashy reach 4 winter rising"
+# 	tier: local
+# 	distance: 1
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license ashy reach 8 winter below"
+# 	tier: local
+# 	distance: 1
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license ashy reach 14 winter below"
+# 	tier: regional
+# 	distance: 2
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license ashy reach 4 spring rising"
+# 	tier: regional
+# 	distance: 2
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license ashy reach 5 axis"
+# 	tier: regional
+# 	distance: 2
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license ashy reach 5 winter above"
+# 	tier: regional
+# 	distance: 2
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license ashy reach sol kimek"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license ashy reach 3 pole"
+# 	tier: regional
+# 	distance: 3
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license ashy reach 3 spring rising"
+# 	tier: regional
+# 	distance: 3
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license ashy reach 9 spring above"
+# 	tier: regional
+# 	distance: 3
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license ashy reach ki war ek"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license ashy reach 14 summer above"
+# 	tier: long
+# 	distance: 4
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license ashy reach 4 summer rising"
+# 	tier: long
+# 	distance: 4
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license ashy reach 5 summer above"
+# 	tier: long
+# 	distance: 4
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license ashy reach 7 autumn rising"
+# 	tier: long
+# 	distance: 4
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license ashy reach ekuarik"
+# 	tier: long
+# 	distance: 4
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license ashy reach quaru"
+# 	tier: long
+# 	distance: 4
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license ashy reach 10 pole"
+# 	tier: long
+# 	distance: 5
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license ashy reach 12 autumn above"
+# 	tier: long
+# 	distance: 5
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license ashy reach belug"
+# 	tier: long
+# 	distance: 5
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license ashy reach homeward"
+# 	tier: long
+# 	distance: 5
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license ashy reach last word"
+# 	tier: long
+# 	distance: 5
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license ashy reach speloog"
+# 	tier: long
+# 	distance: 5
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license ashy reach 14 pole"
+# 	tier: long
+# 	distance: 6
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license ashy reach fell omen"
+# 	tier: long
+# 	distance: 6
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license ashy reach silver bell"
+# 	tier: long
+# 	distance: 6
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license ashy reach broken bowl"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license ashy reach debrugt"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license ashy reach flugbu"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license ashy reach silver string"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license ashy reach ablodab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license ashy reach answer"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license ashy reach belonging"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license ashy reach hunter"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license ashy reach mebla"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license ashy reach steep roof"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license ashy reach beginning"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license ashy reach gupta"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license ashy reach pelubta"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license ashy reach remembrance"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license ashy reach sol saryd"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license ashy reach ancient hope"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license ashy reach belugt"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license ashy reach blugtad"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license ashy reach companion"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license ashy reach fallen leaf"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license ashy reach good omen"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license ashy reach meblumem"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license ashy reach sol arach"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license ashy reach bloptab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license ashy reach blubipad"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license ashy reach eblumab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license ashy reach far horizon"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license ashy reach glubatub"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license ashy reach miblulub"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license ashy reach plort"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license ashy reach ablub"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license ashy reach four pillars"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license ashy reach tebuteb"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license ashy reach lone cloud"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

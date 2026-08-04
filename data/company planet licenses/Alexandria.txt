@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Alexandria.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Markeb
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 20 energy 4.6332 (16.5%); large rock count 35 energy 3.9312 (28.9%); medium metal count 10 energy 5.1948 (8.3%); medium rock count 4 energy 2.2815 (3.3%); small metal count 29 energy 3.159 (24.0%); small rock count 23 energy 5.0895 (19.0%)
+# 	hq minables: silicon abundance 11 density 7.8218 (80.3%); tungsten abundance 5 density 4.20964 (19.7%)
+# 	mining system: Markeb
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: tungsten ore field
+# 	mining value per cargo: 90
+# 	mining quality: 107
+# 	mining asteroids: large metal count 20 energy 4.6332 (16.5%); large rock count 35 energy 3.9312 (28.9%); medium metal count 10 energy 5.1948 (8.3%); medium rock count 4 energy 2.2815 (3.3%); small metal count 29 energy 3.159 (24.0%); small rock count 23 energy 5.0895 (19.0%)
+# 	mining minables: silicon abundance 11 density 7.8218 (80.3%); tungsten abundance 5 density 4.20964 (19.7%)
+# 	shuttle route: Alexandria -> Fenrir Station
+# 	shuttle system: Avior
+# 	shuttle distance: 1
+# 	trading route: Alexandria -> Fenrir Station
+# 	trading system: Avior
+# 	trading distance: 1
+# 	trading commodity: Food
+# 	trading base value: 41
+# 	trading optimized value: 68
+# 	security route: Alexandria -> Fenrir Station
+# 	security system: Avior
+# 	security distance: 1
+
+# license "cf license alexandria avior"
+# 	tier: local
+# 	distance: 1
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license alexandria naos"
+# 	tier: regional
+# 	distance: 2
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license alexandria aludra"
+# 	tier: regional
+# 	distance: 3
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license alexandria epsilon leonis"
+# 	tier: regional
+# 	distance: 3
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license alexandria regor"
+# 	tier: regional
+# 	distance: 3
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license alexandria wezen"
+# 	tier: regional
+# 	distance: 3
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license alexandria adhara"
+# 	tier: long
+# 	distance: 4
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license alexandria gomeisa"
+# 	tier: long
+# 	distance: 4
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license alexandria suhail"
+# 	tier: long
+# 	distance: 4
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license alexandria zosma"
+# 	tier: long
+# 	distance: 5
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license alexandria alphard"
+# 	tier: long
+# 	distance: 6
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license alexandria dubhe"
+# 	tier: long
+# 	distance: 6
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license alexandria miaplacidus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license alexandria talita"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license alexandria tania australis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license alexandria castor"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license alexandria phecda"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license alexandria pollux"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license alexandria tejat"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license alexandria algorel"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license alexandria delta velorum"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license alexandria merak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license alexandria phurad"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license alexandria alhena"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license alexandria canopus"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license alexandria capella"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license alexandria cor caroli"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license alexandria denebola"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license alexandria porrima"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license alexandria sirius"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license alexandria turais"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license alexandria wazn"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license alexandria aldebaran"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license alexandria alheka"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license alexandria arcturus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license alexandria kursa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license alexandria phact"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license alexandria sol"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license alexandria vindemiatrix"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license alexandria alioth"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license alexandria alpha centauri"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license alexandria altair"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license alexandria betelgeuse"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license alexandria caph"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license alexandria elnath"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license alexandria mebsuta"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license alexandria menkent"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license alexandria muhlifain"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license alexandria rutilicus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license alexandria sarin"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license alexandria vega"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license alexandria alphecca"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license alexandria cebalrai"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license alexandria delta capricorni"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license alexandria diphda"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license alexandria fomalhaut"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license alexandria nihal"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license alexandria alderamin"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license alexandria alnitak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license alexandria ankaa"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license alexandria kaus borealis"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license alexandria kornephoros"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license alexandria markab"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license alexandria rasalhague"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license alexandria saiph"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license alexandria scheat"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license alexandria seginus"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license alexandria al dhanab"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license alexandria aldhibain"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license alexandria alnair"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license alexandria ascella"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license alexandria matar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license alexandria mirach"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license alexandria ruchbah"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license alexandria sabik"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license alexandria sargas"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license alexandria zeta aquilae"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license alexandria achernar"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license alexandria algol"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license alexandria almaaz"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license alexandria alniyat"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license alexandria alpha hydri"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license alexandria alpheratz"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license alexandria delta sagittarii"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license alexandria dschubba"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license alexandria hamal"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license alexandria peacock"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license alexandria rastaban"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license alexandria schedar"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license alexandria sheratan"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license alexandria unukalhai"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license alexandria almach"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license alexandria antares"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license alexandria atria"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license alexandria gienah"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license alexandria girtab"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license alexandria graffias"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license alexandria han"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license alexandria kaus australis"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license alexandria mirfak"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license alexandria pherkad"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license alexandria polaris"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license alexandria shaula"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license alexandria zaurak"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license alexandria zubeneschamali"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license alexandria albaldah"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license alexandria alcyone"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license alexandria algenib"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license alexandria alnilam"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license alexandria arneb"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license alexandria bellatrix"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license alexandria dabih"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license alexandria hadar"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license alexandria kappa centauri"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license alexandria kochab"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license alexandria menkar"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license alexandria yed prior"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license alexandria albireo"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license alexandria alkaid"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license alexandria izar"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license alexandria men"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license alexandria nunki"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license alexandria tarazed"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license alexandria zeta centauri"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license alexandria acrux"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license alexandria enif"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license alexandria misam"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license alexandria belenos"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license alexandria sadalmelik"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license alexandria sadalsuud"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license alexandria alpherg"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license alexandria citadelle"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license alexandria mimosa"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license alexandria spica"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license alexandria gamma corvi"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license alexandria kraz"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

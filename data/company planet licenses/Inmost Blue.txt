@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Inmost Blue.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: 4 Winter Rising
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 5 energy 1.7472 (4.4%); large rock count 1 energy 0.9464 (0.9%); medium metal count 30 energy 2.548 (26.5%); medium rock count 6 energy 2.2022 (5.3%); small metal count 71 energy 2.2932 (62.8%)
+# 	hq minables: aluminum abundance 1 density 3.8266 (7.5%); copper abundance 3 density 3.79162 (22.3%); lead abundance 9 density 3.97823 (70.2%)
+# 	mining system: 4 Winter Rising
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 5 energy 1.7472 (4.4%); large rock count 1 energy 0.9464 (0.9%); medium metal count 30 energy 2.548 (26.5%); medium rock count 6 energy 2.2022 (5.3%); small metal count 71 energy 2.2932 (62.8%)
+# 	mining minables: aluminum abundance 1 density 3.8266 (7.5%); copper abundance 3 density 3.79162 (22.3%); lead abundance 9 density 3.97823 (70.2%)
+# 	shuttle route: Inmost Blue -> Ashy Reach
+# 	shuttle system: 3 Axis
+# 	shuttle distance: 1
+# 	trading route: Inmost Blue -> Ashy Reach
+# 	trading system: 3 Axis
+# 	trading distance: 1
+# 	trading commodity: Food
+# 	trading base value: 70
+# 	trading optimized value: 116
+# 	security route: Inmost Blue -> Ashy Reach
+# 	security system: 3 Axis
+# 	security distance: 1
+
+# license "cf license inmost blue 1 axis"
+# 	tier: local
+# 	distance: 1
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license inmost blue 3 axis"
+# 	tier: local
+# 	distance: 1
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license inmost blue 5 winter above"
+# 	tier: local
+# 	distance: 1
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license inmost blue sol kimek"
+# 	tier: local
+# 	distance: 1
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license inmost blue 11 spring below"
+# 	tier: regional
+# 	distance: 2
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license inmost blue 3 pole"
+# 	tier: regional
+# 	distance: 2
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license inmost blue 4 axis"
+# 	tier: regional
+# 	distance: 2
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license inmost blue 4 spring rising"
+# 	tier: regional
+# 	distance: 2
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license inmost blue 8 winter below"
+# 	tier: regional
+# 	distance: 2
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license inmost blue 9 spring above"
+# 	tier: regional
+# 	distance: 2
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license inmost blue 14 summer above"
+# 	tier: regional
+# 	distance: 3
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license inmost blue 14 winter below"
+# 	tier: regional
+# 	distance: 3
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license inmost blue 3 spring rising"
+# 	tier: regional
+# 	distance: 3
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license inmost blue 4 summer rising"
+# 	tier: regional
+# 	distance: 3
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license inmost blue 5 axis"
+# 	tier: regional
+# 	distance: 3
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license inmost blue 5 summer above"
+# 	tier: regional
+# 	distance: 3
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license inmost blue 7 autumn rising"
+# 	tier: regional
+# 	distance: 3
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license inmost blue 10 pole"
+# 	tier: long
+# 	distance: 4
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license inmost blue 12 autumn above"
+# 	tier: long
+# 	distance: 4
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license inmost blue ki war ek"
+# 	tier: long
+# 	distance: 4
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license inmost blue 14 pole"
+# 	tier: long
+# 	distance: 5
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license inmost blue ekuarik"
+# 	tier: long
+# 	distance: 5
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license inmost blue quaru"
+# 	tier: long
+# 	distance: 5
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license inmost blue belug"
+# 	tier: long
+# 	distance: 6
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license inmost blue homeward"
+# 	tier: long
+# 	distance: 6
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license inmost blue last word"
+# 	tier: long
+# 	distance: 6
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license inmost blue speloog"
+# 	tier: long
+# 	distance: 6
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license inmost blue fell omen"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license inmost blue silver bell"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license inmost blue broken bowl"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license inmost blue debrugt"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license inmost blue flugbu"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license inmost blue silver string"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license inmost blue ablodab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license inmost blue answer"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license inmost blue belonging"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license inmost blue hunter"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license inmost blue mebla"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license inmost blue steep roof"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license inmost blue beginning"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license inmost blue gupta"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license inmost blue pelubta"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license inmost blue remembrance"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license inmost blue sol saryd"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license inmost blue ancient hope"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license inmost blue belugt"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license inmost blue blugtad"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license inmost blue companion"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license inmost blue fallen leaf"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license inmost blue good omen"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license inmost blue meblumem"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license inmost blue sol arach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license inmost blue bloptab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license inmost blue blubipad"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license inmost blue eblumab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license inmost blue far horizon"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license inmost blue glubatub"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license inmost blue miblulub"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license inmost blue plort"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license inmost blue ablub"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license inmost blue four pillars"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license inmost blue tebuteb"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license inmost blue lone cloud"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

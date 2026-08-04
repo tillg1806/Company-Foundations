@@ -1,0 +1,180 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Alta Hai.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Hevru Hai
+# 	hq system asteroids: no
+# 	hq asteroids: none
+# 	hq minables: none
+# 	mining system: Hevru Hai
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: none
+# 	mining minables: none
+# 	shuttle route: Alta Hai -> Greenwater
+# 	shuttle system: Fah Soom
+# 	shuttle distance: 1
+# 	trading route: Alta Hai -> Greenwater
+# 	trading system: Fah Soom
+# 	trading distance: 1
+# 	trading commodity: Equipment
+# 	trading base value: 55
+# 	trading optimized value: 91
+# 	security route: Alta Hai -> Greenwater
+# 	security system: Fah Soom
+# 	security distance: 1
+
+# license "cf license alta hai fah soom"
+# 	tier: local
+# 	distance: 1
+# 	system: Fah Soom
+# 	government: Hai
+# 	planets: Greenwater
+
+# license "cf license alta hai wah oh"
+# 	tier: regional
+# 	distance: 2
+# 	system: Wah Oh
+# 	government: Hai
+# 	planets: Farwater, Ochrescoop
+
+# license "cf license alta hai due yoot"
+# 	tier: regional
+# 	distance: 3
+# 	system: Due Yoot
+# 	government: Hai
+# 	planets: Greenbloom, Greenview
+
+# license "cf license alta hai io mann"
+# 	tier: regional
+# 	distance: 3
+# 	system: Io Mann
+# 	government: Hai
+# 	planets: Skyfarm
+
+# license "cf license alta hai heia due"
+# 	tier: long
+# 	distance: 4
+# 	system: Heia Due
+# 	government: Hai
+# 	planets: Allhome
+
+# license "cf license alta hai rati cal"
+# 	tier: long
+# 	distance: 4
+# 	system: Rati Cal
+# 	government: Hai
+# 	planets: Dustmaker
+
+# license "cf license alta hai da lest"
+# 	tier: long
+# 	distance: 5
+# 	system: Da Lest
+# 	government: Hai
+# 	planets: Frostmark
+
+# license "cf license alta hai io lowe"
+# 	tier: long
+# 	distance: 5
+# 	system: Io Lowe
+# 	government: Hai
+# 	planets: Greymoon, Heartvalley
+
+# license "cf license alta hai ya hai"
+# 	tier: long
+# 	distance: 5
+# 	system: Ya Hai
+# 	government: Hai
+# 	planets: Hai-home, Mirrorlake
+
+# license "cf license alta hai bote asu"
+# 	tier: long
+# 	distance: 6
+# 	system: Bote Asu
+# 	government: Hai
+# 	planets: Everhope
+
+# license "cf license alta hai da ent"
+# 	tier: long
+# 	distance: 6
+# 	system: Da Ent
+# 	government: Hai
+# 	planets: Newhome
+
+# license "cf license alta hai mei yohn"
+# 	tier: long
+# 	distance: 6
+# 	system: Mei Yohn
+# 	government: Hai
+# 	planets: Darkmetal
+
+# license "cf license alta hai ula mon"
+# 	tier: long
+# 	distance: 6
+# 	system: Ula Mon
+# 	government: Hai
+# 	planets: Makerplace
+
+# license "cf license alta hai uwa fahn"
+# 	tier: long
+# 	distance: 6
+# 	system: Uwa Fahn
+# 	government: Hai
+# 	planets: Icelake, Swiftsong
+
+# license "cf license alta hai bore fah"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Bore Fah
+# 	government: Hai
+# 	planets: Snowfeather
+
+# license "cf license alta hai wah ki"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Wah Ki
+# 	government: Hai
+# 	planets: Cloudfire
+
+# license "cf license alta hai zuba zub"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zuba Zub
+# 	government: Hai
+# 	planets: Giverstone
+
+# license "cf license alta hai imo dep"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Imo Dep
+# 	government: Hai
+# 	planets: Stonebreak
+
+# license "cf license alta hai wah yoot"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Wah Yoot
+# 	government: Hai (Unfettered)
+# 	planets: Darkcloak
+
+# license "cf license alta hai ehma ti"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ehma Ti
+# 	government: Hai (Unfettered)
+# 	planets: Firelode
+
+# license "cf license alta hai hi yahr"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Hi Yahr
+# 	government: Hai (Unfettered)
+# 	planets: Warfeed
+

@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Dusk Companion.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: 8 Winter Below
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 4 energy 2.3496 (2.2%); large rock count 69 energy 3.5376 (37.7%); medium metal count 31 energy 2.112 (16.9%); medium rock count 54 energy 2.2968 (29.5%); small rock count 25 energy 1.4256 (13.7%)
+# 	hq minables: aluminum abundance 12 density 2.86905 (38.6%); titanium abundance 2 density 4.18618 (9.4%); uranium abundance 11 density 4.2075 (52.0%)
+# 	mining system: 8 Winter Below
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 4 energy 2.3496 (2.2%); large rock count 69 energy 3.5376 (37.7%); medium metal count 31 energy 2.112 (16.9%); medium rock count 54 energy 2.2968 (29.5%); small rock count 25 energy 1.4256 (13.7%)
+# 	mining minables: aluminum abundance 12 density 2.86905 (38.6%); titanium abundance 2 density 4.18618 (9.4%); uranium abundance 11 density 4.2075 (52.0%)
+# 	shuttle route: Dusk Companion -> Ashy Reach
+# 	shuttle system: 3 Axis
+# 	shuttle distance: 1
+# 	trading route: Dusk Companion -> Ashy Reach
+# 	trading system: 3 Axis
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 79
+# 	trading optimized value: 132
+# 	security route: Dusk Companion -> Ashy Reach
+# 	security system: 3 Axis
+# 	security distance: 1
+
+# license "cf license dusk companion 14 winter below"
+# 	tier: local
+# 	distance: 1
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license dusk companion 3 axis"
+# 	tier: local
+# 	distance: 1
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license dusk companion 1 axis"
+# 	tier: regional
+# 	distance: 2
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license dusk companion 11 spring below"
+# 	tier: regional
+# 	distance: 2
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license dusk companion 4 axis"
+# 	tier: regional
+# 	distance: 2
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license dusk companion 4 winter rising"
+# 	tier: regional
+# 	distance: 2
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license dusk companion ki war ek"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license dusk companion 4 spring rising"
+# 	tier: regional
+# 	distance: 3
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license dusk companion 5 axis"
+# 	tier: regional
+# 	distance: 3
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license dusk companion 5 winter above"
+# 	tier: regional
+# 	distance: 3
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license dusk companion ekuarik"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license dusk companion quaru"
+# 	tier: regional
+# 	distance: 3
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license dusk companion sol kimek"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license dusk companion 3 pole"
+# 	tier: long
+# 	distance: 4
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license dusk companion 3 spring rising"
+# 	tier: long
+# 	distance: 4
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license dusk companion 9 spring above"
+# 	tier: long
+# 	distance: 4
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license dusk companion belug"
+# 	tier: long
+# 	distance: 4
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license dusk companion homeward"
+# 	tier: long
+# 	distance: 4
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license dusk companion last word"
+# 	tier: long
+# 	distance: 4
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license dusk companion speloog"
+# 	tier: long
+# 	distance: 4
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license dusk companion 14 summer above"
+# 	tier: long
+# 	distance: 5
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license dusk companion 4 summer rising"
+# 	tier: long
+# 	distance: 5
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license dusk companion 5 summer above"
+# 	tier: long
+# 	distance: 5
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license dusk companion 7 autumn rising"
+# 	tier: long
+# 	distance: 5
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license dusk companion fell omen"
+# 	tier: long
+# 	distance: 5
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license dusk companion silver bell"
+# 	tier: long
+# 	distance: 5
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license dusk companion 10 pole"
+# 	tier: long
+# 	distance: 6
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license dusk companion 12 autumn above"
+# 	tier: long
+# 	distance: 6
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license dusk companion broken bowl"
+# 	tier: long
+# 	distance: 6
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license dusk companion debrugt"
+# 	tier: long
+# 	distance: 6
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license dusk companion flugbu"
+# 	tier: long
+# 	distance: 6
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license dusk companion silver string"
+# 	tier: long
+# 	distance: 6
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license dusk companion 14 pole"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license dusk companion ablodab"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license dusk companion answer"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license dusk companion belonging"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license dusk companion hunter"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license dusk companion mebla"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license dusk companion steep roof"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license dusk companion beginning"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license dusk companion gupta"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license dusk companion pelubta"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license dusk companion remembrance"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license dusk companion sol saryd"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license dusk companion ancient hope"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license dusk companion belugt"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license dusk companion blugtad"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license dusk companion companion"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license dusk companion fallen leaf"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license dusk companion good omen"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license dusk companion meblumem"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license dusk companion sol arach"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license dusk companion bloptab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license dusk companion blubipad"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license dusk companion eblumab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license dusk companion far horizon"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license dusk companion glubatub"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license dusk companion miblulub"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license dusk companion plort"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license dusk companion ablub"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license dusk companion four pillars"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license dusk companion tebuteb"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license dusk companion lone cloud"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

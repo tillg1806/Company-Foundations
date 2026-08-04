@@ -1,0 +1,152 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Thshybothro.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Thshybo Le
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 4 energy 5.0064 (2.0%); large rock count 1 energy 2.016 (0.5%); medium metal count 60 energy 3.6624 (30.6%); medium rock count 131 energy 3.2256 (66.8%)
+# 	hq minables: none
+# 	mining system: Thshybo Le
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 4 energy 5.0064 (2.0%); large rock count 1 energy 2.016 (0.5%); medium metal count 60 energy 3.6624 (30.6%); medium rock count 131 energy 3.2256 (66.8%)
+# 	mining minables: none
+# 	shuttle route: Thshybothro -> Erabuthro
+# 	shuttle system: Erabu Lemeta
+# 	shuttle distance: 1
+# 	trading route: Thshybothro -> Erabuthro
+# 	trading system: Erabu Lemeta
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 162
+# 	trading optimized value: 270
+# 	security route: Thshybothro -> Erabuthro
+# 	security system: Erabu Lemeta
+# 	security distance: 1
+
+# license "cf license thshybothro elabi choati"
+# 	tier: local
+# 	distance: 1
+# 	system: Elabi Choati
+# 	government: Bunrodea
+# 	planets: Iddesato
+
+# license "cf license thshybothro elo chigo"
+# 	tier: local
+# 	distance: 1
+# 	system: Elo Chigo
+# 	government: Bunrodea
+# 	planets: Illbo Elo
+
+# license "cf license thshybothro erabu lemeta"
+# 	tier: local
+# 	distance: 1
+# 	system: Erabu Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Erabuthro
+
+# license "cf license thshybothro bosuno le"
+# 	tier: regional
+# 	distance: 2
+# 	system: Bosuno Le
+# 	government: Bunrodea (Guard)
+# 	planets: Bosunothro
+
+# license "cf license thshybothro bunri lemeta"
+# 	tier: regional
+# 	distance: 2
+# 	system: Bunri Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Bunthro
+
+# license "cf license thshybothro jentu le"
+# 	tier: regional
+# 	distance: 2
+# 	system: Jentu Le
+# 	government: Bunrodea (Guard)
+# 	planets: Jentuthro
+
+# license "cf license thshybothro shini bori"
+# 	tier: regional
+# 	distance: 2
+# 	system: Shini Bori
+# 	government: Bunrodea (Guard)
+# 	planets: Sardva
+
+# license "cf license thshybothro avo chigo"
+# 	tier: regional
+# 	distance: 3
+# 	system: Avo Chigo
+# 	government: Bunrodea (Guard)
+# 	planets: Illbo Avo
+
+# license "cf license thshybothro eragaru le"
+# 	tier: regional
+# 	distance: 3
+# 	system: Eragaru Le
+# 	government: Bunrodea (Guard)
+# 	planets: Eragarthro
+
+# license "cf license thshybothro ravu kon"
+# 	tier: long
+# 	distance: 5
+# 	system: Ravu Kon
+# 	government: Bunrodea
+# 	planets: Sopoyra
+
+# license "cf license thshybothro kifrana terberah"
+# 	tier: long
+# 	distance: 6
+# 	system: Kifrana Terberah
+# 	government: Bunrodea
+# 	planets: Kisarra
+
+# license "cf license thshybothro mego inito"
+# 	tier: long
+# 	distance: 6
+# 	system: Mego Inito
+# 	government: Bunrodea
+# 	planets: Angko
+
+# license "cf license thshybothro mego seo"
+# 	tier: long
+# 	distance: 6
+# 	system: Mego Seo
+# 	government: Bunrodea
+# 	planets: Deli Kasi
+
+# license "cf license thshybothro jentu centi"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Jentu Centi
+# 	government: Bunrodea
+# 	planets: Melenci
+
+# license "cf license thshybothro mego faro"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Mego Faro
+# 	government: Bunrodea
+# 	planets: Deli Kat
+
+# license "cf license thshybothro piadenli"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Piadenli
+# 	government: Bunrodea
+# 	planets: Disara
+
+# license "cf license thshybothro urba pest"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Urba Pest
+# 	government: Bunrodea
+# 	planets: Okoity
+

@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Winter.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Yed Prior
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 6 energy 5.0416 (7.4%); large rock count 5 energy 3.7904 (6.2%); medium metal count 55 energy 1.84 (67.9%); medium rock count 1 energy 2.9072 (1.2%); small metal count 2 energy 5.1888 (2.5%); small rock count 12 energy 5.0784 (14.8%)
+# 	hq minables: silver abundance 8 density 4.49935 (22.1%); titanium abundance 20 density 4.2915 (52.8%); tungsten abundance 8 density 5.10857 (25.1%)
+# 	mining system: Yed Prior
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: titanium ore field
+# 	mining value per cargo: 289
+# 	mining quality: 163
+# 	mining asteroids: large metal count 6 energy 5.0416 (7.4%); large rock count 5 energy 3.7904 (6.2%); medium metal count 55 energy 1.84 (67.9%); medium rock count 1 energy 2.9072 (1.2%); small metal count 2 energy 5.1888 (2.5%); small rock count 12 energy 5.0784 (14.8%)
+# 	mining minables: silver abundance 8 density 4.49935 (22.1%); titanium abundance 20 density 4.2915 (52.8%); tungsten abundance 8 density 5.10857 (25.1%)
+# 	shuttle route: Winter -> Solace
+# 	shuttle system: Pherkad
+# 	shuttle distance: 1
+# 	trading route: Winter -> Solace
+# 	trading system: Pherkad
+# 	trading distance: 1
+# 	trading commodity: Clothing
+# 	trading base value: 35
+# 	trading optimized value: 42
+# 	security route: Winter -> Solace
+# 	security system: Pherkad
+# 	security distance: 1
+
+# license "cf license winter pherkad"
+# 	tier: local
+# 	distance: 1
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license winter alniyat"
+# 	tier: regional
+# 	distance: 2
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license winter kappa centauri"
+# 	tier: regional
+# 	distance: 2
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license winter aldhibain"
+# 	tier: regional
+# 	distance: 3
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license winter antares"
+# 	tier: regional
+# 	distance: 3
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license winter dschubba"
+# 	tier: regional
+# 	distance: 3
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license winter graffias"
+# 	tier: regional
+# 	distance: 3
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license winter han"
+# 	tier: regional
+# 	distance: 3
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license winter men"
+# 	tier: regional
+# 	distance: 3
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license winter atria"
+# 	tier: long
+# 	distance: 4
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license winter kornephoros"
+# 	tier: long
+# 	distance: 4
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license winter sabik"
+# 	tier: long
+# 	distance: 4
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license winter belenos"
+# 	tier: long
+# 	distance: 5
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license winter girtab"
+# 	tier: long
+# 	distance: 5
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license winter rastaban"
+# 	tier: long
+# 	distance: 5
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license winter sargas"
+# 	tier: long
+# 	distance: 5
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license winter shaula"
+# 	tier: long
+# 	distance: 5
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license winter unukalhai"
+# 	tier: long
+# 	distance: 5
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license winter albaldah"
+# 	tier: long
+# 	distance: 6
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license winter alioth"
+# 	tier: long
+# 	distance: 6
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license winter alpherg"
+# 	tier: long
+# 	distance: 6
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license winter citadelle"
+# 	tier: long
+# 	distance: 6
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license winter delta sagittarii"
+# 	tier: long
+# 	distance: 6
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license winter seginus"
+# 	tier: long
+# 	distance: 6
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license winter zubeneschamali"
+# 	tier: long
+# 	distance: 6
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license winter albireo"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license winter alphecca"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license winter hadar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license winter kaus borealis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license winter kochab"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license winter nunki"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license winter vindemiatrix"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license winter alkaid"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license winter arcturus"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license winter ascella"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license winter cebalrai"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license winter cor caroli"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license winter dabih"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license winter izar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license winter kaus australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license winter muhlifain"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license winter peacock"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license winter rutilicus"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license winter sarin"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license winter tarazed"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license winter zeta centauri"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license winter acrux"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license winter algorel"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license winter enif"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license winter menkent"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license winter rasalhague"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license winter zeta aquilae"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license winter phecda"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license winter sadalmelik"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license winter sadalsuud"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license winter turais"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license winter vega"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license winter altair"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license winter delta velorum"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license winter merak"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license winter mimosa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license winter porrima"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license winter sol"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license winter spica"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license winter tania australis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license winter alpha centauri"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license winter caph"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license winter delta capricorni"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license winter denebola"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license winter fomalhaut"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license winter gamma corvi"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license winter kraz"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license winter sirius"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license winter alderamin"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license winter alphard"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license winter diphda"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license winter markab"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license winter scheat"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license winter zosma"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license winter al dhanab"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license winter alnair"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license winter ankaa"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license winter capella"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license winter dubhe"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license winter gomeisa"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license winter matar"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license winter miaplacidus"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license winter mirach"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license winter pollux"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license winter talita"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license winter achernar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license winter adhara"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license winter aldebaran"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license winter alpheratz"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license winter castor"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license winter elnath"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license winter epsilon leonis"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license winter ruchbah"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license winter schedar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license winter tejat"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license winter algol"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license winter alhena"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license winter almach"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license winter alpha hydri"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license winter gienah"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license winter hamal"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license winter kursa"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license winter nihal"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license winter phurad"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license winter polaris"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license winter sheratan"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license winter algenib"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license winter avior"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license winter canopus"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license winter regor"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license winter wazn"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license winter zaurak"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license winter alcyone"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license winter alheka"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license winter markeb"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license winter menkar"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license winter naos"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license winter phact"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license winter suhail"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license winter aludra"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license winter bellatrix"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license winter betelgeuse"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license winter mebsuta"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license winter mirfak"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license winter wezen"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license winter misam"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license winter alnitak"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license winter saiph"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license winter almaaz"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license winter alnilam"
+# 	tier: frontier
+# 	distance: 25
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license winter arneb"
+# 	tier: frontier
+# 	distance: 25
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

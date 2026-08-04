@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Factory of Eblumab.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Eblumab
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 33 energy 4.5188 (31.1%); large rock count 2 energy 8.294 (1.9%); medium metal count 2 energy 4.0612 (1.9%); medium rock count 39 energy 4.1756 (36.8%); small metal count 20 energy 3.7752 (18.9%); small rock count 10 energy 7.8364 (9.4%)
+# 	hq minables: copper abundance 8 density 6.10344 (32.5%); iron abundance 6 density 5.39134 (21.5%); lead abundance 17 density 4.069 (46.0%)
+# 	mining system: Eblumab
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 33 energy 4.5188 (31.1%); large rock count 2 energy 8.294 (1.9%); medium metal count 2 energy 4.0612 (1.9%); medium rock count 39 energy 4.1756 (36.8%); small metal count 20 energy 3.7752 (18.9%); small rock count 10 energy 7.8364 (9.4%)
+# 	mining minables: copper abundance 8 density 6.10344 (32.5%); iron abundance 6 density 5.39134 (21.5%); lead abundance 17 density 4.069 (46.0%)
+# 	shuttle route: Factory of Eblumab -> Bank of Blugtad
+# 	shuttle system: Blugtad
+# 	shuttle distance: 1
+# 	trading route: Factory of Eblumab -> Bank of Blugtad
+# 	trading system: Blugtad
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 38
+# 	trading optimized value: 63
+# 	security route: Factory of Eblumab -> Bank of Blugtad
+# 	security system: Blugtad
+# 	security distance: 1
+
+# license "cf license factory of eblumab blugtad"
+# 	tier: local
+# 	distance: 1
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license factory of eblumab bloptab"
+# 	tier: regional
+# 	distance: 2
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license factory of eblumab gupta"
+# 	tier: regional
+# 	distance: 2
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license factory of eblumab sol arach"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license factory of eblumab ablodab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license factory of eblumab belugt"
+# 	tier: regional
+# 	distance: 3
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license factory of eblumab blubipad"
+# 	tier: regional
+# 	distance: 3
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license factory of eblumab glubatub"
+# 	tier: regional
+# 	distance: 3
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license factory of eblumab meblumem"
+# 	tier: regional
+# 	distance: 3
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license factory of eblumab miblulub"
+# 	tier: regional
+# 	distance: 3
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license factory of eblumab pelubta"
+# 	tier: regional
+# 	distance: 3
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license factory of eblumab plort"
+# 	tier: regional
+# 	distance: 3
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license factory of eblumab ablub"
+# 	tier: long
+# 	distance: 4
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license factory of eblumab debrugt"
+# 	tier: long
+# 	distance: 4
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license factory of eblumab mebla"
+# 	tier: long
+# 	distance: 4
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license factory of eblumab tebuteb"
+# 	tier: long
+# 	distance: 4
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license factory of eblumab flugbu"
+# 	tier: long
+# 	distance: 5
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license factory of eblumab speloog"
+# 	tier: long
+# 	distance: 6
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license factory of eblumab belug"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license factory of eblumab ekuarik"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license factory of eblumab ki war ek"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license factory of eblumab quaru"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license factory of eblumab 14 winter below"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license factory of eblumab 5 axis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license factory of eblumab homeward"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license factory of eblumab last word"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license factory of eblumab 4 axis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license factory of eblumab 8 winter below"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license factory of eblumab fell omen"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license factory of eblumab silver bell"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license factory of eblumab 3 axis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license factory of eblumab broken bowl"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license factory of eblumab silver string"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license factory of eblumab 1 axis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license factory of eblumab 11 spring below"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license factory of eblumab 4 winter rising"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license factory of eblumab answer"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license factory of eblumab belonging"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license factory of eblumab hunter"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license factory of eblumab steep roof"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license factory of eblumab 4 spring rising"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license factory of eblumab 5 winter above"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license factory of eblumab beginning"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license factory of eblumab remembrance"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license factory of eblumab sol kimek"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license factory of eblumab sol saryd"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license factory of eblumab 3 pole"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license factory of eblumab 3 spring rising"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license factory of eblumab 9 spring above"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license factory of eblumab ancient hope"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license factory of eblumab companion"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license factory of eblumab fallen leaf"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license factory of eblumab good omen"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license factory of eblumab 14 summer above"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license factory of eblumab 4 summer rising"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license factory of eblumab 5 summer above"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license factory of eblumab 7 autumn rising"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license factory of eblumab far horizon"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license factory of eblumab 10 pole"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license factory of eblumab 12 autumn above"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license factory of eblumab four pillars"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license factory of eblumab 14 pole"
+# 	tier: frontier
+# 	distance: 17
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license factory of eblumab lone cloud"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

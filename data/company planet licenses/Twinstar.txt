@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Twinstar.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Alniyat
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 4.455 (0.5%); large rock count 37 energy 4.455 (17.5%); medium metal count 4 energy 4.941 (1.9%); medium rock count 148 energy 6.156 (70.1%); small metal count 2 energy 9.072 (0.9%); small rock count 19 energy 10.368 (9.0%)
+# 	hq minables: aluminum abundance 1 density 8.00281 (100.0%)
+# 	mining system: Alniyat
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: aluminum ore field
+# 	mining value per cargo: 90
+# 	mining quality: 8
+# 	mining asteroids: large metal count 1 energy 4.455 (0.5%); large rock count 37 energy 4.455 (17.5%); medium metal count 4 energy 4.941 (1.9%); medium rock count 148 energy 6.156 (70.1%); small metal count 2 energy 9.072 (0.9%); small rock count 19 energy 10.368 (9.0%)
+# 	mining minables: aluminum abundance 1 density 8.00281 (100.0%)
+# 	shuttle route: Twinstar -> Bloodsea
+# 	shuttle system: Antares
+# 	shuttle distance: 1
+# 	trading route: Twinstar -> Bloodsea
+# 	trading system: Antares
+# 	trading distance: 1
+# 	trading commodity: Clothing
+# 	trading base value: 43
+# 	trading optimized value: 72
+# 	security route: Twinstar -> Bloodsea
+# 	security system: Antares
+# 	security distance: 1
+
+# license "cf license twinstar aldhibain"
+# 	tier: local
+# 	distance: 1
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license twinstar antares"
+# 	tier: local
+# 	distance: 1
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license twinstar dschubba"
+# 	tier: local
+# 	distance: 1
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license twinstar graffias"
+# 	tier: local
+# 	distance: 1
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license twinstar han"
+# 	tier: local
+# 	distance: 1
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license twinstar pherkad"
+# 	tier: local
+# 	distance: 1
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license twinstar atria"
+# 	tier: regional
+# 	distance: 2
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license twinstar kappa centauri"
+# 	tier: regional
+# 	distance: 2
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license twinstar kornephoros"
+# 	tier: regional
+# 	distance: 2
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license twinstar sabik"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license twinstar yed prior"
+# 	tier: regional
+# 	distance: 2
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license twinstar girtab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license twinstar men"
+# 	tier: regional
+# 	distance: 3
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license twinstar rastaban"
+# 	tier: regional
+# 	distance: 3
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license twinstar sargas"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license twinstar shaula"
+# 	tier: regional
+# 	distance: 3
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license twinstar unukalhai"
+# 	tier: regional
+# 	distance: 3
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license twinstar albaldah"
+# 	tier: long
+# 	distance: 4
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license twinstar alioth"
+# 	tier: long
+# 	distance: 4
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license twinstar delta sagittarii"
+# 	tier: long
+# 	distance: 4
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license twinstar seginus"
+# 	tier: long
+# 	distance: 4
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license twinstar zubeneschamali"
+# 	tier: long
+# 	distance: 4
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license twinstar albireo"
+# 	tier: long
+# 	distance: 5
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license twinstar alphecca"
+# 	tier: long
+# 	distance: 5
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license twinstar belenos"
+# 	tier: long
+# 	distance: 5
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license twinstar hadar"
+# 	tier: long
+# 	distance: 5
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license twinstar kaus borealis"
+# 	tier: long
+# 	distance: 5
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license twinstar kochab"
+# 	tier: long
+# 	distance: 5
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license twinstar nunki"
+# 	tier: long
+# 	distance: 5
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license twinstar vindemiatrix"
+# 	tier: long
+# 	distance: 5
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license twinstar alkaid"
+# 	tier: long
+# 	distance: 6
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license twinstar alpherg"
+# 	tier: long
+# 	distance: 6
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license twinstar arcturus"
+# 	tier: long
+# 	distance: 6
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license twinstar ascella"
+# 	tier: long
+# 	distance: 6
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license twinstar cebalrai"
+# 	tier: long
+# 	distance: 6
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license twinstar citadelle"
+# 	tier: long
+# 	distance: 6
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license twinstar cor caroli"
+# 	tier: long
+# 	distance: 6
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license twinstar dabih"
+# 	tier: long
+# 	distance: 6
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license twinstar izar"
+# 	tier: long
+# 	distance: 6
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license twinstar kaus australis"
+# 	tier: long
+# 	distance: 6
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license twinstar muhlifain"
+# 	tier: long
+# 	distance: 6
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license twinstar peacock"
+# 	tier: long
+# 	distance: 6
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license twinstar rutilicus"
+# 	tier: long
+# 	distance: 6
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license twinstar sarin"
+# 	tier: long
+# 	distance: 6
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license twinstar tarazed"
+# 	tier: long
+# 	distance: 6
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license twinstar zeta centauri"
+# 	tier: long
+# 	distance: 6
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license twinstar acrux"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license twinstar algorel"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license twinstar enif"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license twinstar menkent"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license twinstar rasalhague"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license twinstar zeta aquilae"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license twinstar phecda"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license twinstar sadalmelik"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license twinstar sadalsuud"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license twinstar turais"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license twinstar vega"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license twinstar altair"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license twinstar delta velorum"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license twinstar merak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license twinstar mimosa"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license twinstar porrima"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license twinstar sol"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license twinstar spica"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license twinstar tania australis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license twinstar alpha centauri"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license twinstar caph"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license twinstar delta capricorni"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license twinstar denebola"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license twinstar fomalhaut"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license twinstar gamma corvi"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license twinstar kraz"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license twinstar sirius"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license twinstar alderamin"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license twinstar alphard"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license twinstar diphda"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license twinstar markab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license twinstar scheat"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license twinstar zosma"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license twinstar al dhanab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license twinstar alnair"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license twinstar ankaa"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license twinstar capella"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license twinstar dubhe"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license twinstar gomeisa"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license twinstar matar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license twinstar miaplacidus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license twinstar mirach"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license twinstar pollux"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license twinstar talita"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license twinstar achernar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license twinstar adhara"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license twinstar aldebaran"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license twinstar alpheratz"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license twinstar castor"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license twinstar elnath"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license twinstar epsilon leonis"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license twinstar ruchbah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license twinstar schedar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license twinstar tejat"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license twinstar algol"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license twinstar alhena"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license twinstar almach"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license twinstar alpha hydri"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license twinstar gienah"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license twinstar hamal"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license twinstar kursa"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license twinstar nihal"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license twinstar phurad"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license twinstar polaris"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license twinstar sheratan"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license twinstar algenib"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license twinstar avior"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license twinstar canopus"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license twinstar regor"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license twinstar wazn"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license twinstar zaurak"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license twinstar alcyone"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license twinstar alheka"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license twinstar markeb"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license twinstar menkar"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license twinstar naos"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license twinstar phact"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license twinstar suhail"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license twinstar aludra"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license twinstar bellatrix"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license twinstar betelgeuse"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license twinstar mebsuta"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license twinstar mirfak"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license twinstar wezen"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license twinstar misam"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license twinstar alnitak"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license twinstar saiph"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license twinstar almaaz"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license twinstar alnilam"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license twinstar arneb"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

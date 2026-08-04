@@ -1,0 +1,145 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Enn Bue.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Iliniza
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 5.1 (100.0%)
+# 	hq minables: iron abundance 46 density 1.16 (67.9%); silver abundance 9 density 2.8 (32.1%)
+# 	mining system: Iliniza
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 5.1 (100.0%)
+# 	mining minables: iron abundance 46 density 1.16 (67.9%); silver abundance 9 density 2.8 (32.1%)
+# 	shuttle route: Enn Bue -> Cipi
+# 	shuttle system: Zeinar
+# 	shuttle distance: 1
+# 	trading route: Enn Bue -> Cipi
+# 	trading system: Zeinar
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 42
+# 	trading optimized value: 70
+# 	security route: Enn Bue -> Cipi
+# 	security system: Zeinar
+# 	security distance: 1
+
+# license "cf license enn bue zeinar"
+# 	tier: local
+# 	distance: 1
+# 	system: Zeinar
+# 	government: Gegno Scin
+# 	planets: Cipi, Dueitch Ae
+
+# license "cf license enn bue erba yle"
+# 	tier: regional
+# 	distance: 2
+# 	system: Erba Yle
+# 	government: Gegno Scin
+# 	planets: Gue Faur
+
+# license "cf license enn bue pbelnep"
+# 	tier: regional
+# 	distance: 2
+# 	system: Pbelnep
+# 	government: Gegno Scin
+# 	planets: Ef Osch
+
+# license "cf license enn bue auhru"
+# 	tier: regional
+# 	distance: 3
+# 	system: Auhru
+# 	government: Gegno Scin
+# 	planets: Oup Je
+
+# license "cf license enn bue uttna"
+# 	tier: long
+# 	distance: 4
+# 	system: Uttna
+# 	government: Gegno
+# 	planets: Gi Tiures
+
+# license "cf license enn bue oosuoro"
+# 	tier: long
+# 	distance: 5
+# 	system: Oosuoro
+# 	government: Gegno
+# 	planets: Tschyss
+
+# license "cf license enn bue heutesl"
+# 	tier: long
+# 	distance: 6
+# 	system: Heutesl
+# 	government: Gegno
+# 	planets: Dueyu Eitch, Iemn Eitch
+
+# license "cf license enn bue nnaug"
+# 	tier: long
+# 	distance: 6
+# 	system: Nnaug
+# 	government: Gegno Vi
+# 	planets: Sies Upi
+
+# license "cf license enn bue ptetubo"
+# 	tier: long
+# 	distance: 6
+# 	system: Ptetubo
+# 	government: Gegno Vi
+# 	planets: Essime
+
+# license "cf license enn bue scija"
+# 	tier: long
+# 	distance: 6
+# 	system: Scija
+# 	government: Gegno Vi
+# 	planets: Graede, Siedi
+
+# license "cf license enn bue asio"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Asio
+# 	government: Gegno
+# 	planets: Ef Aourtdye
+
+# license "cf license enn bue kiluit"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kiluit
+# 	government: Gegno Vi
+# 	planets: Enbye
+
+# license "cf license enn bue ookmya"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ookmya
+# 	government: Gegno Vi
+# 	planets: Ternituul
+
+# license "cf license enn bue aleit"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Aleit
+# 	government: Quarg (Gegno)
+# 	planets: Giaru Gegno
+
+# license "cf license enn bue actannka"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Actannka
+# 	government: Quarg (Gegno)
+# 	planets: Arroharg, Truklar
+
+# license "cf license enn bue ghhil"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ghhil
+# 	government: Quarg (Gegno)
+# 	planets: Ruelogakk
+

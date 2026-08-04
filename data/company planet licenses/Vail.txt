@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Vail.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Tejat
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 22 energy 4.5675 (22.7%); large rock count 5 energy 4.959 (5.2%); medium metal count 49 energy 4.263 (50.5%); medium rock count 5 energy 3.1755 (5.2%); small metal count 11 energy 3.741 (11.3%); small rock count 5 energy 4.5675 (5.2%)
+# 	hq minables: aluminum abundance 2 density 6.59341 (13.9%); iron abundance 9 density 6.73101 (63.7%); tungsten abundance 3 density 7.11041 (22.4%)
+# 	mining system: Tejat
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: tungsten ore field
+# 	mining value per cargo: 112
+# 	mining quality: 95
+# 	mining asteroids: large metal count 22 energy 4.5675 (22.7%); large rock count 5 energy 4.959 (5.2%); medium metal count 49 energy 4.263 (50.5%); medium rock count 5 energy 3.1755 (5.2%); small metal count 11 energy 3.741 (11.3%); small rock count 5 energy 4.5675 (5.2%)
+# 	mining minables: aluminum abundance 2 density 6.59341 (13.9%); iron abundance 9 density 6.73101 (63.7%); tungsten abundance 3 density 7.11041 (22.4%)
+# 	shuttle route: Vail -> Pearl
+# 	shuttle system: Phurad
+# 	shuttle distance: 1
+# 	trading route: Vail -> Pearl
+# 	trading system: Phurad
+# 	trading distance: 1
+# 	trading commodity: Electronics
+# 	trading base value: 44
+# 	trading optimized value: 74
+# 	security route: Vail -> Pearl
+# 	security system: Phurad
+# 	security distance: 1
+
+# license "cf license vail miaplacidus"
+# 	tier: local
+# 	distance: 1
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license vail phurad"
+# 	tier: local
+# 	distance: 1
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license vail alphard"
+# 	tier: regional
+# 	distance: 2
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license vail canopus"
+# 	tier: regional
+# 	distance: 2
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license vail talita"
+# 	tier: regional
+# 	distance: 2
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license vail wazn"
+# 	tier: regional
+# 	distance: 2
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license vail alheka"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license vail alhena"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license vail castor"
+# 	tier: regional
+# 	distance: 3
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license vail kursa"
+# 	tier: regional
+# 	distance: 3
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license vail phact"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license vail pollux"
+# 	tier: regional
+# 	distance: 3
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license vail zosma"
+# 	tier: regional
+# 	distance: 3
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license vail aldebaran"
+# 	tier: long
+# 	distance: 4
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license vail betelgeuse"
+# 	tier: long
+# 	distance: 4
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license vail dubhe"
+# 	tier: long
+# 	distance: 4
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license vail elnath"
+# 	tier: long
+# 	distance: 4
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license vail gomeisa"
+# 	tier: long
+# 	distance: 4
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license vail mebsuta"
+# 	tier: long
+# 	distance: 4
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license vail tania australis"
+# 	tier: long
+# 	distance: 4
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license vail adhara"
+# 	tier: long
+# 	distance: 5
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license vail capella"
+# 	tier: long
+# 	distance: 5
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license vail epsilon leonis"
+# 	tier: long
+# 	distance: 5
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license vail nihal"
+# 	tier: long
+# 	distance: 5
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license vail phecda"
+# 	tier: long
+# 	distance: 5
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license vail sirius"
+# 	tier: long
+# 	distance: 5
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license vail algorel"
+# 	tier: long
+# 	distance: 6
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license vail alnitak"
+# 	tier: long
+# 	distance: 6
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license vail delta velorum"
+# 	tier: long
+# 	distance: 6
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license vail diphda"
+# 	tier: long
+# 	distance: 6
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license vail merak"
+# 	tier: long
+# 	distance: 6
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license vail saiph"
+# 	tier: long
+# 	distance: 6
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license vail sol"
+# 	tier: long
+# 	distance: 6
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license vail alpha centauri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license vail altair"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license vail ankaa"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license vail avior"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license vail caph"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license vail cor caroli"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license vail denebola"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license vail porrima"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license vail regor"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license vail turais"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license vail vega"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license vail almaaz"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license vail arcturus"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license vail delta capricorni"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license vail fomalhaut"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license vail markab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license vail markeb"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license vail menkent"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license vail naos"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license vail ruchbah"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license vail suhail"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license vail vindemiatrix"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license vail alderamin"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license vail algol"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license vail alioth"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license vail alpha hydri"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license vail alpheratz"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license vail aludra"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license vail cebalrai"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license vail hamal"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license vail mirfak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license vail muhlifain"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license vail rutilicus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license vail sarin"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license vail scheat"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license vail sheratan"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license vail wezen"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license vail achernar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license vail al dhanab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license vail alcyone"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license vail alnair"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license vail alnilam"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license vail alphecca"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license vail arneb"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license vail bellatrix"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license vail kaus borealis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license vail matar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license vail menkar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license vail mirach"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license vail rasalhague"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license vail zaurak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license vail ascella"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license vail kornephoros"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license vail polaris"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license vail schedar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license vail seginus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license vail zeta aquilae"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license vail aldhibain"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license vail almach"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license vail delta sagittarii"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license vail gienah"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license vail misam"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license vail peacock"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license vail rastaban"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license vail sabik"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license vail sargas"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license vail algenib"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license vail alniyat"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license vail dschubba"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license vail girtab"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license vail kaus australis"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license vail unukalhai"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license vail albaldah"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license vail antares"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license vail atria"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license vail dabih"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license vail graffias"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license vail han"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license vail pherkad"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license vail shaula"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license vail zubeneschamali"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license vail albireo"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license vail hadar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license vail kappa centauri"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license vail kochab"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license vail nunki"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license vail tarazed"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license vail yed prior"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license vail alkaid"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license vail enif"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license vail izar"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license vail men"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license vail zeta centauri"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license vail acrux"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license vail sadalmelik"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license vail sadalsuud"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license vail belenos"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license vail alpherg"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license vail citadelle"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license vail mimosa"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license vail spica"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license vail gamma corvi"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license vail kraz"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

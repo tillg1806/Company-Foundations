@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Delve of Bloptab.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Bloptab
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 4 energy 3.87 (4.0%); large rock count 8 energy 2.79 (7.9%); medium metal count 21 energy 3.18 (20.8%); medium rock count 12 energy 3.6 (11.9%); small metal count 55 energy 4.23 (54.5%); small rock count 1 energy 4.41 (1.0%)
+# 	hq minables: silicon abundance 14 density 4.35211 (37.5%); titanium abundance 10 density 6.77673 (41.8%); tungsten abundance 8 density 4.20103 (20.7%)
+# 	mining system: Bloptab
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 4 energy 3.87 (4.0%); large rock count 8 energy 2.79 (7.9%); medium metal count 21 energy 3.18 (20.8%); medium rock count 12 energy 3.6 (11.9%); small metal count 55 energy 4.23 (54.5%); small rock count 1 energy 4.41 (1.0%)
+# 	mining minables: silicon abundance 14 density 4.35211 (37.5%); titanium abundance 10 density 6.77673 (41.8%); tungsten abundance 8 density 4.20103 (20.7%)
+# 	shuttle route: Delve of Bloptab -> Bank of Blugtad
+# 	shuttle system: Blugtad
+# 	shuttle distance: 1
+# 	trading route: Delve of Bloptab -> Bank of Blugtad
+# 	trading system: Blugtad
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 40
+# 	trading optimized value: 67
+# 	security route: Delve of Bloptab -> Bank of Blugtad
+# 	security system: Blugtad
+# 	security distance: 1
+
+# license "cf license delve of bloptab blugtad"
+# 	tier: local
+# 	distance: 1
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license delve of bloptab eblumab"
+# 	tier: regional
+# 	distance: 2
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license delve of bloptab gupta"
+# 	tier: regional
+# 	distance: 2
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license delve of bloptab sol arach"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license delve of bloptab ablodab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license delve of bloptab belugt"
+# 	tier: regional
+# 	distance: 3
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license delve of bloptab blubipad"
+# 	tier: regional
+# 	distance: 3
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license delve of bloptab glubatub"
+# 	tier: regional
+# 	distance: 3
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license delve of bloptab meblumem"
+# 	tier: regional
+# 	distance: 3
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license delve of bloptab miblulub"
+# 	tier: regional
+# 	distance: 3
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license delve of bloptab pelubta"
+# 	tier: regional
+# 	distance: 3
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license delve of bloptab plort"
+# 	tier: regional
+# 	distance: 3
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license delve of bloptab ablub"
+# 	tier: long
+# 	distance: 4
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license delve of bloptab debrugt"
+# 	tier: long
+# 	distance: 4
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license delve of bloptab mebla"
+# 	tier: long
+# 	distance: 4
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license delve of bloptab tebuteb"
+# 	tier: long
+# 	distance: 4
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license delve of bloptab flugbu"
+# 	tier: long
+# 	distance: 5
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license delve of bloptab speloog"
+# 	tier: long
+# 	distance: 6
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license delve of bloptab belug"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license delve of bloptab ekuarik"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license delve of bloptab ki war ek"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license delve of bloptab quaru"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license delve of bloptab 14 winter below"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license delve of bloptab 5 axis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license delve of bloptab homeward"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license delve of bloptab last word"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license delve of bloptab 4 axis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license delve of bloptab 8 winter below"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license delve of bloptab fell omen"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license delve of bloptab silver bell"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license delve of bloptab 3 axis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license delve of bloptab broken bowl"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license delve of bloptab silver string"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license delve of bloptab 1 axis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license delve of bloptab 11 spring below"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license delve of bloptab 4 winter rising"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license delve of bloptab answer"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license delve of bloptab belonging"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license delve of bloptab hunter"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license delve of bloptab steep roof"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license delve of bloptab 4 spring rising"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license delve of bloptab 5 winter above"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license delve of bloptab beginning"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license delve of bloptab remembrance"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license delve of bloptab sol kimek"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license delve of bloptab sol saryd"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license delve of bloptab 3 pole"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license delve of bloptab 3 spring rising"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license delve of bloptab 9 spring above"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license delve of bloptab ancient hope"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license delve of bloptab companion"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license delve of bloptab fallen leaf"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license delve of bloptab good omen"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license delve of bloptab 14 summer above"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license delve of bloptab 4 summer rising"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license delve of bloptab 5 summer above"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license delve of bloptab 7 autumn rising"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license delve of bloptab far horizon"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license delve of bloptab 10 pole"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license delve of bloptab 12 autumn above"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license delve of bloptab four pillars"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license delve of bloptab 14 pole"
+# 	tier: frontier
+# 	distance: 17
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license delve of bloptab lone cloud"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

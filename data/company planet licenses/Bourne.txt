@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Bourne.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Gamma Corvi
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 36 energy 1.6704 (17.2%); large rock count 17 energy 2.1696 (8.1%); medium metal count 48 energy 1.9968 (23.0%); medium rock count 59 energy 2.8608 (28.2%); small metal count 29 energy 1.3248 (13.9%); small rock count 20 energy 1.5168 (9.6%)
+# 	hq minables: lead abundance 49 density 2.14521 (97.8%); neodymium abundance 1 density 2.38531 (2.2%)
+# 	mining system: Gamma Corvi
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: lead ore field
+# 	mining value per cargo: 90
+# 	mining quality: 108
+# 	mining asteroids: large metal count 36 energy 1.6704 (17.2%); large rock count 17 energy 2.1696 (8.1%); medium metal count 48 energy 1.9968 (23.0%); medium rock count 59 energy 2.8608 (28.2%); small metal count 29 energy 1.3248 (13.9%); small rock count 20 energy 1.5168 (9.6%)
+# 	mining minables: lead abundance 49 density 2.14521 (97.8%); neodymium abundance 1 density 2.38531 (2.2%)
+# 	shuttle route: Bourne -> Oasis
+# 	shuttle system: Spica
+# 	shuttle distance: 1
+# 	trading route: Bourne -> Oasis
+# 	trading system: Spica
+# 	trading distance: 1
+# 	trading commodity: Metal
+# 	trading base value: 35
+# 	trading optimized value: 56
+# 	security route: Bourne -> Oasis
+# 	security system: Spica
+# 	security distance: 1
+
+# license "cf license bourne spica"
+# 	tier: local
+# 	distance: 1
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license bourne acrux"
+# 	tier: regional
+# 	distance: 3
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license bourne mimosa"
+# 	tier: regional
+# 	distance: 3
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license bourne izar"
+# 	tier: long
+# 	distance: 4
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license bourne kraz"
+# 	tier: long
+# 	distance: 4
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license bourne zeta centauri"
+# 	tier: long
+# 	distance: 4
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license bourne hadar"
+# 	tier: long
+# 	distance: 5
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license bourne alkaid"
+# 	tier: long
+# 	distance: 6
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license bourne zubeneschamali"
+# 	tier: long
+# 	distance: 6
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license bourne kochab"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license bourne sabik"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license bourne unukalhai"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license bourne aldhibain"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license bourne kornephoros"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license bourne alniyat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license bourne dschubba"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license bourne sargas"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license bourne alioth"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license bourne antares"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license bourne atria"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license bourne graffias"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license bourne han"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license bourne pherkad"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license bourne seginus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license bourne alphecca"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license bourne girtab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license bourne kappa centauri"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license bourne kaus borealis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license bourne rastaban"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license bourne shaula"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license bourne vindemiatrix"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license bourne yed prior"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license bourne albaldah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license bourne arcturus"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license bourne cebalrai"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license bourne cor caroli"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license bourne delta sagittarii"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license bourne men"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license bourne muhlifain"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license bourne rutilicus"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license bourne sarin"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license bourne albireo"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license bourne algorel"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license bourne menkent"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license bourne nunki"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license bourne rasalhague"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license bourne ascella"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license bourne belenos"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license bourne dabih"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license bourne kaus australis"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license bourne peacock"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license bourne phecda"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license bourne tarazed"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license bourne turais"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license bourne vega"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license bourne zeta aquilae"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license bourne alpherg"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license bourne altair"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license bourne citadelle"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license bourne delta velorum"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license bourne enif"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license bourne merak"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license bourne porrima"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license bourne sol"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license bourne tania australis"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license bourne alpha centauri"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license bourne caph"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license bourne delta capricorni"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license bourne denebola"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license bourne fomalhaut"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license bourne sadalmelik"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license bourne sadalsuud"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license bourne sirius"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license bourne alderamin"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license bourne alphard"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license bourne diphda"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license bourne markab"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license bourne scheat"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license bourne zosma"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license bourne al dhanab"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license bourne alnair"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license bourne ankaa"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license bourne capella"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license bourne dubhe"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license bourne gomeisa"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license bourne matar"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license bourne miaplacidus"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license bourne mirach"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license bourne pollux"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license bourne talita"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license bourne achernar"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license bourne adhara"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license bourne aldebaran"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license bourne alpheratz"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license bourne castor"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license bourne elnath"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license bourne epsilon leonis"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license bourne ruchbah"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license bourne schedar"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license bourne tejat"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license bourne algol"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license bourne alhena"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license bourne almach"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license bourne alpha hydri"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license bourne gienah"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license bourne hamal"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license bourne kursa"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license bourne nihal"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license bourne phurad"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license bourne polaris"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license bourne sheratan"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license bourne algenib"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license bourne avior"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license bourne canopus"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license bourne regor"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license bourne wazn"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license bourne zaurak"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license bourne alcyone"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license bourne alheka"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license bourne markeb"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license bourne menkar"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license bourne naos"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license bourne phact"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license bourne suhail"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license bourne aludra"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license bourne bellatrix"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license bourne betelgeuse"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license bourne mebsuta"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license bourne mirfak"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license bourne wezen"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license bourne misam"
+# 	tier: frontier
+# 	distance: 25
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license bourne alnitak"
+# 	tier: frontier
+# 	distance: 26
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license bourne saiph"
+# 	tier: frontier
+# 	distance: 26
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license bourne almaaz"
+# 	tier: frontier
+# 	distance: 28
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license bourne alnilam"
+# 	tier: frontier
+# 	distance: 30
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license bourne arneb"
+# 	tier: frontier
+# 	distance: 30
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

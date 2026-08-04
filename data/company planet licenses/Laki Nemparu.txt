@@ -1,0 +1,54 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Laki Nemparu.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Kashikt
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 13 energy 4.2021 (9.0%); large rock count 12 energy 2.9463 (8.3%); medium metal count 44 energy 6.0858 (30.3%); medium rock count 39 energy 6.5688 (26.9%); small metal count 22 energy 3.1878 (15.2%); small rock count 15 energy 4.1055 (10.3%)
+# 	hq minables: silicon abundance 35 density 6.23036 (53.6%); silver abundance 11 density 7.76234 (21.0%); tungsten abundance 13 density 7.967 (25.4%)
+# 	mining system: Kashikt
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 13 energy 4.2021 (9.0%); large rock count 12 energy 2.9463 (8.3%); medium metal count 44 energy 6.0858 (30.3%); medium rock count 39 energy 6.5688 (26.9%); small metal count 22 energy 3.1878 (15.2%); small rock count 15 energy 4.1055 (10.3%)
+# 	mining minables: silicon abundance 35 density 6.23036 (53.6%); silver abundance 11 density 7.76234 (21.0%); tungsten abundance 13 density 7.967 (25.4%)
+# 	shuttle route: Laki Nemparu -> Karek Fornati
+# 	shuttle system: Sumprast
+# 	shuttle distance: 1
+# 	trading route: Laki Nemparu -> Karek Fornati
+# 	trading system: Sumprast
+# 	trading distance: 1
+# 	trading commodity: Food
+# 	trading base value: 37
+# 	trading optimized value: 61
+# 	security route: Laki Nemparu -> Karek Fornati
+# 	security system: Sumprast
+# 	security distance: 1
+
+# license "cf license laki nemparu dokdobaru"
+# 	tier: local
+# 	distance: 1
+# 	system: Dokdobaru
+# 	government: Quarg (Kor Efret)
+# 	planets: Korati Efreti, Kuwaru Efreti
+
+# license "cf license laki nemparu sevrelect"
+# 	tier: local
+# 	distance: 1
+# 	system: Sevrelect
+# 	government: Kor Efret
+# 	planets: Setar Fort
+
+# license "cf license laki nemparu sumprast"
+# 	tier: local
+# 	distance: 1
+# 	system: Sumprast
+# 	government: Kor Efret
+# 	planets: Karek Fornati
+

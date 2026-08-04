@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Midgard.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Aludra
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 6 energy 3.402 (35.3%); large rock count 7 energy 2.4786 (41.2%); small metal count 2 energy 7.1442 (11.8%); small rock count 2 energy 3.8394 (11.8%)
+# 	hq minables: copper abundance 2 density 3.7707 (27.6%); neodymium abundance 2 density 5.17388 (37.9%); silicon abundance 2 density 4.70507 (34.5%)
+# 	mining system: Aludra
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: neodymium ore field
+# 	mining value per cargo: 110
+# 	mining quality: 27
+# 	mining asteroids: large metal count 6 energy 3.402 (35.3%); large rock count 7 energy 2.4786 (41.2%); small metal count 2 energy 7.1442 (11.8%); small rock count 2 energy 3.8394 (11.8%)
+# 	mining minables: copper abundance 2 density 3.7707 (27.6%); neodymium abundance 2 density 5.17388 (37.9%); silicon abundance 2 density 4.70507 (34.5%)
+# 	shuttle route: Midgard -> Asgard
+# 	shuttle system: Naos
+# 	shuttle distance: 1
+# 	trading route: Midgard -> Asgard
+# 	trading system: Naos
+# 	trading distance: 1
+# 	trading commodity: Clothing
+# 	trading base value: 57
+# 	trading optimized value: 95
+# 	security route: Midgard -> Asgard
+# 	security system: Naos
+# 	security distance: 1
+
+# license "cf license midgard naos"
+# 	tier: local
+# 	distance: 1
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license midgard avior"
+# 	tier: regional
+# 	distance: 2
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license midgard regor"
+# 	tier: regional
+# 	distance: 2
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license midgard wezen"
+# 	tier: regional
+# 	distance: 2
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license midgard markeb"
+# 	tier: regional
+# 	distance: 3
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license midgard suhail"
+# 	tier: regional
+# 	distance: 3
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license midgard epsilon leonis"
+# 	tier: long
+# 	distance: 4
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license midgard adhara"
+# 	tier: long
+# 	distance: 5
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license midgard gomeisa"
+# 	tier: long
+# 	distance: 5
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license midgard zosma"
+# 	tier: long
+# 	distance: 6
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license midgard alphard"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license midgard dubhe"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license midgard miaplacidus"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license midgard talita"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license midgard tania australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license midgard castor"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license midgard phecda"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license midgard pollux"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license midgard tejat"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license midgard algorel"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license midgard delta velorum"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license midgard merak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license midgard phurad"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license midgard alhena"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license midgard canopus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license midgard capella"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license midgard cor caroli"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license midgard denebola"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license midgard porrima"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license midgard sirius"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license midgard turais"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license midgard wazn"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license midgard aldebaran"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license midgard alheka"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license midgard arcturus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license midgard kursa"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license midgard phact"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license midgard sol"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license midgard vindemiatrix"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license midgard alioth"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license midgard alpha centauri"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license midgard altair"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license midgard betelgeuse"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license midgard caph"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license midgard elnath"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license midgard mebsuta"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license midgard menkent"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license midgard muhlifain"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license midgard rutilicus"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license midgard sarin"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license midgard vega"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license midgard alphecca"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license midgard cebalrai"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license midgard delta capricorni"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license midgard diphda"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license midgard fomalhaut"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license midgard nihal"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license midgard alderamin"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license midgard alnitak"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license midgard ankaa"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license midgard kaus borealis"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license midgard kornephoros"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license midgard markab"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license midgard rasalhague"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license midgard saiph"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license midgard scheat"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license midgard seginus"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license midgard al dhanab"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license midgard aldhibain"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license midgard alnair"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license midgard ascella"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license midgard matar"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license midgard mirach"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license midgard ruchbah"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license midgard sabik"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license midgard sargas"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license midgard zeta aquilae"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license midgard achernar"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license midgard algol"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license midgard almaaz"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license midgard alniyat"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license midgard alpha hydri"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license midgard alpheratz"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license midgard delta sagittarii"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license midgard dschubba"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license midgard hamal"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license midgard peacock"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license midgard rastaban"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license midgard schedar"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license midgard sheratan"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license midgard unukalhai"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license midgard almach"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license midgard antares"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license midgard atria"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license midgard gienah"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license midgard girtab"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license midgard graffias"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license midgard han"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license midgard kaus australis"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license midgard mirfak"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license midgard pherkad"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license midgard polaris"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license midgard shaula"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license midgard zaurak"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license midgard zubeneschamali"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license midgard albaldah"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license midgard alcyone"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license midgard algenib"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license midgard alnilam"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license midgard arneb"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license midgard bellatrix"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license midgard dabih"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license midgard hadar"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license midgard kappa centauri"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license midgard kochab"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license midgard menkar"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license midgard yed prior"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license midgard albireo"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license midgard alkaid"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license midgard izar"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license midgard men"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license midgard nunki"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license midgard tarazed"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license midgard zeta centauri"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license midgard acrux"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license midgard enif"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license midgard misam"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license midgard belenos"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license midgard sadalmelik"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license midgard sadalsuud"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license midgard alpherg"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license midgard citadelle"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license midgard mimosa"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license midgard spica"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license midgard gamma corvi"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license midgard kraz"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

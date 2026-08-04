@@ -1,0 +1,33 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Spec Inci.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Cura Dic
+# 	hq system asteroids: yes
+# 	hq asteroids: large rock count 27 energy 5.468 (44.3%); medium rock count 25 energy 5.468 (41.0%); small rock count 9 energy 4.576 (14.8%)
+# 	hq minables: none
+# 	mining system: Cura Dic
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large rock count 27 energy 5.468 (44.3%); medium rock count 25 energy 5.468 (41.0%); small rock count 9 energy 4.576 (14.8%)
+# 	mining minables: none
+# 	shuttle route: Spec Inci -> nearby passenger boards
+# 	shuttle system: Cura Dic
+# 	shuttle distance: 1
+# 	trading route: Spec Inci -> nearby passenger boards
+# 	trading system: Cura Dic
+# 	trading distance: 1
+# 	trading commodity: general cargo
+# 	trading base value: 35
+# 	trading optimized value: 40
+# 	security route: Spec Inci -> nearby passenger boards
+# 	security system: Cura Dic
+# 	security distance: 1
+

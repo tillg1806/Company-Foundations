@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Memory.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Zosma
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 9 energy 3.2175 (10.6%); large rock count 39 energy 3.445 (45.9%); medium metal count 14 energy 3.8025 (16.5%); medium rock count 1 energy 3.77 (1.2%); small metal count 5 energy 4.0625 (5.9%); small rock count 17 energy 3.2175 (20.0%)
+# 	hq minables: iron abundance 4 density 5.44731 (100.0%)
+# 	mining system: Zosma
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: iron ore field
+# 	mining value per cargo: 90
+# 	mining quality: 22
+# 	mining asteroids: large metal count 9 energy 3.2175 (10.6%); large rock count 39 energy 3.445 (45.9%); medium metal count 14 energy 3.8025 (16.5%); medium rock count 1 energy 3.77 (1.2%); small metal count 5 energy 4.0625 (5.9%); small rock count 17 energy 3.2175 (20.0%)
+# 	mining minables: iron abundance 4 density 5.44731 (100.0%)
+# 	shuttle route: Memory -> Follower
+# 	shuttle system: Alphard
+# 	shuttle distance: 1
+# 	trading route: Memory -> Follower
+# 	trading system: Alphard
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 71
+# 	trading optimized value: 118
+# 	security route: Memory -> Follower
+# 	security system: Alphard
+# 	security distance: 1
+
+# license "cf license memory alphard"
+# 	tier: local
+# 	distance: 1
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license memory dubhe"
+# 	tier: local
+# 	distance: 1
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license memory gomeisa"
+# 	tier: local
+# 	distance: 1
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license memory adhara"
+# 	tier: regional
+# 	distance: 2
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license memory epsilon leonis"
+# 	tier: regional
+# 	distance: 2
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license memory miaplacidus"
+# 	tier: regional
+# 	distance: 2
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license memory talita"
+# 	tier: regional
+# 	distance: 2
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license memory tania australis"
+# 	tier: regional
+# 	distance: 2
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license memory castor"
+# 	tier: regional
+# 	distance: 3
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license memory phecda"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license memory pollux"
+# 	tier: regional
+# 	distance: 3
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license memory tejat"
+# 	tier: regional
+# 	distance: 3
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license memory algorel"
+# 	tier: long
+# 	distance: 4
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license memory avior"
+# 	tier: long
+# 	distance: 4
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license memory delta velorum"
+# 	tier: long
+# 	distance: 4
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license memory merak"
+# 	tier: long
+# 	distance: 4
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license memory phurad"
+# 	tier: long
+# 	distance: 4
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license memory regor"
+# 	tier: long
+# 	distance: 4
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license memory alhena"
+# 	tier: long
+# 	distance: 5
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license memory canopus"
+# 	tier: long
+# 	distance: 5
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license memory capella"
+# 	tier: long
+# 	distance: 5
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license memory cor caroli"
+# 	tier: long
+# 	distance: 5
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license memory denebola"
+# 	tier: long
+# 	distance: 5
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license memory markeb"
+# 	tier: long
+# 	distance: 5
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license memory naos"
+# 	tier: long
+# 	distance: 5
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license memory porrima"
+# 	tier: long
+# 	distance: 5
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license memory sirius"
+# 	tier: long
+# 	distance: 5
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license memory suhail"
+# 	tier: long
+# 	distance: 5
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license memory turais"
+# 	tier: long
+# 	distance: 5
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license memory wazn"
+# 	tier: long
+# 	distance: 5
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license memory aldebaran"
+# 	tier: long
+# 	distance: 6
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license memory alheka"
+# 	tier: long
+# 	distance: 6
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license memory aludra"
+# 	tier: long
+# 	distance: 6
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license memory arcturus"
+# 	tier: long
+# 	distance: 6
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license memory kursa"
+# 	tier: long
+# 	distance: 6
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license memory phact"
+# 	tier: long
+# 	distance: 6
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license memory sol"
+# 	tier: long
+# 	distance: 6
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license memory vindemiatrix"
+# 	tier: long
+# 	distance: 6
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license memory wezen"
+# 	tier: long
+# 	distance: 6
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license memory alioth"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license memory alpha centauri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license memory altair"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license memory betelgeuse"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license memory caph"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license memory elnath"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license memory mebsuta"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license memory menkent"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license memory muhlifain"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license memory rutilicus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license memory sarin"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license memory vega"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license memory alphecca"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license memory cebalrai"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license memory delta capricorni"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license memory diphda"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license memory fomalhaut"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license memory nihal"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license memory alderamin"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license memory alnitak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license memory ankaa"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license memory kaus borealis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license memory kornephoros"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license memory markab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license memory rasalhague"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license memory saiph"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license memory scheat"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license memory seginus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license memory al dhanab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license memory aldhibain"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license memory alnair"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license memory ascella"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license memory matar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license memory mirach"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license memory ruchbah"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license memory sabik"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license memory sargas"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license memory zeta aquilae"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license memory achernar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license memory algol"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license memory almaaz"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license memory alniyat"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license memory alpha hydri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license memory alpheratz"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license memory delta sagittarii"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license memory dschubba"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license memory hamal"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license memory peacock"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license memory rastaban"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license memory schedar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license memory sheratan"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license memory unukalhai"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license memory almach"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license memory antares"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license memory atria"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license memory gienah"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license memory girtab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license memory graffias"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license memory han"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license memory kaus australis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license memory mirfak"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license memory pherkad"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license memory polaris"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license memory shaula"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license memory zaurak"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license memory zubeneschamali"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license memory albaldah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license memory alcyone"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license memory algenib"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license memory alnilam"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license memory arneb"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license memory bellatrix"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license memory dabih"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license memory hadar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license memory kappa centauri"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license memory kochab"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license memory menkar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license memory yed prior"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license memory albireo"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license memory alkaid"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license memory izar"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license memory men"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license memory nunki"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license memory tarazed"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license memory zeta centauri"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license memory acrux"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license memory enif"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license memory misam"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license memory belenos"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license memory sadalmelik"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license memory sadalsuud"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license memory alpherg"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license memory citadelle"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license memory mimosa"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license memory spica"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license memory gamma corvi"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license memory kraz"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

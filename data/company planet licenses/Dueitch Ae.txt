@@ -1,0 +1,145 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Dueitch Ae.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Zeinar
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 9 energy 4.1 (27.3%); large rock count 4 energy 4 (12.1%); medium metal count 7 energy 4.4 (21.2%); medium rock count 9 energy 5.5 (27.3%); small metal count 2 energy 3.2 (6.1%); small rock count 2 energy 5.6 (6.1%)
+# 	hq minables: aluminum abundance 13 density 1.52 (51.7%); tungsten abundance 14 density 1.319 (48.3%)
+# 	mining system: Zeinar
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 9 energy 4.1 (27.3%); large rock count 4 energy 4 (12.1%); medium metal count 7 energy 4.4 (21.2%); medium rock count 9 energy 5.5 (27.3%); small metal count 2 energy 3.2 (6.1%); small rock count 2 energy 5.6 (6.1%)
+# 	mining minables: aluminum abundance 13 density 1.52 (51.7%); tungsten abundance 14 density 1.319 (48.3%)
+# 	shuttle route: Dueitch Ae -> Ef Osch
+# 	shuttle system: Pbelnep
+# 	shuttle distance: 1
+# 	trading route: Dueitch Ae -> Ef Osch
+# 	trading system: Pbelnep
+# 	trading distance: 1
+# 	trading commodity: Medical
+# 	trading base value: 60
+# 	trading optimized value: 100
+# 	security route: Dueitch Ae -> Ef Osch
+# 	security system: Pbelnep
+# 	security distance: 1
+
+# license "cf license dueitch ae erba yle"
+# 	tier: local
+# 	distance: 1
+# 	system: Erba Yle
+# 	government: Gegno Scin
+# 	planets: Gue Faur
+
+# license "cf license dueitch ae iliniza"
+# 	tier: local
+# 	distance: 1
+# 	system: Iliniza
+# 	government: Gegno Scin
+# 	planets: Enn Bue
+
+# license "cf license dueitch ae pbelnep"
+# 	tier: local
+# 	distance: 1
+# 	system: Pbelnep
+# 	government: Gegno Scin
+# 	planets: Ef Osch
+
+# license "cf license dueitch ae auhru"
+# 	tier: regional
+# 	distance: 2
+# 	system: Auhru
+# 	government: Gegno Scin
+# 	planets: Oup Je
+
+# license "cf license dueitch ae uttna"
+# 	tier: regional
+# 	distance: 3
+# 	system: Uttna
+# 	government: Gegno
+# 	planets: Gi Tiures
+
+# license "cf license dueitch ae oosuoro"
+# 	tier: long
+# 	distance: 4
+# 	system: Oosuoro
+# 	government: Gegno
+# 	planets: Tschyss
+
+# license "cf license dueitch ae heutesl"
+# 	tier: long
+# 	distance: 5
+# 	system: Heutesl
+# 	government: Gegno
+# 	planets: Dueyu Eitch, Iemn Eitch
+
+# license "cf license dueitch ae nnaug"
+# 	tier: long
+# 	distance: 5
+# 	system: Nnaug
+# 	government: Gegno Vi
+# 	planets: Sies Upi
+
+# license "cf license dueitch ae asio"
+# 	tier: long
+# 	distance: 6
+# 	system: Asio
+# 	government: Gegno
+# 	planets: Ef Aourtdye
+
+# license "cf license dueitch ae kiluit"
+# 	tier: long
+# 	distance: 6
+# 	system: Kiluit
+# 	government: Gegno Vi
+# 	planets: Enbye
+
+# license "cf license dueitch ae scija"
+# 	tier: long
+# 	distance: 6
+# 	system: Scija
+# 	government: Gegno Vi
+# 	planets: Graede, Siedi
+
+# license "cf license dueitch ae aleit"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Aleit
+# 	government: Quarg (Gegno)
+# 	planets: Giaru Gegno
+
+# license "cf license dueitch ae ookmya"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ookmya
+# 	government: Gegno Vi
+# 	planets: Ternituul
+
+# license "cf license dueitch ae ptetubo"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ptetubo
+# 	government: Gegno Vi
+# 	planets: Essime
+
+# license "cf license dueitch ae actannka"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Actannka
+# 	government: Quarg (Gegno)
+# 	planets: Arroharg, Truklar
+
+# license "cf license dueitch ae ghhil"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ghhil
+# 	government: Quarg (Gegno)
+# 	planets: Ruelogakk
+

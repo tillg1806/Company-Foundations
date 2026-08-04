@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Luna.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Sol
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 2.2356 (1.2%); large rock count 50 energy 5.0508 (58.8%); medium metal count 4 energy 2.8566 (4.7%); small rock count 30 energy 2.691 (35.3%)
+# 	hq minables: iron abundance 8 density 4.64499 (100.0%)
+# 	mining system: Sol
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: iron ore field
+# 	mining value per cargo: 90
+# 	mining quality: 37
+# 	mining asteroids: large metal count 1 energy 2.2356 (1.2%); large rock count 50 energy 5.0508 (58.8%); medium metal count 4 energy 2.8566 (4.7%); small rock count 30 energy 2.691 (35.3%)
+# 	mining minables: iron abundance 8 density 4.64499 (100.0%)
+# 	shuttle route: Luna -> Chiron
+# 	shuttle system: Alpha Centauri
+# 	shuttle distance: 1
+# 	trading route: Luna -> Chiron
+# 	trading system: Alpha Centauri
+# 	trading distance: 1
+# 	trading commodity: Luxury Goods
+# 	trading base value: 39
+# 	trading optimized value: 65
+# 	security route: Luna -> Chiron
+# 	security system: Alpha Centauri
+# 	security distance: 1
+
+# license "cf license luna alpha centauri"
+# 	tier: local
+# 	distance: 1
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license luna altair"
+# 	tier: local
+# 	distance: 1
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license luna caph"
+# 	tier: local
+# 	distance: 1
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license luna denebola"
+# 	tier: local
+# 	distance: 1
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license luna sirius"
+# 	tier: local
+# 	distance: 1
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license luna vega"
+# 	tier: local
+# 	distance: 1
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license luna delta capricorni"
+# 	tier: regional
+# 	distance: 2
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license luna diphda"
+# 	tier: regional
+# 	distance: 2
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license luna fomalhaut"
+# 	tier: regional
+# 	distance: 2
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license luna menkent"
+# 	tier: regional
+# 	distance: 2
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license luna merak"
+# 	tier: regional
+# 	distance: 2
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license luna alderamin"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license luna ankaa"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license luna capella"
+# 	tier: regional
+# 	distance: 3
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license luna cebalrai"
+# 	tier: regional
+# 	distance: 3
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license luna markab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license luna phecda"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license luna pollux"
+# 	tier: regional
+# 	distance: 3
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license luna porrima"
+# 	tier: regional
+# 	distance: 3
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license luna rutilicus"
+# 	tier: regional
+# 	distance: 3
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license luna scheat"
+# 	tier: regional
+# 	distance: 3
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license luna al dhanab"
+# 	tier: long
+# 	distance: 4
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license luna aldebaran"
+# 	tier: long
+# 	distance: 4
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license luna algorel"
+# 	tier: long
+# 	distance: 4
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license luna alnair"
+# 	tier: long
+# 	distance: 4
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license luna arcturus"
+# 	tier: long
+# 	distance: 4
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license luna castor"
+# 	tier: long
+# 	distance: 4
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license luna elnath"
+# 	tier: long
+# 	distance: 4
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license luna kaus borealis"
+# 	tier: long
+# 	distance: 4
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license luna matar"
+# 	tier: long
+# 	distance: 4
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license luna mirach"
+# 	tier: long
+# 	distance: 4
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license luna rasalhague"
+# 	tier: long
+# 	distance: 4
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license luna ruchbah"
+# 	tier: long
+# 	distance: 4
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license luna talita"
+# 	tier: long
+# 	distance: 4
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license luna tania australis"
+# 	tier: long
+# 	distance: 4
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license luna achernar"
+# 	tier: long
+# 	distance: 5
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license luna algol"
+# 	tier: long
+# 	distance: 5
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license luna alhena"
+# 	tier: long
+# 	distance: 5
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license luna alioth"
+# 	tier: long
+# 	distance: 5
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license luna alpha hydri"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license luna alphard"
+# 	tier: long
+# 	distance: 5
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license luna alpheratz"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license luna ascella"
+# 	tier: long
+# 	distance: 5
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license luna cor caroli"
+# 	tier: long
+# 	distance: 5
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license luna hamal"
+# 	tier: long
+# 	distance: 5
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license luna kursa"
+# 	tier: long
+# 	distance: 5
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license luna miaplacidus"
+# 	tier: long
+# 	distance: 5
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license luna nihal"
+# 	tier: long
+# 	distance: 5
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license luna schedar"
+# 	tier: long
+# 	distance: 5
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license luna sheratan"
+# 	tier: long
+# 	distance: 5
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license luna turais"
+# 	tier: long
+# 	distance: 5
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license luna zeta aquilae"
+# 	tier: long
+# 	distance: 5
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license luna almach"
+# 	tier: long
+# 	distance: 6
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license luna alphecca"
+# 	tier: long
+# 	distance: 6
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license luna delta sagittarii"
+# 	tier: long
+# 	distance: 6
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license luna delta velorum"
+# 	tier: long
+# 	distance: 6
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license luna gienah"
+# 	tier: long
+# 	distance: 6
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license luna peacock"
+# 	tier: long
+# 	distance: 6
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license luna polaris"
+# 	tier: long
+# 	distance: 6
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license luna rastaban"
+# 	tier: long
+# 	distance: 6
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license luna seginus"
+# 	tier: long
+# 	distance: 6
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license luna tejat"
+# 	tier: long
+# 	distance: 6
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license luna vindemiatrix"
+# 	tier: long
+# 	distance: 6
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license luna wazn"
+# 	tier: long
+# 	distance: 6
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license luna zaurak"
+# 	tier: long
+# 	distance: 6
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license luna zosma"
+# 	tier: long
+# 	distance: 6
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license luna alcyone"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license luna algenib"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license luna dubhe"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license luna girtab"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license luna gomeisa"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license luna kaus australis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license luna kornephoros"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license luna menkar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license luna muhlifain"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license luna phact"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license luna phurad"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license luna sarin"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license luna adhara"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license luna albaldah"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license luna aldhibain"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license luna atria"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license luna bellatrix"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license luna canopus"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license luna dabih"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license luna dschubba"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license luna epsilon leonis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license luna mirfak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license luna sabik"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license luna sargas"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license luna shaula"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license luna albireo"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license luna alheka"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license luna alniyat"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license luna han"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license luna misam"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license luna nunki"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license luna tarazed"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license luna unukalhai"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license luna antares"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license luna avior"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license luna betelgeuse"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license luna enif"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license luna graffias"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license luna mebsuta"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license luna pherkad"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license luna regor"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license luna zubeneschamali"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license luna alnitak"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license luna hadar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license luna kappa centauri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license luna kochab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license luna markeb"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license luna naos"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license luna sadalmelik"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license luna sadalsuud"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license luna saiph"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license luna suhail"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license luna yed prior"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license luna alkaid"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license luna aludra"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license luna izar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license luna men"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license luna wezen"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license luna zeta centauri"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license luna acrux"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license luna almaaz"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license luna belenos"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license luna alnilam"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license luna alpherg"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license luna arneb"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license luna citadelle"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license luna mimosa"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license luna spica"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license luna gamma corvi"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license luna kraz"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Pilot.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Elnath
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 2 energy 4.2924 (6.5%); large rock count 1 energy 4.6452 (3.2%); medium metal count 11 energy 4.7628 (35.5%); medium rock count 8 energy 4.998 (25.8%); small metal count 9 energy 7.2912 (29.0%)
+# 	hq minables: iron abundance 2 density 7.79782 (100.0%)
+# 	mining system: Elnath
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: iron ore field
+# 	mining value per cargo: 90
+# 	mining quality: 16
+# 	mining asteroids: large metal count 2 energy 4.2924 (6.5%); large rock count 1 energy 4.6452 (3.2%); medium metal count 11 energy 4.7628 (35.5%); medium rock count 8 energy 4.998 (25.8%); small metal count 9 energy 7.2912 (29.0%)
+# 	mining minables: iron abundance 2 density 7.79782 (100.0%)
+# 	shuttle route: Pilot -> Ada
+# 	shuttle system: Aldebaran
+# 	shuttle distance: 1
+# 	trading route: Pilot -> Ada
+# 	trading system: Aldebaran
+# 	trading distance: 1
+# 	trading commodity: Food
+# 	trading base value: 36
+# 	trading optimized value: 60
+# 	security route: Pilot -> Ada
+# 	security system: Aldebaran
+# 	security distance: 1
+
+# license "cf license pilot aldebaran"
+# 	tier: local
+# 	distance: 1
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license pilot kursa"
+# 	tier: local
+# 	distance: 1
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license pilot nihal"
+# 	tier: local
+# 	distance: 1
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license pilot capella"
+# 	tier: regional
+# 	distance: 2
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license pilot diphda"
+# 	tier: regional
+# 	distance: 2
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license pilot wazn"
+# 	tier: regional
+# 	distance: 2
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license pilot alhena"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license pilot ankaa"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license pilot caph"
+# 	tier: regional
+# 	distance: 3
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license pilot phact"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license pilot phurad"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license pilot canopus"
+# 	tier: long
+# 	distance: 4
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license pilot castor"
+# 	tier: long
+# 	distance: 4
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license pilot markab"
+# 	tier: long
+# 	distance: 4
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license pilot pollux"
+# 	tier: long
+# 	distance: 4
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license pilot ruchbah"
+# 	tier: long
+# 	distance: 4
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license pilot sirius"
+# 	tier: long
+# 	distance: 4
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license pilot sol"
+# 	tier: long
+# 	distance: 4
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license pilot tejat"
+# 	tier: long
+# 	distance: 4
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license pilot algol"
+# 	tier: long
+# 	distance: 5
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license pilot alheka"
+# 	tier: long
+# 	distance: 5
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license pilot alpha centauri"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license pilot alpha hydri"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license pilot alpheratz"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license pilot altair"
+# 	tier: long
+# 	distance: 5
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license pilot delta capricorni"
+# 	tier: long
+# 	distance: 5
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license pilot denebola"
+# 	tier: long
+# 	distance: 5
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license pilot fomalhaut"
+# 	tier: long
+# 	distance: 5
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license pilot hamal"
+# 	tier: long
+# 	distance: 5
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license pilot miaplacidus"
+# 	tier: long
+# 	distance: 5
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license pilot mirfak"
+# 	tier: long
+# 	distance: 5
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license pilot scheat"
+# 	tier: long
+# 	distance: 5
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license pilot sheratan"
+# 	tier: long
+# 	distance: 5
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license pilot talita"
+# 	tier: long
+# 	distance: 5
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license pilot vega"
+# 	tier: long
+# 	distance: 5
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license pilot achernar"
+# 	tier: long
+# 	distance: 6
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license pilot al dhanab"
+# 	tier: long
+# 	distance: 6
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license pilot alcyone"
+# 	tier: long
+# 	distance: 6
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license pilot alderamin"
+# 	tier: long
+# 	distance: 6
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license pilot alphard"
+# 	tier: long
+# 	distance: 6
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license pilot bellatrix"
+# 	tier: long
+# 	distance: 6
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license pilot betelgeuse"
+# 	tier: long
+# 	distance: 6
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license pilot matar"
+# 	tier: long
+# 	distance: 6
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license pilot mebsuta"
+# 	tier: long
+# 	distance: 6
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license pilot menkar"
+# 	tier: long
+# 	distance: 6
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license pilot menkent"
+# 	tier: long
+# 	distance: 6
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license pilot merak"
+# 	tier: long
+# 	distance: 6
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license pilot mirach"
+# 	tier: long
+# 	distance: 6
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license pilot zaurak"
+# 	tier: long
+# 	distance: 6
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license pilot alnair"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license pilot alnitak"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license pilot cebalrai"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license pilot phecda"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license pilot polaris"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license pilot porrima"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license pilot rutilicus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license pilot saiph"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license pilot schedar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license pilot zosma"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license pilot algorel"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license pilot almach"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license pilot arcturus"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license pilot dubhe"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license pilot gienah"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license pilot gomeisa"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license pilot kaus borealis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license pilot misam"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license pilot rasalhague"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license pilot tania australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license pilot adhara"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license pilot algenib"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license pilot alioth"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license pilot almaaz"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license pilot ascella"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license pilot cor caroli"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license pilot epsilon leonis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license pilot turais"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license pilot zeta aquilae"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license pilot alphecca"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license pilot delta sagittarii"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license pilot delta velorum"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license pilot peacock"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license pilot rastaban"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license pilot seginus"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license pilot vindemiatrix"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license pilot alnilam"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license pilot arneb"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license pilot avior"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license pilot girtab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license pilot kaus australis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license pilot kornephoros"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license pilot muhlifain"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license pilot regor"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license pilot sarin"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license pilot albaldah"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license pilot aldhibain"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license pilot atria"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license pilot dabih"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license pilot dschubba"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license pilot markeb"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license pilot naos"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license pilot sabik"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license pilot sargas"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license pilot shaula"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license pilot suhail"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license pilot albireo"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license pilot alniyat"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license pilot aludra"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license pilot han"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license pilot nunki"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license pilot tarazed"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license pilot unukalhai"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license pilot wezen"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license pilot antares"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license pilot enif"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license pilot graffias"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license pilot pherkad"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license pilot zubeneschamali"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license pilot hadar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license pilot kappa centauri"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license pilot kochab"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license pilot sadalmelik"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license pilot sadalsuud"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license pilot yed prior"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license pilot alkaid"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license pilot izar"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license pilot men"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license pilot zeta centauri"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license pilot acrux"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license pilot belenos"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license pilot alpherg"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license pilot citadelle"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license pilot mimosa"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license pilot spica"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license pilot gamma corvi"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license pilot kraz"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

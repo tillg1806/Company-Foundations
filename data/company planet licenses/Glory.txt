@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Glory.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Wazn
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 9 energy 1.9008 (42.9%); medium metal count 3 energy 4.4704 (14.3%); small metal count 9 energy 2.6048 (42.9%)
+# 	hq minables: iron abundance 2 density 4.91227 (46.5%); silicon abundance 4 density 2.82661 (53.5%)
+# 	mining system: Wazn
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: iron ore field
+# 	mining value per cargo: 90
+# 	mining quality: 21
+# 	mining asteroids: large metal count 9 energy 1.9008 (42.9%); medium metal count 3 energy 4.4704 (14.3%); small metal count 9 energy 2.6048 (42.9%)
+# 	mining minables: iron abundance 2 density 4.91227 (46.5%); silicon abundance 4 density 2.82661 (53.5%)
+# 	shuttle route: Glory -> Farseer
+# 	shuttle system: Kursa
+# 	shuttle distance: 1
+# 	trading route: Glory -> Farseer
+# 	trading system: Kursa
+# 	trading distance: 1
+# 	trading commodity: Electronics
+# 	trading base value: 83
+# 	trading optimized value: 138
+# 	security route: Glory -> Farseer
+# 	security system: Kursa
+# 	security distance: 1
+
+# license "cf license glory alhena"
+# 	tier: local
+# 	distance: 1
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license glory kursa"
+# 	tier: local
+# 	distance: 1
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license glory phact"
+# 	tier: local
+# 	distance: 1
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license glory phurad"
+# 	tier: local
+# 	distance: 1
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license glory aldebaran"
+# 	tier: regional
+# 	distance: 2
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license glory canopus"
+# 	tier: regional
+# 	distance: 2
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license glory elnath"
+# 	tier: regional
+# 	distance: 2
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license glory tejat"
+# 	tier: regional
+# 	distance: 2
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license glory alheka"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license glory capella"
+# 	tier: regional
+# 	distance: 3
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license glory castor"
+# 	tier: regional
+# 	distance: 3
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license glory miaplacidus"
+# 	tier: regional
+# 	distance: 3
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license glory nihal"
+# 	tier: regional
+# 	distance: 3
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license glory alphard"
+# 	tier: long
+# 	distance: 4
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license glory betelgeuse"
+# 	tier: long
+# 	distance: 4
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license glory diphda"
+# 	tier: long
+# 	distance: 4
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license glory mebsuta"
+# 	tier: long
+# 	distance: 4
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license glory pollux"
+# 	tier: long
+# 	distance: 4
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license glory talita"
+# 	tier: long
+# 	distance: 4
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license glory ankaa"
+# 	tier: long
+# 	distance: 5
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license glory caph"
+# 	tier: long
+# 	distance: 5
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license glory sirius"
+# 	tier: long
+# 	distance: 5
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license glory zosma"
+# 	tier: long
+# 	distance: 5
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license glory alnitak"
+# 	tier: long
+# 	distance: 6
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license glory dubhe"
+# 	tier: long
+# 	distance: 6
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license glory gomeisa"
+# 	tier: long
+# 	distance: 6
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license glory markab"
+# 	tier: long
+# 	distance: 6
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license glory ruchbah"
+# 	tier: long
+# 	distance: 6
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license glory saiph"
+# 	tier: long
+# 	distance: 6
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license glory sol"
+# 	tier: long
+# 	distance: 6
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license glory tania australis"
+# 	tier: long
+# 	distance: 6
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license glory adhara"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license glory algol"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license glory alpha centauri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license glory alpha hydri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license glory alpheratz"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license glory altair"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license glory delta capricorni"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license glory denebola"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license glory epsilon leonis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license glory fomalhaut"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license glory hamal"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license glory mirfak"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license glory phecda"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license glory scheat"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license glory sheratan"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license glory vega"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license glory achernar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license glory al dhanab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license glory alcyone"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license glory alderamin"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license glory algorel"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license glory almaaz"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license glory bellatrix"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license glory delta velorum"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license glory matar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license glory menkar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license glory menkent"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license glory merak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license glory mirach"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license glory zaurak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license glory alnair"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license glory avior"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license glory cebalrai"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license glory cor caroli"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license glory polaris"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license glory porrima"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license glory regor"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license glory rutilicus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license glory schedar"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license glory turais"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license glory almach"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license glory alnilam"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license glory arcturus"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license glory arneb"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license glory gienah"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license glory kaus borealis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license glory markeb"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license glory misam"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license glory naos"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license glory rasalhague"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license glory suhail"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license glory vindemiatrix"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license glory algenib"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license glory alioth"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license glory aludra"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license glory ascella"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license glory muhlifain"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license glory sarin"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license glory wezen"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license glory zeta aquilae"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license glory alphecca"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license glory delta sagittarii"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license glory peacock"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license glory rastaban"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license glory seginus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license glory girtab"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license glory kaus australis"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license glory kornephoros"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license glory albaldah"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license glory aldhibain"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license glory atria"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license glory dabih"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license glory dschubba"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license glory sabik"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license glory sargas"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license glory shaula"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license glory albireo"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license glory alniyat"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license glory han"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license glory nunki"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license glory tarazed"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license glory unukalhai"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license glory antares"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license glory enif"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license glory graffias"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license glory pherkad"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license glory zubeneschamali"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license glory hadar"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license glory kappa centauri"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license glory kochab"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license glory sadalmelik"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license glory sadalsuud"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license glory yed prior"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license glory alkaid"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license glory izar"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license glory men"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license glory zeta centauri"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license glory acrux"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license glory belenos"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license glory alpherg"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license glory citadelle"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license glory mimosa"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license glory spica"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license glory gamma corvi"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license glory kraz"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

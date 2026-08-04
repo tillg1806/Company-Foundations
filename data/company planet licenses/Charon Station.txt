@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Charon Station.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Aldhibain
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 3 energy 5.2668 (2.5%); large rock count 1 energy 4.1184 (0.8%); medium metal count 72 energy 3.8412 (59.5%); medium rock count 5 energy 2.0592 (4.1%); small metal count 39 energy 3.8412 (32.2%); small rock count 1 energy 2.574 (0.8%)
+# 	hq minables: iron abundance 5 density 6.68827 (25.4%); silicon abundance 11 density 5.1137 (42.7%); titanium abundance 10 density 4.19059 (31.8%)
+# 	mining system: Aldhibain
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: titanium ore field
+# 	mining value per cargo: 90
+# 	mining quality: 132
+# 	mining asteroids: large metal count 3 energy 5.2668 (2.5%); large rock count 1 energy 4.1184 (0.8%); medium metal count 72 energy 3.8412 (59.5%); medium rock count 5 energy 2.0592 (4.1%); small metal count 39 energy 3.8412 (32.2%); small rock count 1 energy 2.574 (0.8%)
+# 	mining minables: iron abundance 5 density 6.68827 (25.4%); silicon abundance 11 density 5.1137 (42.7%); titanium abundance 10 density 4.19059 (31.8%)
+# 	shuttle route: Charon Station -> Deep
+# 	shuttle system: Kornephoros
+# 	shuttle distance: 1
+# 	trading route: Charon Station -> Deep
+# 	trading system: Kornephoros
+# 	trading distance: 1
+# 	trading commodity: Medical
+# 	trading base value: 49
+# 	trading optimized value: 82
+# 	security route: Charon Station -> Deep
+# 	security system: Kornephoros
+# 	security distance: 1
+
+# license "cf license charon station alniyat"
+# 	tier: local
+# 	distance: 1
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license charon station dschubba"
+# 	tier: local
+# 	distance: 1
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license charon station kornephoros"
+# 	tier: local
+# 	distance: 1
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license charon station sabik"
+# 	tier: local
+# 	distance: 1
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license charon station antares"
+# 	tier: regional
+# 	distance: 2
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license charon station atria"
+# 	tier: regional
+# 	distance: 2
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license charon station graffias"
+# 	tier: regional
+# 	distance: 2
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license charon station han"
+# 	tier: regional
+# 	distance: 2
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license charon station pherkad"
+# 	tier: regional
+# 	distance: 2
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license charon station sargas"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license charon station unukalhai"
+# 	tier: regional
+# 	distance: 2
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license charon station alioth"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license charon station girtab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license charon station kappa centauri"
+# 	tier: regional
+# 	distance: 3
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license charon station rastaban"
+# 	tier: regional
+# 	distance: 3
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license charon station seginus"
+# 	tier: regional
+# 	distance: 3
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license charon station shaula"
+# 	tier: regional
+# 	distance: 3
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license charon station yed prior"
+# 	tier: regional
+# 	distance: 3
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license charon station zubeneschamali"
+# 	tier: regional
+# 	distance: 3
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license charon station albaldah"
+# 	tier: long
+# 	distance: 4
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license charon station alphecca"
+# 	tier: long
+# 	distance: 4
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license charon station delta sagittarii"
+# 	tier: long
+# 	distance: 4
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license charon station hadar"
+# 	tier: long
+# 	distance: 4
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license charon station kaus borealis"
+# 	tier: long
+# 	distance: 4
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license charon station kochab"
+# 	tier: long
+# 	distance: 4
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license charon station men"
+# 	tier: long
+# 	distance: 4
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license charon station vindemiatrix"
+# 	tier: long
+# 	distance: 4
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license charon station albireo"
+# 	tier: long
+# 	distance: 5
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license charon station alkaid"
+# 	tier: long
+# 	distance: 5
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license charon station arcturus"
+# 	tier: long
+# 	distance: 5
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license charon station cebalrai"
+# 	tier: long
+# 	distance: 5
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license charon station cor caroli"
+# 	tier: long
+# 	distance: 5
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license charon station izar"
+# 	tier: long
+# 	distance: 5
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license charon station muhlifain"
+# 	tier: long
+# 	distance: 5
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license charon station nunki"
+# 	tier: long
+# 	distance: 5
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license charon station rutilicus"
+# 	tier: long
+# 	distance: 5
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license charon station sarin"
+# 	tier: long
+# 	distance: 5
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license charon station zeta centauri"
+# 	tier: long
+# 	distance: 5
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license charon station acrux"
+# 	tier: long
+# 	distance: 6
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license charon station algorel"
+# 	tier: long
+# 	distance: 6
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license charon station ascella"
+# 	tier: long
+# 	distance: 6
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license charon station belenos"
+# 	tier: long
+# 	distance: 6
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license charon station dabih"
+# 	tier: long
+# 	distance: 6
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license charon station kaus australis"
+# 	tier: long
+# 	distance: 6
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license charon station menkent"
+# 	tier: long
+# 	distance: 6
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license charon station peacock"
+# 	tier: long
+# 	distance: 6
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license charon station rasalhague"
+# 	tier: long
+# 	distance: 6
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license charon station tarazed"
+# 	tier: long
+# 	distance: 6
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license charon station alpherg"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license charon station citadelle"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license charon station enif"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license charon station phecda"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license charon station turais"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license charon station vega"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license charon station zeta aquilae"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license charon station altair"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license charon station delta velorum"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license charon station merak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license charon station mimosa"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license charon station porrima"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license charon station sadalmelik"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license charon station sadalsuud"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license charon station sol"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license charon station spica"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license charon station tania australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license charon station alpha centauri"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license charon station caph"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license charon station delta capricorni"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license charon station denebola"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license charon station fomalhaut"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license charon station gamma corvi"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license charon station kraz"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license charon station sirius"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license charon station alderamin"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license charon station alphard"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license charon station diphda"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license charon station markab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license charon station scheat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license charon station zosma"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license charon station al dhanab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license charon station alnair"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license charon station ankaa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license charon station capella"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license charon station dubhe"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license charon station gomeisa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license charon station matar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license charon station miaplacidus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license charon station mirach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license charon station pollux"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license charon station talita"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license charon station achernar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license charon station adhara"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license charon station aldebaran"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license charon station alpheratz"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license charon station castor"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license charon station elnath"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license charon station epsilon leonis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license charon station ruchbah"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license charon station schedar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license charon station tejat"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license charon station algol"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license charon station alhena"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license charon station almach"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license charon station alpha hydri"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license charon station gienah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license charon station hamal"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license charon station kursa"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license charon station nihal"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license charon station phurad"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license charon station polaris"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license charon station sheratan"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license charon station algenib"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license charon station avior"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license charon station canopus"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license charon station regor"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license charon station wazn"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license charon station zaurak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license charon station alcyone"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license charon station alheka"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license charon station markeb"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license charon station menkar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license charon station naos"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license charon station phact"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license charon station suhail"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license charon station aludra"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license charon station bellatrix"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license charon station betelgeuse"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license charon station mebsuta"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license charon station mirfak"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license charon station wezen"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license charon station misam"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license charon station alnitak"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license charon station saiph"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license charon station almaaz"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license charon station alnilam"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license charon station arneb"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

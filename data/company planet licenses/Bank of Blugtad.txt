@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Bank of Blugtad.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Blugtad
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 7.776 (1.0%); large rock count 9 energy 9.558 (8.9%); medium metal count 17 energy 11.664 (16.8%); medium rock count 52 energy 4.698 (51.5%); small metal count 11 energy 6.075 (10.9%); small rock count 11 energy 9.477 (10.9%)
+# 	hq minables: lead abundance 6 density 4.60749 (51.8%); platinum abundance 2 density 6.9822 (26.2%); silver abundance 2 density 5.8763 (22.0%)
+# 	mining system: Blugtad
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 7.776 (1.0%); large rock count 9 energy 9.558 (8.9%); medium metal count 17 energy 11.664 (16.8%); medium rock count 52 energy 4.698 (51.5%); small metal count 11 energy 6.075 (10.9%); small rock count 11 energy 9.477 (10.9%)
+# 	mining minables: lead abundance 6 density 4.60749 (51.8%); platinum abundance 2 density 6.9822 (26.2%); silver abundance 2 density 5.8763 (22.0%)
+# 	shuttle route: Bank of Blugtad -> Ahr
+# 	shuttle system: Sol Arach
+# 	shuttle distance: 1
+# 	trading route: Bank of Blugtad -> Ahr
+# 	trading system: Sol Arach
+# 	trading distance: 1
+# 	trading commodity: Medical
+# 	trading base value: 62
+# 	trading optimized value: 103
+# 	security route: Bank of Blugtad -> Ahr
+# 	security system: Sol Arach
+# 	security distance: 1
+
+# license "cf license bank of blugtad bloptab"
+# 	tier: local
+# 	distance: 1
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license bank of blugtad eblumab"
+# 	tier: local
+# 	distance: 1
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license bank of blugtad gupta"
+# 	tier: local
+# 	distance: 1
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license bank of blugtad sol arach"
+# 	tier: local
+# 	distance: 1
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license bank of blugtad ablodab"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license bank of blugtad belugt"
+# 	tier: regional
+# 	distance: 2
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license bank of blugtad blubipad"
+# 	tier: regional
+# 	distance: 2
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license bank of blugtad glubatub"
+# 	tier: regional
+# 	distance: 2
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license bank of blugtad meblumem"
+# 	tier: regional
+# 	distance: 2
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license bank of blugtad miblulub"
+# 	tier: regional
+# 	distance: 2
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license bank of blugtad pelubta"
+# 	tier: regional
+# 	distance: 2
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license bank of blugtad plort"
+# 	tier: regional
+# 	distance: 2
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license bank of blugtad ablub"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license bank of blugtad debrugt"
+# 	tier: regional
+# 	distance: 3
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license bank of blugtad mebla"
+# 	tier: regional
+# 	distance: 3
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license bank of blugtad tebuteb"
+# 	tier: regional
+# 	distance: 3
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license bank of blugtad flugbu"
+# 	tier: long
+# 	distance: 4
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license bank of blugtad speloog"
+# 	tier: long
+# 	distance: 5
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license bank of blugtad belug"
+# 	tier: long
+# 	distance: 6
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license bank of blugtad ekuarik"
+# 	tier: long
+# 	distance: 6
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license bank of blugtad ki war ek"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license bank of blugtad quaru"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license bank of blugtad 14 winter below"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license bank of blugtad 5 axis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license bank of blugtad homeward"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license bank of blugtad last word"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license bank of blugtad 4 axis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license bank of blugtad 8 winter below"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license bank of blugtad fell omen"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license bank of blugtad silver bell"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license bank of blugtad 3 axis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license bank of blugtad broken bowl"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license bank of blugtad silver string"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license bank of blugtad 1 axis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license bank of blugtad 11 spring below"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license bank of blugtad 4 winter rising"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license bank of blugtad answer"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license bank of blugtad belonging"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license bank of blugtad hunter"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license bank of blugtad steep roof"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license bank of blugtad 4 spring rising"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license bank of blugtad 5 winter above"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license bank of blugtad beginning"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license bank of blugtad remembrance"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license bank of blugtad sol kimek"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license bank of blugtad sol saryd"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license bank of blugtad 3 pole"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license bank of blugtad 3 spring rising"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license bank of blugtad 9 spring above"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license bank of blugtad ancient hope"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license bank of blugtad companion"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license bank of blugtad fallen leaf"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license bank of blugtad good omen"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license bank of blugtad 14 summer above"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license bank of blugtad 4 summer rising"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license bank of blugtad 5 summer above"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license bank of blugtad 7 autumn rising"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license bank of blugtad far horizon"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license bank of blugtad 10 pole"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license bank of blugtad 12 autumn above"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license bank of blugtad four pillars"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license bank of blugtad 14 pole"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license bank of blugtad lone cloud"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

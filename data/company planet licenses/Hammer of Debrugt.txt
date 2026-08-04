@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Hammer of Debrugt.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Debrugt
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 3.1104 (100.0%)
+# 	hq minables: none
+# 	mining system: Debrugt
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 3.1104 (100.0%)
+# 	mining minables: none
+# 	shuttle route: Hammer of Debrugt -> Guardian Array Sapphire
+# 	shuttle system: Ablodab
+# 	shuttle distance: 1
+# 	trading route: Hammer of Debrugt -> Guardian Array Sapphire
+# 	trading system: Ablodab
+# 	trading distance: 1
+# 	trading commodity: Luxury Goods
+# 	trading base value: 74
+# 	trading optimized value: 124
+# 	security route: Hammer of Debrugt -> Guardian Array Sapphire
+# 	security system: Ablodab
+# 	security distance: 1
+
+# license "cf license hammer of debrugt ablodab"
+# 	tier: local
+# 	distance: 1
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license hammer of debrugt flugbu"
+# 	tier: local
+# 	distance: 1
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license hammer of debrugt mebla"
+# 	tier: local
+# 	distance: 1
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license hammer of debrugt gupta"
+# 	tier: regional
+# 	distance: 2
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license hammer of debrugt pelubta"
+# 	tier: regional
+# 	distance: 2
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license hammer of debrugt speloog"
+# 	tier: regional
+# 	distance: 2
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license hammer of debrugt belug"
+# 	tier: regional
+# 	distance: 3
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license hammer of debrugt belugt"
+# 	tier: regional
+# 	distance: 3
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license hammer of debrugt blugtad"
+# 	tier: regional
+# 	distance: 3
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license hammer of debrugt ekuarik"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license hammer of debrugt meblumem"
+# 	tier: regional
+# 	distance: 3
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license hammer of debrugt sol arach"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license hammer of debrugt bloptab"
+# 	tier: long
+# 	distance: 4
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license hammer of debrugt blubipad"
+# 	tier: long
+# 	distance: 4
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license hammer of debrugt eblumab"
+# 	tier: long
+# 	distance: 4
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license hammer of debrugt glubatub"
+# 	tier: long
+# 	distance: 4
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license hammer of debrugt ki war ek"
+# 	tier: long
+# 	distance: 4
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license hammer of debrugt miblulub"
+# 	tier: long
+# 	distance: 4
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license hammer of debrugt plort"
+# 	tier: long
+# 	distance: 4
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license hammer of debrugt quaru"
+# 	tier: long
+# 	distance: 4
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license hammer of debrugt 14 winter below"
+# 	tier: long
+# 	distance: 5
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license hammer of debrugt 5 axis"
+# 	tier: long
+# 	distance: 5
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license hammer of debrugt ablub"
+# 	tier: long
+# 	distance: 5
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license hammer of debrugt homeward"
+# 	tier: long
+# 	distance: 5
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license hammer of debrugt last word"
+# 	tier: long
+# 	distance: 5
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license hammer of debrugt tebuteb"
+# 	tier: long
+# 	distance: 5
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license hammer of debrugt 4 axis"
+# 	tier: long
+# 	distance: 6
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license hammer of debrugt 8 winter below"
+# 	tier: long
+# 	distance: 6
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license hammer of debrugt fell omen"
+# 	tier: long
+# 	distance: 6
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license hammer of debrugt silver bell"
+# 	tier: long
+# 	distance: 6
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license hammer of debrugt 3 axis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license hammer of debrugt broken bowl"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license hammer of debrugt silver string"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license hammer of debrugt 1 axis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license hammer of debrugt 11 spring below"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license hammer of debrugt 4 winter rising"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license hammer of debrugt answer"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license hammer of debrugt belonging"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license hammer of debrugt hunter"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license hammer of debrugt steep roof"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license hammer of debrugt 4 spring rising"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license hammer of debrugt 5 winter above"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license hammer of debrugt beginning"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license hammer of debrugt remembrance"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license hammer of debrugt sol kimek"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license hammer of debrugt sol saryd"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license hammer of debrugt 3 pole"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license hammer of debrugt 3 spring rising"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license hammer of debrugt 9 spring above"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license hammer of debrugt ancient hope"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license hammer of debrugt companion"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license hammer of debrugt fallen leaf"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license hammer of debrugt good omen"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license hammer of debrugt 14 summer above"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license hammer of debrugt 4 summer rising"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license hammer of debrugt 5 summer above"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license hammer of debrugt 7 autumn rising"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license hammer of debrugt far horizon"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license hammer of debrugt 10 pole"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license hammer of debrugt 12 autumn above"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license hammer of debrugt four pillars"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license hammer of debrugt 14 pole"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license hammer of debrugt lone cloud"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

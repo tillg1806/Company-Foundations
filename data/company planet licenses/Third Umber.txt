@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Third Umber.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: 11 Spring Below
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 13 energy 2.128 (5.9%); large rock count 25 energy 2.8 (11.3%); medium metal count 41 energy 3.696 (18.5%); medium rock count 86 energy 4.004 (38.7%); small metal count 21 energy 1.96 (9.5%); small rock count 36 energy 3.808 (16.2%)
+# 	hq minables: silicon abundance 5 density 3.88994 (11.5%); tungsten abundance 32 density 4.67204 (88.5%)
+# 	mining system: 11 Spring Below
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 13 energy 2.128 (5.9%); large rock count 25 energy 2.8 (11.3%); medium metal count 41 energy 3.696 (18.5%); medium rock count 86 energy 4.004 (38.7%); small metal count 21 energy 1.96 (9.5%); small rock count 36 energy 3.808 (16.2%)
+# 	mining minables: silicon abundance 5 density 3.88994 (11.5%); tungsten abundance 32 density 4.67204 (88.5%)
+# 	shuttle route: Third Umber -> Ashy Reach
+# 	shuttle system: 3 Axis
+# 	shuttle distance: 1
+# 	trading route: Third Umber -> Ashy Reach
+# 	trading system: 3 Axis
+# 	trading distance: 1
+# 	trading commodity: Plastic
+# 	trading base value: 54
+# 	trading optimized value: 90
+# 	security route: Third Umber -> Ashy Reach
+# 	security system: 3 Axis
+# 	security distance: 1
+
+# license "cf license third umber 3 axis"
+# 	tier: local
+# 	distance: 1
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license third umber 4 spring rising"
+# 	tier: local
+# 	distance: 1
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license third umber 1 axis"
+# 	tier: regional
+# 	distance: 2
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license third umber 3 spring rising"
+# 	tier: regional
+# 	distance: 2
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license third umber 4 axis"
+# 	tier: regional
+# 	distance: 2
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license third umber 4 winter rising"
+# 	tier: regional
+# 	distance: 2
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license third umber 8 winter below"
+# 	tier: regional
+# 	distance: 2
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license third umber 14 winter below"
+# 	tier: regional
+# 	distance: 3
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license third umber 5 axis"
+# 	tier: regional
+# 	distance: 3
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license third umber 5 winter above"
+# 	tier: regional
+# 	distance: 3
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license third umber sol kimek"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license third umber 3 pole"
+# 	tier: long
+# 	distance: 4
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license third umber 9 spring above"
+# 	tier: long
+# 	distance: 4
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license third umber ki war ek"
+# 	tier: long
+# 	distance: 4
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license third umber 14 summer above"
+# 	tier: long
+# 	distance: 5
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license third umber 4 summer rising"
+# 	tier: long
+# 	distance: 5
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license third umber 5 summer above"
+# 	tier: long
+# 	distance: 5
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license third umber 7 autumn rising"
+# 	tier: long
+# 	distance: 5
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license third umber ekuarik"
+# 	tier: long
+# 	distance: 5
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license third umber quaru"
+# 	tier: long
+# 	distance: 5
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license third umber 10 pole"
+# 	tier: long
+# 	distance: 6
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license third umber 12 autumn above"
+# 	tier: long
+# 	distance: 6
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license third umber belug"
+# 	tier: long
+# 	distance: 6
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license third umber homeward"
+# 	tier: long
+# 	distance: 6
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license third umber last word"
+# 	tier: long
+# 	distance: 6
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license third umber speloog"
+# 	tier: long
+# 	distance: 6
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license third umber 14 pole"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license third umber fell omen"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license third umber silver bell"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license third umber broken bowl"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license third umber debrugt"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license third umber flugbu"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license third umber silver string"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license third umber ablodab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license third umber answer"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license third umber belonging"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license third umber hunter"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license third umber mebla"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license third umber steep roof"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license third umber beginning"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license third umber gupta"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license third umber pelubta"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license third umber remembrance"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license third umber sol saryd"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license third umber ancient hope"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license third umber belugt"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license third umber blugtad"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license third umber companion"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license third umber fallen leaf"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license third umber good omen"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license third umber meblumem"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license third umber sol arach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license third umber bloptab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license third umber blubipad"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license third umber eblumab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license third umber far horizon"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license third umber glubatub"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license third umber miblulub"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license third umber plort"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license third umber ablub"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license third umber four pillars"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license third umber tebuteb"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license third umber lone cloud"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

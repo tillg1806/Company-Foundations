@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Ring of Power.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Ki War Ek
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 2 energy 5.6115 (3.5%); large rock count 22 energy 4.1325 (38.6%); medium metal count 8 energy 3.045 (14.0%); medium rock count 11 energy 2.523 (19.3%); small metal count 2 energy 2.262 (3.5%); small rock count 12 energy 2.349 (21.1%)
+# 	hq minables: lead abundance 2 density 3.47294 (10.0%); silicon abundance 10 density 6.26357 (90.0%)
+# 	mining system: Ki War Ek
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 2 energy 5.6115 (3.5%); large rock count 22 energy 4.1325 (38.6%); medium metal count 8 energy 3.045 (14.0%); medium rock count 11 energy 2.523 (19.3%); small metal count 2 energy 2.262 (3.5%); small rock count 12 energy 2.349 (21.1%)
+# 	mining minables: lead abundance 2 density 3.47294 (10.0%); silicon abundance 10 density 6.26357 (90.0%)
+# 	shuttle route: Ring of Power -> Midway Emerald
+# 	shuttle system: 14 Winter Below
+# 	shuttle distance: 1
+# 	trading route: Ring of Power -> Midway Emerald
+# 	trading system: 14 Winter Below
+# 	trading distance: 1
+# 	trading commodity: Industrial
+# 	trading base value: 62
+# 	trading optimized value: 104
+# 	security route: Ring of Power -> Midway Emerald
+# 	security system: 14 Winter Below
+# 	security distance: 1
+
+# license "cf license ring of power 14 winter below"
+# 	tier: local
+# 	distance: 1
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license ring of power 5 axis"
+# 	tier: local
+# 	distance: 1
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license ring of power ekuarik"
+# 	tier: local
+# 	distance: 1
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license ring of power quaru"
+# 	tier: local
+# 	distance: 1
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license ring of power 4 axis"
+# 	tier: regional
+# 	distance: 2
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license ring of power 8 winter below"
+# 	tier: regional
+# 	distance: 2
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license ring of power belug"
+# 	tier: regional
+# 	distance: 2
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license ring of power homeward"
+# 	tier: regional
+# 	distance: 2
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license ring of power last word"
+# 	tier: regional
+# 	distance: 2
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license ring of power speloog"
+# 	tier: regional
+# 	distance: 2
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license ring of power 3 axis"
+# 	tier: regional
+# 	distance: 3
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license ring of power fell omen"
+# 	tier: regional
+# 	distance: 3
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license ring of power silver bell"
+# 	tier: regional
+# 	distance: 3
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license ring of power 1 axis"
+# 	tier: long
+# 	distance: 4
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license ring of power 11 spring below"
+# 	tier: long
+# 	distance: 4
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license ring of power 4 winter rising"
+# 	tier: long
+# 	distance: 4
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license ring of power broken bowl"
+# 	tier: long
+# 	distance: 4
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license ring of power debrugt"
+# 	tier: long
+# 	distance: 4
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license ring of power flugbu"
+# 	tier: long
+# 	distance: 4
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license ring of power silver string"
+# 	tier: long
+# 	distance: 4
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license ring of power 4 spring rising"
+# 	tier: long
+# 	distance: 5
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license ring of power 5 winter above"
+# 	tier: long
+# 	distance: 5
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license ring of power ablodab"
+# 	tier: long
+# 	distance: 5
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license ring of power answer"
+# 	tier: long
+# 	distance: 5
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license ring of power belonging"
+# 	tier: long
+# 	distance: 5
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license ring of power hunter"
+# 	tier: long
+# 	distance: 5
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license ring of power mebla"
+# 	tier: long
+# 	distance: 5
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license ring of power sol kimek"
+# 	tier: long
+# 	distance: 5
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license ring of power steep roof"
+# 	tier: long
+# 	distance: 5
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license ring of power 3 pole"
+# 	tier: long
+# 	distance: 6
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license ring of power 3 spring rising"
+# 	tier: long
+# 	distance: 6
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license ring of power 9 spring above"
+# 	tier: long
+# 	distance: 6
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license ring of power beginning"
+# 	tier: long
+# 	distance: 6
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license ring of power gupta"
+# 	tier: long
+# 	distance: 6
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license ring of power pelubta"
+# 	tier: long
+# 	distance: 6
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license ring of power remembrance"
+# 	tier: long
+# 	distance: 6
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license ring of power sol saryd"
+# 	tier: long
+# 	distance: 6
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license ring of power 14 summer above"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license ring of power 4 summer rising"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license ring of power 5 summer above"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license ring of power 7 autumn rising"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license ring of power ancient hope"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license ring of power belugt"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license ring of power blugtad"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license ring of power companion"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license ring of power fallen leaf"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license ring of power good omen"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license ring of power meblumem"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license ring of power sol arach"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license ring of power 10 pole"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license ring of power 12 autumn above"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license ring of power bloptab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license ring of power blubipad"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license ring of power eblumab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license ring of power far horizon"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license ring of power glubatub"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license ring of power miblulub"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license ring of power plort"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license ring of power 14 pole"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license ring of power ablub"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license ring of power four pillars"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license ring of power tebuteb"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license ring of power lone cloud"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

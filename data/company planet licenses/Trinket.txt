@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Trinket.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Sargas
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 2.6656 (100.0%)
+# 	hq minables: none
+# 	mining system: Kornephoros
+# 	mining distance: 1
+# 	mining local to hq: no
+# 	mining summary: silver ore field
+# 	mining value per cargo: 118
+# 	mining quality: 1487
+# 	mining asteroids: large metal count 7 energy 11.745 (1.7%); large rock count 24 energy 12.528 (6.0%); medium metal count 143 energy 8.352 (35.7%); medium rock count 96 energy 8.787 (23.9%); small metal count 4 energy 7.221 (1.0%); small rock count 127 energy 10.44 (31.7%)
+# 	mining minables: lead abundance 48 density 18.1544 (58.6%); silicon abundance 24 density 15.5119 (25.0%); silver abundance 13 density 18.7077 (16.4%)
+# 	shuttle route: Trinket -> Deep
+# 	shuttle system: Kornephoros
+# 	shuttle distance: 1
+# 	trading route: Trinket -> Deep
+# 	trading system: Kornephoros
+# 	trading distance: 1
+# 	trading commodity: Plastic
+# 	trading base value: 50
+# 	trading optimized value: 83
+# 	security route: Trinket -> Deep
+# 	security system: Kornephoros
+# 	security distance: 1
+
+# license "cf license trinket kornephoros"
+# 	tier: local
+# 	distance: 1
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license trinket aldhibain"
+# 	tier: regional
+# 	distance: 2
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license trinket atria"
+# 	tier: regional
+# 	distance: 2
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license trinket dschubba"
+# 	tier: regional
+# 	distance: 2
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license trinket girtab"
+# 	tier: regional
+# 	distance: 2
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license trinket rastaban"
+# 	tier: regional
+# 	distance: 2
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license trinket sabik"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license trinket shaula"
+# 	tier: regional
+# 	distance: 2
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license trinket albaldah"
+# 	tier: regional
+# 	distance: 3
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license trinket alioth"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license trinket alniyat"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license trinket delta sagittarii"
+# 	tier: regional
+# 	distance: 3
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license trinket han"
+# 	tier: regional
+# 	distance: 3
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license trinket seginus"
+# 	tier: regional
+# 	distance: 3
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license trinket unukalhai"
+# 	tier: regional
+# 	distance: 3
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license trinket albireo"
+# 	tier: long
+# 	distance: 4
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license trinket alphecca"
+# 	tier: long
+# 	distance: 4
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license trinket antares"
+# 	tier: long
+# 	distance: 4
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license trinket graffias"
+# 	tier: long
+# 	distance: 4
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license trinket kaus borealis"
+# 	tier: long
+# 	distance: 4
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license trinket nunki"
+# 	tier: long
+# 	distance: 4
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license trinket pherkad"
+# 	tier: long
+# 	distance: 4
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license trinket vindemiatrix"
+# 	tier: long
+# 	distance: 4
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license trinket zubeneschamali"
+# 	tier: long
+# 	distance: 4
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license trinket arcturus"
+# 	tier: long
+# 	distance: 5
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license trinket ascella"
+# 	tier: long
+# 	distance: 5
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license trinket cebalrai"
+# 	tier: long
+# 	distance: 5
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license trinket cor caroli"
+# 	tier: long
+# 	distance: 5
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license trinket dabih"
+# 	tier: long
+# 	distance: 5
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license trinket hadar"
+# 	tier: long
+# 	distance: 5
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license trinket kappa centauri"
+# 	tier: long
+# 	distance: 5
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license trinket kaus australis"
+# 	tier: long
+# 	distance: 5
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license trinket kochab"
+# 	tier: long
+# 	distance: 5
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license trinket muhlifain"
+# 	tier: long
+# 	distance: 5
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license trinket peacock"
+# 	tier: long
+# 	distance: 5
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license trinket rutilicus"
+# 	tier: long
+# 	distance: 5
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license trinket sarin"
+# 	tier: long
+# 	distance: 5
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license trinket tarazed"
+# 	tier: long
+# 	distance: 5
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license trinket yed prior"
+# 	tier: long
+# 	distance: 5
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license trinket algorel"
+# 	tier: long
+# 	distance: 6
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license trinket alkaid"
+# 	tier: long
+# 	distance: 6
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license trinket enif"
+# 	tier: long
+# 	distance: 6
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license trinket izar"
+# 	tier: long
+# 	distance: 6
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license trinket men"
+# 	tier: long
+# 	distance: 6
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license trinket menkent"
+# 	tier: long
+# 	distance: 6
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license trinket rasalhague"
+# 	tier: long
+# 	distance: 6
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license trinket zeta aquilae"
+# 	tier: long
+# 	distance: 6
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license trinket zeta centauri"
+# 	tier: long
+# 	distance: 6
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license trinket acrux"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license trinket phecda"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license trinket sadalmelik"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license trinket sadalsuud"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license trinket turais"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license trinket vega"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license trinket altair"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license trinket belenos"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license trinket delta velorum"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license trinket merak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license trinket porrima"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license trinket sol"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license trinket tania australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license trinket alpha centauri"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license trinket alpherg"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license trinket caph"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license trinket citadelle"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license trinket delta capricorni"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license trinket denebola"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license trinket fomalhaut"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license trinket mimosa"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license trinket sirius"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license trinket spica"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license trinket alderamin"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license trinket alphard"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license trinket diphda"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license trinket gamma corvi"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license trinket kraz"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license trinket markab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license trinket scheat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license trinket zosma"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license trinket al dhanab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license trinket alnair"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license trinket ankaa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license trinket capella"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license trinket dubhe"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license trinket gomeisa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license trinket matar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license trinket miaplacidus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license trinket mirach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license trinket pollux"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license trinket talita"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license trinket achernar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license trinket adhara"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license trinket aldebaran"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license trinket alpheratz"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license trinket castor"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license trinket elnath"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license trinket epsilon leonis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license trinket ruchbah"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license trinket schedar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license trinket tejat"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license trinket algol"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license trinket alhena"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license trinket almach"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license trinket alpha hydri"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license trinket gienah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license trinket hamal"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license trinket kursa"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license trinket nihal"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license trinket phurad"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license trinket polaris"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license trinket sheratan"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license trinket algenib"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license trinket avior"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license trinket canopus"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license trinket regor"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license trinket wazn"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license trinket zaurak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license trinket alcyone"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license trinket alheka"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license trinket markeb"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license trinket menkar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license trinket naos"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license trinket phact"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license trinket suhail"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license trinket aludra"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license trinket bellatrix"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license trinket betelgeuse"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license trinket mebsuta"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license trinket mirfak"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license trinket wezen"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license trinket misam"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license trinket alnitak"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license trinket saiph"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license trinket almaaz"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license trinket alnilam"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license trinket arneb"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

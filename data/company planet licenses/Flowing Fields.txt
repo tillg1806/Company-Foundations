@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Flowing Fields.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Four Pillars
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 9 energy 4.521 (16.4%); large rock count 21 energy 4.158 (38.2%); medium metal count 9 energy 3.267 (16.4%); medium rock count 2 energy 2.937 (3.6%); small metal count 5 energy 4.488 (9.1%); small rock count 9 energy 4.851 (16.4%)
+# 	hq minables: iron abundance 2 density 5.83209 (44.7%); lead abundance 1 density 7.66489 (29.3%); silicon abundance 1 density 6.78678 (26.0%)
+# 	mining system: Four Pillars
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 9 energy 4.521 (16.4%); large rock count 21 energy 4.158 (38.2%); medium metal count 9 energy 3.267 (16.4%); medium rock count 2 energy 2.937 (3.6%); small metal count 5 energy 4.488 (9.1%); small rock count 9 energy 4.851 (16.4%)
+# 	mining minables: iron abundance 2 density 5.83209 (44.7%); lead abundance 1 density 7.66489 (29.3%); silicon abundance 1 density 6.78678 (26.0%)
+# 	shuttle route: Flowing Fields -> Secret Sky
+# 	shuttle system: Far Horizon
+# 	shuttle distance: 1
+# 	trading route: Flowing Fields -> Secret Sky
+# 	trading system: Far Horizon
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 67
+# 	trading optimized value: 111
+# 	security route: Flowing Fields -> Secret Sky
+# 	security system: Far Horizon
+# 	security distance: 1
+
+# license "cf license flowing fields far horizon"
+# 	tier: local
+# 	distance: 1
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license flowing fields lone cloud"
+# 	tier: local
+# 	distance: 1
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+
+# license "cf license flowing fields ancient hope"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license flowing fields companion"
+# 	tier: regional
+# 	distance: 2
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license flowing fields sol saryd"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license flowing fields belonging"
+# 	tier: long
+# 	distance: 4
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license flowing fields beginning"
+# 	tier: long
+# 	distance: 5
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license flowing fields answer"
+# 	tier: long
+# 	distance: 6
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license flowing fields fallen leaf"
+# 	tier: long
+# 	distance: 6
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license flowing fields good omen"
+# 	tier: long
+# 	distance: 6
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license flowing fields hunter"
+# 	tier: long
+# 	distance: 6
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license flowing fields remembrance"
+# 	tier: long
+# 	distance: 6
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license flowing fields silver bell"
+# 	tier: long
+# 	distance: 6
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license flowing fields steep roof"
+# 	tier: long
+# 	distance: 6
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license flowing fields broken bowl"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license flowing fields homeward"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license flowing fields last word"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license flowing fields silver string"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license flowing fields fell omen"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license flowing fields quaru"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license flowing fields ekuarik"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license flowing fields ki war ek"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license flowing fields 14 winter below"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license flowing fields 5 axis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license flowing fields belug"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license flowing fields speloog"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license flowing fields 4 axis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license flowing fields 8 winter below"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license flowing fields 3 axis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license flowing fields debrugt"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license flowing fields flugbu"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license flowing fields 1 axis"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license flowing fields 11 spring below"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license flowing fields 4 winter rising"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license flowing fields ablodab"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license flowing fields mebla"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license flowing fields 4 spring rising"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license flowing fields 5 winter above"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license flowing fields gupta"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license flowing fields pelubta"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license flowing fields sol kimek"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license flowing fields 3 pole"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license flowing fields 3 spring rising"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license flowing fields 9 spring above"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license flowing fields belugt"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license flowing fields blugtad"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license flowing fields meblumem"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license flowing fields sol arach"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license flowing fields 14 summer above"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license flowing fields 4 summer rising"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license flowing fields 5 summer above"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license flowing fields 7 autumn rising"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license flowing fields bloptab"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license flowing fields blubipad"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license flowing fields eblumab"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license flowing fields glubatub"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license flowing fields miblulub"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license flowing fields plort"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license flowing fields 10 pole"
+# 	tier: frontier
+# 	distance: 17
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license flowing fields 12 autumn above"
+# 	tier: frontier
+# 	distance: 17
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license flowing fields ablub"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license flowing fields tebuteb"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license flowing fields 14 pole"
+# 	tier: frontier
+# 	distance: 18
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+

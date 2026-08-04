@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Poisonwood.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Graffias
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 4 energy 2.343 (2.9%); large rock count 40 energy 2.574 (29.4%); medium metal count 24 energy 2.145 (17.6%); medium rock count 45 energy 1.749 (33.1%); small metal count 8 energy 4.257 (5.9%); small rock count 15 energy 3.069 (11.0%)
+# 	hq minables: aluminum abundance 21 density 3.11152 (34.8%); iron abundance 26 density 3.72119 (51.5%); lead abundance 8 density 3.20431 (13.7%)
+# 	mining system: Graffias
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: aluminum ore field
+# 	mining value per cargo: 106
+# 	mining quality: 188
+# 	mining asteroids: large metal count 4 energy 2.343 (2.9%); large rock count 40 energy 2.574 (29.4%); medium metal count 24 energy 2.145 (17.6%); medium rock count 45 energy 1.749 (33.1%); small metal count 8 energy 4.257 (5.9%); small rock count 15 energy 3.069 (11.0%)
+# 	mining minables: aluminum abundance 21 density 3.11152 (34.8%); iron abundance 26 density 3.72119 (51.5%); lead abundance 8 density 3.20431 (13.7%)
+# 	shuttle route: Poisonwood -> Twinstar
+# 	shuttle system: Alniyat
+# 	shuttle distance: 1
+# 	trading route: Poisonwood -> Twinstar
+# 	trading system: Alniyat
+# 	trading distance: 1
+# 	trading commodity: Industrial
+# 	trading base value: 52
+# 	trading optimized value: 86
+# 	security route: Poisonwood -> Twinstar
+# 	security system: Alniyat
+# 	security distance: 1
+
+# license "cf license poisonwood alniyat"
+# 	tier: local
+# 	distance: 1
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license poisonwood aldhibain"
+# 	tier: regional
+# 	distance: 2
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license poisonwood antares"
+# 	tier: regional
+# 	distance: 2
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license poisonwood dschubba"
+# 	tier: regional
+# 	distance: 2
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license poisonwood han"
+# 	tier: regional
+# 	distance: 2
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license poisonwood pherkad"
+# 	tier: regional
+# 	distance: 2
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license poisonwood atria"
+# 	tier: regional
+# 	distance: 3
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license poisonwood kappa centauri"
+# 	tier: regional
+# 	distance: 3
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license poisonwood kornephoros"
+# 	tier: regional
+# 	distance: 3
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license poisonwood sabik"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license poisonwood yed prior"
+# 	tier: regional
+# 	distance: 3
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license poisonwood girtab"
+# 	tier: long
+# 	distance: 4
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license poisonwood men"
+# 	tier: long
+# 	distance: 4
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license poisonwood rastaban"
+# 	tier: long
+# 	distance: 4
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license poisonwood sargas"
+# 	tier: long
+# 	distance: 4
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license poisonwood shaula"
+# 	tier: long
+# 	distance: 4
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license poisonwood unukalhai"
+# 	tier: long
+# 	distance: 4
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license poisonwood albaldah"
+# 	tier: long
+# 	distance: 5
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license poisonwood alioth"
+# 	tier: long
+# 	distance: 5
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license poisonwood delta sagittarii"
+# 	tier: long
+# 	distance: 5
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license poisonwood seginus"
+# 	tier: long
+# 	distance: 5
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license poisonwood zubeneschamali"
+# 	tier: long
+# 	distance: 5
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license poisonwood albireo"
+# 	tier: long
+# 	distance: 6
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license poisonwood alphecca"
+# 	tier: long
+# 	distance: 6
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license poisonwood belenos"
+# 	tier: long
+# 	distance: 6
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license poisonwood hadar"
+# 	tier: long
+# 	distance: 6
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license poisonwood kaus borealis"
+# 	tier: long
+# 	distance: 6
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license poisonwood kochab"
+# 	tier: long
+# 	distance: 6
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license poisonwood nunki"
+# 	tier: long
+# 	distance: 6
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license poisonwood vindemiatrix"
+# 	tier: long
+# 	distance: 6
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license poisonwood alkaid"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license poisonwood alpherg"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license poisonwood arcturus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license poisonwood ascella"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license poisonwood cebalrai"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license poisonwood citadelle"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license poisonwood cor caroli"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license poisonwood dabih"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license poisonwood izar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license poisonwood kaus australis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license poisonwood muhlifain"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license poisonwood peacock"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license poisonwood rutilicus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license poisonwood sarin"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license poisonwood tarazed"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license poisonwood zeta centauri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license poisonwood acrux"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license poisonwood algorel"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license poisonwood enif"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license poisonwood menkent"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license poisonwood rasalhague"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license poisonwood zeta aquilae"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license poisonwood phecda"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license poisonwood sadalmelik"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license poisonwood sadalsuud"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license poisonwood turais"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license poisonwood vega"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license poisonwood altair"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license poisonwood delta velorum"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license poisonwood merak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license poisonwood mimosa"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license poisonwood porrima"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license poisonwood sol"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license poisonwood spica"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license poisonwood tania australis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license poisonwood alpha centauri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license poisonwood caph"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license poisonwood delta capricorni"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license poisonwood denebola"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license poisonwood fomalhaut"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license poisonwood gamma corvi"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license poisonwood kraz"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license poisonwood sirius"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license poisonwood alderamin"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license poisonwood alphard"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license poisonwood diphda"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license poisonwood markab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license poisonwood scheat"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license poisonwood zosma"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license poisonwood al dhanab"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license poisonwood alnair"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license poisonwood ankaa"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license poisonwood capella"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license poisonwood dubhe"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license poisonwood gomeisa"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license poisonwood matar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license poisonwood miaplacidus"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license poisonwood mirach"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license poisonwood pollux"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license poisonwood talita"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license poisonwood achernar"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license poisonwood adhara"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license poisonwood aldebaran"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license poisonwood alpheratz"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license poisonwood castor"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license poisonwood elnath"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license poisonwood epsilon leonis"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license poisonwood ruchbah"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license poisonwood schedar"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license poisonwood tejat"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license poisonwood algol"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license poisonwood alhena"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license poisonwood almach"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license poisonwood alpha hydri"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license poisonwood gienah"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license poisonwood hamal"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license poisonwood kursa"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license poisonwood nihal"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license poisonwood phurad"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license poisonwood polaris"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license poisonwood sheratan"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license poisonwood algenib"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license poisonwood avior"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license poisonwood canopus"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license poisonwood regor"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license poisonwood wazn"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license poisonwood zaurak"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license poisonwood alcyone"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license poisonwood alheka"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license poisonwood markeb"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license poisonwood menkar"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license poisonwood naos"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license poisonwood phact"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license poisonwood suhail"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license poisonwood aludra"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license poisonwood bellatrix"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license poisonwood betelgeuse"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license poisonwood mebsuta"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license poisonwood mirfak"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license poisonwood wezen"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license poisonwood misam"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license poisonwood alnitak"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license poisonwood saiph"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license poisonwood almaaz"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license poisonwood alnilam"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license poisonwood arneb"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

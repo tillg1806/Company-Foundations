@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on New China.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Merak
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 2.639 (1.0%); large rock count 1 energy 4.9764 (1.0%); medium metal count 10 energy 4.2224 (10.0%); medium rock count 87 energy 5.6173 (87.0%); small rock count 1 energy 4.1847 (1.0%)
+# 	hq minables: copper abundance 2 density 7.54582 (8.6%); lead abundance 13 density 9.10563 (67.1%); tungsten abundance 5 density 8.57967 (24.3%)
+# 	mining system: Merak
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: tungsten ore field
+# 	mining value per cargo: 140
+# 	mining quality: 176
+# 	mining asteroids: large metal count 1 energy 2.639 (1.0%); large rock count 1 energy 4.9764 (1.0%); medium metal count 10 energy 4.2224 (10.0%); medium rock count 87 energy 5.6173 (87.0%); small rock count 1 energy 4.1847 (1.0%)
+# 	mining minables: copper abundance 2 density 7.54582 (8.6%); lead abundance 13 density 9.10563 (67.1%); tungsten abundance 5 density 8.57967 (24.3%)
+# 	shuttle route: New China -> Geyser
+# 	shuttle system: Denebola
+# 	shuttle distance: 1
+# 	trading route: New China -> Geyser
+# 	trading system: Denebola
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 45
+# 	trading optimized value: 75
+# 	security route: New China -> Geyser
+# 	security system: Denebola
+# 	security distance: 1
+
+# license "cf license new china denebola"
+# 	tier: local
+# 	distance: 1
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license new china phecda"
+# 	tier: local
+# 	distance: 1
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license new china porrima"
+# 	tier: local
+# 	distance: 1
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license new china algorel"
+# 	tier: regional
+# 	distance: 2
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license new china sol"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license new china tania australis"
+# 	tier: regional
+# 	distance: 2
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license new china alpha centauri"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license new china altair"
+# 	tier: regional
+# 	distance: 3
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license new china caph"
+# 	tier: regional
+# 	distance: 3
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license new china cor caroli"
+# 	tier: regional
+# 	distance: 3
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license new china menkent"
+# 	tier: regional
+# 	distance: 3
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license new china sirius"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license new china turais"
+# 	tier: regional
+# 	distance: 3
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license new china vega"
+# 	tier: regional
+# 	distance: 3
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license new china alphard"
+# 	tier: long
+# 	distance: 4
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license new china arcturus"
+# 	tier: long
+# 	distance: 4
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license new china cebalrai"
+# 	tier: long
+# 	distance: 4
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license new china delta capricorni"
+# 	tier: long
+# 	distance: 4
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license new china delta velorum"
+# 	tier: long
+# 	distance: 4
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license new china diphda"
+# 	tier: long
+# 	distance: 4
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license new china fomalhaut"
+# 	tier: long
+# 	distance: 4
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license new china rutilicus"
+# 	tier: long
+# 	distance: 4
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license new china vindemiatrix"
+# 	tier: long
+# 	distance: 4
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license new china zosma"
+# 	tier: long
+# 	distance: 4
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license new china alderamin"
+# 	tier: long
+# 	distance: 5
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license new china alioth"
+# 	tier: long
+# 	distance: 5
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license new china ankaa"
+# 	tier: long
+# 	distance: 5
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license new china capella"
+# 	tier: long
+# 	distance: 5
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license new china dubhe"
+# 	tier: long
+# 	distance: 5
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license new china gomeisa"
+# 	tier: long
+# 	distance: 5
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license new china kaus borealis"
+# 	tier: long
+# 	distance: 5
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license new china markab"
+# 	tier: long
+# 	distance: 5
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license new china miaplacidus"
+# 	tier: long
+# 	distance: 5
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license new china muhlifain"
+# 	tier: long
+# 	distance: 5
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license new china pollux"
+# 	tier: long
+# 	distance: 5
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license new china rasalhague"
+# 	tier: long
+# 	distance: 5
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license new china sarin"
+# 	tier: long
+# 	distance: 5
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license new china scheat"
+# 	tier: long
+# 	distance: 5
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license new china talita"
+# 	tier: long
+# 	distance: 5
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license new china adhara"
+# 	tier: long
+# 	distance: 6
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license new china al dhanab"
+# 	tier: long
+# 	distance: 6
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license new china aldebaran"
+# 	tier: long
+# 	distance: 6
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license new china alnair"
+# 	tier: long
+# 	distance: 6
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license new china alphecca"
+# 	tier: long
+# 	distance: 6
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license new china ascella"
+# 	tier: long
+# 	distance: 6
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license new china castor"
+# 	tier: long
+# 	distance: 6
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license new china elnath"
+# 	tier: long
+# 	distance: 6
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license new china epsilon leonis"
+# 	tier: long
+# 	distance: 6
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license new china matar"
+# 	tier: long
+# 	distance: 6
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license new china mirach"
+# 	tier: long
+# 	distance: 6
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license new china ruchbah"
+# 	tier: long
+# 	distance: 6
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license new china tejat"
+# 	tier: long
+# 	distance: 6
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license new china zeta aquilae"
+# 	tier: long
+# 	distance: 6
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license new china achernar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license new china algol"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license new china alhena"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license new china alpha hydri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license new china alpheratz"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license new china delta sagittarii"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license new china hamal"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license new china kornephoros"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license new china kursa"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license new china nihal"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license new china peacock"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license new china phurad"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license new china rastaban"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license new china schedar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license new china seginus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license new china sheratan"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license new china aldhibain"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license new china almach"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license new china avior"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license new china canopus"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license new china gienah"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license new china girtab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license new china kaus australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license new china polaris"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license new china regor"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license new china sabik"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license new china sargas"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license new china wazn"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license new china zaurak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license new china albaldah"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license new china alcyone"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license new china algenib"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license new china alheka"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license new china alniyat"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license new china atria"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license new china dabih"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license new china dschubba"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license new china markeb"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license new china menkar"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license new china naos"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license new china phact"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license new china shaula"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license new china suhail"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license new china unukalhai"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license new china albireo"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license new china aludra"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license new china antares"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license new china bellatrix"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license new china betelgeuse"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license new china graffias"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license new china han"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license new china mebsuta"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license new china mirfak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license new china nunki"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license new china pherkad"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license new china tarazed"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license new china wezen"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license new china zubeneschamali"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license new china enif"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license new china hadar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license new china kappa centauri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license new china kochab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license new china misam"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license new china yed prior"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license new china alkaid"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license new china alnitak"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license new china izar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license new china men"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license new china sadalmelik"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license new china sadalsuud"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license new china saiph"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license new china zeta centauri"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license new china acrux"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license new china almaaz"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license new china belenos"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license new china alpherg"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license new china citadelle"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license new china mimosa"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license new china spica"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license new china alnilam"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license new china arneb"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license new china gamma corvi"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license new china kraz"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

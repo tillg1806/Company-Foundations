@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Sandy Two.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: 7 Autumn Rising
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 0.715 (4.3%); large rock count 4 energy 1.199 (17.4%); medium metal count 4 energy 0.891 (17.4%); medium rock count 7 energy 0.638 (30.4%); small rock count 7 energy 1.463 (30.4%)
+# 	hq minables: aluminum abundance 3 density 2.03899 (100.0%)
+# 	mining system: 7 Autumn Rising
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 0.715 (4.3%); large rock count 4 energy 1.199 (17.4%); medium metal count 4 energy 0.891 (17.4%); medium rock count 7 energy 0.638 (30.4%); small rock count 7 energy 1.463 (30.4%)
+# 	mining minables: aluminum abundance 3 density 2.03899 (100.0%)
+# 	shuttle route: Sandy Two -> Ki Patek Ka
+# 	shuttle system: Sol Kimek
+# 	shuttle distance: 2
+# 	trading route: Sandy Two -> Ki Patek Ka
+# 	trading system: Sol Kimek
+# 	trading distance: 2
+# 	trading commodity: Electronics
+# 	trading base value: 94
+# 	trading optimized value: 157
+# 	security route: Sandy Two -> Ki Patek Ka
+# 	security system: Sol Kimek
+# 	security distance: 2
+
+# license "cf license sandy two sol kimek"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license sandy two 1 axis"
+# 	tier: regional
+# 	distance: 3
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license sandy two 10 pole"
+# 	tier: regional
+# 	distance: 3
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license sandy two 12 autumn above"
+# 	tier: regional
+# 	distance: 3
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license sandy two 3 pole"
+# 	tier: regional
+# 	distance: 3
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license sandy two 4 winter rising"
+# 	tier: regional
+# 	distance: 3
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license sandy two 5 summer above"
+# 	tier: regional
+# 	distance: 3
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license sandy two 9 spring above"
+# 	tier: regional
+# 	distance: 3
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license sandy two 14 pole"
+# 	tier: long
+# 	distance: 4
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license sandy two 14 summer above"
+# 	tier: long
+# 	distance: 4
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license sandy two 3 axis"
+# 	tier: long
+# 	distance: 4
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license sandy two 4 spring rising"
+# 	tier: long
+# 	distance: 4
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license sandy two 4 summer rising"
+# 	tier: long
+# 	distance: 4
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license sandy two 5 winter above"
+# 	tier: long
+# 	distance: 4
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license sandy two 11 spring below"
+# 	tier: long
+# 	distance: 5
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license sandy two 3 spring rising"
+# 	tier: long
+# 	distance: 5
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license sandy two 4 axis"
+# 	tier: long
+# 	distance: 5
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license sandy two 8 winter below"
+# 	tier: long
+# 	distance: 5
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license sandy two 14 winter below"
+# 	tier: long
+# 	distance: 6
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license sandy two 5 axis"
+# 	tier: long
+# 	distance: 6
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license sandy two ki war ek"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license sandy two ekuarik"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license sandy two quaru"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license sandy two belug"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license sandy two homeward"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license sandy two last word"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license sandy two speloog"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license sandy two fell omen"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license sandy two silver bell"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license sandy two broken bowl"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license sandy two debrugt"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license sandy two flugbu"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license sandy two silver string"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license sandy two ablodab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license sandy two answer"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license sandy two belonging"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license sandy two hunter"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license sandy two mebla"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license sandy two steep roof"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license sandy two beginning"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license sandy two gupta"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license sandy two pelubta"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license sandy two remembrance"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license sandy two sol saryd"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license sandy two ancient hope"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license sandy two belugt"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license sandy two blugtad"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license sandy two companion"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license sandy two fallen leaf"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license sandy two good omen"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license sandy two meblumem"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license sandy two sol arach"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license sandy two bloptab"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license sandy two blubipad"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license sandy two eblumab"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license sandy two far horizon"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license sandy two glubatub"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license sandy two miblulub"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license sandy two plort"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license sandy two ablub"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license sandy two four pillars"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license sandy two tebuteb"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license sandy two lone cloud"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

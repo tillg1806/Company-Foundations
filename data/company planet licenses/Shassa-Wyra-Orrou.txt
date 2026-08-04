@@ -1,0 +1,124 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Shassa-Wyra-Orrou.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Pelaa-Muora
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 2 energy 5.775 (1.8%); large rock count 7 energy 6.825 (6.2%); medium metal count 3 energy 5.25 (2.7%); medium rock count 83 energy 4.2 (73.5%); small metal count 9 energy 6.375 (8.0%); small rock count 9 energy 5.325 (8.0%)
+# 	hq minables: copper abundance 12 density 7.083 (45.7%); gold abundance 4 density 4 (8.6%); neodymium abundance 7 density 6.338 (23.8%); silver abundance 8 density 5.1 (21.9%)
+# 	mining system: Pelaa-Muora
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 2 energy 5.775 (1.8%); large rock count 7 energy 6.825 (6.2%); medium metal count 3 energy 5.25 (2.7%); medium rock count 83 energy 4.2 (73.5%); small metal count 9 energy 6.375 (8.0%); small rock count 9 energy 5.325 (8.0%)
+# 	mining minables: copper abundance 12 density 7.083 (45.7%); gold abundance 4 density 4 (8.6%); neodymium abundance 7 density 6.338 (23.8%); silver abundance 8 density 5.1 (21.9%)
+# 	shuttle route: Shassa-Wyra-Orrou -> Kasii-Cavasaa-Oa
+# 	shuttle system: Chyyra-Osolaa
+# 	shuttle distance: 1
+# 	trading route: Shassa-Wyra-Orrou -> Kasii-Cavasaa-Oa
+# 	trading system: Chyyra-Osolaa
+# 	trading distance: 1
+# 	trading commodity: Clothing
+# 	trading base value: 95
+# 	trading optimized value: 158
+# 	security route: Shassa-Wyra-Orrou -> Kasii-Cavasaa-Oa
+# 	security system: Chyyra-Osolaa
+# 	security distance: 1
+
+# license "cf license shassa wyra orrou aaura kaska"
+# 	tier: local
+# 	distance: 1
+# 	system: Aaura-Kaska
+# 	government: Successor
+# 	planets: Mosaa-Oa-Vyret
+
+# license "cf license shassa wyra orrou chyyra osolaa"
+# 	tier: local
+# 	distance: 1
+# 	system: Chyyra-Osolaa
+# 	government: Successor
+# 	planets: Kasii-Cavasaa-Oa
+
+# license "cf license shassa wyra orrou myiara nnesa"
+# 	tier: local
+# 	distance: 1
+# 	system: Myiara-Nnesa
+# 	government: New Houses
+# 	planets: O-Vasa-Oa, Yoqqa-Vasa-Vasa
+
+# license "cf license shassa wyra orrou raaqa ryuit"
+# 	tier: regional
+# 	distance: 2
+# 	system: Raaqa-Ryuit
+# 	government: Successor
+# 	planets: Raaqa-Puan-Uuoru
+
+# license "cf license shassa wyra orrou stiidej nnesa"
+# 	tier: regional
+# 	distance: 2
+# 	system: Stiidej-Nnesa
+# 	government: Successor
+# 	planets: Mavra-Sol-Kvel
+
+# license "cf license shassa wyra orrou tuur kella"
+# 	tier: regional
+# 	distance: 2
+# 	system: Tuur-Kella
+# 	government: Successor
+# 	planets: Tuur-Aasa-Kaska
+
+# license "cf license shassa wyra orrou kella uoasa"
+# 	tier: regional
+# 	distance: 3
+# 	system: Kella-Uoasa
+# 	government: People's Houses
+# 	planets: Kasii-Tuur-Saqru
+
+# license "cf license shassa wyra orrou ojstaan sola"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ojstaan-Sola
+# 	government: Successor
+# 	planets: Raaqa-Kvelq-Ryuit, Saska-Aa-Noorr
+
+# license "cf license shassa wyra orrou uuoru kella"
+# 	tier: regional
+# 	distance: 3
+# 	system: Uuoru-Kella
+# 	government: Old Houses
+# 	planets: Aava-Aasa-Khora, Kua-Oa-Aava
+
+# license "cf license shassa wyra orrou maspa cavaasa"
+# 	tier: long
+# 	distance: 4
+# 	system: Maspa-Cavaasa
+# 	government: Successor
+# 	planets: Kasi-Osolaa-Sossa
+
+# license "cf license shassa wyra orrou mosaa iyra"
+# 	tier: long
+# 	distance: 4
+# 	system: Mosaa-Iyra
+# 	government: Successor
+# 	planets: Iyra-Ijasa-Iret
+
+# license "cf license shassa wyra orrou vade staja"
+# 	tier: long
+# 	distance: 4
+# 	system: Vade-Staja
+# 	government: Successor
+# 	planets: Staja-Kella-Oa
+
+# license "cf license shassa wyra orrou valkraa uuoru"
+# 	tier: long
+# 	distance: 4
+# 	system: Valkraa-Uuoru
+# 	government: Successor
+# 	planets: Khora-Vasa-Reyyaa
+

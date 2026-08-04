@@ -1,0 +1,152 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Melenci.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Jentu Centi
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 5 energy 11.5248 (5.0%); large rock count 31 energy 9.7216 (30.7%); medium metal count 34 energy 4.2336 (33.7%); small metal count 24 energy 11.6032 (23.8%); small rock count 7 energy 9.6432 (6.9%)
+# 	hq minables: none
+# 	mining system: Jentu Centi
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 5 energy 11.5248 (5.0%); large rock count 31 energy 9.7216 (30.7%); medium metal count 34 energy 4.2336 (33.7%); small metal count 24 energy 11.6032 (23.8%); small rock count 7 energy 9.6432 (6.9%)
+# 	mining minables: none
+# 	shuttle route: Melenci -> Angko
+# 	shuttle system: Mego Inito
+# 	shuttle distance: 1
+# 	trading route: Melenci -> Angko
+# 	trading system: Mego Inito
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 240
+# 	trading optimized value: 400
+# 	security route: Melenci -> Angko
+# 	security system: Mego Inito
+# 	security distance: 1
+
+# license "cf license melenci mego faro"
+# 	tier: local
+# 	distance: 1
+# 	system: Mego Faro
+# 	government: Bunrodea
+# 	planets: Deli Kat
+
+# license "cf license melenci mego inito"
+# 	tier: local
+# 	distance: 1
+# 	system: Mego Inito
+# 	government: Bunrodea
+# 	planets: Angko
+
+# license "cf license melenci kifrana terberah"
+# 	tier: regional
+# 	distance: 2
+# 	system: Kifrana Terberah
+# 	government: Bunrodea
+# 	planets: Kisarra
+
+# license "cf license melenci mego seo"
+# 	tier: regional
+# 	distance: 2
+# 	system: Mego Seo
+# 	government: Bunrodea
+# 	planets: Deli Kasi
+
+# license "cf license melenci piadenli"
+# 	tier: regional
+# 	distance: 2
+# 	system: Piadenli
+# 	government: Bunrodea
+# 	planets: Disara
+
+# license "cf license melenci ravu kon"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ravu Kon
+# 	government: Bunrodea
+# 	planets: Sopoyra
+
+# license "cf license melenci urba pest"
+# 	tier: regional
+# 	distance: 2
+# 	system: Urba Pest
+# 	government: Bunrodea
+# 	planets: Okoity
+
+# license "cf license melenci avo chigo"
+# 	tier: long
+# 	distance: 4
+# 	system: Avo Chigo
+# 	government: Bunrodea (Guard)
+# 	planets: Illbo Avo
+
+# license "cf license melenci eragaru le"
+# 	tier: long
+# 	distance: 4
+# 	system: Eragaru Le
+# 	government: Bunrodea (Guard)
+# 	planets: Eragarthro
+
+# license "cf license melenci bosuno le"
+# 	tier: long
+# 	distance: 5
+# 	system: Bosuno Le
+# 	government: Bunrodea (Guard)
+# 	planets: Bosunothro
+
+# license "cf license melenci jentu le"
+# 	tier: long
+# 	distance: 5
+# 	system: Jentu Le
+# 	government: Bunrodea (Guard)
+# 	planets: Jentuthro
+
+# license "cf license melenci bunri lemeta"
+# 	tier: long
+# 	distance: 6
+# 	system: Bunri Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Bunthro
+
+# license "cf license melenci erabu lemeta"
+# 	tier: long
+# 	distance: 6
+# 	system: Erabu Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Erabuthro
+
+# license "cf license melenci shini bori"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Shini Bori
+# 	government: Bunrodea (Guard)
+# 	planets: Sardva
+
+# license "cf license melenci thshybo le"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Thshybo Le
+# 	government: Bunrodea (Guard)
+# 	planets: Thshybothro
+
+# license "cf license melenci elabi choati"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Elabi Choati
+# 	government: Bunrodea
+# 	planets: Iddesato
+
+# license "cf license melenci elo chigo"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Elo Chigo
+# 	government: Bunrodea
+# 	planets: Illbo Elo
+

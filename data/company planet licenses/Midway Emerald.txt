@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Midway Emerald.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: 14 Winter Below
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 3 energy 2.2896 (4.9%); large rock count 21 energy 5.8752 (34.4%); medium metal count 3 energy 5.5728 (4.9%); medium rock count 2 energy 2.7648 (3.3%); small metal count 5 energy 3.9744 (8.2%); small rock count 27 energy 6.0912 (44.3%)
+# 	hq minables: neodymium abundance 6 density 4.79025 (36.2%); titanium abundance 9 density 5.6162 (63.8%)
+# 	mining system: 14 Winter Below
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 3 energy 2.2896 (4.9%); large rock count 21 energy 5.8752 (34.4%); medium metal count 3 energy 5.5728 (4.9%); medium rock count 2 energy 2.7648 (3.3%); small metal count 5 energy 3.9744 (8.2%); small rock count 27 energy 6.0912 (44.3%)
+# 	mining minables: neodymium abundance 6 density 4.79025 (36.2%); titanium abundance 9 density 5.6162 (63.8%)
+# 	shuttle route: Midway Emerald -> Dusk Companion
+# 	shuttle system: 8 Winter Below
+# 	shuttle distance: 1
+# 	trading route: Midway Emerald -> Dusk Companion
+# 	trading system: 8 Winter Below
+# 	trading distance: 1
+# 	trading commodity: Food
+# 	trading base value: 47
+# 	trading optimized value: 78
+# 	security route: Midway Emerald -> Dusk Companion
+# 	security system: 8 Winter Below
+# 	security distance: 1
+
+# license "cf license midway emerald 4 axis"
+# 	tier: local
+# 	distance: 1
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license midway emerald 8 winter below"
+# 	tier: local
+# 	distance: 1
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license midway emerald ki war ek"
+# 	tier: local
+# 	distance: 1
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license midway emerald 3 axis"
+# 	tier: regional
+# 	distance: 2
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license midway emerald 5 axis"
+# 	tier: regional
+# 	distance: 2
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license midway emerald ekuarik"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license midway emerald quaru"
+# 	tier: regional
+# 	distance: 2
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license midway emerald 1 axis"
+# 	tier: regional
+# 	distance: 3
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license midway emerald 11 spring below"
+# 	tier: regional
+# 	distance: 3
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license midway emerald 4 winter rising"
+# 	tier: regional
+# 	distance: 3
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license midway emerald belug"
+# 	tier: regional
+# 	distance: 3
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license midway emerald homeward"
+# 	tier: regional
+# 	distance: 3
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license midway emerald last word"
+# 	tier: regional
+# 	distance: 3
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license midway emerald speloog"
+# 	tier: regional
+# 	distance: 3
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license midway emerald 4 spring rising"
+# 	tier: long
+# 	distance: 4
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license midway emerald 5 winter above"
+# 	tier: long
+# 	distance: 4
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license midway emerald fell omen"
+# 	tier: long
+# 	distance: 4
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license midway emerald silver bell"
+# 	tier: long
+# 	distance: 4
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license midway emerald sol kimek"
+# 	tier: long
+# 	distance: 4
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license midway emerald 3 pole"
+# 	tier: long
+# 	distance: 5
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license midway emerald 3 spring rising"
+# 	tier: long
+# 	distance: 5
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license midway emerald 9 spring above"
+# 	tier: long
+# 	distance: 5
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license midway emerald broken bowl"
+# 	tier: long
+# 	distance: 5
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license midway emerald debrugt"
+# 	tier: long
+# 	distance: 5
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license midway emerald flugbu"
+# 	tier: long
+# 	distance: 5
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license midway emerald silver string"
+# 	tier: long
+# 	distance: 5
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license midway emerald 14 summer above"
+# 	tier: long
+# 	distance: 6
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license midway emerald 4 summer rising"
+# 	tier: long
+# 	distance: 6
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license midway emerald 5 summer above"
+# 	tier: long
+# 	distance: 6
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license midway emerald 7 autumn rising"
+# 	tier: long
+# 	distance: 6
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license midway emerald ablodab"
+# 	tier: long
+# 	distance: 6
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license midway emerald answer"
+# 	tier: long
+# 	distance: 6
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license midway emerald belonging"
+# 	tier: long
+# 	distance: 6
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license midway emerald hunter"
+# 	tier: long
+# 	distance: 6
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license midway emerald mebla"
+# 	tier: long
+# 	distance: 6
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license midway emerald steep roof"
+# 	tier: long
+# 	distance: 6
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license midway emerald 10 pole"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license midway emerald 12 autumn above"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license midway emerald beginning"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license midway emerald gupta"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license midway emerald pelubta"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license midway emerald remembrance"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license midway emerald sol saryd"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license midway emerald 14 pole"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license midway emerald ancient hope"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license midway emerald belugt"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license midway emerald blugtad"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license midway emerald companion"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license midway emerald fallen leaf"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license midway emerald good omen"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license midway emerald meblumem"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license midway emerald sol arach"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license midway emerald bloptab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license midway emerald blubipad"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license midway emerald eblumab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license midway emerald far horizon"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license midway emerald glubatub"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license midway emerald miblulub"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license midway emerald plort"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license midway emerald ablub"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license midway emerald four pillars"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license midway emerald tebuteb"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license midway emerald lone cloud"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

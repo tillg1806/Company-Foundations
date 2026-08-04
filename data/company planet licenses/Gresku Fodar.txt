@@ -1,0 +1,47 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Gresku Fodar.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Kor Men
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 4 energy 4.1724 (14.8%); large rock count 1 energy 1.7784 (3.7%); medium metal count 6 energy 4.275 (22.2%); small metal count 13 energy 3.249 (48.1%); small rock count 3 energy 1.7442 (11.1%)
+# 	hq minables: copper abundance 1 density 4.28861 (10.2%); silicon abundance 4 density 4.29042 (40.8%); titanium abundance 6 density 3.43513 (49.0%)
+# 	mining system: Kor Men
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 4 energy 4.1724 (14.8%); large rock count 1 energy 1.7784 (3.7%); medium metal count 6 energy 4.275 (22.2%); small metal count 13 energy 3.249 (48.1%); small rock count 3 energy 1.7442 (11.1%)
+# 	mining minables: copper abundance 1 density 4.28861 (10.2%); silicon abundance 4 density 4.29042 (40.8%); titanium abundance 6 density 3.43513 (49.0%)
+# 	shuttle route: Gresku Fodar -> Kessel Sepret
+# 	shuttle system: Kor En'lakfar
+# 	shuttle distance: 1
+# 	trading route: Gresku Fodar -> Kessel Sepret
+# 	trading system: Kor En'lakfar
+# 	trading distance: 1
+# 	trading commodity: general cargo
+# 	trading base value: 35
+# 	trading optimized value: 40
+# 	security route: Gresku Fodar -> Kessel Sepret
+# 	security system: Kor En'lakfar
+# 	security distance: 1
+
+# license "cf license gresku fodar kor en lakfar"
+# 	tier: local
+# 	distance: 1
+# 	system: Kor En'lakfar
+# 	government: Korath
+# 	planets: Kessel Sepret
+
+# license "cf license gresku fodar kor fel tar"
+# 	tier: local
+# 	distance: 1
+# 	system: Kor Fel'tar
+# 	government: Korath
+# 	planets: Septar Lorku
+

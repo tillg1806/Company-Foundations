@@ -1,0 +1,124 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Araio.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Sail
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 5.518 (5.9%); large rock count 6 energy 4.588 (35.3%); medium metal count 1 energy 5.084 (5.9%); medium rock count 5 energy 5.332 (29.4%); small metal count 1 energy 6.014 (5.9%); small rock count 3 energy 4.34 (17.6%)
+# 	hq minables: aluminum abundance 18 density 1.231 (17.9%); iron abundance 9 density 2.899 (21.1%); platinum abundance 12 density 4.801 (46.5%); uranium abundance 5 density 3.582 (14.5%)
+# 	mining system: Sail
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 5.518 (5.9%); large rock count 6 energy 4.588 (35.3%); medium metal count 1 energy 5.084 (5.9%); medium rock count 5 energy 5.332 (29.4%); small metal count 1 energy 6.014 (5.9%); small rock count 3 energy 4.34 (17.6%)
+# 	mining minables: aluminum abundance 18 density 1.231 (17.9%); iron abundance 9 density 2.899 (21.1%); platinum abundance 12 density 4.801 (46.5%); uranium abundance 5 density 3.582 (14.5%)
+# 	shuttle route: Araio -> Aviskir
+# 	shuttle system: Anax
+# 	shuttle distance: 2
+# 	trading route: Araio -> Aviskir
+# 	trading system: Anax
+# 	trading distance: 2
+# 	trading commodity: Equipment
+# 	trading base value: 108
+# 	trading optimized value: 180
+# 	security route: Araio -> Aviskir
+# 	security system: Anax
+# 	security distance: 2
+
+# license "cf license araio anax"
+# 	tier: regional
+# 	distance: 2
+# 	system: Anax
+# 	government: Avgi
+# 	planets: Aviskir, Thilos
+
+# license "cf license araio clip"
+# 	tier: regional
+# 	distance: 3
+# 	system: Clip
+# 	government: Avgi
+# 	planets: Livolua
+
+# license "cf license araio soar"
+# 	tier: regional
+# 	distance: 3
+# 	system: Soar
+# 	government: Avgi
+# 	planets: Stilacrest
+
+# license "cf license araio thread"
+# 	tier: regional
+# 	distance: 3
+# 	system: Thread
+# 	government: Avgi
+# 	planets: Cyreal
+
+# license "cf license araio wake"
+# 	tier: long
+# 	distance: 4
+# 	system: Wake
+# 	government: Avgi
+# 	planets: Amathil
+
+# license "cf license araio arche"
+# 	tier: long
+# 	distance: 6
+# 	system: Arche
+# 	government: Avgi (Twilight Guard)
+# 	planets: Feo Platform
+
+# license "cf license araio demilude"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Demilude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Leto
+
+# license "cf license araio ensemble"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Ensemble
+# 	government: Avgi (Consonance)
+# 	planets: Weledos
+
+# license "cf license araio interlude"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Interlude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Tekis
+
+# license "cf license araio prelude"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Prelude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Enka
+
+# license "cf license araio anthem"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Anthem
+# 	government: Avgi (Consonance)
+# 	planets: Outpost Pilos
+
+# license "cf license araio concerto"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Concerto
+# 	government: Avgi (Consonance)
+# 	planets: Peripheria
+
+# license "cf license araio symphony"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Symphony
+# 	government: Avgi (Consonance)
+# 	planets: Ergastirio Station, Navigeo Yards
+

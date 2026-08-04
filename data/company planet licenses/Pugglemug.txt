@@ -1,0 +1,33 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Pugglemug.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Deneb
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 11 energy 6.972 (3.4%); large rock count 42 energy 10.332 (12.9%); medium metal count 2 energy 4.536 (0.6%); medium rock count 192 energy 8.82 (59.1%); small metal count 74 energy 11.088 (22.8%); small rock count 4 energy 4.62 (1.2%)
+# 	hq minables: aluminum abundance 7 density 15.5891 (10.8%); silicon abundance 12 density 13.0697 (15.6%); titanium abundance 51 density 14.5121 (73.6%)
+# 	mining system: Deneb
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 11 energy 6.972 (3.4%); large rock count 42 energy 10.332 (12.9%); medium metal count 2 energy 4.536 (0.6%); medium rock count 192 energy 8.82 (59.1%); small metal count 74 energy 11.088 (22.8%); small rock count 4 energy 4.62 (1.2%)
+# 	mining minables: aluminum abundance 7 density 15.5891 (10.8%); silicon abundance 12 density 13.0697 (15.6%); titanium abundance 51 density 14.5121 (73.6%)
+# 	shuttle route: Pugglemug -> nearby passenger boards
+# 	shuttle system: Deneb
+# 	shuttle distance: 1
+# 	trading route: Pugglemug -> nearby passenger boards
+# 	trading system: Deneb
+# 	trading distance: 1
+# 	trading commodity: general cargo
+# 	trading base value: 35
+# 	trading optimized value: 40
+# 	security route: Pugglemug -> nearby passenger boards
+# 	security system: Deneb
+# 	security distance: 1
+

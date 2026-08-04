@@ -1,0 +1,5 @@
+name "Company Foundations"
+about "Adds a playable company-management layer for normal Endless Sky pilots: found Shuttle, Mining, Trading, or Security companies, then grow them through routes, claims, licenses, simulated fleets, managers, taxes, headquarters logistics, stations, and company valuation. See README.md for details."
+authors
+	"tillg1806"
+version 0.1a

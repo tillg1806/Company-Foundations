@@ -2,13 +2,439 @@
 # Plugin data is split across the files listed below.
 
 # - company core.txt
+# - company stations.txt
 # - company discovery.txt
 # - company founding.txt
-# - company stations.txt
-# - company station sites/*.txt
 # - company admiral locations.txt
 # - company hq.txt
 # - company hq presence.txt
 # - company manager investments.txt
 # - company access.txt
 # - company operations.txt
+# - company planet licenses/Aava-Aasa-Khora.txt
+# - company planet licenses/Ablub's Invention.txt
+# - company planet licenses/Ada.txt
+# - company planet licenses/Ahr.txt
+# - company planet licenses/Albatross.txt
+# - company planet licenses/Alexandria.txt
+# - company planet licenses/Alfheim.txt
+# - company planet licenses/Allhome.txt
+# - company planet licenses/Alta Hai.txt
+# - company planet licenses/Alvorada.txt
+# - company planet licenses/Amathil.txt
+# - company planet licenses/Amazon.txt
+# - company planet licenses/Angko.txt
+# - company planet licenses/Antipode.txt
+# - company planet licenses/Arabia.txt
+# - company planet licenses/Araio.txt
+# - company planet licenses/Arroharg.txt
+# - company planet licenses/Asgard.txt
+# - company planet licenses/Ashy Reach.txt
+# - company planet licenses/Aventine.txt
+# - company planet licenses/Aviskir.txt
+# - company planet licenses/Bailey.txt
+# - company planet licenses/Bank of Blugtad.txt
+# - company planet licenses/Belug's Plunge.txt
+# - company planet licenses/Big Sky.txt
+# - company planet licenses/Bivrost.txt
+# - company planet licenses/Bloodsea.txt
+# - company planet licenses/Bloptab's Furnace.txt
+# - company planet licenses/Blubipad's Workshop.txt
+# - company planet licenses/Blue Interior.txt
+# - company planet licenses/Bluestone.txt
+# - company planet licenses/Bosunothro.txt
+# - company planet licenses/Bounty.txt
+# - company planet licenses/Bourne.txt
+# - company planet licenses/Brass Second.txt
+# - company planet licenses/Bright Echo.txt
+# - company planet licenses/Buccaneer Bay.txt
+# - company planet licenses/Bunthro.txt
+# - company planet licenses/Burthen.txt
+# - company planet licenses/Caelian.txt
+# - company planet licenses/Calda.txt
+# - company planet licenses/Canyon.txt
+# - company planet licenses/Celestial Third.txt
+# - company planet licenses/Charon Station.txt
+# - company planet licenses/Chiron.txt
+# - company planet licenses/Chosen Nexus.txt
+# - company planet licenses/Cipi.txt
+# - company planet licenses/Clark.txt
+# - company planet licenses/Cloudfire.txt
+# - company planet licenses/Cold Horizon.txt
+# - company planet licenses/Cool Forest.txt
+# - company planet licenses/Cornucopia.txt
+# - company planet licenses/Corral of Meblumem.txt
+# - company planet licenses/Covert.txt
+# - company planet licenses/Crossroads.txt
+# - company planet licenses/Cyreal.txt
+# - company planet licenses/Dancer.txt
+# - company planet licenses/Darkcloak.txt
+# - company planet licenses/Darkmetal.txt
+# - company planet licenses/Darkstone.txt
+# - company planet licenses/Deadman's Cove.txt
+# - company planet licenses/Deep.txt
+# - company planet licenses/Deep Treasure.txt
+# - company planet licenses/Deep Water.txt
+# - company planet licenses/Deli Kasi.txt
+# - company planet licenses/Deli Kat.txt
+# - company planet licenses/Delve.txt
+# - company planet licenses/Delve of Bloptab.txt
+# - company planet licenses/Disara.txt
+# - company planet licenses/Double Haze.txt
+# - company planet licenses/Dueitch Ae.txt
+# - company planet licenses/Dueyu Eitch.txt
+# - company planet licenses/Dune.txt
+# - company planet licenses/Dusk Companion.txt
+# - company planet licenses/Dustmaker.txt
+# - company planet licenses/Dwelling of Speloog.txt
+# - company planet licenses/Earth.txt
+# - company planet licenses/Echo.txt
+# - company planet licenses/Ef Aourtdye.txt
+# - company planet licenses/Ef Osch.txt
+# - company planet licenses/Ember Reaches.txt
+# - company planet licenses/Ember Wormhole.txt
+# - company planet licenses/Enbye.txt
+# - company planet licenses/Enn Bue.txt
+# - company planet licenses/Erabuthro.txt
+# - company planet licenses/Eragarthro.txt
+# - company planet licenses/Ergastirio Station.txt
+# - company planet licenses/Essime.txt
+# - company planet licenses/Everhope.txt
+# - company planet licenses/Factory of Eblumab.txt
+# - company planet licenses/Far Garden.txt
+# - company planet licenses/Far Home.txt
+# - company planet licenses/Farpoint.txt
+# - company planet licenses/Farseer.txt
+# - company planet licenses/Farwater.txt
+# - company planet licenses/Featherweight.txt
+# - company planet licenses/Fenrir Station.txt
+# - company planet licenses/Feo Platform.txt
+# - company planet licenses/Firelode.txt
+# - company planet licenses/Flood.txt
+# - company planet licenses/Flowing Fields.txt
+# - company planet licenses/Follower.txt
+# - company planet licenses/Forpelog.txt
+# - company planet licenses/Foundry.txt
+# - company planet licenses/Fourth Shadow.txt
+# - company planet licenses/Freedom.txt
+# - company planet licenses/Frostmark.txt
+# - company planet licenses/Furnace.txt
+# - company planet licenses/Gagarin.txt
+# - company planet licenses/Garden Empyreal.txt
+# - company planet licenses/Geminus.txt
+# - company planet licenses/Gemstone.txt
+# - company planet licenses/Gentle Rain.txt
+# - company planet licenses/Geyser.txt
+# - company planet licenses/Gi Tiures.txt
+# - company planet licenses/Giaru Gegno.txt
+# - company planet licenses/Giverstone.txt
+# - company planet licenses/Glaze.txt
+# - company planet licenses/Glittering Ice.txt
+# - company planet licenses/Glory.txt
+# - company planet licenses/Graede.txt
+# - company planet licenses/Grakhord.txt
+# - company planet licenses/Greenbloom.txt
+# - company planet licenses/Greenrock.txt
+# - company planet licenses/Greenview.txt
+# - company planet licenses/Greenwater.txt
+# - company planet licenses/Gresku Fodar.txt
+# - company planet licenses/Greymoon.txt
+# - company planet licenses/Guardian Array Sapphire.txt
+# - company planet licenses/Gue Faur.txt
+# - company planet licenses/Hai-home.txt
+# - company planet licenses/Hammer of Debrugt.txt
+# - company planet licenses/Harmony.txt
+# - company planet licenses/Haven.txt
+# - company planet licenses/Haze.txt
+# - company planet licenses/Heartland.txt
+# - company planet licenses/Heartvalley.txt
+# - company planet licenses/Helheim.txt
+# - company planet licenses/Hephaestus.txt
+# - company planet licenses/Hermes.txt
+# - company planet licenses/Hestia.txt
+# - company planet licenses/Hippocrates.txt
+# - company planet licenses/Hopper.txt
+# - company planet licenses/Humanika.txt
+# - company planet licenses/Icefall.txt
+# - company planet licenses/Icelake.txt
+# - company planet licenses/Iddesato.txt
+# - company planet licenses/Iemn Eitch.txt
+# - company planet licenses/Illbo Avo.txt
+# - company planet licenses/Illbo Elo.txt
+# - company planet licenses/Ingot.txt
+# - company planet licenses/Inmost Blue.txt
+# - company planet licenses/Into White.txt
+# - company planet licenses/Iyra-Ijasa-Iret.txt
+# - company planet licenses/Jakobsen.txt
+# - company planet licenses/Jentuthro.txt
+# - company planet licenses/Karek Fornati.txt
+# - company planet licenses/Kasii-Cavasaa-Oa.txt
+# - company planet licenses/Kasii-Tuur-Saqru.txt
+# - company planet licenses/Kasi-Osolaa-Sossa.txt
+# - company planet licenses/Kessel Sepret.txt
+# - company planet licenses/Khora-Vasa-Reyyaa.txt
+# - company planet licenses/Ki Patek Ka.txt
+# - company planet licenses/Kisarra.txt
+# - company planet licenses/Korati Efreti.txt
+# - company planet licenses/Kort Kehai.txt
+# - company planet licenses/Kort Vek'kri.txt
+# - company planet licenses/Kraken Station.txt
+# - company planet licenses/Kua-Oa-Aava.txt
+# - company planet licenses/Kuwaru Efreti.txt
+# - company planet licenses/Lagrange.txt
+# - company planet licenses/Laki Nemparu.txt
+# - company planet licenses/Leviathan Station.txt
+# - company planet licenses/Lichen.txt
+# - company planet licenses/Livolua.txt
+# - company planet licenses/Lodestone.txt
+# - company planet licenses/Longjump.txt
+# - company planet licenses/Luna.txt
+# - company planet licenses/Maelstrom.txt
+# - company planet licenses/Mainsail.txt
+# - company planet licenses/Maker.txt
+# - company planet licenses/Makerplace.txt
+# - company planet licenses/Mani.txt
+# - company planet licenses/Market of Gupta.txt
+# - company planet licenses/Mars.txt
+# - company planet licenses/Martini.txt
+# - company planet licenses/Mavra-Sol-Kvel.txt
+# - company planet licenses/Mebla's Portion.txt
+# - company planet licenses/Melenci.txt
+# - company planet licenses/Memory.txt
+# - company planet licenses/Mere.txt
+# - company planet licenses/Miblulub's Plenty.txt
+# - company planet licenses/Midgard.txt
+# - company planet licenses/Midway Emerald.txt
+# - company planet licenses/Millrace.txt
+# - company planet licenses/Mirrorlake.txt
+# - company planet licenses/Moonshake.txt
+# - company planet licenses/Mordente-Bridi.txt
+# - company planet licenses/Mosaa-Oa-Vyret.txt
+# - company planet licenses/Muninn Station.txt
+# - company planet licenses/Muspel.txt
+# - company planet licenses/Navigeo Yards.txt
+# - company planet licenses/Nearby Jade.txt
+# - company planet licenses/New Argentina.txt
+# - company planet licenses/New Austria.txt
+# - company planet licenses/New Boston.txt
+# - company planet licenses/New Britain.txt
+# - company planet licenses/New China.txt
+# - company planet licenses/New Finding.txt
+# - company planet licenses/New Greenland.txt
+# - company planet licenses/New Holland.txt
+# - company planet licenses/New Iceland.txt
+# - company planet licenses/New India.txt
+# - company planet licenses/New Kansas.txt
+# - company planet licenses/New Portland.txt
+# - company planet licenses/New Sahara.txt
+# - company planet licenses/New Switzerland.txt
+# - company planet licenses/New Tibet.txt
+# - company planet licenses/New Tortuga.txt
+# - company planet licenses/New Wales.txt
+# - company planet licenses/New Washington.txt
+# - company planet licenses/Newhome.txt
+# - company planet licenses/Nifel.txt
+# - company planet licenses/Nimbus.txt
+# - company planet licenses/Norn.txt
+# - company planet licenses/Oasis.txt
+# - company planet licenses/Oblivion.txt
+# - company planet licenses/Ochrescoop.txt
+# - company planet licenses/Ogmur's Siphon.txt
+# - company planet licenses/Okoity.txt
+# - company planet licenses/Oup Je.txt
+# - company planet licenses/Outpost Enka.txt
+# - company planet licenses/Outpost Leto.txt
+# - company planet licenses/Outpost Pilos.txt
+# - company planet licenses/Outpost Tekis.txt
+# - company planet licenses/O-Vasa-Oa.txt
+# - company planet licenses/Pearl.txt
+# - company planet licenses/Pelubta Station.txt
+# - company planet licenses/Periaxle Circuit.txt
+# - company planet licenses/Peripheria.txt
+# - company planet licenses/Pilot.txt
+# - company planet licenses/Placer.txt
+# - company planet licenses/Plort's Water.txt
+# - company planet licenses/Poisonwood.txt
+# - company planet licenses/Pon'tes.txt
+# - company planet licenses/Poseidos.txt
+# - company planet licenses/Prime.txt
+# - company planet licenses/Pugglemug.txt
+# - company planet licenses/Pugglequat.txt
+# - company planet licenses/Quicksilver.txt
+# - company planet licenses/Raaqa-Kvelq-Ryuit.txt
+# - company planet licenses/Raaqa-Puan-Uuoru.txt
+# - company planet licenses/Rand.txt
+# - company planet licenses/Redias.txt
+# - company planet licenses/Refuge of Belugt.txt
+# - company planet licenses/Relic.txt
+# - company planet licenses/Remnant Wormhole.txt
+# - company planet licenses/Remote Blue.txt
+# - company planet licenses/Reunion.txt
+# - company planet licenses/Ring of Friendship.txt
+# - company planet licenses/Ring of Power.txt
+# - company planet licenses/Ring of Wisdom.txt
+# - company planet licenses/Ruelogakk.txt
+# - company planet licenses/Rust.txt
+# - company planet licenses/Rusty Second.txt
+# - company planet licenses/Safaresk Enlai.txt
+# - company planet licenses/Sandy Two.txt
+# - company planet licenses/Sardva.txt
+# - company planet licenses/Saros.txt
+# - company planet licenses/Saska-Aa-Noorr.txt
+# - company planet licenses/Second Cerulean.txt
+# - company planet licenses/Second Rose.txt
+# - company planet licenses/Second Viridian.txt
+# - company planet licenses/Secret Sky.txt
+# - company planet licenses/Separa Tiklar.txt
+# - company planet licenses/Septar Lorku.txt
+# - company planet licenses/Serpens.txt
+# - company planet licenses/Sessiliki Far.txt
+# - company planet licenses/Setar Fort.txt
+# - company planet licenses/Shadow of Leaves.txt
+# - company planet licenses/Shadowed Valley.txt
+# - company planet licenses/Shangri-La.txt
+# - company planet licenses/Shassa-Wyra-Orrou.txt
+# - company planet licenses/Shifting Sand.txt
+# - company planet licenses/Shiver.txt
+# - company planet licenses/Shorebreak.txt
+# - company planet licenses/Shroud.txt
+# - company planet licenses/Siedi.txt
+# - company planet licenses/Sies Upi.txt
+# - company planet licenses/Silo of Ablodab.txt
+# - company planet licenses/Silver.txt
+# - company planet licenses/Sinter.txt
+# - company planet licenses/Skillet.txt
+# - company planet licenses/Skyfarm.txt
+# - company planet licenses/Skymoot.txt
+# - company planet licenses/Smuggler's Den.txt
+# - company planet licenses/Snowfeather.txt
+# - company planet licenses/Solace.txt
+# - company planet licenses/Sopoyra.txt
+# - company planet licenses/Spec Inci.txt
+# - company planet licenses/Splashdown.txt
+# - company planet licenses/Staja-Kella-Oa.txt
+# - company planet licenses/Starcross.txt
+# - company planet licenses/Starting Rubin.txt
+# - company planet licenses/Station Cian.txt
+# - company planet licenses/Stilacrest.txt
+# - company planet licenses/Stonebreak.txt
+# - company planet licenses/Stormhold.txt
+# - company planet licenses/Stronghold of Flugbu.txt
+# - company planet licenses/Successor Wormhole.txt
+# - company planet licenses/Sundive.txt
+# - company planet licenses/Sundrinker.txt
+# - company planet licenses/Sunracer.txt
+# - company planet licenses/Swiftsong.txt
+# - company planet licenses/Tebuteb's Table.txt
+# - company planet licenses/Ternituul.txt
+# - company planet licenses/Thilos.txt
+# - company planet licenses/Third Umber.txt
+# - company planet licenses/Thrall.txt
+# - company planet licenses/Thshybothro.txt
+# - company planet licenses/Thule.txt
+# - company planet licenses/Thunder.txt
+# - company planet licenses/Tik Klai.txt
+# - company planet licenses/Tinker.txt
+# - company planet licenses/Trinket.txt
+# - company planet licenses/Triton Station.txt
+# - company planet licenses/Trove.txt
+# - company planet licenses/Truklar.txt
+# - company planet licenses/Tschyss.txt
+# - company planet licenses/Tundra.txt
+# - company planet licenses/Turquoise Four.txt
+# - company planet licenses/Tuur-Aasa-Kaska.txt
+# - company planet licenses/Twinstar.txt
+# - company planet licenses/Uo-Oraa-Vayya.txt
+# - company planet licenses/Ut Divitas.txt
+# - company planet licenses/Vail.txt
+# - company planet licenses/Valhalla.txt
+# - company planet licenses/Var' Kar'i'i.txt
+# - company planet licenses/Var' Kayi.txt
+# - company planet licenses/Var' Roi.txt
+# - company planet licenses/Vara Kehi'ki.txt
+# - company planet licenses/Vara Ke'sok.txt
+# - company planet licenses/Vara Ke'stai.txt
+# - company planet licenses/Vara Pug.txt
+# - company planet licenses/Vara Rakak.txt
+# - company planet licenses/Varu Ek'lak'lai.txt
+# - company planet licenses/Varu K'est.txt
+# - company planet licenses/Varu K'prai.txt
+# - company planet licenses/Varu Mer'ek.txt
+# - company planet licenses/Varu Tek'kai.txt
+# - company planet licenses/Varu Tev'kei.txt
+# - company planet licenses/Vibrant Water.txt
+# - company planet licenses/Viminal.txt
+# - company planet licenses/Vinci.txt
+# - company planet licenses/Warfeed.txt
+# - company planet licenses/Warm Slope.txt
+# - company planet licenses/Warm Wind.txt
+# - company planet licenses/Wayfarer.txt
+# - company planet licenses/Weir of Glubatub.txt
+# - company planet licenses/Weledos.txt
+# - company planet licenses/Windblain.txt
+# - company planet licenses/Winter.txt
+# - company planet licenses/Wyvern Station.txt
+# - company planet licenses/Yoqqa-Vasa-Vasa.txt
+# - company planet licenses/Zenith.txt
+# - company planet licenses/Zug.txt
+# - company station sites/Acamar.txt
+# - company station sites/Algieba.txt
+# - company station sites/Alnasl.txt
+# - company station sites/Alpha Arae.txt
+# - company station sites/Aspidiske.txt
+# - company station sites/Atik.txt
+# - company station sites/Beta Lupi.txt
+# - company station sites/Boral.txt
+# - company station sites/Cardax.txt
+# - company station sites/Danoa.txt
+# - company station sites/Durax.txt
+# - company station sites/Eber.txt
+# - company station sites/Eltanin.txt
+# - company station sites/Eteron.txt
+# - company station sites/Fala.txt
+# - company station sites/Fingol.txt
+# - company station sites/Fumalsamakah.txt
+# - company station sites/Gacrux.txt
+# - company station sites/Gamma Cassiopeiae.txt
+# - company station sites/Gorvi.txt
+# - company station sites/Hassaleh.txt
+# - company station sites/Hatysa.txt
+# - company station sites/Hintar.txt
+# - company station sites/Holeb.txt
+# - company station sites/Ildaria.txt
+# - company station sites/Ipsing.txt
+# - company station sites/Kugel.txt
+# - company station sites/Lesath.txt
+# - company station sites/Limen.txt
+# - company station sites/Lolami.txt
+# - company station sites/Lurata.txt
+# - company station sites/Menkalinan.txt
+# - company station sites/Minkar.txt
+# - company station sites/Mintaka.txt
+# - company station sites/Mirzam.txt
+# - company station sites/Mizar.txt
+# - company station sites/Moktar.txt
+# - company station sites/Mora.txt
+# - company station sites/Muphrid.txt
+# - company station sites/Naper.txt
+# - company station sites/Nocte.txt
+# - company station sites/Oblate.txt
+# - company station sites/Orbona.txt
+# - company station sites/Orvala.txt
+# - company station sites/Persian.txt
+# - company station sites/Procyon.txt
+# - company station sites/Rajak.txt
+# - company station sites/Regulus.txt
+# - company station sites/Rigel.txt
+# - company station sites/Sadr.txt
+# - company station sites/Sospi.txt
+# - company station sites/Sumar.txt
+# - company station sites/Tais.txt
+# - company station sites/Terminus.txt
+# - company station sites/Thuban.txt
+# - company station sites/Tortor.txt
+# - company station sites/Umbral.txt
+# - company station sites/Unagi.txt
+# - company station sites/Volax.txt
+# - company station sites/Wei.txt
+# - company station sites/Zubenelgenubi.txt

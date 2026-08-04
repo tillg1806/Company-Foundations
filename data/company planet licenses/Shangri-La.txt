@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Shangri-La.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Polaris
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 4 energy 3.77 (40.0%); large rock count 2 energy 4.16 (20.0%); medium rock count 3 energy 7.93 (30.0%); small rock count 1 energy 7.67 (10.0%)
+# 	hq minables: copper abundance 1 density 6.73947 (53.9%); tungsten abundance 1 density 5.76943 (46.1%)
+# 	mining system: Polaris
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: tungsten ore field
+# 	mining value per cargo: 121
+# 	mining quality: 13
+# 	mining asteroids: large metal count 4 energy 3.77 (40.0%); large rock count 2 energy 4.16 (20.0%); medium rock count 3 energy 7.93 (30.0%); small rock count 1 energy 7.67 (10.0%)
+# 	mining minables: copper abundance 1 density 6.73947 (53.9%); tungsten abundance 1 density 5.76943 (46.1%)
+# 	shuttle route: Shangri-La -> Foundry
+# 	shuttle system: Achernar
+# 	shuttle distance: 1
+# 	trading route: Shangri-La -> Foundry
+# 	trading system: Achernar
+# 	trading distance: 1
+# 	trading commodity: Plastic
+# 	trading base value: 49
+# 	trading optimized value: 81
+# 	security route: Shangri-La -> Foundry
+# 	security system: Achernar
+# 	security distance: 1
+
+# license "cf license shangri la achernar"
+# 	tier: local
+# 	distance: 1
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license shangri la al dhanab"
+# 	tier: regional
+# 	distance: 2
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license shangri la alpheratz"
+# 	tier: regional
+# 	distance: 2
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license shangri la schedar"
+# 	tier: regional
+# 	distance: 2
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license shangri la almach"
+# 	tier: regional
+# 	distance: 3
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license shangri la mirach"
+# 	tier: regional
+# 	distance: 3
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license shangri la ruchbah"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license shangri la scheat"
+# 	tier: regional
+# 	distance: 3
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license shangri la algol"
+# 	tier: long
+# 	distance: 4
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license shangri la alpha hydri"
+# 	tier: long
+# 	distance: 4
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license shangri la ankaa"
+# 	tier: long
+# 	distance: 4
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license shangri la delta capricorni"
+# 	tier: long
+# 	distance: 4
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license shangri la hamal"
+# 	tier: long
+# 	distance: 4
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license shangri la markab"
+# 	tier: long
+# 	distance: 4
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license shangri la matar"
+# 	tier: long
+# 	distance: 4
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license shangri la sheratan"
+# 	tier: long
+# 	distance: 4
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license shangri la alderamin"
+# 	tier: long
+# 	distance: 5
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license shangri la altair"
+# 	tier: long
+# 	distance: 5
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license shangri la diphda"
+# 	tier: long
+# 	distance: 5
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license shangri la fomalhaut"
+# 	tier: long
+# 	distance: 5
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license shangri la zaurak"
+# 	tier: long
+# 	distance: 5
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license shangri la alcyone"
+# 	tier: long
+# 	distance: 6
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license shangri la alnair"
+# 	tier: long
+# 	distance: 6
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license shangri la caph"
+# 	tier: long
+# 	distance: 6
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license shangri la gienah"
+# 	tier: long
+# 	distance: 6
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license shangri la menkar"
+# 	tier: long
+# 	distance: 6
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license shangri la sol"
+# 	tier: long
+# 	distance: 6
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license shangri la vega"
+# 	tier: long
+# 	distance: 6
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license shangri la aldebaran"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license shangri la algenib"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license shangri la alpha centauri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license shangri la bellatrix"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license shangri la denebola"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license shangri la elnath"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license shangri la menkent"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license shangri la mirfak"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license shangri la sirius"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license shangri la capella"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license shangri la cebalrai"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license shangri la kursa"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license shangri la merak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license shangri la misam"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license shangri la nihal"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license shangri la rutilicus"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license shangri la arcturus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license shangri la kaus borealis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license shangri la phecda"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license shangri la pollux"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license shangri la porrima"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license shangri la rasalhague"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license shangri la wazn"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license shangri la algorel"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license shangri la alhena"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license shangri la alioth"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license shangri la ascella"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license shangri la castor"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license shangri la phact"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license shangri la phurad"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license shangri la talita"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license shangri la tania australis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license shangri la zeta aquilae"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license shangri la alphard"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license shangri la alphecca"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license shangri la canopus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license shangri la cor caroli"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license shangri la delta sagittarii"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license shangri la miaplacidus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license shangri la peacock"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license shangri la rastaban"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license shangri la seginus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license shangri la tejat"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license shangri la turais"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license shangri la vindemiatrix"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license shangri la alheka"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license shangri la delta velorum"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license shangri la girtab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license shangri la kaus australis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license shangri la kornephoros"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license shangri la muhlifain"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license shangri la sarin"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license shangri la zosma"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license shangri la albaldah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license shangri la aldhibain"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license shangri la alnitak"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license shangri la atria"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license shangri la betelgeuse"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license shangri la dabih"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license shangri la dschubba"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license shangri la dubhe"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license shangri la gomeisa"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license shangri la mebsuta"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license shangri la sabik"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license shangri la saiph"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license shangri la sargas"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license shangri la shaula"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license shangri la adhara"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license shangri la albireo"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license shangri la alniyat"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license shangri la epsilon leonis"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license shangri la han"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license shangri la nunki"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license shangri la tarazed"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license shangri la unukalhai"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license shangri la almaaz"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license shangri la antares"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license shangri la enif"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license shangri la graffias"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license shangri la pherkad"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license shangri la zubeneschamali"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license shangri la avior"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license shangri la hadar"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license shangri la kappa centauri"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license shangri la kochab"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license shangri la regor"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license shangri la sadalmelik"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license shangri la sadalsuud"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license shangri la yed prior"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license shangri la alkaid"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license shangri la alnilam"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license shangri la arneb"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license shangri la izar"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license shangri la markeb"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license shangri la men"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license shangri la naos"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license shangri la suhail"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license shangri la zeta centauri"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license shangri la acrux"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license shangri la aludra"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license shangri la wezen"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license shangri la belenos"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license shangri la alpherg"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license shangri la citadelle"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license shangri la mimosa"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license shangri la spica"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license shangri la gamma corvi"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license shangri la kraz"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Buccaneer Bay.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Algenib
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 6.7392 (100.0%)
+# 	hq minables: none
+# 	mining system: Gienah
+# 	mining distance: 1
+# 	mining local to hq: no
+# 	mining summary: silver ore field
+# 	mining value per cargo: 341
+# 	mining quality: 146
+# 	mining asteroids: large metal count 37 energy 2.304 (12.8%); large rock count 16 energy 2.16 (5.5%); medium metal count 203 energy 0.972 (70.0%); medium rock count 4 energy 2.448 (1.4%); small metal count 29 energy 1.89 (10.0%); small rock count 1 energy 2.574 (0.3%)
+# 	mining minables: aluminum abundance 1 density 1.81803 (1.2%); copper abundance 12 density 1.48149 (12.2%); silver abundance 59 density 2.13643 (86.5%)
+# 	shuttle route: Buccaneer Bay -> Covert
+# 	shuttle system: Gienah
+# 	shuttle distance: 1
+# 	trading route: Buccaneer Bay -> Covert
+# 	trading system: Gienah
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 35
+# 	trading optimized value: 51
+# 	security route: Buccaneer Bay -> Covert
+# 	security system: Gienah
+# 	security distance: 1
+
+# license "cf license buccaneer bay gienah"
+# 	tier: local
+# 	distance: 1
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license buccaneer bay alnair"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license buccaneer bay matar"
+# 	tier: regional
+# 	distance: 3
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license buccaneer bay alderamin"
+# 	tier: long
+# 	distance: 4
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license buccaneer bay scheat"
+# 	tier: long
+# 	distance: 4
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license buccaneer bay al dhanab"
+# 	tier: long
+# 	distance: 5
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license buccaneer bay delta capricorni"
+# 	tier: long
+# 	distance: 5
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license buccaneer bay markab"
+# 	tier: long
+# 	distance: 5
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license buccaneer bay mirach"
+# 	tier: long
+# 	distance: 5
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license buccaneer bay achernar"
+# 	tier: long
+# 	distance: 6
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license buccaneer bay alpheratz"
+# 	tier: long
+# 	distance: 6
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license buccaneer bay altair"
+# 	tier: long
+# 	distance: 6
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license buccaneer bay ankaa"
+# 	tier: long
+# 	distance: 6
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license buccaneer bay fomalhaut"
+# 	tier: long
+# 	distance: 6
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license buccaneer bay schedar"
+# 	tier: long
+# 	distance: 6
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license buccaneer bay almach"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license buccaneer bay diphda"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license buccaneer bay polaris"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license buccaneer bay ruchbah"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license buccaneer bay sol"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license buccaneer bay vega"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license buccaneer bay algol"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license buccaneer bay alpha centauri"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license buccaneer bay alpha hydri"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license buccaneer bay caph"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license buccaneer bay denebola"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license buccaneer bay hamal"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license buccaneer bay menkent"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license buccaneer bay sheratan"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license buccaneer bay sirius"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license buccaneer bay aldebaran"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license buccaneer bay cebalrai"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license buccaneer bay elnath"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license buccaneer bay merak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license buccaneer bay rutilicus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license buccaneer bay zaurak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license buccaneer bay alcyone"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license buccaneer bay arcturus"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license buccaneer bay capella"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license buccaneer bay kaus borealis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license buccaneer bay kursa"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license buccaneer bay menkar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license buccaneer bay nihal"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license buccaneer bay phecda"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license buccaneer bay pollux"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license buccaneer bay porrima"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license buccaneer bay rasalhague"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license buccaneer bay algorel"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license buccaneer bay alioth"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license buccaneer bay ascella"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license buccaneer bay bellatrix"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license buccaneer bay castor"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license buccaneer bay mirfak"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license buccaneer bay talita"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license buccaneer bay tania australis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license buccaneer bay wazn"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license buccaneer bay zeta aquilae"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license buccaneer bay alhena"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license buccaneer bay alphard"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license buccaneer bay alphecca"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license buccaneer bay cor caroli"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license buccaneer bay delta sagittarii"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license buccaneer bay miaplacidus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license buccaneer bay misam"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license buccaneer bay peacock"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license buccaneer bay phact"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license buccaneer bay phurad"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license buccaneer bay rastaban"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license buccaneer bay seginus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license buccaneer bay turais"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license buccaneer bay vindemiatrix"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license buccaneer bay canopus"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license buccaneer bay delta velorum"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license buccaneer bay girtab"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license buccaneer bay kaus australis"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license buccaneer bay kornephoros"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license buccaneer bay muhlifain"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license buccaneer bay sarin"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license buccaneer bay tejat"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license buccaneer bay zosma"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license buccaneer bay albaldah"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license buccaneer bay aldhibain"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license buccaneer bay alheka"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license buccaneer bay atria"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license buccaneer bay dabih"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license buccaneer bay dschubba"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license buccaneer bay dubhe"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license buccaneer bay gomeisa"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license buccaneer bay sabik"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license buccaneer bay sargas"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license buccaneer bay shaula"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license buccaneer bay adhara"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license buccaneer bay albireo"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license buccaneer bay alniyat"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license buccaneer bay betelgeuse"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license buccaneer bay epsilon leonis"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license buccaneer bay han"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license buccaneer bay mebsuta"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license buccaneer bay nunki"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license buccaneer bay tarazed"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license buccaneer bay unukalhai"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license buccaneer bay alnitak"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license buccaneer bay antares"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license buccaneer bay enif"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license buccaneer bay graffias"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license buccaneer bay pherkad"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license buccaneer bay saiph"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license buccaneer bay zubeneschamali"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license buccaneer bay avior"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license buccaneer bay hadar"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license buccaneer bay kappa centauri"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license buccaneer bay kochab"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license buccaneer bay regor"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license buccaneer bay sadalmelik"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license buccaneer bay sadalsuud"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license buccaneer bay yed prior"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license buccaneer bay alkaid"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license buccaneer bay almaaz"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license buccaneer bay izar"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license buccaneer bay markeb"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license buccaneer bay men"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license buccaneer bay naos"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license buccaneer bay suhail"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license buccaneer bay zeta centauri"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license buccaneer bay acrux"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license buccaneer bay aludra"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license buccaneer bay wezen"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license buccaneer bay alnilam"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license buccaneer bay arneb"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license buccaneer bay belenos"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license buccaneer bay alpherg"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license buccaneer bay citadelle"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license buccaneer bay mimosa"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license buccaneer bay spica"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license buccaneer bay gamma corvi"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license buccaneer bay kraz"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

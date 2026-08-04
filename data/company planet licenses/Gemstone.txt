@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Gemstone.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Turais
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 6 energy 3.4125 (6.5%); large rock count 7 energy 4.35 (7.6%); medium metal count 25 energy 4.65 (27.2%); medium rock count 37 energy 4.2 (40.2%); small metal count 1 energy 2.775 (1.1%); small rock count 16 energy 3.075 (17.4%)
+# 	hq minables: lead abundance 10 density 6.91427 (25.8%); silver abundance 12 density 7.75611 (34.8%); titanium abundance 13 density 8.10341 (39.4%)
+# 	mining system: Turais
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: silver ore field
+# 	mining value per cargo: 208
+# 	mining quality: 268
+# 	mining asteroids: large metal count 6 energy 3.4125 (6.5%); large rock count 7 energy 4.35 (7.6%); medium metal count 25 energy 4.65 (27.2%); medium rock count 37 energy 4.2 (40.2%); small metal count 1 energy 2.775 (1.1%); small rock count 16 energy 3.075 (17.4%)
+# 	mining minables: lead abundance 10 density 6.91427 (25.8%); silver abundance 12 density 7.75611 (34.8%); titanium abundance 13 density 8.10341 (39.4%)
+# 	shuttle route: Gemstone -> Bounty
+# 	shuttle system: Delta Velorum
+# 	shuttle distance: 1
+# 	trading route: Gemstone -> Bounty
+# 	trading system: Delta Velorum
+# 	trading distance: 1
+# 	trading commodity: Electronics
+# 	trading base value: 44
+# 	trading optimized value: 74
+# 	security route: Gemstone -> Bounty
+# 	security system: Delta Velorum
+# 	security distance: 1
+
+# license "cf license gemstone algorel"
+# 	tier: local
+# 	distance: 1
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license gemstone delta velorum"
+# 	tier: local
+# 	distance: 1
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license gemstone cor caroli"
+# 	tier: regional
+# 	distance: 2
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license gemstone muhlifain"
+# 	tier: regional
+# 	distance: 2
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license gemstone phecda"
+# 	tier: regional
+# 	distance: 2
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license gemstone arcturus"
+# 	tier: regional
+# 	distance: 3
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license gemstone merak"
+# 	tier: regional
+# 	distance: 3
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license gemstone tania australis"
+# 	tier: regional
+# 	distance: 3
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license gemstone vindemiatrix"
+# 	tier: regional
+# 	distance: 3
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license gemstone alioth"
+# 	tier: long
+# 	distance: 4
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license gemstone denebola"
+# 	tier: long
+# 	distance: 4
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license gemstone porrima"
+# 	tier: long
+# 	distance: 4
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license gemstone rutilicus"
+# 	tier: long
+# 	distance: 4
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license gemstone sarin"
+# 	tier: long
+# 	distance: 4
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license gemstone alphard"
+# 	tier: long
+# 	distance: 5
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license gemstone alphecca"
+# 	tier: long
+# 	distance: 5
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license gemstone cebalrai"
+# 	tier: long
+# 	distance: 5
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license gemstone menkent"
+# 	tier: long
+# 	distance: 5
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license gemstone sol"
+# 	tier: long
+# 	distance: 5
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license gemstone zosma"
+# 	tier: long
+# 	distance: 5
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license gemstone alpha centauri"
+# 	tier: long
+# 	distance: 6
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license gemstone altair"
+# 	tier: long
+# 	distance: 6
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license gemstone caph"
+# 	tier: long
+# 	distance: 6
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license gemstone dubhe"
+# 	tier: long
+# 	distance: 6
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license gemstone gomeisa"
+# 	tier: long
+# 	distance: 6
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license gemstone kaus borealis"
+# 	tier: long
+# 	distance: 6
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license gemstone kornephoros"
+# 	tier: long
+# 	distance: 6
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license gemstone miaplacidus"
+# 	tier: long
+# 	distance: 6
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license gemstone rasalhague"
+# 	tier: long
+# 	distance: 6
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license gemstone seginus"
+# 	tier: long
+# 	distance: 6
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license gemstone sirius"
+# 	tier: long
+# 	distance: 6
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license gemstone talita"
+# 	tier: long
+# 	distance: 6
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license gemstone vega"
+# 	tier: long
+# 	distance: 6
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license gemstone adhara"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license gemstone aldhibain"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license gemstone ascella"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license gemstone castor"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license gemstone delta capricorni"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license gemstone diphda"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license gemstone epsilon leonis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license gemstone fomalhaut"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license gemstone pollux"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license gemstone sabik"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license gemstone sargas"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license gemstone tejat"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license gemstone zeta aquilae"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license gemstone alderamin"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license gemstone alniyat"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license gemstone ankaa"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license gemstone capella"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license gemstone delta sagittarii"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license gemstone dschubba"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license gemstone markab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license gemstone peacock"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license gemstone phurad"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license gemstone rastaban"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license gemstone scheat"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license gemstone unukalhai"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license gemstone al dhanab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license gemstone aldebaran"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license gemstone alhena"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license gemstone alnair"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license gemstone antares"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license gemstone atria"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license gemstone avior"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license gemstone canopus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license gemstone elnath"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license gemstone girtab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license gemstone graffias"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license gemstone han"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license gemstone kaus australis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license gemstone matar"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license gemstone mirach"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license gemstone pherkad"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license gemstone regor"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license gemstone ruchbah"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license gemstone shaula"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license gemstone wazn"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license gemstone zubeneschamali"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license gemstone achernar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license gemstone albaldah"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license gemstone algol"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license gemstone alheka"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license gemstone alpha hydri"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license gemstone alpheratz"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license gemstone dabih"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license gemstone hadar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license gemstone hamal"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license gemstone kappa centauri"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license gemstone kochab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license gemstone kursa"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license gemstone markeb"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license gemstone naos"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license gemstone nihal"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license gemstone phact"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license gemstone schedar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license gemstone sheratan"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license gemstone suhail"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license gemstone yed prior"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license gemstone albireo"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license gemstone alkaid"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license gemstone almach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license gemstone aludra"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license gemstone betelgeuse"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license gemstone gienah"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license gemstone izar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license gemstone mebsuta"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license gemstone men"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license gemstone nunki"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license gemstone polaris"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license gemstone tarazed"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license gemstone wezen"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license gemstone zaurak"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license gemstone zeta centauri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license gemstone acrux"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license gemstone alcyone"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license gemstone algenib"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license gemstone enif"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license gemstone menkar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license gemstone alnitak"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license gemstone belenos"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license gemstone bellatrix"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license gemstone mirfak"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license gemstone sadalmelik"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license gemstone sadalsuud"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license gemstone saiph"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license gemstone alpherg"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license gemstone citadelle"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license gemstone mimosa"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license gemstone misam"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license gemstone spica"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license gemstone almaaz"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license gemstone gamma corvi"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license gemstone kraz"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license gemstone alnilam"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license gemstone arneb"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

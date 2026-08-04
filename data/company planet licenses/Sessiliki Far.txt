@@ -1,0 +1,47 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Sessiliki Far.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Kor Tar'bei
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 76 energy 3.216 (21.1%); large rock count 73 energy 3.096 (20.2%); medium metal count 169 energy 1.992 (46.8%); medium rock count 16 energy 2.16 (4.4%); small metal count 16 energy 2.28 (4.4%); small rock count 11 energy 3.576 (3.0%)
+# 	hq minables: platinum abundance 35 density 3.86798 (23.2%); silicon abundance 100 density 4.4771 (76.8%)
+# 	mining system: Kor Tar'bei
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 76 energy 3.216 (21.1%); large rock count 73 energy 3.096 (20.2%); medium metal count 169 energy 1.992 (46.8%); medium rock count 16 energy 2.16 (4.4%); small metal count 16 energy 2.28 (4.4%); small rock count 11 energy 3.576 (3.0%)
+# 	mining minables: platinum abundance 35 density 3.86798 (23.2%); silicon abundance 100 density 4.4771 (76.8%)
+# 	shuttle route: Sessiliki Far -> Safaresk Enlai
+# 	shuttle system: Kor Nor'peli
+# 	shuttle distance: 1
+# 	trading route: Sessiliki Far -> Safaresk Enlai
+# 	trading system: Kor Nor'peli
+# 	trading distance: 1
+# 	trading commodity: general cargo
+# 	trading base value: 35
+# 	trading optimized value: 40
+# 	security route: Sessiliki Far -> Safaresk Enlai
+# 	security system: Kor Nor'peli
+# 	security distance: 1
+
+# license "cf license sessiliki far kor nor peli"
+# 	tier: local
+# 	distance: 1
+# 	system: Kor Nor'peli
+# 	government: Korath
+# 	planets: Safaresk Enlai
+
+# license "cf license sessiliki far kor zena i"
+# 	tier: local
+# 	distance: 1
+# 	system: Kor Zena'i
+# 	government: Korath
+# 	planets: Separa Tiklar
+

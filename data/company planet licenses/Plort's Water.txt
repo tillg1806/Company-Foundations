@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Plort's Water.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Plort
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 2 energy 5.2858 (1.2%); large rock count 17 energy 4.199 (10.2%); medium metal count 81 energy 5.0388 (48.8%); medium rock count 40 energy 4.5942 (24.1%); small metal count 19 energy 5.3352 (11.4%); small rock count 7 energy 7.3606 (4.2%)
+# 	hq minables: aluminum abundance 62 density 6.16545 (96.0%); uranium abundance 3 density 5.36309 (4.0%)
+# 	mining system: Plort
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 2 energy 5.2858 (1.2%); large rock count 17 energy 4.199 (10.2%); medium metal count 81 energy 5.0388 (48.8%); medium rock count 40 energy 4.5942 (24.1%); small metal count 19 energy 5.3352 (11.4%); small rock count 7 energy 7.3606 (4.2%)
+# 	mining minables: aluminum abundance 62 density 6.16545 (96.0%); uranium abundance 3 density 5.36309 (4.0%)
+# 	shuttle route: Plort's Water -> Ahr
+# 	shuttle system: Sol Arach
+# 	shuttle distance: 1
+# 	trading route: Plort's Water -> Ahr
+# 	trading system: Sol Arach
+# 	trading distance: 1
+# 	trading commodity: Medical
+# 	trading base value: 46
+# 	trading optimized value: 76
+# 	security route: Plort's Water -> Ahr
+# 	security system: Sol Arach
+# 	security distance: 1
+
+# license "cf license plort s water sol arach"
+# 	tier: local
+# 	distance: 1
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license plort s water blubipad"
+# 	tier: regional
+# 	distance: 2
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license plort s water blugtad"
+# 	tier: regional
+# 	distance: 2
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license plort s water glubatub"
+# 	tier: regional
+# 	distance: 2
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license plort s water gupta"
+# 	tier: regional
+# 	distance: 2
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license plort s water meblumem"
+# 	tier: regional
+# 	distance: 2
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license plort s water miblulub"
+# 	tier: regional
+# 	distance: 2
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license plort s water ablodab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license plort s water ablub"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license plort s water belugt"
+# 	tier: regional
+# 	distance: 3
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license plort s water bloptab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license plort s water eblumab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license plort s water pelubta"
+# 	tier: regional
+# 	distance: 3
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license plort s water tebuteb"
+# 	tier: regional
+# 	distance: 3
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license plort s water debrugt"
+# 	tier: long
+# 	distance: 4
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license plort s water mebla"
+# 	tier: long
+# 	distance: 4
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license plort s water flugbu"
+# 	tier: long
+# 	distance: 5
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license plort s water speloog"
+# 	tier: long
+# 	distance: 6
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license plort s water belug"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license plort s water ekuarik"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license plort s water ki war ek"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license plort s water quaru"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license plort s water 14 winter below"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license plort s water 5 axis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license plort s water homeward"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license plort s water last word"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license plort s water 4 axis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license plort s water 8 winter below"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license plort s water fell omen"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license plort s water silver bell"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license plort s water 3 axis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license plort s water broken bowl"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license plort s water silver string"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license plort s water 1 axis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license plort s water 11 spring below"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license plort s water 4 winter rising"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license plort s water answer"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license plort s water belonging"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license plort s water hunter"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license plort s water steep roof"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license plort s water 4 spring rising"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license plort s water 5 winter above"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license plort s water beginning"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license plort s water remembrance"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license plort s water sol kimek"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license plort s water sol saryd"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license plort s water 3 pole"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license plort s water 3 spring rising"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license plort s water 9 spring above"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license plort s water ancient hope"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license plort s water companion"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license plort s water fallen leaf"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license plort s water good omen"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license plort s water 14 summer above"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license plort s water 4 summer rising"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license plort s water 5 summer above"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license plort s water 7 autumn rising"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license plort s water far horizon"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license plort s water 10 pole"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license plort s water 12 autumn above"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license plort s water four pillars"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license plort s water 14 pole"
+# 	tier: frontier
+# 	distance: 17
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license plort s water lone cloud"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

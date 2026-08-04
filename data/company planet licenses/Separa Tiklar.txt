@@ -1,0 +1,47 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Separa Tiklar.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Kor Zena'i
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 4.4805 (12.5%); large rock count 2 energy 4.7415 (25.0%); small rock count 5 energy 6.2205 (62.5%)
+# 	hq minables: none
+# 	mining system: Kor Zena'i
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 4.4805 (12.5%); large rock count 2 energy 4.7415 (25.0%); small rock count 5 energy 6.2205 (62.5%)
+# 	mining minables: none
+# 	shuttle route: Separa Tiklar -> Sessiliki Far
+# 	shuttle system: Kor Tar'bei
+# 	shuttle distance: 1
+# 	trading route: Separa Tiklar -> Sessiliki Far
+# 	trading system: Kor Tar'bei
+# 	trading distance: 1
+# 	trading commodity: general cargo
+# 	trading base value: 35
+# 	trading optimized value: 40
+# 	security route: Separa Tiklar -> Sessiliki Far
+# 	security system: Kor Tar'bei
+# 	security distance: 1
+
+# license "cf license separa tiklar kor tar bei"
+# 	tier: local
+# 	distance: 1
+# 	system: Kor Tar'bei
+# 	government: Korath
+# 	planets: Sessiliki Far
+
+# license "cf license separa tiklar kor nor peli"
+# 	tier: regional
+# 	distance: 2
+# 	system: Kor Nor'peli
+# 	government: Korath
+# 	planets: Safaresk Enlai
+

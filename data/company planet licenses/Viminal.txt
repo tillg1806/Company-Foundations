@@ -1,0 +1,54 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Viminal.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Arculus
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 1.34167 (33.3%); medium rock count 2 energy 0.60666 (66.7%)
+# 	hq minables: none
+# 	mining system: Arculus
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 1.34167 (33.3%); medium rock count 2 energy 0.60666 (66.7%)
+# 	mining minables: none
+# 	shuttle route: Viminal -> Aventine
+# 	shuttle system: Pantica
+# 	shuttle distance: 1
+# 	trading route: Viminal -> Aventine
+# 	trading system: Pantica
+# 	trading distance: 1
+# 	trading commodity: Industrial
+# 	trading base value: 35
+# 	trading optimized value: 52
+# 	security route: Viminal -> Aventine
+# 	security system: Pantica
+# 	security distance: 1
+
+# license "cf license viminal cinxia"
+# 	tier: local
+# 	distance: 1
+# 	system: Cinxia
+# 	government: Remnant
+# 	planets: Caelian
+
+# license "cf license viminal edusa"
+# 	tier: local
+# 	distance: 1
+# 	system: Edusa
+# 	government: Uninhabited
+# 	planets: Remnant Wormhole
+
+# license "cf license viminal pantica"
+# 	tier: local
+# 	distance: 1
+# 	system: Pantica
+# 	government: Remnant
+# 	planets: Aventine
+

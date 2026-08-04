@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Skillet.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Saiph
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 3 energy 3.9858 (1.6%); large rock count 13 energy 3.003 (6.7%); medium rock count 69 energy 5.4054 (35.8%); small metal count 5 energy 6.9342 (2.6%); small rock count 103 energy 6.4974 (53.4%)
+# 	hq minables: none
+# 	mining system: Rigel
+# 	mining distance: 1
+# 	mining local to hq: no
+# 	mining summary: neodymium ore field
+# 	mining value per cargo: 275
+# 	mining quality: 329
+# 	mining asteroids: large metal count 32 energy 11.7 (13.4%); large rock count 37 energy 10.53 (15.5%); medium metal count 28 energy 6.63 (11.7%); medium rock count 42 energy 3.9 (17.6%); small metal count 88 energy 5.382 (36.8%); small rock count 12 energy 11.076 (5.0%)
+# 	mining minables: copper abundance 6 density 10.5446 (19.2%); neodymium abundance 17 density 11.7377 (60.6%); tungsten abundance 5 density 13.3277 (20.2%)
+# 	shuttle route: Skillet -> Farpoint
+# 	shuttle system: Alnitak
+# 	shuttle distance: 1
+# 	trading route: Skillet -> Farpoint
+# 	trading system: Alnitak
+# 	trading distance: 1
+# 	trading commodity: Food
+# 	trading base value: 51
+# 	trading optimized value: 85
+# 	security route: Skillet -> Farpoint
+# 	security system: Alnitak
+# 	security distance: 1
+
+# license "cf license skillet alnitak"
+# 	tier: local
+# 	distance: 1
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license skillet betelgeuse"
+# 	tier: regional
+# 	distance: 2
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license skillet alheka"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license skillet almaaz"
+# 	tier: regional
+# 	distance: 3
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license skillet canopus"
+# 	tier: long
+# 	distance: 4
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license skillet mebsuta"
+# 	tier: long
+# 	distance: 4
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license skillet alnilam"
+# 	tier: long
+# 	distance: 5
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license skillet arneb"
+# 	tier: long
+# 	distance: 5
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license skillet phact"
+# 	tier: long
+# 	distance: 5
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license skillet phurad"
+# 	tier: long
+# 	distance: 5
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license skillet mirfak"
+# 	tier: long
+# 	distance: 6
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license skillet nihal"
+# 	tier: long
+# 	distance: 6
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license skillet tejat"
+# 	tier: long
+# 	distance: 6
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license skillet wazn"
+# 	tier: long
+# 	distance: 6
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license skillet alcyone"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license skillet alhena"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license skillet bellatrix"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license skillet elnath"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license skillet kursa"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license skillet menkar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license skillet miaplacidus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license skillet aldebaran"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license skillet alphard"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license skillet talita"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license skillet zaurak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license skillet capella"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license skillet castor"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license skillet diphda"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license skillet misam"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license skillet pollux"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license skillet sheratan"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license skillet zosma"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license skillet ankaa"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license skillet caph"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license skillet dubhe"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license skillet gomeisa"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license skillet ruchbah"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license skillet tania australis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license skillet adhara"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license skillet algol"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license skillet alpha hydri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license skillet alpheratz"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license skillet epsilon leonis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license skillet hamal"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license skillet markab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license skillet phecda"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license skillet sirius"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license skillet sol"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license skillet achernar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license skillet al dhanab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license skillet algorel"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license skillet alpha centauri"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license skillet altair"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license skillet delta capricorni"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license skillet delta velorum"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license skillet denebola"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license skillet fomalhaut"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license skillet merak"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license skillet scheat"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license skillet vega"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license skillet alderamin"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license skillet avior"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license skillet cor caroli"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license skillet matar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license skillet menkent"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license skillet mirach"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license skillet polaris"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license skillet porrima"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license skillet regor"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license skillet schedar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license skillet turais"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license skillet almach"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license skillet alnair"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license skillet arcturus"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license skillet cebalrai"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license skillet markeb"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license skillet naos"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license skillet rutilicus"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license skillet suhail"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license skillet vindemiatrix"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license skillet alioth"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license skillet aludra"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license skillet gienah"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license skillet kaus borealis"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license skillet muhlifain"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license skillet rasalhague"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license skillet sarin"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license skillet wezen"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license skillet algenib"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license skillet alphecca"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license skillet ascella"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license skillet zeta aquilae"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license skillet delta sagittarii"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license skillet kornephoros"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license skillet peacock"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license skillet rastaban"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license skillet seginus"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license skillet aldhibain"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license skillet girtab"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license skillet kaus australis"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license skillet sabik"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license skillet sargas"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license skillet albaldah"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license skillet alniyat"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license skillet atria"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license skillet dabih"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license skillet dschubba"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license skillet shaula"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license skillet unukalhai"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license skillet albireo"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license skillet antares"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license skillet graffias"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license skillet han"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license skillet nunki"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license skillet pherkad"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license skillet tarazed"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license skillet zubeneschamali"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license skillet enif"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license skillet hadar"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license skillet kappa centauri"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license skillet kochab"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license skillet yed prior"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license skillet alkaid"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license skillet izar"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license skillet men"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license skillet sadalmelik"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license skillet sadalsuud"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license skillet zeta centauri"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license skillet acrux"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license skillet belenos"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license skillet alpherg"
+# 	tier: frontier
+# 	distance: 25
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license skillet citadelle"
+# 	tier: frontier
+# 	distance: 25
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license skillet mimosa"
+# 	tier: frontier
+# 	distance: 25
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license skillet spica"
+# 	tier: frontier
+# 	distance: 25
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license skillet gamma corvi"
+# 	tier: frontier
+# 	distance: 26
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license skillet kraz"
+# 	tier: frontier
+# 	distance: 26
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

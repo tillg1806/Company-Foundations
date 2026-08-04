@@ -1,0 +1,124 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Tuur-Aasa-Kaska.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Tuur-Kella
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 64 energy 7 (43.0%); small metal count 85 energy 8 (57.0%)
+# 	hq minables: tungsten abundance 16 density 9 (100.0%)
+# 	mining system: Tuur-Kella
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 64 energy 7 (43.0%); small metal count 85 energy 8 (57.0%)
+# 	mining minables: tungsten abundance 16 density 9 (100.0%)
+# 	shuttle route: Tuur-Aasa-Kaska -> Aava-Aasa-Khora
+# 	shuttle system: Uuoru-Kella
+# 	shuttle distance: 1
+# 	trading route: Tuur-Aasa-Kaska -> Aava-Aasa-Khora
+# 	trading system: Uuoru-Kella
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 90
+# 	trading optimized value: 150
+# 	security route: Tuur-Aasa-Kaska -> Aava-Aasa-Khora
+# 	security system: Uuoru-Kella
+# 	security distance: 1
+
+# license "cf license tuur aasa kaska aaura kaska"
+# 	tier: local
+# 	distance: 1
+# 	system: Aaura-Kaska
+# 	government: Successor
+# 	planets: Mosaa-Oa-Vyret
+
+# license "cf license tuur aasa kaska stiidej nnesa"
+# 	tier: local
+# 	distance: 1
+# 	system: Stiidej-Nnesa
+# 	government: Successor
+# 	planets: Mavra-Sol-Kvel
+
+# license "cf license tuur aasa kaska uuoru kella"
+# 	tier: local
+# 	distance: 1
+# 	system: Uuoru-Kella
+# 	government: Old Houses
+# 	planets: Aava-Aasa-Khora, Kua-Oa-Aava
+
+# license "cf license tuur aasa kaska ojstaan sola"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ojstaan-Sola
+# 	government: Successor
+# 	planets: Raaqa-Kvelq-Ryuit, Saska-Aa-Noorr
+
+# license "cf license tuur aasa kaska pelaa muora"
+# 	tier: regional
+# 	distance: 2
+# 	system: Pelaa-Muora
+# 	government: Successor
+# 	planets: Shassa-Wyra-Orrou, Uo-Oraa-Vayya
+
+# license "cf license tuur aasa kaska vade staja"
+# 	tier: regional
+# 	distance: 2
+# 	system: Vade-Staja
+# 	government: Successor
+# 	planets: Staja-Kella-Oa
+
+# license "cf license tuur aasa kaska valkraa uuoru"
+# 	tier: regional
+# 	distance: 2
+# 	system: Valkraa-Uuoru
+# 	government: Successor
+# 	planets: Khora-Vasa-Reyyaa
+
+# license "cf license tuur aasa kaska chyyra osolaa"
+# 	tier: regional
+# 	distance: 3
+# 	system: Chyyra-Osolaa
+# 	government: Successor
+# 	planets: Kasii-Cavasaa-Oa
+
+# license "cf license tuur aasa kaska mosaa iyra"
+# 	tier: regional
+# 	distance: 3
+# 	system: Mosaa-Iyra
+# 	government: Successor
+# 	planets: Iyra-Ijasa-Iret
+
+# license "cf license tuur aasa kaska myiara nnesa"
+# 	tier: regional
+# 	distance: 3
+# 	system: Myiara-Nnesa
+# 	government: New Houses
+# 	planets: O-Vasa-Oa, Yoqqa-Vasa-Vasa
+
+# license "cf license tuur aasa kaska raaqa ryuit"
+# 	tier: long
+# 	distance: 4
+# 	system: Raaqa-Ryuit
+# 	government: Successor
+# 	planets: Raaqa-Puan-Uuoru
+
+# license "cf license tuur aasa kaska kella uoasa"
+# 	tier: long
+# 	distance: 5
+# 	system: Kella-Uoasa
+# 	government: People's Houses
+# 	planets: Kasii-Tuur-Saqru
+
+# license "cf license tuur aasa kaska maspa cavaasa"
+# 	tier: long
+# 	distance: 6
+# 	system: Maspa-Cavaasa
+# 	government: Successor
+# 	planets: Kasi-Osolaa-Sossa
+

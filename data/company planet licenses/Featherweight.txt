@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Featherweight.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Mebsuta
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 9 energy 4.6342 (29.0%); large rock count 2 energy 3.7961 (6.5%); medium metal count 17 energy 2.7115 (54.8%); small metal count 2 energy 2.8101 (6.5%); small rock count 1 energy 4.1412 (3.2%)
+# 	hq minables: iron abundance 2 density 5.38543 (70.1%); titanium abundance 1 density 4.59937 (29.9%)
+# 	mining system: Mebsuta
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: iron ore field
+# 	mining value per cargo: 90
+# 	mining quality: 15
+# 	mining asteroids: large metal count 9 energy 4.6342 (29.0%); large rock count 2 energy 3.7961 (6.5%); medium metal count 17 energy 2.7115 (54.8%); small metal count 2 energy 2.8101 (6.5%); small rock count 1 energy 4.1412 (3.2%)
+# 	mining minables: iron abundance 2 density 5.38543 (70.1%); titanium abundance 1 density 4.59937 (29.9%)
+# 	shuttle route: Featherweight -> Prime
+# 	shuttle system: Betelgeuse
+# 	shuttle distance: 2
+# 	trading route: Featherweight -> Prime
+# 	trading system: Betelgeuse
+# 	trading distance: 2
+# 	trading commodity: Clothing
+# 	trading base value: 86
+# 	trading optimized value: 143
+# 	security route: Featherweight -> Prime
+# 	security system: Betelgeuse
+# 	security distance: 2
+
+# license "cf license featherweight betelgeuse"
+# 	tier: regional
+# 	distance: 2
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license featherweight canopus"
+# 	tier: regional
+# 	distance: 2
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license featherweight alheka"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license featherweight phact"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license featherweight phurad"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license featherweight alnitak"
+# 	tier: long
+# 	distance: 4
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license featherweight saiph"
+# 	tier: long
+# 	distance: 4
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license featherweight tejat"
+# 	tier: long
+# 	distance: 4
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license featherweight wazn"
+# 	tier: long
+# 	distance: 4
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license featherweight alhena"
+# 	tier: long
+# 	distance: 5
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license featherweight kursa"
+# 	tier: long
+# 	distance: 5
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license featherweight miaplacidus"
+# 	tier: long
+# 	distance: 5
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license featherweight aldebaran"
+# 	tier: long
+# 	distance: 6
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license featherweight almaaz"
+# 	tier: long
+# 	distance: 6
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license featherweight alphard"
+# 	tier: long
+# 	distance: 6
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license featherweight elnath"
+# 	tier: long
+# 	distance: 6
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license featherweight talita"
+# 	tier: long
+# 	distance: 6
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license featherweight capella"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license featherweight castor"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license featherweight nihal"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license featherweight pollux"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license featherweight zosma"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license featherweight alnilam"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license featherweight arneb"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license featherweight diphda"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license featherweight dubhe"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license featherweight gomeisa"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license featherweight mirfak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license featherweight tania australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license featherweight adhara"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license featherweight alcyone"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license featherweight ankaa"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license featherweight bellatrix"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license featherweight caph"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license featherweight epsilon leonis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license featherweight menkar"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license featherweight phecda"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license featherweight sirius"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license featherweight algorel"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license featherweight delta velorum"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license featherweight markab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license featherweight merak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license featherweight ruchbah"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license featherweight sol"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license featherweight zaurak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license featherweight algol"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license featherweight alpha centauri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license featherweight alpha hydri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license featherweight alpheratz"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license featherweight altair"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license featherweight avior"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license featherweight cor caroli"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license featherweight delta capricorni"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license featherweight denebola"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license featherweight fomalhaut"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license featherweight hamal"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license featherweight misam"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license featherweight porrima"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license featherweight regor"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license featherweight scheat"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license featherweight sheratan"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license featherweight turais"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license featherweight vega"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license featherweight achernar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license featherweight al dhanab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license featherweight alderamin"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license featherweight arcturus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license featherweight markeb"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license featherweight matar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license featherweight menkent"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license featherweight mirach"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license featherweight naos"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license featherweight suhail"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license featherweight vindemiatrix"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license featherweight alioth"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license featherweight alnair"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license featherweight aludra"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license featherweight cebalrai"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license featherweight muhlifain"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license featherweight polaris"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license featherweight rutilicus"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license featherweight sarin"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license featherweight schedar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license featherweight wezen"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license featherweight almach"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license featherweight alphecca"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license featherweight gienah"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license featherweight kaus borealis"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license featherweight rasalhague"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license featherweight algenib"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license featherweight ascella"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license featherweight kornephoros"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license featherweight seginus"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license featherweight zeta aquilae"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license featherweight aldhibain"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license featherweight delta sagittarii"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license featherweight peacock"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license featherweight rastaban"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license featherweight sabik"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license featherweight sargas"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license featherweight alniyat"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license featherweight dschubba"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license featherweight girtab"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license featherweight kaus australis"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license featherweight unukalhai"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license featherweight albaldah"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license featherweight antares"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license featherweight atria"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license featherweight dabih"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license featherweight graffias"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license featherweight han"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license featherweight pherkad"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license featherweight shaula"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license featherweight zubeneschamali"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license featherweight albireo"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license featherweight hadar"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license featherweight kappa centauri"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license featherweight kochab"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license featherweight nunki"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license featherweight tarazed"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license featherweight yed prior"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license featherweight alkaid"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license featherweight enif"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license featherweight izar"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license featherweight men"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license featherweight zeta centauri"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license featherweight acrux"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license featherweight sadalmelik"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license featherweight sadalsuud"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license featherweight belenos"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license featherweight alpherg"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license featherweight citadelle"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license featherweight mimosa"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license featherweight spica"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license featherweight gamma corvi"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license featherweight kraz"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

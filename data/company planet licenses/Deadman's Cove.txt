@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Deadman's Cove.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Almach
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 5 energy 1.5249 (2.1%); large rock count 47 energy 1.6133 (20.0%); medium metal count 4 energy 3.0719 (1.7%); medium rock count 54 energy 1.5028 (23.0%); small metal count 20 energy 1.4365 (8.5%); small rock count 105 energy 2.2763 (44.7%)
+# 	hq minables: iron abundance 2 density 2.87775 (6.7%); lead abundance 2 density 3.17637 (7.4%); silicon abundance 30 density 2.47255 (86.0%)
+# 	mining system: Almach
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: silicon ore field
+# 	mining value per cargo: 90
+# 	mining quality: 86
+# 	mining asteroids: large metal count 5 energy 1.5249 (2.1%); large rock count 47 energy 1.6133 (20.0%); medium metal count 4 energy 3.0719 (1.7%); medium rock count 54 energy 1.5028 (23.0%); small metal count 20 energy 1.4365 (8.5%); small rock count 105 energy 2.2763 (44.7%)
+# 	mining minables: iron abundance 2 density 2.87775 (6.7%); lead abundance 2 density 3.17637 (7.4%); silicon abundance 30 density 2.47255 (86.0%)
+# 	shuttle route: Deadman's Cove -> Amazon
+# 	shuttle system: Schedar
+# 	shuttle distance: 1
+# 	trading route: Deadman's Cove -> Amazon
+# 	trading system: Schedar
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 44
+# 	trading optimized value: 73
+# 	security route: Deadman's Cove -> Amazon
+# 	security system: Schedar
+# 	security distance: 1
+
+# license "cf license deadman s cove schedar"
+# 	tier: local
+# 	distance: 1
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license deadman s cove achernar"
+# 	tier: regional
+# 	distance: 2
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license deadman s cove mirach"
+# 	tier: regional
+# 	distance: 2
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license deadman s cove al dhanab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license deadman s cove alpheratz"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license deadman s cove polaris"
+# 	tier: regional
+# 	distance: 3
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license deadman s cove scheat"
+# 	tier: regional
+# 	distance: 3
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license deadman s cove delta capricorni"
+# 	tier: long
+# 	distance: 4
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license deadman s cove markab"
+# 	tier: long
+# 	distance: 4
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license deadman s cove matar"
+# 	tier: long
+# 	distance: 4
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license deadman s cove ruchbah"
+# 	tier: long
+# 	distance: 4
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license deadman s cove alderamin"
+# 	tier: long
+# 	distance: 5
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license deadman s cove algol"
+# 	tier: long
+# 	distance: 5
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license deadman s cove alpha hydri"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license deadman s cove altair"
+# 	tier: long
+# 	distance: 5
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license deadman s cove ankaa"
+# 	tier: long
+# 	distance: 5
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license deadman s cove fomalhaut"
+# 	tier: long
+# 	distance: 5
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license deadman s cove hamal"
+# 	tier: long
+# 	distance: 5
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license deadman s cove sheratan"
+# 	tier: long
+# 	distance: 5
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license deadman s cove alnair"
+# 	tier: long
+# 	distance: 6
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license deadman s cove diphda"
+# 	tier: long
+# 	distance: 6
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license deadman s cove gienah"
+# 	tier: long
+# 	distance: 6
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license deadman s cove sol"
+# 	tier: long
+# 	distance: 6
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license deadman s cove vega"
+# 	tier: long
+# 	distance: 6
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license deadman s cove zaurak"
+# 	tier: long
+# 	distance: 6
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license deadman s cove alcyone"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license deadman s cove algenib"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license deadman s cove alpha centauri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license deadman s cove caph"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license deadman s cove denebola"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license deadman s cove menkar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license deadman s cove menkent"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license deadman s cove sirius"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license deadman s cove aldebaran"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license deadman s cove bellatrix"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license deadman s cove cebalrai"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license deadman s cove elnath"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license deadman s cove merak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license deadman s cove mirfak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license deadman s cove rutilicus"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license deadman s cove arcturus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license deadman s cove capella"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license deadman s cove kaus borealis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license deadman s cove kursa"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license deadman s cove misam"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license deadman s cove nihal"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license deadman s cove phecda"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license deadman s cove pollux"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license deadman s cove porrima"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license deadman s cove rasalhague"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license deadman s cove algorel"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license deadman s cove alioth"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license deadman s cove ascella"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license deadman s cove castor"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license deadman s cove talita"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license deadman s cove tania australis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license deadman s cove wazn"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license deadman s cove zeta aquilae"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license deadman s cove alhena"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license deadman s cove alphard"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license deadman s cove alphecca"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license deadman s cove cor caroli"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license deadman s cove delta sagittarii"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license deadman s cove miaplacidus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license deadman s cove peacock"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license deadman s cove phact"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license deadman s cove phurad"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license deadman s cove rastaban"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license deadman s cove seginus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license deadman s cove turais"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license deadman s cove vindemiatrix"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license deadman s cove canopus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license deadman s cove delta velorum"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license deadman s cove girtab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license deadman s cove kaus australis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license deadman s cove kornephoros"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license deadman s cove muhlifain"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license deadman s cove sarin"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license deadman s cove tejat"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license deadman s cove zosma"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license deadman s cove albaldah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license deadman s cove aldhibain"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license deadman s cove alheka"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license deadman s cove atria"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license deadman s cove dabih"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license deadman s cove dschubba"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license deadman s cove dubhe"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license deadman s cove gomeisa"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license deadman s cove sabik"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license deadman s cove sargas"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license deadman s cove shaula"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license deadman s cove adhara"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license deadman s cove albireo"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license deadman s cove alnitak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license deadman s cove alniyat"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license deadman s cove betelgeuse"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license deadman s cove epsilon leonis"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license deadman s cove han"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license deadman s cove mebsuta"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license deadman s cove nunki"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license deadman s cove saiph"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license deadman s cove tarazed"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license deadman s cove unukalhai"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license deadman s cove antares"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license deadman s cove enif"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license deadman s cove graffias"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license deadman s cove pherkad"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license deadman s cove zubeneschamali"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license deadman s cove almaaz"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license deadman s cove avior"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license deadman s cove hadar"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license deadman s cove kappa centauri"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license deadman s cove kochab"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license deadman s cove regor"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license deadman s cove sadalmelik"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license deadman s cove sadalsuud"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license deadman s cove yed prior"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license deadman s cove alkaid"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license deadman s cove izar"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license deadman s cove markeb"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license deadman s cove men"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license deadman s cove naos"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license deadman s cove suhail"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license deadman s cove zeta centauri"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license deadman s cove acrux"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license deadman s cove alnilam"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license deadman s cove aludra"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license deadman s cove arneb"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license deadman s cove wezen"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license deadman s cove belenos"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license deadman s cove alpherg"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license deadman s cove citadelle"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license deadman s cove mimosa"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license deadman s cove spica"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license deadman s cove gamma corvi"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license deadman s cove kraz"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

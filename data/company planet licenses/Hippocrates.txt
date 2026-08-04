@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Hippocrates.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Alnair
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 28 energy 5.72 (8.2%); large rock count 19 energy 8.32 (5.5%); medium metal count 34 energy 6.695 (9.9%); medium rock count 242 energy 4.355 (70.6%); small rock count 20 energy 6.825 (5.8%)
+# 	hq minables: aluminum abundance 11 density 8.95654 (15.6%); lead abundance 74 density 6.44632 (75.3%); platinum abundance 6 density 9.6188 (9.1%)
+# 	mining system: Alnair
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: platinum ore field
+# 	mining value per cargo: 117
+# 	mining quality: 633
+# 	mining asteroids: large metal count 28 energy 5.72 (8.2%); large rock count 19 energy 8.32 (5.5%); medium metal count 34 energy 6.695 (9.9%); medium rock count 242 energy 4.355 (70.6%); small rock count 20 energy 6.825 (5.8%)
+# 	mining minables: aluminum abundance 11 density 8.95654 (15.6%); lead abundance 74 density 6.44632 (75.3%); platinum abundance 6 density 9.6188 (9.1%)
+# 	shuttle route: Hippocrates -> Furnace
+# 	shuttle system: Alderamin
+# 	shuttle distance: 1
+# 	trading route: Hippocrates -> Furnace
+# 	trading system: Alderamin
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 68
+# 	trading optimized value: 113
+# 	security route: Hippocrates -> Furnace
+# 	security system: Alderamin
+# 	security distance: 1
+
+# license "cf license hippocrates alderamin"
+# 	tier: local
+# 	distance: 1
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license hippocrates delta capricorni"
+# 	tier: regional
+# 	distance: 2
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license hippocrates gienah"
+# 	tier: regional
+# 	distance: 2
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license hippocrates matar"
+# 	tier: regional
+# 	distance: 2
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license hippocrates algenib"
+# 	tier: regional
+# 	distance: 3
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license hippocrates altair"
+# 	tier: regional
+# 	distance: 3
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license hippocrates markab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license hippocrates scheat"
+# 	tier: regional
+# 	distance: 3
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license hippocrates al dhanab"
+# 	tier: long
+# 	distance: 4
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license hippocrates ankaa"
+# 	tier: long
+# 	distance: 4
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license hippocrates fomalhaut"
+# 	tier: long
+# 	distance: 4
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license hippocrates mirach"
+# 	tier: long
+# 	distance: 4
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license hippocrates sol"
+# 	tier: long
+# 	distance: 4
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license hippocrates vega"
+# 	tier: long
+# 	distance: 4
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license hippocrates achernar"
+# 	tier: long
+# 	distance: 5
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license hippocrates alpha centauri"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license hippocrates alpheratz"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license hippocrates caph"
+# 	tier: long
+# 	distance: 5
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license hippocrates denebola"
+# 	tier: long
+# 	distance: 5
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license hippocrates diphda"
+# 	tier: long
+# 	distance: 5
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license hippocrates menkent"
+# 	tier: long
+# 	distance: 5
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license hippocrates ruchbah"
+# 	tier: long
+# 	distance: 5
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license hippocrates schedar"
+# 	tier: long
+# 	distance: 5
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license hippocrates sirius"
+# 	tier: long
+# 	distance: 5
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license hippocrates algol"
+# 	tier: long
+# 	distance: 6
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license hippocrates almach"
+# 	tier: long
+# 	distance: 6
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license hippocrates alpha hydri"
+# 	tier: long
+# 	distance: 6
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license hippocrates cebalrai"
+# 	tier: long
+# 	distance: 6
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license hippocrates hamal"
+# 	tier: long
+# 	distance: 6
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license hippocrates merak"
+# 	tier: long
+# 	distance: 6
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license hippocrates polaris"
+# 	tier: long
+# 	distance: 6
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license hippocrates rutilicus"
+# 	tier: long
+# 	distance: 6
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license hippocrates sheratan"
+# 	tier: long
+# 	distance: 6
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license hippocrates aldebaran"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license hippocrates arcturus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license hippocrates capella"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license hippocrates elnath"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license hippocrates kaus borealis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license hippocrates phecda"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license hippocrates pollux"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license hippocrates porrima"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license hippocrates rasalhague"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license hippocrates zaurak"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license hippocrates alcyone"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license hippocrates algorel"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license hippocrates alioth"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license hippocrates ascella"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license hippocrates castor"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license hippocrates kursa"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license hippocrates menkar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license hippocrates nihal"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license hippocrates talita"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license hippocrates tania australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license hippocrates zeta aquilae"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license hippocrates alhena"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license hippocrates alphard"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license hippocrates alphecca"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license hippocrates bellatrix"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license hippocrates cor caroli"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license hippocrates delta sagittarii"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license hippocrates miaplacidus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license hippocrates mirfak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license hippocrates peacock"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license hippocrates rastaban"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license hippocrates seginus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license hippocrates turais"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license hippocrates vindemiatrix"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license hippocrates wazn"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license hippocrates delta velorum"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license hippocrates girtab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license hippocrates kaus australis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license hippocrates kornephoros"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license hippocrates misam"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license hippocrates muhlifain"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license hippocrates phact"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license hippocrates phurad"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license hippocrates sarin"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license hippocrates tejat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license hippocrates zosma"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license hippocrates albaldah"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license hippocrates aldhibain"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license hippocrates atria"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license hippocrates canopus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license hippocrates dabih"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license hippocrates dschubba"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license hippocrates dubhe"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license hippocrates gomeisa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license hippocrates sabik"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license hippocrates sargas"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license hippocrates shaula"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license hippocrates adhara"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license hippocrates albireo"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license hippocrates alheka"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license hippocrates alniyat"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license hippocrates epsilon leonis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license hippocrates han"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license hippocrates nunki"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license hippocrates tarazed"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license hippocrates unukalhai"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license hippocrates antares"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license hippocrates betelgeuse"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license hippocrates enif"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license hippocrates graffias"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license hippocrates mebsuta"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license hippocrates pherkad"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license hippocrates zubeneschamali"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license hippocrates alnitak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license hippocrates avior"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license hippocrates hadar"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license hippocrates kappa centauri"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license hippocrates kochab"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license hippocrates regor"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license hippocrates sadalmelik"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license hippocrates sadalsuud"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license hippocrates saiph"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license hippocrates yed prior"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license hippocrates alkaid"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license hippocrates izar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license hippocrates markeb"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license hippocrates men"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license hippocrates naos"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license hippocrates suhail"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license hippocrates zeta centauri"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license hippocrates acrux"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license hippocrates almaaz"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license hippocrates aludra"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license hippocrates wezen"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license hippocrates belenos"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license hippocrates alnilam"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license hippocrates alpherg"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license hippocrates arneb"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license hippocrates citadelle"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license hippocrates mimosa"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license hippocrates spica"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license hippocrates gamma corvi"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license hippocrates kraz"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

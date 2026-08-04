@@ -1,0 +1,152 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Illbo Avo.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Avo Chigo
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 30 energy 9 (30.3%); large rock count 3 energy 7.26 (3.0%); medium metal count 8 energy 6.24 (8.1%); medium rock count 11 energy 7.32 (11.1%); small metal count 34 energy 6 (34.3%); small rock count 13 energy 5.46 (13.1%)
+# 	hq minables: none
+# 	mining system: Avo Chigo
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 30 energy 9 (30.3%); large rock count 3 energy 7.26 (3.0%); medium metal count 8 energy 6.24 (8.1%); medium rock count 11 energy 7.32 (11.1%); small metal count 34 energy 6 (34.3%); small rock count 13 energy 5.46 (13.1%)
+# 	mining minables: none
+# 	shuttle route: Illbo Avo -> Eragarthro
+# 	shuttle system: Eragaru Le
+# 	shuttle distance: 1
+# 	trading route: Illbo Avo -> Eragarthro
+# 	trading system: Eragaru Le
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 120
+# 	trading optimized value: 200
+# 	security route: Illbo Avo -> Eragarthro
+# 	security system: Eragaru Le
+# 	security distance: 1
+
+# license "cf license illbo avo eragaru le"
+# 	tier: local
+# 	distance: 1
+# 	system: Eragaru Le
+# 	government: Bunrodea (Guard)
+# 	planets: Eragarthro
+
+# license "cf license illbo avo jentu le"
+# 	tier: local
+# 	distance: 1
+# 	system: Jentu Le
+# 	government: Bunrodea (Guard)
+# 	planets: Jentuthro
+
+# license "cf license illbo avo bosuno le"
+# 	tier: regional
+# 	distance: 2
+# 	system: Bosuno Le
+# 	government: Bunrodea (Guard)
+# 	planets: Bosunothro
+
+# license "cf license illbo avo erabu lemeta"
+# 	tier: regional
+# 	distance: 2
+# 	system: Erabu Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Erabuthro
+
+# license "cf license illbo avo ravu kon"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ravu Kon
+# 	government: Bunrodea
+# 	planets: Sopoyra
+
+# license "cf license illbo avo bunri lemeta"
+# 	tier: regional
+# 	distance: 3
+# 	system: Bunri Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Bunthro
+
+# license "cf license illbo avo kifrana terberah"
+# 	tier: regional
+# 	distance: 3
+# 	system: Kifrana Terberah
+# 	government: Bunrodea
+# 	planets: Kisarra
+
+# license "cf license illbo avo mego inito"
+# 	tier: regional
+# 	distance: 3
+# 	system: Mego Inito
+# 	government: Bunrodea
+# 	planets: Angko
+
+# license "cf license illbo avo mego seo"
+# 	tier: regional
+# 	distance: 3
+# 	system: Mego Seo
+# 	government: Bunrodea
+# 	planets: Deli Kasi
+
+# license "cf license illbo avo shini bori"
+# 	tier: regional
+# 	distance: 3
+# 	system: Shini Bori
+# 	government: Bunrodea (Guard)
+# 	planets: Sardva
+
+# license "cf license illbo avo thshybo le"
+# 	tier: regional
+# 	distance: 3
+# 	system: Thshybo Le
+# 	government: Bunrodea (Guard)
+# 	planets: Thshybothro
+
+# license "cf license illbo avo elabi choati"
+# 	tier: long
+# 	distance: 4
+# 	system: Elabi Choati
+# 	government: Bunrodea
+# 	planets: Iddesato
+
+# license "cf license illbo avo elo chigo"
+# 	tier: long
+# 	distance: 4
+# 	system: Elo Chigo
+# 	government: Bunrodea
+# 	planets: Illbo Elo
+
+# license "cf license illbo avo jentu centi"
+# 	tier: long
+# 	distance: 4
+# 	system: Jentu Centi
+# 	government: Bunrodea
+# 	planets: Melenci
+
+# license "cf license illbo avo mego faro"
+# 	tier: long
+# 	distance: 5
+# 	system: Mego Faro
+# 	government: Bunrodea
+# 	planets: Deli Kat
+
+# license "cf license illbo avo piadenli"
+# 	tier: long
+# 	distance: 5
+# 	system: Piadenli
+# 	government: Bunrodea
+# 	planets: Disara
+
+# license "cf license illbo avo urba pest"
+# 	tier: long
+# 	distance: 5
+# 	system: Urba Pest
+# 	government: Bunrodea
+# 	planets: Okoity
+

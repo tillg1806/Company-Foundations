@@ -1,0 +1,180 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Heartvalley.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Io Lowe
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 4 energy 8.8425 (1.8%); large rock count 29 energy 8.235 (13.1%); medium metal count 161 energy 6.075 (72.9%); medium rock count 9 energy 7.425 (4.1%); small metal count 2 energy 3.7125 (0.9%); small rock count 16 energy 8.0325 (7.2%)
+# 	hq minables: iron abundance 42 density 7.16043 (42.0%); silicon abundance 42 density 9.89542 (58.0%)
+# 	mining system: Wah Yoot
+# 	mining distance: 4
+# 	mining local to hq: no
+# 	mining summary: silicon ore field
+# 	mining value per cargo: 90
+# 	mining quality: 175
+# 	mining asteroids: large metal count 2 energy 5.6628 (2.2%); large rock count 9 energy 2.6532 (9.8%); medium metal count 10 energy 2.2968 (10.9%); medium rock count 26 energy 3.4452 (28.3%); small metal count 1 energy 4.4352 (1.1%); small rock count 44 energy 2.0592 (47.8%)
+# 	mining minables: lead abundance 14 density 3.40165 (27.3%); silicon abundance 30 density 4.23582 (72.7%)
+# 	shuttle route: Heartvalley -> Allhome
+# 	shuttle system: Heia Due
+# 	shuttle distance: 1
+# 	trading route: Heartvalley -> Allhome
+# 	trading system: Heia Due
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 35
+# 	trading optimized value: 44
+# 	security route: Heartvalley -> Allhome
+# 	security system: Heia Due
+# 	security distance: 1
+
+# license "cf license heartvalley heia due"
+# 	tier: local
+# 	distance: 1
+# 	system: Heia Due
+# 	government: Hai
+# 	planets: Allhome
+
+# license "cf license heartvalley mei yohn"
+# 	tier: local
+# 	distance: 1
+# 	system: Mei Yohn
+# 	government: Hai
+# 	planets: Darkmetal
+
+# license "cf license heartvalley ula mon"
+# 	tier: local
+# 	distance: 1
+# 	system: Ula Mon
+# 	government: Hai
+# 	planets: Makerplace
+
+# license "cf license heartvalley bote asu"
+# 	tier: regional
+# 	distance: 2
+# 	system: Bote Asu
+# 	government: Hai
+# 	planets: Everhope
+
+# license "cf license heartvalley da lest"
+# 	tier: regional
+# 	distance: 2
+# 	system: Da Lest
+# 	government: Hai
+# 	planets: Frostmark
+
+# license "cf license heartvalley due yoot"
+# 	tier: regional
+# 	distance: 2
+# 	system: Due Yoot
+# 	government: Hai
+# 	planets: Greenbloom, Greenview
+
+# license "cf license heartvalley rati cal"
+# 	tier: regional
+# 	distance: 2
+# 	system: Rati Cal
+# 	government: Hai
+# 	planets: Dustmaker
+
+# license "cf license heartvalley ya hai"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ya Hai
+# 	government: Hai
+# 	planets: Hai-home, Mirrorlake
+
+# license "cf license heartvalley zuba zub"
+# 	tier: regional
+# 	distance: 2
+# 	system: Zuba Zub
+# 	government: Hai
+# 	planets: Giverstone
+
+# license "cf license heartvalley bore fah"
+# 	tier: regional
+# 	distance: 3
+# 	system: Bore Fah
+# 	government: Hai
+# 	planets: Snowfeather
+
+# license "cf license heartvalley da ent"
+# 	tier: regional
+# 	distance: 3
+# 	system: Da Ent
+# 	government: Hai
+# 	planets: Newhome
+
+# license "cf license heartvalley imo dep"
+# 	tier: regional
+# 	distance: 3
+# 	system: Imo Dep
+# 	government: Hai
+# 	planets: Stonebreak
+
+# license "cf license heartvalley io mann"
+# 	tier: regional
+# 	distance: 3
+# 	system: Io Mann
+# 	government: Hai
+# 	planets: Skyfarm
+
+# license "cf license heartvalley uwa fahn"
+# 	tier: regional
+# 	distance: 3
+# 	system: Uwa Fahn
+# 	government: Hai
+# 	planets: Icelake, Swiftsong
+
+# license "cf license heartvalley wah ki"
+# 	tier: regional
+# 	distance: 3
+# 	system: Wah Ki
+# 	government: Hai
+# 	planets: Cloudfire
+
+# license "cf license heartvalley wah oh"
+# 	tier: regional
+# 	distance: 3
+# 	system: Wah Oh
+# 	government: Hai
+# 	planets: Farwater, Ochrescoop
+
+# license "cf license heartvalley fah soom"
+# 	tier: long
+# 	distance: 4
+# 	system: Fah Soom
+# 	government: Hai
+# 	planets: Greenwater
+
+# license "cf license heartvalley wah yoot"
+# 	tier: long
+# 	distance: 4
+# 	system: Wah Yoot
+# 	government: Hai (Unfettered)
+# 	planets: Darkcloak
+
+# license "cf license heartvalley ehma ti"
+# 	tier: long
+# 	distance: 5
+# 	system: Ehma Ti
+# 	government: Hai (Unfettered)
+# 	planets: Firelode
+
+# license "cf license heartvalley hevru hai"
+# 	tier: long
+# 	distance: 5
+# 	system: Hevru Hai
+# 	government: Quarg (Hai)
+# 	planets: Alta Hai
+
+# license "cf license heartvalley hi yahr"
+# 	tier: long
+# 	distance: 5
+# 	system: Hi Yahr
+# 	government: Hai (Unfettered)
+# 	planets: Warfeed
+

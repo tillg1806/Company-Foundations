@@ -1,0 +1,54 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Korati Efreti.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Dokdobaru
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 3 energy 2.0655 (23.1%); large rock count 2 energy 2.349 (15.4%); medium metal count 2 energy 4.05 (15.4%); medium rock count 1 energy 5.751 (7.7%); small metal count 1 energy 4.05 (7.7%); small rock count 4 energy 5.6295 (30.8%)
+# 	hq minables: lead abundance 3 density 5.25735 (48.4%); silicon abundance 3 density 5.59881 (51.6%)
+# 	mining system: Dokdobaru
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 3 energy 2.0655 (23.1%); large rock count 2 energy 2.349 (15.4%); medium metal count 2 energy 4.05 (15.4%); medium rock count 1 energy 5.751 (7.7%); small metal count 1 energy 4.05 (7.7%); small rock count 4 energy 5.6295 (30.8%)
+# 	mining minables: lead abundance 3 density 5.25735 (48.4%); silicon abundance 3 density 5.59881 (51.6%)
+# 	shuttle route: Korati Efreti -> Laki Nemparu
+# 	shuttle system: Kashikt
+# 	shuttle distance: 1
+# 	trading route: Korati Efreti -> Laki Nemparu
+# 	trading system: Kashikt
+# 	trading distance: 1
+# 	trading commodity: Industrial
+# 	trading base value: 50
+# 	trading optimized value: 83
+# 	security route: Korati Efreti -> Laki Nemparu
+# 	security system: Kashikt
+# 	security distance: 1
+
+# license "cf license korati efreti kashikt"
+# 	tier: local
+# 	distance: 1
+# 	system: Kashikt
+# 	government: Kor Efret
+# 	planets: Laki Nemparu
+
+# license "cf license korati efreti sevrelect"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sevrelect
+# 	government: Kor Efret
+# 	planets: Setar Fort
+
+# license "cf license korati efreti sumprast"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sumprast
+# 	government: Kor Efret
+# 	planets: Karek Fornati
+

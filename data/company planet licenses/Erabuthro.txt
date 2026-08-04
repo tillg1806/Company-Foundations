@@ -1,0 +1,152 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Erabuthro.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Erabu Lemeta
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 2.379 (1.1%); large rock count 60 energy 5.226 (67.4%); medium metal count 11 energy 5.733 (12.4%); medium rock count 16 energy 3.042 (18.0%); small rock count 1 energy 5.382 (1.1%)
+# 	hq minables: none
+# 	mining system: Erabu Lemeta
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 2.379 (1.1%); large rock count 60 energy 5.226 (67.4%); medium metal count 11 energy 5.733 (12.4%); medium rock count 16 energy 3.042 (18.0%); small rock count 1 energy 5.382 (1.1%)
+# 	mining minables: none
+# 	shuttle route: Erabuthro -> Bosunothro
+# 	shuttle system: Bosuno Le
+# 	shuttle distance: 1
+# 	trading route: Erabuthro -> Bosunothro
+# 	trading system: Bosuno Le
+# 	trading distance: 1
+# 	trading commodity: Luxury Goods
+# 	trading base value: 96
+# 	trading optimized value: 160
+# 	security route: Erabuthro -> Bosunothro
+# 	security system: Bosuno Le
+# 	security distance: 1
+
+# license "cf license erabuthro bosuno le"
+# 	tier: local
+# 	distance: 1
+# 	system: Bosuno Le
+# 	government: Bunrodea (Guard)
+# 	planets: Bosunothro
+
+# license "cf license erabuthro bunri lemeta"
+# 	tier: local
+# 	distance: 1
+# 	system: Bunri Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Bunthro
+
+# license "cf license erabuthro jentu le"
+# 	tier: local
+# 	distance: 1
+# 	system: Jentu Le
+# 	government: Bunrodea (Guard)
+# 	planets: Jentuthro
+
+# license "cf license erabuthro shini bori"
+# 	tier: local
+# 	distance: 1
+# 	system: Shini Bori
+# 	government: Bunrodea (Guard)
+# 	planets: Sardva
+
+# license "cf license erabuthro thshybo le"
+# 	tier: local
+# 	distance: 1
+# 	system: Thshybo Le
+# 	government: Bunrodea (Guard)
+# 	planets: Thshybothro
+
+# license "cf license erabuthro avo chigo"
+# 	tier: regional
+# 	distance: 2
+# 	system: Avo Chigo
+# 	government: Bunrodea (Guard)
+# 	planets: Illbo Avo
+
+# license "cf license erabuthro elabi choati"
+# 	tier: regional
+# 	distance: 2
+# 	system: Elabi Choati
+# 	government: Bunrodea
+# 	planets: Iddesato
+
+# license "cf license erabuthro elo chigo"
+# 	tier: regional
+# 	distance: 2
+# 	system: Elo Chigo
+# 	government: Bunrodea
+# 	planets: Illbo Elo
+
+# license "cf license erabuthro eragaru le"
+# 	tier: regional
+# 	distance: 2
+# 	system: Eragaru Le
+# 	government: Bunrodea (Guard)
+# 	planets: Eragarthro
+
+# license "cf license erabuthro ravu kon"
+# 	tier: long
+# 	distance: 4
+# 	system: Ravu Kon
+# 	government: Bunrodea
+# 	planets: Sopoyra
+
+# license "cf license erabuthro kifrana terberah"
+# 	tier: long
+# 	distance: 5
+# 	system: Kifrana Terberah
+# 	government: Bunrodea
+# 	planets: Kisarra
+
+# license "cf license erabuthro mego inito"
+# 	tier: long
+# 	distance: 5
+# 	system: Mego Inito
+# 	government: Bunrodea
+# 	planets: Angko
+
+# license "cf license erabuthro mego seo"
+# 	tier: long
+# 	distance: 5
+# 	system: Mego Seo
+# 	government: Bunrodea
+# 	planets: Deli Kasi
+
+# license "cf license erabuthro jentu centi"
+# 	tier: long
+# 	distance: 6
+# 	system: Jentu Centi
+# 	government: Bunrodea
+# 	planets: Melenci
+
+# license "cf license erabuthro mego faro"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mego Faro
+# 	government: Bunrodea
+# 	planets: Deli Kat
+
+# license "cf license erabuthro piadenli"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Piadenli
+# 	government: Bunrodea
+# 	planets: Disara
+
+# license "cf license erabuthro urba pest"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Urba Pest
+# 	government: Bunrodea
+# 	planets: Okoity
+

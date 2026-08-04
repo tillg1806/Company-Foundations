@@ -1,0 +1,124 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Vara Ke'stai.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Ka'pru
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 3 energy 2.1294 (14.3%); large rock count 1 energy 2.7573 (4.8%); medium metal count 1 energy 3.6855 (4.8%); medium rock count 2 energy 2.7573 (9.5%); small metal count 14 energy 2.184 (66.7%)
+# 	hq minables: iron abundance 4 density 3.37835 (45.8%); titanium abundance 2 density 3.67707 (24.9%); tungsten abundance 2 density 4.32691 (29.3%)
+# 	mining system: Ka'pru
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 3 energy 2.1294 (14.3%); large rock count 1 energy 2.7573 (4.8%); medium metal count 1 energy 3.6855 (4.8%); medium rock count 2 energy 2.7573 (9.5%); small metal count 14 energy 2.184 (66.7%)
+# 	mining minables: iron abundance 4 density 3.37835 (45.8%); titanium abundance 2 density 3.67707 (24.9%); tungsten abundance 2 density 4.32691 (29.3%)
+# 	shuttle route: Vara Ke'stai -> Var' Kar'i'i
+# 	shuttle system: Kiro'ku
+# 	shuttle distance: 1
+# 	trading route: Vara Ke'stai -> Var' Kar'i'i
+# 	trading system: Kiro'ku
+# 	trading distance: 1
+# 	trading commodity: Equipment
+# 	trading base value: 71
+# 	trading optimized value: 119
+# 	security route: Vara Ke'stai -> Var' Kar'i'i
+# 	security system: Kiro'ku
+# 	security distance: 1
+
+# license "cf license vara ke stai kiro ku"
+# 	tier: local
+# 	distance: 1
+# 	system: Kiro'ku
+# 	government: Wanderer
+# 	planets: Var' Kar'i'i
+
+# license "cf license vara ke stai sich ka ara"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sich'ka'ara
+# 	government: Wanderer
+# 	planets: Vara Ke'sok
+
+# license "cf license vara ke stai ap arak"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ap'arak
+# 	government: Wanderer
+# 	planets: Varu Tev'kei
+
+# license "cf license vara ke stai chirr ay akai"
+# 	tier: long
+# 	distance: 4
+# 	system: Chirr'ay'akai
+# 	government: Wanderer
+# 	planets: Kort Vek'kri
+
+# license "cf license vara ke stai chy chra"
+# 	tier: long
+# 	distance: 4
+# 	system: Chy'chra
+# 	government: Wanderer
+# 	planets: Varu K'est
+
+# license "cf license vara ke stai ik kara ka"
+# 	tier: long
+# 	distance: 4
+# 	system: Ik'kara'ka
+# 	government: Wanderer
+# 	planets: Varu Mer'ek
+
+# license "cf license vara ke stai ek kek ru"
+# 	tier: long
+# 	distance: 5
+# 	system: Ek'kek'ru
+# 	government: Wanderer
+# 	planets: Kort Kehai
+
+# license "cf license vara ke stai iyech yek"
+# 	tier: long
+# 	distance: 6
+# 	system: Iyech'yek
+# 	government: Wanderer
+# 	planets: Tik Klai, Vara Kehi'ki
+
+# license "cf license vara ke stai pik ro iyak"
+# 	tier: long
+# 	distance: 6
+# 	system: Pik'ro'iyak
+# 	government: Wanderer
+# 	planets: Var' Kayi
+
+# license "cf license vara ke stai si yak ku"
+# 	tier: long
+# 	distance: 6
+# 	system: Si'yak'ku
+# 	government: Wanderer
+# 	planets: Var' Roi, Varu Tek'kai
+
+# license "cf license vara ke stai aya k k"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Aya'k'k
+# 	government: Wanderer
+# 	planets: Varu K'prai
+
+# license "cf license vara ke stai es sprak ai"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Es'sprak'ai
+# 	government: Wanderer
+# 	planets: Vara Rakak
+
+# license "cf license vara ke stai kiru kichi"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kiru'kichi
+# 	government: Wanderer
+# 	planets: Varu Ek'lak'lai
+

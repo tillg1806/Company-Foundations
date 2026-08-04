@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Kraken Station.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Caph
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 72 energy 6.345 (26.6%); large rock count 104 energy 3.6 (38.4%); medium metal count 49 energy 3.465 (18.1%); medium rock count 15 energy 2.925 (5.5%); small metal count 12 energy 6.03 (4.4%); small rock count 19 energy 4.14 (7.0%)
+# 	hq minables: lead abundance 21 density 7.55696 (25.6%); tungsten abundance 63 density 6.62784 (67.2%); uranium abundance 6 density 7.47177 (7.2%)
+# 	mining system: Caph
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: tungsten ore field
+# 	mining value per cargo: 226
+# 	mining quality: 621
+# 	mining asteroids: large metal count 72 energy 6.345 (26.6%); large rock count 104 energy 3.6 (38.4%); medium metal count 49 energy 3.465 (18.1%); medium rock count 15 energy 2.925 (5.5%); small metal count 12 energy 6.03 (4.4%); small rock count 19 energy 4.14 (7.0%)
+# 	mining minables: lead abundance 21 density 7.55696 (25.6%); tungsten abundance 63 density 6.62784 (67.2%); uranium abundance 6 density 7.47177 (7.2%)
+# 	shuttle route: Kraken Station -> Earth
+# 	shuttle system: Sol
+# 	shuttle distance: 1
+# 	trading route: Kraken Station -> Earth
+# 	trading system: Sol
+# 	trading distance: 1
+# 	trading commodity: Luxury Goods
+# 	trading base value: 56
+# 	trading optimized value: 94
+# 	security route: Kraken Station -> Earth
+# 	security system: Sol
+# 	security distance: 1
+
+# license "cf license kraken station diphda"
+# 	tier: local
+# 	distance: 1
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license kraken station sol"
+# 	tier: local
+# 	distance: 1
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license kraken station alpha centauri"
+# 	tier: regional
+# 	distance: 2
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license kraken station altair"
+# 	tier: regional
+# 	distance: 2
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license kraken station ankaa"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license kraken station denebola"
+# 	tier: regional
+# 	distance: 2
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license kraken station sirius"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license kraken station vega"
+# 	tier: regional
+# 	distance: 2
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license kraken station aldebaran"
+# 	tier: regional
+# 	distance: 3
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license kraken station delta capricorni"
+# 	tier: regional
+# 	distance: 3
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license kraken station elnath"
+# 	tier: regional
+# 	distance: 3
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license kraken station fomalhaut"
+# 	tier: regional
+# 	distance: 3
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license kraken station markab"
+# 	tier: regional
+# 	distance: 3
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license kraken station menkent"
+# 	tier: regional
+# 	distance: 3
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license kraken station merak"
+# 	tier: regional
+# 	distance: 3
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license kraken station ruchbah"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license kraken station alderamin"
+# 	tier: long
+# 	distance: 4
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license kraken station algol"
+# 	tier: long
+# 	distance: 4
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license kraken station alpha hydri"
+# 	tier: long
+# 	distance: 4
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license kraken station alpheratz"
+# 	tier: long
+# 	distance: 4
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license kraken station capella"
+# 	tier: long
+# 	distance: 4
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license kraken station cebalrai"
+# 	tier: long
+# 	distance: 4
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license kraken station hamal"
+# 	tier: long
+# 	distance: 4
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license kraken station kursa"
+# 	tier: long
+# 	distance: 4
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license kraken station nihal"
+# 	tier: long
+# 	distance: 4
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license kraken station phecda"
+# 	tier: long
+# 	distance: 4
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license kraken station pollux"
+# 	tier: long
+# 	distance: 4
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license kraken station porrima"
+# 	tier: long
+# 	distance: 4
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license kraken station rutilicus"
+# 	tier: long
+# 	distance: 4
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license kraken station scheat"
+# 	tier: long
+# 	distance: 4
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license kraken station sheratan"
+# 	tier: long
+# 	distance: 4
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license kraken station achernar"
+# 	tier: long
+# 	distance: 5
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license kraken station al dhanab"
+# 	tier: long
+# 	distance: 5
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license kraken station algorel"
+# 	tier: long
+# 	distance: 5
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license kraken station alnair"
+# 	tier: long
+# 	distance: 5
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license kraken station arcturus"
+# 	tier: long
+# 	distance: 5
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license kraken station castor"
+# 	tier: long
+# 	distance: 5
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license kraken station kaus borealis"
+# 	tier: long
+# 	distance: 5
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license kraken station matar"
+# 	tier: long
+# 	distance: 5
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license kraken station mirach"
+# 	tier: long
+# 	distance: 5
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license kraken station rasalhague"
+# 	tier: long
+# 	distance: 5
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license kraken station talita"
+# 	tier: long
+# 	distance: 5
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license kraken station tania australis"
+# 	tier: long
+# 	distance: 5
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license kraken station wazn"
+# 	tier: long
+# 	distance: 5
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license kraken station zaurak"
+# 	tier: long
+# 	distance: 5
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license kraken station alcyone"
+# 	tier: long
+# 	distance: 6
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license kraken station alhena"
+# 	tier: long
+# 	distance: 6
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license kraken station alioth"
+# 	tier: long
+# 	distance: 6
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license kraken station alphard"
+# 	tier: long
+# 	distance: 6
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license kraken station ascella"
+# 	tier: long
+# 	distance: 6
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license kraken station cor caroli"
+# 	tier: long
+# 	distance: 6
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license kraken station menkar"
+# 	tier: long
+# 	distance: 6
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license kraken station miaplacidus"
+# 	tier: long
+# 	distance: 6
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license kraken station phact"
+# 	tier: long
+# 	distance: 6
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license kraken station phurad"
+# 	tier: long
+# 	distance: 6
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license kraken station polaris"
+# 	tier: long
+# 	distance: 6
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license kraken station schedar"
+# 	tier: long
+# 	distance: 6
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license kraken station turais"
+# 	tier: long
+# 	distance: 6
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license kraken station zeta aquilae"
+# 	tier: long
+# 	distance: 6
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license kraken station almach"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license kraken station alphecca"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license kraken station bellatrix"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license kraken station canopus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license kraken station delta sagittarii"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license kraken station delta velorum"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license kraken station gienah"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license kraken station mirfak"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license kraken station peacock"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license kraken station rastaban"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license kraken station seginus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license kraken station tejat"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license kraken station vindemiatrix"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license kraken station zosma"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license kraken station algenib"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license kraken station alheka"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license kraken station dubhe"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license kraken station girtab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license kraken station gomeisa"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license kraken station kaus australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license kraken station kornephoros"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license kraken station misam"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license kraken station muhlifain"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license kraken station sarin"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license kraken station adhara"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license kraken station albaldah"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license kraken station aldhibain"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license kraken station atria"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license kraken station betelgeuse"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license kraken station dabih"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license kraken station dschubba"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license kraken station epsilon leonis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license kraken station mebsuta"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license kraken station sabik"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license kraken station sargas"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license kraken station shaula"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license kraken station albireo"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license kraken station alnitak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license kraken station alniyat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license kraken station han"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license kraken station nunki"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license kraken station saiph"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license kraken station tarazed"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license kraken station unukalhai"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license kraken station antares"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license kraken station avior"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license kraken station enif"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license kraken station graffias"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license kraken station pherkad"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license kraken station regor"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license kraken station zubeneschamali"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license kraken station almaaz"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license kraken station hadar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license kraken station kappa centauri"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license kraken station kochab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license kraken station markeb"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license kraken station naos"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license kraken station sadalmelik"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license kraken station sadalsuud"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license kraken station suhail"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license kraken station yed prior"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license kraken station alkaid"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license kraken station aludra"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license kraken station izar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license kraken station men"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license kraken station wezen"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license kraken station zeta centauri"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license kraken station acrux"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license kraken station alnilam"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license kraken station arneb"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license kraken station belenos"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license kraken station alpherg"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license kraken station citadelle"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license kraken station mimosa"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license kraken station spica"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license kraken station gamma corvi"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license kraken station kraz"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

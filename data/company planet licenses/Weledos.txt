@@ -1,0 +1,124 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Weledos.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Ensemble
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 6.84 (100.0%)
+# 	hq minables: none
+# 	mining system: Ensemble
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 6.84 (100.0%)
+# 	mining minables: none
+# 	shuttle route: Weledos -> Outpost Enka
+# 	shuttle system: Prelude
+# 	shuttle distance: 6
+# 	trading route: Weledos -> Outpost Enka
+# 	trading system: Prelude
+# 	trading distance: 6
+# 	trading commodity: Heavy Metals
+# 	trading base value: 180
+# 	trading optimized value: 300
+# 	security route: Weledos -> Outpost Enka
+# 	security system: Prelude
+# 	security distance: 6
+
+# license "cf license weledos interlude"
+# 	tier: long
+# 	distance: 6
+# 	system: Interlude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Tekis
+
+# license "cf license weledos prelude"
+# 	tier: long
+# 	distance: 6
+# 	system: Prelude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Enka
+
+# license "cf license weledos anthem"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Anthem
+# 	government: Avgi (Consonance)
+# 	planets: Outpost Pilos
+
+# license "cf license weledos arche"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Arche
+# 	government: Avgi (Twilight Guard)
+# 	planets: Feo Platform
+
+# license "cf license weledos demilude"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Demilude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Leto
+
+# license "cf license weledos concerto"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Concerto
+# 	government: Avgi (Consonance)
+# 	planets: Peripheria
+
+# license "cf license weledos symphony"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Symphony
+# 	government: Avgi (Consonance)
+# 	planets: Ergastirio Station, Navigeo Yards
+
+# license "cf license weledos anax"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Anax
+# 	government: Avgi
+# 	planets: Aviskir, Thilos
+
+# license "cf license weledos wake"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Wake
+# 	government: Avgi
+# 	planets: Amathil
+
+# license "cf license weledos clip"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Clip
+# 	government: Avgi
+# 	planets: Livolua
+
+# license "cf license weledos soar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Soar
+# 	government: Avgi
+# 	planets: Stilacrest
+
+# license "cf license weledos thread"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Thread
+# 	government: Avgi
+# 	planets: Cyreal
+
+# license "cf license weledos sail"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sail
+# 	government: Avgi
+# 	planets: Araio
+

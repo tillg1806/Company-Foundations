@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Gagarin.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Belenos
+# 	hq system asteroids: yes
+# 	hq asteroids: large rock count 1 energy 0.977 (7.1%); medium metal count 6 energy 0.871 (42.9%); small metal count 6 energy 0.977 (42.9%); small rock count 1 energy 1.188 (7.1%)
+# 	hq minables: none
+# 	mining system: Thuban
+# 	mining distance: 1
+# 	mining local to hq: no
+# 	mining summary: uranium ore field
+# 	mining value per cargo: 158
+# 	mining quality: 23
+# 	mining asteroids: large rock count 25 energy 4 (64.1%); small metal count 14 energy 7 (35.9%)
+# 	mining minables: titanium abundance 11 density 1 (48.5%); uranium abundance 9 density 1.3 (51.5%)
+# 	shuttle route: Gagarin -> Alvorada
+# 	shuttle system: Citadelle
+# 	shuttle distance: 2
+# 	trading route: Gagarin -> Alvorada
+# 	trading system: Citadelle
+# 	trading distance: 2
+# 	trading commodity: Luxury Goods
+# 	trading base value: 84
+# 	trading optimized value: 140
+# 	security route: Gagarin -> Alvorada
+# 	security system: Citadelle
+# 	security distance: 2
+
+# license "cf license gagarin alpherg"
+# 	tier: regional
+# 	distance: 2
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license gagarin citadelle"
+# 	tier: regional
+# 	distance: 2
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license gagarin men"
+# 	tier: regional
+# 	distance: 2
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license gagarin kappa centauri"
+# 	tier: long
+# 	distance: 4
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license gagarin pherkad"
+# 	tier: long
+# 	distance: 4
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license gagarin alniyat"
+# 	tier: long
+# 	distance: 5
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license gagarin yed prior"
+# 	tier: long
+# 	distance: 5
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license gagarin aldhibain"
+# 	tier: long
+# 	distance: 6
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license gagarin antares"
+# 	tier: long
+# 	distance: 6
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license gagarin dschubba"
+# 	tier: long
+# 	distance: 6
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license gagarin graffias"
+# 	tier: long
+# 	distance: 6
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license gagarin han"
+# 	tier: long
+# 	distance: 6
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license gagarin atria"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license gagarin kornephoros"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license gagarin sabik"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license gagarin girtab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license gagarin rastaban"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license gagarin sargas"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license gagarin shaula"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license gagarin unukalhai"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license gagarin albaldah"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license gagarin alioth"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license gagarin delta sagittarii"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license gagarin seginus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license gagarin zubeneschamali"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license gagarin albireo"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license gagarin alphecca"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license gagarin hadar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license gagarin kaus borealis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license gagarin kochab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license gagarin nunki"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license gagarin vindemiatrix"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license gagarin alkaid"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license gagarin arcturus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license gagarin ascella"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license gagarin cebalrai"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license gagarin cor caroli"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license gagarin dabih"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license gagarin izar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license gagarin kaus australis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license gagarin muhlifain"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license gagarin peacock"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license gagarin rutilicus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license gagarin sarin"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license gagarin tarazed"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license gagarin zeta centauri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license gagarin acrux"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license gagarin algorel"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license gagarin enif"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license gagarin menkent"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license gagarin rasalhague"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license gagarin zeta aquilae"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license gagarin phecda"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license gagarin sadalmelik"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license gagarin sadalsuud"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license gagarin turais"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license gagarin vega"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license gagarin altair"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license gagarin delta velorum"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license gagarin merak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license gagarin mimosa"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license gagarin porrima"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license gagarin sol"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license gagarin spica"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license gagarin tania australis"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license gagarin alpha centauri"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license gagarin caph"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license gagarin delta capricorni"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license gagarin denebola"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license gagarin fomalhaut"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license gagarin gamma corvi"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license gagarin kraz"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license gagarin sirius"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license gagarin alderamin"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license gagarin alphard"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license gagarin diphda"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license gagarin markab"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license gagarin scheat"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license gagarin zosma"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license gagarin al dhanab"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license gagarin alnair"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license gagarin ankaa"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license gagarin capella"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license gagarin dubhe"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license gagarin gomeisa"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license gagarin matar"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license gagarin miaplacidus"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license gagarin mirach"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license gagarin pollux"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license gagarin talita"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license gagarin achernar"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license gagarin adhara"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license gagarin aldebaran"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license gagarin alpheratz"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license gagarin castor"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license gagarin elnath"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license gagarin epsilon leonis"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license gagarin ruchbah"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license gagarin schedar"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license gagarin tejat"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license gagarin algol"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license gagarin alhena"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license gagarin almach"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license gagarin alpha hydri"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license gagarin gienah"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license gagarin hamal"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license gagarin kursa"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license gagarin nihal"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license gagarin phurad"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license gagarin polaris"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license gagarin sheratan"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license gagarin algenib"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license gagarin avior"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license gagarin canopus"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license gagarin regor"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license gagarin wazn"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license gagarin zaurak"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license gagarin alcyone"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license gagarin alheka"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license gagarin markeb"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license gagarin menkar"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license gagarin naos"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license gagarin phact"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license gagarin suhail"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license gagarin aludra"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license gagarin bellatrix"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license gagarin betelgeuse"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license gagarin mebsuta"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license gagarin mirfak"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license gagarin wezen"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license gagarin misam"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license gagarin alnitak"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license gagarin saiph"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license gagarin almaaz"
+# 	tier: frontier
+# 	distance: 26
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license gagarin alnilam"
+# 	tier: frontier
+# 	distance: 28
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license gagarin arneb"
+# 	tier: frontier
+# 	distance: 28
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

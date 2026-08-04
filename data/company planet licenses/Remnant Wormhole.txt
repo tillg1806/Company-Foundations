@@ -1,0 +1,54 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Remnant Wormhole.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Edusa
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 0.7644 (12.5%); large rock count 4 energy 1.274 (50.0%); medium rock count 1 energy 1.55307 (12.5%); small rock count 2 energy 0.74013 (25.0%)
+# 	hq minables: silicon abundance 2 density 1.59549 (100.0%)
+# 	mining system: Edusa
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 0.7644 (12.5%); large rock count 4 energy 1.274 (50.0%); medium rock count 1 energy 1.55307 (12.5%); small rock count 2 energy 0.74013 (25.0%)
+# 	mining minables: silicon abundance 2 density 1.59549 (100.0%)
+# 	shuttle route: Remnant Wormhole -> Viminal
+# 	shuttle system: Arculus
+# 	shuttle distance: 1
+# 	trading route: Remnant Wormhole -> Viminal
+# 	trading system: Arculus
+# 	trading distance: 1
+# 	trading commodity: Equipment
+# 	trading base value: 50
+# 	trading optimized value: 84
+# 	security route: Remnant Wormhole -> Viminal
+# 	security system: Arculus
+# 	security distance: 1
+
+# license "cf license remnant wormhole arculus"
+# 	tier: local
+# 	distance: 1
+# 	system: Arculus
+# 	government: Remnant
+# 	planets: Viminal
+
+# license "cf license remnant wormhole cinxia"
+# 	tier: regional
+# 	distance: 2
+# 	system: Cinxia
+# 	government: Remnant
+# 	planets: Caelian
+
+# license "cf license remnant wormhole pantica"
+# 	tier: regional
+# 	distance: 2
+# 	system: Pantica
+# 	government: Remnant
+# 	planets: Aventine
+

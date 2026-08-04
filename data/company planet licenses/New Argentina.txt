@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on New Argentina.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Vindemiatrix
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 2 energy 6.2712 (0.8%); large rock count 2 energy 6.6456 (0.8%); medium metal count 1 energy 5.4288 (0.4%); medium rock count 90 energy 4.0716 (35.6%); small metal count 8 energy 3.1356 (3.2%); small rock count 150 energy 4.446 (59.3%)
+# 	hq minables: aluminum abundance 13 density 5.95585 (67.9%); iron abundance 2 density 7.3644 (12.9%); lead abundance 3 density 7.31755 (19.2%)
+# 	mining system: Vindemiatrix
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: aluminum ore field
+# 	mining value per cargo: 131
+# 	mining quality: 114
+# 	mining asteroids: large metal count 2 energy 6.2712 (0.8%); large rock count 2 energy 6.6456 (0.8%); medium metal count 1 energy 5.4288 (0.4%); medium rock count 90 energy 4.0716 (35.6%); small metal count 8 energy 3.1356 (3.2%); small rock count 150 energy 4.446 (59.3%)
+# 	mining minables: aluminum abundance 13 density 5.95585 (67.9%); iron abundance 2 density 7.3644 (12.9%); lead abundance 3 density 7.31755 (19.2%)
+# 	shuttle route: New Argentina -> Big Sky
+# 	shuttle system: Sarin
+# 	shuttle distance: 1
+# 	trading route: New Argentina -> Big Sky
+# 	trading system: Sarin
+# 	trading distance: 1
+# 	trading commodity: Plastic
+# 	trading base value: 35
+# 	trading optimized value: 59
+# 	security route: New Argentina -> Big Sky
+# 	security system: Sarin
+# 	security distance: 1
+
+# license "cf license new argentina alioth"
+# 	tier: local
+# 	distance: 1
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license new argentina cor caroli"
+# 	tier: local
+# 	distance: 1
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license new argentina muhlifain"
+# 	tier: local
+# 	distance: 1
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license new argentina sarin"
+# 	tier: local
+# 	distance: 1
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license new argentina algorel"
+# 	tier: regional
+# 	distance: 2
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license new argentina alphecca"
+# 	tier: regional
+# 	distance: 2
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license new argentina arcturus"
+# 	tier: regional
+# 	distance: 3
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license new argentina kornephoros"
+# 	tier: regional
+# 	distance: 3
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license new argentina phecda"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license new argentina rutilicus"
+# 	tier: regional
+# 	distance: 3
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license new argentina seginus"
+# 	tier: regional
+# 	distance: 3
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license new argentina turais"
+# 	tier: regional
+# 	distance: 3
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license new argentina aldhibain"
+# 	tier: long
+# 	distance: 4
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license new argentina cebalrai"
+# 	tier: long
+# 	distance: 4
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license new argentina delta velorum"
+# 	tier: long
+# 	distance: 4
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license new argentina kaus borealis"
+# 	tier: long
+# 	distance: 4
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license new argentina menkent"
+# 	tier: long
+# 	distance: 4
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license new argentina merak"
+# 	tier: long
+# 	distance: 4
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license new argentina sabik"
+# 	tier: long
+# 	distance: 4
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license new argentina sargas"
+# 	tier: long
+# 	distance: 4
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license new argentina tania australis"
+# 	tier: long
+# 	distance: 4
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license new argentina alniyat"
+# 	tier: long
+# 	distance: 5
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license new argentina denebola"
+# 	tier: long
+# 	distance: 5
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license new argentina dschubba"
+# 	tier: long
+# 	distance: 5
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license new argentina porrima"
+# 	tier: long
+# 	distance: 5
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license new argentina rasalhague"
+# 	tier: long
+# 	distance: 5
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license new argentina unukalhai"
+# 	tier: long
+# 	distance: 5
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license new argentina vega"
+# 	tier: long
+# 	distance: 5
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license new argentina alphard"
+# 	tier: long
+# 	distance: 6
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license new argentina altair"
+# 	tier: long
+# 	distance: 6
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license new argentina antares"
+# 	tier: long
+# 	distance: 6
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license new argentina ascella"
+# 	tier: long
+# 	distance: 6
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license new argentina atria"
+# 	tier: long
+# 	distance: 6
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license new argentina delta sagittarii"
+# 	tier: long
+# 	distance: 6
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license new argentina girtab"
+# 	tier: long
+# 	distance: 6
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license new argentina graffias"
+# 	tier: long
+# 	distance: 6
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license new argentina han"
+# 	tier: long
+# 	distance: 6
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license new argentina pherkad"
+# 	tier: long
+# 	distance: 6
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license new argentina rastaban"
+# 	tier: long
+# 	distance: 6
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license new argentina shaula"
+# 	tier: long
+# 	distance: 6
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license new argentina sol"
+# 	tier: long
+# 	distance: 6
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license new argentina zeta aquilae"
+# 	tier: long
+# 	distance: 6
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license new argentina zosma"
+# 	tier: long
+# 	distance: 6
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license new argentina zubeneschamali"
+# 	tier: long
+# 	distance: 6
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license new argentina albaldah"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license new argentina alpha centauri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license new argentina caph"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license new argentina delta capricorni"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license new argentina dubhe"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license new argentina fomalhaut"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license new argentina gomeisa"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license new argentina hadar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license new argentina kappa centauri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license new argentina kochab"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license new argentina miaplacidus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license new argentina peacock"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license new argentina sirius"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license new argentina talita"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license new argentina yed prior"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license new argentina adhara"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license new argentina albireo"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license new argentina alderamin"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license new argentina alkaid"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license new argentina castor"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license new argentina dabih"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license new argentina diphda"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license new argentina epsilon leonis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license new argentina izar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license new argentina kaus australis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license new argentina markab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license new argentina men"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license new argentina nunki"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license new argentina pollux"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license new argentina scheat"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license new argentina tejat"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license new argentina zeta centauri"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license new argentina acrux"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license new argentina al dhanab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license new argentina alnair"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license new argentina ankaa"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license new argentina capella"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license new argentina matar"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license new argentina mirach"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license new argentina phurad"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license new argentina tarazed"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license new argentina achernar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license new argentina aldebaran"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license new argentina alhena"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license new argentina alpheratz"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license new argentina avior"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license new argentina belenos"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license new argentina canopus"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license new argentina elnath"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license new argentina enif"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license new argentina regor"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license new argentina ruchbah"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license new argentina schedar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license new argentina wazn"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license new argentina algol"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license new argentina alheka"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license new argentina almach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license new argentina alpha hydri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license new argentina alpherg"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license new argentina citadelle"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license new argentina gienah"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license new argentina hamal"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license new argentina kursa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license new argentina markeb"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license new argentina mimosa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license new argentina naos"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license new argentina nihal"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license new argentina phact"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license new argentina polaris"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license new argentina sadalmelik"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license new argentina sadalsuud"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license new argentina sheratan"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license new argentina spica"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license new argentina suhail"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license new argentina algenib"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license new argentina aludra"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license new argentina betelgeuse"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license new argentina gamma corvi"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license new argentina kraz"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license new argentina mebsuta"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license new argentina wezen"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license new argentina zaurak"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license new argentina alcyone"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license new argentina menkar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license new argentina alnitak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license new argentina bellatrix"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license new argentina mirfak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license new argentina saiph"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license new argentina misam"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license new argentina almaaz"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license new argentina alnilam"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license new argentina arneb"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

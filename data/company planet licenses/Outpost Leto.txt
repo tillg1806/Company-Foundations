@@ -1,0 +1,124 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Outpost Leto.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Demilude
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 3 energy 2.8 (30.0%); large rock count 1 energy 2.296 (10.0%); small metal count 6 energy 1.624 (60.0%)
+# 	hq minables: copper abundance 3 density 2.311 (11.7%); neodymium abundance 5 density 5.232 (44.0%); silver abundance 7 density 3.762 (44.3%)
+# 	mining system: Demilude
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 3 energy 2.8 (30.0%); large rock count 1 energy 2.296 (10.0%); small metal count 6 energy 1.624 (60.0%)
+# 	mining minables: copper abundance 3 density 2.311 (11.7%); neodymium abundance 5 density 5.232 (44.0%); silver abundance 7 density 3.762 (44.3%)
+# 	shuttle route: Outpost Leto -> Feo Platform
+# 	shuttle system: Arche
+# 	shuttle distance: 4
+# 	trading route: Outpost Leto -> Feo Platform
+# 	trading system: Arche
+# 	trading distance: 4
+# 	trading commodity: general cargo
+# 	trading base value: 35
+# 	trading optimized value: 40
+# 	security route: Outpost Leto -> Feo Platform
+# 	security system: Arche
+# 	security distance: 4
+
+# license "cf license outpost leto arche"
+# 	tier: long
+# 	distance: 4
+# 	system: Arche
+# 	government: Avgi (Twilight Guard)
+# 	planets: Feo Platform
+
+# license "cf license outpost leto ensemble"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ensemble
+# 	government: Avgi (Consonance)
+# 	planets: Weledos
+
+# license "cf license outpost leto anax"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Anax
+# 	government: Avgi
+# 	planets: Aviskir, Thilos
+
+# license "cf license outpost leto interlude"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Interlude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Tekis
+
+# license "cf license outpost leto prelude"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Prelude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Enka
+
+# license "cf license outpost leto wake"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Wake
+# 	government: Avgi
+# 	planets: Amathil
+
+# license "cf license outpost leto anthem"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Anthem
+# 	government: Avgi (Consonance)
+# 	planets: Outpost Pilos
+
+# license "cf license outpost leto clip"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Clip
+# 	government: Avgi
+# 	planets: Livolua
+
+# license "cf license outpost leto soar"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Soar
+# 	government: Avgi
+# 	planets: Stilacrest
+
+# license "cf license outpost leto thread"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Thread
+# 	government: Avgi
+# 	planets: Cyreal
+
+# license "cf license outpost leto sail"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sail
+# 	government: Avgi
+# 	planets: Araio
+
+# license "cf license outpost leto concerto"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Concerto
+# 	government: Avgi (Consonance)
+# 	planets: Peripheria
+
+# license "cf license outpost leto symphony"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Symphony
+# 	government: Avgi (Consonance)
+# 	planets: Ergastirio Station, Navigeo Yards
+

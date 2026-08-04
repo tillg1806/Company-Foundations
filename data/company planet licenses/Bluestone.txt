@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Bluestone.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Bellatrix
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 22 energy 7.8338 (30.1%); large rock count 4 energy 5.7408 (5.5%); medium metal count 31 energy 8.372 (42.5%); medium rock count 4 energy 8.97 (5.5%); small metal count 6 energy 3.289 (8.2%); small rock count 6 energy 4.8438 (8.2%)
+# 	hq minables: silicon abundance 16 density 8.64459 (100.0%)
+# 	mining system: Bellatrix
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: silicon ore field
+# 	mining value per cargo: 90
+# 	mining quality: 138
+# 	mining asteroids: large metal count 22 energy 7.8338 (30.1%); large rock count 4 energy 5.7408 (5.5%); medium metal count 31 energy 8.372 (42.5%); medium rock count 4 energy 8.97 (5.5%); small metal count 6 energy 3.289 (8.2%); small rock count 6 energy 4.8438 (8.2%)
+# 	mining minables: silicon abundance 16 density 8.64459 (100.0%)
+# 	shuttle route: Bluestone -> Icefall
+# 	shuttle system: Menkar
+# 	shuttle distance: 1
+# 	trading route: Bluestone -> Icefall
+# 	trading system: Menkar
+# 	trading distance: 1
+# 	trading commodity: Medical
+# 	trading base value: 46
+# 	trading optimized value: 77
+# 	security route: Bluestone -> Icefall
+# 	security system: Menkar
+# 	security distance: 1
+
+# license "cf license bluestone menkar"
+# 	tier: local
+# 	distance: 1
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license bluestone mirfak"
+# 	tier: local
+# 	distance: 1
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license bluestone zaurak"
+# 	tier: regional
+# 	distance: 2
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license bluestone alcyone"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license bluestone sheratan"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license bluestone ruchbah"
+# 	tier: long
+# 	distance: 4
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license bluestone algol"
+# 	tier: long
+# 	distance: 5
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license bluestone alpha hydri"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license bluestone alpheratz"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license bluestone ankaa"
+# 	tier: long
+# 	distance: 5
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license bluestone hamal"
+# 	tier: long
+# 	distance: 5
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license bluestone misam"
+# 	tier: long
+# 	distance: 5
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license bluestone nihal"
+# 	tier: long
+# 	distance: 5
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license bluestone achernar"
+# 	tier: long
+# 	distance: 6
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license bluestone al dhanab"
+# 	tier: long
+# 	distance: 6
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license bluestone diphda"
+# 	tier: long
+# 	distance: 6
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license bluestone elnath"
+# 	tier: long
+# 	distance: 6
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license bluestone markab"
+# 	tier: long
+# 	distance: 6
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license bluestone aldebaran"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license bluestone alnitak"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license bluestone betelgeuse"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license bluestone caph"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license bluestone delta capricorni"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license bluestone fomalhaut"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license bluestone kursa"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license bluestone mirach"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license bluestone polaris"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license bluestone saiph"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license bluestone scheat"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license bluestone schedar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license bluestone alderamin"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license bluestone alheka"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license bluestone almach"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license bluestone altair"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license bluestone capella"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license bluestone matar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license bluestone sol"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license bluestone wazn"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license bluestone alhena"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license bluestone almaaz"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license bluestone alnair"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license bluestone alpha centauri"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license bluestone canopus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license bluestone denebola"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license bluestone mebsuta"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license bluestone phact"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license bluestone phurad"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license bluestone sirius"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license bluestone vega"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license bluestone castor"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license bluestone gienah"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license bluestone menkent"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license bluestone merak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license bluestone pollux"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license bluestone tejat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license bluestone algenib"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license bluestone alnilam"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license bluestone arneb"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license bluestone cebalrai"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license bluestone miaplacidus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license bluestone phecda"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license bluestone porrima"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license bluestone rutilicus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license bluestone talita"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license bluestone algorel"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license bluestone alphard"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license bluestone arcturus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license bluestone kaus borealis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license bluestone rasalhague"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license bluestone tania australis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license bluestone alioth"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license bluestone ascella"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license bluestone cor caroli"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license bluestone turais"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license bluestone zeta aquilae"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license bluestone zosma"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license bluestone alphecca"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license bluestone delta sagittarii"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license bluestone delta velorum"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license bluestone dubhe"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license bluestone gomeisa"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license bluestone peacock"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license bluestone rastaban"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license bluestone seginus"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license bluestone vindemiatrix"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license bluestone adhara"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license bluestone epsilon leonis"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license bluestone girtab"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license bluestone kaus australis"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license bluestone kornephoros"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license bluestone muhlifain"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license bluestone sarin"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license bluestone albaldah"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license bluestone aldhibain"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license bluestone atria"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license bluestone dabih"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license bluestone dschubba"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license bluestone sabik"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license bluestone sargas"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license bluestone shaula"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license bluestone albireo"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license bluestone alniyat"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license bluestone avior"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license bluestone han"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license bluestone nunki"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license bluestone regor"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license bluestone tarazed"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license bluestone unukalhai"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license bluestone antares"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license bluestone enif"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license bluestone graffias"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license bluestone markeb"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license bluestone naos"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license bluestone pherkad"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license bluestone suhail"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license bluestone zubeneschamali"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license bluestone aludra"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license bluestone hadar"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license bluestone kappa centauri"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license bluestone kochab"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license bluestone sadalmelik"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license bluestone sadalsuud"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license bluestone wezen"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license bluestone yed prior"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license bluestone alkaid"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license bluestone izar"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license bluestone men"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license bluestone zeta centauri"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license bluestone acrux"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license bluestone belenos"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license bluestone alpherg"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license bluestone citadelle"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license bluestone mimosa"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license bluestone spica"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license bluestone gamma corvi"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license bluestone kraz"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

@@ -1,0 +1,180 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Makerplace.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Ula Mon
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 2 energy 2.793 (5.7%); large rock count 14 energy 5.3865 (40.0%); medium metal count 5 energy 3.99 (14.3%); medium rock count 12 energy 2.793 (34.3%); small metal count 1 energy 3.2319 (2.9%); small rock count 1 energy 3.2319 (2.9%)
+# 	hq minables: silicon abundance 9 density 5.62634 (84.8%); titanium abundance 2 density 4.55496 (15.2%)
+# 	mining system: Wah Yoot
+# 	mining distance: 3
+# 	mining local to hq: no
+# 	mining summary: silicon ore field
+# 	mining value per cargo: 90
+# 	mining quality: 175
+# 	mining asteroids: large metal count 2 energy 5.6628 (2.2%); large rock count 9 energy 2.6532 (9.8%); medium metal count 10 energy 2.2968 (10.9%); medium rock count 26 energy 3.4452 (28.3%); small metal count 1 energy 4.4352 (1.1%); small rock count 44 energy 2.0592 (47.8%)
+# 	mining minables: lead abundance 14 density 3.40165 (27.3%); silicon abundance 30 density 4.23582 (72.7%)
+# 	shuttle route: Makerplace -> Darkmetal
+# 	shuttle system: Mei Yohn
+# 	shuttle distance: 1
+# 	trading route: Makerplace -> Darkmetal
+# 	trading system: Mei Yohn
+# 	trading distance: 1
+# 	trading commodity: Luxury Goods
+# 	trading base value: 69
+# 	trading optimized value: 115
+# 	security route: Makerplace -> Darkmetal
+# 	security system: Mei Yohn
+# 	security distance: 1
+
+# license "cf license makerplace bote asu"
+# 	tier: local
+# 	distance: 1
+# 	system: Bote Asu
+# 	government: Hai
+# 	planets: Everhope
+
+# license "cf license makerplace io lowe"
+# 	tier: local
+# 	distance: 1
+# 	system: Io Lowe
+# 	government: Hai
+# 	planets: Greymoon, Heartvalley
+
+# license "cf license makerplace mei yohn"
+# 	tier: local
+# 	distance: 1
+# 	system: Mei Yohn
+# 	government: Hai
+# 	planets: Darkmetal
+
+# license "cf license makerplace ya hai"
+# 	tier: local
+# 	distance: 1
+# 	system: Ya Hai
+# 	government: Hai
+# 	planets: Hai-home, Mirrorlake
+
+# license "cf license makerplace bore fah"
+# 	tier: regional
+# 	distance: 2
+# 	system: Bore Fah
+# 	government: Hai
+# 	planets: Snowfeather
+
+# license "cf license makerplace da ent"
+# 	tier: regional
+# 	distance: 2
+# 	system: Da Ent
+# 	government: Hai
+# 	planets: Newhome
+
+# license "cf license makerplace heia due"
+# 	tier: regional
+# 	distance: 2
+# 	system: Heia Due
+# 	government: Hai
+# 	planets: Allhome
+
+# license "cf license makerplace uwa fahn"
+# 	tier: regional
+# 	distance: 2
+# 	system: Uwa Fahn
+# 	government: Hai
+# 	planets: Icelake, Swiftsong
+
+# license "cf license makerplace wah ki"
+# 	tier: regional
+# 	distance: 2
+# 	system: Wah Ki
+# 	government: Hai
+# 	planets: Cloudfire
+
+# license "cf license makerplace zuba zub"
+# 	tier: regional
+# 	distance: 2
+# 	system: Zuba Zub
+# 	government: Hai
+# 	planets: Giverstone
+
+# license "cf license makerplace da lest"
+# 	tier: regional
+# 	distance: 3
+# 	system: Da Lest
+# 	government: Hai
+# 	planets: Frostmark
+
+# license "cf license makerplace due yoot"
+# 	tier: regional
+# 	distance: 3
+# 	system: Due Yoot
+# 	government: Hai
+# 	planets: Greenbloom, Greenview
+
+# license "cf license makerplace imo dep"
+# 	tier: regional
+# 	distance: 3
+# 	system: Imo Dep
+# 	government: Hai
+# 	planets: Stonebreak
+
+# license "cf license makerplace rati cal"
+# 	tier: regional
+# 	distance: 3
+# 	system: Rati Cal
+# 	government: Hai
+# 	planets: Dustmaker
+
+# license "cf license makerplace wah yoot"
+# 	tier: regional
+# 	distance: 3
+# 	system: Wah Yoot
+# 	government: Hai (Unfettered)
+# 	planets: Darkcloak
+
+# license "cf license makerplace ehma ti"
+# 	tier: long
+# 	distance: 4
+# 	system: Ehma Ti
+# 	government: Hai (Unfettered)
+# 	planets: Firelode
+
+# license "cf license makerplace hi yahr"
+# 	tier: long
+# 	distance: 4
+# 	system: Hi Yahr
+# 	government: Hai (Unfettered)
+# 	planets: Warfeed
+
+# license "cf license makerplace io mann"
+# 	tier: long
+# 	distance: 4
+# 	system: Io Mann
+# 	government: Hai
+# 	planets: Skyfarm
+
+# license "cf license makerplace wah oh"
+# 	tier: long
+# 	distance: 4
+# 	system: Wah Oh
+# 	government: Hai
+# 	planets: Farwater, Ochrescoop
+
+# license "cf license makerplace fah soom"
+# 	tier: long
+# 	distance: 5
+# 	system: Fah Soom
+# 	government: Hai
+# 	planets: Greenwater
+
+# license "cf license makerplace hevru hai"
+# 	tier: long
+# 	distance: 6
+# 	system: Hevru Hai
+# 	government: Quarg (Hai)
+# 	planets: Alta Hai
+

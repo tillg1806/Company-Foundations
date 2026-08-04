@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Shifting Sand.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Good Omen
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 2.8462 (16.7%); large rock count 1 energy 3.4048 (16.7%); medium metal count 2 energy 3.5378 (33.3%); medium rock count 1 energy 3.99 (16.7%); small rock count 1 energy 2.5536 (16.7%)
+# 	hq minables: none
+# 	mining system: Good Omen
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 2.8462 (16.7%); large rock count 1 energy 3.4048 (16.7%); medium metal count 2 energy 3.5378 (33.3%); medium rock count 1 energy 3.99 (16.7%); small rock count 1 energy 2.5536 (16.7%)
+# 	mining minables: none
+# 	shuttle route: Shifting Sand -> Glittering Ice
+# 	shuttle system: Beginning
+# 	shuttle distance: 1
+# 	trading route: Shifting Sand -> Glittering Ice
+# 	trading system: Beginning
+# 	trading distance: 1
+# 	trading commodity: Equipment
+# 	trading base value: 50
+# 	trading optimized value: 84
+# 	security route: Shifting Sand -> Glittering Ice
+# 	security system: Beginning
+# 	security distance: 1
+
+# license "cf license shifting sand beginning"
+# 	tier: local
+# 	distance: 1
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license shifting sand belonging"
+# 	tier: regional
+# 	distance: 2
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license shifting sand fallen leaf"
+# 	tier: regional
+# 	distance: 2
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license shifting sand remembrance"
+# 	tier: regional
+# 	distance: 2
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license shifting sand broken bowl"
+# 	tier: regional
+# 	distance: 3
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license shifting sand hunter"
+# 	tier: regional
+# 	distance: 3
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license shifting sand sol saryd"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license shifting sand ancient hope"
+# 	tier: long
+# 	distance: 4
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license shifting sand answer"
+# 	tier: long
+# 	distance: 4
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license shifting sand companion"
+# 	tier: long
+# 	distance: 4
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license shifting sand silver bell"
+# 	tier: long
+# 	distance: 4
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license shifting sand steep roof"
+# 	tier: long
+# 	distance: 4
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license shifting sand far horizon"
+# 	tier: long
+# 	distance: 5
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license shifting sand homeward"
+# 	tier: long
+# 	distance: 5
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license shifting sand last word"
+# 	tier: long
+# 	distance: 5
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license shifting sand silver string"
+# 	tier: long
+# 	distance: 5
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license shifting sand fell omen"
+# 	tier: long
+# 	distance: 6
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license shifting sand four pillars"
+# 	tier: long
+# 	distance: 6
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license shifting sand quaru"
+# 	tier: long
+# 	distance: 6
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license shifting sand ekuarik"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license shifting sand ki war ek"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license shifting sand lone cloud"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+
+# license "cf license shifting sand 14 winter below"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license shifting sand 5 axis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license shifting sand belug"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license shifting sand speloog"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license shifting sand 4 axis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license shifting sand 8 winter below"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license shifting sand 3 axis"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license shifting sand debrugt"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license shifting sand flugbu"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license shifting sand 1 axis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license shifting sand 11 spring below"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license shifting sand 4 winter rising"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license shifting sand ablodab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license shifting sand mebla"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license shifting sand 4 spring rising"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license shifting sand 5 winter above"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license shifting sand gupta"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license shifting sand pelubta"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license shifting sand sol kimek"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license shifting sand 3 pole"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license shifting sand 3 spring rising"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license shifting sand 9 spring above"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license shifting sand belugt"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license shifting sand blugtad"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license shifting sand meblumem"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license shifting sand sol arach"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license shifting sand 14 summer above"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license shifting sand 4 summer rising"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license shifting sand 5 summer above"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license shifting sand 7 autumn rising"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license shifting sand bloptab"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license shifting sand blubipad"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license shifting sand eblumab"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license shifting sand glubatub"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license shifting sand miblulub"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license shifting sand plort"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license shifting sand 10 pole"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license shifting sand 12 autumn above"
+# 	tier: frontier
+# 	distance: 15
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license shifting sand ablub"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license shifting sand tebuteb"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license shifting sand 14 pole"
+# 	tier: frontier
+# 	distance: 16
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+

@@ -1,0 +1,145 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Essime.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Ptetubo
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 3 energy 1.1 (8.8%); large rock count 10 energy 1.2 (29.4%); medium metal count 11 energy 1.26 (32.4%); medium rock count 5 energy 1.3 (14.7%); small metal count 4 energy 1.4 (11.8%); small rock count 1 energy 1.13 (2.9%)
+# 	hq minables: copper abundance 44 density 3.12 (94.0%); titanium abundance 3 density 2.3 (4.7%); uranium abundance 2 density 0.9 (1.2%)
+# 	mining system: Ptetubo
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 3 energy 1.1 (8.8%); large rock count 10 energy 1.2 (29.4%); medium metal count 11 energy 1.26 (32.4%); medium rock count 5 energy 1.3 (14.7%); small metal count 4 energy 1.4 (11.8%); small rock count 1 energy 1.13 (2.9%)
+# 	mining minables: copper abundance 44 density 3.12 (94.0%); titanium abundance 3 density 2.3 (4.7%); uranium abundance 2 density 0.9 (1.2%)
+# 	shuttle route: Essime -> Graede
+# 	shuttle system: Scija
+# 	shuttle distance: 1
+# 	trading route: Essime -> Graede
+# 	trading system: Scija
+# 	trading distance: 1
+# 	trading commodity: Industrial
+# 	trading base value: 36
+# 	trading optimized value: 60
+# 	security route: Essime -> Graede
+# 	security system: Scija
+# 	security distance: 1
+
+# license "cf license essime scija"
+# 	tier: local
+# 	distance: 1
+# 	system: Scija
+# 	government: Gegno Vi
+# 	planets: Graede, Siedi
+
+# license "cf license essime kiluit"
+# 	tier: regional
+# 	distance: 2
+# 	system: Kiluit
+# 	government: Gegno Vi
+# 	planets: Enbye
+
+# license "cf license essime nnaug"
+# 	tier: regional
+# 	distance: 2
+# 	system: Nnaug
+# 	government: Gegno Vi
+# 	planets: Sies Upi
+
+# license "cf license essime ookmya"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ookmya
+# 	government: Gegno Vi
+# 	planets: Ternituul
+
+# license "cf license essime oosuoro"
+# 	tier: long
+# 	distance: 4
+# 	system: Oosuoro
+# 	government: Gegno
+# 	planets: Tschyss
+
+# license "cf license essime heutesl"
+# 	tier: long
+# 	distance: 5
+# 	system: Heutesl
+# 	government: Gegno
+# 	planets: Dueyu Eitch, Iemn Eitch
+
+# license "cf license essime asio"
+# 	tier: long
+# 	distance: 6
+# 	system: Asio
+# 	government: Gegno
+# 	planets: Ef Aourtdye
+
+# license "cf license essime iliniza"
+# 	tier: long
+# 	distance: 6
+# 	system: Iliniza
+# 	government: Gegno Scin
+# 	planets: Enn Bue
+
+# license "cf license essime pbelnep"
+# 	tier: long
+# 	distance: 6
+# 	system: Pbelnep
+# 	government: Gegno Scin
+# 	planets: Ef Osch
+
+# license "cf license essime aleit"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Aleit
+# 	government: Quarg (Gegno)
+# 	planets: Giaru Gegno
+
+# license "cf license essime zeinar"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zeinar
+# 	government: Gegno Scin
+# 	planets: Cipi, Dueitch Ae
+
+# license "cf license essime actannka"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Actannka
+# 	government: Quarg (Gegno)
+# 	planets: Arroharg, Truklar
+
+# license "cf license essime auhru"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Auhru
+# 	government: Gegno Scin
+# 	planets: Oup Je
+
+# license "cf license essime erba yle"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Erba Yle
+# 	government: Gegno Scin
+# 	planets: Gue Faur
+
+# license "cf license essime ghhil"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ghhil
+# 	government: Quarg (Gegno)
+# 	planets: Ruelogakk
+
+# license "cf license essime uttna"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Uttna
+# 	government: Gegno
+# 	planets: Gi Tiures
+

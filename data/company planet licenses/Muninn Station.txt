@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Muninn Station.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Zosma
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 9 energy 3.2175 (10.6%); large rock count 39 energy 3.445 (45.9%); medium metal count 14 energy 3.8025 (16.5%); medium rock count 1 energy 3.77 (1.2%); small metal count 5 energy 4.0625 (5.9%); small rock count 17 energy 3.2175 (20.0%)
+# 	hq minables: iron abundance 4 density 5.44731 (100.0%)
+# 	mining system: Zosma
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: iron ore field
+# 	mining value per cargo: 90
+# 	mining quality: 22
+# 	mining asteroids: large metal count 9 energy 3.2175 (10.6%); large rock count 39 energy 3.445 (45.9%); medium metal count 14 energy 3.8025 (16.5%); medium rock count 1 energy 3.77 (1.2%); small metal count 5 energy 4.0625 (5.9%); small rock count 17 energy 3.2175 (20.0%)
+# 	mining minables: iron abundance 4 density 5.44731 (100.0%)
+# 	shuttle route: Muninn Station -> Follower
+# 	shuttle system: Alphard
+# 	shuttle distance: 1
+# 	trading route: Muninn Station -> Follower
+# 	trading system: Alphard
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 71
+# 	trading optimized value: 118
+# 	security route: Muninn Station -> Follower
+# 	security system: Alphard
+# 	security distance: 1
+
+# license "cf license muninn station alphard"
+# 	tier: local
+# 	distance: 1
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license muninn station dubhe"
+# 	tier: local
+# 	distance: 1
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license muninn station gomeisa"
+# 	tier: local
+# 	distance: 1
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license muninn station adhara"
+# 	tier: regional
+# 	distance: 2
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license muninn station epsilon leonis"
+# 	tier: regional
+# 	distance: 2
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license muninn station miaplacidus"
+# 	tier: regional
+# 	distance: 2
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license muninn station talita"
+# 	tier: regional
+# 	distance: 2
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license muninn station tania australis"
+# 	tier: regional
+# 	distance: 2
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license muninn station castor"
+# 	tier: regional
+# 	distance: 3
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license muninn station phecda"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license muninn station pollux"
+# 	tier: regional
+# 	distance: 3
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license muninn station tejat"
+# 	tier: regional
+# 	distance: 3
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license muninn station algorel"
+# 	tier: long
+# 	distance: 4
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license muninn station avior"
+# 	tier: long
+# 	distance: 4
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license muninn station delta velorum"
+# 	tier: long
+# 	distance: 4
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license muninn station merak"
+# 	tier: long
+# 	distance: 4
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license muninn station phurad"
+# 	tier: long
+# 	distance: 4
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license muninn station regor"
+# 	tier: long
+# 	distance: 4
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license muninn station alhena"
+# 	tier: long
+# 	distance: 5
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license muninn station canopus"
+# 	tier: long
+# 	distance: 5
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license muninn station capella"
+# 	tier: long
+# 	distance: 5
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license muninn station cor caroli"
+# 	tier: long
+# 	distance: 5
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license muninn station denebola"
+# 	tier: long
+# 	distance: 5
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license muninn station markeb"
+# 	tier: long
+# 	distance: 5
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license muninn station naos"
+# 	tier: long
+# 	distance: 5
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license muninn station porrima"
+# 	tier: long
+# 	distance: 5
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license muninn station sirius"
+# 	tier: long
+# 	distance: 5
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license muninn station suhail"
+# 	tier: long
+# 	distance: 5
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license muninn station turais"
+# 	tier: long
+# 	distance: 5
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license muninn station wazn"
+# 	tier: long
+# 	distance: 5
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license muninn station aldebaran"
+# 	tier: long
+# 	distance: 6
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license muninn station alheka"
+# 	tier: long
+# 	distance: 6
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license muninn station aludra"
+# 	tier: long
+# 	distance: 6
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license muninn station arcturus"
+# 	tier: long
+# 	distance: 6
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license muninn station kursa"
+# 	tier: long
+# 	distance: 6
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license muninn station phact"
+# 	tier: long
+# 	distance: 6
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license muninn station sol"
+# 	tier: long
+# 	distance: 6
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license muninn station vindemiatrix"
+# 	tier: long
+# 	distance: 6
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license muninn station wezen"
+# 	tier: long
+# 	distance: 6
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license muninn station alioth"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license muninn station alpha centauri"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license muninn station altair"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license muninn station betelgeuse"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license muninn station caph"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license muninn station elnath"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license muninn station mebsuta"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license muninn station menkent"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license muninn station muhlifain"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license muninn station rutilicus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license muninn station sarin"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license muninn station vega"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license muninn station alphecca"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license muninn station cebalrai"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license muninn station delta capricorni"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license muninn station diphda"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license muninn station fomalhaut"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license muninn station nihal"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license muninn station alderamin"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license muninn station alnitak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license muninn station ankaa"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license muninn station kaus borealis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license muninn station kornephoros"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license muninn station markab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license muninn station rasalhague"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license muninn station saiph"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license muninn station scheat"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license muninn station seginus"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license muninn station al dhanab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license muninn station aldhibain"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license muninn station alnair"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license muninn station ascella"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license muninn station matar"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license muninn station mirach"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license muninn station ruchbah"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license muninn station sabik"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license muninn station sargas"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license muninn station zeta aquilae"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license muninn station achernar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license muninn station algol"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license muninn station almaaz"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license muninn station alniyat"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license muninn station alpha hydri"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license muninn station alpheratz"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license muninn station delta sagittarii"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license muninn station dschubba"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license muninn station hamal"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license muninn station peacock"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license muninn station rastaban"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license muninn station schedar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license muninn station sheratan"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license muninn station unukalhai"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license muninn station almach"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license muninn station antares"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license muninn station atria"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license muninn station gienah"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license muninn station girtab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license muninn station graffias"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license muninn station han"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license muninn station kaus australis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license muninn station mirfak"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license muninn station pherkad"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license muninn station polaris"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license muninn station shaula"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license muninn station zaurak"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license muninn station zubeneschamali"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license muninn station albaldah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license muninn station alcyone"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license muninn station algenib"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license muninn station alnilam"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license muninn station arneb"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license muninn station bellatrix"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license muninn station dabih"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license muninn station hadar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license muninn station kappa centauri"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license muninn station kochab"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license muninn station menkar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license muninn station yed prior"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license muninn station albireo"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license muninn station alkaid"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license muninn station izar"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license muninn station men"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license muninn station nunki"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license muninn station tarazed"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license muninn station zeta centauri"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license muninn station acrux"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license muninn station enif"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license muninn station misam"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license muninn station belenos"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license muninn station sadalmelik"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license muninn station sadalsuud"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license muninn station alpherg"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license muninn station citadelle"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license muninn station mimosa"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license muninn station spica"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license muninn station gamma corvi"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license muninn station kraz"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

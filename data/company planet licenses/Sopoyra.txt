@@ -1,0 +1,152 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Sopoyra.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Ravu Kon
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 7 energy 1.152 (4.3%); large rock count 14 energy 1.098 (8.6%); medium metal count 46 energy 2.502 (28.2%); medium rock count 36 energy 2.484 (22.1%); small metal count 19 energy 1.332 (11.7%); small rock count 41 energy 1.314 (25.2%)
+# 	hq minables: none
+# 	mining system: Ravu Kon
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 7 energy 1.152 (4.3%); large rock count 14 energy 1.098 (8.6%); medium metal count 46 energy 2.502 (28.2%); medium rock count 36 energy 2.484 (22.1%); small metal count 19 energy 1.332 (11.7%); small rock count 41 energy 1.314 (25.2%)
+# 	mining minables: none
+# 	shuttle route: Sopoyra -> Angko
+# 	shuttle system: Mego Inito
+# 	shuttle distance: 1
+# 	trading route: Sopoyra -> Angko
+# 	trading system: Mego Inito
+# 	trading distance: 1
+# 	trading commodity: Industrial
+# 	trading base value: 42
+# 	trading optimized value: 70
+# 	security route: Sopoyra -> Angko
+# 	security system: Mego Inito
+# 	security distance: 1
+
+# license "cf license sopoyra kifrana terberah"
+# 	tier: local
+# 	distance: 1
+# 	system: Kifrana Terberah
+# 	government: Bunrodea
+# 	planets: Kisarra
+
+# license "cf license sopoyra mego inito"
+# 	tier: local
+# 	distance: 1
+# 	system: Mego Inito
+# 	government: Bunrodea
+# 	planets: Angko
+
+# license "cf license sopoyra mego seo"
+# 	tier: local
+# 	distance: 1
+# 	system: Mego Seo
+# 	government: Bunrodea
+# 	planets: Deli Kasi
+
+# license "cf license sopoyra avo chigo"
+# 	tier: regional
+# 	distance: 2
+# 	system: Avo Chigo
+# 	government: Bunrodea (Guard)
+# 	planets: Illbo Avo
+
+# license "cf license sopoyra eragaru le"
+# 	tier: regional
+# 	distance: 2
+# 	system: Eragaru Le
+# 	government: Bunrodea (Guard)
+# 	planets: Eragarthro
+
+# license "cf license sopoyra jentu centi"
+# 	tier: regional
+# 	distance: 2
+# 	system: Jentu Centi
+# 	government: Bunrodea
+# 	planets: Melenci
+
+# license "cf license sopoyra bosuno le"
+# 	tier: regional
+# 	distance: 3
+# 	system: Bosuno Le
+# 	government: Bunrodea (Guard)
+# 	planets: Bosunothro
+
+# license "cf license sopoyra jentu le"
+# 	tier: regional
+# 	distance: 3
+# 	system: Jentu Le
+# 	government: Bunrodea (Guard)
+# 	planets: Jentuthro
+
+# license "cf license sopoyra mego faro"
+# 	tier: regional
+# 	distance: 3
+# 	system: Mego Faro
+# 	government: Bunrodea
+# 	planets: Deli Kat
+
+# license "cf license sopoyra piadenli"
+# 	tier: regional
+# 	distance: 3
+# 	system: Piadenli
+# 	government: Bunrodea
+# 	planets: Disara
+
+# license "cf license sopoyra urba pest"
+# 	tier: regional
+# 	distance: 3
+# 	system: Urba Pest
+# 	government: Bunrodea
+# 	planets: Okoity
+
+# license "cf license sopoyra bunri lemeta"
+# 	tier: long
+# 	distance: 4
+# 	system: Bunri Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Bunthro
+
+# license "cf license sopoyra erabu lemeta"
+# 	tier: long
+# 	distance: 4
+# 	system: Erabu Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Erabuthro
+
+# license "cf license sopoyra shini bori"
+# 	tier: long
+# 	distance: 5
+# 	system: Shini Bori
+# 	government: Bunrodea (Guard)
+# 	planets: Sardva
+
+# license "cf license sopoyra thshybo le"
+# 	tier: long
+# 	distance: 5
+# 	system: Thshybo Le
+# 	government: Bunrodea (Guard)
+# 	planets: Thshybothro
+
+# license "cf license sopoyra elabi choati"
+# 	tier: long
+# 	distance: 6
+# 	system: Elabi Choati
+# 	government: Bunrodea
+# 	planets: Iddesato
+
+# license "cf license sopoyra elo chigo"
+# 	tier: long
+# 	distance: 6
+# 	system: Elo Chigo
+# 	government: Bunrodea
+# 	planets: Illbo Elo
+

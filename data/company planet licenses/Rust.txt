@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Rust.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Kraz
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 7 energy 2.9232 (6.2%); large rock count 4 energy 4.6872 (3.5%); medium metal count 57 energy 3.3264 (50.4%); medium rock count 38 energy 6.7536 (33.6%); small metal count 6 energy 4.1328 (5.3%); small rock count 1 energy 7.2072 (0.9%)
+# 	hq minables: lead abundance 1 density 5.88229 (9.3%); silicon abundance 3 density 7.06939 (33.5%); tungsten abundance 4 density 9.05696 (57.2%)
+# 	mining system: Kraz
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: tungsten ore field
+# 	mining value per cargo: 122
+# 	mining quality: 63
+# 	mining asteroids: large metal count 7 energy 2.9232 (6.2%); large rock count 4 energy 4.6872 (3.5%); medium metal count 57 energy 3.3264 (50.4%); medium rock count 38 energy 6.7536 (33.6%); small metal count 6 energy 4.1328 (5.3%); small rock count 1 energy 7.2072 (0.9%)
+# 	mining minables: lead abundance 1 density 5.88229 (9.3%); silicon abundance 3 density 7.06939 (33.5%); tungsten abundance 4 density 9.05696 (57.2%)
+# 	shuttle route: Rust -> Shorebreak
+# 	shuttle system: Mimosa
+# 	shuttle distance: 1
+# 	trading route: Rust -> Shorebreak
+# 	trading system: Mimosa
+# 	trading distance: 1
+# 	trading commodity: Plastic
+# 	trading base value: 38
+# 	trading optimized value: 64
+# 	security route: Rust -> Shorebreak
+# 	security system: Mimosa
+# 	security distance: 1
+
+# license "cf license rust mimosa"
+# 	tier: local
+# 	distance: 1
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license rust acrux"
+# 	tier: regional
+# 	distance: 3
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license rust spica"
+# 	tier: regional
+# 	distance: 3
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license rust gamma corvi"
+# 	tier: long
+# 	distance: 4
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license rust izar"
+# 	tier: long
+# 	distance: 4
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license rust zeta centauri"
+# 	tier: long
+# 	distance: 4
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license rust hadar"
+# 	tier: long
+# 	distance: 5
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license rust alkaid"
+# 	tier: long
+# 	distance: 6
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license rust zubeneschamali"
+# 	tier: long
+# 	distance: 6
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license rust kochab"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license rust sabik"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license rust unukalhai"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license rust aldhibain"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license rust kornephoros"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license rust alniyat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license rust dschubba"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license rust sargas"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license rust alioth"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license rust antares"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license rust atria"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license rust graffias"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license rust han"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license rust pherkad"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license rust seginus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license rust alphecca"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license rust girtab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license rust kappa centauri"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license rust kaus borealis"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license rust rastaban"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license rust shaula"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license rust vindemiatrix"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license rust yed prior"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license rust albaldah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license rust arcturus"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license rust cebalrai"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license rust cor caroli"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license rust delta sagittarii"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license rust men"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license rust muhlifain"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license rust rutilicus"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license rust sarin"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license rust albireo"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license rust algorel"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license rust menkent"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license rust nunki"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license rust rasalhague"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license rust ascella"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license rust belenos"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license rust dabih"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license rust kaus australis"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license rust peacock"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license rust phecda"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license rust tarazed"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license rust turais"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license rust vega"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license rust zeta aquilae"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license rust alpherg"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license rust altair"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license rust citadelle"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license rust delta velorum"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license rust enif"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license rust merak"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license rust porrima"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license rust sol"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license rust tania australis"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license rust alpha centauri"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license rust caph"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license rust delta capricorni"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license rust denebola"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license rust fomalhaut"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license rust sadalmelik"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license rust sadalsuud"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license rust sirius"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license rust alderamin"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license rust alphard"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license rust diphda"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license rust markab"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license rust scheat"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license rust zosma"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license rust al dhanab"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license rust alnair"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license rust ankaa"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license rust capella"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license rust dubhe"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license rust gomeisa"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license rust matar"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license rust miaplacidus"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license rust mirach"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license rust pollux"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license rust talita"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license rust achernar"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license rust adhara"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license rust aldebaran"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license rust alpheratz"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license rust castor"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license rust elnath"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license rust epsilon leonis"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license rust ruchbah"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license rust schedar"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license rust tejat"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license rust algol"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license rust alhena"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license rust almach"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license rust alpha hydri"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license rust gienah"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license rust hamal"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license rust kursa"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license rust nihal"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license rust phurad"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license rust polaris"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license rust sheratan"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license rust algenib"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license rust avior"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license rust canopus"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license rust regor"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license rust wazn"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license rust zaurak"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license rust alcyone"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license rust alheka"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license rust markeb"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license rust menkar"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license rust naos"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license rust phact"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license rust suhail"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license rust aludra"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license rust bellatrix"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license rust betelgeuse"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license rust mebsuta"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license rust mirfak"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license rust wezen"
+# 	tier: frontier
+# 	distance: 24
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license rust misam"
+# 	tier: frontier
+# 	distance: 25
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license rust alnitak"
+# 	tier: frontier
+# 	distance: 26
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license rust saiph"
+# 	tier: frontier
+# 	distance: 26
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license rust almaaz"
+# 	tier: frontier
+# 	distance: 28
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license rust alnilam"
+# 	tier: frontier
+# 	distance: 30
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license rust arneb"
+# 	tier: frontier
+# 	distance: 30
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

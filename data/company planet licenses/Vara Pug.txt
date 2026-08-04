@@ -1,0 +1,33 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Vara Pug.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Pug Iyik
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 34 energy 10.962 (11.8%); large rock count 28 energy 6.5016 (9.7%); medium metal count 179 energy 8.5428 (61.9%); medium rock count 5 energy 6.9552 (1.7%); small metal count 8 energy 7.7112 (2.8%); small rock count 35 energy 7.6356 (12.1%)
+# 	hq minables: lead abundance 7 density 14.3837 (100.0%)
+# 	mining system: Pug Iyik
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: lead ore field
+# 	mining value per cargo: 90
+# 	mining quality: 101
+# 	mining asteroids: large metal count 34 energy 10.962 (11.8%); large rock count 28 energy 6.5016 (9.7%); medium metal count 179 energy 8.5428 (61.9%); medium rock count 5 energy 6.9552 (1.7%); small metal count 8 energy 7.7112 (2.8%); small rock count 35 energy 7.6356 (12.1%)
+# 	mining minables: lead abundance 7 density 14.3837 (100.0%)
+# 	shuttle route: Vara Pug -> nearby passenger boards
+# 	shuttle system: Pug Iyik
+# 	shuttle distance: 1
+# 	trading route: Vara Pug -> nearby passenger boards
+# 	trading system: Pug Iyik
+# 	trading distance: 1
+# 	trading commodity: general cargo
+# 	trading base value: 35
+# 	trading optimized value: 40
+# 	security route: Vara Pug -> nearby passenger boards
+# 	security system: Pug Iyik
+# 	security distance: 1
+

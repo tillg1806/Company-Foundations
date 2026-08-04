@@ -1,0 +1,152 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Iddesato.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Elabi Choati
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 20 energy 11.76 (24.7%); large rock count 4 energy 10.4272 (4.9%); medium metal count 14 energy 11.4464 (17.3%); medium rock count 32 energy 9.3296 (39.5%); small metal count 2 energy 6.9776 (2.5%); small rock count 9 energy 8.7808 (11.1%)
+# 	hq minables: none
+# 	mining system: Elabi Choati
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 20 energy 11.76 (24.7%); large rock count 4 energy 10.4272 (4.9%); medium metal count 14 energy 11.4464 (17.3%); medium rock count 32 energy 9.3296 (39.5%); small metal count 2 energy 6.9776 (2.5%); small rock count 9 energy 8.7808 (11.1%)
+# 	mining minables: none
+# 	shuttle route: Iddesato -> Illbo Elo
+# 	shuttle system: Elo Chigo
+# 	shuttle distance: 1
+# 	trading route: Iddesato -> Illbo Elo
+# 	trading system: Elo Chigo
+# 	trading distance: 1
+# 	trading commodity: Luxury Goods
+# 	trading base value: 35
+# 	trading optimized value: 50
+# 	security route: Iddesato -> Illbo Elo
+# 	security system: Elo Chigo
+# 	security distance: 1
+
+# license "cf license iddesato elo chigo"
+# 	tier: local
+# 	distance: 1
+# 	system: Elo Chigo
+# 	government: Bunrodea
+# 	planets: Illbo Elo
+
+# license "cf license iddesato thshybo le"
+# 	tier: local
+# 	distance: 1
+# 	system: Thshybo Le
+# 	government: Bunrodea (Guard)
+# 	planets: Thshybothro
+
+# license "cf license iddesato erabu lemeta"
+# 	tier: regional
+# 	distance: 2
+# 	system: Erabu Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Erabuthro
+
+# license "cf license iddesato bosuno le"
+# 	tier: regional
+# 	distance: 3
+# 	system: Bosuno Le
+# 	government: Bunrodea (Guard)
+# 	planets: Bosunothro
+
+# license "cf license iddesato bunri lemeta"
+# 	tier: regional
+# 	distance: 3
+# 	system: Bunri Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Bunthro
+
+# license "cf license iddesato jentu le"
+# 	tier: regional
+# 	distance: 3
+# 	system: Jentu Le
+# 	government: Bunrodea (Guard)
+# 	planets: Jentuthro
+
+# license "cf license iddesato shini bori"
+# 	tier: regional
+# 	distance: 3
+# 	system: Shini Bori
+# 	government: Bunrodea (Guard)
+# 	planets: Sardva
+
+# license "cf license iddesato avo chigo"
+# 	tier: long
+# 	distance: 4
+# 	system: Avo Chigo
+# 	government: Bunrodea (Guard)
+# 	planets: Illbo Avo
+
+# license "cf license iddesato eragaru le"
+# 	tier: long
+# 	distance: 4
+# 	system: Eragaru Le
+# 	government: Bunrodea (Guard)
+# 	planets: Eragarthro
+
+# license "cf license iddesato ravu kon"
+# 	tier: long
+# 	distance: 6
+# 	system: Ravu Kon
+# 	government: Bunrodea
+# 	planets: Sopoyra
+
+# license "cf license iddesato kifrana terberah"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Kifrana Terberah
+# 	government: Bunrodea
+# 	planets: Kisarra
+
+# license "cf license iddesato mego inito"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mego Inito
+# 	government: Bunrodea
+# 	planets: Angko
+
+# license "cf license iddesato mego seo"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mego Seo
+# 	government: Bunrodea
+# 	planets: Deli Kasi
+
+# license "cf license iddesato jentu centi"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Jentu Centi
+# 	government: Bunrodea
+# 	planets: Melenci
+
+# license "cf license iddesato mego faro"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mego Faro
+# 	government: Bunrodea
+# 	planets: Deli Kat
+
+# license "cf license iddesato piadenli"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Piadenli
+# 	government: Bunrodea
+# 	planets: Disara
+
+# license "cf license iddesato urba pest"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Urba Pest
+# 	government: Bunrodea
+# 	planets: Okoity
+

@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Belug's Plunge.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Belug
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 4.3092 (0.7%); large rock count 4 energy 5.7834 (2.6%); medium metal count 108 energy 8.505 (71.5%); medium rock count 25 energy 3.8556 (16.6%); small metal count 12 energy 8.1648 (7.9%); small rock count 1 energy 5.4432 (0.7%)
+# 	hq minables: aluminum abundance 34 density 4.4021 (82.4%); titanium abundance 1 density 5.0326 (2.8%); uranium abundance 4 density 6.72 (14.8%)
+# 	mining system: Belug
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 4.3092 (0.7%); large rock count 4 energy 5.7834 (2.6%); medium metal count 108 energy 8.505 (71.5%); medium rock count 25 energy 3.8556 (16.6%); small metal count 12 energy 8.1648 (7.9%); small rock count 1 energy 5.4432 (0.7%)
+# 	mining minables: aluminum abundance 34 density 4.4021 (82.4%); titanium abundance 1 density 5.0326 (2.8%); uranium abundance 4 density 6.72 (14.8%)
+# 	shuttle route: Belug's Plunge -> Dwelling of Speloog
+# 	shuttle system: Speloog
+# 	shuttle distance: 1
+# 	trading route: Belug's Plunge -> Dwelling of Speloog
+# 	trading system: Speloog
+# 	trading distance: 1
+# 	trading commodity: Equipment
+# 	trading base value: 37
+# 	trading optimized value: 61
+# 	security route: Belug's Plunge -> Dwelling of Speloog
+# 	security system: Speloog
+# 	security distance: 1
+
+# license "cf license belug s plunge ekuarik"
+# 	tier: local
+# 	distance: 1
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license belug s plunge speloog"
+# 	tier: local
+# 	distance: 1
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license belug s plunge ki war ek"
+# 	tier: regional
+# 	distance: 2
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license belug s plunge quaru"
+# 	tier: regional
+# 	distance: 2
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license belug s plunge 14 winter below"
+# 	tier: regional
+# 	distance: 3
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license belug s plunge 5 axis"
+# 	tier: regional
+# 	distance: 3
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license belug s plunge debrugt"
+# 	tier: regional
+# 	distance: 3
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license belug s plunge flugbu"
+# 	tier: regional
+# 	distance: 3
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license belug s plunge homeward"
+# 	tier: regional
+# 	distance: 3
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license belug s plunge last word"
+# 	tier: regional
+# 	distance: 3
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license belug s plunge 4 axis"
+# 	tier: long
+# 	distance: 4
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license belug s plunge 8 winter below"
+# 	tier: long
+# 	distance: 4
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license belug s plunge ablodab"
+# 	tier: long
+# 	distance: 4
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license belug s plunge fell omen"
+# 	tier: long
+# 	distance: 4
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license belug s plunge mebla"
+# 	tier: long
+# 	distance: 4
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license belug s plunge silver bell"
+# 	tier: long
+# 	distance: 4
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license belug s plunge 3 axis"
+# 	tier: long
+# 	distance: 5
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license belug s plunge broken bowl"
+# 	tier: long
+# 	distance: 5
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license belug s plunge gupta"
+# 	tier: long
+# 	distance: 5
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license belug s plunge pelubta"
+# 	tier: long
+# 	distance: 5
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license belug s plunge silver string"
+# 	tier: long
+# 	distance: 5
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license belug s plunge 1 axis"
+# 	tier: long
+# 	distance: 6
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license belug s plunge 11 spring below"
+# 	tier: long
+# 	distance: 6
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license belug s plunge 4 winter rising"
+# 	tier: long
+# 	distance: 6
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license belug s plunge answer"
+# 	tier: long
+# 	distance: 6
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license belug s plunge belonging"
+# 	tier: long
+# 	distance: 6
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license belug s plunge belugt"
+# 	tier: long
+# 	distance: 6
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license belug s plunge blugtad"
+# 	tier: long
+# 	distance: 6
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license belug s plunge hunter"
+# 	tier: long
+# 	distance: 6
+# 	system: Hunter
+# 	government: Coalition
+# 	planets: Shadow of Leaves
+
+# license "cf license belug s plunge meblumem"
+# 	tier: long
+# 	distance: 6
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license belug s plunge sol arach"
+# 	tier: long
+# 	distance: 6
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license belug s plunge steep roof"
+# 	tier: long
+# 	distance: 6
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license belug s plunge 4 spring rising"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license belug s plunge 5 winter above"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license belug s plunge beginning"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license belug s plunge bloptab"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license belug s plunge blubipad"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license belug s plunge eblumab"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license belug s plunge glubatub"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license belug s plunge miblulub"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license belug s plunge plort"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license belug s plunge remembrance"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license belug s plunge sol kimek"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license belug s plunge sol saryd"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license belug s plunge 3 pole"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license belug s plunge 3 spring rising"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license belug s plunge 9 spring above"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license belug s plunge ablub"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license belug s plunge ancient hope"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license belug s plunge companion"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license belug s plunge fallen leaf"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license belug s plunge good omen"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license belug s plunge tebuteb"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license belug s plunge 14 summer above"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license belug s plunge 4 summer rising"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license belug s plunge 5 summer above"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license belug s plunge 7 autumn rising"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license belug s plunge far horizon"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license belug s plunge 10 pole"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license belug s plunge 12 autumn above"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license belug s plunge four pillars"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license belug s plunge 14 pole"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+
+# license "cf license belug s plunge lone cloud"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+

@@ -1,0 +1,474 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Shadow of Leaves.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Hunter
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 10 energy 7.0794 (30.3%); large rock count 7 energy 4.8222 (21.2%); medium metal count 1 energy 4.9248 (3.0%); medium rock count 2 energy 3.7449 (6.1%); small metal count 3 energy 6.669 (9.1%); small rock count 10 energy 2.7189 (30.3%)
+# 	hq minables: silicon abundance 10 density 3.11503 (55.3%); tungsten abundance 6 density 4.18967 (44.7%)
+# 	mining system: Hunter
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 10 energy 7.0794 (30.3%); large rock count 7 energy 4.8222 (21.2%); medium metal count 1 energy 4.9248 (3.0%); medium rock count 2 energy 3.7449 (6.1%); small metal count 3 energy 6.669 (9.1%); small rock count 10 energy 2.7189 (30.3%)
+# 	mining minables: silicon abundance 10 density 3.11503 (55.3%); tungsten abundance 6 density 4.18967 (44.7%)
+# 	shuttle route: Shadow of Leaves -> Warm Wind
+# 	shuttle system: Broken Bowl
+# 	shuttle distance: 1
+# 	trading route: Shadow of Leaves -> Warm Wind
+# 	trading system: Broken Bowl
+# 	trading distance: 1
+# 	trading commodity: Plastic
+# 	trading base value: 40
+# 	trading optimized value: 67
+# 	security route: Shadow of Leaves -> Warm Wind
+# 	security system: Broken Bowl
+# 	security distance: 1
+
+# license "cf license shadow of leaves broken bowl"
+# 	tier: local
+# 	distance: 1
+# 	system: Broken Bowl
+# 	government: Coalition
+# 	planets: Warm Wind
+
+# license "cf license shadow of leaves answer"
+# 	tier: regional
+# 	distance: 2
+# 	system: Answer
+# 	government: Coalition
+# 	planets: New Finding
+
+# license "cf license shadow of leaves beginning"
+# 	tier: regional
+# 	distance: 2
+# 	system: Beginning
+# 	government: Coalition
+# 	planets: Glittering Ice
+
+# license "cf license shadow of leaves belonging"
+# 	tier: regional
+# 	distance: 2
+# 	system: Belonging
+# 	government: Coalition
+# 	planets: Cool Forest
+
+# license "cf license shadow of leaves remembrance"
+# 	tier: regional
+# 	distance: 2
+# 	system: Remembrance
+# 	government: Coalition
+# 	planets: Deep Water
+
+# license "cf license shadow of leaves silver bell"
+# 	tier: regional
+# 	distance: 2
+# 	system: Silver Bell
+# 	government: Coalition
+# 	planets: Chosen Nexus, Periaxle Circuit
+
+# license "cf license shadow of leaves steep roof"
+# 	tier: regional
+# 	distance: 2
+# 	system: Steep Roof
+# 	government: Coalition
+# 	planets: Warm Slope
+
+# license "cf license shadow of leaves fallen leaf"
+# 	tier: regional
+# 	distance: 3
+# 	system: Fallen Leaf
+# 	government: Coalition
+# 	planets: Shadowed Valley
+
+# license "cf license shadow of leaves good omen"
+# 	tier: regional
+# 	distance: 3
+# 	system: Good Omen
+# 	government: Coalition
+# 	planets: Shifting Sand
+
+# license "cf license shadow of leaves homeward"
+# 	tier: regional
+# 	distance: 3
+# 	system: Homeward
+# 	government: Coalition
+# 	planets: Far Home
+
+# license "cf license shadow of leaves last word"
+# 	tier: regional
+# 	distance: 3
+# 	system: Last Word
+# 	government: Coalition
+# 	planets: Gentle Rain
+
+# license "cf license shadow of leaves silver string"
+# 	tier: regional
+# 	distance: 3
+# 	system: Silver String
+# 	government: Coalition
+# 	planets: Deep Treasure
+
+# license "cf license shadow of leaves sol saryd"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sol Saryd
+# 	government: Coalition
+# 	planets: Saros
+
+# license "cf license shadow of leaves ancient hope"
+# 	tier: long
+# 	distance: 4
+# 	system: Ancient Hope
+# 	government: Coalition
+# 	planets: Bright Echo
+
+# license "cf license shadow of leaves companion"
+# 	tier: long
+# 	distance: 4
+# 	system: Companion
+# 	government: Coalition
+# 	planets: Far Garden
+
+# license "cf license shadow of leaves fell omen"
+# 	tier: long
+# 	distance: 4
+# 	system: Fell Omen
+# 	government: Coalition
+# 	planets: Cold Horizon
+
+# license "cf license shadow of leaves quaru"
+# 	tier: long
+# 	distance: 4
+# 	system: Quaru
+# 	government: Heliarch
+# 	planets: Ring of Friendship
+
+# license "cf license shadow of leaves ekuarik"
+# 	tier: long
+# 	distance: 5
+# 	system: Ekuarik
+# 	government: Heliarch
+# 	planets: Ring of Wisdom
+
+# license "cf license shadow of leaves far horizon"
+# 	tier: long
+# 	distance: 5
+# 	system: Far Horizon
+# 	government: Coalition
+# 	planets: Secret Sky
+
+# license "cf license shadow of leaves ki war ek"
+# 	tier: long
+# 	distance: 5
+# 	system: Ki War Ek
+# 	government: Heliarch
+# 	planets: Ring of Power
+
+# license "cf license shadow of leaves 14 winter below"
+# 	tier: long
+# 	distance: 6
+# 	system: 14 Winter Below
+# 	government: Coalition
+# 	planets: Midway Emerald
+
+# license "cf license shadow of leaves 5 axis"
+# 	tier: long
+# 	distance: 6
+# 	system: 5 Axis
+# 	government: Coalition
+# 	planets: Second Cerulean
+
+# license "cf license shadow of leaves belug"
+# 	tier: long
+# 	distance: 6
+# 	system: Belug
+# 	government: Coalition
+# 	planets: Belug's Plunge
+
+# license "cf license shadow of leaves four pillars"
+# 	tier: long
+# 	distance: 6
+# 	system: Four Pillars
+# 	government: Coalition
+# 	planets: Flowing Fields
+
+# license "cf license shadow of leaves speloog"
+# 	tier: long
+# 	distance: 6
+# 	system: Speloog
+# 	government: Coalition
+# 	planets: Dwelling of Speloog
+
+# license "cf license shadow of leaves 4 axis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 4 Axis
+# 	government: Coalition
+# 	planets: Rusty Second
+
+# license "cf license shadow of leaves 8 winter below"
+# 	tier: frontier
+# 	distance: 7
+# 	system: 8 Winter Below
+# 	government: Coalition
+# 	planets: Dusk Companion
+
+# license "cf license shadow of leaves lone cloud"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Lone Cloud
+# 	government: Coalition
+# 	planets: Vibrant Water
+
+# license "cf license shadow of leaves 3 axis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: 3 Axis
+# 	government: Coalition
+# 	planets: Ashy Reach
+
+# license "cf license shadow of leaves debrugt"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Debrugt
+# 	government: Coalition
+# 	planets: Hammer of Debrugt
+
+# license "cf license shadow of leaves flugbu"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Flugbu
+# 	government: Coalition
+# 	planets: Stronghold of Flugbu
+
+# license "cf license shadow of leaves 1 axis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 1 Axis
+# 	government: Coalition
+# 	planets: Celestial Third
+
+# license "cf license shadow of leaves 11 spring below"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 11 Spring Below
+# 	government: Coalition
+# 	planets: Third Umber
+
+# license "cf license shadow of leaves 4 winter rising"
+# 	tier: frontier
+# 	distance: 9
+# 	system: 4 Winter Rising
+# 	government: Coalition
+# 	planets: Inmost Blue
+
+# license "cf license shadow of leaves ablodab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ablodab
+# 	government: Coalition
+# 	planets: Guardian Array Sapphire, Ogmur's Siphon, Silo of Ablodab
+
+# license "cf license shadow of leaves mebla"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mebla
+# 	government: Coalition
+# 	planets: Mebla's Portion
+
+# license "cf license shadow of leaves 4 spring rising"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 4 Spring Rising
+# 	government: Coalition
+# 	planets: Blue Interior
+
+# license "cf license shadow of leaves 5 winter above"
+# 	tier: frontier
+# 	distance: 10
+# 	system: 5 Winter Above
+# 	government: Coalition
+# 	planets: Into White
+
+# license "cf license shadow of leaves gupta"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gupta
+# 	government: Coalition
+# 	planets: Market of Gupta
+
+# license "cf license shadow of leaves pelubta"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Pelubta
+# 	government: Coalition
+# 	planets: Pelubta Station
+
+# license "cf license shadow of leaves sol kimek"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sol Kimek
+# 	government: Coalition
+# 	planets: Ki Patek Ka, Starting Rubin
+
+# license "cf license shadow of leaves 3 pole"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 3 Pole
+# 	government: Coalition
+# 	planets: Brass Second
+
+# license "cf license shadow of leaves 3 spring rising"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 3 Spring Rising
+# 	government: Coalition
+# 	planets: Fourth Shadow
+
+# license "cf license shadow of leaves 9 spring above"
+# 	tier: frontier
+# 	distance: 11
+# 	system: 9 Spring Above
+# 	government: Coalition
+# 	planets: Garden Empyreal, Turquoise Four
+
+# license "cf license shadow of leaves belugt"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Belugt
+# 	government: Coalition
+# 	planets: Refuge of Belugt
+
+# license "cf license shadow of leaves blugtad"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Blugtad
+# 	government: Coalition
+# 	planets: Bank of Blugtad
+
+# license "cf license shadow of leaves meblumem"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Meblumem
+# 	government: Coalition
+# 	planets: Corral of Meblumem
+
+# license "cf license shadow of leaves sol arach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sol Arach
+# 	government: Coalition
+# 	planets: Ahr
+
+# license "cf license shadow of leaves 14 summer above"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 14 Summer Above
+# 	government: Coalition
+# 	planets: Second Viridian
+
+# license "cf license shadow of leaves 4 summer rising"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 4 Summer Rising
+# 	government: Coalition
+# 	planets: Double Haze
+
+# license "cf license shadow of leaves 5 summer above"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 5 Summer Above
+# 	government: Coalition
+# 	planets: Nearby Jade
+
+# license "cf license shadow of leaves 7 autumn rising"
+# 	tier: frontier
+# 	distance: 12
+# 	system: 7 Autumn Rising
+# 	government: Coalition
+# 	planets: Sandy Two
+
+# license "cf license shadow of leaves bloptab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Bloptab
+# 	government: Coalition
+# 	planets: Bloptab's Furnace, Delve of Bloptab
+
+# license "cf license shadow of leaves blubipad"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Blubipad
+# 	government: Coalition
+# 	planets: Blubipad's Workshop
+
+# license "cf license shadow of leaves eblumab"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Eblumab
+# 	government: Coalition
+# 	planets: Factory of Eblumab
+
+# license "cf license shadow of leaves glubatub"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Glubatub
+# 	government: Coalition
+# 	planets: Weir of Glubatub
+
+# license "cf license shadow of leaves miblulub"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Miblulub
+# 	government: Coalition
+# 	planets: Miblulub's Plenty
+
+# license "cf license shadow of leaves plort"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Plort
+# 	government: Coalition
+# 	planets: Plort's Water
+
+# license "cf license shadow of leaves 10 pole"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 10 Pole
+# 	government: Coalition
+# 	planets: Second Rose
+
+# license "cf license shadow of leaves 12 autumn above"
+# 	tier: frontier
+# 	distance: 13
+# 	system: 12 Autumn Above
+# 	government: Coalition
+# 	planets: Station Cian
+
+# license "cf license shadow of leaves ablub"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Ablub
+# 	government: Coalition
+# 	planets: Ablub's Invention
+
+# license "cf license shadow of leaves tebuteb"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Tebuteb
+# 	government: Coalition
+# 	planets: Tebuteb's Table
+
+# license "cf license shadow of leaves 14 pole"
+# 	tier: frontier
+# 	distance: 14
+# 	system: 14 Pole
+# 	government: Coalition
+# 	planets: Remote Blue
+

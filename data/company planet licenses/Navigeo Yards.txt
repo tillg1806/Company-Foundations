@@ -1,0 +1,124 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Navigeo Yards.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Symphony
+# 	hq system asteroids: yes
+# 	hq asteroids: medium metal count 3 energy 4.2 (23.1%); medium rock count 6 energy 5.18 (46.2%); small metal count 2 energy 5.39 (15.4%); small rock count 2 energy 5.25 (15.4%)
+# 	hq minables: aluminum abundance 5 density 9.3 (100.0%)
+# 	mining system: Symphony
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: medium metal count 3 energy 4.2 (23.1%); medium rock count 6 energy 5.18 (46.2%); small metal count 2 energy 5.39 (15.4%); small rock count 2 energy 5.25 (15.4%)
+# 	mining minables: aluminum abundance 5 density 9.3 (100.0%)
+# 	shuttle route: Navigeo Yards -> Outpost Pilos
+# 	shuttle system: Anthem
+# 	shuttle distance: 2
+# 	trading route: Navigeo Yards -> Outpost Pilos
+# 	trading system: Anthem
+# 	trading distance: 2
+# 	trading commodity: Metal
+# 	trading base value: 90
+# 	trading optimized value: 150
+# 	security route: Navigeo Yards -> Outpost Pilos
+# 	security system: Anthem
+# 	security distance: 2
+
+# license "cf license navigeo yards anthem"
+# 	tier: regional
+# 	distance: 2
+# 	system: Anthem
+# 	government: Avgi (Consonance)
+# 	planets: Outpost Pilos
+
+# license "cf license navigeo yards concerto"
+# 	tier: regional
+# 	distance: 2
+# 	system: Concerto
+# 	government: Avgi (Consonance)
+# 	planets: Peripheria
+
+# license "cf license navigeo yards interlude"
+# 	tier: long
+# 	distance: 5
+# 	system: Interlude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Tekis
+
+# license "cf license navigeo yards prelude"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Prelude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Enka
+
+# license "cf license navigeo yards ensemble"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ensemble
+# 	government: Avgi (Consonance)
+# 	planets: Weledos
+
+# license "cf license navigeo yards arche"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Arche
+# 	government: Avgi (Twilight Guard)
+# 	planets: Feo Platform
+
+# license "cf license navigeo yards demilude"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Demilude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Leto
+
+# license "cf license navigeo yards anax"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Anax
+# 	government: Avgi
+# 	planets: Aviskir, Thilos
+
+# license "cf license navigeo yards wake"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Wake
+# 	government: Avgi
+# 	planets: Amathil
+
+# license "cf license navigeo yards clip"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Clip
+# 	government: Avgi
+# 	planets: Livolua
+
+# license "cf license navigeo yards soar"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Soar
+# 	government: Avgi
+# 	planets: Stilacrest
+
+# license "cf license navigeo yards thread"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Thread
+# 	government: Avgi
+# 	planets: Cyreal
+
+# license "cf license navigeo yards sail"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Sail
+# 	government: Avgi
+# 	planets: Araio
+

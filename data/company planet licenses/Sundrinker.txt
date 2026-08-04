@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Sundrinker.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Dschubba
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 68 energy 3.5 (24.9%); large rock count 11 energy 2.375 (4.0%); medium metal count 51 energy 2.3 (18.7%); medium rock count 66 energy 2.85 (24.2%); small metal count 57 energy 2.075 (20.9%); small rock count 20 energy 1.85 (7.3%)
+# 	hq minables: aluminum abundance 37 density 3.17333 (25.2%); iron abundance 34 density 4.26089 (31.1%); silicon abundance 59 density 3.44288 (43.6%)
+# 	mining system: Dschubba
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: aluminum ore field
+# 	mining value per cargo: 105
+# 	mining quality: 465
+# 	mining asteroids: large metal count 68 energy 3.5 (24.9%); large rock count 11 energy 2.375 (4.0%); medium metal count 51 energy 2.3 (18.7%); medium rock count 66 energy 2.85 (24.2%); small metal count 57 energy 2.075 (20.9%); small rock count 20 energy 1.85 (7.3%)
+# 	mining minables: aluminum abundance 37 density 3.17333 (25.2%); iron abundance 34 density 4.26089 (31.1%); silicon abundance 59 density 3.44288 (43.6%)
+# 	shuttle route: Sundrinker -> Charon Station
+# 	shuttle system: Aldhibain
+# 	shuttle distance: 1
+# 	trading route: Sundrinker -> Charon Station
+# 	trading system: Aldhibain
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 69
+# 	trading optimized value: 115
+# 	security route: Sundrinker -> Charon Station
+# 	security system: Aldhibain
+# 	security distance: 1
+
+# license "cf license sundrinker aldhibain"
+# 	tier: local
+# 	distance: 1
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license sundrinker alniyat"
+# 	tier: local
+# 	distance: 1
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license sundrinker atria"
+# 	tier: local
+# 	distance: 1
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license sundrinker antares"
+# 	tier: regional
+# 	distance: 2
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license sundrinker girtab"
+# 	tier: regional
+# 	distance: 2
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license sundrinker graffias"
+# 	tier: regional
+# 	distance: 2
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license sundrinker han"
+# 	tier: regional
+# 	distance: 2
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license sundrinker kornephoros"
+# 	tier: regional
+# 	distance: 2
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license sundrinker pherkad"
+# 	tier: regional
+# 	distance: 2
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license sundrinker rastaban"
+# 	tier: regional
+# 	distance: 2
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license sundrinker sabik"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license sundrinker sargas"
+# 	tier: regional
+# 	distance: 2
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license sundrinker shaula"
+# 	tier: regional
+# 	distance: 2
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license sundrinker albaldah"
+# 	tier: regional
+# 	distance: 3
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license sundrinker delta sagittarii"
+# 	tier: regional
+# 	distance: 3
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license sundrinker kappa centauri"
+# 	tier: regional
+# 	distance: 3
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license sundrinker unukalhai"
+# 	tier: regional
+# 	distance: 3
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license sundrinker yed prior"
+# 	tier: regional
+# 	distance: 3
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license sundrinker albireo"
+# 	tier: long
+# 	distance: 4
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license sundrinker alioth"
+# 	tier: long
+# 	distance: 4
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license sundrinker kaus borealis"
+# 	tier: long
+# 	distance: 4
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license sundrinker men"
+# 	tier: long
+# 	distance: 4
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license sundrinker nunki"
+# 	tier: long
+# 	distance: 4
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license sundrinker seginus"
+# 	tier: long
+# 	distance: 4
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license sundrinker zubeneschamali"
+# 	tier: long
+# 	distance: 4
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license sundrinker alphecca"
+# 	tier: long
+# 	distance: 5
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license sundrinker ascella"
+# 	tier: long
+# 	distance: 5
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license sundrinker cebalrai"
+# 	tier: long
+# 	distance: 5
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license sundrinker dabih"
+# 	tier: long
+# 	distance: 5
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license sundrinker hadar"
+# 	tier: long
+# 	distance: 5
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license sundrinker kaus australis"
+# 	tier: long
+# 	distance: 5
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license sundrinker kochab"
+# 	tier: long
+# 	distance: 5
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license sundrinker peacock"
+# 	tier: long
+# 	distance: 5
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license sundrinker tarazed"
+# 	tier: long
+# 	distance: 5
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license sundrinker vindemiatrix"
+# 	tier: long
+# 	distance: 5
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license sundrinker alkaid"
+# 	tier: long
+# 	distance: 6
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license sundrinker arcturus"
+# 	tier: long
+# 	distance: 6
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license sundrinker belenos"
+# 	tier: long
+# 	distance: 6
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license sundrinker cor caroli"
+# 	tier: long
+# 	distance: 6
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license sundrinker enif"
+# 	tier: long
+# 	distance: 6
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license sundrinker izar"
+# 	tier: long
+# 	distance: 6
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license sundrinker menkent"
+# 	tier: long
+# 	distance: 6
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license sundrinker muhlifain"
+# 	tier: long
+# 	distance: 6
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license sundrinker rasalhague"
+# 	tier: long
+# 	distance: 6
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license sundrinker rutilicus"
+# 	tier: long
+# 	distance: 6
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license sundrinker sarin"
+# 	tier: long
+# 	distance: 6
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license sundrinker zeta aquilae"
+# 	tier: long
+# 	distance: 6
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license sundrinker zeta centauri"
+# 	tier: long
+# 	distance: 6
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license sundrinker acrux"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license sundrinker algorel"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license sundrinker alpherg"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license sundrinker citadelle"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license sundrinker sadalmelik"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license sundrinker sadalsuud"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license sundrinker vega"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license sundrinker altair"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license sundrinker phecda"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license sundrinker porrima"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license sundrinker sol"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license sundrinker turais"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license sundrinker alpha centauri"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license sundrinker caph"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license sundrinker delta capricorni"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license sundrinker delta velorum"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license sundrinker denebola"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license sundrinker fomalhaut"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license sundrinker merak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license sundrinker mimosa"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license sundrinker sirius"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license sundrinker spica"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license sundrinker tania australis"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license sundrinker alderamin"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license sundrinker diphda"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license sundrinker gamma corvi"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license sundrinker kraz"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license sundrinker markab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license sundrinker scheat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license sundrinker al dhanab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license sundrinker alnair"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license sundrinker alphard"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license sundrinker ankaa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license sundrinker capella"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license sundrinker matar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license sundrinker mirach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license sundrinker pollux"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license sundrinker zosma"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license sundrinker achernar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license sundrinker aldebaran"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license sundrinker alpheratz"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license sundrinker castor"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license sundrinker dubhe"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license sundrinker elnath"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license sundrinker gomeisa"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license sundrinker miaplacidus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license sundrinker ruchbah"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license sundrinker schedar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license sundrinker talita"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license sundrinker adhara"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license sundrinker algol"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license sundrinker alhena"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license sundrinker almach"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license sundrinker alpha hydri"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license sundrinker epsilon leonis"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license sundrinker gienah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license sundrinker hamal"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license sundrinker kursa"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license sundrinker nihal"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license sundrinker polaris"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license sundrinker sheratan"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license sundrinker tejat"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license sundrinker algenib"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license sundrinker phurad"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license sundrinker wazn"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license sundrinker zaurak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license sundrinker alcyone"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license sundrinker avior"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license sundrinker canopus"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license sundrinker menkar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license sundrinker phact"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license sundrinker regor"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license sundrinker alheka"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license sundrinker bellatrix"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license sundrinker markeb"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license sundrinker mirfak"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license sundrinker naos"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license sundrinker suhail"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license sundrinker aludra"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license sundrinker betelgeuse"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license sundrinker mebsuta"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license sundrinker misam"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license sundrinker wezen"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license sundrinker alnitak"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license sundrinker saiph"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license sundrinker almaaz"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license sundrinker alnilam"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license sundrinker arneb"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

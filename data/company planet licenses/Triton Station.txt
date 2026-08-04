@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Triton Station.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Alheka
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 11 energy 7.566 (12.1%); large rock count 5 energy 8.892 (5.5%); medium metal count 47 energy 11.466 (51.6%); medium rock count 11 energy 9.906 (12.1%); small metal count 14 energy 8.19 (15.4%); small rock count 3 energy 6.24 (3.3%)
+# 	hq minables: lead abundance 16 density 13.7996 (62.3%); tungsten abundance 10 density 13.3676 (37.7%)
+# 	mining system: Alheka
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: tungsten ore field
+# 	mining value per cargo: 188
+# 	mining quality: 354
+# 	mining asteroids: large metal count 11 energy 7.566 (12.1%); large rock count 5 energy 8.892 (5.5%); medium metal count 47 energy 11.466 (51.6%); medium rock count 11 energy 9.906 (12.1%); small metal count 14 energy 8.19 (15.4%); small rock count 3 energy 6.24 (3.3%)
+# 	mining minables: lead abundance 16 density 13.7996 (62.3%); tungsten abundance 10 density 13.3676 (37.7%)
+# 	shuttle route: Triton Station -> Prime
+# 	shuttle system: Betelgeuse
+# 	shuttle distance: 1
+# 	trading route: Triton Station -> Prime
+# 	trading system: Betelgeuse
+# 	trading distance: 1
+# 	trading commodity: Luxury Goods
+# 	trading base value: 47
+# 	trading optimized value: 78
+# 	security route: Triton Station -> Prime
+# 	security system: Betelgeuse
+# 	security distance: 1
+
+# license "cf license triton station betelgeuse"
+# 	tier: local
+# 	distance: 1
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license triton station canopus"
+# 	tier: local
+# 	distance: 1
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license triton station phact"
+# 	tier: regional
+# 	distance: 2
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license triton station phurad"
+# 	tier: regional
+# 	distance: 2
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license triton station alnitak"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license triton station mebsuta"
+# 	tier: regional
+# 	distance: 3
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license triton station saiph"
+# 	tier: regional
+# 	distance: 3
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license triton station tejat"
+# 	tier: regional
+# 	distance: 3
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license triton station wazn"
+# 	tier: regional
+# 	distance: 3
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license triton station alhena"
+# 	tier: long
+# 	distance: 4
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license triton station kursa"
+# 	tier: long
+# 	distance: 4
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license triton station miaplacidus"
+# 	tier: long
+# 	distance: 4
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license triton station aldebaran"
+# 	tier: long
+# 	distance: 5
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license triton station almaaz"
+# 	tier: long
+# 	distance: 5
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license triton station alphard"
+# 	tier: long
+# 	distance: 5
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license triton station elnath"
+# 	tier: long
+# 	distance: 5
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license triton station talita"
+# 	tier: long
+# 	distance: 5
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license triton station capella"
+# 	tier: long
+# 	distance: 6
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license triton station castor"
+# 	tier: long
+# 	distance: 6
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license triton station nihal"
+# 	tier: long
+# 	distance: 6
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license triton station pollux"
+# 	tier: long
+# 	distance: 6
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license triton station zosma"
+# 	tier: long
+# 	distance: 6
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license triton station alnilam"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license triton station arneb"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license triton station diphda"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license triton station dubhe"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license triton station gomeisa"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license triton station mirfak"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license triton station tania australis"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license triton station adhara"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license triton station alcyone"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license triton station ankaa"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license triton station bellatrix"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license triton station caph"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license triton station epsilon leonis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license triton station menkar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license triton station phecda"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license triton station sirius"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license triton station algorel"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license triton station delta velorum"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license triton station markab"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license triton station merak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license triton station ruchbah"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license triton station sol"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license triton station zaurak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license triton station algol"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license triton station alpha centauri"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license triton station alpha hydri"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license triton station alpheratz"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license triton station altair"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license triton station avior"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license triton station cor caroli"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license triton station delta capricorni"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license triton station denebola"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license triton station fomalhaut"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license triton station hamal"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license triton station misam"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license triton station porrima"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license triton station regor"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license triton station scheat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license triton station sheratan"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license triton station turais"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license triton station vega"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license triton station achernar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license triton station al dhanab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license triton station alderamin"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license triton station arcturus"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license triton station markeb"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license triton station matar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license triton station menkent"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license triton station mirach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license triton station naos"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license triton station suhail"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license triton station vindemiatrix"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license triton station alioth"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license triton station alnair"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license triton station aludra"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license triton station cebalrai"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license triton station muhlifain"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license triton station polaris"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license triton station rutilicus"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license triton station sarin"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license triton station schedar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license triton station wezen"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license triton station almach"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license triton station alphecca"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license triton station gienah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license triton station kaus borealis"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license triton station rasalhague"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license triton station algenib"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license triton station ascella"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license triton station kornephoros"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license triton station seginus"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license triton station zeta aquilae"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license triton station aldhibain"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license triton station delta sagittarii"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license triton station peacock"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license triton station rastaban"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license triton station sabik"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license triton station sargas"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license triton station alniyat"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license triton station dschubba"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license triton station girtab"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license triton station kaus australis"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license triton station unukalhai"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license triton station albaldah"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license triton station antares"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license triton station atria"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license triton station dabih"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license triton station graffias"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license triton station han"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license triton station pherkad"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license triton station shaula"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license triton station zubeneschamali"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license triton station albireo"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license triton station hadar"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license triton station kappa centauri"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license triton station kochab"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license triton station nunki"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license triton station tarazed"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license triton station yed prior"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license triton station alkaid"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license triton station enif"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license triton station izar"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license triton station men"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license triton station zeta centauri"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license triton station acrux"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license triton station sadalmelik"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license triton station sadalsuud"
+# 	tier: frontier
+# 	distance: 20
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license triton station belenos"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license triton station alpherg"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license triton station citadelle"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license triton station mimosa"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license triton station spica"
+# 	tier: frontier
+# 	distance: 22
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license triton station gamma corvi"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license triton station kraz"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on New India.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Albaldah
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 5 energy 4.2 (4.1%); large rock count 9 energy 7.02 (7.4%); medium metal count 86 energy 3.18 (71.1%); medium rock count 20 energy 5.4 (16.5%); small rock count 1 energy 8.82 (0.8%)
+# 	hq minables: iron abundance 20 density 4.32166 (22.2%); lead abundance 28 density 5.26814 (37.9%); titanium abundance 21 density 7.37733 (39.8%)
+# 	mining system: Albaldah
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: titanium ore field
+# 	mining value per cargo: 127
+# 	mining quality: 389
+# 	mining asteroids: large metal count 5 energy 4.2 (4.1%); large rock count 9 energy 7.02 (7.4%); medium metal count 86 energy 3.18 (71.1%); medium rock count 20 energy 5.4 (16.5%); small rock count 1 energy 8.82 (0.8%)
+# 	mining minables: iron abundance 20 density 4.32166 (22.2%); lead abundance 28 density 5.26814 (37.9%); titanium abundance 21 density 7.37733 (39.8%)
+# 	shuttle route: New India -> Albatross
+# 	shuttle system: Nunki
+# 	shuttle distance: 1
+# 	trading route: New India -> Albatross
+# 	trading system: Nunki
+# 	trading distance: 1
+# 	trading commodity: Equipment
+# 	trading base value: 54
+# 	trading optimized value: 90
+# 	security route: New India -> Albatross
+# 	security system: Nunki
+# 	security distance: 1
+
+# license "cf license new india albireo"
+# 	tier: local
+# 	distance: 1
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license new india girtab"
+# 	tier: local
+# 	distance: 1
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license new india nunki"
+# 	tier: local
+# 	distance: 1
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license new india dabih"
+# 	tier: regional
+# 	distance: 2
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license new india delta sagittarii"
+# 	tier: regional
+# 	distance: 2
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license new india rastaban"
+# 	tier: regional
+# 	distance: 2
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license new india tarazed"
+# 	tier: regional
+# 	distance: 2
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license new india atria"
+# 	tier: regional
+# 	distance: 3
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license new india dschubba"
+# 	tier: regional
+# 	distance: 3
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license new india enif"
+# 	tier: regional
+# 	distance: 3
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license new india kaus australis"
+# 	tier: regional
+# 	distance: 3
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license new india sargas"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license new india shaula"
+# 	tier: regional
+# 	distance: 3
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license new india aldhibain"
+# 	tier: long
+# 	distance: 4
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license new india alniyat"
+# 	tier: long
+# 	distance: 4
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license new india ascella"
+# 	tier: long
+# 	distance: 4
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license new india han"
+# 	tier: long
+# 	distance: 4
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license new india kaus borealis"
+# 	tier: long
+# 	distance: 4
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license new india kornephoros"
+# 	tier: long
+# 	distance: 4
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license new india peacock"
+# 	tier: long
+# 	distance: 4
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license new india sadalmelik"
+# 	tier: long
+# 	distance: 4
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license new india sadalsuud"
+# 	tier: long
+# 	distance: 4
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license new india antares"
+# 	tier: long
+# 	distance: 5
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license new india cebalrai"
+# 	tier: long
+# 	distance: 5
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license new india graffias"
+# 	tier: long
+# 	distance: 5
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license new india pherkad"
+# 	tier: long
+# 	distance: 5
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license new india rasalhague"
+# 	tier: long
+# 	distance: 5
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license new india sabik"
+# 	tier: long
+# 	distance: 5
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license new india zeta aquilae"
+# 	tier: long
+# 	distance: 5
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license new india alioth"
+# 	tier: long
+# 	distance: 6
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license new india kappa centauri"
+# 	tier: long
+# 	distance: 6
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license new india menkent"
+# 	tier: long
+# 	distance: 6
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license new india rutilicus"
+# 	tier: long
+# 	distance: 6
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license new india seginus"
+# 	tier: long
+# 	distance: 6
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license new india unukalhai"
+# 	tier: long
+# 	distance: 6
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license new india yed prior"
+# 	tier: long
+# 	distance: 6
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license new india alphecca"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license new india arcturus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license new india men"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license new india vega"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license new india vindemiatrix"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license new india zubeneschamali"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license new india altair"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license new india cor caroli"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license new india hadar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license new india kochab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license new india muhlifain"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license new india porrima"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license new india sarin"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license new india sol"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license new india algorel"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license new india alkaid"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license new india alpha centauri"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license new india belenos"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license new india caph"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license new india delta capricorni"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license new india denebola"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license new india fomalhaut"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license new india izar"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license new india merak"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license new india sirius"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license new india zeta centauri"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license new india acrux"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license new india alderamin"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license new india alpherg"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license new india citadelle"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license new india diphda"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license new india markab"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license new india phecda"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license new india scheat"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license new india turais"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license new india al dhanab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license new india alnair"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license new india ankaa"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license new india capella"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license new india delta velorum"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license new india matar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license new india mirach"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license new india pollux"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license new india tania australis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license new india achernar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license new india aldebaran"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license new india alpheratz"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license new india castor"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license new india elnath"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license new india mimosa"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license new india ruchbah"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license new india schedar"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license new india spica"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license new india talita"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Talita
+# 	government: Republic
+# 	planets: Hestia
+
+# license "cf license new india algol"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license new india alhena"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license new india almach"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license new india alpha hydri"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license new india alphard"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license new india gamma corvi"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license new india gienah"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license new india hamal"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license new india kraz"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+
+# license "cf license new india kursa"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license new india miaplacidus"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license new india nihal"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license new india polaris"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license new india sheratan"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license new india zosma"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license new india algenib"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license new india dubhe"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license new india gomeisa"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license new india tejat"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license new india wazn"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license new india zaurak"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license new india adhara"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license new india alcyone"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license new india epsilon leonis"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license new india menkar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license new india phact"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license new india phurad"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license new india bellatrix"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license new india canopus"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license new india mirfak"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license new india alheka"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license new india avior"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license new india misam"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license new india regor"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license new india betelgeuse"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license new india markeb"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license new india mebsuta"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license new india naos"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license new india suhail"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license new india alnitak"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license new india aludra"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license new india saiph"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license new india wezen"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license new india almaaz"
+# 	tier: frontier
+# 	distance: 21
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license new india alnilam"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license new india arneb"
+# 	tier: frontier
+# 	distance: 23
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+

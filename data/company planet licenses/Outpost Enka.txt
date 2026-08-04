@@ -1,0 +1,124 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Outpost Enka.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Prelude
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 1 energy 4.005 (7.1%); large rock count 1 energy 4.585 (7.1%); medium metal count 2 energy 4.005 (14.3%); medium rock count 5 energy 3.953 (35.7%); small metal count 2 energy 2.899 (14.3%); small rock count 3 energy 4.111 (21.4%)
+# 	hq minables: gold abundance 4 density 6.375 (6.3%); iron abundance 12 density 7.462 (22.2%); lead abundance 5 density 7.644 (9.5%); platinum abundance 8 density 18.241 (36.2%); titanium abundance 12 density 3.517 (10.5%); uranium abundance 3 density 20.512 (15.3%)
+# 	mining system: Prelude
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 1 energy 4.005 (7.1%); large rock count 1 energy 4.585 (7.1%); medium metal count 2 energy 4.005 (14.3%); medium rock count 5 energy 3.953 (35.7%); small metal count 2 energy 2.899 (14.3%); small rock count 3 energy 4.111 (21.4%)
+# 	mining minables: gold abundance 4 density 6.375 (6.3%); iron abundance 12 density 7.462 (22.2%); lead abundance 5 density 7.644 (9.5%); platinum abundance 8 density 18.241 (36.2%); titanium abundance 12 density 3.517 (10.5%); uranium abundance 3 density 20.512 (15.3%)
+# 	shuttle route: Outpost Enka -> Outpost Tekis
+# 	shuttle system: Interlude
+# 	shuttle distance: 4
+# 	trading route: Outpost Enka -> Outpost Tekis
+# 	trading system: Interlude
+# 	trading distance: 4
+# 	trading commodity: Metal
+# 	trading base value: 72
+# 	trading optimized value: 120
+# 	security route: Outpost Enka -> Outpost Tekis
+# 	security system: Interlude
+# 	security distance: 4
+
+# license "cf license outpost enka interlude"
+# 	tier: long
+# 	distance: 4
+# 	system: Interlude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Tekis
+
+# license "cf license outpost enka anthem"
+# 	tier: long
+# 	distance: 5
+# 	system: Anthem
+# 	government: Avgi (Consonance)
+# 	planets: Outpost Pilos
+
+# license "cf license outpost enka ensemble"
+# 	tier: long
+# 	distance: 6
+# 	system: Ensemble
+# 	government: Avgi (Consonance)
+# 	planets: Weledos
+
+# license "cf license outpost enka concerto"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Concerto
+# 	government: Avgi (Consonance)
+# 	planets: Peripheria
+
+# license "cf license outpost enka symphony"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Symphony
+# 	government: Avgi (Consonance)
+# 	planets: Ergastirio Station, Navigeo Yards
+
+# license "cf license outpost enka arche"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Arche
+# 	government: Avgi (Twilight Guard)
+# 	planets: Feo Platform
+
+# license "cf license outpost enka demilude"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Demilude
+# 	government: Avgi (Dissonance)
+# 	planets: Outpost Leto
+
+# license "cf license outpost enka anax"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Anax
+# 	government: Avgi
+# 	planets: Aviskir, Thilos
+
+# license "cf license outpost enka wake"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Wake
+# 	government: Avgi
+# 	planets: Amathil
+
+# license "cf license outpost enka clip"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Clip
+# 	government: Avgi
+# 	planets: Livolua
+
+# license "cf license outpost enka soar"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Soar
+# 	government: Avgi
+# 	planets: Stilacrest
+
+# license "cf license outpost enka thread"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Thread
+# 	government: Avgi
+# 	planets: Cyreal
+
+# license "cf license outpost enka sail"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Sail
+# 	government: Avgi
+# 	planets: Araio
+

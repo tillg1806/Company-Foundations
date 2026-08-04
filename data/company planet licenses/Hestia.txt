@@ -1,0 +1,985 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Hestia.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Talita
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 33 energy 1.512 (15.6%); large rock count 20 energy 3.388 (9.5%); medium metal count 65 energy 1.596 (30.8%); medium rock count 8 energy 2.94 (3.8%); small metal count 12 energy 1.624 (5.7%); small rock count 73 energy 2.128 (34.6%)
+# 	hq minables: copper abundance 7 density 3.2624 (41.6%); iron abundance 4 density 2.47306 (18.0%); silicon abundance 6 density 3.70162 (40.4%)
+# 	mining system: Talita
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: copper ore field
+# 	mining value per cargo: 90
+# 	mining quality: 55
+# 	mining asteroids: large metal count 33 energy 1.512 (15.6%); large rock count 20 energy 3.388 (9.5%); medium metal count 65 energy 1.596 (30.8%); medium rock count 8 energy 2.94 (3.8%); small metal count 12 energy 1.624 (5.7%); small rock count 73 energy 2.128 (34.6%)
+# 	mining minables: copper abundance 7 density 3.2624 (41.6%); iron abundance 4 density 2.47306 (18.0%); silicon abundance 6 density 3.70162 (40.4%)
+# 	shuttle route: Hestia -> Follower
+# 	shuttle system: Alphard
+# 	shuttle distance: 1
+# 	trading route: Hestia -> Follower
+# 	trading system: Alphard
+# 	trading distance: 1
+# 	trading commodity: Industrial
+# 	trading base value: 61
+# 	trading optimized value: 101
+# 	security route: Hestia -> Follower
+# 	security system: Alphard
+# 	security distance: 1
+
+# license "cf license hestia alphard"
+# 	tier: local
+# 	distance: 1
+# 	system: Alphard
+# 	government: Republic
+# 	planets: Follower
+
+# license "cf license hestia castor"
+# 	tier: local
+# 	distance: 1
+# 	system: Castor
+# 	government: Republic
+# 	planets: Geminus
+
+# license "cf license hestia miaplacidus"
+# 	tier: local
+# 	distance: 1
+# 	system: Miaplacidus
+# 	government: Republic
+# 	planets: Vinci
+
+# license "cf license hestia pollux"
+# 	tier: local
+# 	distance: 1
+# 	system: Pollux
+# 	government: Republic
+# 	planets: Martini, Thrall
+
+# license "cf license hestia tejat"
+# 	tier: regional
+# 	distance: 2
+# 	system: Tejat
+# 	government: Republic
+# 	planets: Calda, Vail
+
+# license "cf license hestia zosma"
+# 	tier: regional
+# 	distance: 2
+# 	system: Zosma
+# 	government: Republic
+# 	planets: Memory, Muninn Station
+
+# license "cf license hestia alhena"
+# 	tier: regional
+# 	distance: 3
+# 	system: Alhena
+# 	government: Republic
+# 	planets: Mainsail
+
+# license "cf license hestia capella"
+# 	tier: regional
+# 	distance: 3
+# 	system: Capella
+# 	government: Republic
+# 	planets: Hermes
+
+# license "cf license hestia dubhe"
+# 	tier: regional
+# 	distance: 3
+# 	system: Dubhe
+# 	government: Republic
+# 	planets: Haze
+
+# license "cf license hestia gomeisa"
+# 	tier: regional
+# 	distance: 3
+# 	system: Gomeisa
+# 	government: Republic
+# 	planets: Nifel
+
+# license "cf license hestia phurad"
+# 	tier: regional
+# 	distance: 3
+# 	system: Phurad
+# 	government: Republic
+# 	planets: Pearl
+
+# license "cf license hestia sirius"
+# 	tier: regional
+# 	distance: 3
+# 	system: Sirius
+# 	government: Republic
+# 	planets: Relic
+
+# license "cf license hestia tania australis"
+# 	tier: regional
+# 	distance: 3
+# 	system: Tania Australis
+# 	government: Republic
+# 	planets: Ingot
+
+# license "cf license hestia adhara"
+# 	tier: long
+# 	distance: 4
+# 	system: Adhara
+# 	government: Republic
+# 	planets: Muspel, Norn
+
+# license "cf license hestia aldebaran"
+# 	tier: long
+# 	distance: 4
+# 	system: Aldebaran
+# 	government: Republic
+# 	planets: Ada
+
+# license "cf license hestia canopus"
+# 	tier: long
+# 	distance: 4
+# 	system: Canopus
+# 	government: Republic
+# 	planets: Splashdown
+
+# license "cf license hestia epsilon leonis"
+# 	tier: long
+# 	distance: 4
+# 	system: Epsilon Leonis
+# 	government: Republic
+# 	planets: Valhalla
+
+# license "cf license hestia phecda"
+# 	tier: long
+# 	distance: 4
+# 	system: Phecda
+# 	government: Republic
+# 	planets: New Sahara
+
+# license "cf license hestia sol"
+# 	tier: long
+# 	distance: 4
+# 	system: Sol
+# 	government: Republic
+# 	planets: Earth, Luna, Mars
+
+# license "cf license hestia wazn"
+# 	tier: long
+# 	distance: 4
+# 	system: Wazn
+# 	government: Republic
+# 	planets: Glory
+
+# license "cf license hestia algorel"
+# 	tier: long
+# 	distance: 5
+# 	system: Algorel
+# 	government: Republic
+# 	planets: New Wales
+
+# license "cf license hestia alheka"
+# 	tier: long
+# 	distance: 5
+# 	system: Alheka
+# 	government: Republic
+# 	planets: Shroud, Triton Station
+
+# license "cf license hestia alpha centauri"
+# 	tier: long
+# 	distance: 5
+# 	system: Alpha Centauri
+# 	government: Republic
+# 	planets: Chiron
+
+# license "cf license hestia altair"
+# 	tier: long
+# 	distance: 5
+# 	system: Altair
+# 	government: Republic
+# 	planets: Shiver
+
+# license "cf license hestia caph"
+# 	tier: long
+# 	distance: 5
+# 	system: Caph
+# 	government: Syndicate
+# 	planets: Kraken Station, Reunion
+
+# license "cf license hestia delta velorum"
+# 	tier: long
+# 	distance: 5
+# 	system: Delta Velorum
+# 	government: Republic
+# 	planets: Bounty
+
+# license "cf license hestia denebola"
+# 	tier: long
+# 	distance: 5
+# 	system: Denebola
+# 	government: Republic
+# 	planets: Geyser
+
+# license "cf license hestia elnath"
+# 	tier: long
+# 	distance: 5
+# 	system: Elnath
+# 	government: Republic
+# 	planets: Pilot
+
+# license "cf license hestia kursa"
+# 	tier: long
+# 	distance: 5
+# 	system: Kursa
+# 	government: Republic
+# 	planets: Farseer
+
+# license "cf license hestia merak"
+# 	tier: long
+# 	distance: 5
+# 	system: Merak
+# 	government: Republic
+# 	planets: New China
+
+# license "cf license hestia phact"
+# 	tier: long
+# 	distance: 5
+# 	system: Phact
+# 	government: Republic
+# 	planets: Serpens
+
+# license "cf license hestia vega"
+# 	tier: long
+# 	distance: 5
+# 	system: Vega
+# 	government: Republic
+# 	planets: Silver
+
+# license "cf license hestia avior"
+# 	tier: long
+# 	distance: 6
+# 	system: Avior
+# 	government: Republic
+# 	planets: Fenrir Station, Mani
+
+# license "cf license hestia betelgeuse"
+# 	tier: long
+# 	distance: 6
+# 	system: Betelgeuse
+# 	government: Republic
+# 	planets: Prime
+
+# license "cf license hestia cor caroli"
+# 	tier: long
+# 	distance: 6
+# 	system: Cor Caroli
+# 	government: Republic
+# 	planets: Heartland
+
+# license "cf license hestia delta capricorni"
+# 	tier: long
+# 	distance: 6
+# 	system: Delta Capricorni
+# 	government: Syndicate
+# 	planets: Maker
+
+# license "cf license hestia diphda"
+# 	tier: long
+# 	distance: 6
+# 	system: Diphda
+# 	government: Syndicate
+# 	planets: Tinker
+
+# license "cf license hestia fomalhaut"
+# 	tier: long
+# 	distance: 6
+# 	system: Fomalhaut
+# 	government: Syndicate
+# 	planets: Millrace
+
+# license "cf license hestia mebsuta"
+# 	tier: long
+# 	distance: 6
+# 	system: Mebsuta
+# 	government: Republic
+# 	planets: Featherweight
+
+# license "cf license hestia menkent"
+# 	tier: long
+# 	distance: 6
+# 	system: Menkent
+# 	government: Republic
+# 	planets: New Austria
+
+# license "cf license hestia nihal"
+# 	tier: long
+# 	distance: 6
+# 	system: Nihal
+# 	government: Republic
+# 	planets: Maelstrom
+
+# license "cf license hestia porrima"
+# 	tier: long
+# 	distance: 6
+# 	system: Porrima
+# 	government: Republic
+# 	planets: New Switzerland
+
+# license "cf license hestia regor"
+# 	tier: long
+# 	distance: 6
+# 	system: Regor
+# 	government: Republic
+# 	planets: Windblain
+
+# license "cf license hestia turais"
+# 	tier: long
+# 	distance: 6
+# 	system: Turais
+# 	government: Republic
+# 	planets: Gemstone
+
+# license "cf license hestia alderamin"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Alderamin
+# 	government: Syndicate
+# 	planets: Furnace
+
+# license "cf license hestia ankaa"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Ankaa
+# 	government: Syndicate
+# 	planets: Lodestone
+
+# license "cf license hestia arcturus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Arcturus
+# 	government: Republic
+# 	planets: New Greenland
+
+# license "cf license hestia cebalrai"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Cebalrai
+# 	government: Republic
+# 	planets: Tundra
+
+# license "cf license hestia markab"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Markab
+# 	government: Syndicate
+# 	planets: Hephaestus
+
+# license "cf license hestia markeb"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Markeb
+# 	government: Republic
+# 	planets: Alexandria, Bivrost
+
+# license "cf license hestia naos"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Naos
+# 	government: Republic
+# 	planets: Asgard
+
+# license "cf license hestia rutilicus"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Rutilicus
+# 	government: Republic
+# 	planets: New Boston
+
+# license "cf license hestia scheat"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Scheat
+# 	government: Syndicate
+# 	planets: Delve
+
+# license "cf license hestia suhail"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Suhail
+# 	government: Republic
+# 	planets: Helheim, Leviathan Station
+
+# license "cf license hestia vindemiatrix"
+# 	tier: frontier
+# 	distance: 7
+# 	system: Vindemiatrix
+# 	government: Republic
+# 	planets: New Argentina
+
+# license "cf license hestia al dhanab"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Al Dhanab
+# 	government: Syndicate
+# 	planets: Burthen
+
+# license "cf license hestia alioth"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alioth
+# 	government: Republic
+# 	planets: New Tibet
+
+# license "cf license hestia alnair"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alnair
+# 	government: Syndicate
+# 	planets: Hippocrates
+
+# license "cf license hestia alnitak"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Alnitak
+# 	government: Republic
+# 	planets: Farpoint
+
+# license "cf license hestia aludra"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Aludra
+# 	government: Republic
+# 	planets: Midgard
+
+# license "cf license hestia kaus borealis"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Kaus Borealis
+# 	government: Republic
+# 	planets: New Iceland
+
+# license "cf license hestia matar"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Matar
+# 	government: Syndicate
+# 	planets: Antipode
+
+# license "cf license hestia mirach"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Mirach
+# 	government: Syndicate
+# 	planets: Placer
+
+# license "cf license hestia muhlifain"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Muhlifain
+# 	government: Republic
+# 	planets: New Kansas
+
+# license "cf license hestia rasalhague"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Rasalhague
+# 	government: Republic
+# 	planets: Oblivion
+
+# license "cf license hestia ruchbah"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Ruchbah
+# 	government: Syndicate
+# 	planets: Crossroads
+
+# license "cf license hestia saiph"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Saiph
+# 	government: Republic
+# 	planets: Skillet
+
+# license "cf license hestia sarin"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Sarin
+# 	government: Republic
+# 	planets: Big Sky
+
+# license "cf license hestia wezen"
+# 	tier: frontier
+# 	distance: 8
+# 	system: Wezen
+# 	government: Republic
+# 	planets: Alfheim
+
+# license "cf license hestia achernar"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Achernar
+# 	government: Syndicate
+# 	planets: Foundry
+
+# license "cf license hestia algol"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Algol
+# 	government: Syndicate
+# 	planets: Quicksilver
+
+# license "cf license hestia alpha hydri"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpha Hydri
+# 	government: Syndicate
+# 	planets: Nimbus
+
+# license "cf license hestia alphecca"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alphecca
+# 	government: Republic
+# 	planets: New Holland
+
+# license "cf license hestia alpheratz"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Alpheratz
+# 	government: Syndicate
+# 	planets: Moonshake
+
+# license "cf license hestia ascella"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Ascella
+# 	government: Republic
+# 	planets: Arabia
+
+# license "cf license hestia hamal"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Hamal
+# 	government: Syndicate
+# 	planets: Trove
+
+# license "cf license hestia schedar"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Schedar
+# 	government: Syndicate
+# 	planets: Amazon
+
+# license "cf license hestia sheratan"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Sheratan
+# 	government: Syndicate
+# 	planets: Sundive
+
+# license "cf license hestia zeta aquilae"
+# 	tier: frontier
+# 	distance: 9
+# 	system: Zeta Aquilae
+# 	government: Republic
+# 	planets: Rand
+
+# license "cf license hestia almaaz"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Almaaz
+# 	government: Pirate
+# 	planets: Freedom
+
+# license "cf license hestia almach"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Almach
+# 	government: Pirate
+# 	planets: Deadman's Cove
+
+# license "cf license hestia delta sagittarii"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Delta Sagittarii
+# 	government: Republic
+# 	planets: New Portland
+
+# license "cf license hestia gienah"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Gienah
+# 	government: Pirate
+# 	planets: Covert
+
+# license "cf license hestia kornephoros"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Kornephoros
+# 	government: Republic
+# 	planets: Deep
+
+# license "cf license hestia mirfak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Mirfak
+# 	government: Syndicate
+# 	planets: Sunracer
+
+# license "cf license hestia peacock"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Peacock
+# 	government: Republic
+# 	planets: New Washington
+
+# license "cf license hestia polaris"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Polaris
+# 	government: Syndicate
+# 	planets: Shangri-La
+
+# license "cf license hestia rastaban"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Rastaban
+# 	government: Republic
+# 	planets: Dancer
+
+# license "cf license hestia seginus"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Seginus
+# 	government: Republic
+# 	planets: Clark
+
+# license "cf license hestia zaurak"
+# 	tier: frontier
+# 	distance: 10
+# 	system: Zaurak
+# 	government: Syndicate
+# 	planets: Canyon
+
+# license "cf license hestia alcyone"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Alcyone
+# 	government: Pirate
+# 	planets: Stormhold
+
+# license "cf license hestia aldhibain"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Aldhibain
+# 	government: Republic
+# 	planets: Charon Station, Glaze
+
+# license "cf license hestia algenib"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Algenib
+# 	government: Pirate
+# 	planets: Buccaneer Bay
+
+# license "cf license hestia bellatrix"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Bellatrix
+# 	government: Syndicate
+# 	planets: Bluestone
+
+# license "cf license hestia girtab"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Girtab
+# 	government: Republic
+# 	planets: Harmony
+
+# license "cf license hestia kaus australis"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Kaus Australis
+# 	government: Republic
+# 	planets: Hopper
+
+# license "cf license hestia menkar"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Menkar
+# 	government: Syndicate
+# 	planets: Icefall
+
+# license "cf license hestia sabik"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sabik
+# 	government: Republic
+# 	planets: Longjump
+
+# license "cf license hestia sargas"
+# 	tier: frontier
+# 	distance: 11
+# 	system: Sargas
+# 	government: Republic
+# 	planets: Trinket
+
+# license "cf license hestia albaldah"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Albaldah
+# 	government: Republic
+# 	planets: New India
+
+# license "cf license hestia alnilam"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alnilam
+# 	government: Pirate
+# 	planets: Zenith
+
+# license "cf license hestia alniyat"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Alniyat
+# 	government: Republic
+# 	planets: Twinstar
+
+# license "cf license hestia arneb"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Arneb
+# 	government: Pirate
+# 	planets: Haven
+
+# license "cf license hestia atria"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Atria
+# 	government: Republic
+# 	planets: Lichen
+
+# license "cf license hestia dabih"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Dabih
+# 	government: Republic
+# 	planets: New Britain
+
+# license "cf license hestia dschubba"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Dschubba
+# 	government: Republic
+# 	planets: Sundrinker
+
+# license "cf license hestia shaula"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Shaula
+# 	government: Pirate
+# 	planets: Greenrock
+
+# license "cf license hestia unukalhai"
+# 	tier: frontier
+# 	distance: 12
+# 	system: Unukalhai
+# 	government: Republic
+# 	planets: Flood
+
+# license "cf license hestia albireo"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Albireo
+# 	government: Republic
+# 	planets: Sinter
+
+# license "cf license hestia antares"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Antares
+# 	government: Pirate
+# 	planets: Bloodsea
+
+# license "cf license hestia graffias"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Graffias
+# 	government: Republic
+# 	planets: Poisonwood
+
+# license "cf license hestia han"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Han
+# 	government: Republic
+# 	planets: Darkstone
+
+# license "cf license hestia misam"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Misam
+# 	government: Pirate
+# 	planets: New Tortuga
+
+# license "cf license hestia nunki"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Nunki
+# 	government: Pirate
+# 	planets: Albatross
+
+# license "cf license hestia pherkad"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Pherkad
+# 	government: Republic
+# 	planets: Solace
+
+# license "cf license hestia tarazed"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Tarazed
+# 	government: Republic
+# 	planets: Echo, Wayfarer
+
+# license "cf license hestia zubeneschamali"
+# 	tier: frontier
+# 	distance: 13
+# 	system: Zubeneschamali
+# 	government: Republic
+# 	planets: Zug
+
+# license "cf license hestia enif"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Enif
+# 	government: Quarg
+# 	planets: Lagrange
+
+# license "cf license hestia hadar"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Hadar
+# 	government: Republic
+# 	planets: Skymoot
+
+# license "cf license hestia kappa centauri"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Kappa Centauri
+# 	government: Republic
+# 	planets: Cornucopia
+
+# license "cf license hestia kochab"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Kochab
+# 	government: Republic
+# 	planets: Mere
+
+# license "cf license hestia yed prior"
+# 	tier: frontier
+# 	distance: 14
+# 	system: Yed Prior
+# 	government: Republic
+# 	planets: Winter
+
+# license "cf license hestia alkaid"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Alkaid
+# 	government: Republic
+# 	planets: Thunder
+
+# license "cf license hestia izar"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Izar
+# 	government: Republic
+# 	planets: Poseidos, Wyvern Station
+
+# license "cf license hestia men"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Men
+# 	government: Pirate
+# 	planets: Smuggler's Den, Thule
+
+# license "cf license hestia sadalmelik"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sadalmelik
+# 	government: Quarg
+# 	planets: Grakhord, Humanika
+
+# license "cf license hestia sadalsuud"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Sadalsuud
+# 	government: Quarg
+# 	planets: Forpelog
+
+# license "cf license hestia zeta centauri"
+# 	tier: frontier
+# 	distance: 15
+# 	system: Zeta Centauri
+# 	government: Republic
+# 	planets: Dune
+
+# license "cf license hestia acrux"
+# 	tier: frontier
+# 	distance: 16
+# 	system: Acrux
+# 	government: Republic
+# 	planets: Starcross
+
+# license "cf license hestia belenos"
+# 	tier: frontier
+# 	distance: 17
+# 	system: Belenos
+# 	government: Pirate
+# 	planets: Gagarin, Mordente-Bridi
+
+# license "cf license hestia alpherg"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Alpherg
+# 	government: Pirate
+# 	planets: Jakobsen
+
+# license "cf license hestia citadelle"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Citadelle
+# 	government: Pirate
+# 	planets: Alvorada, Bailey
+
+# license "cf license hestia mimosa"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Mimosa
+# 	government: Republic
+# 	planets: Shorebreak
+
+# license "cf license hestia spica"
+# 	tier: frontier
+# 	distance: 18
+# 	system: Spica
+# 	government: Republic
+# 	planets: Oasis
+
+# license "cf license hestia gamma corvi"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Gamma Corvi
+# 	government: Republic
+# 	planets: Bourne
+
+# license "cf license hestia kraz"
+# 	tier: frontier
+# 	distance: 19
+# 	system: Kraz
+# 	government: Republic
+# 	planets: Rust
+

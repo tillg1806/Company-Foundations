@@ -1,0 +1,152 @@
+# Company Foundations
+
+# Explicit license catalog for headquarters on Bosunothro.
+# Generated from inhabited spaceport systems in the Endless Sky data.
+# These records are intentionally comment-only for now; gameplay menus can be wired to them next.
+# Format: license key, tier, jump distance, target system, target planets.
+
+# default assignments
+# 	hq system: Bosuno Le
+# 	hq system asteroids: yes
+# 	hq asteroids: large metal count 56 energy 8.4364 (46.3%); large rock count 5 energy 4.508 (4.1%); medium rock count 20 energy 3.9284 (16.5%); small metal count 10 energy 5.474 (8.3%); small rock count 30 energy 4.5724 (24.8%)
+# 	hq minables: none
+# 	mining system: Bosuno Le
+# 	mining distance: 0
+# 	mining local to hq: yes
+# 	mining summary: low-grade salvage
+# 	mining value per cargo: 90
+# 	mining quality: 0
+# 	mining asteroids: large metal count 56 energy 8.4364 (46.3%); large rock count 5 energy 4.508 (4.1%); medium rock count 20 energy 3.9284 (16.5%); small metal count 10 energy 5.474 (8.3%); small rock count 30 energy 4.5724 (24.8%)
+# 	mining minables: none
+# 	shuttle route: Bosunothro -> Bunthro
+# 	shuttle system: Bunri Lemeta
+# 	shuttle distance: 1
+# 	trading route: Bosunothro -> Bunthro
+# 	trading system: Bunri Lemeta
+# 	trading distance: 1
+# 	trading commodity: Heavy Metals
+# 	trading base value: 72
+# 	trading optimized value: 120
+# 	security route: Bosunothro -> Bunthro
+# 	security system: Bunri Lemeta
+# 	security distance: 1
+
+# license "cf license bosunothro bunri lemeta"
+# 	tier: local
+# 	distance: 1
+# 	system: Bunri Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Bunthro
+
+# license "cf license bosunothro erabu lemeta"
+# 	tier: local
+# 	distance: 1
+# 	system: Erabu Lemeta
+# 	government: Bunrodea (Guard)
+# 	planets: Erabuthro
+
+# license "cf license bosunothro eragaru le"
+# 	tier: local
+# 	distance: 1
+# 	system: Eragaru Le
+# 	government: Bunrodea (Guard)
+# 	planets: Eragarthro
+
+# license "cf license bosunothro avo chigo"
+# 	tier: regional
+# 	distance: 2
+# 	system: Avo Chigo
+# 	government: Bunrodea (Guard)
+# 	planets: Illbo Avo
+
+# license "cf license bosunothro jentu le"
+# 	tier: regional
+# 	distance: 2
+# 	system: Jentu Le
+# 	government: Bunrodea (Guard)
+# 	planets: Jentuthro
+
+# license "cf license bosunothro shini bori"
+# 	tier: regional
+# 	distance: 2
+# 	system: Shini Bori
+# 	government: Bunrodea (Guard)
+# 	planets: Sardva
+
+# license "cf license bosunothro thshybo le"
+# 	tier: regional
+# 	distance: 2
+# 	system: Thshybo Le
+# 	government: Bunrodea (Guard)
+# 	planets: Thshybothro
+
+# license "cf license bosunothro elabi choati"
+# 	tier: regional
+# 	distance: 3
+# 	system: Elabi Choati
+# 	government: Bunrodea
+# 	planets: Iddesato
+
+# license "cf license bosunothro elo chigo"
+# 	tier: regional
+# 	distance: 3
+# 	system: Elo Chigo
+# 	government: Bunrodea
+# 	planets: Illbo Elo
+
+# license "cf license bosunothro ravu kon"
+# 	tier: regional
+# 	distance: 3
+# 	system: Ravu Kon
+# 	government: Bunrodea
+# 	planets: Sopoyra
+
+# license "cf license bosunothro kifrana terberah"
+# 	tier: long
+# 	distance: 4
+# 	system: Kifrana Terberah
+# 	government: Bunrodea
+# 	planets: Kisarra
+
+# license "cf license bosunothro mego inito"
+# 	tier: long
+# 	distance: 4
+# 	system: Mego Inito
+# 	government: Bunrodea
+# 	planets: Angko
+
+# license "cf license bosunothro mego seo"
+# 	tier: long
+# 	distance: 4
+# 	system: Mego Seo
+# 	government: Bunrodea
+# 	planets: Deli Kasi
+
+# license "cf license bosunothro jentu centi"
+# 	tier: long
+# 	distance: 5
+# 	system: Jentu Centi
+# 	government: Bunrodea
+# 	planets: Melenci
+
+# license "cf license bosunothro mego faro"
+# 	tier: long
+# 	distance: 6
+# 	system: Mego Faro
+# 	government: Bunrodea
+# 	planets: Deli Kat
+
+# license "cf license bosunothro piadenli"
+# 	tier: long
+# 	distance: 6
+# 	system: Piadenli
+# 	government: Bunrodea
+# 	planets: Disara
+
+# license "cf license bosunothro urba pest"
+# 	tier: long
+# 	distance: 6
+# 	system: Urba Pest
+# 	government: Bunrodea
+# 	planets: Okoity
+

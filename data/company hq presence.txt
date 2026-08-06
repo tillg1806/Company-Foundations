@@ -1,3 +1,5 @@
+# Company Foundations
+
 mission "Company Foundations: Mark At Headquarters: Company Headquarters"
 	name "At Company Headquarters"
 	invisible
@@ -11,10 +13,8 @@ mission "Company Foundations: Mark At Headquarters: Company Headquarters"
 	on offer
 		set "cf: at hq"
 		"reputation: Company Foundations Player Company" >?= 1000
+
 		fail
-
-# Company Foundations
-
 mission "Company Foundations: Mark At Headquarters: Aava-Aasa-Khora"
 	name "At Company Headquarters"
 	invisible
@@ -5513,7 +5513,6 @@ mission "Company Foundations: Mark Away From Headquarters: Aava-Aasa-Khora"
 	source Aava-Aasa-Khora
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Aava-Aasa-Khora"
 		has "cf: at hq"
 	on offer
@@ -5528,7 +5527,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ablub's Invention"
 	source "Ablub's Invention"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ablub's Invention"
 		has "cf: at hq"
 	on offer
@@ -5543,7 +5541,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ada"
 	source Ada
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ada"
 		has "cf: at hq"
 	on offer
@@ -5558,7 +5555,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ahr"
 	source Ahr
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ahr"
 		has "cf: at hq"
 	on offer
@@ -5573,7 +5569,6 @@ mission "Company Foundations: Mark Away From Headquarters: Albatross"
 	source Albatross
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Albatross"
 		has "cf: at hq"
 	on offer
@@ -5588,7 +5583,6 @@ mission "Company Foundations: Mark Away From Headquarters: Alexandria"
 	source Alexandria
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Alexandria"
 		has "cf: at hq"
 	on offer
@@ -5603,7 +5597,6 @@ mission "Company Foundations: Mark Away From Headquarters: Alfheim"
 	source Alfheim
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Alfheim"
 		has "cf: at hq"
 	on offer
@@ -5618,7 +5611,6 @@ mission "Company Foundations: Mark Away From Headquarters: Allhome"
 	source Allhome
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Allhome"
 		has "cf: at hq"
 	on offer
@@ -5633,7 +5625,6 @@ mission "Company Foundations: Mark Away From Headquarters: Alta Hai"
 	source "Alta Hai"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Alta Hai"
 		has "cf: at hq"
 	on offer
@@ -5648,7 +5639,6 @@ mission "Company Foundations: Mark Away From Headquarters: Alvorada"
 	source Alvorada
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Alvorada"
 		has "cf: at hq"
 	on offer
@@ -5663,7 +5653,6 @@ mission "Company Foundations: Mark Away From Headquarters: Amathil"
 	source Amathil
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Amathil"
 		has "cf: at hq"
 	on offer
@@ -5678,7 +5667,6 @@ mission "Company Foundations: Mark Away From Headquarters: Amazon"
 	source Amazon
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Amazon"
 		has "cf: at hq"
 	on offer
@@ -5693,7 +5681,6 @@ mission "Company Foundations: Mark Away From Headquarters: Angko"
 	source Angko
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Angko"
 		has "cf: at hq"
 	on offer
@@ -5708,7 +5695,6 @@ mission "Company Foundations: Mark Away From Headquarters: Antipode"
 	source Antipode
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Antipode"
 		has "cf: at hq"
 	on offer
@@ -5723,7 +5709,6 @@ mission "Company Foundations: Mark Away From Headquarters: Arabia"
 	source Arabia
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Arabia"
 		has "cf: at hq"
 	on offer
@@ -5738,7 +5723,6 @@ mission "Company Foundations: Mark Away From Headquarters: Araio"
 	source Araio
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Araio"
 		has "cf: at hq"
 	on offer
@@ -5753,7 +5737,6 @@ mission "Company Foundations: Mark Away From Headquarters: Arroharg"
 	source Arroharg
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Arroharg"
 		has "cf: at hq"
 	on offer
@@ -5768,7 +5751,6 @@ mission "Company Foundations: Mark Away From Headquarters: Asgard"
 	source Asgard
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Asgard"
 		has "cf: at hq"
 	on offer
@@ -5783,7 +5765,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ashy Reach"
 	source "Ashy Reach"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ashy Reach"
 		has "cf: at hq"
 	on offer
@@ -5798,7 +5779,6 @@ mission "Company Foundations: Mark Away From Headquarters: Aventine"
 	source Aventine
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Aventine"
 		has "cf: at hq"
 	on offer
@@ -5813,7 +5793,6 @@ mission "Company Foundations: Mark Away From Headquarters: Aviskir"
 	source Aviskir
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Aviskir"
 		has "cf: at hq"
 	on offer
@@ -5828,7 +5807,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bailey"
 	source Bailey
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bailey"
 		has "cf: at hq"
 	on offer
@@ -5843,7 +5821,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bank of Blugtad"
 	source "Bank of Blugtad"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bank of Blugtad"
 		has "cf: at hq"
 	on offer
@@ -5858,7 +5835,6 @@ mission "Company Foundations: Mark Away From Headquarters: Belug's Plunge"
 	source "Belug's Plunge"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Belug's Plunge"
 		has "cf: at hq"
 	on offer
@@ -5873,7 +5849,6 @@ mission "Company Foundations: Mark Away From Headquarters: Big Sky"
 	source "Big Sky"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Big Sky"
 		has "cf: at hq"
 	on offer
@@ -5888,7 +5863,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bivrost"
 	source Bivrost
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bivrost"
 		has "cf: at hq"
 	on offer
@@ -5903,7 +5877,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bloodsea"
 	source Bloodsea
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bloodsea"
 		has "cf: at hq"
 	on offer
@@ -5918,7 +5891,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bloptab's Furnace"
 	source "Bloptab's Furnace"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bloptab's Furnace"
 		has "cf: at hq"
 	on offer
@@ -5933,7 +5905,6 @@ mission "Company Foundations: Mark Away From Headquarters: Blubipad's Workshop"
 	source "Blubipad's Workshop"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Blubipad's Workshop"
 		has "cf: at hq"
 	on offer
@@ -5948,7 +5919,6 @@ mission "Company Foundations: Mark Away From Headquarters: Blue Interior"
 	source "Blue Interior"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Blue Interior"
 		has "cf: at hq"
 	on offer
@@ -5963,7 +5933,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bluestone"
 	source Bluestone
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bluestone"
 		has "cf: at hq"
 	on offer
@@ -5978,7 +5947,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bosunothro"
 	source Bosunothro
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bosunothro"
 		has "cf: at hq"
 	on offer
@@ -5993,7 +5961,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bounty"
 	source Bounty
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bounty"
 		has "cf: at hq"
 	on offer
@@ -6008,7 +5975,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bourne"
 	source Bourne
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bourne"
 		has "cf: at hq"
 	on offer
@@ -6023,7 +5989,6 @@ mission "Company Foundations: Mark Away From Headquarters: Brass Second"
 	source "Brass Second"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Brass Second"
 		has "cf: at hq"
 	on offer
@@ -6038,7 +6003,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bright Echo"
 	source "Bright Echo"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bright Echo"
 		has "cf: at hq"
 	on offer
@@ -6053,7 +6017,6 @@ mission "Company Foundations: Mark Away From Headquarters: Buccaneer Bay"
 	source "Buccaneer Bay"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Buccaneer Bay"
 		has "cf: at hq"
 	on offer
@@ -6068,7 +6031,6 @@ mission "Company Foundations: Mark Away From Headquarters: Bunthro"
 	source Bunthro
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Bunthro"
 		has "cf: at hq"
 	on offer
@@ -6083,7 +6045,6 @@ mission "Company Foundations: Mark Away From Headquarters: Burthen"
 	source Burthen
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Burthen"
 		has "cf: at hq"
 	on offer
@@ -6098,7 +6059,6 @@ mission "Company Foundations: Mark Away From Headquarters: Caelian"
 	source Caelian
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Caelian"
 		has "cf: at hq"
 	on offer
@@ -6113,7 +6073,6 @@ mission "Company Foundations: Mark Away From Headquarters: Calda"
 	source Calda
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Calda"
 		has "cf: at hq"
 	on offer
@@ -6128,7 +6087,6 @@ mission "Company Foundations: Mark Away From Headquarters: Canyon"
 	source Canyon
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Canyon"
 		has "cf: at hq"
 	on offer
@@ -6143,7 +6101,6 @@ mission "Company Foundations: Mark Away From Headquarters: Celestial Third"
 	source "Celestial Third"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Celestial Third"
 		has "cf: at hq"
 	on offer
@@ -6158,7 +6115,6 @@ mission "Company Foundations: Mark Away From Headquarters: Charon Station"
 	source "Charon Station"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Charon Station"
 		has "cf: at hq"
 	on offer
@@ -6173,7 +6129,6 @@ mission "Company Foundations: Mark Away From Headquarters: Chiron"
 	source Chiron
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Chiron"
 		has "cf: at hq"
 	on offer
@@ -6188,7 +6143,6 @@ mission "Company Foundations: Mark Away From Headquarters: Chosen Nexus"
 	source "Chosen Nexus"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Chosen Nexus"
 		has "cf: at hq"
 	on offer
@@ -6203,7 +6157,6 @@ mission "Company Foundations: Mark Away From Headquarters: Cipi"
 	source Cipi
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Cipi"
 		has "cf: at hq"
 	on offer
@@ -6218,7 +6171,6 @@ mission "Company Foundations: Mark Away From Headquarters: Clark"
 	source Clark
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Clark"
 		has "cf: at hq"
 	on offer
@@ -6233,7 +6185,6 @@ mission "Company Foundations: Mark Away From Headquarters: Cloudfire"
 	source Cloudfire
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Cloudfire"
 		has "cf: at hq"
 	on offer
@@ -6248,7 +6199,6 @@ mission "Company Foundations: Mark Away From Headquarters: Cold Horizon"
 	source "Cold Horizon"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Cold Horizon"
 		has "cf: at hq"
 	on offer
@@ -6263,7 +6213,6 @@ mission "Company Foundations: Mark Away From Headquarters: Cool Forest"
 	source "Cool Forest"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Cool Forest"
 		has "cf: at hq"
 	on offer
@@ -6278,7 +6227,6 @@ mission "Company Foundations: Mark Away From Headquarters: Cornucopia"
 	source Cornucopia
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Cornucopia"
 		has "cf: at hq"
 	on offer
@@ -6293,7 +6241,6 @@ mission "Company Foundations: Mark Away From Headquarters: Corral of Meblumem"
 	source "Corral of Meblumem"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Corral of Meblumem"
 		has "cf: at hq"
 	on offer
@@ -6308,7 +6255,6 @@ mission "Company Foundations: Mark Away From Headquarters: Covert"
 	source Covert
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Covert"
 		has "cf: at hq"
 	on offer
@@ -6323,7 +6269,6 @@ mission "Company Foundations: Mark Away From Headquarters: Crossroads"
 	source Crossroads
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Crossroads"
 		has "cf: at hq"
 	on offer
@@ -6338,7 +6283,6 @@ mission "Company Foundations: Mark Away From Headquarters: Cyreal"
 	source Cyreal
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Cyreal"
 		has "cf: at hq"
 	on offer
@@ -6353,7 +6297,6 @@ mission "Company Foundations: Mark Away From Headquarters: Dancer"
 	source Dancer
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Dancer"
 		has "cf: at hq"
 	on offer
@@ -6368,7 +6311,6 @@ mission "Company Foundations: Mark Away From Headquarters: Darkcloak"
 	source Darkcloak
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Darkcloak"
 		has "cf: at hq"
 	on offer
@@ -6383,7 +6325,6 @@ mission "Company Foundations: Mark Away From Headquarters: Darkmetal"
 	source Darkmetal
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Darkmetal"
 		has "cf: at hq"
 	on offer
@@ -6398,7 +6339,6 @@ mission "Company Foundations: Mark Away From Headquarters: Darkstone"
 	source Darkstone
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Darkstone"
 		has "cf: at hq"
 	on offer
@@ -6413,7 +6353,6 @@ mission "Company Foundations: Mark Away From Headquarters: Deadman's Cove"
 	source "Deadman's Cove"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Deadman's Cove"
 		has "cf: at hq"
 	on offer
@@ -6428,7 +6367,6 @@ mission "Company Foundations: Mark Away From Headquarters: Deep"
 	source Deep
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Deep"
 		has "cf: at hq"
 	on offer
@@ -6443,7 +6381,6 @@ mission "Company Foundations: Mark Away From Headquarters: Deep Treasure"
 	source "Deep Treasure"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Deep Treasure"
 		has "cf: at hq"
 	on offer
@@ -6458,7 +6395,6 @@ mission "Company Foundations: Mark Away From Headquarters: Deep Water"
 	source "Deep Water"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Deep Water"
 		has "cf: at hq"
 	on offer
@@ -6473,7 +6409,6 @@ mission "Company Foundations: Mark Away From Headquarters: Deli Kasi"
 	source "Deli Kasi"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Deli Kasi"
 		has "cf: at hq"
 	on offer
@@ -6488,7 +6423,6 @@ mission "Company Foundations: Mark Away From Headquarters: Deli Kat"
 	source "Deli Kat"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Deli Kat"
 		has "cf: at hq"
 	on offer
@@ -6503,7 +6437,6 @@ mission "Company Foundations: Mark Away From Headquarters: Delve"
 	source Delve
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Delve"
 		has "cf: at hq"
 	on offer
@@ -6518,7 +6451,6 @@ mission "Company Foundations: Mark Away From Headquarters: Delve of Bloptab"
 	source "Delve of Bloptab"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Delve of Bloptab"
 		has "cf: at hq"
 	on offer
@@ -6533,7 +6465,6 @@ mission "Company Foundations: Mark Away From Headquarters: Disara"
 	source Disara
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Disara"
 		has "cf: at hq"
 	on offer
@@ -6548,7 +6479,6 @@ mission "Company Foundations: Mark Away From Headquarters: Double Haze"
 	source "Double Haze"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Double Haze"
 		has "cf: at hq"
 	on offer
@@ -6563,7 +6493,6 @@ mission "Company Foundations: Mark Away From Headquarters: Dueitch Ae"
 	source "Dueitch Ae"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Dueitch Ae"
 		has "cf: at hq"
 	on offer
@@ -6578,7 +6507,6 @@ mission "Company Foundations: Mark Away From Headquarters: Dueyu Eitch"
 	source "Dueyu Eitch"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Dueyu Eitch"
 		has "cf: at hq"
 	on offer
@@ -6593,7 +6521,6 @@ mission "Company Foundations: Mark Away From Headquarters: Dune"
 	source Dune
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Dune"
 		has "cf: at hq"
 	on offer
@@ -6608,7 +6535,6 @@ mission "Company Foundations: Mark Away From Headquarters: Dusk Companion"
 	source "Dusk Companion"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Dusk Companion"
 		has "cf: at hq"
 	on offer
@@ -6623,7 +6549,6 @@ mission "Company Foundations: Mark Away From Headquarters: Dustmaker"
 	source Dustmaker
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Dustmaker"
 		has "cf: at hq"
 	on offer
@@ -6638,7 +6563,6 @@ mission "Company Foundations: Mark Away From Headquarters: Dwelling of Speloog"
 	source "Dwelling of Speloog"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Dwelling of Speloog"
 		has "cf: at hq"
 	on offer
@@ -6653,7 +6577,6 @@ mission "Company Foundations: Mark Away From Headquarters: Earth"
 	source Earth
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Earth"
 		has "cf: at hq"
 	on offer
@@ -6668,7 +6591,6 @@ mission "Company Foundations: Mark Away From Headquarters: Echo"
 	source Echo
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Echo"
 		has "cf: at hq"
 	on offer
@@ -6683,7 +6605,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ef Aourtdye"
 	source "Ef Aourtdye"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ef Aourtdye"
 		has "cf: at hq"
 	on offer
@@ -6698,7 +6619,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ef Osch"
 	source "Ef Osch"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ef Osch"
 		has "cf: at hq"
 	on offer
@@ -6713,7 +6633,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ember Reaches"
 	source "Ember Reaches"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ember Reaches"
 		has "cf: at hq"
 	on offer
@@ -6728,7 +6647,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ember Wormhole"
 	source "Ember Wormhole"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ember Wormhole"
 		has "cf: at hq"
 	on offer
@@ -6743,7 +6661,6 @@ mission "Company Foundations: Mark Away From Headquarters: Enbye"
 	source Enbye
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Enbye"
 		has "cf: at hq"
 	on offer
@@ -6758,7 +6675,6 @@ mission "Company Foundations: Mark Away From Headquarters: Enn Bue"
 	source "Enn Bue"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Enn Bue"
 		has "cf: at hq"
 	on offer
@@ -6773,7 +6689,6 @@ mission "Company Foundations: Mark Away From Headquarters: Erabuthro"
 	source Erabuthro
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Erabuthro"
 		has "cf: at hq"
 	on offer
@@ -6788,7 +6703,6 @@ mission "Company Foundations: Mark Away From Headquarters: Eragarthro"
 	source Eragarthro
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Eragarthro"
 		has "cf: at hq"
 	on offer
@@ -6803,7 +6717,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ergastirio Station"
 	source "Ergastirio Station"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ergastirio Station"
 		has "cf: at hq"
 	on offer
@@ -6818,7 +6731,6 @@ mission "Company Foundations: Mark Away From Headquarters: Essime"
 	source Essime
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Essime"
 		has "cf: at hq"
 	on offer
@@ -6833,7 +6745,6 @@ mission "Company Foundations: Mark Away From Headquarters: Everhope"
 	source Everhope
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Everhope"
 		has "cf: at hq"
 	on offer
@@ -6848,7 +6759,6 @@ mission "Company Foundations: Mark Away From Headquarters: Factory of Eblumab"
 	source "Factory of Eblumab"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Factory of Eblumab"
 		has "cf: at hq"
 	on offer
@@ -6863,7 +6773,6 @@ mission "Company Foundations: Mark Away From Headquarters: Far Garden"
 	source "Far Garden"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Far Garden"
 		has "cf: at hq"
 	on offer
@@ -6878,7 +6787,6 @@ mission "Company Foundations: Mark Away From Headquarters: Far Home"
 	source "Far Home"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Far Home"
 		has "cf: at hq"
 	on offer
@@ -6893,7 +6801,6 @@ mission "Company Foundations: Mark Away From Headquarters: Farpoint"
 	source Farpoint
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Farpoint"
 		has "cf: at hq"
 	on offer
@@ -6908,7 +6815,6 @@ mission "Company Foundations: Mark Away From Headquarters: Farseer"
 	source Farseer
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Farseer"
 		has "cf: at hq"
 	on offer
@@ -6923,7 +6829,6 @@ mission "Company Foundations: Mark Away From Headquarters: Farwater"
 	source Farwater
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Farwater"
 		has "cf: at hq"
 	on offer
@@ -6938,7 +6843,6 @@ mission "Company Foundations: Mark Away From Headquarters: Featherweight"
 	source Featherweight
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Featherweight"
 		has "cf: at hq"
 	on offer
@@ -6953,7 +6857,6 @@ mission "Company Foundations: Mark Away From Headquarters: Fenrir Station"
 	source "Fenrir Station"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Fenrir Station"
 		has "cf: at hq"
 	on offer
@@ -6968,7 +6871,6 @@ mission "Company Foundations: Mark Away From Headquarters: Feo Platform"
 	source "Feo Platform"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Feo Platform"
 		has "cf: at hq"
 	on offer
@@ -6983,7 +6885,6 @@ mission "Company Foundations: Mark Away From Headquarters: Firelode"
 	source Firelode
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Firelode"
 		has "cf: at hq"
 	on offer
@@ -6998,7 +6899,6 @@ mission "Company Foundations: Mark Away From Headquarters: Flood"
 	source Flood
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Flood"
 		has "cf: at hq"
 	on offer
@@ -7013,7 +6913,6 @@ mission "Company Foundations: Mark Away From Headquarters: Flowing Fields"
 	source "Flowing Fields"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Flowing Fields"
 		has "cf: at hq"
 	on offer
@@ -7028,7 +6927,6 @@ mission "Company Foundations: Mark Away From Headquarters: Follower"
 	source Follower
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Follower"
 		has "cf: at hq"
 	on offer
@@ -7043,7 +6941,6 @@ mission "Company Foundations: Mark Away From Headquarters: Forpelog"
 	source Forpelog
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Forpelog"
 		has "cf: at hq"
 	on offer
@@ -7058,7 +6955,6 @@ mission "Company Foundations: Mark Away From Headquarters: Foundry"
 	source Foundry
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Foundry"
 		has "cf: at hq"
 	on offer
@@ -7073,7 +6969,6 @@ mission "Company Foundations: Mark Away From Headquarters: Fourth Shadow"
 	source "Fourth Shadow"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Fourth Shadow"
 		has "cf: at hq"
 	on offer
@@ -7088,7 +6983,6 @@ mission "Company Foundations: Mark Away From Headquarters: Freedom"
 	source Freedom
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Freedom"
 		has "cf: at hq"
 	on offer
@@ -7103,7 +6997,6 @@ mission "Company Foundations: Mark Away From Headquarters: Frostmark"
 	source Frostmark
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Frostmark"
 		has "cf: at hq"
 	on offer
@@ -7118,7 +7011,6 @@ mission "Company Foundations: Mark Away From Headquarters: Furnace"
 	source Furnace
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Furnace"
 		has "cf: at hq"
 	on offer
@@ -7133,7 +7025,6 @@ mission "Company Foundations: Mark Away From Headquarters: Gagarin"
 	source Gagarin
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Gagarin"
 		has "cf: at hq"
 	on offer
@@ -7148,7 +7039,6 @@ mission "Company Foundations: Mark Away From Headquarters: Garden Empyreal"
 	source "Garden Empyreal"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Garden Empyreal"
 		has "cf: at hq"
 	on offer
@@ -7163,7 +7053,6 @@ mission "Company Foundations: Mark Away From Headquarters: Geminus"
 	source Geminus
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Geminus"
 		has "cf: at hq"
 	on offer
@@ -7178,7 +7067,6 @@ mission "Company Foundations: Mark Away From Headquarters: Gemstone"
 	source Gemstone
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Gemstone"
 		has "cf: at hq"
 	on offer
@@ -7193,7 +7081,6 @@ mission "Company Foundations: Mark Away From Headquarters: Gentle Rain"
 	source "Gentle Rain"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Gentle Rain"
 		has "cf: at hq"
 	on offer
@@ -7208,7 +7095,6 @@ mission "Company Foundations: Mark Away From Headquarters: Geyser"
 	source Geyser
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Geyser"
 		has "cf: at hq"
 	on offer
@@ -7223,7 +7109,6 @@ mission "Company Foundations: Mark Away From Headquarters: Gi Tiures"
 	source "Gi Tiures"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Gi Tiures"
 		has "cf: at hq"
 	on offer
@@ -7238,7 +7123,6 @@ mission "Company Foundations: Mark Away From Headquarters: Giaru Gegno"
 	source "Giaru Gegno"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Giaru Gegno"
 		has "cf: at hq"
 	on offer
@@ -7253,7 +7137,6 @@ mission "Company Foundations: Mark Away From Headquarters: Giverstone"
 	source Giverstone
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Giverstone"
 		has "cf: at hq"
 	on offer
@@ -7268,7 +7151,6 @@ mission "Company Foundations: Mark Away From Headquarters: Glaze"
 	source Glaze
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Glaze"
 		has "cf: at hq"
 	on offer
@@ -7283,7 +7165,6 @@ mission "Company Foundations: Mark Away From Headquarters: Glittering Ice"
 	source "Glittering Ice"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Glittering Ice"
 		has "cf: at hq"
 	on offer
@@ -7298,7 +7179,6 @@ mission "Company Foundations: Mark Away From Headquarters: Glory"
 	source Glory
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Glory"
 		has "cf: at hq"
 	on offer
@@ -7313,7 +7193,6 @@ mission "Company Foundations: Mark Away From Headquarters: Graede"
 	source Graede
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Graede"
 		has "cf: at hq"
 	on offer
@@ -7328,7 +7207,6 @@ mission "Company Foundations: Mark Away From Headquarters: Grakhord"
 	source Grakhord
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Grakhord"
 		has "cf: at hq"
 	on offer
@@ -7343,7 +7221,6 @@ mission "Company Foundations: Mark Away From Headquarters: Greenbloom"
 	source Greenbloom
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Greenbloom"
 		has "cf: at hq"
 	on offer
@@ -7358,7 +7235,6 @@ mission "Company Foundations: Mark Away From Headquarters: Greenrock"
 	source Greenrock
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Greenrock"
 		has "cf: at hq"
 	on offer
@@ -7373,7 +7249,6 @@ mission "Company Foundations: Mark Away From Headquarters: Greenview"
 	source Greenview
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Greenview"
 		has "cf: at hq"
 	on offer
@@ -7388,7 +7263,6 @@ mission "Company Foundations: Mark Away From Headquarters: Greenwater"
 	source Greenwater
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Greenwater"
 		has "cf: at hq"
 	on offer
@@ -7403,7 +7277,6 @@ mission "Company Foundations: Mark Away From Headquarters: Gresku Fodar"
 	source "Gresku Fodar"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Gresku Fodar"
 		has "cf: at hq"
 	on offer
@@ -7418,7 +7291,6 @@ mission "Company Foundations: Mark Away From Headquarters: Greymoon"
 	source Greymoon
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Greymoon"
 		has "cf: at hq"
 	on offer
@@ -7433,7 +7305,6 @@ mission "Company Foundations: Mark Away From Headquarters: Guardian Array Sapphi
 	source "Guardian Array Sapphire"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Guardian Array Sapphire"
 		has "cf: at hq"
 	on offer
@@ -7448,7 +7319,6 @@ mission "Company Foundations: Mark Away From Headquarters: Gue Faur"
 	source "Gue Faur"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Gue Faur"
 		has "cf: at hq"
 	on offer
@@ -7463,7 +7333,6 @@ mission "Company Foundations: Mark Away From Headquarters: Hai-home"
 	source Hai-home
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Hai-home"
 		has "cf: at hq"
 	on offer
@@ -7478,7 +7347,6 @@ mission "Company Foundations: Mark Away From Headquarters: Hammer of Debrugt"
 	source "Hammer of Debrugt"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Hammer of Debrugt"
 		has "cf: at hq"
 	on offer
@@ -7493,7 +7361,6 @@ mission "Company Foundations: Mark Away From Headquarters: Harmony"
 	source Harmony
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Harmony"
 		has "cf: at hq"
 	on offer
@@ -7508,7 +7375,6 @@ mission "Company Foundations: Mark Away From Headquarters: Haven"
 	source Haven
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Haven"
 		has "cf: at hq"
 	on offer
@@ -7523,7 +7389,6 @@ mission "Company Foundations: Mark Away From Headquarters: Haze"
 	source Haze
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Haze"
 		has "cf: at hq"
 	on offer
@@ -7538,7 +7403,6 @@ mission "Company Foundations: Mark Away From Headquarters: Heartland"
 	source Heartland
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Heartland"
 		has "cf: at hq"
 	on offer
@@ -7553,7 +7417,6 @@ mission "Company Foundations: Mark Away From Headquarters: Heartvalley"
 	source Heartvalley
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Heartvalley"
 		has "cf: at hq"
 	on offer
@@ -7568,7 +7431,6 @@ mission "Company Foundations: Mark Away From Headquarters: Helheim"
 	source Helheim
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Helheim"
 		has "cf: at hq"
 	on offer
@@ -7583,7 +7445,6 @@ mission "Company Foundations: Mark Away From Headquarters: Hephaestus"
 	source Hephaestus
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Hephaestus"
 		has "cf: at hq"
 	on offer
@@ -7598,7 +7459,6 @@ mission "Company Foundations: Mark Away From Headquarters: Hermes"
 	source Hermes
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Hermes"
 		has "cf: at hq"
 	on offer
@@ -7613,7 +7473,6 @@ mission "Company Foundations: Mark Away From Headquarters: Hestia"
 	source Hestia
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Hestia"
 		has "cf: at hq"
 	on offer
@@ -7628,7 +7487,6 @@ mission "Company Foundations: Mark Away From Headquarters: Hippocrates"
 	source Hippocrates
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Hippocrates"
 		has "cf: at hq"
 	on offer
@@ -7643,7 +7501,6 @@ mission "Company Foundations: Mark Away From Headquarters: Hopper"
 	source Hopper
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Hopper"
 		has "cf: at hq"
 	on offer
@@ -7658,7 +7515,6 @@ mission "Company Foundations: Mark Away From Headquarters: Humanika"
 	source Humanika
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Humanika"
 		has "cf: at hq"
 	on offer
@@ -7673,7 +7529,6 @@ mission "Company Foundations: Mark Away From Headquarters: Icefall"
 	source Icefall
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Icefall"
 		has "cf: at hq"
 	on offer
@@ -7688,7 +7543,6 @@ mission "Company Foundations: Mark Away From Headquarters: Icelake"
 	source Icelake
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Icelake"
 		has "cf: at hq"
 	on offer
@@ -7703,7 +7557,6 @@ mission "Company Foundations: Mark Away From Headquarters: Iddesato"
 	source Iddesato
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Iddesato"
 		has "cf: at hq"
 	on offer
@@ -7718,7 +7571,6 @@ mission "Company Foundations: Mark Away From Headquarters: Iemn Eitch"
 	source "Iemn Eitch"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Iemn Eitch"
 		has "cf: at hq"
 	on offer
@@ -7733,7 +7585,6 @@ mission "Company Foundations: Mark Away From Headquarters: Illbo Avo"
 	source "Illbo Avo"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Illbo Avo"
 		has "cf: at hq"
 	on offer
@@ -7748,7 +7599,6 @@ mission "Company Foundations: Mark Away From Headquarters: Illbo Elo"
 	source "Illbo Elo"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Illbo Elo"
 		has "cf: at hq"
 	on offer
@@ -7763,7 +7613,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ingot"
 	source Ingot
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ingot"
 		has "cf: at hq"
 	on offer
@@ -7778,7 +7627,6 @@ mission "Company Foundations: Mark Away From Headquarters: Inmost Blue"
 	source "Inmost Blue"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Inmost Blue"
 		has "cf: at hq"
 	on offer
@@ -7793,7 +7641,6 @@ mission "Company Foundations: Mark Away From Headquarters: Into White"
 	source "Into White"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Into White"
 		has "cf: at hq"
 	on offer
@@ -7808,7 +7655,6 @@ mission "Company Foundations: Mark Away From Headquarters: Iyra-Ijasa-Iret"
 	source Iyra-Ijasa-Iret
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Iyra-Ijasa-Iret"
 		has "cf: at hq"
 	on offer
@@ -7823,7 +7669,6 @@ mission "Company Foundations: Mark Away From Headquarters: Jakobsen"
 	source Jakobsen
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Jakobsen"
 		has "cf: at hq"
 	on offer
@@ -7838,7 +7683,6 @@ mission "Company Foundations: Mark Away From Headquarters: Jentuthro"
 	source Jentuthro
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Jentuthro"
 		has "cf: at hq"
 	on offer
@@ -7853,7 +7697,6 @@ mission "Company Foundations: Mark Away From Headquarters: Karek Fornati"
 	source "Karek Fornati"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Karek Fornati"
 		has "cf: at hq"
 	on offer
@@ -7868,7 +7711,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kasii-Cavasaa-Oa"
 	source Kasii-Cavasaa-Oa
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kasii-Cavasaa-Oa"
 		has "cf: at hq"
 	on offer
@@ -7883,7 +7725,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kasii-Tuur-Saqru"
 	source Kasii-Tuur-Saqru
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kasii-Tuur-Saqru"
 		has "cf: at hq"
 	on offer
@@ -7898,7 +7739,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kasi-Osolaa-Sossa"
 	source Kasi-Osolaa-Sossa
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kasi-Osolaa-Sossa"
 		has "cf: at hq"
 	on offer
@@ -7913,7 +7753,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kessel Sepret"
 	source "Kessel Sepret"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kessel Sepret"
 		has "cf: at hq"
 	on offer
@@ -7928,7 +7767,6 @@ mission "Company Foundations: Mark Away From Headquarters: Khora-Vasa-Reyyaa"
 	source Khora-Vasa-Reyyaa
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Khora-Vasa-Reyyaa"
 		has "cf: at hq"
 	on offer
@@ -7943,7 +7781,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ki Patek Ka"
 	source "Ki Patek Ka"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ki Patek Ka"
 		has "cf: at hq"
 	on offer
@@ -7958,7 +7795,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kisarra"
 	source Kisarra
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kisarra"
 		has "cf: at hq"
 	on offer
@@ -7973,7 +7809,6 @@ mission "Company Foundations: Mark Away From Headquarters: Korati Efreti"
 	source "Korati Efreti"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Korati Efreti"
 		has "cf: at hq"
 	on offer
@@ -7988,7 +7823,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kort Kehai"
 	source "Kort Kehai"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kort Kehai"
 		has "cf: at hq"
 	on offer
@@ -8003,7 +7837,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kort Vek'kri"
 	source "Kort Vek'kri"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kort Vek'kri"
 		has "cf: at hq"
 	on offer
@@ -8018,7 +7851,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kraken Station"
 	source "Kraken Station"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kraken Station"
 		has "cf: at hq"
 	on offer
@@ -8033,7 +7865,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kua-Oa-Aava"
 	source Kua-Oa-Aava
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kua-Oa-Aava"
 		has "cf: at hq"
 	on offer
@@ -8048,7 +7879,6 @@ mission "Company Foundations: Mark Away From Headquarters: Kuwaru Efreti"
 	source "Kuwaru Efreti"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Kuwaru Efreti"
 		has "cf: at hq"
 	on offer
@@ -8063,7 +7893,6 @@ mission "Company Foundations: Mark Away From Headquarters: Lagrange"
 	source Lagrange
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Lagrange"
 		has "cf: at hq"
 	on offer
@@ -8078,7 +7907,6 @@ mission "Company Foundations: Mark Away From Headquarters: Laki Nemparu"
 	source "Laki Nemparu"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Laki Nemparu"
 		has "cf: at hq"
 	on offer
@@ -8093,7 +7921,6 @@ mission "Company Foundations: Mark Away From Headquarters: Leviathan Station"
 	source "Leviathan Station"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Leviathan Station"
 		has "cf: at hq"
 	on offer
@@ -8108,7 +7935,6 @@ mission "Company Foundations: Mark Away From Headquarters: Lichen"
 	source Lichen
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Lichen"
 		has "cf: at hq"
 	on offer
@@ -8123,7 +7949,6 @@ mission "Company Foundations: Mark Away From Headquarters: Livolua"
 	source Livolua
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Livolua"
 		has "cf: at hq"
 	on offer
@@ -8138,7 +7963,6 @@ mission "Company Foundations: Mark Away From Headquarters: Lodestone"
 	source Lodestone
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Lodestone"
 		has "cf: at hq"
 	on offer
@@ -8153,7 +7977,6 @@ mission "Company Foundations: Mark Away From Headquarters: Longjump"
 	source Longjump
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Longjump"
 		has "cf: at hq"
 	on offer
@@ -8168,7 +7991,6 @@ mission "Company Foundations: Mark Away From Headquarters: Luna"
 	source Luna
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Luna"
 		has "cf: at hq"
 	on offer
@@ -8183,7 +8005,6 @@ mission "Company Foundations: Mark Away From Headquarters: Maelstrom"
 	source Maelstrom
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Maelstrom"
 		has "cf: at hq"
 	on offer
@@ -8198,7 +8019,6 @@ mission "Company Foundations: Mark Away From Headquarters: Mainsail"
 	source Mainsail
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Mainsail"
 		has "cf: at hq"
 	on offer
@@ -8213,7 +8033,6 @@ mission "Company Foundations: Mark Away From Headquarters: Maker"
 	source Maker
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Maker"
 		has "cf: at hq"
 	on offer
@@ -8228,7 +8047,6 @@ mission "Company Foundations: Mark Away From Headquarters: Makerplace"
 	source Makerplace
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Makerplace"
 		has "cf: at hq"
 	on offer
@@ -8243,7 +8061,6 @@ mission "Company Foundations: Mark Away From Headquarters: Mani"
 	source Mani
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Mani"
 		has "cf: at hq"
 	on offer
@@ -8258,7 +8075,6 @@ mission "Company Foundations: Mark Away From Headquarters: Market of Gupta"
 	source "Market of Gupta"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Market of Gupta"
 		has "cf: at hq"
 	on offer
@@ -8273,7 +8089,6 @@ mission "Company Foundations: Mark Away From Headquarters: Mars"
 	source Mars
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Mars"
 		has "cf: at hq"
 	on offer
@@ -8288,7 +8103,6 @@ mission "Company Foundations: Mark Away From Headquarters: Martini"
 	source Martini
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Martini"
 		has "cf: at hq"
 	on offer
@@ -8303,7 +8117,6 @@ mission "Company Foundations: Mark Away From Headquarters: Mavra-Sol-Kvel"
 	source Mavra-Sol-Kvel
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Mavra-Sol-Kvel"
 		has "cf: at hq"
 	on offer
@@ -8318,7 +8131,6 @@ mission "Company Foundations: Mark Away From Headquarters: Mebla's Portion"
 	source "Mebla's Portion"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Mebla's Portion"
 		has "cf: at hq"
 	on offer
@@ -8333,7 +8145,6 @@ mission "Company Foundations: Mark Away From Headquarters: Melenci"
 	source Melenci
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Melenci"
 		has "cf: at hq"
 	on offer
@@ -8348,7 +8159,6 @@ mission "Company Foundations: Mark Away From Headquarters: Memory"
 	source Memory
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Memory"
 		has "cf: at hq"
 	on offer
@@ -8363,7 +8173,6 @@ mission "Company Foundations: Mark Away From Headquarters: Mere"
 	source Mere
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Mere"
 		has "cf: at hq"
 	on offer
@@ -8378,7 +8187,6 @@ mission "Company Foundations: Mark Away From Headquarters: Miblulub's Plenty"
 	source "Miblulub's Plenty"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Miblulub's Plenty"
 		has "cf: at hq"
 	on offer
@@ -8393,7 +8201,6 @@ mission "Company Foundations: Mark Away From Headquarters: Midgard"
 	source Midgard
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Midgard"
 		has "cf: at hq"
 	on offer
@@ -8408,7 +8215,6 @@ mission "Company Foundations: Mark Away From Headquarters: Midway Emerald"
 	source "Midway Emerald"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Midway Emerald"
 		has "cf: at hq"
 	on offer
@@ -8423,7 +8229,6 @@ mission "Company Foundations: Mark Away From Headquarters: Millrace"
 	source Millrace
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Millrace"
 		has "cf: at hq"
 	on offer
@@ -8438,7 +8243,6 @@ mission "Company Foundations: Mark Away From Headquarters: Mirrorlake"
 	source Mirrorlake
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Mirrorlake"
 		has "cf: at hq"
 	on offer
@@ -8453,7 +8257,6 @@ mission "Company Foundations: Mark Away From Headquarters: Moonshake"
 	source Moonshake
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Moonshake"
 		has "cf: at hq"
 	on offer
@@ -8468,7 +8271,6 @@ mission "Company Foundations: Mark Away From Headquarters: Mordente-Bridi"
 	source Mordente-Bridi
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Mordente-Bridi"
 		has "cf: at hq"
 	on offer
@@ -8483,7 +8285,6 @@ mission "Company Foundations: Mark Away From Headquarters: Mosaa-Oa-Vyret"
 	source Mosaa-Oa-Vyret
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Mosaa-Oa-Vyret"
 		has "cf: at hq"
 	on offer
@@ -8498,7 +8299,6 @@ mission "Company Foundations: Mark Away From Headquarters: Muninn Station"
 	source "Muninn Station"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Muninn Station"
 		has "cf: at hq"
 	on offer
@@ -8513,7 +8313,6 @@ mission "Company Foundations: Mark Away From Headquarters: Muspel"
 	source Muspel
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Muspel"
 		has "cf: at hq"
 	on offer
@@ -8528,7 +8327,6 @@ mission "Company Foundations: Mark Away From Headquarters: Navigeo Yards"
 	source "Navigeo Yards"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Navigeo Yards"
 		has "cf: at hq"
 	on offer
@@ -8543,7 +8341,6 @@ mission "Company Foundations: Mark Away From Headquarters: Nearby Jade"
 	source "Nearby Jade"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Nearby Jade"
 		has "cf: at hq"
 	on offer
@@ -8558,7 +8355,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Argentina"
 	source "New Argentina"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Argentina"
 		has "cf: at hq"
 	on offer
@@ -8573,7 +8369,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Austria"
 	source "New Austria"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Austria"
 		has "cf: at hq"
 	on offer
@@ -8588,7 +8383,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Boston"
 	source "New Boston"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Boston"
 		has "cf: at hq"
 	on offer
@@ -8603,7 +8397,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Britain"
 	source "New Britain"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Britain"
 		has "cf: at hq"
 	on offer
@@ -8618,7 +8411,6 @@ mission "Company Foundations: Mark Away From Headquarters: New China"
 	source "New China"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New China"
 		has "cf: at hq"
 	on offer
@@ -8633,7 +8425,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Finding"
 	source "New Finding"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Finding"
 		has "cf: at hq"
 	on offer
@@ -8648,7 +8439,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Greenland"
 	source "New Greenland"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Greenland"
 		has "cf: at hq"
 	on offer
@@ -8663,7 +8453,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Holland"
 	source "New Holland"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Holland"
 		has "cf: at hq"
 	on offer
@@ -8678,7 +8467,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Iceland"
 	source "New Iceland"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Iceland"
 		has "cf: at hq"
 	on offer
@@ -8693,7 +8481,6 @@ mission "Company Foundations: Mark Away From Headquarters: New India"
 	source "New India"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New India"
 		has "cf: at hq"
 	on offer
@@ -8708,7 +8495,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Kansas"
 	source "New Kansas"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Kansas"
 		has "cf: at hq"
 	on offer
@@ -8723,7 +8509,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Portland"
 	source "New Portland"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Portland"
 		has "cf: at hq"
 	on offer
@@ -8738,7 +8523,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Sahara"
 	source "New Sahara"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Sahara"
 		has "cf: at hq"
 	on offer
@@ -8753,7 +8537,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Switzerland"
 	source "New Switzerland"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Switzerland"
 		has "cf: at hq"
 	on offer
@@ -8768,7 +8551,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Tibet"
 	source "New Tibet"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Tibet"
 		has "cf: at hq"
 	on offer
@@ -8783,7 +8565,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Tortuga"
 	source "New Tortuga"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Tortuga"
 		has "cf: at hq"
 	on offer
@@ -8798,7 +8579,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Wales"
 	source "New Wales"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Wales"
 		has "cf: at hq"
 	on offer
@@ -8813,7 +8593,6 @@ mission "Company Foundations: Mark Away From Headquarters: New Washington"
 	source "New Washington"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: New Washington"
 		has "cf: at hq"
 	on offer
@@ -8828,7 +8607,6 @@ mission "Company Foundations: Mark Away From Headquarters: Newhome"
 	source Newhome
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Newhome"
 		has "cf: at hq"
 	on offer
@@ -8843,7 +8621,6 @@ mission "Company Foundations: Mark Away From Headquarters: Nifel"
 	source Nifel
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Nifel"
 		has "cf: at hq"
 	on offer
@@ -8858,7 +8635,6 @@ mission "Company Foundations: Mark Away From Headquarters: Nimbus"
 	source Nimbus
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Nimbus"
 		has "cf: at hq"
 	on offer
@@ -8873,7 +8649,6 @@ mission "Company Foundations: Mark Away From Headquarters: Norn"
 	source Norn
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Norn"
 		has "cf: at hq"
 	on offer
@@ -8888,7 +8663,6 @@ mission "Company Foundations: Mark Away From Headquarters: Oasis"
 	source Oasis
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Oasis"
 		has "cf: at hq"
 	on offer
@@ -8903,7 +8677,6 @@ mission "Company Foundations: Mark Away From Headquarters: Oblivion"
 	source Oblivion
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Oblivion"
 		has "cf: at hq"
 	on offer
@@ -8918,7 +8691,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ochrescoop"
 	source Ochrescoop
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ochrescoop"
 		has "cf: at hq"
 	on offer
@@ -8933,7 +8705,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ogmur's Siphon"
 	source "Ogmur's Siphon"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ogmur's Siphon"
 		has "cf: at hq"
 	on offer
@@ -8948,7 +8719,6 @@ mission "Company Foundations: Mark Away From Headquarters: Okoity"
 	source Okoity
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Okoity"
 		has "cf: at hq"
 	on offer
@@ -8963,7 +8733,6 @@ mission "Company Foundations: Mark Away From Headquarters: Oup Je"
 	source "Oup Je"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Oup Je"
 		has "cf: at hq"
 	on offer
@@ -8978,7 +8747,6 @@ mission "Company Foundations: Mark Away From Headquarters: Outpost Enka"
 	source "Outpost Enka"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Outpost Enka"
 		has "cf: at hq"
 	on offer
@@ -8993,7 +8761,6 @@ mission "Company Foundations: Mark Away From Headquarters: Outpost Leto"
 	source "Outpost Leto"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Outpost Leto"
 		has "cf: at hq"
 	on offer
@@ -9008,7 +8775,6 @@ mission "Company Foundations: Mark Away From Headquarters: Outpost Pilos"
 	source "Outpost Pilos"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Outpost Pilos"
 		has "cf: at hq"
 	on offer
@@ -9023,7 +8789,6 @@ mission "Company Foundations: Mark Away From Headquarters: Outpost Tekis"
 	source "Outpost Tekis"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Outpost Tekis"
 		has "cf: at hq"
 	on offer
@@ -9038,7 +8803,6 @@ mission "Company Foundations: Mark Away From Headquarters: O-Vasa-Oa"
 	source O-Vasa-Oa
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: O-Vasa-Oa"
 		has "cf: at hq"
 	on offer
@@ -9053,7 +8817,6 @@ mission "Company Foundations: Mark Away From Headquarters: Pearl"
 	source Pearl
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Pearl"
 		has "cf: at hq"
 	on offer
@@ -9068,7 +8831,6 @@ mission "Company Foundations: Mark Away From Headquarters: Pelubta Station"
 	source "Pelubta Station"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Pelubta Station"
 		has "cf: at hq"
 	on offer
@@ -9083,7 +8845,6 @@ mission "Company Foundations: Mark Away From Headquarters: Periaxle Circuit"
 	source "Periaxle Circuit"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Periaxle Circuit"
 		has "cf: at hq"
 	on offer
@@ -9098,7 +8859,6 @@ mission "Company Foundations: Mark Away From Headquarters: Peripheria"
 	source Peripheria
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Peripheria"
 		has "cf: at hq"
 	on offer
@@ -9113,7 +8873,6 @@ mission "Company Foundations: Mark Away From Headquarters: Pilot"
 	source Pilot
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Pilot"
 		has "cf: at hq"
 	on offer
@@ -9128,7 +8887,6 @@ mission "Company Foundations: Mark Away From Headquarters: Placer"
 	source Placer
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Placer"
 		has "cf: at hq"
 	on offer
@@ -9143,7 +8901,6 @@ mission "Company Foundations: Mark Away From Headquarters: Plort's Water"
 	source "Plort's Water"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Plort's Water"
 		has "cf: at hq"
 	on offer
@@ -9158,7 +8915,6 @@ mission "Company Foundations: Mark Away From Headquarters: Poisonwood"
 	source Poisonwood
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Poisonwood"
 		has "cf: at hq"
 	on offer
@@ -9173,7 +8929,6 @@ mission "Company Foundations: Mark Away From Headquarters: Pon'tes"
 	source Pon'tes
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Pon'tes"
 		has "cf: at hq"
 	on offer
@@ -9188,7 +8943,6 @@ mission "Company Foundations: Mark Away From Headquarters: Poseidos"
 	source Poseidos
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Poseidos"
 		has "cf: at hq"
 	on offer
@@ -9203,7 +8957,6 @@ mission "Company Foundations: Mark Away From Headquarters: Prime"
 	source Prime
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Prime"
 		has "cf: at hq"
 	on offer
@@ -9218,7 +8971,6 @@ mission "Company Foundations: Mark Away From Headquarters: Pugglemug"
 	source Pugglemug
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Pugglemug"
 		has "cf: at hq"
 	on offer
@@ -9233,7 +8985,6 @@ mission "Company Foundations: Mark Away From Headquarters: Pugglequat"
 	source Pugglequat
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Pugglequat"
 		has "cf: at hq"
 	on offer
@@ -9248,7 +8999,6 @@ mission "Company Foundations: Mark Away From Headquarters: Quicksilver"
 	source Quicksilver
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Quicksilver"
 		has "cf: at hq"
 	on offer
@@ -9263,7 +9013,6 @@ mission "Company Foundations: Mark Away From Headquarters: Raaqa-Kvelq-Ryuit"
 	source Raaqa-Kvelq-Ryuit
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Raaqa-Kvelq-Ryuit"
 		has "cf: at hq"
 	on offer
@@ -9278,7 +9027,6 @@ mission "Company Foundations: Mark Away From Headquarters: Raaqa-Puan-Uuoru"
 	source Raaqa-Puan-Uuoru
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Raaqa-Puan-Uuoru"
 		has "cf: at hq"
 	on offer
@@ -9293,7 +9041,6 @@ mission "Company Foundations: Mark Away From Headquarters: Rand"
 	source Rand
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Rand"
 		has "cf: at hq"
 	on offer
@@ -9308,7 +9055,6 @@ mission "Company Foundations: Mark Away From Headquarters: Redias"
 	source Redias
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Redias"
 		has "cf: at hq"
 	on offer
@@ -9323,7 +9069,6 @@ mission "Company Foundations: Mark Away From Headquarters: Refuge of Belugt"
 	source "Refuge of Belugt"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Refuge of Belugt"
 		has "cf: at hq"
 	on offer
@@ -9338,7 +9083,6 @@ mission "Company Foundations: Mark Away From Headquarters: Relic"
 	source Relic
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Relic"
 		has "cf: at hq"
 	on offer
@@ -9353,7 +9097,6 @@ mission "Company Foundations: Mark Away From Headquarters: Remnant Wormhole"
 	source "Remnant Wormhole"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Remnant Wormhole"
 		has "cf: at hq"
 	on offer
@@ -9368,7 +9111,6 @@ mission "Company Foundations: Mark Away From Headquarters: Remote Blue"
 	source "Remote Blue"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Remote Blue"
 		has "cf: at hq"
 	on offer
@@ -9383,7 +9125,6 @@ mission "Company Foundations: Mark Away From Headquarters: Reunion"
 	source Reunion
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Reunion"
 		has "cf: at hq"
 	on offer
@@ -9398,7 +9139,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ring of Friendship"
 	source "Ring of Friendship"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ring of Friendship"
 		has "cf: at hq"
 	on offer
@@ -9413,7 +9153,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ring of Power"
 	source "Ring of Power"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ring of Power"
 		has "cf: at hq"
 	on offer
@@ -9428,7 +9167,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ring of Wisdom"
 	source "Ring of Wisdom"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ring of Wisdom"
 		has "cf: at hq"
 	on offer
@@ -9443,7 +9181,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ruelogakk"
 	source Ruelogakk
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ruelogakk"
 		has "cf: at hq"
 	on offer
@@ -9458,7 +9195,6 @@ mission "Company Foundations: Mark Away From Headquarters: Rust"
 	source Rust
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Rust"
 		has "cf: at hq"
 	on offer
@@ -9473,7 +9209,6 @@ mission "Company Foundations: Mark Away From Headquarters: Rusty Second"
 	source "Rusty Second"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Rusty Second"
 		has "cf: at hq"
 	on offer
@@ -9488,7 +9223,6 @@ mission "Company Foundations: Mark Away From Headquarters: Safaresk Enlai"
 	source "Safaresk Enlai"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Safaresk Enlai"
 		has "cf: at hq"
 	on offer
@@ -9503,7 +9237,6 @@ mission "Company Foundations: Mark Away From Headquarters: Sandy Two"
 	source "Sandy Two"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Sandy Two"
 		has "cf: at hq"
 	on offer
@@ -9518,7 +9251,6 @@ mission "Company Foundations: Mark Away From Headquarters: Sardva"
 	source Sardva
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Sardva"
 		has "cf: at hq"
 	on offer
@@ -9533,7 +9265,6 @@ mission "Company Foundations: Mark Away From Headquarters: Saros"
 	source Saros
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Saros"
 		has "cf: at hq"
 	on offer
@@ -9548,7 +9279,6 @@ mission "Company Foundations: Mark Away From Headquarters: Saska-Aa-Noorr"
 	source Saska-Aa-Noorr
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Saska-Aa-Noorr"
 		has "cf: at hq"
 	on offer
@@ -9563,7 +9293,6 @@ mission "Company Foundations: Mark Away From Headquarters: Second Cerulean"
 	source "Second Cerulean"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Second Cerulean"
 		has "cf: at hq"
 	on offer
@@ -9578,7 +9307,6 @@ mission "Company Foundations: Mark Away From Headquarters: Second Rose"
 	source "Second Rose"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Second Rose"
 		has "cf: at hq"
 	on offer
@@ -9593,7 +9321,6 @@ mission "Company Foundations: Mark Away From Headquarters: Second Viridian"
 	source "Second Viridian"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Second Viridian"
 		has "cf: at hq"
 	on offer
@@ -9608,7 +9335,6 @@ mission "Company Foundations: Mark Away From Headquarters: Secret Sky"
 	source "Secret Sky"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Secret Sky"
 		has "cf: at hq"
 	on offer
@@ -9623,7 +9349,6 @@ mission "Company Foundations: Mark Away From Headquarters: Separa Tiklar"
 	source "Separa Tiklar"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Separa Tiklar"
 		has "cf: at hq"
 	on offer
@@ -9638,7 +9363,6 @@ mission "Company Foundations: Mark Away From Headquarters: Septar Lorku"
 	source "Septar Lorku"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Septar Lorku"
 		has "cf: at hq"
 	on offer
@@ -9653,7 +9377,6 @@ mission "Company Foundations: Mark Away From Headquarters: Serpens"
 	source Serpens
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Serpens"
 		has "cf: at hq"
 	on offer
@@ -9668,7 +9391,6 @@ mission "Company Foundations: Mark Away From Headquarters: Sessiliki Far"
 	source "Sessiliki Far"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Sessiliki Far"
 		has "cf: at hq"
 	on offer
@@ -9683,7 +9405,6 @@ mission "Company Foundations: Mark Away From Headquarters: Setar Fort"
 	source "Setar Fort"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Setar Fort"
 		has "cf: at hq"
 	on offer
@@ -9698,7 +9419,6 @@ mission "Company Foundations: Mark Away From Headquarters: Shadow of Leaves"
 	source "Shadow of Leaves"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Shadow of Leaves"
 		has "cf: at hq"
 	on offer
@@ -9713,7 +9433,6 @@ mission "Company Foundations: Mark Away From Headquarters: Shadowed Valley"
 	source "Shadowed Valley"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Shadowed Valley"
 		has "cf: at hq"
 	on offer
@@ -9728,7 +9447,6 @@ mission "Company Foundations: Mark Away From Headquarters: Shangri-La"
 	source Shangri-La
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Shangri-La"
 		has "cf: at hq"
 	on offer
@@ -9743,7 +9461,6 @@ mission "Company Foundations: Mark Away From Headquarters: Shassa-Wyra-Orrou"
 	source Shassa-Wyra-Orrou
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Shassa-Wyra-Orrou"
 		has "cf: at hq"
 	on offer
@@ -9758,7 +9475,6 @@ mission "Company Foundations: Mark Away From Headquarters: Shifting Sand"
 	source "Shifting Sand"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Shifting Sand"
 		has "cf: at hq"
 	on offer
@@ -9773,7 +9489,6 @@ mission "Company Foundations: Mark Away From Headquarters: Shiver"
 	source Shiver
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Shiver"
 		has "cf: at hq"
 	on offer
@@ -9788,7 +9503,6 @@ mission "Company Foundations: Mark Away From Headquarters: Shorebreak"
 	source Shorebreak
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Shorebreak"
 		has "cf: at hq"
 	on offer
@@ -9803,7 +9517,6 @@ mission "Company Foundations: Mark Away From Headquarters: Shroud"
 	source Shroud
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Shroud"
 		has "cf: at hq"
 	on offer
@@ -9818,7 +9531,6 @@ mission "Company Foundations: Mark Away From Headquarters: Siedi"
 	source Siedi
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Siedi"
 		has "cf: at hq"
 	on offer
@@ -9833,7 +9545,6 @@ mission "Company Foundations: Mark Away From Headquarters: Sies Upi"
 	source "Sies Upi"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Sies Upi"
 		has "cf: at hq"
 	on offer
@@ -9848,7 +9559,6 @@ mission "Company Foundations: Mark Away From Headquarters: Silo of Ablodab"
 	source "Silo of Ablodab"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Silo of Ablodab"
 		has "cf: at hq"
 	on offer
@@ -9863,7 +9573,6 @@ mission "Company Foundations: Mark Away From Headquarters: Silver"
 	source Silver
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Silver"
 		has "cf: at hq"
 	on offer
@@ -9878,7 +9587,6 @@ mission "Company Foundations: Mark Away From Headquarters: Sinter"
 	source Sinter
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Sinter"
 		has "cf: at hq"
 	on offer
@@ -9893,7 +9601,6 @@ mission "Company Foundations: Mark Away From Headquarters: Skillet"
 	source Skillet
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Skillet"
 		has "cf: at hq"
 	on offer
@@ -9908,7 +9615,6 @@ mission "Company Foundations: Mark Away From Headquarters: Skyfarm"
 	source Skyfarm
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Skyfarm"
 		has "cf: at hq"
 	on offer
@@ -9923,7 +9629,6 @@ mission "Company Foundations: Mark Away From Headquarters: Skymoot"
 	source Skymoot
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Skymoot"
 		has "cf: at hq"
 	on offer
@@ -9938,7 +9643,6 @@ mission "Company Foundations: Mark Away From Headquarters: Smuggler's Den"
 	source "Smuggler's Den"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Smuggler's Den"
 		has "cf: at hq"
 	on offer
@@ -9953,7 +9657,6 @@ mission "Company Foundations: Mark Away From Headquarters: Snowfeather"
 	source Snowfeather
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Snowfeather"
 		has "cf: at hq"
 	on offer
@@ -9968,7 +9671,6 @@ mission "Company Foundations: Mark Away From Headquarters: Solace"
 	source Solace
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Solace"
 		has "cf: at hq"
 	on offer
@@ -9983,7 +9685,6 @@ mission "Company Foundations: Mark Away From Headquarters: Sopoyra"
 	source Sopoyra
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Sopoyra"
 		has "cf: at hq"
 	on offer
@@ -9998,7 +9699,6 @@ mission "Company Foundations: Mark Away From Headquarters: Spec Inci"
 	source "Spec Inci"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Spec Inci"
 		has "cf: at hq"
 	on offer
@@ -10013,7 +9713,6 @@ mission "Company Foundations: Mark Away From Headquarters: Splashdown"
 	source Splashdown
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Splashdown"
 		has "cf: at hq"
 	on offer
@@ -10028,7 +9727,6 @@ mission "Company Foundations: Mark Away From Headquarters: Staja-Kella-Oa"
 	source Staja-Kella-Oa
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Staja-Kella-Oa"
 		has "cf: at hq"
 	on offer
@@ -10043,7 +9741,6 @@ mission "Company Foundations: Mark Away From Headquarters: Starcross"
 	source Starcross
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Starcross"
 		has "cf: at hq"
 	on offer
@@ -10058,7 +9755,6 @@ mission "Company Foundations: Mark Away From Headquarters: Starting Rubin"
 	source "Starting Rubin"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Starting Rubin"
 		has "cf: at hq"
 	on offer
@@ -10073,7 +9769,6 @@ mission "Company Foundations: Mark Away From Headquarters: Station Cian"
 	source "Station Cian"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Station Cian"
 		has "cf: at hq"
 	on offer
@@ -10088,7 +9783,6 @@ mission "Company Foundations: Mark Away From Headquarters: Stilacrest"
 	source Stilacrest
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Stilacrest"
 		has "cf: at hq"
 	on offer
@@ -10103,7 +9797,6 @@ mission "Company Foundations: Mark Away From Headquarters: Stonebreak"
 	source Stonebreak
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Stonebreak"
 		has "cf: at hq"
 	on offer
@@ -10118,7 +9811,6 @@ mission "Company Foundations: Mark Away From Headquarters: Stormhold"
 	source Stormhold
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Stormhold"
 		has "cf: at hq"
 	on offer
@@ -10133,7 +9825,6 @@ mission "Company Foundations: Mark Away From Headquarters: Stronghold of Flugbu"
 	source "Stronghold of Flugbu"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Stronghold of Flugbu"
 		has "cf: at hq"
 	on offer
@@ -10148,7 +9839,6 @@ mission "Company Foundations: Mark Away From Headquarters: Successor Wormhole"
 	source "Successor Wormhole"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Successor Wormhole"
 		has "cf: at hq"
 	on offer
@@ -10163,7 +9853,6 @@ mission "Company Foundations: Mark Away From Headquarters: Sundive"
 	source Sundive
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Sundive"
 		has "cf: at hq"
 	on offer
@@ -10178,7 +9867,6 @@ mission "Company Foundations: Mark Away From Headquarters: Sundrinker"
 	source Sundrinker
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Sundrinker"
 		has "cf: at hq"
 	on offer
@@ -10193,7 +9881,6 @@ mission "Company Foundations: Mark Away From Headquarters: Sunracer"
 	source Sunracer
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Sunracer"
 		has "cf: at hq"
 	on offer
@@ -10208,7 +9895,6 @@ mission "Company Foundations: Mark Away From Headquarters: Swiftsong"
 	source Swiftsong
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Swiftsong"
 		has "cf: at hq"
 	on offer
@@ -10223,7 +9909,6 @@ mission "Company Foundations: Mark Away From Headquarters: Tebuteb's Table"
 	source "Tebuteb's Table"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Tebuteb's Table"
 		has "cf: at hq"
 	on offer
@@ -10238,7 +9923,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ternituul"
 	source Ternituul
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ternituul"
 		has "cf: at hq"
 	on offer
@@ -10253,7 +9937,6 @@ mission "Company Foundations: Mark Away From Headquarters: Thilos"
 	source Thilos
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Thilos"
 		has "cf: at hq"
 	on offer
@@ -10268,7 +9951,6 @@ mission "Company Foundations: Mark Away From Headquarters: Third Umber"
 	source "Third Umber"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Third Umber"
 		has "cf: at hq"
 	on offer
@@ -10283,7 +9965,6 @@ mission "Company Foundations: Mark Away From Headquarters: Thrall"
 	source Thrall
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Thrall"
 		has "cf: at hq"
 	on offer
@@ -10298,7 +9979,6 @@ mission "Company Foundations: Mark Away From Headquarters: Thshybothro"
 	source Thshybothro
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Thshybothro"
 		has "cf: at hq"
 	on offer
@@ -10313,7 +9993,6 @@ mission "Company Foundations: Mark Away From Headquarters: Thule"
 	source Thule
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Thule"
 		has "cf: at hq"
 	on offer
@@ -10328,7 +10007,6 @@ mission "Company Foundations: Mark Away From Headquarters: Thunder"
 	source Thunder
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Thunder"
 		has "cf: at hq"
 	on offer
@@ -10343,7 +10021,6 @@ mission "Company Foundations: Mark Away From Headquarters: Tik Klai"
 	source "Tik Klai"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Tik Klai"
 		has "cf: at hq"
 	on offer
@@ -10358,7 +10035,6 @@ mission "Company Foundations: Mark Away From Headquarters: Tinker"
 	source Tinker
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Tinker"
 		has "cf: at hq"
 	on offer
@@ -10373,7 +10049,6 @@ mission "Company Foundations: Mark Away From Headquarters: Trinket"
 	source Trinket
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Trinket"
 		has "cf: at hq"
 	on offer
@@ -10388,7 +10063,6 @@ mission "Company Foundations: Mark Away From Headquarters: Triton Station"
 	source "Triton Station"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Triton Station"
 		has "cf: at hq"
 	on offer
@@ -10403,7 +10077,6 @@ mission "Company Foundations: Mark Away From Headquarters: Trove"
 	source Trove
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Trove"
 		has "cf: at hq"
 	on offer
@@ -10418,7 +10091,6 @@ mission "Company Foundations: Mark Away From Headquarters: Truklar"
 	source Truklar
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Truklar"
 		has "cf: at hq"
 	on offer
@@ -10433,7 +10105,6 @@ mission "Company Foundations: Mark Away From Headquarters: Tschyss"
 	source Tschyss
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Tschyss"
 		has "cf: at hq"
 	on offer
@@ -10448,7 +10119,6 @@ mission "Company Foundations: Mark Away From Headquarters: Tundra"
 	source Tundra
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Tundra"
 		has "cf: at hq"
 	on offer
@@ -10463,7 +10133,6 @@ mission "Company Foundations: Mark Away From Headquarters: Turquoise Four"
 	source "Turquoise Four"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Turquoise Four"
 		has "cf: at hq"
 	on offer
@@ -10478,7 +10147,6 @@ mission "Company Foundations: Mark Away From Headquarters: Tuur-Aasa-Kaska"
 	source Tuur-Aasa-Kaska
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Tuur-Aasa-Kaska"
 		has "cf: at hq"
 	on offer
@@ -10493,7 +10161,6 @@ mission "Company Foundations: Mark Away From Headquarters: Twinstar"
 	source Twinstar
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Twinstar"
 		has "cf: at hq"
 	on offer
@@ -10508,7 +10175,6 @@ mission "Company Foundations: Mark Away From Headquarters: Uo-Oraa-Vayya"
 	source Uo-Oraa-Vayya
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Uo-Oraa-Vayya"
 		has "cf: at hq"
 	on offer
@@ -10523,7 +10189,6 @@ mission "Company Foundations: Mark Away From Headquarters: Ut Divitas"
 	source "Ut Divitas"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Ut Divitas"
 		has "cf: at hq"
 	on offer
@@ -10538,7 +10203,6 @@ mission "Company Foundations: Mark Away From Headquarters: Vail"
 	source Vail
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Vail"
 		has "cf: at hq"
 	on offer
@@ -10553,7 +10217,6 @@ mission "Company Foundations: Mark Away From Headquarters: Valhalla"
 	source Valhalla
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Valhalla"
 		has "cf: at hq"
 	on offer
@@ -10568,7 +10231,6 @@ mission "Company Foundations: Mark Away From Headquarters: Var' Kar'i'i"
 	source "Var' Kar'i'i"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Var' Kar'i'i"
 		has "cf: at hq"
 	on offer
@@ -10583,7 +10245,6 @@ mission "Company Foundations: Mark Away From Headquarters: Var' Kayi"
 	source "Var' Kayi"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Var' Kayi"
 		has "cf: at hq"
 	on offer
@@ -10598,7 +10259,6 @@ mission "Company Foundations: Mark Away From Headquarters: Var' Roi"
 	source "Var' Roi"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Var' Roi"
 		has "cf: at hq"
 	on offer
@@ -10613,7 +10273,6 @@ mission "Company Foundations: Mark Away From Headquarters: Vara Kehi'ki"
 	source "Vara Kehi'ki"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Vara Kehi'ki"
 		has "cf: at hq"
 	on offer
@@ -10628,7 +10287,6 @@ mission "Company Foundations: Mark Away From Headquarters: Vara Ke'sok"
 	source "Vara Ke'sok"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Vara Ke'sok"
 		has "cf: at hq"
 	on offer
@@ -10643,7 +10301,6 @@ mission "Company Foundations: Mark Away From Headquarters: Vara Ke'stai"
 	source "Vara Ke'stai"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Vara Ke'stai"
 		has "cf: at hq"
 	on offer
@@ -10658,7 +10315,6 @@ mission "Company Foundations: Mark Away From Headquarters: Vara Pug"
 	source "Vara Pug"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Vara Pug"
 		has "cf: at hq"
 	on offer
@@ -10673,7 +10329,6 @@ mission "Company Foundations: Mark Away From Headquarters: Vara Rakak"
 	source "Vara Rakak"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Vara Rakak"
 		has "cf: at hq"
 	on offer
@@ -10688,7 +10343,6 @@ mission "Company Foundations: Mark Away From Headquarters: Varu Ek'lak'lai"
 	source "Varu Ek'lak'lai"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Varu Ek'lak'lai"
 		has "cf: at hq"
 	on offer
@@ -10703,7 +10357,6 @@ mission "Company Foundations: Mark Away From Headquarters: Varu K'est"
 	source "Varu K'est"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Varu K'est"
 		has "cf: at hq"
 	on offer
@@ -10718,7 +10371,6 @@ mission "Company Foundations: Mark Away From Headquarters: Varu K'prai"
 	source "Varu K'prai"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Varu K'prai"
 		has "cf: at hq"
 	on offer
@@ -10733,7 +10385,6 @@ mission "Company Foundations: Mark Away From Headquarters: Varu Mer'ek"
 	source "Varu Mer'ek"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Varu Mer'ek"
 		has "cf: at hq"
 	on offer
@@ -10748,7 +10399,6 @@ mission "Company Foundations: Mark Away From Headquarters: Varu Tek'kai"
 	source "Varu Tek'kai"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Varu Tek'kai"
 		has "cf: at hq"
 	on offer
@@ -10763,7 +10413,6 @@ mission "Company Foundations: Mark Away From Headquarters: Varu Tev'kei"
 	source "Varu Tev'kei"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Varu Tev'kei"
 		has "cf: at hq"
 	on offer
@@ -10778,7 +10427,6 @@ mission "Company Foundations: Mark Away From Headquarters: Vibrant Water"
 	source "Vibrant Water"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Vibrant Water"
 		has "cf: at hq"
 	on offer
@@ -10793,7 +10441,6 @@ mission "Company Foundations: Mark Away From Headquarters: Viminal"
 	source Viminal
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Viminal"
 		has "cf: at hq"
 	on offer
@@ -10808,7 +10455,6 @@ mission "Company Foundations: Mark Away From Headquarters: Vinci"
 	source Vinci
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Vinci"
 		has "cf: at hq"
 	on offer
@@ -10823,7 +10469,6 @@ mission "Company Foundations: Mark Away From Headquarters: Warfeed"
 	source Warfeed
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Warfeed"
 		has "cf: at hq"
 	on offer
@@ -10838,7 +10483,6 @@ mission "Company Foundations: Mark Away From Headquarters: Warm Slope"
 	source "Warm Slope"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Warm Slope"
 		has "cf: at hq"
 	on offer
@@ -10853,7 +10497,6 @@ mission "Company Foundations: Mark Away From Headquarters: Warm Wind"
 	source "Warm Wind"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Warm Wind"
 		has "cf: at hq"
 	on offer
@@ -10868,7 +10511,6 @@ mission "Company Foundations: Mark Away From Headquarters: Wayfarer"
 	source Wayfarer
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Wayfarer"
 		has "cf: at hq"
 	on offer
@@ -10883,7 +10525,6 @@ mission "Company Foundations: Mark Away From Headquarters: Weir of Glubatub"
 	source "Weir of Glubatub"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Weir of Glubatub"
 		has "cf: at hq"
 	on offer
@@ -10898,7 +10539,6 @@ mission "Company Foundations: Mark Away From Headquarters: Weledos"
 	source Weledos
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Weledos"
 		has "cf: at hq"
 	on offer
@@ -10913,7 +10553,6 @@ mission "Company Foundations: Mark Away From Headquarters: Windblain"
 	source Windblain
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Windblain"
 		has "cf: at hq"
 	on offer
@@ -10928,7 +10567,6 @@ mission "Company Foundations: Mark Away From Headquarters: Winter"
 	source Winter
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Winter"
 		has "cf: at hq"
 	on offer
@@ -10943,7 +10581,6 @@ mission "Company Foundations: Mark Away From Headquarters: Wormhole Alpha"
 	source "Wormhole Alpha"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Wormhole Alpha"
 		has "cf: at hq"
 	on offer
@@ -10958,7 +10595,6 @@ mission "Company Foundations: Mark Away From Headquarters: Wyvern Station"
 	source "Wyvern Station"
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Wyvern Station"
 		has "cf: at hq"
 	on offer
@@ -10973,7 +10609,6 @@ mission "Company Foundations: Mark Away From Headquarters: Yoqqa-Vasa-Vasa"
 	source Yoqqa-Vasa-Vasa
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Yoqqa-Vasa-Vasa"
 		has "cf: at hq"
 	on offer
@@ -10988,7 +10623,6 @@ mission "Company Foundations: Mark Away From Headquarters: Zenith"
 	source Zenith
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Zenith"
 		has "cf: at hq"
 	on offer
@@ -11003,7 +10637,6 @@ mission "Company Foundations: Mark Away From Headquarters: Zug"
 	source Zug
 	to offer
 		has "cf: active"
-		not "cf: hq station built"
 		not "cf: hq: Zug"
 		has "cf: at hq"
 	on offer

@@ -1,3 +1,4 @@
 tools/observe_spaceport_missions.ps1
 tools/company_foundations.local.ps1
 about.txt
+logs/

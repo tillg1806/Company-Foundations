@@ -1606,7 +1606,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: shuttle frontier trip payout" * "cf: shuttle frontier vip" * 2
 				"cf: shuttle projected gross" += "cf: projected route income" * "cf: shuttle frontier ships" / 10
 				"cf: shuttle projected expenses" += "cf: shuttle frontier daily crew"
-				"cf: shuttle projected expenses" += "cf: managed" * 10000
 				"cf: shuttle projected net" = "cf: shuttle projected gross" - "cf: shuttle projected expenses"
 				"cf: mining projected gross" = 0
 				"cf: mining projected expenses" = 0
@@ -1626,7 +1625,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: mining frontier trip payout" * "cf: mining efficiency bonus" / 100
 				"cf: mining projected gross" += "cf: projected route income" * "cf: mining frontier ships" / 9
 				"cf: mining projected expenses" += "cf: mining frontier daily crew"
-				"cf: mining projected expenses" += "cf: managed" * 10000
 				"cf: mining projected net" = "cf: mining projected gross" - "cf: mining projected expenses"
 				"cf: trading projected gross" = 0
 				"cf: trading projected expenses" = 0
@@ -1638,7 +1636,6 @@ mission "Company Foundations: Company Board"
 				"cf: trading projected expenses" += "cf: trading long daily expenses"
 				"cf: trading projected gross" += "cf: trading frontier trip payout" * "cf: trading frontier ships" / 10
 				"cf: trading projected expenses" += "cf: trading frontier daily expenses"
-				"cf: trading projected expenses" += "cf: managed" * 10000
 				"cf: trading projected net" = "cf: trading projected gross" - "cf: trading projected expenses"
 				"cf: security projected gross" = 0
 				"cf: security projected expenses" = 0
@@ -1653,19 +1650,17 @@ mission "Company Foundations: Company Board"
 				"cf: security projected gross" += "cf: admiral tribute income"
 				"cf: security projected expenses" += "cf: admiral daily crew"
 				"cf: security projected expenses" += "cf: security admiral" * 20000
-				"cf: security projected expenses" += "cf: managed" * 10000
 				"cf: security projected net" = "cf: security projected gross" - "cf: security projected expenses"
 				"cf: company value" = "cf: reserve"
-				"cf: company value" >?= 0
 				"cf: company value" += "cf: owner payable"
-				"cf: company value" += "cf: fleet value"
-				"cf: company value" += "cf: station value"
-				"cf: company value" += "cf: shuttle route count" * 120000
-				"cf: company value" += "cf: mining claim count" * 220000
-				"cf: company value" += "cf: trading route count" * 180000
-				"cf: company value" += "cf: security contract count" * 250000
-				"cf: company value" += "cf: admiral tribute income" * 180
-				"cf: company value" += "cf: station daily income" * 365
+				"cf: company value" += "cf: fleet value" * 70 / 100
+				"cf: company value" += "cf: station value" * 65 / 100
+				"cf: company value" += "cf: shuttle route count" * 48000
+				"cf: company value" += "cf: mining claim count" * 88000
+				"cf: company value" += "cf: trading route count" * 72000
+				"cf: company value" += "cf: security contract count" * 100000
+				"cf: company value" += "cf: admiral tribute income" * 90
+				"cf: company value" += "cf: station daily income" * 90
 				"cf: company value" >?= 0
 			`Your company terminal opens the current balance board. The detailed registration lives at your headquarters, but the operating ledger can be reviewed from any relay office.`
 			`	COMPANY OVERVIEW`
@@ -6452,16 +6447,15 @@ mission "Company Foundations: Company Board"
 				"cf: projected retained" = "cf: projected net" - "cf: projected owner payout"
 				"cf: projected autopay net" = "cf: projected owner payout"
 				"cf: company value" = "cf: reserve"
-				"cf: company value" >?= 0
 				"cf: company value" += "cf: owner payable"
-				"cf: company value" += "cf: fleet value"
-				"cf: company value" += "cf: station value"
-				"cf: company value" += "cf: shuttle route count" * 120000
-				"cf: company value" += "cf: mining claim count" * 220000
-				"cf: company value" += "cf: trading route count" * 180000
-				"cf: company value" += "cf: security contract count" * 250000
-				"cf: company value" += "cf: admiral tribute income" * 180
-				"cf: company value" += "cf: station daily income" * 365
+				"cf: company value" += "cf: fleet value" * 70 / 100
+				"cf: company value" += "cf: station value" * 65 / 100
+				"cf: company value" += "cf: shuttle route count" * 48000
+				"cf: company value" += "cf: mining claim count" * 88000
+				"cf: company value" += "cf: trading route count" * 72000
+				"cf: company value" += "cf: security contract count" * 100000
+				"cf: company value" += "cf: admiral tribute income" * 90
+				"cf: company value" += "cf: station daily income" * 90
 				"cf: company value" >?= 0
 			`Detailed balance: firm value &[credits@cf: company value], reserve &[credits@cf: reserve], AutoPay queue &[credits@cf: owner payable], fleet value &[credits@cf: fleet value], station value &[credits@cf: station value].`
 			`Daily average: gross &[credits@cf: projected gross], expenses &[credits@cf: projected expenses], net &[credits@cf: projected net], owner payout &[credits@cf: projected owner payout], retained &[credits@cf: projected retained].`
@@ -6996,7 +6990,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: shuttle frontier trip payout" * "cf: shuttle frontier vip" * 2
 				"cf: shuttle projected gross" += "cf: projected route income" * "cf: shuttle frontier ships" / 10
 				"cf: shuttle projected expenses" += "cf: shuttle frontier daily crew"
-				"cf: shuttle projected expenses" += "cf: managed" * 10000
 				"cf: shuttle projected net" = "cf: shuttle projected gross" - "cf: shuttle projected expenses"
 				"cf: mining projected gross" = 0
 				"cf: mining projected expenses" = 0
@@ -7016,7 +7009,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: mining frontier trip payout" * "cf: mining efficiency bonus" / 100
 				"cf: mining projected gross" += "cf: projected route income" * "cf: mining frontier ships" / 9
 				"cf: mining projected expenses" += "cf: mining frontier daily crew"
-				"cf: mining projected expenses" += "cf: managed" * 10000
 				"cf: mining projected net" = "cf: mining projected gross" - "cf: mining projected expenses"
 				"cf: trading projected gross" = 0
 				"cf: trading projected expenses" = 0
@@ -7028,7 +7020,6 @@ mission "Company Foundations: Company Board"
 				"cf: trading projected expenses" += "cf: trading long daily expenses"
 				"cf: trading projected gross" += "cf: trading frontier trip payout" * "cf: trading frontier ships" / 10
 				"cf: trading projected expenses" += "cf: trading frontier daily expenses"
-				"cf: trading projected expenses" += "cf: managed" * 10000
 				"cf: trading projected net" = "cf: trading projected gross" - "cf: trading projected expenses"
 				"cf: security projected gross" = 0
 				"cf: security projected expenses" = 0
@@ -7043,7 +7034,6 @@ mission "Company Foundations: Company Board"
 				"cf: security projected gross" += "cf: admiral tribute income"
 				"cf: security projected expenses" += "cf: admiral daily crew"
 				"cf: security projected expenses" += "cf: security admiral" * 20000
-				"cf: security projected expenses" += "cf: managed" * 10000
 				"cf: security projected net" = "cf: security projected gross" - "cf: security projected expenses"
 			`Shuttle division: routes &[number@cf: shuttle route count], ships &[number@cf: shuttle fleet], last gross &[credits@cf: shuttle last gross], last expenses &[credits@cf: shuttle last expenses], last net &[credits@cf: shuttle last net].`
 			`Shuttle average: daily gross &[credits@cf: shuttle projected gross], daily expenses &[credits@cf: shuttle projected expenses], daily net &[credits@cf: shuttle projected net]. Lifetime net &[credits@cf: shuttle total net].`
@@ -7704,7 +7694,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: shuttle frontier trip payout" * "cf: shuttle frontier vip" * 2
 				"cf: shuttle projected gross" += "cf: projected route income" * "cf: shuttle frontier ships" / 10
 				"cf: shuttle projected expenses" += "cf: shuttle frontier daily crew"
-				"cf: shuttle projected expenses" += "cf: managed" * 10000
 				"cf: shuttle projected net" = "cf: shuttle projected gross" - "cf: shuttle projected expenses"
 				"cf: mining projected gross" = 0
 				"cf: mining projected expenses" = 0
@@ -7724,7 +7713,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: mining frontier trip payout" * "cf: mining efficiency bonus" / 100
 				"cf: mining projected gross" += "cf: projected route income" * "cf: mining frontier ships" / 9
 				"cf: mining projected expenses" += "cf: mining frontier daily crew"
-				"cf: mining projected expenses" += "cf: managed" * 10000
 				"cf: mining projected net" = "cf: mining projected gross" - "cf: mining projected expenses"
 				"cf: trading projected gross" = 0
 				"cf: trading projected expenses" = 0
@@ -7736,7 +7724,6 @@ mission "Company Foundations: Company Board"
 				"cf: trading projected expenses" += "cf: trading long daily expenses"
 				"cf: trading projected gross" += "cf: trading frontier trip payout" * "cf: trading frontier ships" / 10
 				"cf: trading projected expenses" += "cf: trading frontier daily expenses"
-				"cf: trading projected expenses" += "cf: managed" * 10000
 				"cf: trading projected net" = "cf: trading projected gross" - "cf: trading projected expenses"
 				"cf: security projected gross" = 0
 				"cf: security projected expenses" = 0
@@ -7751,7 +7738,6 @@ mission "Company Foundations: Company Board"
 				"cf: security projected gross" += "cf: admiral tribute income"
 				"cf: security projected expenses" += "cf: admiral daily crew"
 				"cf: security projected expenses" += "cf: security admiral" * 20000
-				"cf: security projected expenses" += "cf: managed" * 10000
 				"cf: security projected net" = "cf: security projected gross" - "cf: security projected expenses"
 			`Mining division: claims &[number@cf: mining claim count], ships &[number@cf: mining fleet], drones &[number@cf: mining drones]/&[number@cf: mining drone capacity], last gross &[credits@cf: mining last gross], last expenses &[credits@cf: mining last expenses], last net &[credits@cf: mining last net].`
 			`Mining average: daily gross &[credits@cf: mining projected gross], daily expenses &[credits@cf: mining projected expenses], daily net &[credits@cf: mining projected net]. Lifetime net &[credits@cf: mining total net].`
@@ -8118,7 +8104,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: shuttle frontier trip payout" * "cf: shuttle frontier vip" * 2
 				"cf: shuttle projected gross" += "cf: projected route income" * "cf: shuttle frontier ships" / 10
 				"cf: shuttle projected expenses" += "cf: shuttle frontier daily crew"
-				"cf: shuttle projected expenses" += "cf: managed" * 10000
 				"cf: shuttle projected net" = "cf: shuttle projected gross" - "cf: shuttle projected expenses"
 				"cf: mining projected gross" = 0
 				"cf: mining projected expenses" = 0
@@ -8138,7 +8123,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: mining frontier trip payout" * "cf: mining efficiency bonus" / 100
 				"cf: mining projected gross" += "cf: projected route income" * "cf: mining frontier ships" / 9
 				"cf: mining projected expenses" += "cf: mining frontier daily crew"
-				"cf: mining projected expenses" += "cf: managed" * 10000
 				"cf: mining projected net" = "cf: mining projected gross" - "cf: mining projected expenses"
 				"cf: trading projected gross" = 0
 				"cf: trading projected expenses" = 0
@@ -8150,7 +8134,6 @@ mission "Company Foundations: Company Board"
 				"cf: trading projected expenses" += "cf: trading long daily expenses"
 				"cf: trading projected gross" += "cf: trading frontier trip payout" * "cf: trading frontier ships" / 10
 				"cf: trading projected expenses" += "cf: trading frontier daily expenses"
-				"cf: trading projected expenses" += "cf: managed" * 10000
 				"cf: trading projected net" = "cf: trading projected gross" - "cf: trading projected expenses"
 				"cf: security projected gross" = 0
 				"cf: security projected expenses" = 0
@@ -8165,7 +8148,6 @@ mission "Company Foundations: Company Board"
 				"cf: security projected gross" += "cf: admiral tribute income"
 				"cf: security projected expenses" += "cf: admiral daily crew"
 				"cf: security projected expenses" += "cf: security admiral" * 20000
-				"cf: security projected expenses" += "cf: managed" * 10000
 				"cf: security projected net" = "cf: security projected gross" - "cf: security projected expenses"
 			`Trading division: licenses &[number@cf: trading route count], ships &[number@cf: trading fleet], last gross &[credits@cf: trading last gross], last expenses &[credits@cf: trading last expenses], last net &[credits@cf: trading last net].`
 			`Trading average: daily gross &[credits@cf: trading projected gross], daily expenses &[credits@cf: trading projected expenses], daily net &[credits@cf: trading projected net]. Lifetime net &[credits@cf: trading total net].`
@@ -9711,7 +9693,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: shuttle frontier trip payout" * "cf: shuttle frontier vip" * 2
 				"cf: shuttle projected gross" += "cf: projected route income" * "cf: shuttle frontier ships" / 10
 				"cf: shuttle projected expenses" += "cf: shuttle frontier daily crew"
-				"cf: shuttle projected expenses" += "cf: managed" * 10000
 				"cf: shuttle projected net" = "cf: shuttle projected gross" - "cf: shuttle projected expenses"
 				"cf: mining projected gross" = 0
 				"cf: mining projected expenses" = 0
@@ -9731,7 +9712,6 @@ mission "Company Foundations: Company Board"
 				"cf: projected route income" += "cf: mining frontier trip payout" * "cf: mining efficiency bonus" / 100
 				"cf: mining projected gross" += "cf: projected route income" * "cf: mining frontier ships" / 9
 				"cf: mining projected expenses" += "cf: mining frontier daily crew"
-				"cf: mining projected expenses" += "cf: managed" * 10000
 				"cf: mining projected net" = "cf: mining projected gross" - "cf: mining projected expenses"
 				"cf: trading projected gross" = 0
 				"cf: trading projected expenses" = 0
@@ -9743,7 +9723,6 @@ mission "Company Foundations: Company Board"
 				"cf: trading projected expenses" += "cf: trading long daily expenses"
 				"cf: trading projected gross" += "cf: trading frontier trip payout" * "cf: trading frontier ships" / 10
 				"cf: trading projected expenses" += "cf: trading frontier daily expenses"
-				"cf: trading projected expenses" += "cf: managed" * 10000
 				"cf: trading projected net" = "cf: trading projected gross" - "cf: trading projected expenses"
 				"cf: security projected gross" = 0
 				"cf: security projected expenses" = 0
@@ -9758,7 +9737,6 @@ mission "Company Foundations: Company Board"
 				"cf: security projected gross" += "cf: admiral tribute income"
 				"cf: security projected expenses" += "cf: admiral daily crew"
 				"cf: security projected expenses" += "cf: security admiral" * 20000
-				"cf: security projected expenses" += "cf: managed" * 10000
 				"cf: security projected net" = "cf: security projected gross" - "cf: security projected expenses"
 			`Security division: licenses &[number@cf: security contract count], escort ships &[number@cf: security fleet], escort rating &[number@cf: security combat rating], last gross &[credits@cf: security last gross], last expenses &[credits@cf: security last expenses], last net &[credits@cf: security last net].`
 			`Security average: daily gross &[credits@cf: security projected gross], daily expenses &[credits@cf: security projected expenses], daily net &[credits@cf: security projected net]. Lifetime net &[credits@cf: security total net].`
@@ -11885,16 +11863,15 @@ mission "Company Foundations: Company Board"
 			label "start company sale"
 			action
 				"cf: company value" = "cf: reserve"
-				"cf: company value" >?= 0
 				"cf: company value" += "cf: owner payable"
-				"cf: company value" += "cf: fleet value"
-				"cf: company value" += "cf: station value"
-				"cf: company value" += "cf: shuttle route count" * 120000
-				"cf: company value" += "cf: mining claim count" * 220000
-				"cf: company value" += "cf: trading route count" * 180000
-				"cf: company value" += "cf: security contract count" * 250000
-				"cf: company value" += "cf: admiral tribute income" * 180
-				"cf: company value" += "cf: station daily income" * 365
+				"cf: company value" += "cf: fleet value" * 70 / 100
+				"cf: company value" += "cf: station value" * 65 / 100
+				"cf: company value" += "cf: shuttle route count" * 48000
+				"cf: company value" += "cf: mining claim count" * 88000
+				"cf: company value" += "cf: trading route count" * 72000
+				"cf: company value" += "cf: security contract count" * 100000
+				"cf: company value" += "cf: admiral tribute income" * 90
+				"cf: company value" += "cf: station daily income" * 90
 				"cf: company value" >?= 0
 				"cf: sale proceeds" = "cf: company value"
 				"cf: sale remaining" = "cf: company value"
@@ -12011,6 +11988,7 @@ mission "Company Foundations: Company Board"
 				goto "company sale payout"
 			label "finalize company sale"
 			action
+				log "Company Foundations" "Company Sale" `The company was sold and its charter was closed. The final proceeds remain recorded in the company audit conditions.`
 				"cf: last sale proceeds" = "cf: sale proceeds"
 				"cf: company value" = 0
 				"cf: reserve" = 0
@@ -12086,6 +12064,10 @@ mission "Company Foundations: Company Board"
 				"cf: hq daily tax" = 0
 				"cf: hq tax relief" = 0
 				"cf: hq required reputation" = 0
+				"cf: hq offer mining local value" = 0
+				"cf: hq offer trading local value" = 0
+				"cf: hq offer trading local optimized value" = 0
+				"cf: hq offer security local rate" = 0
 				"cf: shuttle fleet" = 0
 				"cf: shuttle route count" = 0
 				"cf: shuttle local ships" = 0
@@ -12236,6 +12218,9 @@ mission "Company Foundations: Company Board"
 				clear "cf: admiral tribute cartel"
 				clear "cf: admiral tribute stronghold"
 				clear "cf: active"
+				clear "cf: operations accounting v3"
+				clear "cf: hq local offers v1"
+				clear "cf: hq local offers v2"
 				clear "cf: shuttle"
 				clear "cf: mining"
 				clear "cf: trading"
@@ -13353,38 +13338,14 @@ mission "Company Foundations: Company Board"
 				clear "cf: admiral destination: Yoqqa-Vasa-Vasa"
 				clear "cf: admiral destination: Zenith"
 				clear "cf: admiral destination: Zug"
-				clear "Company Foundations: Shuttle Manual Operations: failed"
-				clear "Company Foundations: Shuttle Manual Operations: offered"
-				clear "Company Foundations: Shuttle Manual Operations: done"
-				clear "Company Foundations: Shuttle Manual Operations: declined"
-				clear "Company Foundations: Mining Manual Operations: failed"
-				clear "Company Foundations: Mining Manual Operations: offered"
-				clear "Company Foundations: Mining Manual Operations: done"
-				clear "Company Foundations: Mining Manual Operations: declined"
-				clear "Company Foundations: Trading Manual Operations: failed"
-				clear "Company Foundations: Trading Manual Operations: offered"
-				clear "Company Foundations: Trading Manual Operations: done"
-				clear "Company Foundations: Trading Manual Operations: declined"
-				clear "Company Foundations: Security Manual Operations: failed"
-				clear "Company Foundations: Security Manual Operations: offered"
-				clear "Company Foundations: Security Manual Operations: done"
-				clear "Company Foundations: Security Manual Operations: declined"
-				clear "Company Foundations: Shuttle Managed Operations: failed"
-				clear "Company Foundations: Shuttle Managed Operations: offered"
-				clear "Company Foundations: Shuttle Managed Operations: done"
-				clear "Company Foundations: Shuttle Managed Operations: declined"
-				clear "Company Foundations: Mining Managed Operations: failed"
-				clear "Company Foundations: Mining Managed Operations: offered"
-				clear "Company Foundations: Mining Managed Operations: done"
-				clear "Company Foundations: Mining Managed Operations: declined"
-				clear "Company Foundations: Trading Managed Operations: failed"
-				clear "Company Foundations: Trading Managed Operations: offered"
-				clear "Company Foundations: Trading Managed Operations: done"
-				clear "Company Foundations: Trading Managed Operations: declined"
-				clear "Company Foundations: Security Managed Operations: failed"
-				clear "Company Foundations: Security Managed Operations: offered"
-				clear "Company Foundations: Security Managed Operations: done"
-				clear "Company Foundations: Security Managed Operations: declined"
+				clear "Company Foundations: Company Manual Operations: failed"
+				clear "Company Foundations: Company Manual Operations: offered"
+				clear "Company Foundations: Company Manual Operations: done"
+				clear "Company Foundations: Company Manual Operations: declined"
+				clear "Company Foundations: Company Managed Operations: failed"
+				clear "Company Foundations: Company Managed Operations: offered"
+				clear "Company Foundations: Company Managed Operations: done"
+				clear "Company Foundations: Company Managed Operations: declined"
 			`The sale is complete. The company charter, operating licenses, stations, management contracts, and headquarters record are closed.`
 				decline
 			label "confirm add shuttle division"
@@ -13434,46 +13395,16 @@ mission "Company Foundations: Company Board"
 				clear "cf: manager active"
 				"cf: manual pending" = 1
 				"cf: manager pending" = 1
-				fail "Company Foundations: Shuttle Manual Operations"
-				fail "Company Foundations: Mining Manual Operations"
-				fail "Company Foundations: Trading Manual Operations"
-				fail "Company Foundations: Security Manual Operations"
-				fail "Company Foundations: Shuttle Managed Operations"
-				fail "Company Foundations: Mining Managed Operations"
-				fail "Company Foundations: Trading Managed Operations"
-				fail "Company Foundations: Security Managed Operations"
-				clear "Company Foundations: Shuttle Manual Operations: failed"
-				clear "Company Foundations: Shuttle Manual Operations: offered"
-				clear "Company Foundations: Shuttle Manual Operations: done"
-				clear "Company Foundations: Shuttle Manual Operations: declined"
-				clear "Company Foundations: Mining Manual Operations: failed"
-				clear "Company Foundations: Mining Manual Operations: offered"
-				clear "Company Foundations: Mining Manual Operations: done"
-				clear "Company Foundations: Mining Manual Operations: declined"
-				clear "Company Foundations: Trading Manual Operations: failed"
-				clear "Company Foundations: Trading Manual Operations: offered"
-				clear "Company Foundations: Trading Manual Operations: done"
-				clear "Company Foundations: Trading Manual Operations: declined"
-				clear "Company Foundations: Security Manual Operations: failed"
-				clear "Company Foundations: Security Manual Operations: offered"
-				clear "Company Foundations: Security Manual Operations: done"
-				clear "Company Foundations: Security Manual Operations: declined"
-				clear "Company Foundations: Shuttle Managed Operations: failed"
-				clear "Company Foundations: Shuttle Managed Operations: offered"
-				clear "Company Foundations: Shuttle Managed Operations: done"
-				clear "Company Foundations: Shuttle Managed Operations: declined"
-				clear "Company Foundations: Mining Managed Operations: failed"
-				clear "Company Foundations: Mining Managed Operations: offered"
-				clear "Company Foundations: Mining Managed Operations: done"
-				clear "Company Foundations: Mining Managed Operations: declined"
-				clear "Company Foundations: Trading Managed Operations: failed"
-				clear "Company Foundations: Trading Managed Operations: offered"
-				clear "Company Foundations: Trading Managed Operations: done"
-				clear "Company Foundations: Trading Managed Operations: declined"
-				clear "Company Foundations: Security Managed Operations: failed"
-				clear "Company Foundations: Security Managed Operations: offered"
-				clear "Company Foundations: Security Managed Operations: done"
-				clear "Company Foundations: Security Managed Operations: declined"
+				fail "Company Foundations: Company Manual Operations"
+				fail "Company Foundations: Company Managed Operations"
+				clear "Company Foundations: Company Manual Operations: failed"
+				clear "Company Foundations: Company Manual Operations: offered"
+				clear "Company Foundations: Company Manual Operations: done"
+				clear "Company Foundations: Company Manual Operations: declined"
+				clear "Company Foundations: Company Managed Operations: failed"
+				clear "Company Foundations: Company Managed Operations: offered"
+				clear "Company Foundations: Company Managed Operations: done"
+				clear "Company Foundations: Company Managed Operations: declined"
 			`A shuttle division is added to the company with one Shuttle and one local passenger route.`
 				goto "company transaction summary"
 			label "add mining division"
@@ -13486,57 +13417,27 @@ mission "Company Foundations: Company Board"
 				"cf: mining fleet" = 1
 				"cf: mining claim count" = 1
 				set "cf: mining claim local"
-				"cf: mining local value" = 3500
+				"cf: mining local value" = "cf: hq offer mining local value"
 				"cf: mining local ships" = 1
 				"cf: mining local cargo" = 80
 				"cf: mining local daily crew" = 300
-				"cf: mining local trip payout" = 280000
+				"cf: mining local trip payout" = "cf: mining local cargo" * "cf: mining local value"
 				"cf: mining local trip expenses" = 900
 				"cf: mining drone capacity" = 2
 				clear "cf: manual active"
 				clear "cf: manager active"
 				"cf: manual pending" = 1
 				"cf: manager pending" = 1
-				fail "Company Foundations: Shuttle Manual Operations"
-				fail "Company Foundations: Mining Manual Operations"
-				fail "Company Foundations: Trading Manual Operations"
-				fail "Company Foundations: Security Manual Operations"
-				fail "Company Foundations: Shuttle Managed Operations"
-				fail "Company Foundations: Mining Managed Operations"
-				fail "Company Foundations: Trading Managed Operations"
-				fail "Company Foundations: Security Managed Operations"
-				clear "Company Foundations: Shuttle Manual Operations: failed"
-				clear "Company Foundations: Shuttle Manual Operations: offered"
-				clear "Company Foundations: Shuttle Manual Operations: done"
-				clear "Company Foundations: Shuttle Manual Operations: declined"
-				clear "Company Foundations: Mining Manual Operations: failed"
-				clear "Company Foundations: Mining Manual Operations: offered"
-				clear "Company Foundations: Mining Manual Operations: done"
-				clear "Company Foundations: Mining Manual Operations: declined"
-				clear "Company Foundations: Trading Manual Operations: failed"
-				clear "Company Foundations: Trading Manual Operations: offered"
-				clear "Company Foundations: Trading Manual Operations: done"
-				clear "Company Foundations: Trading Manual Operations: declined"
-				clear "Company Foundations: Security Manual Operations: failed"
-				clear "Company Foundations: Security Manual Operations: offered"
-				clear "Company Foundations: Security Manual Operations: done"
-				clear "Company Foundations: Security Manual Operations: declined"
-				clear "Company Foundations: Shuttle Managed Operations: failed"
-				clear "Company Foundations: Shuttle Managed Operations: offered"
-				clear "Company Foundations: Shuttle Managed Operations: done"
-				clear "Company Foundations: Shuttle Managed Operations: declined"
-				clear "Company Foundations: Mining Managed Operations: failed"
-				clear "Company Foundations: Mining Managed Operations: offered"
-				clear "Company Foundations: Mining Managed Operations: done"
-				clear "Company Foundations: Mining Managed Operations: declined"
-				clear "Company Foundations: Trading Managed Operations: failed"
-				clear "Company Foundations: Trading Managed Operations: offered"
-				clear "Company Foundations: Trading Managed Operations: done"
-				clear "Company Foundations: Trading Managed Operations: declined"
-				clear "Company Foundations: Security Managed Operations: failed"
-				clear "Company Foundations: Security Managed Operations: offered"
-				clear "Company Foundations: Security Managed Operations: done"
-				clear "Company Foundations: Security Managed Operations: declined"
+				fail "Company Foundations: Company Manual Operations"
+				fail "Company Foundations: Company Managed Operations"
+				clear "Company Foundations: Company Manual Operations: failed"
+				clear "Company Foundations: Company Manual Operations: offered"
+				clear "Company Foundations: Company Manual Operations: done"
+				clear "Company Foundations: Company Manual Operations: declined"
+				clear "Company Foundations: Company Managed Operations: failed"
+				clear "Company Foundations: Company Managed Operations: offered"
+				clear "Company Foundations: Company Managed Operations: done"
+				clear "Company Foundations: Company Managed Operations: declined"
 			`A mining division is added to the company with one Sunder and one local claim.`
 				goto "company transaction summary"
 			label "add trading division"
@@ -13549,59 +13450,29 @@ mission "Company Foundations: Company Board"
 				"cf: trading fleet" = 1
 				"cf: trading route count" = 1
 				set "cf: trading license local"
-				"cf: trading local value" = 450
-				"cf: trading local optimized value" = 650
-				"cf: trading local current value" = 450
+				"cf: trading local value" = "cf: hq offer trading local value"
+				"cf: trading local optimized value" = "cf: hq offer trading local optimized value"
+				"cf: trading local current value" = "cf: hq offer trading local value"
 				"cf: trading local ships" = 1
 				"cf: trading local cargo" = 50
 				"cf: trading local daily crew" = 100
 				"cf: trading local daily expenses" = 100
-				"cf: trading local trip payout" = 22500
+				"cf: trading local trip payout" = "cf: trading local cargo" * "cf: trading local current value"
 				"cf: trading local trip expenses" = 400
 				clear "cf: manual active"
 				clear "cf: manager active"
 				"cf: manual pending" = 1
 				"cf: manager pending" = 1
-				fail "Company Foundations: Shuttle Manual Operations"
-				fail "Company Foundations: Mining Manual Operations"
-				fail "Company Foundations: Trading Manual Operations"
-				fail "Company Foundations: Security Manual Operations"
-				fail "Company Foundations: Shuttle Managed Operations"
-				fail "Company Foundations: Mining Managed Operations"
-				fail "Company Foundations: Trading Managed Operations"
-				fail "Company Foundations: Security Managed Operations"
-				clear "Company Foundations: Shuttle Manual Operations: failed"
-				clear "Company Foundations: Shuttle Manual Operations: offered"
-				clear "Company Foundations: Shuttle Manual Operations: done"
-				clear "Company Foundations: Shuttle Manual Operations: declined"
-				clear "Company Foundations: Mining Manual Operations: failed"
-				clear "Company Foundations: Mining Manual Operations: offered"
-				clear "Company Foundations: Mining Manual Operations: done"
-				clear "Company Foundations: Mining Manual Operations: declined"
-				clear "Company Foundations: Trading Manual Operations: failed"
-				clear "Company Foundations: Trading Manual Operations: offered"
-				clear "Company Foundations: Trading Manual Operations: done"
-				clear "Company Foundations: Trading Manual Operations: declined"
-				clear "Company Foundations: Security Manual Operations: failed"
-				clear "Company Foundations: Security Manual Operations: offered"
-				clear "Company Foundations: Security Manual Operations: done"
-				clear "Company Foundations: Security Manual Operations: declined"
-				clear "Company Foundations: Shuttle Managed Operations: failed"
-				clear "Company Foundations: Shuttle Managed Operations: offered"
-				clear "Company Foundations: Shuttle Managed Operations: done"
-				clear "Company Foundations: Shuttle Managed Operations: declined"
-				clear "Company Foundations: Mining Managed Operations: failed"
-				clear "Company Foundations: Mining Managed Operations: offered"
-				clear "Company Foundations: Mining Managed Operations: done"
-				clear "Company Foundations: Mining Managed Operations: declined"
-				clear "Company Foundations: Trading Managed Operations: failed"
-				clear "Company Foundations: Trading Managed Operations: offered"
-				clear "Company Foundations: Trading Managed Operations: done"
-				clear "Company Foundations: Trading Managed Operations: declined"
-				clear "Company Foundations: Security Managed Operations: failed"
-				clear "Company Foundations: Security Managed Operations: offered"
-				clear "Company Foundations: Security Managed Operations: done"
-				clear "Company Foundations: Security Managed Operations: declined"
+				fail "Company Foundations: Company Manual Operations"
+				fail "Company Foundations: Company Managed Operations"
+				clear "Company Foundations: Company Manual Operations: failed"
+				clear "Company Foundations: Company Manual Operations: offered"
+				clear "Company Foundations: Company Manual Operations: done"
+				clear "Company Foundations: Company Manual Operations: declined"
+				clear "Company Foundations: Company Managed Operations: failed"
+				clear "Company Foundations: Company Managed Operations: offered"
+				clear "Company Foundations: Company Managed Operations: done"
+				clear "Company Foundations: Company Managed Operations: declined"
 			`A trading division is added to the company with one Star Barge and one local trade license.`
 				goto "company transaction summary"
 			label "add security division"
@@ -13615,56 +13486,26 @@ mission "Company Foundations: Company Board"
 				"cf: security contract count" = 1
 				"cf: security combat rating" = 3
 				set "cf: security license local"
-				"cf: security local rate" = 1000
+				"cf: security local rate" = "cf: hq offer security local rate"
 				"cf: security local ships" = 1
 				"cf: security local rating" = 3
 				"cf: security local daily crew" = 600
-				"cf: security local trip payout" = 12000
+				"cf: security local trip payout" = "cf: security local rating" * "cf: security local rate" * 4
 				"cf: security local trip expenses" = 2400
 				clear "cf: manual active"
 				clear "cf: manager active"
 				"cf: manual pending" = 1
 				"cf: manager pending" = 1
-				fail "Company Foundations: Shuttle Manual Operations"
-				fail "Company Foundations: Mining Manual Operations"
-				fail "Company Foundations: Trading Manual Operations"
-				fail "Company Foundations: Security Manual Operations"
-				fail "Company Foundations: Shuttle Managed Operations"
-				fail "Company Foundations: Mining Managed Operations"
-				fail "Company Foundations: Trading Managed Operations"
-				fail "Company Foundations: Security Managed Operations"
-				clear "Company Foundations: Shuttle Manual Operations: failed"
-				clear "Company Foundations: Shuttle Manual Operations: offered"
-				clear "Company Foundations: Shuttle Manual Operations: done"
-				clear "Company Foundations: Shuttle Manual Operations: declined"
-				clear "Company Foundations: Mining Manual Operations: failed"
-				clear "Company Foundations: Mining Manual Operations: offered"
-				clear "Company Foundations: Mining Manual Operations: done"
-				clear "Company Foundations: Mining Manual Operations: declined"
-				clear "Company Foundations: Trading Manual Operations: failed"
-				clear "Company Foundations: Trading Manual Operations: offered"
-				clear "Company Foundations: Trading Manual Operations: done"
-				clear "Company Foundations: Trading Manual Operations: declined"
-				clear "Company Foundations: Security Manual Operations: failed"
-				clear "Company Foundations: Security Manual Operations: offered"
-				clear "Company Foundations: Security Manual Operations: done"
-				clear "Company Foundations: Security Manual Operations: declined"
-				clear "Company Foundations: Shuttle Managed Operations: failed"
-				clear "Company Foundations: Shuttle Managed Operations: offered"
-				clear "Company Foundations: Shuttle Managed Operations: done"
-				clear "Company Foundations: Shuttle Managed Operations: declined"
-				clear "Company Foundations: Mining Managed Operations: failed"
-				clear "Company Foundations: Mining Managed Operations: offered"
-				clear "Company Foundations: Mining Managed Operations: done"
-				clear "Company Foundations: Mining Managed Operations: declined"
-				clear "Company Foundations: Trading Managed Operations: failed"
-				clear "Company Foundations: Trading Managed Operations: offered"
-				clear "Company Foundations: Trading Managed Operations: done"
-				clear "Company Foundations: Trading Managed Operations: declined"
-				clear "Company Foundations: Security Managed Operations: failed"
-				clear "Company Foundations: Security Managed Operations: offered"
-				clear "Company Foundations: Security Managed Operations: done"
-				clear "Company Foundations: Security Managed Operations: declined"
+				fail "Company Foundations: Company Manual Operations"
+				fail "Company Foundations: Company Managed Operations"
+				clear "Company Foundations: Company Manual Operations: failed"
+				clear "Company Foundations: Company Manual Operations: offered"
+				clear "Company Foundations: Company Manual Operations: done"
+				clear "Company Foundations: Company Manual Operations: declined"
+				clear "Company Foundations: Company Managed Operations: failed"
+				clear "Company Foundations: Company Managed Operations: offered"
+				clear "Company Foundations: Company Managed Operations: done"
+				clear "Company Foundations: Company Managed Operations: declined"
 			`A security division is added to the company with one Manta and one local escort license.`
 				goto "company transaction summary"
 			label "confirm buy regional route"
@@ -29441,42 +29282,15 @@ mission "Company Foundations: Company Board"
 				"cf: manager unpaid days" = 0
 				"cf: manager daily cost" = 0
 				clear "cf: manager salary checked"
-				fail "Company Foundations: Shuttle Manual Operations"
-				fail "Company Foundations: Mining Manual Operations"
-				fail "Company Foundations: Trading Manual Operations"
-				fail "Company Foundations: Security Manual Operations"
-				clear "Company Foundations: Shuttle Manual Operations: failed"
-				clear "Company Foundations: Shuttle Manual Operations: offered"
-				clear "Company Foundations: Shuttle Manual Operations: done"
-				clear "Company Foundations: Shuttle Manual Operations: declined"
-				clear "Company Foundations: Mining Manual Operations: failed"
-				clear "Company Foundations: Mining Manual Operations: offered"
-				clear "Company Foundations: Mining Manual Operations: done"
-				clear "Company Foundations: Mining Manual Operations: declined"
-				clear "Company Foundations: Trading Manual Operations: failed"
-				clear "Company Foundations: Trading Manual Operations: offered"
-				clear "Company Foundations: Trading Manual Operations: done"
-				clear "Company Foundations: Trading Manual Operations: declined"
-				clear "Company Foundations: Security Manual Operations: failed"
-				clear "Company Foundations: Security Manual Operations: offered"
-				clear "Company Foundations: Security Manual Operations: done"
-				clear "Company Foundations: Security Manual Operations: declined"
-				clear "Company Foundations: Shuttle Managed Operations: failed"
-				clear "Company Foundations: Shuttle Managed Operations: offered"
-				clear "Company Foundations: Shuttle Managed Operations: done"
-				clear "Company Foundations: Shuttle Managed Operations: declined"
-				clear "Company Foundations: Mining Managed Operations: failed"
-				clear "Company Foundations: Mining Managed Operations: offered"
-				clear "Company Foundations: Mining Managed Operations: done"
-				clear "Company Foundations: Mining Managed Operations: declined"
-				clear "Company Foundations: Trading Managed Operations: failed"
-				clear "Company Foundations: Trading Managed Operations: offered"
-				clear "Company Foundations: Trading Managed Operations: done"
-				clear "Company Foundations: Trading Managed Operations: declined"
-				clear "Company Foundations: Security Managed Operations: failed"
-				clear "Company Foundations: Security Managed Operations: offered"
-				clear "Company Foundations: Security Managed Operations: done"
-				clear "Company Foundations: Security Managed Operations: declined"
+				fail "Company Foundations: Company Manual Operations"
+				clear "Company Foundations: Company Manual Operations: failed"
+				clear "Company Foundations: Company Manual Operations: offered"
+				clear "Company Foundations: Company Manual Operations: done"
+				clear "Company Foundations: Company Manual Operations: declined"
+				clear "Company Foundations: Company Managed Operations: failed"
+				clear "Company Foundations: Company Managed Operations: offered"
+				clear "Company Foundations: Company Managed Operations: done"
+				clear "Company Foundations: Company Managed Operations: declined"
 			`You sign the management contract. The manager will cost 10,000 credits per day, follow your payout policy, keep a conservative reserve, and reinvest company funds into appropriate routes, claims, ships, and upgrades when the balance allows it.`
 				goto "company transaction summary"
 			label "confirm dismiss manager"
@@ -29496,42 +29310,15 @@ mission "Company Foundations: Company Board"
 				clear "cf: managed"
 				set "cf: manual"
 				set "cf: manual pending"
-				fail "Company Foundations: Shuttle Managed Operations"
-				fail "Company Foundations: Mining Managed Operations"
-				fail "Company Foundations: Trading Managed Operations"
-				fail "Company Foundations: Security Managed Operations"
-				clear "Company Foundations: Shuttle Manual Operations: failed"
-				clear "Company Foundations: Shuttle Manual Operations: offered"
-				clear "Company Foundations: Shuttle Manual Operations: done"
-				clear "Company Foundations: Shuttle Manual Operations: declined"
-				clear "Company Foundations: Mining Manual Operations: failed"
-				clear "Company Foundations: Mining Manual Operations: offered"
-				clear "Company Foundations: Mining Manual Operations: done"
-				clear "Company Foundations: Mining Manual Operations: declined"
-				clear "Company Foundations: Trading Manual Operations: failed"
-				clear "Company Foundations: Trading Manual Operations: offered"
-				clear "Company Foundations: Trading Manual Operations: done"
-				clear "Company Foundations: Trading Manual Operations: declined"
-				clear "Company Foundations: Security Manual Operations: failed"
-				clear "Company Foundations: Security Manual Operations: offered"
-				clear "Company Foundations: Security Manual Operations: done"
-				clear "Company Foundations: Security Manual Operations: declined"
-				clear "Company Foundations: Shuttle Managed Operations: failed"
-				clear "Company Foundations: Shuttle Managed Operations: offered"
-				clear "Company Foundations: Shuttle Managed Operations: done"
-				clear "Company Foundations: Shuttle Managed Operations: declined"
-				clear "Company Foundations: Mining Managed Operations: failed"
-				clear "Company Foundations: Mining Managed Operations: offered"
-				clear "Company Foundations: Mining Managed Operations: done"
-				clear "Company Foundations: Mining Managed Operations: declined"
-				clear "Company Foundations: Trading Managed Operations: failed"
-				clear "Company Foundations: Trading Managed Operations: offered"
-				clear "Company Foundations: Trading Managed Operations: done"
-				clear "Company Foundations: Trading Managed Operations: declined"
-				clear "Company Foundations: Security Managed Operations: failed"
-				clear "Company Foundations: Security Managed Operations: offered"
-				clear "Company Foundations: Security Managed Operations: done"
-				clear "Company Foundations: Security Managed Operations: declined"
+				fail "Company Foundations: Company Managed Operations"
+				clear "Company Foundations: Company Manual Operations: failed"
+				clear "Company Foundations: Company Manual Operations: offered"
+				clear "Company Foundations: Company Manual Operations: done"
+				clear "Company Foundations: Company Manual Operations: declined"
+				clear "Company Foundations: Company Managed Operations: failed"
+				clear "Company Foundations: Company Managed Operations: offered"
+				clear "Company Foundations: Company Managed Operations: done"
+				clear "Company Foundations: Company Managed Operations: declined"
 			`You dismiss the operations manager. The company returns to owner-managed operations; no further 10,000 credit manager salary will be charged.`
 				goto "company transaction summary"
 

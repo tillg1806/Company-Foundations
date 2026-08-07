@@ -5,6 +5,8 @@ param(
     [string]$OutFile = ""
 )
 
+$ErrorActionPreference = "Stop"
+
 $explicitParameters = @{}
 foreach($key in $PSBoundParameters.Keys) {
     $explicitParameters[$key] = $PSBoundParameters[$key]
@@ -916,6 +918,15 @@ function Add-ClearAllHQConditions {
     foreach($candidate in $eligible) {
         Add-ConditionLine "clear" "cf: hq: $($candidate.Name)" $Indent
     }
+    Add-ConditionLine "clear" "cf: hq: $companyStationPlanetName" $Indent
+}
+
+function Add-ClearAllCompanyStationSystemConditions {
+    param([string]$Indent = "		")
+
+    foreach($system in $companyStationSystems) {
+        Add-ConditionLine "clear" "cf: hq station system: $($system.Name)" $Indent
+    }
 }
 
 function Add-ClearAllAdmiralLocationConditions {
@@ -924,6 +935,7 @@ function Add-ClearAllAdmiralLocationConditions {
     foreach($candidate in $eligible) {
         Add-ConditionLine "clear" "cf: admiral location: $($candidate.Name)" $Indent
     }
+    Add-ConditionLine "clear" "cf: admiral location: headquarters" $Indent
 }
 
 function Add-ClearAllAdmiralDestinationConditions {
@@ -976,6 +988,8 @@ $companyStationSystems = @(
         Sort-Object Name
 )
 
+$routeTargetCandidateCache = @{}
+
 function Find-RouteTarget {
     param(
         [string]$FromPlanet,
@@ -983,36 +997,42 @@ function Find-RouteTarget {
     )
 
     $fromSystem = $systemsByPlanet[$FromPlanet].Name
-    $visited = @{}
-    $queue = New-Object System.Collections.Generic.Queue[object]
-    $queue.Enqueue([pscustomobject]@{ Name = $fromSystem; Distance = 0 })
-    $visited[$fromSystem] = $true
-    $candidates = New-Object System.Collections.Generic.List[object]
+    if($routeTargetCandidateCache.ContainsKey($FromPlanet)) {
+        $candidates = $routeTargetCandidateCache[$FromPlanet]
+    } else {
+        $visited = @{}
+        $queue = New-Object System.Collections.Generic.Queue[object]
+        $queue.Enqueue([pscustomobject]@{ Name = $fromSystem; Distance = 0 })
+        $visited[$fromSystem] = $true
+        $candidateList = New-Object System.Collections.Generic.List[object]
 
-    while($queue.Count -gt 0) {
-        $current = $queue.Dequeue()
-        if($current.Distance -gt 0 -and $eligibleBySystem.ContainsKey($current.Name)) {
-            foreach($planetName in $eligibleBySystem[$current.Name]) {
-                if($planetName -ne $FromPlanet) {
-                    $candidates.Add([pscustomobject]@{
-                        Planet = $planetName
-                        System = $current.Name
-                        Distance = $current.Distance
-                    })
+        while($queue.Count -gt 0) {
+            $current = $queue.Dequeue()
+            if($current.Distance -gt 0 -and $eligibleBySystem.ContainsKey($current.Name)) {
+                foreach($planetName in $eligibleBySystem[$current.Name]) {
+                    if($planetName -ne $FromPlanet) {
+                        $candidateList.Add([pscustomobject]@{
+                            Planet = $planetName
+                            System = $current.Name
+                            Distance = $current.Distance
+                        })
+                    }
+                }
+            }
+
+            if($current.Distance -ge 6 -or -not $systemsByName.ContainsKey($current.Name)) {
+                continue
+            }
+
+            foreach($link in @($systemsByName[$current.Name].Links | Sort-Object)) {
+                if(-not $visited.ContainsKey($link) -and $systemsByName.ContainsKey($link)) {
+                    $visited[$link] = $true
+                    $queue.Enqueue([pscustomobject]@{ Name = $link; Distance = $current.Distance + 1 })
                 }
             }
         }
-
-        if($current.Distance -ge 6 -or -not $systemsByName.ContainsKey($current.Name)) {
-            continue
-        }
-
-        foreach($link in @($systemsByName[$current.Name].Links | Sort-Object)) {
-            if(-not $visited.ContainsKey($link) -and $systemsByName.ContainsKey($link)) {
-                $visited[$link] = $true
-                $queue.Enqueue([pscustomobject]@{ Name = $link; Distance = $current.Distance + 1 })
-            }
-        }
+        $candidates = $candidateList.ToArray()
+        $routeTargetCandidateCache[$FromPlanet] = $candidates
     }
 
     $exact = @($candidates | Where-Object { $_.Distance -eq $DesiredDistance } | Sort-Object Planet | Select-Object -First 1)
@@ -1044,6 +1064,9 @@ function Set-OutputSection {
         return
     }
     if(-not $script:outputSections.Contains($Name)) {
+        if($env:CF_GENERATOR_PROFILE) {
+            Write-Host "Generating section: $Name"
+        }
         $script:outputSections[$Name] = New-Object System.Collections.Generic.List[string]
         $script:outputSections[$Name].Add("# Company Foundations")
         $script:outputSections[$Name].Add("")
@@ -1177,6 +1200,8 @@ function Get-MiningSystemValue {
     }
 }
 
+$miningClaimCandidateCache = @{}
+
 function Find-MiningClaimTarget {
     param(
         [string]$FromPlanet,
@@ -1185,46 +1210,53 @@ function Find-MiningClaimTarget {
     )
 
     $fromSystem = $systemsByPlanet[$FromPlanet].Name
-    $fallbackSystem = $systemsByName[$fromSystem]
-    $visited = @{}
-    $queue = New-Object System.Collections.Generic.Queue[object]
-    $queue.Enqueue([pscustomobject]@{ Name = $fromSystem; Distance = 0 })
-    $visited[$fromSystem] = $true
-    $candidates = New-Object System.Collections.Generic.List[object]
+    if($miningClaimCandidateCache.ContainsKey($FromPlanet)) {
+        $allCandidates = $miningClaimCandidateCache[$FromPlanet]
+    } else {
+        $fallbackSystem = $systemsByName[$fromSystem]
+        $visited = @{}
+        $queue = New-Object System.Collections.Generic.Queue[object]
+        $queue.Enqueue([pscustomobject]@{ Name = $fromSystem; Distance = 0 })
+        $visited[$fromSystem] = $true
+        $candidateList = New-Object System.Collections.Generic.List[object]
 
-    while($queue.Count -gt 0) {
-        $current = $queue.Dequeue()
-        if($systemsByName.ContainsKey($current.Name)) {
-            $system = $systemsByName[$current.Name]
-            $isAllowed =
-                -not ($excludedGovernments -contains $system.Government) -and
-                $system.Government -notlike "Wormhole*" -and
-                -not (@($system.Attributes) | Where-Object { $excludedSystemAttributes -contains $_ }) -and
-                -not ($ExcludeSystems -contains $system.Name)
+        while($queue.Count -gt 0) {
+            $current = $queue.Dequeue()
+            if($systemsByName.ContainsKey($current.Name)) {
+                $system = $systemsByName[$current.Name]
+                $isAllowed =
+                    -not ($excludedGovernments -contains $system.Government) -and
+                    $system.Government -notlike "Wormhole*" -and
+                    -not (@($system.Attributes) | Where-Object { $excludedSystemAttributes -contains $_ })
 
-            if($isAllowed -and @($system.Minables).Count -gt 0) {
-                $value = Get-MiningSystemValue $system $fallbackSystem
-                $candidates.Add([pscustomobject]@{
-                    System = $system.Name
-                    Distance = $current.Distance
-                    ValuePerCargo = $value.ValuePerCargo
-                    Quality = $value.Quality
-                    Summary = $value.Summary
-                })
+                if($isAllowed -and @($system.Minables).Count -gt 0) {
+                    $value = Get-MiningSystemValue $system $fallbackSystem
+                    $candidateList.Add([pscustomobject]@{
+                        System = $system.Name
+                        Distance = $current.Distance
+                        ValuePerCargo = $value.ValuePerCargo
+                        Quality = $value.Quality
+                        Summary = $value.Summary
+                    })
+                }
+            }
+
+            if($current.Distance -ge 6 -or -not $systemsByName.ContainsKey($current.Name)) {
+                continue
+            }
+
+            foreach($link in @($systemsByName[$current.Name].Links | Sort-Object)) {
+                if(-not $visited.ContainsKey($link) -and $systemsByName.ContainsKey($link)) {
+                    $visited[$link] = $true
+                    $queue.Enqueue([pscustomobject]@{ Name = $link; Distance = $current.Distance + 1 })
+                }
             }
         }
-
-        if($current.Distance -ge 6 -or -not $systemsByName.ContainsKey($current.Name)) {
-            continue
-        }
-
-        foreach($link in @($systemsByName[$current.Name].Links | Sort-Object)) {
-            if(-not $visited.ContainsKey($link) -and $systemsByName.ContainsKey($link)) {
-                $visited[$link] = $true
-                $queue.Enqueue([pscustomobject]@{ Name = $link; Distance = $current.Distance + 1 })
-            }
-        }
+        $allCandidates = $candidateList.ToArray()
+        $miningClaimCandidateCache[$FromPlanet] = $allCandidates
     }
+
+    $candidates = @($allCandidates | Where-Object { $ExcludeSystems -notcontains $_.System })
 
     $exact = @($candidates | Where-Object { $_.Distance -eq $DesiredDistance } | Sort-Object @{ Expression = { -$_.ValuePerCargo } }, System | Select-Object -First 1)
     if($exact.Count -gt 0) {
@@ -1457,8 +1489,14 @@ function Format-MinableComposition {
     return ($parts -join "; ")
 }
 
+$companyPlanetAssignmentCache = @{}
+
 function Get-CompanyPlanetAssignments {
     param([string]$PlanetName)
+
+    if($companyPlanetAssignmentCache.ContainsKey($PlanetName)) {
+        return $companyPlanetAssignmentCache[$PlanetName]
+    }
 
     $hqSystem = $systemsByPlanet[$PlanetName].Name
     $hqSystemData = $systemsByName[$hqSystem]
@@ -1468,7 +1506,7 @@ function Get-CompanyPlanetAssignments {
     $miningDeep = Find-MiningClaimTarget $PlanetName 2 @($miningLocal.System, $miningRegional.System)
     $miningFrontier = Find-MiningClaimTarget $PlanetName 3 @($miningLocal.System, $miningRegional.System, $miningDeep.System)
 
-    return [pscustomobject]@{
+    $assignments = [pscustomobject]@{
         HqSystem = $hqSystem
         HqSystemData = $hqSystemData
         MiningLocal = $miningLocal
@@ -1489,6 +1527,8 @@ function Get-CompanyPlanetAssignments {
         SecurityLong = Find-SecurityRouteTarget $PlanetName 3
         SecurityFrontier = Find-SecurityRouteTarget $PlanetName 4
     }
+    $companyPlanetAssignmentCache[$PlanetName] = $assignments
+    return $assignments
 }
 
 function Add-HQLocalDivisionOfferActions {
@@ -2144,9 +2184,10 @@ function Add-StationBuildLabels {
         Add-Line "				`"cf: reserve`" -= $($companyStationCore.Cost)"
         Add-Line "				set `"cf: station orbital office`""
         Add-Line "				set `"cf: hq station built`""
+        Add-ClearAllHQConditions "				"
+        Add-ClearAllCompanyStationSystemConditions "				"
         Add-ConditionLine "set" "cf: hq: $companyStationPlanetName" "				"
         Add-ConditionLine "set" "cf: hq station system: $systemName" "				"
-        Add-Line "				set `"cf: at hq`""
         Add-Line "				`"reputation: $companyGovernmentName`" >?= 1000"
         Add-Line "				`"cf: station count`" ++"
         Add-Line "				`"cf: station value`" += $($companyStationCore.Cost)"
@@ -2320,7 +2361,6 @@ function Add-CompanySellActions {
     Add-Line "${Indent}clear `"cf: manager salary checked`""
     Add-Line "${Indent}clear `"cf: autopay`""
     Add-Line "${Indent}clear `"cf: hq suspended`""
-    Add-Line "${Indent}clear `"cf: at hq`""
     Add-Line "${Indent}clear `"cf: station orbital office`""
     Add-Line "${Indent}clear `"cf: station logistics hub`""
     Add-Line "${Indent}clear `"cf: station industrial dock`""
@@ -2533,6 +2573,352 @@ foreach($ship in $autoSecurityShips) {
     $securityShipTypes = Add-UniqueRoleShip $securityShipTypes $ship
 }
 $securityShipTypes = @($securityShipTypes | Sort-Object Cost, Name)
+
+$companyFleetDefinitions = @(
+    [pscustomobject]@{
+        Name = "Company Foundations Shuttle Flight Small"
+        Cargo = 0
+        Personality = @("confusion 20", "timid")
+        Variants = @(
+            [pscustomobject]@{ Weight = 8; Ships = @([pscustomobject]@{ Name = "Shuttle"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Heavy Shuttle"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Bounder"; Count = 1 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Shuttle Flight Medium"
+        Cargo = 0
+        Personality = @("confusion 20", "timid")
+        Variants = @(
+            [pscustomobject]@{ Weight = 5; Ships = @([pscustomobject]@{ Name = "Heavy Shuttle"; Count = 1 }, [pscustomobject]@{ Name = "Shuttle"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Bounder"; Count = 1 }, [pscustomobject]@{ Name = "Shuttle"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Blackbird"; Count = 1 }, [pscustomobject]@{ Name = "Heavy Shuttle"; Count = 1 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Shuttle Flight Large"
+        Cargo = 0
+        Personality = @("confusion 15", "timid")
+        Variants = @(
+            [pscustomobject]@{ Weight = 4; Ships = @([pscustomobject]@{ Name = "Blackbird"; Count = 1 }, [pscustomobject]@{ Name = "Bounder"; Count = 2 }, [pscustomobject]@{ Name = "Heavy Shuttle"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 2; Ships = @([pscustomobject]@{ Name = "Hogshead"; Count = 1 }, [pscustomobject]@{ Name = "Bounder"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Star Queen"; Count = 1 }, [pscustomobject]@{ Name = "Blackbird"; Count = 1 }, [pscustomobject]@{ Name = "Shuttle"; Count = 2 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Mining Convoy Small"
+        Cargo = 0
+        Personality = @("confusion 20", "timid mining harvests")
+        Variants = @(
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Sunder"; Count = 1 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Mining Convoy Medium"
+        Cargo = 0
+        Personality = @("confusion 20", "timid mining harvests")
+        Variants = @(
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Sunder"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Mule"; Count = 1 }, [pscustomobject]@{ Name = "Sunder"; Count = 1 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Mining Convoy Large"
+        Cargo = 0
+        Personality = @("confusion 15", "timid mining harvests")
+        Variants = @(
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Mule"; Count = 1 }, [pscustomobject]@{ Name = "Sunder"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Mule"; Count = 2 }, [pscustomobject]@{ Name = "Sunder"; Count = 3 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Trading Convoy Small"
+        Cargo = 3
+        Personality = @("confusion 20", "timid frugal")
+        Variants = @(
+            [pscustomobject]@{ Weight = 6; Ships = @([pscustomobject]@{ Name = "Star Barge"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Freighter"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Hauler"; Count = 1 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Trading Convoy Medium"
+        Cargo = 3
+        Personality = @("confusion 20", "timid frugal")
+        Variants = @(
+            [pscustomobject]@{ Weight = 4; Ships = @([pscustomobject]@{ Name = "Freighter"; Count = 2 }, [pscustomobject]@{ Name = "Star Barge"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 2; Ships = @([pscustomobject]@{ Name = "Hauler"; Count = 1 }, [pscustomobject]@{ Name = "Freighter"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Mule"; Count = 1 }, [pscustomobject]@{ Name = "Star Barge"; Count = 1 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Trading Convoy Large"
+        Cargo = 3
+        Personality = @("confusion 15", "timid frugal")
+        Variants = @(
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Behemoth"; Count = 1 }, [pscustomobject]@{ Name = "Freighter"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 2; Ships = @([pscustomobject]@{ Name = "Bulk Freighter"; Count = 1 }, [pscustomobject]@{ Name = "Hauler"; Count = 1 }, [pscustomobject]@{ Name = "Star Barge"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Behemoth"; Count = 2 }, [pscustomobject]@{ Name = "Mule"; Count = 1 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Security Patrol Small"
+        Cargo = 0
+        Personality = @("confusion 10", "heroic")
+        Variants = @(
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Manta"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Hawk"; Count = 2 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Security Patrol Medium"
+        Cargo = 0
+        Personality = @("confusion 8", "heroic")
+        Variants = @(
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Splinter"; Count = 1 }, [pscustomobject]@{ Name = "Hawk"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 2; Ships = @([pscustomobject]@{ Name = "Manta"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Vanguard"; Count = 1 }, [pscustomobject]@{ Name = "Hawk"; Count = 1 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Security Patrol Large"
+        Cargo = 0
+        Personality = @("confusion 5", "heroic")
+        Variants = @(
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Vanguard"; Count = 1 }, [pscustomobject]@{ Name = "Manta"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 2; Ships = @([pscustomobject]@{ Name = "Leviathan"; Count = 1 }, [pscustomobject]@{ Name = "Splinter"; Count = 1 }, [pscustomobject]@{ Name = "Hawk"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Falcon"; Count = 1 }, [pscustomobject]@{ Name = "Vanguard"; Count = 1 }, [pscustomobject]@{ Name = "Manta"; Count = 2 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Admiral Group Small"
+        Cargo = 0
+        Personality = @("confusion 5", "heroic staying")
+        Variants = @(
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Manta"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Splinter"; Count = 1 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Admiral Group Medium"
+        Cargo = 0
+        Personality = @("confusion 4", "heroic staying")
+        Variants = @(
+            [pscustomobject]@{ Weight = 3; Ships = @([pscustomobject]@{ Name = "Vanguard"; Count = 1 }, [pscustomobject]@{ Name = "Manta"; Count = 1 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Leviathan"; Count = 1 }, [pscustomobject]@{ Name = "Hawk"; Count = 2 }) }
+        )
+    },
+    [pscustomobject]@{
+        Name = "Company Foundations Admiral Group Large"
+        Cargo = 0
+        Personality = @("confusion 3", "heroic staying")
+        Variants = @(
+            [pscustomobject]@{ Weight = 2; Ships = @([pscustomobject]@{ Name = "Leviathan"; Count = 1 }, [pscustomobject]@{ Name = "Vanguard"; Count = 1 }, [pscustomobject]@{ Name = "Manta"; Count = 2 }) },
+            [pscustomobject]@{ Weight = 1; Ships = @([pscustomobject]@{ Name = "Falcon"; Count = 1 }, [pscustomobject]@{ Name = "Leviathan"; Count = 1 }, [pscustomobject]@{ Name = "Splinter"; Count = 2 }, [pscustomobject]@{ Name = "Hawk"; Count = 2 }) }
+        )
+    }
+)
+
+$companyFleetNames = @{
+    Shuttle = @{
+        Small = "Company Foundations Shuttle Flight Small"
+        Medium = "Company Foundations Shuttle Flight Medium"
+        Large = "Company Foundations Shuttle Flight Large"
+    }
+    Mining = @{
+        Small = "Company Foundations Mining Convoy Small"
+        Medium = "Company Foundations Mining Convoy Medium"
+        Large = "Company Foundations Mining Convoy Large"
+    }
+    Trading = @{
+        Small = "Company Foundations Trading Convoy Small"
+        Medium = "Company Foundations Trading Convoy Medium"
+        Large = "Company Foundations Trading Convoy Large"
+    }
+    Security = @{
+        Small = "Company Foundations Security Patrol Small"
+        Medium = "Company Foundations Security Patrol Medium"
+        Large = "Company Foundations Security Patrol Large"
+    }
+    Admiral = @{
+        Small = "Company Foundations Admiral Group Small"
+        Medium = "Company Foundations Admiral Group Medium"
+        Large = "Company Foundations Admiral Group Large"
+    }
+}
+
+$companyVisibleFleetTiers = @(
+    [pscustomobject]@{ Name = "Small"; Minimum = 1; Maximum = 2; HqPeriod = 2600; RoutePeriod = 3800 },
+    [pscustomobject]@{ Name = "Medium"; Minimum = 3; Maximum = 6; HqPeriod = 1900; RoutePeriod = 2800 },
+    [pscustomobject]@{ Name = "Large"; Minimum = 7; Maximum = 0; HqPeriod = 1300; RoutePeriod = 1900 }
+)
+
+function Add-CompanyFleetDefinition {
+    param([object]$Fleet)
+
+    Add-Line "fleet `"$($Fleet.Name)`""
+    Add-Line "`tgovernment `"$companyGovernmentName`""
+    Add-Line "`tnames `"civilian`""
+    Add-Line "`tcargo $($Fleet.Cargo)"
+    Add-Line "`tpersonality"
+    foreach($personalityLine in $Fleet.Personality) {
+        Add-Line "`t`t$personalityLine"
+    }
+    foreach($variant in $Fleet.Variants) {
+        Add-Line "`tvariant $($variant.Weight)"
+        foreach($ship in $variant.Ships) {
+            $countSuffix = if($ship.Count -gt 1) { " $($ship.Count)" } else { "" }
+            Add-Line ("`t`t" + (Format-ESToken $ship.Name) + $countSuffix)
+        }
+    }
+    Add-Line ""
+}
+
+$companyFleetPresenceBySystem = @{}
+
+function Add-CompanyFleetPresence {
+    param(
+        [string]$SystemName,
+        [string]$FleetName,
+        [int]$Period,
+        [string[]]$Conditions
+    )
+
+    if(-not $SystemName -or -not $systemsByName.ContainsKey($SystemName)) {
+        return
+    }
+    if(-not $companyFleetPresenceBySystem.ContainsKey($SystemName)) {
+        $companyFleetPresenceBySystem[$SystemName] = [ordered]@{}
+    }
+
+    $entryKey = "$FleetName|$Period|$($Conditions -join '|')"
+    if(-not $companyFleetPresenceBySystem[$SystemName].Contains($entryKey)) {
+        $companyFleetPresenceBySystem[$SystemName][$entryKey] = [pscustomobject]@{
+            FleetName = $FleetName
+            Period = $Period
+            Conditions = @($Conditions)
+        }
+    }
+}
+
+function Add-CompanyFleetTierPresence {
+    param(
+        [string]$SystemName,
+        [string]$Role,
+        [string]$MetricCondition,
+        [string[]]$RequiredConditions,
+        [ValidateSet("HQ", "Route")][string]$Context = "Route"
+    )
+
+    foreach($tier in $companyVisibleFleetTiers) {
+        $conditions = New-Object System.Collections.Generic.List[string]
+        foreach($condition in $RequiredConditions) {
+            $conditions.Add($condition)
+        }
+        $conditions.Add("`"$MetricCondition`" >= $($tier.Minimum)")
+        if($tier.Maximum -gt 0) {
+            $conditions.Add("`"$MetricCondition`" <= $($tier.Maximum)")
+        }
+        $period = if($Context -eq "HQ") { $tier.HqPeriod } else { $tier.RoutePeriod }
+        Add-CompanyFleetPresence $SystemName $companyFleetNames[$Role][$tier.Name] $period $conditions.ToArray()
+    }
+}
+
+function Add-CompanyHeadquartersFleetPresence {
+    param(
+        [string]$SystemName,
+        [string[]]$HeadquartersConditions
+    )
+
+    $baseConditions = @(
+        'has "cf: active"',
+        'not "cf: hq suspended"'
+    ) + $HeadquartersConditions
+
+    Add-CompanyFleetTierPresence $SystemName "Shuttle" "cf: shuttle fleet" (@($baseConditions) + 'has "cf: shuttle"') "HQ"
+    Add-CompanyFleetTierPresence $SystemName "Mining" "cf: mining fleet" (@($baseConditions) + 'has "cf: mining"') "HQ"
+    Add-CompanyFleetTierPresence $SystemName "Trading" "cf: trading fleet" (@($baseConditions) + 'has "cf: trading"') "HQ"
+    Add-CompanyFleetTierPresence $SystemName "Security" "cf: security combat rating" (@($baseConditions) + @('has "cf: security"', '"cf: security fleet" > 0')) "HQ"
+    Add-CompanyFleetTierPresence $SystemName "Admiral" "cf: admiral rating" (@($baseConditions) + @('has "cf: security admiral"', 'has "cf: admiral location: headquarters"', 'not "cf: admiral in transit"', '"cf: admiral fleet" > 0')) "HQ"
+}
+
+Set-OutputSection "company fleets.txt"
+foreach($fleet in $companyFleetDefinitions) {
+    Add-CompanyFleetDefinition $fleet
+}
+
+$companyFleetPresencePlanetIndex = 0
+foreach($planet in $eligible) {
+    $companyFleetPresencePlanetIndex++
+    if($env:CF_GENERATOR_PROFILE -and ($companyFleetPresencePlanetIndex % 25 -eq 0)) {
+        Write-Host "Fleet presence: $companyFleetPresencePlanetIndex / $($eligible.Count) headquarters"
+    }
+    $name = $planet.Name
+    $assignments = Get-CompanyPlanetAssignments $name
+    $hqCondition = "has `"cf: hq: $name`""
+    $activeHqConditions = @('has "cf: active"', 'not "cf: hq suspended"', $hqCondition)
+
+    Add-CompanyHeadquartersFleetPresence $assignments.HqSystem @($hqCondition)
+
+    $routePresencePlans = @(
+        [pscustomobject]@{ Role = "Shuttle"; Routes = $shuttleRouteTypes; Targets = @{ local = $assignments.ShuttleLocal; regional = $assignments.ShuttleRegional; long = $assignments.ShuttleLong; frontier = $assignments.ShuttleFrontier }; MetricSuffix = "ships" },
+        [pscustomobject]@{ Role = "Mining"; Routes = $miningClaimTypes; Targets = @{ local = $assignments.MiningLocal; regional = $assignments.MiningRegional; deep = $assignments.MiningDeep; frontier = $assignments.MiningFrontier }; MetricSuffix = "ships" },
+        [pscustomobject]@{ Role = "Trading"; Routes = $tradingRouteTypes; Targets = @{ local = $assignments.TradingLocal; regional = $assignments.TradingRegional; long = $assignments.TradingLong; frontier = $assignments.TradingFrontier }; MetricSuffix = "ships" },
+        [pscustomobject]@{ Role = "Security"; Routes = $securityContractTypes; Targets = @{ local = $assignments.SecurityLocal; regional = $assignments.SecurityRegional; long = $assignments.SecurityLong; frontier = $assignments.SecurityFrontier }; MetricSuffix = "rating" }
+    )
+
+    foreach($plan in $routePresencePlans) {
+        foreach($route in $plan.Routes) {
+            $target = $plan.Targets[$route.Prefix]
+            if($null -eq $target -or -not $target.System -or $target.System -eq $assignments.HqSystem) {
+                continue
+            }
+            $roleKey = $plan.Role.ToLowerInvariant()
+            $shipCountCondition = "cf: $roleKey $($route.Prefix) ships"
+            $metricCondition = "cf: $roleKey $($route.Prefix) $($plan.MetricSuffix)"
+            $routeConditions = @($activeHqConditions) + @(
+                "has `"$($route.Required)`"",
+                "`"$shipCountCondition`" > 0"
+            )
+            Add-CompanyFleetTierPresence $target.System $plan.Role $metricCondition $routeConditions "Route"
+        }
+    }
+
+    $admiralConditions = @(
+        'has "cf: active"',
+        'has "cf: security admiral"',
+        "has `"cf: admiral location: $name`"",
+        'not "cf: admiral in transit"',
+        '"cf: admiral fleet" > 0'
+    )
+    Add-CompanyFleetTierPresence $assignments.HqSystem "Admiral" "cf: admiral rating" $admiralConditions "HQ"
+}
+
+if($env:CF_GENERATOR_PROFILE) {
+    Write-Host "Fleet presence: route and headquarters assignments complete"
+}
+
+foreach($system in $companyStationSystems) {
+    Add-CompanyHeadquartersFleetPresence $system.Name @(
+        'has "cf: hq: Company Headquarters"',
+        "has `"cf: hq station system: $($system.Name)`""
+    )
+}
+
+Set-OutputSection "company fleet presence.txt"
+foreach($systemName in @($companyFleetPresenceBySystem.Keys | Sort-Object)) {
+    Add-Line "system $(Format-ESToken $systemName)"
+    foreach($entry in @($companyFleetPresenceBySystem[$systemName].Values | Sort-Object FleetName, Period)) {
+        Add-Line "`tadd fleet `"$($entry.FleetName)`" $($entry.Period)"
+        Add-Line "`t`tto spawn"
+        foreach($condition in $entry.Conditions) {
+            Add-Line "`t`t`t$condition"
+        }
+    }
+    Add-Line ""
+}
+
+Set-OutputSection "company core.txt"
 
 function Add-MiningClaimAccountingLines {
     param(
@@ -3070,6 +3456,10 @@ function Add-SecurityAdmiralLabel {
         Add-ClearAllAdmiralLocationConditions "				"
         Add-ClearAllAdmiralDestinationConditions "				"
         Add-ConditionLine "set" "cf: admiral location: $BasePlanet" "				"
+    } else {
+        Add-ClearAllAdmiralLocationConditions "				"
+        Add-ClearAllAdmiralDestinationConditions "				"
+        Add-ConditionLine "set" "cf: admiral location: headquarters" "				"
     }
     Add-Line "				clear `"cf: admiral in transit`""
     Add-Line "				`"cf: admiral travel days`" = 0"
@@ -4333,7 +4723,6 @@ foreach($planet in $eligible) {
     Add-Line "				set `"cf: manual`""
     Add-Line "				set `"cf: manual pending`""
     Add-Line "				set $hqCondition"
-    Add-Line "				set `"cf: at hq`""
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				set `"cf: operations accounting v3`""
@@ -4366,7 +4755,6 @@ foreach($planet in $eligible) {
     Add-Line "				set `"cf: manual`""
     Add-Line "				set `"cf: manual pending`""
     Add-Line "				set $hqCondition"
-    Add-Line "				set `"cf: at hq`""
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				set `"cf: operations accounting v3`""
@@ -4401,7 +4789,6 @@ foreach($planet in $eligible) {
     Add-Line "				set `"cf: manual`""
     Add-Line "				set `"cf: manual pending`""
     Add-Line "				set $hqCondition"
-    Add-Line "				set `"cf: at hq`""
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				set `"cf: operations accounting v3`""
@@ -4438,7 +4825,6 @@ foreach($planet in $eligible) {
     Add-Line "				set `"cf: manual`""
     Add-Line "				set `"cf: manual pending`""
     Add-Line "				set $hqCondition"
-    Add-Line "				set `"cf: at hq`""
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				set `"cf: operations accounting v3`""
@@ -4589,10 +4975,10 @@ foreach($planet in $eligible) {
 
 Set-OutputSection "company hq.txt"
 Add-GenericCompanyBoardMission
-Set-OutputSection "company hq presence.txt"
-$stationAtHqName = Format-ESMissionName "Company Foundations: Mark At Headquarters: $companyStationPlanetName"
-Add-Line "mission $stationAtHqName"
-Add-Line "	name `"At Company Headquarters`""
+Set-OutputSection "company station access.txt"
+$stationAccessMissionName = Format-ESMissionName "Company Foundations: Ensure Headquarters Station Access"
+Add-Line "mission $stationAccessMissionName"
+Add-Line "	name `"Company Headquarters Station Access`""
 Add-Line "	invisible"
 Add-Line "	landing"
 Add-Line "	repeat"
@@ -4600,53 +4986,10 @@ Add-Line "	source `"$companyStationPlanetName`""
 Add-Line "	to offer"
 Add-Line "		has `"cf: active`""
 Add-Line "		has `"cf: hq station built`""
-Add-Line "		not `"cf: at hq`""
+Add-Line "		`"reputation: $companyGovernmentName`" < 1000"
 Add-Line "	on offer"
-Add-Line "		set `"cf: at hq`""
 Add-Line "		`"reputation: $companyGovernmentName`" >?= 1000"
 Add-Line ""
-foreach($planet in $eligible) {
-    $name = $planet.Name
-    $planetToken = Format-ESToken $name
-    $hqCondition = Format-ESMissionName "cf: hq: $name"
-    $atHqName = Format-ESMissionName "Company Foundations: Mark At Headquarters: $name"
-
-    Add-Line "mission $atHqName"
-    Add-Line "	name `"At Company Headquarters`""
-    Add-Line "	invisible"
-    Add-Line "	landing"
-    Add-Line "	repeat"
-    Add-Line "	source $planetToken"
-    Add-Line "	to offer"
-    Add-Line "		has `"cf: active`""
-    Add-Line "		not `"cf: hq station built`""
-    Add-Line "		has $hqCondition"
-    Add-Line "		not `"cf: at hq`""
-    Add-Line "	on offer"
-    Add-Line "		set `"cf: at hq`""
-    Add-Line ""
-}
-
-foreach($planet in @($planets | Where-Object { $_.HasSpaceport -and $systemsByPlanet.ContainsKey($_.Name) } | Sort-Object Name)) {
-    $name = $planet.Name
-    $planetToken = Format-ESToken $name
-    $hqCondition = Format-ESMissionName "cf: hq: $name"
-    $awayName = Format-ESMissionName "Company Foundations: Mark Away From Headquarters: $name"
-
-    Add-Line "mission $awayName"
-    Add-Line "	name `"Away From Company Headquarters`""
-    Add-Line "	invisible"
-    Add-Line "	landing"
-    Add-Line "	repeat"
-    Add-Line "	source $planetToken"
-    Add-Line "	to offer"
-    Add-Line "		has `"cf: active`""
-    Add-Line "		not $hqCondition"
-    Add-Line "		has `"cf: at hq`""
-    Add-Line "	on offer"
-    Add-Line "		clear `"cf: at hq`""
-    Add-Line ""
-}
 Set-OutputSection "__discard"
 foreach($planet in $eligible) {
     Set-OutputSection "__discard"
@@ -5754,7 +6097,6 @@ foreach($planet in $eligible) {
     Add-Line "				`"cf: total relocation costs`" += 500000"
     Add-ClearAllHQConditions "				"
     Add-Line "				set $hqCondition"
-    Add-Line "				set `"cf: at hq`""
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				clear `"cf: hq suspended`""

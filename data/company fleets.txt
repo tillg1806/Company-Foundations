@@ -1,0 +1,228 @@
+# Company Foundations
+
+fleet "Company Foundations Shuttle Flight Small"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 20
+		timid
+	variant 8
+		Shuttle
+	variant 3
+		"Heavy Shuttle"
+	variant 1
+		Bounder
+
+fleet "Company Foundations Shuttle Flight Medium"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 20
+		timid
+	variant 5
+		"Heavy Shuttle"
+		Shuttle
+	variant 3
+		Bounder
+		Shuttle 2
+	variant 1
+		Blackbird
+		"Heavy Shuttle"
+
+fleet "Company Foundations Shuttle Flight Large"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 15
+		timid
+	variant 4
+		Blackbird
+		Bounder 2
+		"Heavy Shuttle"
+	variant 2
+		Hogshead
+		Bounder 2
+	variant 1
+		"Star Queen"
+		Blackbird
+		Shuttle 2
+
+fleet "Company Foundations Mining Convoy Small"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 20
+		timid mining harvests
+	variant 1
+		Sunder
+
+fleet "Company Foundations Mining Convoy Medium"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 20
+		timid mining harvests
+	variant 3
+		Sunder 2
+	variant 1
+		Mule
+		Sunder
+
+fleet "Company Foundations Mining Convoy Large"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 15
+		timid mining harvests
+	variant 3
+		Mule
+		Sunder 2
+	variant 1
+		Mule 2
+		Sunder 3
+
+fleet "Company Foundations Trading Convoy Small"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 3
+	personality
+		confusion 20
+		timid frugal
+	variant 6
+		"Star Barge"
+	variant 3
+		Freighter
+	variant 1
+		Hauler
+
+fleet "Company Foundations Trading Convoy Medium"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 3
+	personality
+		confusion 20
+		timid frugal
+	variant 4
+		Freighter 2
+		"Star Barge"
+	variant 2
+		Hauler
+		Freighter
+	variant 1
+		Mule
+		"Star Barge"
+
+fleet "Company Foundations Trading Convoy Large"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 3
+	personality
+		confusion 15
+		timid frugal
+	variant 3
+		Behemoth
+		Freighter 2
+	variant 2
+		"Bulk Freighter"
+		Hauler
+		"Star Barge"
+	variant 1
+		Behemoth 2
+		Mule
+
+fleet "Company Foundations Security Patrol Small"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 10
+		heroic
+	variant 3
+		Manta
+	variant 1
+		Hawk 2
+
+fleet "Company Foundations Security Patrol Medium"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 8
+		heroic
+	variant 3
+		Splinter
+		Hawk 2
+	variant 2
+		Manta 2
+	variant 1
+		Vanguard
+		Hawk
+
+fleet "Company Foundations Security Patrol Large"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 5
+		heroic
+	variant 3
+		Vanguard
+		Manta 2
+	variant 2
+		Leviathan
+		Splinter
+		Hawk 2
+	variant 1
+		Falcon
+		Vanguard
+		Manta 2
+
+fleet "Company Foundations Admiral Group Small"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 5
+		heroic staying
+	variant 3
+		Manta
+	variant 1
+		Splinter
+
+fleet "Company Foundations Admiral Group Medium"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 4
+		heroic staying
+	variant 3
+		Vanguard
+		Manta
+	variant 1
+		Leviathan
+		Hawk 2
+
+fleet "Company Foundations Admiral Group Large"
+	government "Company Foundations Player Company"
+	names "civilian"
+	cargo 0
+	personality
+		confusion 3
+		heroic staying
+	variant 2
+		Leviathan
+		Vanguard
+		Manta 2
+	variant 1
+		Falcon
+		Leviathan
+		Splinter 2
+		Hawk 2
+

@@ -1,6 +1,7 @@
 param(
 	[string] $HqPath = "data/company hq.txt",
-	[string] $PresencePath = "data/company hq presence.txt",
+	[Alias("PresencePath")]
+	[string] $StationAccessPath = "data/company station access.txt",
 	[string] $StationsPath = "data/company stations.txt"
 )
 
@@ -81,7 +82,6 @@ function Add-BuildStationLabels {
 		$Out.Add("				set `"cf: hq station built`"")
 		$Out.Add("				set `"cf: hq: $companyStationPlanetName`"")
 		$Out.Add("				set `"cf: hq station system: $systemName`"")
-		$Out.Add("				set `"cf: at hq`"")
 		$Out.Add("				`"reputation: $companyGovernmentName`" >?= 1000")
 		$Out.Add("				`"cf: station count`" ++")
 		$Out.Add("				`"cf: station value`" += 5000000")
@@ -194,11 +194,11 @@ for($i = 0; $i -lt $inputLines.Count; $i++) {
 
 [System.IO.File]::WriteAllLines((Resolve-Path $HqPath), $outputLines, $utf8NoBom)
 
-$presence = [System.IO.File]::ReadAllText((Resolve-Path $PresencePath))
-if($presence -notmatch '(?m)^mission "Company Foundations: Mark At Headquarters: Company Headquarters"$') {
-	$stationPresence = @"
-mission "Company Foundations: Mark At Headquarters: Company Headquarters"
-	name "At Company Headquarters"
+$stationAccess = [System.IO.File]::ReadAllText((Resolve-Path $StationAccessPath))
+if($stationAccess -notmatch '(?m)^mission "Company Foundations: Ensure Headquarters Station Access"$') {
+	$stationAccessRepair = @"
+mission "Company Foundations: Ensure Headquarters Station Access"
+	name "Company Headquarters Station Access"
 	invisible
 	landing
 	repeat
@@ -206,14 +206,13 @@ mission "Company Foundations: Mark At Headquarters: Company Headquarters"
 	to offer
 		has "cf: active"
 		has "cf: hq station built"
-		not "cf: at hq"
+		"reputation: Company Foundations Player Company" < 1000
 	on offer
-		set "cf: at hq"
 		"reputation: Company Foundations Player Company" >?= 1000
 		fail
 
 "@
-	[System.IO.File]::WriteAllText((Resolve-Path $PresencePath), $stationPresence + $presence, $utf8NoBom)
+	[System.IO.File]::WriteAllText((Resolve-Path $StationAccessPath), $stationAccessRepair + $stationAccess, $utf8NoBom)
 }
 
 Write-Host "Patched $($stationSystems.Count) station site choices."

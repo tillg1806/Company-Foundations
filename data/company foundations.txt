@@ -2,12 +2,14 @@
 # Plugin data is split across the files listed below.
 
 # - company core.txt
+# - company fleets.txt
+# - company fleet presence.txt
 # - company stations.txt
 # - company discovery.txt
 # - company founding.txt
 # - company admiral locations.txt
 # - company hq.txt
-# - company hq presence.txt
+# - company station access.txt
 # - company manager investments.txt
 # - company access.txt
 # - company operations.txt

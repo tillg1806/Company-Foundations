@@ -47,6 +47,26 @@ relevant system or planet is known. Ship purchases only appear after you have
 visited a shipyard that sells that ship. Starter ships are also backfilled as known
 procurement channels so each company can continue buying its initial vessel type.
 
+## Visible Company Fleets
+
+The company government now produces conditional ambient traffic without requiring
+an additional homeworld. Shuttle flights, mining convoys, trading convoys, and
+security patrols can appear in the current headquarters system and at active route,
+claim, or contract endpoints. The fleet entries stop spawning automatically when a
+division is inactive, headquarters access is suspended, or the headquarters moves.
+
+Visible traffic uses three representative size tiers. One or two simulated ships
+produce small traffic, three to six produce medium traffic, and seven or more
+produce large traffic. Security patrols and admiral groups use their combat rating
+for the same tier selection. These ambient ships visualize company activity; they
+do not replace the accounting fleet, and destroying one does not remove a simulated
+company asset.
+
+The admiral group appears only at its recorded deployment system and disappears
+while in transit. Hiring an admiral through the generic headquarters board records
+the initial deployment as the current headquarters, so station-based companies are
+covered as well.
+
 ## Company Board
 
 The headquarters board now works as a structured company terminal. It tracks:

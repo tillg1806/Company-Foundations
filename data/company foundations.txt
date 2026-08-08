@@ -10,6 +10,9 @@
 # - company admiral locations.txt
 # - company hq.txt
 # - company station access.txt
+# - company ids.txt
+# - company hq presence.txt
+# - company migrations.txt
 # - company manager investments.txt
 # - company access.txt
 # - company operations.txt

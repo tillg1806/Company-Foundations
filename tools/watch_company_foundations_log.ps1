@@ -13,6 +13,30 @@ $ErrorActionPreference = "Stop"
 
 $pluginRoot = Split-Path -Parent $PSScriptRoot
 
+function Get-LocationMaps {
+    $maps = [ordered]@{
+        Headquarters = @{}
+        Stations = @{}
+        AdmiralHeadquartersId = 0
+    }
+    $mapPath = Join-Path $pluginRoot "data\company ids.txt"
+    if(-not (Test-Path -LiteralPath $mapPath -PathType Leaf)) {
+        return $maps
+    }
+    foreach($line in [System.IO.File]::ReadLines($mapPath)) {
+        if($line -match '^# hq (?<id>\d+)\t(?<name>.+)$') {
+            $maps.Headquarters[[long]$Matches['id']] = $Matches['name']
+        } elseif($line -match '^# station (?<id>\d+)\t(?<name>.+)$') {
+            $maps.Stations[[long]$Matches['id']] = $Matches['name']
+        } elseif($line -match '^# admiral headquarters (?<id>\d+)$') {
+            $maps.AdmiralHeadquartersId = [long]$Matches['id']
+        }
+    }
+    return $maps
+}
+
+$locationMaps = Get-LocationMaps
+
 function Get-DefaultSavePath {
     $saveRoot = Join-Path $env:APPDATA "endless-sky\saves"
     $save = Get-ChildItem -LiteralPath $saveRoot -File -Filter "*.txt" |
@@ -86,7 +110,11 @@ function Get-CompanySnapshot {
     }
 
     $trackedNames = @(
-        "cf: active", "cf: hq suspended",
+        "cf: active", "cf: hq suspended", "cf: distress open",
+        "cf: hq id", "cf: hq station system id",
+        "cf: admiral location id", "cf: admiral destination id",
+        "cf: save schema", "cf: station economics v2", "cf: hq offers v3",
+        "cf: shuttle route book v2",
         "cf: manual", "cf: managed", "cf: manual pending", "cf: manager pending",
         "cf: manual active", "cf: manager active", "cf: operations accounting v3",
         "cf: shuttle", "cf: mining", "cf: trading", "cf: security",
@@ -102,12 +130,24 @@ function Get-CompanySnapshot {
         $tracked[$name.Substring(4)] = Get-ConditionValue $conditions $name
     }
 
-    $headquarters = @($conditions.Keys | Where-Object { $_ -like "cf: hq: *" }) |
-        ForEach-Object { $_.Substring(8) }
+    $headquarters = New-Object System.Collections.Generic.List[string]
+    $hqId = Get-ConditionValue $conditions "cf: hq id"
+    if($hqId -gt 0 -and $locationMaps.Headquarters.Contains($hqId)) {
+        $headquarters.Add($locationMaps.Headquarters[$hqId])
+    } else {
+        foreach($legacyName in @($conditions.Keys | Where-Object { $_ -like "cf: hq: *" })) {
+            $headquarters.Add($legacyName.Substring(8))
+        }
+    }
+    $stationSystemId = Get-ConditionValue $conditions "cf: hq station system id"
+    if((Get-ConditionValue $conditions "cf: hq station built") -ne 0 -and $locationMaps.Stations.Contains($stationSystemId)) {
+        $headquarters.Add("Company Headquarters ($($locationMaps.Stations[$stationSystemId]))")
+    }
     $divisions = @("shuttle", "mining", "trading", "security") |
         Where-Object { (Get-ConditionValue $conditions "cf: $_") -ne 0 }
 
     $anomalies = New-Object System.Collections.Generic.List[string]
+    $risks = New-Object System.Collections.Generic.List[string]
     $isActive = (Get-ConditionValue $conditions "cf: active") -ne 0
     $isSuspended = (Get-ConditionValue $conditions "cf: hq suspended") -ne 0
     $manual = (Get-ConditionValue $conditions "cf: manual") -ne 0
@@ -135,7 +175,10 @@ function Get-CompanySnapshot {
         $anomalies.Add("Last net profit does not equal gross minus expenses.")
     }
     if((Get-ConditionValue $conditions "cf: reserve") -lt 0) {
-        $anomalies.Add("Company reserve is negative.")
+        $risks.Add("Company reserve is negative; the company is operating in distress.")
+    }
+    if((Get-ConditionValue $conditions "cf: distress open") -ne 0) {
+        $risks.Add("An operating-loss file is open.")
     }
     if((Get-ConditionValue $conditions "cf: audit schema") -ge 1) {
         $auditDay = Get-ConditionValue $conditions "cf: audit last day"
@@ -153,6 +196,7 @@ function Get-CompanySnapshot {
         divisions = @($divisions)
         activeOperations = @($activeOperations)
         state = $tracked
+        risks = @($risks)
         anomalies = @($anomalies)
     }
     if($WithAllConditions) {
@@ -178,7 +222,7 @@ function Get-SnapshotChanges {
             $changes[$key] = [ordered]@{ from = $Before[$key]; to = $After[$key] }
         }
     }
-    foreach($key in @("headquarters", "divisions", "activeOperations", "anomalies")) {
+    foreach($key in @("headquarters", "divisions", "activeOperations", "risks", "anomalies")) {
         $oldValue = $Before[$key] -join "|"
         $newValue = $After[$key] -join "|"
         if($oldValue -ne $newValue) {
@@ -245,9 +289,9 @@ do {
             $previousSnapshot = $snapshot
             $previousWriteTime = $saveInfo.LastWriteTimeUtc
 
-            $summary = "{0}: day={1}, reserve={2:N0}, net={3:N0}, divisions={4}, anomalies={5}" -f `
+            $summary = "{0}: day={1}, reserve={2:N0}, net={3:N0}, divisions={4}, risks={5}, anomalies={6}" -f `
                 $event.event, $snapshot.state['days operated'], $snapshot.state.reserve, `
-                $snapshot.state['last net profit'], ($snapshot.divisions -join ","), $snapshot.anomalies.Count
+                $snapshot.state['last net profit'], ($snapshot.divisions -join ","), $snapshot.risks.Count, $snapshot.anomalies.Count
             Write-Host $summary
         }
     } catch [System.IO.IOException] {

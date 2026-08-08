@@ -16,14 +16,16 @@ station construction; fleet-admiral deployments; pirate tribute pressure; and
 selling the company. Existing companies are migrated to the unified accounting
 model on their next landing after updating the plugin.
 
+Requires Endless Sky 0.11.2 or newer.
+
 The plugin is still a prototype: it focuses on systems, balance, and progression
 over story polish, custom artwork, or handcrafted mission arcs.
 
 ## Starting A Company
 
 Company registrars are available at eligible visited spaceports when your
-reputation allows you to land there. The current data supports 366 accessible
-visitable headquarters.
+reputation allows you to land there. The exact registrar count is generated from
+the installed Endless Sky data.
 
 Starting options:
 
@@ -43,7 +45,7 @@ Company growth is tied to exploration. Landing on a spaceport records the planet
 its system, and any local shipyards as known company suppliers.
 
 Routes, licenses, mining claims, and pirate tribute targets only appear once the
-relevant system or planet is known. Ship purchases only appear after you have
+relevant system or planet has actually been visited. Ship purchases only appear after you have
 visited a shipyard that sells that ship. Starter ships are also backfilled as known
 procurement channels so each company can continue buying its initial vessel type.
 
@@ -60,7 +62,9 @@ produce small traffic, three to six produce medium traffic, and seven or more
 produce large traffic. Security patrols and admiral groups use their combat rating
 for the same tier selection. These ambient ships visualize company activity; they
 do not replace the accounting fleet, and destroying one does not remove a simulated
-company asset.
+company asset. Corporate traffic uses uncapturable variants, and attacking it
+damages reputation with your company government; it is scenery for the accounting
+simulation, not a source of free replacement ships.
 
 The admiral group appears only at its recorded deployment system and disappears
 while in transit. Hiring an admiral through the generic headquarters board records
@@ -92,9 +96,26 @@ salary, office payroll, headquarters tax, and station upkeep is charged once per
 day; each division still keeps its own gross, expense, net, monthly, and lifetime
 ledgers.
 
-When upgrading an existing save, land once to run the invisible accounting and
-headquarters-offer migrations. Old division-specific operation missions are
-closed automatically and the company resumes in its existing management mode.
+## Updating From v0.1
+
+Close Endless Sky and back up the affected save before replacing the plugin. A
+clean replacement of the `Company Foundations` directory is recommended. The new
+package also includes an empty compatibility copy of the removed v0.1 HQ-presence
+file, so extracting it over an existing installation cannot leave those old
+missions active.
+
+After updating, load the existing pilot and land normally. Invisible, repeat-safe
+migrations convert named headquarters, station, and admiral locations to numeric
+IDs; close the old division-specific operations mission; initialize the unified
+ledger and current headquarters offers; migrate shuttle book values; and revalue
+existing station modules to the current income and upkeep model. Company reserve,
+fleet value, divisions, contracts, payout policy, manager mode, ownership, and
+historical accounting totals are preserved.
+
+The migrations can span more than one landing because later steps wait for their
+prerequisites. Completion is recorded in the game log as `Save Migration` and in
+the save as `cf: save schema = 2`. Continuing to land is safe because every step
+has its own version guard and cannot be applied twice.
 
 ## Payouts And AutoPay
 
@@ -185,7 +206,7 @@ real ship crew requirements, and route capacity is based on escort rating.
 ## Fleet Admiral
 
 Security companies can hire one fleet admiral for 300,000 company credits plus
-20,000 credits per day. The admiral commands an independent strike fleet; escort
+5,000 credits per day. The admiral commands an independent strike fleet; escort
 ships do not count toward admiral fleet rating.
 
 The admiral keeps an office at company headquarters, but the strike fleet has its
@@ -216,12 +237,12 @@ keeps the existing management mode.
 
 Companies can build simulated orbital infrastructure from company reserves:
 
-- Orbital company office: costs 5M credits, adds 3,000 credits per day, costs
+- Orbital company office: costs 5M credits, adds 5,000 credits per day, costs
   2,000 credits per day in upkeep, and reduces headquarters taxes by 500 credits
   per day.
-- Logistics outfitter deck: costs 15M credits, adds 8,500 credits per day, and
+- Logistics outfitter deck: costs 15M credits, adds 16,000 credits per day, and
   costs 6,000 credits per day in upkeep.
-- Industrial shipyard dock: costs 45M credits, adds 24,000 credits per day, and
+- Industrial shipyard dock: costs 45M credits, adds 47,000 credits per day, and
   costs 17,000 credits per day in upkeep.
 
 Station operations are included in daily accounting, monthly reports, projections,
@@ -233,6 +254,10 @@ suspended.
 An operations manager costs 250,000 credits to hire and 10,000 credits per day.
 Managers follow the current payout policy and reinvest retained company reserve
 when there is at least double the purchase cost available.
+
+The contract becomes available once projected company net reaches 12,000 credits
+per day. This keeps the salary from turning a fresh company into an automatic
+loss while leaving a small operating margin after hiring.
 
 Managers can buy routes, mining rights, licenses, ships, mining drones, shuttle
 optimization packages, specialist traders, fleet admirals, admiral ships, and
@@ -270,7 +295,9 @@ powershell -ExecutionPolicy Bypass -File .\tools\watch_company_foundations_log.p
 If `-SavePath` is omitted, the newest non-backup save is selected. Events are
 appended as JSON Lines to `logs/company-foundations.jsonl`. The watcher logs a
 baseline and each subsequent save change, including company totals, active
-divisions, the operations mission, changed fields, and accounting anomalies.
+divisions, resolved numeric headquarters locations, the operations mission,
+changed fields, business risks, and accounting anomalies. Negative reserve is
+reported as a business risk rather than a broken accounting invariant.
 Stop it with Ctrl+C. Useful diagnostic options are:
 
 - `-Once` to write one snapshot and exit.
@@ -286,3 +313,15 @@ installed Endless Sky map, market, and ship data. Planet-dependent routes,
 licenses, taxes, and migrations remain HQ-specific. Planet-independent manager
 fleet purchases are emitted once, and the former comment-only per-planet license
 catalogs are no longer shipped.
+
+Run the static verification suite from the plugin directory:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\test_company_foundations.ps1
+```
+
+Use `-Regenerate` to rebuild into a temporary directory and compare every
+generated file byte-for-byte. Use `-ParseAssets -EndlessSkyExecutable <path>`
+to include the Endless Sky asset parser. Before a release, use
+`-SaveRoot <path-to-saves>` to audit existing local Company Foundations saves for
+v0.1 location and active-mission migration coverage without modifying them.

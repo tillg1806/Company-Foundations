@@ -1,0 +1,14 @@
+name: Verify plugin
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  static:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify generated data and scripts
+        shell: pwsh
+        run: ./tools/test_company_foundations.ps1

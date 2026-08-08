@@ -18,12 +18,14 @@ mission "Company Foundations: Manager Optimize local Shuttle Route"
 		"cf: reserve" -= 3170000
 		set "cf: manager local optimized"
 		"cf: shuttle fleet" -= "cf: shuttle local ships"
+		"cf: fleet value" -= "cf: shuttle local fleet value"
 		"cf: shuttle local pax" = 48
 		"cf: shuttle local ships" = 3
 		"cf: shuttle local daily crew" = 500
 		"cf: shuttle local trip payout" = 11200
 		"cf: shuttle local trip expenses" = 666
 		"cf: shuttle fleet" += 3
+		"cf: shuttle local fleet value" = 3170000
 		"cf: fleet value" += 3170000
 		set "cf: shuttle local luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the local route with 1 Blackbird and 2 Heavy Shuttles for 3.170.000 company credits after keeping at least double the package cost in reserve.`
@@ -47,12 +49,14 @@ mission "Company Foundations: Manager Optimize regional Shuttle Route"
 		"cf: reserve" -= 5650000
 		set "cf: manager regional optimized"
 		"cf: shuttle fleet" -= "cf: shuttle regional ships"
+		"cf: fleet value" -= "cf: shuttle regional fleet value"
 		"cf: shuttle regional pax" = 79
 		"cf: shuttle regional ships" = 4
 		"cf: shuttle regional daily crew" = 600
 		"cf: shuttle regional trip payout" = 27650
 		"cf: shuttle regional trip expenses" = 900
 		"cf: shuttle fleet" += 4
+		"cf: shuttle regional fleet value" = 5650000
 		"cf: fleet value" += 5650000
 		set "cf: shuttle regional luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the regional route with 1 Blackbird and 3 Bounders for 5.650.000 company credits after keeping at least double the package cost in reserve.`
@@ -76,12 +80,14 @@ mission "Company Foundations: Manager Optimize long Shuttle Route"
 		"cf: reserve" -= 7610000
 		set "cf: manager long optimized"
 		"cf: shuttle fleet" -= "cf: shuttle long ships"
+		"cf: fleet value" -= "cf: shuttle long fleet value"
 		"cf: shuttle long pax" = 140
 		"cf: shuttle long ships" = 3
 		"cf: shuttle long daily crew" = 2400
 		"cf: shuttle long trip payout" = 98000
 		"cf: shuttle long trip expenses" = 6400
 		"cf: shuttle fleet" += 3
+		"cf: shuttle long fleet value" = 7610000
 		"cf: fleet value" += 7610000
 		set "cf: shuttle long luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the long route with 1 Hogshead and 2 Blackbirds for 7.610.000 company credits after keeping at least double the package cost in reserve.`
@@ -105,12 +111,14 @@ mission "Company Foundations: Manager Optimize frontier Shuttle Route"
 		"cf: reserve" -= 9720000
 		set "cf: manager frontier optimized"
 		"cf: shuttle fleet" -= "cf: shuttle frontier ships"
+		"cf: fleet value" -= "cf: shuttle frontier fleet value"
 		"cf: shuttle frontier pax" = 219
 		"cf: shuttle frontier ships" = 5
 		"cf: shuttle frontier daily crew" = 3900
 		"cf: shuttle frontier trip payout" = 122640
 		"cf: shuttle frontier trip expenses" = 7800
 		"cf: shuttle fleet" += 5
+		"cf: shuttle frontier fleet value" = 9720000
 		"cf: fleet value" += 9720000
 		set "cf: shuttle frontier luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the frontier route with 2 Hogsheads and 3 Bounders for 9.720.000 company credits after keeping at least double the package cost in reserve.`
@@ -133,6 +141,78 @@ mission "Company Foundations: Operations Accounting V3 Migration"
 		fail "Company Foundations: Mining Managed Operations"
 		fail "Company Foundations: Trading Managed Operations"
 		fail "Company Foundations: Security Managed Operations"
+		fail "Company Foundations: Repair Shuttle Manual Operations"
+		fail "Company Foundations: Repair Shuttle Managed Operations"
+		fail "Company Foundations: Repair Mining Manual Operations"
+		fail "Company Foundations: Repair Mining Managed Operations"
+		fail "Company Foundations: Repair Trading Manual Operations"
+		fail "Company Foundations: Repair Trading Managed Operations"
+		fail "Company Foundations: Repair Security Manual Operations"
+		fail "Company Foundations: Repair Security Managed Operations"
+		clear "Company Foundations: Shuttle Manual Operations: failed"
+		clear "Company Foundations: Shuttle Manual Operations: offered"
+		clear "Company Foundations: Shuttle Manual Operations: done"
+		clear "Company Foundations: Shuttle Manual Operations: declined"
+		clear "Company Foundations: Mining Manual Operations: failed"
+		clear "Company Foundations: Mining Manual Operations: offered"
+		clear "Company Foundations: Mining Manual Operations: done"
+		clear "Company Foundations: Mining Manual Operations: declined"
+		clear "Company Foundations: Trading Manual Operations: failed"
+		clear "Company Foundations: Trading Manual Operations: offered"
+		clear "Company Foundations: Trading Manual Operations: done"
+		clear "Company Foundations: Trading Manual Operations: declined"
+		clear "Company Foundations: Security Manual Operations: failed"
+		clear "Company Foundations: Security Manual Operations: offered"
+		clear "Company Foundations: Security Manual Operations: done"
+		clear "Company Foundations: Security Manual Operations: declined"
+		clear "Company Foundations: Shuttle Managed Operations: failed"
+		clear "Company Foundations: Shuttle Managed Operations: offered"
+		clear "Company Foundations: Shuttle Managed Operations: done"
+		clear "Company Foundations: Shuttle Managed Operations: declined"
+		clear "Company Foundations: Mining Managed Operations: failed"
+		clear "Company Foundations: Mining Managed Operations: offered"
+		clear "Company Foundations: Mining Managed Operations: done"
+		clear "Company Foundations: Mining Managed Operations: declined"
+		clear "Company Foundations: Trading Managed Operations: failed"
+		clear "Company Foundations: Trading Managed Operations: offered"
+		clear "Company Foundations: Trading Managed Operations: done"
+		clear "Company Foundations: Trading Managed Operations: declined"
+		clear "Company Foundations: Security Managed Operations: failed"
+		clear "Company Foundations: Security Managed Operations: offered"
+		clear "Company Foundations: Security Managed Operations: done"
+		clear "Company Foundations: Security Managed Operations: declined"
+		clear "Company Foundations: Repair Shuttle Manual Operations: failed"
+		clear "Company Foundations: Repair Shuttle Manual Operations: offered"
+		clear "Company Foundations: Repair Shuttle Manual Operations: done"
+		clear "Company Foundations: Repair Shuttle Manual Operations: declined"
+		clear "Company Foundations: Repair Shuttle Managed Operations: failed"
+		clear "Company Foundations: Repair Shuttle Managed Operations: offered"
+		clear "Company Foundations: Repair Shuttle Managed Operations: done"
+		clear "Company Foundations: Repair Shuttle Managed Operations: declined"
+		clear "Company Foundations: Repair Mining Manual Operations: failed"
+		clear "Company Foundations: Repair Mining Manual Operations: offered"
+		clear "Company Foundations: Repair Mining Manual Operations: done"
+		clear "Company Foundations: Repair Mining Manual Operations: declined"
+		clear "Company Foundations: Repair Mining Managed Operations: failed"
+		clear "Company Foundations: Repair Mining Managed Operations: offered"
+		clear "Company Foundations: Repair Mining Managed Operations: done"
+		clear "Company Foundations: Repair Mining Managed Operations: declined"
+		clear "Company Foundations: Repair Trading Manual Operations: failed"
+		clear "Company Foundations: Repair Trading Manual Operations: offered"
+		clear "Company Foundations: Repair Trading Manual Operations: done"
+		clear "Company Foundations: Repair Trading Manual Operations: declined"
+		clear "Company Foundations: Repair Trading Managed Operations: failed"
+		clear "Company Foundations: Repair Trading Managed Operations: offered"
+		clear "Company Foundations: Repair Trading Managed Operations: done"
+		clear "Company Foundations: Repair Trading Managed Operations: declined"
+		clear "Company Foundations: Repair Security Manual Operations: failed"
+		clear "Company Foundations: Repair Security Manual Operations: offered"
+		clear "Company Foundations: Repair Security Manual Operations: done"
+		clear "Company Foundations: Repair Security Manual Operations: declined"
+		clear "Company Foundations: Repair Security Managed Operations: failed"
+		clear "Company Foundations: Repair Security Managed Operations: offered"
+		clear "Company Foundations: Repair Security Managed Operations: done"
+		clear "Company Foundations: Repair Security Managed Operations: declined"
 		clear "Company Foundations: Company Manual Operations: failed"
 		clear "Company Foundations: Company Manual Operations: offered"
 		clear "Company Foundations: Company Manual Operations: done"
@@ -769,7 +849,7 @@ mission "Company Foundations: Company Manual Operations"
 		"cf: security day profit" += "cf: security frontier profit"
 		"cf: security contract revenue" += "cf: security frontier gross"
 		"cf: security frontier progress" -= "cf: security frontier completed" * 10
-		"cf: security admiral cost" = "cf: security admiral" * 20000
+		"cf: security admiral cost" = "cf: security admiral" * 5000
 		"cf: admiral travel days" --
 		"cf: admiral travel days" >?= 0
 		"cf: security day gross" += "cf: admiral tribute income"
@@ -1136,7 +1216,7 @@ mission "Company Foundations: Company Managed Operations"
 		"cf: security day profit" += "cf: security frontier profit"
 		"cf: security contract revenue" += "cf: security frontier gross"
 		"cf: security frontier progress" -= "cf: security frontier completed" * 10
-		"cf: security admiral cost" = "cf: security admiral" * 20000
+		"cf: security admiral cost" = "cf: security admiral" * 5000
 		"cf: admiral travel days" --
 		"cf: admiral travel days" >?= 0
 		"cf: security day gross" += "cf: admiral tribute income"

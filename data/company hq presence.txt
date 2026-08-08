@@ -1,0 +1,5 @@
+# Company Foundations
+
+# Compatibility tombstone: overwrites the v0.1 one-hot HQ presence missions during in-place updates.
+# Headquarters presence is represented by persistent numeric IDs in save schema 2.
+

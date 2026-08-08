@@ -81,9 +81,10 @@ $companyGovernmentName = "Company Foundations Player Company"
 $companyStationPlanetName = "Company Headquarters"
 $companyStationOutfitterName = "Company Station Outfitter"
 $companyStationShipyardName = "Company Station Shipyard"
+$currentSaveSchema = 2
 $companyStationCore = [pscustomobject]@{
     Cost = 5000000
-    Income = 3000
+    Income = 5000
     Crew = 12
     Payroll = 1200
     Maintenance = 800
@@ -92,7 +93,7 @@ $companyStationCore = [pscustomobject]@{
 }
 $companyStationOutfitter = [pscustomobject]@{
     Cost = 15000000
-    Income = 8500
+    Income = 16000
     Crew = 30
     Payroll = 3000
     Maintenance = 3000
@@ -100,12 +101,14 @@ $companyStationOutfitter = [pscustomobject]@{
 }
 $companyStationShipyard = [pscustomobject]@{
     Cost = 45000000
-    Income = 24000
+    Income = 47000
     Crew = 80
     Payroll = 8000
     Maintenance = 9000
     Upkeep = 17000
 }
+$managerDailySalary = 10000
+$admiralDailySalary = 5000
 
 function ConvertFrom-ESTokenLine {
     param([string]$Line)
@@ -682,7 +685,7 @@ function Add-KnownSystemRequirement {
         [string]$Indent = "						"
     )
 
-    Add-ConditionLine "has" (Get-KnownSystemCondition $System) $Indent
+    Add-ConditionLine "has" "visited system: $System" $Indent
 }
 
 function Add-KnownPlanetRequirement {
@@ -788,8 +791,8 @@ function Get-HQTaxRate {
     if($tax -lt 100) {
         return 100
     }
-    if($tax -gt 2000) {
-        return 2000
+    if($tax -gt 750) {
+        return 750
     }
     return $tax
 }
@@ -862,15 +865,26 @@ $legacyOperationMissionNames = @(
     "Company Foundations: Security Managed Operations"
 )
 
+$legacyOperationRepairMissionNames = @(
+    foreach($division in @("Shuttle", "Mining", "Trading", "Security")) {
+        foreach($mode in @("Manual", "Managed")) {
+            "Company Foundations: Repair $division $mode Operations"
+        }
+    }
+)
+
 $operationMissionNames = @(
     "Company Foundations: Company Manual Operations",
     "Company Foundations: Company Managed Operations"
 )
 
 function Add-ClearOperationsMissionStateActions {
-    param([string]$Indent = "		")
+    param(
+        [string]$Indent = "		",
+        [string[]]$MissionNames = $operationMissionNames
+    )
 
-    foreach($missionName in $operationMissionNames) {
+    foreach($missionName in $MissionNames) {
         foreach($suffix in @("failed", "offered", "done", "declined")) {
             Add-Line "${Indent}clear `"$missionName`: $suffix`""
         }
@@ -915,38 +929,28 @@ function Add-OperationStateRepairMission {
 function Add-ClearAllHQConditions {
     param([string]$Indent = "		")
 
-    foreach($candidate in $eligible) {
-        Add-ConditionLine "clear" "cf: hq: $($candidate.Name)" $Indent
-    }
-    Add-ConditionLine "clear" "cf: hq: $companyStationPlanetName" $Indent
+    Add-Line "$Indent`"cf: hq id`" = 0"
 }
 
 function Add-ClearAllCompanyStationSystemConditions {
     param([string]$Indent = "		")
 
-    foreach($system in $companyStationSystems) {
-        Add-ConditionLine "clear" "cf: hq station system: $($system.Name)" $Indent
-    }
+    Add-Line "$Indent`"cf: hq station system id`" = 0"
 }
 
 function Add-ClearAllAdmiralLocationConditions {
     param([string]$Indent = "		")
 
-    foreach($candidate in $eligible) {
-        Add-ConditionLine "clear" "cf: admiral location: $($candidate.Name)" $Indent
-    }
-    Add-ConditionLine "clear" "cf: admiral location: headquarters" $Indent
+    Add-Line "$Indent`"cf: admiral location id`" = 0"
 }
 
 function Add-ClearAllAdmiralDestinationConditions {
     param([string]$Indent = "		")
 
-    foreach($candidate in $eligible) {
-        Add-ConditionLine "clear" "cf: admiral destination: $($candidate.Name)" $Indent
-    }
+    Add-Line "$Indent`"cf: admiral destination id`" = 0"
 }
 
-$eligible = $planets |
+$allEligible = @($planets |
     Where-Object {
         $system = $systemsByPlanet[$_.Name]
         $_.HasSpaceport -and
@@ -955,7 +959,12 @@ $eligible = $planets |
         $_.Government -notlike "Wormhole*" -and
         $system.Government -notlike "Wormhole*"
     } |
-    Sort-Object Name
+    Sort-Object Name)
+
+# The public founding scope can be narrowed without changing the persistent IDs
+# used by existing saves. Until a scope policy is selected, preserve all legacy
+# headquarters as valid founding locations.
+$eligible = @($allEligible)
 
 $eligibleBySystem = @{}
 foreach($planet in $eligible) {
@@ -987,6 +996,43 @@ $companyStationSystems = @(
         } |
         Sort-Object Name
 )
+
+$hqIdByPlanet = @{}
+$hqPlanetById = @{}
+for($index = 0; $index -lt $allEligible.Count; $index++) {
+    $id = $index + 1
+    $hqIdByPlanet[$allEligible[$index].Name] = $id
+    $hqPlanetById[$id] = $allEligible[$index].Name
+}
+$admiralHeadquartersLocationId = $allEligible.Count + 1
+
+$stationSystemIdByName = @{}
+$stationSystemById = @{}
+for($index = 0; $index -lt $companyStationSystems.Count; $index++) {
+    $id = $index + 1
+    $stationSystemIdByName[$companyStationSystems[$index].Name] = $id
+    $stationSystemById[$id] = $companyStationSystems[$index].Name
+}
+
+function Get-HQConditionLine {
+    param([string]$Planet)
+    return "`"cf: hq id`" == $($hqIdByPlanet[$Planet])"
+}
+
+function Get-NotHQConditionLine {
+    param([string]$Planet)
+    return "`"cf: hq id`" != $($hqIdByPlanet[$Planet])"
+}
+
+function Get-AdmiralLocationConditionLine {
+    param([string]$Planet)
+    return "`"cf: admiral location id`" == $($hqIdByPlanet[$Planet])"
+}
+
+function Get-AdmiralDestinationConditionLine {
+    param([string]$Planet)
+    return "`"cf: admiral destination id`" == $($hqIdByPlanet[$Planet])"
+}
 
 $routeTargetCandidateCache = @{}
 
@@ -1306,7 +1352,10 @@ function Get-TradeRouteValue {
         }
     }
 
-    $baseSpread = [math]::Max(35, [math]::Round($bestSpread * 0.60))
+    # Company contracts include a handling margin on top of the public commodity
+    # spread. The floor keeps a fresh trading charter viable in high-tax ports.
+    $baseSpread = [math]::Max(100, [math]::Round($bestSpread * 0.60))
+    $bestSpread = [math]::Max($bestSpread, $baseSpread + 40)
     return [pscustomobject]@{
         Commodity = $bestCommodity
         BaseValue = [int]$baseSpread
@@ -1541,8 +1590,45 @@ function Add-HQLocalDivisionOfferActions {
     Add-Line "$Indent`"cf: hq offer trading local value`" = $($Assignments.TradingLocal.BaseValue)"
     Add-Line "$Indent`"cf: hq offer trading local optimized value`" = $($Assignments.TradingLocal.OptimizedValue)"
     Add-Line "$Indent`"cf: hq offer security local rate`" = 1000"
+    foreach($prefix in @("regional", "deep", "frontier")) {
+        $property = "Mining" + (Get-Culture).TextInfo.ToTitleCase($prefix)
+        if($Assignments.PSObject.Properties.Name -contains $property) {
+            Add-Line "$Indent`"cf: hq offer mining $prefix value`" = $($Assignments.$property.ValuePerCargo)"
+        }
+    }
+    foreach($prefix in @("regional", "long", "frontier")) {
+        $title = (Get-Culture).TextInfo.ToTitleCase($prefix)
+        $tradeProperty = "Trading$title"
+        $securityProperty = "Security$title"
+        Add-Line "$Indent`"cf: hq offer trading $prefix value`" = $($Assignments.$tradeProperty.BaseValue)"
+        Add-Line "$Indent`"cf: hq offer trading $prefix optimized value`" = $($Assignments.$tradeProperty.OptimizedValue)"
+        $securityRate = ($securityContractTypes | Where-Object Prefix -eq $prefix | Select-Object -First 1).Rate
+        Add-Line "$Indent`"cf: hq offer security $prefix rate`" = $securityRate"
+    }
     Add-Line "$Indent`"cf: audit schema`" = 1"
     Add-Line "${Indent}set `"cf: hq local offers v2`""
+    Add-Line "${Indent}set `"cf: hq offers v3`""
+}
+
+function Add-HQTargetDiscoveryRequirement {
+    param(
+        [ValidateSet("Shuttle", "Mining", "Trading", "Security")][string]$Role,
+        [ValidateSet("regional", "long", "deep", "frontier")][string]$Prefix,
+        [string]$Indent = "						"
+    )
+
+    $title = (Get-Culture).TextInfo.ToTitleCase($Prefix)
+    $property = "$Role$title"
+    Add-Line "${Indent}or"
+    foreach($planet in $eligible) {
+        $assignments = Get-CompanyPlanetAssignments $planet.Name
+        if(-not ($assignments.PSObject.Properties.Name -contains $property)) {
+            continue
+        }
+        Add-Line "${Indent}	and"
+        Add-Line "${Indent}		$(Get-HQConditionLine $planet.Name)"
+        Add-KnownSystemRequirement $assignments.$property.System "${Indent}		"
+    }
 }
 
 function Add-HQLocalDivisionStateMigrationActions {
@@ -1825,6 +1911,7 @@ function Add-ShuttleShipLabel {
     Add-Line "				`"cf: shuttle $($Route.Prefix) trip expenses`" = `"cf: shuttle $($Route.Prefix) daily crew`" * $($Route.Threshold) / `"cf: shuttle $($Route.Prefix) ships`""
     Add-Line "				`"cf: shuttle fleet`" ++"
     Add-Line "				`"cf: fleet value`" += $($Ship.Cost)"
+    Add-Line "				`"cf: shuttle $($Route.Prefix) fleet value`" += $($Ship.Cost)"
     if($Ship.Luxury) {
         Add-Line "				set `"cf: shuttle $($Route.Prefix) luxury`""
     }
@@ -1954,7 +2041,7 @@ function Add-CompanyProjectionActionLines {
     Add-Line "$Indent`"cf: projected gross`" += `"cf: admiral tribute income`""
     Add-Line "$Indent`"cf: projected gross`" += `"cf: station daily income`""
     Add-Line "$Indent`"cf: projected expenses`" += `"cf: admiral daily crew`""
-    Add-Line "$Indent`"cf: projected expenses`" += `"cf: security admiral`" * 20000"
+    Add-Line "$Indent`"cf: projected expenses`" += `"cf: security admiral`" * $admiralDailySalary"
     Add-Line "$Indent`"cf: projected expenses`" += `"cf: managed`" * 10000"
     Add-Line "$Indent`"cf: projected expenses`" += `"cf: station daily upkeep`""
     Add-Line "$Indent`"cf: projected expenses`" += `"cf: office daily cost`""
@@ -2005,7 +2092,7 @@ function Add-DivisionProjectionActionLines {
     }
     Add-Line "$Indent`"cf: security projected gross`" += `"cf: admiral tribute income`""
     Add-Line "$Indent`"cf: security projected expenses`" += `"cf: admiral daily crew`""
-    Add-Line "$Indent`"cf: security projected expenses`" += `"cf: security admiral`" * 20000"
+    Add-Line "$Indent`"cf: security projected expenses`" += `"cf: security admiral`" * $admiralDailySalary"
     Add-Line "$Indent`"cf: security projected net`" = `"cf: security projected gross`" - `"cf: security projected expenses`""
 }
 
@@ -2171,6 +2258,7 @@ function Add-StationSiteChoices {
         Add-Line "						not `"cf: hq suspended`""
         Add-Line "						not `"cf: station orbital office`""
         Add-Line "						`"cf: reserve`" >= $($companyStationCore.Cost)"
+        Add-KnownSystemRequirement $systemName "						"
         Add-Line "					goto `"confirm build station in $systemName`""
     }
 }
@@ -2183,11 +2271,10 @@ function Add-StationBuildLabels {
         Add-Line "			action"
         Add-Line "				`"cf: reserve`" -= $($companyStationCore.Cost)"
         Add-Line "				set `"cf: station orbital office`""
+        Add-Line "				set `"cf: station economics v2`""
         Add-Line "				set `"cf: hq station built`""
-        Add-ClearAllHQConditions "				"
         Add-ClearAllCompanyStationSystemConditions "				"
-        Add-ConditionLine "set" "cf: hq: $companyStationPlanetName" "				"
-        Add-ConditionLine "set" "cf: hq station system: $systemName" "				"
+        Add-Line "				`"cf: hq station system id`" = $($stationSystemIdByName[$systemName])"
         Add-Line "				`"reputation: $companyGovernmentName`" >?= 1000"
         Add-Line "				`"cf: station count`" ++"
         Add-Line "				`"cf: station value`" += $($companyStationCore.Cost)"
@@ -2244,6 +2331,7 @@ function Add-CompanySellActions {
     Add-Line "$Indent`"cf: reserve`" = 0"
     Add-Line "$Indent`"cf: owner payable`" = 0"
     Add-Line "$Indent`"cf: fleet value`" = 0"
+    Add-Line "${Indent}clear `"cf: shuttle route book v2`""
     Add-Line "$Indent`"cf: station value`" = 0"
     Add-Line "$Indent`"cf: station count`" = 0"
     Add-Line "$Indent`"cf: station crew`" = 0"
@@ -2288,6 +2376,7 @@ function Add-CompanySellActions {
     Add-Line "$Indent`"cf: shuttle route count`" = 0"
     foreach($route in $shuttleRouteTypes) {
         Add-Line "$Indent`"cf: shuttle $($route.Prefix) ships`" = 0"
+        Add-Line "$Indent`"cf: shuttle $($route.Prefix) fleet value`" = 0"
         Add-Line "$Indent`"cf: shuttle $($route.Prefix) pax`" = 0"
         Add-Line "$Indent`"cf: shuttle $($route.Prefix) daily crew`" = 0"
         Add-Line "$Indent`"cf: shuttle $($route.Prefix) trip payout`" = 0"
@@ -2348,6 +2437,7 @@ function Add-CompanySellActions {
     Add-Line "${Indent}clear `"cf: operations accounting v3`""
     Add-Line "${Indent}clear `"cf: hq local offers v1`""
     Add-Line "${Indent}clear `"cf: hq local offers v2`""
+    Add-Line "${Indent}clear `"cf: hq offers v3`""
     Add-Line "${Indent}clear `"cf: shuttle`""
     Add-Line "${Indent}clear `"cf: mining`""
     Add-Line "${Indent}clear `"cf: trading`""
@@ -2482,8 +2572,20 @@ function Add-UniqueRoleShip {
     return @($Ships + $Ship)
 }
 
+$discoverableShipNames = New-Object System.Collections.Generic.HashSet[string]
+foreach($planet in @($planets | Where-Object { $_.HasSpaceport })) {
+    foreach($shipyard in @($planet.Shipyards)) {
+        if($shipsByShipyard.ContainsKey($shipyard)) {
+            foreach($shipName in $shipsByShipyard[$shipyard]) {
+                [void]$discoverableShipNames.Add($shipName)
+            }
+        }
+    }
+}
+
 $autoShuttleShips = @($shipsByName.Values |
     Where-Object {
+        $discoverableShipNames.Contains($_.Name) -and
         $_.Bunks -ge 6 -and
         $_.Crew -ge 0 -and
         @("Transport", "Space Liner") -contains $_.Category
@@ -2506,6 +2608,7 @@ $shuttleShipTypes = @($shuttleShipTypes | Sort-Object Cost, Name)
 
 $autoMiningShips = @($shipsByName.Values |
     Where-Object {
+        $discoverableShipNames.Contains($_.Name) -and
         $_.Cargo -ge 40 -and
         $_.Crew -ge 0 -and
         $_.Category -eq "Utility"
@@ -2528,6 +2631,7 @@ $miningShipTypes = @($miningShipTypes | Sort-Object Cost, Name)
 
 $autoTradingShips = @($shipsByName.Values |
     Where-Object {
+        $discoverableShipNames.Contains($_.Name) -and
         $_.Cargo -ge 50 -and
         $_.Crew -ge 0 -and
         @("Light Freighter", "Heavy Freighter", "Transport", "Utility", "Space Liner") -contains $_.Category
@@ -2555,6 +2659,7 @@ $securityRatingByCategory = @{
 }
 $autoSecurityShips = @($shipsByName.Values |
     Where-Object {
+        $discoverableShipNames.Contains($_.Name) -and
         $_.Crew -ge 0 -and
         $securityRatingByCategory.ContainsKey($_.Category)
     } |
@@ -2768,7 +2873,7 @@ function Add-CompanyFleetDefinition {
         Add-Line "`tvariant $($variant.Weight)"
         foreach($ship in $variant.Ships) {
             $countSuffix = if($ship.Count -gt 1) { " $($ship.Count)" } else { "" }
-            Add-Line ("`t`t" + (Format-ESToken $ship.Name) + $countSuffix)
+            Add-Line ("`t`t" + (Format-ESToken "Company Foundations $($ship.Name)") + $countSuffix)
         }
     }
     Add-Line ""
@@ -2839,10 +2944,21 @@ function Add-CompanyHeadquartersFleetPresence {
     Add-CompanyFleetTierPresence $SystemName "Mining" "cf: mining fleet" (@($baseConditions) + 'has "cf: mining"') "HQ"
     Add-CompanyFleetTierPresence $SystemName "Trading" "cf: trading fleet" (@($baseConditions) + 'has "cf: trading"') "HQ"
     Add-CompanyFleetTierPresence $SystemName "Security" "cf: security combat rating" (@($baseConditions) + @('has "cf: security"', '"cf: security fleet" > 0')) "HQ"
-    Add-CompanyFleetTierPresence $SystemName "Admiral" "cf: admiral rating" (@($baseConditions) + @('has "cf: security admiral"', 'has "cf: admiral location: headquarters"', 'not "cf: admiral in transit"', '"cf: admiral fleet" > 0')) "HQ"
+    Add-CompanyFleetTierPresence $SystemName "Admiral" "cf: admiral rating" (@($baseConditions) + @('has "cf: security admiral"', "`"cf: admiral location id`" == $admiralHeadquartersLocationId", 'not "cf: admiral in transit"', '"cf: admiral fleet" > 0')) "HQ"
 }
 
 Set-OutputSection "company fleets.txt"
+$companyFleetShipNames = @($companyFleetDefinitions |
+    ForEach-Object { $_.Variants } |
+    ForEach-Object { $_.Ships } |
+    ForEach-Object { $_.Name } |
+    Sort-Object -Unique)
+foreach($shipName in $companyFleetShipNames) {
+    Add-Line "ship $(Format-ESToken $shipName) $(Format-ESToken "Company Foundations $shipName")"
+    Add-Line "`t`"display name`" $(Format-ESToken $shipName)"
+    Add-Line "`t`"uncapturable`""
+    Add-Line ""
+}
 foreach($fleet in $companyFleetDefinitions) {
     Add-CompanyFleetDefinition $fleet
 }
@@ -2855,10 +2971,10 @@ foreach($planet in $eligible) {
     }
     $name = $planet.Name
     $assignments = Get-CompanyPlanetAssignments $name
-    $hqCondition = "has `"cf: hq: $name`""
+    $hqCondition = Get-HQConditionLine $name
     $activeHqConditions = @('has "cf: active"', 'not "cf: hq suspended"', $hqCondition)
 
-    Add-CompanyHeadquartersFleetPresence $assignments.HqSystem @($hqCondition)
+    Add-CompanyHeadquartersFleetPresence $assignments.HqSystem @($hqCondition, 'not "cf: hq station built"')
 
     $routePresencePlans = @(
         [pscustomobject]@{ Role = "Shuttle"; Routes = $shuttleRouteTypes; Targets = @{ local = $assignments.ShuttleLocal; regional = $assignments.ShuttleRegional; long = $assignments.ShuttleLong; frontier = $assignments.ShuttleFrontier }; MetricSuffix = "ships" },
@@ -2887,7 +3003,7 @@ foreach($planet in $eligible) {
     $admiralConditions = @(
         'has "cf: active"',
         'has "cf: security admiral"',
-        "has `"cf: admiral location: $name`"",
+        (Get-AdmiralLocationConditionLine $name),
         'not "cf: admiral in transit"',
         '"cf: admiral fleet" > 0'
     )
@@ -2900,8 +3016,8 @@ if($env:CF_GENERATOR_PROFILE) {
 
 foreach($system in $companyStationSystems) {
     Add-CompanyHeadquartersFleetPresence $system.Name @(
-        'has "cf: hq: Company Headquarters"',
-        "has `"cf: hq station system: $($system.Name)`""
+        'has "cf: hq station built"',
+        "`"cf: hq station system id`" == $($stationSystemIdByName[$system.Name])"
     )
 }
 
@@ -3239,7 +3355,7 @@ function Add-SecurityDailyAccountingLines {
     foreach($contract in $securityContractTypes) {
         Add-SecurityContractAccountingLines $contract.Prefix $contract.Threshold
     }
-    Add-Line "		`"cf: security admiral cost`" = `"cf: security admiral`" * 20000"
+    Add-Line "		`"cf: security admiral cost`" = `"cf: security admiral`" * $admiralDailySalary"
     Add-Line "		`"cf: admiral travel days`" --"
     Add-Line "		`"cf: admiral travel days`" >?= 0"
     Add-Line "		`"cf: security day gross`" += `"cf: admiral tribute income`""
@@ -3328,7 +3444,7 @@ function Add-CompanyDailyAccountingLines {
     foreach($contract in $securityContractTypes) {
         Add-SecurityContractAccountingLines $contract.Prefix $contract.Threshold
     }
-    Add-Line "		`"cf: security admiral cost`" = `"cf: security admiral`" * 20000"
+    Add-Line "		`"cf: security admiral cost`" = `"cf: security admiral`" * $admiralDailySalary"
     Add-Line "		`"cf: admiral travel days`" --"
     Add-Line "		`"cf: admiral travel days`" >?= 0"
     Add-Line "		`"cf: security day gross`" += `"cf: admiral tribute income`""
@@ -3436,7 +3552,7 @@ function Add-SecurityShipLabel {
 }
 
 function Add-SecurityAdmiralChoice {
-    Add-Line "				``	Hire a fleet admiral for 300,000 company credits plus 20,000 credits per day.``"
+    Add-Line "				``	Hire a fleet admiral for 300,000 company credits plus $($admiralDailySalary.ToString('N0')) credits per day.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: security`""
     Add-Line "						not `"cf: security admiral`""
@@ -3447,7 +3563,7 @@ function Add-SecurityAdmiralChoice {
 function Add-SecurityAdmiralLabel {
     param([string]$BasePlanet = "")
 
-    Add-ConfirmationLabel "confirm hire security admiral" "hire security admiral" "Hire a fleet admiral for 300,000 company credits plus 20,000 credits per day?" "Hire admiral."
+    Add-ConfirmationLabel "confirm hire security admiral" "hire security admiral" "Hire a fleet admiral for 300,000 company credits plus $($admiralDailySalary.ToString('N0')) credits per day?" "Hire admiral."
     Add-Line "			label `"hire security admiral`""
     Add-Line "			action"
     Add-Line "				`"cf: reserve`" -= 300000"
@@ -3455,15 +3571,15 @@ function Add-SecurityAdmiralLabel {
     if($BasePlanet -ne "") {
         Add-ClearAllAdmiralLocationConditions "				"
         Add-ClearAllAdmiralDestinationConditions "				"
-        Add-ConditionLine "set" "cf: admiral location: $BasePlanet" "				"
+        Add-Line "				`"cf: admiral location id`" = $($hqIdByPlanet[$BasePlanet])"
     } else {
         Add-ClearAllAdmiralLocationConditions "				"
         Add-ClearAllAdmiralDestinationConditions "				"
-        Add-ConditionLine "set" "cf: admiral location: headquarters" "				"
+        Add-Line "				`"cf: admiral location id`" = $admiralHeadquartersLocationId"
     }
     Add-Line "				clear `"cf: admiral in transit`""
     Add-Line "				`"cf: admiral travel days`" = 0"
-    Add-Line "			``You hire a fleet admiral to command an independent strike fleet. The admiral keeps their office at headquarters, but the strike fleet's current operating location starts here. They cost 20,000 credits per day, and escort-route ships do not count toward the admiral's fleet rating.``"
+    Add-Line "			``You hire a fleet admiral to command an independent strike fleet. The admiral keeps their office at headquarters, but the strike fleet's current operating location starts here. They cost $($admiralDailySalary.ToString('N0')) credits per day, and escort-route ships do not count toward the admiral's fleet rating.``"
     Add-CompanyOutlookReturn
 }
 
@@ -3508,7 +3624,7 @@ function Add-AdmiralTributeChoice {
     Add-Line "						not `"cf: admiral in transit`""
     Add-Line "						`"cf: admiral travel days`" == 0"
     Add-KnownPlanetRequirement $Target.Planet
-    Add-ConditionLine "has" "cf: admiral location: $($Target.Planet)" "						"
+    Add-Line "						$(Get-AdmiralLocationConditionLine $Target.Planet)"
     Add-Line "						`"cf: admiral rating`" >= $($Target.RequiredRating)"
     Add-Line "						`"cf: reserve`" >= $($Target.OperationCost)"
     Add-Line "					goto `"confirm force tribute $($Campaign.Prefix)`""
@@ -3555,7 +3671,7 @@ function Add-ManagerRoutePurchaseMission {
     Add-Line "		has `"cf: managed`""
     Add-Line "		not `"cf: hq suspended`""
     if($HqCondition -ne "") {
-        Add-Line "		has $HqCondition"
+        Add-Line "		$HqCondition"
     }
     if($RequiredCondition -ne "") {
         Add-Line "		has `"$RequiredCondition`""
@@ -3596,12 +3712,14 @@ function Add-ManagerRouteOptimizationMission {
     Add-Line "		`"cf: reserve`" -= $($Plan.Cost)"
     Add-Line "		set `"$($Plan.Marker)`""
     Add-Line "		`"cf: shuttle fleet`" -= `"cf: shuttle $($Plan.Prefix) ships`""
+    Add-Line "		`"cf: fleet value`" -= `"cf: shuttle $($Plan.Prefix) fleet value`""
     Add-Line "		`"cf: shuttle $($Plan.Prefix) pax`" = $($Plan.Pax)"
     Add-Line "		`"cf: shuttle $($Plan.Prefix) ships`" = $($Plan.Ships)"
     Add-Line "		`"cf: shuttle $($Plan.Prefix) daily crew`" = $($Plan.DailyCrew)"
     Add-Line "		`"cf: shuttle $($Plan.Prefix) trip payout`" = $($Plan.TripPayout)"
     Add-Line "		`"cf: shuttle $($Plan.Prefix) trip expenses`" = $($Plan.TripExpenses)"
     Add-Line "		`"cf: shuttle fleet`" += $($Plan.Ships)"
+    Add-Line "		`"cf: shuttle $($Plan.Prefix) fleet value`" = $($Plan.Cost)"
     Add-Line "		`"cf: fleet value`" += $($Plan.Cost)"
     if($Plan.Luxury) {
         Add-Line "		set `"cf: shuttle $($Plan.Prefix) luxury`""
@@ -3636,7 +3754,7 @@ function Add-ManagerShuttleShipPurchaseMission {
     Add-Line "		has `"cf: managed`""
     Add-Line "		not `"cf: hq suspended`""
     if($HqCondition -ne "") {
-        Add-Line "		has $HqCondition"
+        Add-Line "		$HqCondition"
     }
     Add-Line "		has `"$($Route.Required)`""
     Add-ShipAvailabilityRequirement $Ship "		"
@@ -3651,6 +3769,7 @@ function Add-ManagerShuttleShipPurchaseMission {
     Add-Line "		`"cf: shuttle $($Route.Prefix) trip expenses`" = `"cf: shuttle $($Route.Prefix) daily crew`" * $($Route.Threshold) / `"cf: shuttle $($Route.Prefix) ships`""
     Add-Line "		`"cf: shuttle fleet`" ++"
     Add-Line "		`"cf: fleet value`" += $($Ship.Cost)"
+    Add-Line "		`"cf: shuttle $($Route.Prefix) fleet value`" += $($Ship.Cost)"
     if($Ship.Luxury) {
         Add-Line "		set `"cf: shuttle $($Route.Prefix) luxury`""
     }
@@ -3679,18 +3798,21 @@ function Add-ShuttleDivisionMenus {
     Add-Line "						has `"cf: shuttle`""
     Add-Line "						not `"cf: shuttle route regional`""
     Add-Line "						`"cf: reserve`" >= 120000"
+    Add-HQTargetDiscoveryRequirement "Shuttle" "regional"
     Add-Line "					goto `"confirm buy regional route`""
     Add-Line "				``	Buy the long shuttle route for 275,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: shuttle route regional`""
     Add-Line "						not `"cf: shuttle route long`""
     Add-Line "						`"cf: reserve`" >= 275000"
+    Add-HQTargetDiscoveryRequirement "Shuttle" "long"
     Add-Line "					goto `"confirm buy long route`""
     Add-Line "				``	Buy the frontier shuttle route for 475,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: shuttle route long`""
     Add-Line "						not `"cf: shuttle route frontier`""
     Add-Line "						`"cf: reserve`" >= 475000"
+    Add-HQTargetDiscoveryRequirement "Shuttle" "frontier"
     Add-Line "					goto `"confirm buy frontier route`""
     Add-Line "				``	Back to shuttle.``"
     Add-Line "					goto `"menu shuttle`""
@@ -3728,18 +3850,21 @@ function Add-MiningDivisionMenus {
     Add-Line "						has `"cf: mining`""
     Add-Line "						not `"cf: mining claim regional`""
     Add-Line "						`"cf: reserve`" >= 220000"
+    Add-HQTargetDiscoveryRequirement "Mining" "regional"
     Add-Line "					goto `"confirm buy regional mining claim`""
     Add-Line "				``	Buy the deep mining rights for 420,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: mining claim regional`""
     Add-Line "						not `"cf: mining claim deep`""
     Add-Line "						`"cf: reserve`" >= 420000"
+    Add-HQTargetDiscoveryRequirement "Mining" "deep"
     Add-Line "					goto `"confirm buy deep mining claim`""
     Add-Line "				``	Buy the frontier mining rights for 700,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: mining claim deep`""
     Add-Line "						not `"cf: mining claim frontier`""
     Add-Line "						`"cf: reserve`" >= 700000"
+    Add-HQTargetDiscoveryRequirement "Mining" "frontier"
     Add-Line "					goto `"confirm buy frontier mining claim`""
     Add-Line "				``	Back to mining.``"
     Add-Line "					goto `"menu mining`""
@@ -3777,18 +3902,21 @@ function Add-TradingDivisionMenus {
     Add-Line "						has `"cf: trading`""
     Add-Line "						not `"cf: trading license regional`""
     Add-Line "						`"cf: reserve`" >= 180000"
+    Add-HQTargetDiscoveryRequirement "Trading" "regional"
     Add-Line "					goto `"confirm buy regional trading license`""
     Add-Line "				``	Buy the long trading license for 400,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: trading license regional`""
     Add-Line "						not `"cf: trading license long`""
     Add-Line "						`"cf: reserve`" >= 400000"
+    Add-HQTargetDiscoveryRequirement "Trading" "long"
     Add-Line "					goto `"confirm buy long trading license`""
     Add-Line "				``	Buy the frontier trading license for 750,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: trading license long`""
     Add-Line "						not `"cf: trading license frontier`""
     Add-Line "						`"cf: reserve`" >= 750000"
+    Add-HQTargetDiscoveryRequirement "Trading" "frontier"
     Add-Line "					goto `"confirm buy frontier trading license`""
     Add-Line "				``	Back to trading.``"
     Add-Line "					goto `"menu trading`""
@@ -3828,12 +3956,14 @@ function Add-SecurityDivisionMenus {
     Add-Line "						has `"cf: security`""
     Add-Line "						not `"cf: security license regional`""
     Add-Line "						`"cf: reserve`" >= 250000"
+    Add-HQTargetDiscoveryRequirement "Security" "regional"
     Add-Line "					goto `"confirm buy regional security license`""
     Add-Line "				``	Buy the long security license for 550,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: security license regional`""
     Add-Line "						not `"cf: security license long`""
     Add-Line "						`"cf: reserve`" >= 550000"
+    Add-HQTargetDiscoveryRequirement "Security" "long"
     Add-Line "					goto `"confirm buy long security license`""
     Add-Line "				``	Buy the frontier security license for 950,000 company credits.``"
     Add-Line "					to display"
@@ -3872,11 +4002,11 @@ function Add-GenericCompanyBoardMission {
     Add-Line "				has `"flagship planet: $companyStationPlanetName`""
     foreach($planet in $eligible) {
         $name = $planet.Name
-        $hqCondition = Format-ESMissionName "cf: hq: $name"
+        $hqCondition = Get-HQConditionLine $name
         $planetCondition = Format-ESMissionName "flagship planet: $name"
         Add-Line "			and"
         Add-Line "				not `"cf: hq station built`""
-        Add-Line "				has $hqCondition"
+        Add-Line "				$hqCondition"
         Add-Line "				has $planetCondition"
     }
     Add-Line "	on offer"
@@ -4079,72 +4209,84 @@ function Add-GenericCompanyBoardMission {
     Add-Line "						has `"cf: shuttle`""
     Add-Line "						not `"cf: shuttle route regional`""
     Add-Line "						`"cf: reserve`" >= 120000"
+    Add-HQTargetDiscoveryRequirement "Shuttle" "regional"
     Add-Line "					goto `"confirm buy regional route`""
     Add-Line "				``	Buy the long shuttle route for 275,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: shuttle route regional`""
     Add-Line "						not `"cf: shuttle route long`""
     Add-Line "						`"cf: reserve`" >= 275000"
+    Add-HQTargetDiscoveryRequirement "Shuttle" "long"
     Add-Line "					goto `"confirm buy long route`""
     Add-Line "				``	Buy the frontier shuttle route for 475,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: shuttle route long`""
     Add-Line "						not `"cf: shuttle route frontier`""
     Add-Line "						`"cf: reserve`" >= 475000"
+    Add-HQTargetDiscoveryRequirement "Shuttle" "frontier"
     Add-Line "					goto `"confirm buy frontier route`""
     Add-Line "				``	Buy the regional mining rights for 220,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: mining`""
     Add-Line "						not `"cf: mining claim regional`""
     Add-Line "						`"cf: reserve`" >= 220000"
+    Add-HQTargetDiscoveryRequirement "Mining" "regional"
     Add-Line "					goto `"confirm buy regional mining claim`""
     Add-Line "				``	Buy the deep mining rights for 420,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: mining claim regional`""
     Add-Line "						not `"cf: mining claim deep`""
     Add-Line "						`"cf: reserve`" >= 420000"
+    Add-HQTargetDiscoveryRequirement "Mining" "deep"
     Add-Line "					goto `"confirm buy deep mining claim`""
     Add-Line "				``	Buy the frontier mining rights for 700,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: mining claim deep`""
     Add-Line "						not `"cf: mining claim frontier`""
     Add-Line "						`"cf: reserve`" >= 700000"
+    Add-HQTargetDiscoveryRequirement "Mining" "frontier"
     Add-Line "					goto `"confirm buy frontier mining claim`""
     Add-Line "				``	Buy the regional trading license for 180,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: trading`""
     Add-Line "						not `"cf: trading license regional`""
     Add-Line "						`"cf: reserve`" >= 180000"
+    Add-HQTargetDiscoveryRequirement "Trading" "regional"
     Add-Line "					goto `"confirm buy regional trading license`""
     Add-Line "				``	Buy the long trading license for 400,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: trading license regional`""
     Add-Line "						not `"cf: trading license long`""
     Add-Line "						`"cf: reserve`" >= 400000"
+    Add-HQTargetDiscoveryRequirement "Trading" "long"
     Add-Line "					goto `"confirm buy long trading license`""
     Add-Line "				``	Buy the frontier trading license for 750,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: trading license long`""
     Add-Line "						not `"cf: trading license frontier`""
     Add-Line "						`"cf: reserve`" >= 750000"
+    Add-HQTargetDiscoveryRequirement "Trading" "frontier"
     Add-Line "					goto `"confirm buy frontier trading license`""
     Add-Line "				``	Buy the regional security license for 250,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: security`""
     Add-Line "						not `"cf: security license regional`""
     Add-Line "						`"cf: reserve`" >= 250000"
+    Add-HQTargetDiscoveryRequirement "Security" "regional"
     Add-Line "					goto `"confirm buy regional security license`""
     Add-Line "				``	Buy the long security license for 550,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: security license regional`""
     Add-Line "						not `"cf: security license long`""
     Add-Line "						`"cf: reserve`" >= 550000"
+    Add-HQTargetDiscoveryRequirement "Security" "long"
     Add-Line "					goto `"confirm buy long security license`""
     Add-Line "				``	Buy the frontier security license for 950,000 company credits.``"
     Add-Line "					to display"
     Add-Line "						has `"cf: security license long`""
     Add-Line "						not `"cf: security license frontier`""
     Add-Line "						`"cf: reserve`" >= 950000"
+    Add-HQTargetDiscoveryRequirement "Security" "frontier"
     Add-Line "					goto `"confirm buy frontier security license`""
     Add-Line "				``	Back.``"
     Add-Line "					goto `"company main menu`""
@@ -4254,11 +4396,13 @@ function Add-GenericCompanyBoardMission {
     Add-Line "				set `"cf: shuttle`""
     Add-Line "				set `"cf: ship available: Shuttle`""
     Add-Line "				`"cf: reserve`" += 50000"
-    Add-Line "				`"cf: fleet value`" += 650000"
+    Add-Line "				`"cf: fleet value`" += 180000"
     Add-Line "				`"cf: shuttle fleet`" = 1"
     Add-Line "				`"cf: shuttle route count`" = 1"
     Add-Line "				set `"cf: shuttle route local`""
     Add-Line "				`"cf: shuttle local ships`" = 1"
+    Add-Line "				`"cf: shuttle local fleet value`" = 180000"
+    Add-Line "				set `"cf: shuttle route book v2`""
     Add-Line "				`"cf: shuttle local pax`" = 6"
     Add-Line "				`"cf: shuttle local daily crew`" = 100"
     Add-Line "				`"cf: shuttle local trip payout`" = 4200"
@@ -4292,7 +4436,7 @@ function Add-GenericCompanyBoardMission {
     Add-Line "				set `"cf: trading`""
     Add-Line "				set `"cf: ship available: Star Barge`""
     Add-Line "				`"cf: reserve`" += 50000"
-    Add-Line "				`"cf: fleet value`" += 1250000"
+    Add-Line "				`"cf: fleet value`" += 190000"
     Add-Line "				`"cf: trading fleet`" = 1"
     Add-Line "				`"cf: trading route count`" = 1"
     Add-Line "				set `"cf: trading license local`""
@@ -4358,8 +4502,8 @@ function Add-GenericCompanyBoardMission {
     Add-Line "				`"cf: reserve`" -= 220000"
     Add-Line "				set `"cf: mining claim regional`""
     Add-Line "				`"cf: mining claim count`" ++"
-    Add-Line "				`"cf: mining regional value`" = 3500"
-    Add-Line "			``Your staff files regional mineral rights. The generic company valuation is 3,500 credits per cargo before fleet efficiency.``"
+    Add-Line "				`"cf: mining regional value`" = `"cf: hq offer mining regional value`""
+    Add-Line "			``Your staff files the mapped regional mineral rights. Their yield is taken from the explored target system rather than a generic price table.``"
     Add-CompanyOutlookReturn
     Add-ConfirmationLabel "confirm buy deep mining claim" "buy deep mining claim" "Buy the deep mining rights for 420,000 company credits?" "Buy rights."
     Add-Line "			label `"buy deep mining claim`""
@@ -4367,8 +4511,8 @@ function Add-GenericCompanyBoardMission {
     Add-Line "				`"cf: reserve`" -= 420000"
     Add-Line "				set `"cf: mining claim deep`""
     Add-Line "				`"cf: mining claim count`" ++"
-    Add-Line "				`"cf: mining deep value`" = 5000"
-    Add-Line "			``Your staff files deep mineral rights. The generic company valuation is 5,000 credits per cargo before fleet efficiency.``"
+    Add-Line "				`"cf: mining deep value`" = `"cf: hq offer mining deep value`""
+    Add-Line "			``Your staff files the mapped deep-space mineral rights using the surveyed target system's actual yield.``"
     Add-CompanyOutlookReturn
     Add-ConfirmationLabel "confirm buy frontier mining claim" "buy frontier mining claim" "Buy the frontier mining rights for 700,000 company credits?" "Buy rights."
     Add-Line "			label `"buy frontier mining claim`""
@@ -4376,8 +4520,8 @@ function Add-GenericCompanyBoardMission {
     Add-Line "				`"cf: reserve`" -= 700000"
     Add-Line "				set `"cf: mining claim frontier`""
     Add-Line "				`"cf: mining claim count`" ++"
-    Add-Line "				`"cf: mining frontier value`" = 7000"
-    Add-Line "			``Your staff files frontier mineral rights. The generic company valuation is 7,000 credits per cargo before fleet efficiency.``"
+    Add-Line "				`"cf: mining frontier value`" = `"cf: hq offer mining frontier value`""
+    Add-Line "			``Your staff files the mapped frontier mineral rights using the surveyed target system's actual yield.``"
     Add-CompanyOutlookReturn
     Add-ConfirmationLabel "confirm buy regional trading license" "buy regional trading license" "Buy the regional trading license for 180,000 company credits?" "Buy license."
     Add-Line "			label `"buy regional trading license`""
@@ -4385,10 +4529,10 @@ function Add-GenericCompanyBoardMission {
     Add-Line "				`"cf: reserve`" -= 180000"
     Add-Line "				set `"cf: trading license regional`""
     Add-Line "				`"cf: trading route count`" ++"
-    Add-Line "				`"cf: trading regional value`" = 450"
-    Add-Line "				`"cf: trading regional optimized value`" = 650"
-    Add-Line "				`"cf: trading regional current value`" = 450"
-    Add-Line "			``Your office buys a regional trading license. Generic price tables start at 450 credits per cargo, or 650 with a specialist trader.``"
+    Add-Line "				`"cf: trading regional value`" = `"cf: hq offer trading regional value`""
+    Add-Line "				`"cf: trading regional optimized value`" = `"cf: hq offer trading regional optimized value`""
+    Add-Line "				`"cf: trading regional current value`" = `"cf: trading regional value`""
+    Add-Line "			``Your office buys the mapped regional trading license using the explored endpoint's actual market spread.``"
     Add-CompanyOutlookReturn
     Add-ConfirmationLabel "confirm buy long trading license" "buy long trading license" "Buy the long trading license for 400,000 company credits?" "Buy license."
     Add-Line "			label `"buy long trading license`""
@@ -4396,10 +4540,10 @@ function Add-GenericCompanyBoardMission {
     Add-Line "				`"cf: reserve`" -= 400000"
     Add-Line "				set `"cf: trading license long`""
     Add-Line "				`"cf: trading route count`" ++"
-    Add-Line "				`"cf: trading long value`" = 650"
-    Add-Line "				`"cf: trading long optimized value`" = 950"
-    Add-Line "				`"cf: trading long current value`" = 650"
-    Add-Line "			``Your office buys a long trading license. Generic price tables start at 650 credits per cargo, or 950 with a specialist trader.``"
+    Add-Line "				`"cf: trading long value`" = `"cf: hq offer trading long value`""
+    Add-Line "				`"cf: trading long optimized value`" = `"cf: hq offer trading long optimized value`""
+    Add-Line "				`"cf: trading long current value`" = `"cf: trading long value`""
+    Add-Line "			``Your office buys the mapped long-range trading license using the explored endpoint's actual market spread.``"
     Add-CompanyOutlookReturn
     Add-ConfirmationLabel "confirm buy frontier trading license" "buy frontier trading license" "Buy the frontier trading license for 750,000 company credits?" "Buy license."
     Add-Line "			label `"buy frontier trading license`""
@@ -4407,10 +4551,10 @@ function Add-GenericCompanyBoardMission {
     Add-Line "				`"cf: reserve`" -= 750000"
     Add-Line "				set `"cf: trading license frontier`""
     Add-Line "				`"cf: trading route count`" ++"
-    Add-Line "				`"cf: trading frontier value`" = 850"
-    Add-Line "				`"cf: trading frontier optimized value`" = 1250"
-    Add-Line "				`"cf: trading frontier current value`" = 850"
-    Add-Line "			``Your office buys a frontier trading license. Generic price tables start at 850 credits per cargo, or 1,250 with a specialist trader.``"
+    Add-Line "				`"cf: trading frontier value`" = `"cf: hq offer trading frontier value`""
+    Add-Line "				`"cf: trading frontier optimized value`" = `"cf: hq offer trading frontier optimized value`""
+    Add-Line "				`"cf: trading frontier current value`" = `"cf: trading frontier value`""
+    Add-Line "			``Your office buys the mapped frontier trading license using the explored endpoint's actual market spread.``"
     Add-CompanyOutlookReturn
     Add-ConfirmationLabel "confirm buy regional security license" "buy regional security license" "Buy the regional security license for 250,000 company credits?" "Buy license."
     Add-Line "			label `"buy regional security license`""
@@ -4554,12 +4698,12 @@ Add-Line "	`"default attitude`" 1"
 Add-Line "	`"friendly hail`" `"friendly civilian`""
 Add-Line "	`"friendly disabled hail`" `"friendly disabled`""
 Add-Line "	`"penalty for`""
-Add-Line "		assist 0"
-Add-Line "		disable 0"
-Add-Line "		board 0"
-Add-Line "		capture 0"
-Add-Line "		destroy 0"
-Add-Line "		atrocity 0"
+Add-Line "		assist -.1"
+Add-Line "		disable .5"
+Add-Line "		board .2"
+Add-Line "		capture 5"
+Add-Line "		destroy 2"
+Add-Line "		atrocity 10"
 Add-Line ""
 Add-Line "outfitter `"$companyStationOutfitterName`""
 foreach($outfit in @(
@@ -4660,6 +4804,24 @@ foreach($starter in @(
 }
 
 Set-OutputSection "company founding.txt"
+Set-OutputSection "company core.txt"
+Add-Line "mission `"Company Foundations: Migrate Shuttle Route Book Values`""
+Add-Line "	name `"Company Shuttle Book-Value Migration`""
+Add-Line "	invisible"
+Add-Line "	landing"
+Add-Line "	repeat"
+Add-Line "	to offer"
+Add-Line "		has `"cf: active`""
+Add-Line "		has `"cf: shuttle`""
+Add-Line "		not `"cf: shuttle route book v2`""
+Add-Line "	on offer"
+foreach($route in $shuttleRouteTypes) {
+    Add-Line "		`"cf: shuttle $($route.Prefix) fleet value`" = `"cf: shuttle $($route.Prefix) ships`" * 180000"
+}
+Add-Line "		set `"cf: shuttle route book v2`""
+Add-Line ""
+
+Set-OutputSection "company founding.txt"
 foreach($planet in $eligible) {
     $name = $planet.Name
     $hqGovernment = Get-PlanetGovernmentName $planet
@@ -4676,7 +4838,7 @@ foreach($planet in $eligible) {
     $securityLocal = $assignments.SecurityLocal
     $planetToken = Format-ESToken $name
     $missionName = Format-ESMissionName "Company Foundations: Registrar: $name"
-    $hqCondition = Format-ESMissionName "cf: hq: $name"
+    $hqId = $hqIdByPlanet[$name]
 
     Add-Line "mission $missionName"
     Add-Line "	name `"Found Company`""
@@ -4718,11 +4880,13 @@ foreach($planet in $eligible) {
     Add-Line "				set `"cf: active`""
     Add-Line "				set `"cf: autopay`""
     Add-Line "				set `"cf: tax model v2`""
+    Add-Line "				`"cf: save schema`" = $currentSaveSchema"
+    Add-Line "				set `"cf: station economics v2`""
     Add-Line "				set `"cf: shuttle`""
     Add-Line "				set `"cf: ship available: Shuttle`""
     Add-Line "				set `"cf: manual`""
     Add-Line "				set `"cf: manual pending`""
-    Add-Line "				set $hqCondition"
+    Add-Line "				`"cf: hq id`" = $hqId"
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				set `"cf: operations accounting v3`""
@@ -4730,13 +4894,15 @@ foreach($planet in $eligible) {
     Add-Line "				`"cf: hq daily tax`" = $hqDailyTax"
     Add-Line "				`"cf: hq required reputation`" = $hqRequiredReputation"
     Add-Line "				`"cf: next report day`" = 30"
-    Add-Line "				`"cf: fleet value`" = 650000"
+    Add-Line "				`"cf: fleet value`" = 180000"
     Add-Line "				`"cf: reserve`" = 50000"
     Add-Line "				`"cf: payout share`" = 25"
     Add-Line "				`"cf: shuttle fleet`" = 1"
     Add-Line "				`"cf: shuttle route count`" = 1"
     Add-Line "				set `"cf: shuttle route local`""
     Add-Line "				`"cf: shuttle local ships`" = 1"
+    Add-Line "				`"cf: shuttle local fleet value`" = 180000"
+    Add-Line "				set `"cf: shuttle route book v2`""
     Add-Line "				`"cf: shuttle local pax`" = 6"
     Add-Line "				`"cf: shuttle local daily crew`" = 100"
     Add-Line "				`"cf: shuttle local trip payout`" = 4200"
@@ -4750,11 +4916,13 @@ foreach($planet in $eligible) {
     Add-Line "				set `"cf: active`""
     Add-Line "				set `"cf: autopay`""
     Add-Line "				set `"cf: tax model v2`""
+    Add-Line "				`"cf: save schema`" = $currentSaveSchema"
+    Add-Line "				set `"cf: station economics v2`""
     Add-Line "				set `"cf: mining`""
     Add-Line "				set `"cf: ship available: Sunder`""
     Add-Line "				set `"cf: manual`""
     Add-Line "				set `"cf: manual pending`""
-    Add-Line "				set $hqCondition"
+    Add-Line "				`"cf: hq id`" = $hqId"
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				set `"cf: operations accounting v3`""
@@ -4784,11 +4952,13 @@ foreach($planet in $eligible) {
     Add-Line "				set `"cf: active`""
     Add-Line "				set `"cf: autopay`""
     Add-Line "				set `"cf: tax model v2`""
+    Add-Line "				`"cf: save schema`" = $currentSaveSchema"
+    Add-Line "				set `"cf: station economics v2`""
     Add-Line "				set `"cf: trading`""
     Add-Line "				set `"cf: ship available: Star Barge`""
     Add-Line "				set `"cf: manual`""
     Add-Line "				set `"cf: manual pending`""
-    Add-Line "				set $hqCondition"
+    Add-Line "				`"cf: hq id`" = $hqId"
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				set `"cf: operations accounting v3`""
@@ -4796,7 +4966,7 @@ foreach($planet in $eligible) {
     Add-Line "				`"cf: hq daily tax`" = $hqDailyTax"
     Add-Line "				`"cf: hq required reputation`" = $hqRequiredReputation"
     Add-Line "				`"cf: next report day`" = 30"
-    Add-Line "				`"cf: fleet value`" = 1250000"
+    Add-Line "				`"cf: fleet value`" = 190000"
     Add-Line "				`"cf: reserve`" = 50000"
     Add-Line "				`"cf: payout share`" = 25"
     Add-Line "				`"cf: trading fleet`" = 1"
@@ -4820,11 +4990,13 @@ foreach($planet in $eligible) {
     Add-Line "				set `"cf: active`""
     Add-Line "				set `"cf: autopay`""
     Add-Line "				set `"cf: tax model v2`""
+    Add-Line "				`"cf: save schema`" = $currentSaveSchema"
+    Add-Line "				set `"cf: station economics v2`""
     Add-Line "				set `"cf: security`""
     Add-Line "				set `"cf: ship available: Manta`""
     Add-Line "				set `"cf: manual`""
     Add-Line "				set `"cf: manual pending`""
-    Add-Line "				set $hqCondition"
+    Add-Line "				`"cf: hq id`" = $hqId"
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				set `"cf: operations accounting v3`""
@@ -4855,8 +5027,10 @@ Set-OutputSection "company admiral locations.txt"
 foreach($planet in $eligible) {
     $name = $planet.Name
     $planetToken = Format-ESToken $name
-    $admiralLocationCondition = Format-ESMissionName "cf: admiral location: $name"
-    $admiralDestinationCondition = Format-ESMissionName "cf: admiral destination: $name"
+    $admiralLocationCondition = Get-AdmiralLocationConditionLine $name
+    $notAdmiralLocationCondition = "`"cf: admiral location id`" != $($hqIdByPlanet[$name])"
+    $admiralDestinationCondition = Get-AdmiralDestinationConditionLine $name
+    $notAdmiralDestinationCondition = "`"cf: admiral destination id`" != $($hqIdByPlanet[$name])"
 
     $admiralStatusName = Format-ESMissionName "Company Foundations: Admiral Fleet Status: $name"
     Add-Line "mission $admiralStatusName"
@@ -4867,12 +5041,12 @@ foreach($planet in $eligible) {
     Add-Line "	source $planetToken"
     Add-Line "	to offer"
     Add-Line "		has `"cf: security admiral`""
-    Add-Line "		has $admiralLocationCondition"
+    Add-Line "		$admiralLocationCondition"
     Add-Line "		`"cf: admiral travel days`" == 0"
     Add-Line "	on offer"
     Add-Line "		conversation"
     Add-Line "			``The fleet admiral's strike fleet is currently operating out of the $name system. Headquarters remains wherever your company is based; this is only the fleet's current physical deployment point.``"
-    Add-Line "			``	Strike ships: &[number@cf: admiral fleet]. Fleet rating: &[number@cf: admiral rating]. Daily admiral salary: 20,000 credits. Fleet crew costs: &[credits@cf: admiral daily crew]/day.``"
+    Add-Line "			``	Strike ships: &[number@cf: admiral fleet]. Fleet rating: &[number@cf: admiral rating]. Daily admiral salary: $($admiralDailySalary.ToString('N0')) credits. Fleet crew costs: &[credits@cf: admiral daily crew]/day.``"
     Add-Line "			choice"
     Add-Line "				``	File the command report.``"
     Add-Line "					decline"
@@ -4887,18 +5061,18 @@ foreach($planet in $eligible) {
     Add-Line "	source $planetToken"
     Add-Line "	to offer"
     Add-Line "		has `"cf: security`""
-    Add-Line "		has `"cf: hq: $name`""
+    Add-Line "		$(Get-HQConditionLine $name)"
     Add-Line "		not `"cf: security admiral`""
     Add-Line "		`"cf: reserve`" >= 300000"
     Add-Line "	on offer"
     Add-Line "		conversation"
-    Add-Line "			``A retired fleet officer is available to establish an independent strike command from your headquarters on $name. The office contract costs 300,000 company credits, and the admiral salary is 20,000 credits per day before owner payout.``"
+    Add-Line "			``A retired fleet officer is available to establish an independent strike command from your headquarters on $name. The office contract costs 300,000 company credits, and the admiral salary is $($admiralDailySalary.ToString('N0')) credits per day before owner payout.``"
     Add-Line "			choice"
     Add-Line "				``	Hire the fleet admiral.``"
     Add-Line "					goto `"confirm hire security admiral`""
     Add-Line "				``	Leave the command contract unsigned.``"
     Add-Line "					decline"
-    Add-ConfirmationLabel "confirm hire security admiral" "hire security admiral" "Hire a fleet admiral for 300,000 company credits plus 20,000 credits per day?" "Hire admiral." "cancel hire security admiral"
+    Add-ConfirmationLabel "confirm hire security admiral" "hire security admiral" "Hire a fleet admiral for 300,000 company credits plus $($admiralDailySalary.ToString('N0')) credits per day?" "Hire admiral." "cancel hire security admiral"
     Add-Line "			label `"cancel hire security admiral`""
     Add-Line "				decline"
     Add-Line "			label `"hire security admiral`""
@@ -4907,7 +5081,7 @@ foreach($planet in $eligible) {
     Add-Line "				set `"cf: security admiral`""
     Add-ClearAllAdmiralLocationConditions "				"
     Add-ClearAllAdmiralDestinationConditions "				"
-    Add-ConditionLine "set" "cf: admiral location: $name" "				"
+    Add-Line "				`"cf: admiral location id`" = $($hqIdByPlanet[$name])"
     Add-Line "				clear `"cf: admiral in transit`""
     Add-Line "				`"cf: admiral travel days`" = 0"
     Add-Line "			``The fleet admiral signs on and establishes the strike fleet's starting location at $name. Escort-route ships still do not count toward admiral fleet rating.``"
@@ -4923,8 +5097,8 @@ foreach($planet in $eligible) {
     Add-Line "	source $planetToken"
     Add-Line "	to offer"
     Add-Line "		has `"cf: security admiral`""
-    Add-Line "		not $admiralLocationCondition"
-    Add-Line "		not $admiralDestinationCondition"
+    Add-Line "		$notAdmiralLocationCondition"
+    Add-Line "		$notAdmiralDestinationCondition"
     Add-Line "		not `"cf: admiral in transit`""
     Add-Line "		`"cf: admiral travel days`" == 0"
     Add-Line "		`"cf: reserve`" >= 200000"
@@ -4942,7 +5116,7 @@ foreach($planet in $eligible) {
     Add-Line "				`"cf: admiral relocation count`" ++"
     Add-Line "				`"cf: total admiral relocation costs`" += 200000"
     Add-ClearAllAdmiralDestinationConditions "				"
-    Add-ConditionLine "set" "cf: admiral destination: $name" "				"
+    Add-Line "				`"cf: admiral destination id`" = $($hqIdByPlanet[$name])"
     Add-Line "				set `"cf: admiral in transit`""
     Add-Line "				`"cf: admiral travel days`" = 5"
     Add-Line "			``The admiral confirms the deployment order. The strike fleet does not count as present at $name until the transit timer has finished.``"
@@ -4958,14 +5132,14 @@ foreach($planet in $eligible) {
     Add-Line "	repeat"
     Add-Line "	to offer"
     Add-Line "		has `"cf: security admiral`""
-    Add-Line "		has $admiralDestinationCondition"
+    Add-Line "		$admiralDestinationCondition"
     Add-Line "		`"cf: admiral travel days`" == 0"
     Add-Line "	on offer"
     Add-Line "		conversation"
     Add-Line "			action"
     Add-ClearAllAdmiralLocationConditions "				"
     Add-ClearAllAdmiralDestinationConditions "				"
-    Add-ConditionLine "set" "cf: admiral location: $name" "				"
+    Add-Line "				`"cf: admiral location id`" = $($hqIdByPlanet[$name])"
     Add-Line "				clear `"cf: admiral in transit`""
     Add-Line "				log `"Company Foundations`" `"Admiral Fleet`" ``The fleet admiral's strike fleet arrived at $name and is now available for local operations.``"
     Add-Line "			``Your fleet admiral reports arrival at $name. The independent strike fleet is now operating from that deployment point.``"
@@ -4990,6 +5164,167 @@ Add-Line "		`"reputation: $companyGovernmentName`" < 1000"
 Add-Line "	on offer"
 Add-Line "		`"reputation: $companyGovernmentName`" >?= 1000"
 Add-Line ""
+
+Set-OutputSection "company ids.txt"
+Add-Line "# Persistent location IDs. These comments are also consumed by the save watcher."
+foreach($planet in $allEligible) {
+    Add-Line "# hq $($hqIdByPlanet[$planet.Name])`t$($planet.Name)"
+}
+Add-Line "# admiral headquarters $admiralHeadquartersLocationId"
+foreach($system in $companyStationSystems) {
+    Add-Line "# station $($stationSystemIdByName[$system.Name])`t$($system.Name)"
+}
+Add-Line ""
+
+Set-OutputSection "company hq presence.txt"
+Add-Line "# Compatibility tombstone: overwrites the v0.1 one-hot HQ presence missions during in-place updates."
+Add-Line "# Headquarters presence is represented by persistent numeric IDs in save schema $currentSaveSchema."
+Add-Line ""
+
+Set-OutputSection "company migrations.txt"
+foreach($planet in $allEligible) {
+    $name = $planet.Name
+    $id = $hqIdByPlanet[$name]
+    foreach($migration in @(
+        [pscustomobject]@{ Kind = "Headquarters"; Legacy = "cf: hq: $name"; IdCondition = "cf: hq id" },
+        [pscustomobject]@{ Kind = "Admiral Location"; Legacy = "cf: admiral location: $name"; IdCondition = "cf: admiral location id" },
+        [pscustomobject]@{ Kind = "Admiral Destination"; Legacy = "cf: admiral destination: $name"; IdCondition = "cf: admiral destination id" }
+    )) {
+        Add-Line "mission $(Format-ESMissionName "Company Foundations: Migrate $($migration.Kind): $name")"
+        Add-Line "	name `"Company Location Migration`""
+        Add-Line "	invisible"
+        Add-Line "	landing"
+        Add-Line "	repeat"
+        Add-Line "	to offer"
+        Add-Line "		has `"$($migration.Legacy)`""
+        Add-Line "		not `"$($migration.IdCondition)`""
+        Add-Line "	on offer"
+        Add-Line "		`"$($migration.IdCondition)`" = $id"
+        Add-Line "		clear `"$($migration.Legacy)`""
+        Add-Line ""
+    }
+}
+
+Add-Line "mission `"Company Foundations: Migrate Admiral Headquarters Location`""
+Add-Line "	name `"Company Location Migration`""
+Add-Line "	invisible"
+Add-Line "	landing"
+Add-Line "	repeat"
+Add-Line "	to offer"
+Add-Line "		has `"cf: admiral location: headquarters`""
+Add-Line "		not `"cf: admiral location id`""
+Add-Line "	on offer"
+Add-Line "		`"cf: admiral location id`" = $admiralHeadquartersLocationId"
+Add-Line "		clear `"cf: admiral location: headquarters`""
+Add-Line ""
+
+foreach($system in $companyStationSystems) {
+    $systemName = $system.Name
+    $nearest = @(Get-InhabitedSystemDistances $systemName | Select-Object -First 1)
+    if($nearest.Count -eq 0) {
+        continue
+    }
+    $originName = $eligibleBySystem[$nearest[0].System][0]
+    Add-Line "mission $(Format-ESMissionName "Company Foundations: Migrate Station System: $systemName")"
+    Add-Line "	name `"Company Station Location Migration`""
+    Add-Line "	invisible"
+    Add-Line "	landing"
+    Add-Line "	repeat"
+    Add-Line "	to offer"
+    Add-Line "		has `"cf: hq station system: $systemName`""
+    Add-Line "		not `"cf: hq station system id`""
+    Add-Line "	on offer"
+    Add-Line "		`"cf: hq station system id`" = $($stationSystemIdByName[$systemName])"
+    Add-Line "		clear `"cf: hq station system: $systemName`""
+    Add-Line "		`"cf: hq id`" >?= $($hqIdByPlanet[$originName])"
+    Add-Line ""
+}
+
+Add-Line "mission `"Company Foundations: Migrate Station Economics V2`""
+Add-Line "	name `"Company Station Economics Migration`""
+Add-Line "	invisible"
+Add-Line "	landing"
+Add-Line "	repeat"
+Add-Line "	to offer"
+Add-Line "		has `"cf: active`""
+Add-Line "		has `"cf: station orbital office`""
+Add-Line "		not `"cf: station economics v2`""
+Add-Line "	on offer"
+Add-Line "		`"cf: station count`" = `"cf: station orbital office`""
+Add-Line "		`"cf: station count`" += `"cf: station logistics hub`""
+Add-Line "		`"cf: station count`" += `"cf: station industrial dock`""
+Add-Line "		`"cf: station value`" = `"cf: station orbital office`" * $($companyStationCore.Cost)"
+Add-Line "		`"cf: station value`" += `"cf: station logistics hub`" * $($companyStationOutfitter.Cost)"
+Add-Line "		`"cf: station value`" += `"cf: station industrial dock`" * $($companyStationShipyard.Cost)"
+Add-Line "		`"cf: station crew`" = `"cf: station orbital office`" * $($companyStationCore.Crew)"
+Add-Line "		`"cf: station crew`" += `"cf: station logistics hub`" * $($companyStationOutfitter.Crew)"
+Add-Line "		`"cf: station crew`" += `"cf: station industrial dock`" * $($companyStationShipyard.Crew)"
+Add-Line "		`"cf: station payroll`" = `"cf: station orbital office`" * $($companyStationCore.Payroll)"
+Add-Line "		`"cf: station payroll`" += `"cf: station logistics hub`" * $($companyStationOutfitter.Payroll)"
+Add-Line "		`"cf: station payroll`" += `"cf: station industrial dock`" * $($companyStationShipyard.Payroll)"
+Add-Line "		`"cf: station maintenance`" = `"cf: station orbital office`" * $($companyStationCore.Maintenance)"
+Add-Line "		`"cf: station maintenance`" += `"cf: station logistics hub`" * $($companyStationOutfitter.Maintenance)"
+Add-Line "		`"cf: station maintenance`" += `"cf: station industrial dock`" * $($companyStationShipyard.Maintenance)"
+Add-Line "		`"cf: station daily income`" = `"cf: station orbital office`" * $($companyStationCore.Income)"
+Add-Line "		`"cf: station daily income`" += `"cf: station logistics hub`" * $($companyStationOutfitter.Income)"
+Add-Line "		`"cf: station daily income`" += `"cf: station industrial dock`" * $($companyStationShipyard.Income)"
+Add-Line "		`"cf: station daily upkeep`" = `"cf: station orbital office`" * $($companyStationCore.Upkeep)"
+Add-Line "		`"cf: station daily upkeep`" += `"cf: station logistics hub`" * $($companyStationOutfitter.Upkeep)"
+Add-Line "		`"cf: station daily upkeep`" += `"cf: station industrial dock`" * $($companyStationShipyard.Upkeep)"
+Add-Line "		`"cf: hq tax relief`" = `"cf: station orbital office`" * $($companyStationCore.TaxRelief)"
+Add-StaffAndTaxCalculationLines
+Add-Line "		set `"cf: station economics v2`""
+Add-Line "		log `"Company Foundations`" `"Station Economics Migration`" ``Existing station modules were migrated to the current income, upkeep, staffing, valuation, and headquarters-tax model without changing company reserve or historical totals.``"
+Add-Line ""
+
+Add-Line "mission `"Company Foundations: Initialize Station Economics V2`""
+Add-Line "	name `"Company Station Economics Migration`""
+Add-Line "	invisible"
+Add-Line "	landing"
+Add-Line "	repeat"
+Add-Line "	to offer"
+Add-Line "		has `"cf: active`""
+Add-Line "		not `"cf: station orbital office`""
+Add-Line "		not `"cf: station economics v2`""
+Add-Line "	on offer"
+Add-Line "		set `"cf: station economics v2`""
+Add-Line ""
+
+Add-Line "mission `"Company Foundations: Finalize Save Schema V$currentSaveSchema`""
+Add-Line "	name `"Company Save Migration`""
+Add-Line "	invisible"
+Add-Line "	landing"
+Add-Line "	repeat"
+Add-Line "	to offer"
+Add-Line "		has `"cf: active`""
+Add-Line "		`"cf: save schema`" < $currentSaveSchema"
+Add-Line "		`"cf: hq id`" > 0"
+Add-Line "		has `"cf: operations accounting v3`""
+Add-Line "		has `"cf: tax model v2`""
+Add-Line "		has `"cf: hq offers v3`""
+Add-Line "		has `"cf: station economics v2`""
+Add-Line "		or"
+Add-Line "			not `"cf: shuttle`""
+Add-Line "			has `"cf: shuttle route book v2`""
+Add-Line "		or"
+Add-Line "			not `"cf: hq station built`""
+Add-Line "			`"cf: hq station system id`" > 0"
+Add-Line "		or"
+Add-Line "			not `"cf: security admiral`""
+Add-Line "			`"cf: admiral location id`" > 0"
+Add-Line "		or"
+Add-Line "			not `"cf: admiral in transit`""
+Add-Line "			`"cf: admiral destination id`" > 0"
+Add-Line "	on offer"
+Add-Line "		clear `"cf: at hq`""
+Add-Line "		clear `"cf: hq: $companyStationPlanetName`""
+foreach($shipName in @("Corundum", "Diorite", "Eclogite", "Gypsum")) {
+    Add-Line "		clear `"cf: ship available: $shipName`""
+}
+Add-Line "		`"cf: save schema`" = $currentSaveSchema"
+Add-Line "		log `"Company Foundations`" `"Save Migration`" ``This company save was migrated from the v0.1 condition layout to save schema $currentSaveSchema. Company funds, fleets, contracts, ownership, and historical accounting totals were preserved.``"
+Add-Line ""
+
 Set-OutputSection "__discard"
 foreach($planet in $eligible) {
     Set-OutputSection "__discard"
@@ -5035,9 +5370,12 @@ foreach($planet in $eligible) {
     }
     $planetToken = Format-ESToken $name
     $missionName = Format-ESMissionName "Company Foundations: Headquarters: $name"
-    $hqCondition = Format-ESMissionName "cf: hq: $name"
+    $hqCondition = Get-HQConditionLine $name
     $emitGenericManagerInvestments = $name -eq $eligible[0].Name
 
+    # Retained temporarily as a reference while the compact shared board above is
+    # validated. This legacy per-headquarters conversation is never generated.
+    if($false) {
     Add-Line "mission $missionName"
     Add-Line "	name `"Company Headquarters`""
     Add-Line "	description `"Review the company headquartered on $name and change how it is managed.`""
@@ -5045,7 +5383,7 @@ foreach($planet in $eligible) {
     Add-Line "	source $planetToken"
     Add-Line "	to offer"
     Add-Line "		has `"cf: active`""
-    Add-Line "		has $hqCondition"
+    Add-Line "		$hqCondition"
     Add-Line "	on offer"
     Add-Line "		conversation"
     Add-Line "			label `"company main menu`""
@@ -5109,11 +5447,11 @@ foreach($planet in $eligible) {
     Add-Line "			``	Admiral fleet location: currently operating in this headquarters system.``"
     Add-Line "				to display"
     Add-Line "					has `"cf: security admiral`""
-    Add-Line "					has `"cf: admiral location: $name`""
+    Add-Line "					$(Get-AdmiralLocationConditionLine $name)"
     Add-Line "			``	Admiral fleet location: deployed away from this headquarters. Visit the desired deployment point to order the strike fleet there, or wait for any active transit to finish.``"
     Add-Line "				to display"
     Add-Line "					has `"cf: security admiral`""
-    Add-Line "					not `"cf: admiral location: $name`""
+    Add-Line "					`"cf: admiral location id`" != $($hqIdByPlanet[$name])"
     Add-Line "			``	Admiral transit: &[number@cf: admiral travel days] day(s) until the strike fleet reaches its ordered destination.``"
     Add-Line "				to display"
     Add-Line "					has `"cf: security admiral`""
@@ -5124,7 +5462,7 @@ foreach($planet in $eligible) {
     Add-Line "			``	Company stations: no station modules built.``"
     Add-Line "				to display"
     Add-Line "					not `"cf: station orbital office`""
-    Add-Line "			``	Fleet admiral retained: independent pirate-tribute command costs 20,000 credits per day before owner payout, plus crew costs for admiral fleet ships.``"
+    Add-Line "			``	Fleet admiral retained: independent pirate-tribute command costs $($admiralDailySalary.ToString('N0')) credits per day before owner payout, plus crew costs for admiral fleet ships.``"
     Add-Line "				to display"
     Add-Line "					has `"cf: security admiral`""
     Add-Line "			``	AUTOPAY``"
@@ -5385,7 +5723,7 @@ foreach($planet in $eligible) {
     Add-Line "				``	Back to finance.``"
     Add-Line "					goto `"menu finance`""
     Add-Line "			label `"menu manager`""
-    Add-Line "			``Manager contracts and command staff.``"
+    Add-Line "			``Manager contracts and command staff. Operations managers are offered only once projected company net reaches 12,000 credits per day, leaving a small margin after their 10,000-credit salary.``"
     Add-Line "			choice"
     Add-SecurityAdmiralChoice
     foreach($campaign in $admiralCampaignTypes) {
@@ -5395,6 +5733,8 @@ foreach($planet in $eligible) {
     Add-Line "					to display"
     Add-Line "						has `"cf: manual`""
     Add-Line "						`"credits`" >= 250000"
+    Add-Line "						`"cf: projected net`" >= 12000"
+    Add-Line "						`"cf: projected net`" >= 12000"
     Add-Line "					goto `"hire manager`""
     Add-Line "				``	Back.``"
     Add-Line "					goto `"company main menu`""
@@ -5615,10 +5955,9 @@ foreach($planet in $eligible) {
     Add-CompanyOutlookReturn
     Add-Line ""
 
-    Set-OutputSection "company manager investments.txt"
-    if($emitGenericManagerInvestments) {
-        Add-ManagerRoutePurchaseMission "regional" "Regional" "" "cf: shuttle route regional" 120000
     }
+    Set-OutputSection "company manager investments.txt"
+    Add-ManagerRoutePurchaseMission "regional" "Regional" "" "cf: shuttle route regional" 120000 $hqCondition $routeRegional.System $name
     Add-ManagerRoutePurchaseMission "long" "Long" "cf: shuttle route regional" "cf: shuttle route long" 275000 $hqCondition $routeLong.System $name
     Add-ManagerRoutePurchaseMission "frontier" "Frontier" "cf: shuttle route long" "cf: shuttle route frontier" 475000 $hqCondition $routeFrontier.System $name
 
@@ -5643,7 +5982,7 @@ foreach($planet in $eligible) {
         Add-Line "	to offer"
         Add-Line "		has `"cf: mining`""
         Add-Line "		has `"cf: managed`""
-        Add-Line "		has $hqCondition"
+    Add-Line "		$hqCondition"
         Add-Line "		not `"cf: hq suspended`""
         Add-Line "		not `"$($claim.Required)`""
         if($claim.Prefix -eq "deep") {
@@ -5728,7 +6067,7 @@ foreach($planet in $eligible) {
         Add-Line "	to offer"
         Add-Line "		has `"cf: trading`""
         Add-Line "		has `"cf: managed`""
-        Add-Line "		has $hqCondition"
+    Add-Line "		$hqCondition"
         Add-Line "		not `"cf: hq suspended`""
         Add-Line "		not `"$($route.Required)`""
         if($route.Prefix -eq "long") {
@@ -5802,7 +6141,7 @@ foreach($planet in $eligible) {
                 Add-Line "	to offer"
                 Add-Line "		has `"cf: trading`""
                 Add-Line "		has `"cf: managed`""
-                Add-Line "		has $hqCondition"
+    Add-Line "		$hqCondition"
                 Add-Line "		not `"cf: hq suspended`""
                 Add-Line "		has `"$($route.Required)`""
                 Add-Line "		not `"cf: trading $($route.Prefix) trader`""
@@ -5834,7 +6173,7 @@ foreach($planet in $eligible) {
         Add-Line "	to offer"
         Add-Line "		has `"cf: security`""
         Add-Line "		has `"cf: managed`""
-        Add-Line "		has $hqCondition"
+    Add-Line "		$hqCondition"
         Add-Line "		not `"cf: hq suspended`""
         Add-Line "		not `"$($contract.Required)`""
         if($contract.Prefix -eq "long") {
@@ -5901,7 +6240,7 @@ foreach($planet in $eligible) {
     Add-Line "	to offer"
     Add-Line "		has `"cf: security`""
     Add-Line "		has `"cf: managed`""
-    Add-Line "		has $hqCondition"
+    Add-Line "		$hqCondition"
     Add-Line "		not `"cf: hq suspended`""
     Add-Line "		not `"cf: security admiral`""
     Add-Line "		`"cf: reserve`" >= 600000"
@@ -5910,10 +6249,10 @@ foreach($planet in $eligible) {
     Add-Line "		set `"cf: security admiral`""
     Add-ClearAllAdmiralLocationConditions "		"
     Add-ClearAllAdmiralDestinationConditions "		"
-    Add-ConditionLine "set" "cf: admiral location: $name" "		"
+    Add-Line "		`"cf: admiral location id`" = $($hqIdByPlanet[$name])"
     Add-Line "		clear `"cf: admiral in transit`""
     Add-Line "		`"cf: admiral travel days`" = 0"
-    Add-Line "		log `"Company Foundations`" `"Manager Investment`" ``The operations manager hired one fleet admiral for 300,000 company credits to command an independent pirate-tribute fleet. The admiral's office remains with headquarters, and the strike fleet starts operating from $name. The admiral costs 20,000 credits per day and escort-route ships do not count toward admiral fleet rating.``"
+    Add-Line "		log `"Company Foundations`" `"Manager Investment`" ``The operations manager hired one fleet admiral for 300,000 company credits to command an independent pirate-tribute fleet. The admiral's office remains with headquarters, and the strike fleet starts operating from $name. The admiral costs $($admiralDailySalary.ToString('N0')) credits per day and escort-route ships do not count toward admiral fleet rating.``"
     Add-Line ""
 
     $managerAdmiralShips = @($securityShipTypes | Where-Object { $_.Key -in @("manta", "vanguard", "leviathan") })
@@ -5961,13 +6300,13 @@ foreach($planet in $eligible) {
         Add-Line "		has `"cf: security`""
         Add-Line "		has `"cf: managed`""
         Add-Line "		has `"cf: security admiral`""
-        Add-Line "		has $hqCondition"
+    Add-Line "		$hqCondition"
         Add-Line "		not `"cf: hq suspended`""
         Add-Line "		not `"cf: admiral tribute $($campaign.Prefix)`""
         Add-Line "		not `"cf: admiral in transit`""
         Add-Line "		`"cf: admiral travel days`" == 0"
         Add-KnownPlanetRequirement $target.Planet "		"
-        Add-ConditionLine "has" "cf: admiral location: $($target.Planet)" "		"
+        Add-Line "		$(Get-AdmiralLocationConditionLine $target.Planet)"
         Add-Line "		`"cf: admiral rating`" >= $($target.RequiredRating)"
         Add-Line "		`"cf: reserve`" >= $reserveNeeded"
         Add-Line "	on offer"
@@ -5988,7 +6327,8 @@ foreach($planet in $eligible) {
     $hqDailyTax = Get-HQTaxRate $planet
     $assignments = Get-CompanyPlanetAssignments $name
     $planetToken = Format-ESToken $name
-    $hqCondition = Format-ESMissionName "cf: hq: $name"
+    $hqCondition = Get-HQConditionLine $name
+    $notHqCondition = Get-NotHQConditionLine $name
 
     $taxMigrationName = Format-ESMissionName "Company Foundations: Tax Rebalance: $name"
     Add-Line "mission $taxMigrationName"
@@ -5998,7 +6338,7 @@ foreach($planet in $eligible) {
     Add-Line "	repeat"
     Add-Line "	to offer"
     Add-Line "		has `"cf: active`""
-    Add-Line "		has $hqCondition"
+    Add-Line "		$hqCondition"
     Add-Line "		not `"cf: tax model v2`""
     Add-Line "	on offer"
     Add-Line "		`"cf: hq base tax`" = $hqDailyTax"
@@ -6017,8 +6357,8 @@ foreach($planet in $eligible) {
     Add-Line "	repeat"
     Add-Line "	to offer"
     Add-Line "		has `"cf: active`""
-    Add-Line "		has $hqCondition"
-    Add-Line "		not `"cf: hq local offers v2`""
+    Add-Line "		$hqCondition"
+    Add-Line "		not `"cf: hq offers v3`""
     Add-Line "	on offer"
     Add-HQLocalDivisionOfferActions $assignments "		"
     Add-HQLocalDivisionStateMigrationActions "		"
@@ -6034,8 +6374,9 @@ foreach($planet in $eligible) {
         Add-Line "	repeat"
         Add-Line "	to offer"
         Add-Line "		has `"cf: active`""
-        Add-Line "		has $hqCondition"
+        Add-Line "		$hqCondition"
         Add-Line "		not `"cf: hq suspended`""
+        Add-Line "		not `"cf: hq station built`""
         Add-ReputationFailureRequirement $hqGovernment $hqRequiredReputation "		"
         Add-Line "	on offer"
         Add-Line "		set `"cf: hq suspended`""
@@ -6058,7 +6399,7 @@ foreach($planet in $eligible) {
         Add-Line "	repeat"
         Add-Line "	to offer"
         Add-Line "		has `"cf: active`""
-        Add-Line "		has $hqCondition"
+    Add-Line "		$hqCondition"
         Add-Line "		has `"cf: hq suspended`""
         Add-ReputationRequirement $hqGovernment $hqRequiredReputation "		"
         Add-Line "	on offer"
@@ -6079,7 +6420,8 @@ foreach($planet in $eligible) {
     Add-Line "	source $planetToken"
     Add-Line "	to offer"
     Add-Line "		has `"cf: active`""
-    Add-Line "		not $hqCondition"
+    Add-Line "		$notHqCondition"
+    Add-Line "		not `"cf: hq station built`""
     Add-ReputationRequirement $hqGovernment $hqRequiredReputation "		"
     Add-Line "		`"cf: reserve`" >= 500000"
     Add-Line "	on offer"
@@ -6096,7 +6438,7 @@ foreach($planet in $eligible) {
     Add-Line "				`"cf: hq relocation count`" ++"
     Add-Line "				`"cf: total relocation costs`" += 500000"
     Add-ClearAllHQConditions "				"
-    Add-Line "				set $hqCondition"
+    Add-Line "				`"cf: hq id`" = $($hqIdByPlanet[$name])"
     Add-PlanetDiscoveryActions $planet "				"
     Add-HQLocalDivisionOfferActions $assignments "				"
     Add-Line "				clear `"cf: hq suspended`""
@@ -6127,6 +6469,10 @@ Add-Line "	on offer"
 foreach($missionName in $legacyOperationMissionNames) {
     Add-Line "		fail `"$missionName`""
 }
+foreach($missionName in $legacyOperationRepairMissionNames) {
+    Add-Line "		fail `"$missionName`""
+}
+Add-ClearOperationsMissionStateActions "		" ($legacyOperationMissionNames + $legacyOperationRepairMissionNames)
 Add-ClearOperationsMissionStateActions "		"
 Add-Line "		clear `"cf: manual active`""
 Add-Line "		clear `"cf: manager active`""
@@ -6508,6 +6854,16 @@ if(Test-Path -LiteralPath $planetLicenseRoot) {
     Remove-Item -LiteralPath $planetLicenseRoot -Recurse -Force
 }
 
+function Write-Utf8Lines {
+    param(
+        [string]$Path,
+        [System.Collections.IEnumerable]$Lines
+    )
+
+    $text = (@($Lines) -join "`n") + "`n"
+    [System.IO.File]::WriteAllText($Path, $text, $utf8NoBom)
+}
+
 $indexLines = New-Object System.Collections.Generic.List[string]
 $indexLines.Add("# Company Foundations")
 $indexLines.Add("# Plugin data is split across the files listed below.")
@@ -6515,7 +6871,7 @@ $indexLines.Add("")
 foreach($sectionName in $outputSections.Keys) {
     $indexLines.Add("# - $sectionName")
 }
-[System.IO.File]::WriteAllLines($OutFile, $indexLines, $utf8NoBom)
+Write-Utf8Lines $OutFile $indexLines
 
 foreach($sectionName in $outputSections.Keys) {
     $sectionPath = Join-Path $outputRoot $sectionName
@@ -6523,7 +6879,7 @@ foreach($sectionName in $outputSections.Keys) {
     if(-not (Test-Path -LiteralPath $sectionDirectory)) {
         New-Item -ItemType Directory -Path $sectionDirectory | Out-Null
     }
-    [System.IO.File]::WriteAllLines($sectionPath, $outputSections[$sectionName], $utf8NoBom)
+    Write-Utf8Lines $sectionPath $outputSections[$sectionName]
 }
 
 Write-Host "Wrote $($eligible.Count) eligible headquarters into $($outputSections.Count) split data files in $outputRoot"

@@ -2,13 +2,78 @@
 # Plugin data is split across the files listed below.
 
 # - company core.txt
+# - company fleets.txt
+# - company fleet presence.txt
+# - company stations.txt
 # - company discovery.txt
 # - company founding.txt
-# - company stations.txt
-# - company station sites/*.txt
 # - company admiral locations.txt
 # - company hq.txt
+# - company station access.txt
+# - company ids.txt
 # - company hq presence.txt
+# - company migrations.txt
 # - company manager investments.txt
 # - company access.txt
 # - company operations.txt
+# - company station sites/Acamar.txt
+# - company station sites/Algieba.txt
+# - company station sites/Alnasl.txt
+# - company station sites/Alpha Arae.txt
+# - company station sites/Aspidiske.txt
+# - company station sites/Atik.txt
+# - company station sites/Beta Lupi.txt
+# - company station sites/Boral.txt
+# - company station sites/Cardax.txt
+# - company station sites/Danoa.txt
+# - company station sites/Durax.txt
+# - company station sites/Eber.txt
+# - company station sites/Eltanin.txt
+# - company station sites/Eteron.txt
+# - company station sites/Fala.txt
+# - company station sites/Fingol.txt
+# - company station sites/Fumalsamakah.txt
+# - company station sites/Gacrux.txt
+# - company station sites/Gamma Cassiopeiae.txt
+# - company station sites/Gorvi.txt
+# - company station sites/Hassaleh.txt
+# - company station sites/Hatysa.txt
+# - company station sites/Hintar.txt
+# - company station sites/Holeb.txt
+# - company station sites/Ildaria.txt
+# - company station sites/Ipsing.txt
+# - company station sites/Kugel.txt
+# - company station sites/Lesath.txt
+# - company station sites/Limen.txt
+# - company station sites/Lolami.txt
+# - company station sites/Lurata.txt
+# - company station sites/Menkalinan.txt
+# - company station sites/Minkar.txt
+# - company station sites/Mintaka.txt
+# - company station sites/Mirzam.txt
+# - company station sites/Mizar.txt
+# - company station sites/Moktar.txt
+# - company station sites/Mora.txt
+# - company station sites/Muphrid.txt
+# - company station sites/Naper.txt
+# - company station sites/Nocte.txt
+# - company station sites/Oblate.txt
+# - company station sites/Orbona.txt
+# - company station sites/Orvala.txt
+# - company station sites/Persian.txt
+# - company station sites/Procyon.txt
+# - company station sites/Rajak.txt
+# - company station sites/Regulus.txt
+# - company station sites/Rigel.txt
+# - company station sites/Sadr.txt
+# - company station sites/Sospi.txt
+# - company station sites/Sumar.txt
+# - company station sites/Tais.txt
+# - company station sites/Terminus.txt
+# - company station sites/Thuban.txt
+# - company station sites/Tortor.txt
+# - company station sites/Umbral.txt
+# - company station sites/Unagi.txt
+# - company station sites/Volax.txt
+# - company station sites/Wei.txt
+# - company station sites/Zubenelgenubi.txt

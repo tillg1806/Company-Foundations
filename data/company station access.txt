@@ -1,0 +1,16 @@
+# Company Foundations
+
+mission "Company Foundations: Ensure Headquarters Station Access"
+	name "Company Headquarters Station Access"
+	invisible
+	landing
+	repeat
+	source "Company Headquarters"
+	to offer
+		has "cf: active"
+		has "cf: hq station built"
+		"reputation: Company Foundations Player Company" < 1000
+	on offer
+		"reputation: Company Foundations Player Company" >?= 1000
+
+		fail

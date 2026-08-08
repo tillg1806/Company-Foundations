@@ -60,3 +60,20 @@ mission "Company Foundations: Starter Supplier Backfill: Manta"
 		log "Company Foundations" "Procurement Backfill" `The company records its starter Manta procurement channel as an available supplier for future simulated purchases.`
 
 		fail
+mission "Company Foundations: Migrate Shuttle Route Book Values"
+	name "Company Shuttle Book-Value Migration"
+	invisible
+	landing
+	repeat
+	to offer
+		has "cf: active"
+		has "cf: shuttle"
+		not "cf: shuttle route book v2"
+	on offer
+		"cf: shuttle local fleet value" = "cf: shuttle local ships" * 180000
+		"cf: shuttle regional fleet value" = "cf: shuttle regional ships" * 180000
+		"cf: shuttle long fleet value" = "cf: shuttle long ships" * 180000
+		"cf: shuttle frontier fleet value" = "cf: shuttle frontier ships" * 180000
+		set "cf: shuttle route book v2"
+
+		fail

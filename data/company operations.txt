@@ -18,12 +18,14 @@ mission "Company Foundations: Manager Optimize local Shuttle Route"
 		"cf: reserve" -= 3170000
 		set "cf: manager local optimized"
 		"cf: shuttle fleet" -= "cf: shuttle local ships"
+		"cf: fleet value" -= "cf: shuttle local fleet value"
 		"cf: shuttle local pax" = 48
 		"cf: shuttle local ships" = 3
 		"cf: shuttle local daily crew" = 500
 		"cf: shuttle local trip payout" = 11200
 		"cf: shuttle local trip expenses" = 666
 		"cf: shuttle fleet" += 3
+		"cf: shuttle local fleet value" = 3170000
 		"cf: fleet value" += 3170000
 		set "cf: shuttle local luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the local route with 1 Blackbird and 2 Heavy Shuttles for 3.170.000 company credits after keeping at least double the package cost in reserve.`
@@ -47,12 +49,14 @@ mission "Company Foundations: Manager Optimize regional Shuttle Route"
 		"cf: reserve" -= 5650000
 		set "cf: manager regional optimized"
 		"cf: shuttle fleet" -= "cf: shuttle regional ships"
+		"cf: fleet value" -= "cf: shuttle regional fleet value"
 		"cf: shuttle regional pax" = 79
 		"cf: shuttle regional ships" = 4
 		"cf: shuttle regional daily crew" = 600
 		"cf: shuttle regional trip payout" = 27650
 		"cf: shuttle regional trip expenses" = 900
 		"cf: shuttle fleet" += 4
+		"cf: shuttle regional fleet value" = 5650000
 		"cf: fleet value" += 5650000
 		set "cf: shuttle regional luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the regional route with 1 Blackbird and 3 Bounders for 5.650.000 company credits after keeping at least double the package cost in reserve.`
@@ -76,12 +80,14 @@ mission "Company Foundations: Manager Optimize long Shuttle Route"
 		"cf: reserve" -= 7610000
 		set "cf: manager long optimized"
 		"cf: shuttle fleet" -= "cf: shuttle long ships"
+		"cf: fleet value" -= "cf: shuttle long fleet value"
 		"cf: shuttle long pax" = 140
 		"cf: shuttle long ships" = 3
 		"cf: shuttle long daily crew" = 2400
 		"cf: shuttle long trip payout" = 98000
 		"cf: shuttle long trip expenses" = 6400
 		"cf: shuttle fleet" += 3
+		"cf: shuttle long fleet value" = 7610000
 		"cf: fleet value" += 7610000
 		set "cf: shuttle long luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the long route with 1 Hogshead and 2 Blackbirds for 7.610.000 company credits after keeping at least double the package cost in reserve.`
@@ -105,28 +111,44 @@ mission "Company Foundations: Manager Optimize frontier Shuttle Route"
 		"cf: reserve" -= 9720000
 		set "cf: manager frontier optimized"
 		"cf: shuttle fleet" -= "cf: shuttle frontier ships"
+		"cf: fleet value" -= "cf: shuttle frontier fleet value"
 		"cf: shuttle frontier pax" = 219
 		"cf: shuttle frontier ships" = 5
 		"cf: shuttle frontier daily crew" = 3900
 		"cf: shuttle frontier trip payout" = 122640
 		"cf: shuttle frontier trip expenses" = 7800
 		"cf: shuttle fleet" += 5
+		"cf: shuttle frontier fleet value" = 9720000
 		"cf: fleet value" += 9720000
 		set "cf: shuttle frontier luxury"
 		log "Company Foundations" "Manager Investment" `The operations manager optimized the frontier route with 2 Hogsheads and 3 Bounders for 9.720.000 company credits after keeping at least double the package cost in reserve.`
 
 		fail
-mission "Company Foundations: Repair Shuttle Manual Operations"
-	name "Company Operations Repair"
+mission "Company Foundations: Operations Accounting V3 Migration"
+	name "Company Operations Migration"
 	invisible
 	landing
 	repeat
 	to offer
 		has "cf: active"
-		has "cf: shuttle"
-		has "cf: manual"
-		has "Company Foundations: Shuttle Manual Operations: failed"
+		not "cf: operations accounting v3"
 	on offer
+		fail "Company Foundations: Shuttle Manual Operations"
+		fail "Company Foundations: Mining Manual Operations"
+		fail "Company Foundations: Trading Manual Operations"
+		fail "Company Foundations: Security Manual Operations"
+		fail "Company Foundations: Shuttle Managed Operations"
+		fail "Company Foundations: Mining Managed Operations"
+		fail "Company Foundations: Trading Managed Operations"
+		fail "Company Foundations: Security Managed Operations"
+		fail "Company Foundations: Repair Shuttle Manual Operations"
+		fail "Company Foundations: Repair Shuttle Managed Operations"
+		fail "Company Foundations: Repair Mining Manual Operations"
+		fail "Company Foundations: Repair Mining Managed Operations"
+		fail "Company Foundations: Repair Trading Manual Operations"
+		fail "Company Foundations: Repair Trading Managed Operations"
+		fail "Company Foundations: Repair Security Manual Operations"
+		fail "Company Foundations: Repair Security Managed Operations"
 		clear "Company Foundations: Shuttle Manual Operations: failed"
 		clear "Company Foundations: Shuttle Manual Operations: offered"
 		clear "Company Foundations: Shuttle Manual Operations: done"
@@ -159,377 +181,107 @@ mission "Company Foundations: Repair Shuttle Manual Operations"
 		clear "Company Foundations: Security Managed Operations: offered"
 		clear "Company Foundations: Security Managed Operations: done"
 		clear "Company Foundations: Security Managed Operations: declined"
+		clear "Company Foundations: Repair Shuttle Manual Operations: failed"
+		clear "Company Foundations: Repair Shuttle Manual Operations: offered"
+		clear "Company Foundations: Repair Shuttle Manual Operations: done"
+		clear "Company Foundations: Repair Shuttle Manual Operations: declined"
+		clear "Company Foundations: Repair Shuttle Managed Operations: failed"
+		clear "Company Foundations: Repair Shuttle Managed Operations: offered"
+		clear "Company Foundations: Repair Shuttle Managed Operations: done"
+		clear "Company Foundations: Repair Shuttle Managed Operations: declined"
+		clear "Company Foundations: Repair Mining Manual Operations: failed"
+		clear "Company Foundations: Repair Mining Manual Operations: offered"
+		clear "Company Foundations: Repair Mining Manual Operations: done"
+		clear "Company Foundations: Repair Mining Manual Operations: declined"
+		clear "Company Foundations: Repair Mining Managed Operations: failed"
+		clear "Company Foundations: Repair Mining Managed Operations: offered"
+		clear "Company Foundations: Repair Mining Managed Operations: done"
+		clear "Company Foundations: Repair Mining Managed Operations: declined"
+		clear "Company Foundations: Repair Trading Manual Operations: failed"
+		clear "Company Foundations: Repair Trading Manual Operations: offered"
+		clear "Company Foundations: Repair Trading Manual Operations: done"
+		clear "Company Foundations: Repair Trading Manual Operations: declined"
+		clear "Company Foundations: Repair Trading Managed Operations: failed"
+		clear "Company Foundations: Repair Trading Managed Operations: offered"
+		clear "Company Foundations: Repair Trading Managed Operations: done"
+		clear "Company Foundations: Repair Trading Managed Operations: declined"
+		clear "Company Foundations: Repair Security Manual Operations: failed"
+		clear "Company Foundations: Repair Security Manual Operations: offered"
+		clear "Company Foundations: Repair Security Manual Operations: done"
+		clear "Company Foundations: Repair Security Manual Operations: declined"
+		clear "Company Foundations: Repair Security Managed Operations: failed"
+		clear "Company Foundations: Repair Security Managed Operations: offered"
+		clear "Company Foundations: Repair Security Managed Operations: done"
+		clear "Company Foundations: Repair Security Managed Operations: declined"
+		clear "Company Foundations: Company Manual Operations: failed"
+		clear "Company Foundations: Company Manual Operations: offered"
+		clear "Company Foundations: Company Manual Operations: done"
+		clear "Company Foundations: Company Manual Operations: declined"
+		clear "Company Foundations: Company Managed Operations: failed"
+		clear "Company Foundations: Company Managed Operations: offered"
+		clear "Company Foundations: Company Managed Operations: done"
+		clear "Company Foundations: Company Managed Operations: declined"
+		clear "cf: manual active"
+		clear "cf: manager active"
+		set "cf: manual pending"
+		set "cf: manager pending"
+		set "cf: operations accounting v3"
+		"cf: audit schema" = 1
+		"cf: audit last day" = "cf: days operated"
+		log "Company Foundations" "Accounting Migration" `Company accounting was migrated to the unified multi-division ledger. Every founded division now advances in the same daily operation, while company overhead is charged once.`
+
+mission "Company Foundations: Repair Company Manual Operations"
+	name "Company Operations Repair"
+	invisible
+	landing
+	repeat
+	to offer
+		has "cf: active"
+		has "cf: manual"
+		has "Company Foundations: Company Manual Operations: failed"
+	on offer
+		clear "Company Foundations: Company Manual Operations: failed"
+		clear "Company Foundations: Company Manual Operations: offered"
+		clear "Company Foundations: Company Manual Operations: done"
+		clear "Company Foundations: Company Manual Operations: declined"
+		clear "Company Foundations: Company Managed Operations: failed"
+		clear "Company Foundations: Company Managed Operations: offered"
+		clear "Company Foundations: Company Managed Operations: done"
+		clear "Company Foundations: Company Managed Operations: declined"
 		clear "cf: manager pending"
 		clear "cf: manager active"
 		clear "cf: managed"
 		clear "cf: manual active"
 		set "cf: manual"
 		set "cf: manual pending"
-		log "Company Foundations" "Operations Repair" `A stale failed shuttle manual operations state was cleared. The company will restart owner-managed daily accounting on the next landing.`
+		log "Company Foundations" "Operations Repair" `A stale failed manual company operations state was cleared. The company will restart owner-managed daily accounting on the next landing.`
 
 		fail
-mission "Company Foundations: Repair Shuttle Managed Operations"
+mission "Company Foundations: Repair Company Managed Operations"
 	name "Company Operations Repair"
 	invisible
 	landing
 	repeat
 	to offer
 		has "cf: active"
-		has "cf: shuttle"
 		has "cf: managed"
-		has "Company Foundations: Shuttle Managed Operations: failed"
+		has "Company Foundations: Company Managed Operations: failed"
 	on offer
-		clear "Company Foundations: Shuttle Manual Operations: failed"
-		clear "Company Foundations: Shuttle Manual Operations: offered"
-		clear "Company Foundations: Shuttle Manual Operations: done"
-		clear "Company Foundations: Shuttle Manual Operations: declined"
-		clear "Company Foundations: Mining Manual Operations: failed"
-		clear "Company Foundations: Mining Manual Operations: offered"
-		clear "Company Foundations: Mining Manual Operations: done"
-		clear "Company Foundations: Mining Manual Operations: declined"
-		clear "Company Foundations: Trading Manual Operations: failed"
-		clear "Company Foundations: Trading Manual Operations: offered"
-		clear "Company Foundations: Trading Manual Operations: done"
-		clear "Company Foundations: Trading Manual Operations: declined"
-		clear "Company Foundations: Security Manual Operations: failed"
-		clear "Company Foundations: Security Manual Operations: offered"
-		clear "Company Foundations: Security Manual Operations: done"
-		clear "Company Foundations: Security Manual Operations: declined"
-		clear "Company Foundations: Shuttle Managed Operations: failed"
-		clear "Company Foundations: Shuttle Managed Operations: offered"
-		clear "Company Foundations: Shuttle Managed Operations: done"
-		clear "Company Foundations: Shuttle Managed Operations: declined"
-		clear "Company Foundations: Mining Managed Operations: failed"
-		clear "Company Foundations: Mining Managed Operations: offered"
-		clear "Company Foundations: Mining Managed Operations: done"
-		clear "Company Foundations: Mining Managed Operations: declined"
-		clear "Company Foundations: Trading Managed Operations: failed"
-		clear "Company Foundations: Trading Managed Operations: offered"
-		clear "Company Foundations: Trading Managed Operations: done"
-		clear "Company Foundations: Trading Managed Operations: declined"
-		clear "Company Foundations: Security Managed Operations: failed"
-		clear "Company Foundations: Security Managed Operations: offered"
-		clear "Company Foundations: Security Managed Operations: done"
-		clear "Company Foundations: Security Managed Operations: declined"
+		clear "Company Foundations: Company Manual Operations: failed"
+		clear "Company Foundations: Company Manual Operations: offered"
+		clear "Company Foundations: Company Manual Operations: done"
+		clear "Company Foundations: Company Manual Operations: declined"
+		clear "Company Foundations: Company Managed Operations: failed"
+		clear "Company Foundations: Company Managed Operations: offered"
+		clear "Company Foundations: Company Managed Operations: done"
+		clear "Company Foundations: Company Managed Operations: declined"
 		clear "cf: manual pending"
 		clear "cf: manual active"
 		clear "cf: manual"
 		clear "cf: manager active"
 		set "cf: managed"
 		set "cf: manager pending"
-		log "Company Foundations" "Operations Repair" `A stale failed shuttle managed operations state was cleared. The company will restart manager-run daily accounting on the next landing.`
-
-		fail
-mission "Company Foundations: Repair Mining Manual Operations"
-	name "Company Operations Repair"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: active"
-		has "cf: mining"
-		has "cf: manual"
-		has "Company Foundations: Mining Manual Operations: failed"
-	on offer
-		clear "Company Foundations: Shuttle Manual Operations: failed"
-		clear "Company Foundations: Shuttle Manual Operations: offered"
-		clear "Company Foundations: Shuttle Manual Operations: done"
-		clear "Company Foundations: Shuttle Manual Operations: declined"
-		clear "Company Foundations: Mining Manual Operations: failed"
-		clear "Company Foundations: Mining Manual Operations: offered"
-		clear "Company Foundations: Mining Manual Operations: done"
-		clear "Company Foundations: Mining Manual Operations: declined"
-		clear "Company Foundations: Trading Manual Operations: failed"
-		clear "Company Foundations: Trading Manual Operations: offered"
-		clear "Company Foundations: Trading Manual Operations: done"
-		clear "Company Foundations: Trading Manual Operations: declined"
-		clear "Company Foundations: Security Manual Operations: failed"
-		clear "Company Foundations: Security Manual Operations: offered"
-		clear "Company Foundations: Security Manual Operations: done"
-		clear "Company Foundations: Security Manual Operations: declined"
-		clear "Company Foundations: Shuttle Managed Operations: failed"
-		clear "Company Foundations: Shuttle Managed Operations: offered"
-		clear "Company Foundations: Shuttle Managed Operations: done"
-		clear "Company Foundations: Shuttle Managed Operations: declined"
-		clear "Company Foundations: Mining Managed Operations: failed"
-		clear "Company Foundations: Mining Managed Operations: offered"
-		clear "Company Foundations: Mining Managed Operations: done"
-		clear "Company Foundations: Mining Managed Operations: declined"
-		clear "Company Foundations: Trading Managed Operations: failed"
-		clear "Company Foundations: Trading Managed Operations: offered"
-		clear "Company Foundations: Trading Managed Operations: done"
-		clear "Company Foundations: Trading Managed Operations: declined"
-		clear "Company Foundations: Security Managed Operations: failed"
-		clear "Company Foundations: Security Managed Operations: offered"
-		clear "Company Foundations: Security Managed Operations: done"
-		clear "Company Foundations: Security Managed Operations: declined"
-		clear "cf: manager pending"
-		clear "cf: manager active"
-		clear "cf: managed"
-		clear "cf: manual active"
-		set "cf: manual"
-		set "cf: manual pending"
-		log "Company Foundations" "Operations Repair" `A stale failed mining manual operations state was cleared. The company will restart owner-managed daily accounting on the next landing.`
-
-		fail
-mission "Company Foundations: Repair Mining Managed Operations"
-	name "Company Operations Repair"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: active"
-		has "cf: mining"
-		has "cf: managed"
-		has "Company Foundations: Mining Managed Operations: failed"
-	on offer
-		clear "Company Foundations: Shuttle Manual Operations: failed"
-		clear "Company Foundations: Shuttle Manual Operations: offered"
-		clear "Company Foundations: Shuttle Manual Operations: done"
-		clear "Company Foundations: Shuttle Manual Operations: declined"
-		clear "Company Foundations: Mining Manual Operations: failed"
-		clear "Company Foundations: Mining Manual Operations: offered"
-		clear "Company Foundations: Mining Manual Operations: done"
-		clear "Company Foundations: Mining Manual Operations: declined"
-		clear "Company Foundations: Trading Manual Operations: failed"
-		clear "Company Foundations: Trading Manual Operations: offered"
-		clear "Company Foundations: Trading Manual Operations: done"
-		clear "Company Foundations: Trading Manual Operations: declined"
-		clear "Company Foundations: Security Manual Operations: failed"
-		clear "Company Foundations: Security Manual Operations: offered"
-		clear "Company Foundations: Security Manual Operations: done"
-		clear "Company Foundations: Security Manual Operations: declined"
-		clear "Company Foundations: Shuttle Managed Operations: failed"
-		clear "Company Foundations: Shuttle Managed Operations: offered"
-		clear "Company Foundations: Shuttle Managed Operations: done"
-		clear "Company Foundations: Shuttle Managed Operations: declined"
-		clear "Company Foundations: Mining Managed Operations: failed"
-		clear "Company Foundations: Mining Managed Operations: offered"
-		clear "Company Foundations: Mining Managed Operations: done"
-		clear "Company Foundations: Mining Managed Operations: declined"
-		clear "Company Foundations: Trading Managed Operations: failed"
-		clear "Company Foundations: Trading Managed Operations: offered"
-		clear "Company Foundations: Trading Managed Operations: done"
-		clear "Company Foundations: Trading Managed Operations: declined"
-		clear "Company Foundations: Security Managed Operations: failed"
-		clear "Company Foundations: Security Managed Operations: offered"
-		clear "Company Foundations: Security Managed Operations: done"
-		clear "Company Foundations: Security Managed Operations: declined"
-		clear "cf: manual pending"
-		clear "cf: manual active"
-		clear "cf: manual"
-		clear "cf: manager active"
-		set "cf: managed"
-		set "cf: manager pending"
-		log "Company Foundations" "Operations Repair" `A stale failed mining managed operations state was cleared. The company will restart manager-run daily accounting on the next landing.`
-
-		fail
-mission "Company Foundations: Repair Trading Manual Operations"
-	name "Company Operations Repair"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: active"
-		has "cf: trading"
-		has "cf: manual"
-		has "Company Foundations: Trading Manual Operations: failed"
-	on offer
-		clear "Company Foundations: Shuttle Manual Operations: failed"
-		clear "Company Foundations: Shuttle Manual Operations: offered"
-		clear "Company Foundations: Shuttle Manual Operations: done"
-		clear "Company Foundations: Shuttle Manual Operations: declined"
-		clear "Company Foundations: Mining Manual Operations: failed"
-		clear "Company Foundations: Mining Manual Operations: offered"
-		clear "Company Foundations: Mining Manual Operations: done"
-		clear "Company Foundations: Mining Manual Operations: declined"
-		clear "Company Foundations: Trading Manual Operations: failed"
-		clear "Company Foundations: Trading Manual Operations: offered"
-		clear "Company Foundations: Trading Manual Operations: done"
-		clear "Company Foundations: Trading Manual Operations: declined"
-		clear "Company Foundations: Security Manual Operations: failed"
-		clear "Company Foundations: Security Manual Operations: offered"
-		clear "Company Foundations: Security Manual Operations: done"
-		clear "Company Foundations: Security Manual Operations: declined"
-		clear "Company Foundations: Shuttle Managed Operations: failed"
-		clear "Company Foundations: Shuttle Managed Operations: offered"
-		clear "Company Foundations: Shuttle Managed Operations: done"
-		clear "Company Foundations: Shuttle Managed Operations: declined"
-		clear "Company Foundations: Mining Managed Operations: failed"
-		clear "Company Foundations: Mining Managed Operations: offered"
-		clear "Company Foundations: Mining Managed Operations: done"
-		clear "Company Foundations: Mining Managed Operations: declined"
-		clear "Company Foundations: Trading Managed Operations: failed"
-		clear "Company Foundations: Trading Managed Operations: offered"
-		clear "Company Foundations: Trading Managed Operations: done"
-		clear "Company Foundations: Trading Managed Operations: declined"
-		clear "Company Foundations: Security Managed Operations: failed"
-		clear "Company Foundations: Security Managed Operations: offered"
-		clear "Company Foundations: Security Managed Operations: done"
-		clear "Company Foundations: Security Managed Operations: declined"
-		clear "cf: manager pending"
-		clear "cf: manager active"
-		clear "cf: managed"
-		clear "cf: manual active"
-		set "cf: manual"
-		set "cf: manual pending"
-		log "Company Foundations" "Operations Repair" `A stale failed trading manual operations state was cleared. The company will restart owner-managed daily accounting on the next landing.`
-
-		fail
-mission "Company Foundations: Repair Trading Managed Operations"
-	name "Company Operations Repair"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: active"
-		has "cf: trading"
-		has "cf: managed"
-		has "Company Foundations: Trading Managed Operations: failed"
-	on offer
-		clear "Company Foundations: Shuttle Manual Operations: failed"
-		clear "Company Foundations: Shuttle Manual Operations: offered"
-		clear "Company Foundations: Shuttle Manual Operations: done"
-		clear "Company Foundations: Shuttle Manual Operations: declined"
-		clear "Company Foundations: Mining Manual Operations: failed"
-		clear "Company Foundations: Mining Manual Operations: offered"
-		clear "Company Foundations: Mining Manual Operations: done"
-		clear "Company Foundations: Mining Manual Operations: declined"
-		clear "Company Foundations: Trading Manual Operations: failed"
-		clear "Company Foundations: Trading Manual Operations: offered"
-		clear "Company Foundations: Trading Manual Operations: done"
-		clear "Company Foundations: Trading Manual Operations: declined"
-		clear "Company Foundations: Security Manual Operations: failed"
-		clear "Company Foundations: Security Manual Operations: offered"
-		clear "Company Foundations: Security Manual Operations: done"
-		clear "Company Foundations: Security Manual Operations: declined"
-		clear "Company Foundations: Shuttle Managed Operations: failed"
-		clear "Company Foundations: Shuttle Managed Operations: offered"
-		clear "Company Foundations: Shuttle Managed Operations: done"
-		clear "Company Foundations: Shuttle Managed Operations: declined"
-		clear "Company Foundations: Mining Managed Operations: failed"
-		clear "Company Foundations: Mining Managed Operations: offered"
-		clear "Company Foundations: Mining Managed Operations: done"
-		clear "Company Foundations: Mining Managed Operations: declined"
-		clear "Company Foundations: Trading Managed Operations: failed"
-		clear "Company Foundations: Trading Managed Operations: offered"
-		clear "Company Foundations: Trading Managed Operations: done"
-		clear "Company Foundations: Trading Managed Operations: declined"
-		clear "Company Foundations: Security Managed Operations: failed"
-		clear "Company Foundations: Security Managed Operations: offered"
-		clear "Company Foundations: Security Managed Operations: done"
-		clear "Company Foundations: Security Managed Operations: declined"
-		clear "cf: manual pending"
-		clear "cf: manual active"
-		clear "cf: manual"
-		clear "cf: manager active"
-		set "cf: managed"
-		set "cf: manager pending"
-		log "Company Foundations" "Operations Repair" `A stale failed trading managed operations state was cleared. The company will restart manager-run daily accounting on the next landing.`
-
-		fail
-mission "Company Foundations: Repair Security Manual Operations"
-	name "Company Operations Repair"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: active"
-		has "cf: security"
-		has "cf: manual"
-		has "Company Foundations: Security Manual Operations: failed"
-	on offer
-		clear "Company Foundations: Shuttle Manual Operations: failed"
-		clear "Company Foundations: Shuttle Manual Operations: offered"
-		clear "Company Foundations: Shuttle Manual Operations: done"
-		clear "Company Foundations: Shuttle Manual Operations: declined"
-		clear "Company Foundations: Mining Manual Operations: failed"
-		clear "Company Foundations: Mining Manual Operations: offered"
-		clear "Company Foundations: Mining Manual Operations: done"
-		clear "Company Foundations: Mining Manual Operations: declined"
-		clear "Company Foundations: Trading Manual Operations: failed"
-		clear "Company Foundations: Trading Manual Operations: offered"
-		clear "Company Foundations: Trading Manual Operations: done"
-		clear "Company Foundations: Trading Manual Operations: declined"
-		clear "Company Foundations: Security Manual Operations: failed"
-		clear "Company Foundations: Security Manual Operations: offered"
-		clear "Company Foundations: Security Manual Operations: done"
-		clear "Company Foundations: Security Manual Operations: declined"
-		clear "Company Foundations: Shuttle Managed Operations: failed"
-		clear "Company Foundations: Shuttle Managed Operations: offered"
-		clear "Company Foundations: Shuttle Managed Operations: done"
-		clear "Company Foundations: Shuttle Managed Operations: declined"
-		clear "Company Foundations: Mining Managed Operations: failed"
-		clear "Company Foundations: Mining Managed Operations: offered"
-		clear "Company Foundations: Mining Managed Operations: done"
-		clear "Company Foundations: Mining Managed Operations: declined"
-		clear "Company Foundations: Trading Managed Operations: failed"
-		clear "Company Foundations: Trading Managed Operations: offered"
-		clear "Company Foundations: Trading Managed Operations: done"
-		clear "Company Foundations: Trading Managed Operations: declined"
-		clear "Company Foundations: Security Managed Operations: failed"
-		clear "Company Foundations: Security Managed Operations: offered"
-		clear "Company Foundations: Security Managed Operations: done"
-		clear "Company Foundations: Security Managed Operations: declined"
-		clear "cf: manager pending"
-		clear "cf: manager active"
-		clear "cf: managed"
-		clear "cf: manual active"
-		set "cf: manual"
-		set "cf: manual pending"
-		log "Company Foundations" "Operations Repair" `A stale failed security manual operations state was cleared. The company will restart owner-managed daily accounting on the next landing.`
-
-		fail
-mission "Company Foundations: Repair Security Managed Operations"
-	name "Company Operations Repair"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: active"
-		has "cf: security"
-		has "cf: managed"
-		has "Company Foundations: Security Managed Operations: failed"
-	on offer
-		clear "Company Foundations: Shuttle Manual Operations: failed"
-		clear "Company Foundations: Shuttle Manual Operations: offered"
-		clear "Company Foundations: Shuttle Manual Operations: done"
-		clear "Company Foundations: Shuttle Manual Operations: declined"
-		clear "Company Foundations: Mining Manual Operations: failed"
-		clear "Company Foundations: Mining Manual Operations: offered"
-		clear "Company Foundations: Mining Manual Operations: done"
-		clear "Company Foundations: Mining Manual Operations: declined"
-		clear "Company Foundations: Trading Manual Operations: failed"
-		clear "Company Foundations: Trading Manual Operations: offered"
-		clear "Company Foundations: Trading Manual Operations: done"
-		clear "Company Foundations: Trading Manual Operations: declined"
-		clear "Company Foundations: Security Manual Operations: failed"
-		clear "Company Foundations: Security Manual Operations: offered"
-		clear "Company Foundations: Security Manual Operations: done"
-		clear "Company Foundations: Security Manual Operations: declined"
-		clear "Company Foundations: Shuttle Managed Operations: failed"
-		clear "Company Foundations: Shuttle Managed Operations: offered"
-		clear "Company Foundations: Shuttle Managed Operations: done"
-		clear "Company Foundations: Shuttle Managed Operations: declined"
-		clear "Company Foundations: Mining Managed Operations: failed"
-		clear "Company Foundations: Mining Managed Operations: offered"
-		clear "Company Foundations: Mining Managed Operations: done"
-		clear "Company Foundations: Mining Managed Operations: declined"
-		clear "Company Foundations: Trading Managed Operations: failed"
-		clear "Company Foundations: Trading Managed Operations: offered"
-		clear "Company Foundations: Trading Managed Operations: done"
-		clear "Company Foundations: Trading Managed Operations: declined"
-		clear "Company Foundations: Security Managed Operations: failed"
-		clear "Company Foundations: Security Managed Operations: offered"
-		clear "Company Foundations: Security Managed Operations: done"
-		clear "Company Foundations: Security Managed Operations: declined"
-		clear "cf: manual pending"
-		clear "cf: manual active"
-		clear "cf: manual"
-		clear "cf: manager active"
-		set "cf: managed"
-		set "cf: manager pending"
-		log "Company Foundations" "Operations Repair" `A stale failed security managed operations state was cleared. The company will restart manager-run daily accounting on the next landing.`
+		log "Company Foundations" "Operations Repair" `A stale failed managed company operations state was cleared. The company will restart manager-run daily accounting on the next landing.`
 
 		fail
 mission "Company Foundations: Enforce AutoPay"
@@ -769,42 +521,15 @@ mission "Company Foundations: Manager Resignation"
 				clear "cf: managed"
 				set "cf: manual"
 				set "cf: manual pending"
-				fail "Company Foundations: Shuttle Managed Operations"
-				fail "Company Foundations: Mining Managed Operations"
-				fail "Company Foundations: Trading Managed Operations"
-				fail "Company Foundations: Security Managed Operations"
-				clear "Company Foundations: Shuttle Manual Operations: failed"
-				clear "Company Foundations: Shuttle Manual Operations: offered"
-				clear "Company Foundations: Shuttle Manual Operations: done"
-				clear "Company Foundations: Shuttle Manual Operations: declined"
-				clear "Company Foundations: Mining Manual Operations: failed"
-				clear "Company Foundations: Mining Manual Operations: offered"
-				clear "Company Foundations: Mining Manual Operations: done"
-				clear "Company Foundations: Mining Manual Operations: declined"
-				clear "Company Foundations: Trading Manual Operations: failed"
-				clear "Company Foundations: Trading Manual Operations: offered"
-				clear "Company Foundations: Trading Manual Operations: done"
-				clear "Company Foundations: Trading Manual Operations: declined"
-				clear "Company Foundations: Security Manual Operations: failed"
-				clear "Company Foundations: Security Manual Operations: offered"
-				clear "Company Foundations: Security Manual Operations: done"
-				clear "Company Foundations: Security Manual Operations: declined"
-				clear "Company Foundations: Shuttle Managed Operations: failed"
-				clear "Company Foundations: Shuttle Managed Operations: offered"
-				clear "Company Foundations: Shuttle Managed Operations: done"
-				clear "Company Foundations: Shuttle Managed Operations: declined"
-				clear "Company Foundations: Mining Managed Operations: failed"
-				clear "Company Foundations: Mining Managed Operations: offered"
-				clear "Company Foundations: Mining Managed Operations: done"
-				clear "Company Foundations: Mining Managed Operations: declined"
-				clear "Company Foundations: Trading Managed Operations: failed"
-				clear "Company Foundations: Trading Managed Operations: offered"
-				clear "Company Foundations: Trading Managed Operations: done"
-				clear "Company Foundations: Trading Managed Operations: declined"
-				clear "Company Foundations: Security Managed Operations: failed"
-				clear "Company Foundations: Security Managed Operations: offered"
-				clear "Company Foundations: Security Managed Operations: done"
-				clear "Company Foundations: Security Managed Operations: declined"
+				fail "Company Foundations: Company Managed Operations"
+				clear "Company Foundations: Company Manual Operations: failed"
+				clear "Company Foundations: Company Manual Operations: offered"
+				clear "Company Foundations: Company Manual Operations: done"
+				clear "Company Foundations: Company Manual Operations: declined"
+				clear "Company Foundations: Company Managed Operations: failed"
+				clear "Company Foundations: Company Managed Operations: offered"
+				clear "Company Foundations: Company Managed Operations: done"
+				clear "Company Foundations: Company Managed Operations: declined"
 			`A terse resignation notice from your operations manager is waiting when you land.`
 			`	After two checked operating days without enough company reserve to cover the 10,000 credit salary, the manager has terminated the contract. The company has reverted to owner-managed operations until you hire a new manager.`
 			choice
@@ -888,13 +613,13 @@ mission "Company Foundations: Monthly Balance Report"
 			`The report is filed. The next monthly report is scheduled for operating day &[number@cf: next report day].`
 				decline
 
-mission "Company Foundations: Shuttle Manual Operations"
-	name "Shuttle Company Operations"
+mission "Company Foundations: Company Manual Operations"
+	name "Company Operations"
 	invisible
 	landing
 	repeat
 	to offer
-		has "cf: shuttle"
+		has "cf: active"
 		has "cf: manual"
 		has "cf: manual pending"
 		not "cf: hq suspended"
@@ -905,7 +630,7 @@ mission "Company Foundations: Shuttle Manual Operations"
 			action
 				clear "cf: manual pending"
 				set "cf: manual active"
-			`Your shuttle company has finished its first operating schedule. Route profit will now be split according to the payout share set at headquarters.`
+			`The company office activates one unified operating ledger. Every founded division will now advance each day, with company overhead charged once before owner payout.`
 				accept
 	on daily
 		"cf: days operated" ++
@@ -960,10 +685,6 @@ mission "Company Foundations: Shuttle Manual Operations"
 		"cf: shuttle day profit" += "cf: shuttle frontier profit"
 		"cf: shuttle route revenue" += "cf: shuttle frontier gross"
 		"cf: shuttle frontier progress" -= "cf: shuttle frontier completed" * 10
-		"cf: last gross" = "cf: shuttle day gross"
-		"cf: last expenses" = "cf: shuttle day expenses"
-		"cf: last net profit" = "cf: shuttle day profit"
-		"cf: manager daily cost" = 0
 		"cf: shuttle last gross" = "cf: shuttle day gross"
 		"cf: shuttle last expenses" = "cf: shuttle day expenses"
 		"cf: shuttle last net" = "cf: shuttle day profit"
@@ -973,6 +694,194 @@ mission "Company Foundations: Shuttle Manual Operations"
 		"cf: shuttle month gross" += "cf: shuttle day gross"
 		"cf: shuttle month expenses" += "cf: shuttle day expenses"
 		"cf: shuttle month net" += "cf: shuttle day profit"
+		"cf: mining day gross" = 0
+		"cf: mining day expenses" = 0
+		"cf: mining day profit" = 0
+		"cf: mining local progress" += "cf: mining local ships"
+		"cf: mining local completed" = "cf: mining local progress" / 3
+		"cf: mining local bonus payout" = "cf: mining local trip payout" * "cf: mining efficiency bonus" / 100
+		"cf: mining local income" = "cf: mining local trip payout" + "cf: mining local bonus payout"
+		"cf: mining local gross" = "cf: mining local completed" * "cf: mining local income"
+		"cf: mining local expenses" = "cf: mining local completed" * "cf: mining local trip expenses"
+		"cf: mining local profit" = "cf: mining local gross" - "cf: mining local expenses"
+		"cf: mining day gross" += "cf: mining local gross"
+		"cf: mining day expenses" += "cf: mining local expenses"
+		"cf: mining day profit" += "cf: mining local profit"
+		"cf: mining revenue" += "cf: mining local gross"
+		"cf: mining local progress" -= "cf: mining local completed" * 3
+		"cf: mining regional progress" += "cf: mining regional ships"
+		"cf: mining regional completed" = "cf: mining regional progress" / 5
+		"cf: mining regional bonus payout" = "cf: mining regional trip payout" * "cf: mining efficiency bonus" / 100
+		"cf: mining regional income" = "cf: mining regional trip payout" + "cf: mining regional bonus payout"
+		"cf: mining regional gross" = "cf: mining regional completed" * "cf: mining regional income"
+		"cf: mining regional expenses" = "cf: mining regional completed" * "cf: mining regional trip expenses"
+		"cf: mining regional profit" = "cf: mining regional gross" - "cf: mining regional expenses"
+		"cf: mining day gross" += "cf: mining regional gross"
+		"cf: mining day expenses" += "cf: mining regional expenses"
+		"cf: mining day profit" += "cf: mining regional profit"
+		"cf: mining revenue" += "cf: mining regional gross"
+		"cf: mining regional progress" -= "cf: mining regional completed" * 5
+		"cf: mining deep progress" += "cf: mining deep ships"
+		"cf: mining deep completed" = "cf: mining deep progress" / 7
+		"cf: mining deep bonus payout" = "cf: mining deep trip payout" * "cf: mining efficiency bonus" / 100
+		"cf: mining deep income" = "cf: mining deep trip payout" + "cf: mining deep bonus payout"
+		"cf: mining deep gross" = "cf: mining deep completed" * "cf: mining deep income"
+		"cf: mining deep expenses" = "cf: mining deep completed" * "cf: mining deep trip expenses"
+		"cf: mining deep profit" = "cf: mining deep gross" - "cf: mining deep expenses"
+		"cf: mining day gross" += "cf: mining deep gross"
+		"cf: mining day expenses" += "cf: mining deep expenses"
+		"cf: mining day profit" += "cf: mining deep profit"
+		"cf: mining revenue" += "cf: mining deep gross"
+		"cf: mining deep progress" -= "cf: mining deep completed" * 7
+		"cf: mining frontier progress" += "cf: mining frontier ships"
+		"cf: mining frontier completed" = "cf: mining frontier progress" / 9
+		"cf: mining frontier bonus payout" = "cf: mining frontier trip payout" * "cf: mining efficiency bonus" / 100
+		"cf: mining frontier income" = "cf: mining frontier trip payout" + "cf: mining frontier bonus payout"
+		"cf: mining frontier gross" = "cf: mining frontier completed" * "cf: mining frontier income"
+		"cf: mining frontier expenses" = "cf: mining frontier completed" * "cf: mining frontier trip expenses"
+		"cf: mining frontier profit" = "cf: mining frontier gross" - "cf: mining frontier expenses"
+		"cf: mining day gross" += "cf: mining frontier gross"
+		"cf: mining day expenses" += "cf: mining frontier expenses"
+		"cf: mining day profit" += "cf: mining frontier profit"
+		"cf: mining revenue" += "cf: mining frontier gross"
+		"cf: mining frontier progress" -= "cf: mining frontier completed" * 9
+		"cf: mining last gross" = "cf: mining day gross"
+		"cf: mining last expenses" = "cf: mining day expenses"
+		"cf: mining last net" = "cf: mining day profit"
+		"cf: mining total gross" += "cf: mining day gross"
+		"cf: mining total expenses" += "cf: mining day expenses"
+		"cf: mining total net" += "cf: mining day profit"
+		"cf: mining month gross" += "cf: mining day gross"
+		"cf: mining month expenses" += "cf: mining day expenses"
+		"cf: mining month net" += "cf: mining day profit"
+		"cf: trading day gross" = 0
+		"cf: trading day expenses" = 0
+		"cf: trading day profit" = 0
+		"cf: trading local progress" += "cf: trading local ships"
+		"cf: trading local completed" = "cf: trading local progress" / 4
+		"cf: trading local gross" = "cf: trading local completed" * "cf: trading local trip payout"
+		"cf: trading local expenses" = "cf: trading local completed" * "cf: trading local trip expenses"
+		"cf: trading local profit" = "cf: trading local gross" - "cf: trading local expenses"
+		"cf: trading day gross" += "cf: trading local gross"
+		"cf: trading day expenses" += "cf: trading local expenses"
+		"cf: trading day profit" += "cf: trading local profit"
+		"cf: trading revenue" += "cf: trading local gross"
+		"cf: trading local progress" -= "cf: trading local completed" * 4
+		"cf: trading regional progress" += "cf: trading regional ships"
+		"cf: trading regional completed" = "cf: trading regional progress" / 6
+		"cf: trading regional gross" = "cf: trading regional completed" * "cf: trading regional trip payout"
+		"cf: trading regional expenses" = "cf: trading regional completed" * "cf: trading regional trip expenses"
+		"cf: trading regional profit" = "cf: trading regional gross" - "cf: trading regional expenses"
+		"cf: trading day gross" += "cf: trading regional gross"
+		"cf: trading day expenses" += "cf: trading regional expenses"
+		"cf: trading day profit" += "cf: trading regional profit"
+		"cf: trading revenue" += "cf: trading regional gross"
+		"cf: trading regional progress" -= "cf: trading regional completed" * 6
+		"cf: trading long progress" += "cf: trading long ships"
+		"cf: trading long completed" = "cf: trading long progress" / 8
+		"cf: trading long gross" = "cf: trading long completed" * "cf: trading long trip payout"
+		"cf: trading long expenses" = "cf: trading long completed" * "cf: trading long trip expenses"
+		"cf: trading long profit" = "cf: trading long gross" - "cf: trading long expenses"
+		"cf: trading day gross" += "cf: trading long gross"
+		"cf: trading day expenses" += "cf: trading long expenses"
+		"cf: trading day profit" += "cf: trading long profit"
+		"cf: trading revenue" += "cf: trading long gross"
+		"cf: trading long progress" -= "cf: trading long completed" * 8
+		"cf: trading frontier progress" += "cf: trading frontier ships"
+		"cf: trading frontier completed" = "cf: trading frontier progress" / 10
+		"cf: trading frontier gross" = "cf: trading frontier completed" * "cf: trading frontier trip payout"
+		"cf: trading frontier expenses" = "cf: trading frontier completed" * "cf: trading frontier trip expenses"
+		"cf: trading frontier profit" = "cf: trading frontier gross" - "cf: trading frontier expenses"
+		"cf: trading day gross" += "cf: trading frontier gross"
+		"cf: trading day expenses" += "cf: trading frontier expenses"
+		"cf: trading day profit" += "cf: trading frontier profit"
+		"cf: trading revenue" += "cf: trading frontier gross"
+		"cf: trading frontier progress" -= "cf: trading frontier completed" * 10
+		"cf: trading last gross" = "cf: trading day gross"
+		"cf: trading last expenses" = "cf: trading day expenses"
+		"cf: trading last net" = "cf: trading day profit"
+		"cf: trading total gross" += "cf: trading day gross"
+		"cf: trading total expenses" += "cf: trading day expenses"
+		"cf: trading total net" += "cf: trading day profit"
+		"cf: trading month gross" += "cf: trading day gross"
+		"cf: trading month expenses" += "cf: trading day expenses"
+		"cf: trading month net" += "cf: trading day profit"
+		"cf: security day gross" = 0
+		"cf: security day expenses" = 0
+		"cf: security day profit" = 0
+		"cf: security local progress" += "cf: security local ships"
+		"cf: security local completed" = "cf: security local progress" / 4
+		"cf: security local gross" = "cf: security local completed" * "cf: security local trip payout"
+		"cf: security local expenses" = "cf: security local completed" * "cf: security local trip expenses"
+		"cf: security local profit" = "cf: security local gross" - "cf: security local expenses"
+		"cf: security day gross" += "cf: security local gross"
+		"cf: security day expenses" += "cf: security local expenses"
+		"cf: security day profit" += "cf: security local profit"
+		"cf: security contract revenue" += "cf: security local gross"
+		"cf: security local progress" -= "cf: security local completed" * 4
+		"cf: security regional progress" += "cf: security regional ships"
+		"cf: security regional completed" = "cf: security regional progress" / 6
+		"cf: security regional gross" = "cf: security regional completed" * "cf: security regional trip payout"
+		"cf: security regional expenses" = "cf: security regional completed" * "cf: security regional trip expenses"
+		"cf: security regional profit" = "cf: security regional gross" - "cf: security regional expenses"
+		"cf: security day gross" += "cf: security regional gross"
+		"cf: security day expenses" += "cf: security regional expenses"
+		"cf: security day profit" += "cf: security regional profit"
+		"cf: security contract revenue" += "cf: security regional gross"
+		"cf: security regional progress" -= "cf: security regional completed" * 6
+		"cf: security long progress" += "cf: security long ships"
+		"cf: security long completed" = "cf: security long progress" / 8
+		"cf: security long gross" = "cf: security long completed" * "cf: security long trip payout"
+		"cf: security long expenses" = "cf: security long completed" * "cf: security long trip expenses"
+		"cf: security long profit" = "cf: security long gross" - "cf: security long expenses"
+		"cf: security day gross" += "cf: security long gross"
+		"cf: security day expenses" += "cf: security long expenses"
+		"cf: security day profit" += "cf: security long profit"
+		"cf: security contract revenue" += "cf: security long gross"
+		"cf: security long progress" -= "cf: security long completed" * 8
+		"cf: security frontier progress" += "cf: security frontier ships"
+		"cf: security frontier completed" = "cf: security frontier progress" / 10
+		"cf: security frontier gross" = "cf: security frontier completed" * "cf: security frontier trip payout"
+		"cf: security frontier expenses" = "cf: security frontier completed" * "cf: security frontier trip expenses"
+		"cf: security frontier profit" = "cf: security frontier gross" - "cf: security frontier expenses"
+		"cf: security day gross" += "cf: security frontier gross"
+		"cf: security day expenses" += "cf: security frontier expenses"
+		"cf: security day profit" += "cf: security frontier profit"
+		"cf: security contract revenue" += "cf: security frontier gross"
+		"cf: security frontier progress" -= "cf: security frontier completed" * 10
+		"cf: security admiral cost" = "cf: security admiral" * 5000
+		"cf: admiral travel days" --
+		"cf: admiral travel days" >?= 0
+		"cf: security day gross" += "cf: admiral tribute income"
+		"cf: admiral tribute revenue" += "cf: admiral tribute income"
+		"cf: security day expenses" += "cf: admiral daily crew"
+		"cf: security day expenses" += "cf: security admiral cost"
+		"cf: security day profit" += "cf: admiral tribute income"
+		"cf: security day profit" -= "cf: admiral daily crew"
+		"cf: security day profit" -= "cf: security admiral cost"
+		"cf: security admiral costs" += "cf: security admiral cost"
+		"cf: security last gross" = "cf: security day gross"
+		"cf: security last expenses" = "cf: security day expenses"
+		"cf: security last net" = "cf: security day profit"
+		"cf: security total gross" += "cf: security day gross"
+		"cf: security total expenses" += "cf: security day expenses"
+		"cf: security total net" += "cf: security day profit"
+		"cf: security month gross" += "cf: security day gross"
+		"cf: security month expenses" += "cf: security day expenses"
+		"cf: security month net" += "cf: security day profit"
+		"cf: last gross" = "cf: shuttle day gross"
+		"cf: last gross" += "cf: mining day gross"
+		"cf: last gross" += "cf: trading day gross"
+		"cf: last gross" += "cf: security day gross"
+		"cf: last expenses" = "cf: shuttle day expenses"
+		"cf: last expenses" += "cf: mining day expenses"
+		"cf: last expenses" += "cf: trading day expenses"
+		"cf: last expenses" += "cf: security day expenses"
+		"cf: last net profit" = "cf: shuttle day profit"
+		"cf: last net profit" += "cf: mining day profit"
+		"cf: last net profit" += "cf: trading day profit"
+		"cf: last net profit" += "cf: security day profit"
+		"cf: manager daily cost" = 0
 		"cf: worker staff" = 0
 		"cf: worker staff" += "cf: shuttle local daily crew" / 100
 		"cf: worker staff" += "cf: shuttle regional daily crew" / 100
@@ -1048,524 +957,36 @@ mission "Company Foundations: Shuttle Manual Operations"
 		"cf: unallocated net" += "cf: last net profit"
 		"cf: total gross" += "cf: shuttle day gross"
 		"cf: total operating expenses" += "cf: shuttle day expenses"
-		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" += "cf: shuttle day profit"
-		"cf: total net profit" -= "cf: hq daily tax"
-		"cf: total retained earnings" += "cf: last retained earnings"
 		"cf: month gross" += "cf: shuttle day gross"
-		"cf: month expenses" += "cf: last expenses"
-		"cf: month net profit" += "cf: last net profit"
-		"cf: month retained earnings" += "cf: last retained earnings"
-
-mission "Company Foundations: Mining Manual Operations"
-	name "Mining Company Operations"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: mining"
-		has "cf: manual"
-		has "cf: manual pending"
-		not "cf: hq suspended"
-	to complete
-		never
-	on offer
-		conversation
-			action
-				clear "cf: manual pending"
-				set "cf: manual active"
-			`Your mining company has finished its first operating schedule. Claim profit will now be split according to the payout share set at headquarters.`
-				accept
-	on daily
-		"cf: days operated" ++
-		"cf: mining day gross" = 0
-		"cf: mining day expenses" = 0
-		"cf: mining day profit" = 0
-		"cf: mining local progress" += "cf: mining local ships"
-		"cf: mining local completed" = "cf: mining local progress" / 3
-		"cf: mining local bonus payout" = "cf: mining local trip payout" * "cf: mining efficiency bonus" / 100
-		"cf: mining local income" = "cf: mining local trip payout" + "cf: mining local bonus payout"
-		"cf: mining local gross" = "cf: mining local completed" * "cf: mining local income"
-		"cf: mining local expenses" = "cf: mining local completed" * "cf: mining local trip expenses"
-		"cf: mining local profit" = "cf: mining local gross" - "cf: mining local expenses"
-		"cf: mining day gross" += "cf: mining local gross"
-		"cf: mining day expenses" += "cf: mining local expenses"
-		"cf: mining day profit" += "cf: mining local profit"
-		"cf: mining revenue" += "cf: mining local gross"
-		"cf: mining local progress" -= "cf: mining local completed" * 3
-		"cf: mining regional progress" += "cf: mining regional ships"
-		"cf: mining regional completed" = "cf: mining regional progress" / 5
-		"cf: mining regional bonus payout" = "cf: mining regional trip payout" * "cf: mining efficiency bonus" / 100
-		"cf: mining regional income" = "cf: mining regional trip payout" + "cf: mining regional bonus payout"
-		"cf: mining regional gross" = "cf: mining regional completed" * "cf: mining regional income"
-		"cf: mining regional expenses" = "cf: mining regional completed" * "cf: mining regional trip expenses"
-		"cf: mining regional profit" = "cf: mining regional gross" - "cf: mining regional expenses"
-		"cf: mining day gross" += "cf: mining regional gross"
-		"cf: mining day expenses" += "cf: mining regional expenses"
-		"cf: mining day profit" += "cf: mining regional profit"
-		"cf: mining revenue" += "cf: mining regional gross"
-		"cf: mining regional progress" -= "cf: mining regional completed" * 5
-		"cf: mining deep progress" += "cf: mining deep ships"
-		"cf: mining deep completed" = "cf: mining deep progress" / 7
-		"cf: mining deep bonus payout" = "cf: mining deep trip payout" * "cf: mining efficiency bonus" / 100
-		"cf: mining deep income" = "cf: mining deep trip payout" + "cf: mining deep bonus payout"
-		"cf: mining deep gross" = "cf: mining deep completed" * "cf: mining deep income"
-		"cf: mining deep expenses" = "cf: mining deep completed" * "cf: mining deep trip expenses"
-		"cf: mining deep profit" = "cf: mining deep gross" - "cf: mining deep expenses"
-		"cf: mining day gross" += "cf: mining deep gross"
-		"cf: mining day expenses" += "cf: mining deep expenses"
-		"cf: mining day profit" += "cf: mining deep profit"
-		"cf: mining revenue" += "cf: mining deep gross"
-		"cf: mining deep progress" -= "cf: mining deep completed" * 7
-		"cf: mining frontier progress" += "cf: mining frontier ships"
-		"cf: mining frontier completed" = "cf: mining frontier progress" / 9
-		"cf: mining frontier bonus payout" = "cf: mining frontier trip payout" * "cf: mining efficiency bonus" / 100
-		"cf: mining frontier income" = "cf: mining frontier trip payout" + "cf: mining frontier bonus payout"
-		"cf: mining frontier gross" = "cf: mining frontier completed" * "cf: mining frontier income"
-		"cf: mining frontier expenses" = "cf: mining frontier completed" * "cf: mining frontier trip expenses"
-		"cf: mining frontier profit" = "cf: mining frontier gross" - "cf: mining frontier expenses"
-		"cf: mining day gross" += "cf: mining frontier gross"
-		"cf: mining day expenses" += "cf: mining frontier expenses"
-		"cf: mining day profit" += "cf: mining frontier profit"
-		"cf: mining revenue" += "cf: mining frontier gross"
-		"cf: mining frontier progress" -= "cf: mining frontier completed" * 9
-		"cf: last gross" = "cf: mining day gross"
-		"cf: last expenses" = "cf: mining day expenses"
-		"cf: last net profit" = "cf: mining day profit"
-		"cf: manager daily cost" = 0
-		"cf: mining last gross" = "cf: mining day gross"
-		"cf: mining last expenses" = "cf: mining day expenses"
-		"cf: mining last net" = "cf: mining day profit"
-		"cf: mining total gross" += "cf: mining day gross"
-		"cf: mining total expenses" += "cf: mining day expenses"
-		"cf: mining total net" += "cf: mining day profit"
-		"cf: mining month gross" += "cf: mining day gross"
-		"cf: mining month expenses" += "cf: mining day expenses"
-		"cf: mining month net" += "cf: mining day profit"
-		"cf: worker staff" = 0
-		"cf: worker staff" += "cf: shuttle local daily crew" / 100
-		"cf: worker staff" += "cf: shuttle regional daily crew" / 100
-		"cf: worker staff" += "cf: shuttle long daily crew" / 100
-		"cf: worker staff" += "cf: shuttle frontier daily crew" / 100
-		"cf: worker staff" += "cf: mining local daily crew" / 100
-		"cf: worker staff" += "cf: mining regional daily crew" / 100
-		"cf: worker staff" += "cf: mining deep daily crew" / 100
-		"cf: worker staff" += "cf: mining frontier daily crew" / 100
-		"cf: worker staff" += "cf: trading local daily crew" / 100
-		"cf: worker staff" += "cf: trading regional daily crew" / 100
-		"cf: worker staff" += "cf: trading long daily crew" / 100
-		"cf: worker staff" += "cf: trading frontier daily crew" / 100
-		"cf: worker staff" += "cf: security local daily crew" / 100
-		"cf: worker staff" += "cf: security regional daily crew" / 100
-		"cf: worker staff" += "cf: security long daily crew" / 100
-		"cf: worker staff" += "cf: security frontier daily crew" / 100
-		"cf: worker staff" += "cf: admiral daily crew" / 100
-		"cf: worker staff" += "cf: station crew"
-		"cf: office staff" = "cf: worker staff"
-		"cf: office staff" -= 1
-		"cf: office staff" >?= 0
-		"cf: office staff" /= 2
-		"cf: specialist staff" = 0
-		"cf: specialist staff" += "cf: trading local trader"
-		"cf: specialist staff" += "cf: trading regional trader"
-		"cf: specialist staff" += "cf: trading long trader"
-		"cf: specialist staff" += "cf: trading frontier trader"
-		"cf: specialist staff" += "cf: managed"
-		"cf: specialist staff" += "cf: security admiral"
-		"cf: total staff" = "cf: worker staff"
-		"cf: total staff" += "cf: office staff"
-		"cf: total staff" += "cf: specialist staff"
-		"cf: office daily cost" = "cf: office staff" * 100
-		"cf: employee tax" = "cf: total staff" * 5
-		"cf: employee tax" += "cf: total staff" / 5 * 20
-		"cf: employee tax" += "cf: total staff" / 10 * 40
-		"cf: employee tax" += "cf: total staff" / 20 * 100
-		"cf: employee tax" += "cf: total staff" / 50 * 250
-		"cf: employee tax" += "cf: total staff" / 100 * 600
-		"cf: employee tax" += "cf: total staff" / 500 * 4000
-		"cf: employee tax" += "cf: total staff" / 1000 * 10000
-		"cf: hq daily tax" = "cf: hq base tax"
-		"cf: hq daily tax" += "cf: employee tax"
-		"cf: hq daily tax" -= "cf: hq tax relief"
-		"cf: hq daily tax" >?= 0
-		"cf: last expenses" += "cf: office daily cost"
-		"cf: last net profit" -= "cf: office daily cost"
-		"cf: total operating expenses" += "cf: office daily cost"
-		"cf: total office staff costs" += "cf: office daily cost"
-		"cf: total net profit" -= "cf: office daily cost"
-		"cf: month office staff costs" += "cf: office daily cost"
-		"cf: last gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: station daily upkeep"
-		"cf: last net profit" += "cf: station daily income"
-		"cf: last net profit" -= "cf: station daily upkeep"
-		"cf: total station revenue" += "cf: station daily income"
-		"cf: total station upkeep" += "cf: station daily upkeep"
-		"cf: total gross" += "cf: station daily income"
-		"cf: total operating expenses" += "cf: station daily upkeep"
-		"cf: total net profit" += "cf: station daily income"
-		"cf: total net profit" -= "cf: station daily upkeep"
-		"cf: month station revenue" += "cf: station daily income"
-		"cf: month station upkeep" += "cf: station daily upkeep"
-		"cf: month gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: hq daily tax"
-		"cf: last net profit" -= "cf: hq daily tax"
-		"cf: total tax paid" += "cf: hq daily tax"
-		"cf: month tax paid" += "cf: hq daily tax"
-		"cf: last owner payout" = 0
-		"cf: last retained earnings" = "cf: last net profit"
-		"cf: reserve" += "cf: last retained earnings"
-		"cf: unallocated net" += "cf: last net profit"
 		"cf: total gross" += "cf: mining day gross"
 		"cf: total operating expenses" += "cf: mining day expenses"
-		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" += "cf: mining day profit"
-		"cf: total net profit" -= "cf: hq daily tax"
-		"cf: total retained earnings" += "cf: last retained earnings"
 		"cf: month gross" += "cf: mining day gross"
-		"cf: month expenses" += "cf: last expenses"
-		"cf: month net profit" += "cf: last net profit"
-		"cf: month retained earnings" += "cf: last retained earnings"
-
-mission "Company Foundations: Trading Manual Operations"
-	name "Trading Company Operations"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: trading"
-		has "cf: manual"
-		has "cf: manual pending"
-		not "cf: hq suspended"
-	to complete
-		never
-	on offer
-		conversation
-			action
-				clear "cf: manual pending"
-				set "cf: manual active"
-			`Your trading company has finished its first operating schedule. Operating profit will now be split according to the payout share set at headquarters.`
-				accept
-	on daily
-		"cf: days operated" ++
-		"cf: trading day gross" = 0
-		"cf: trading day expenses" = 0
-		"cf: trading day profit" = 0
-		"cf: trading local progress" += "cf: trading local ships"
-		"cf: trading local completed" = "cf: trading local progress" / 4
-		"cf: trading local gross" = "cf: trading local completed" * "cf: trading local trip payout"
-		"cf: trading local expenses" = "cf: trading local completed" * "cf: trading local trip expenses"
-		"cf: trading local profit" = "cf: trading local gross" - "cf: trading local expenses"
-		"cf: trading day gross" += "cf: trading local gross"
-		"cf: trading day expenses" += "cf: trading local expenses"
-		"cf: trading day profit" += "cf: trading local profit"
-		"cf: trading revenue" += "cf: trading local gross"
-		"cf: trading local progress" -= "cf: trading local completed" * 4
-		"cf: trading regional progress" += "cf: trading regional ships"
-		"cf: trading regional completed" = "cf: trading regional progress" / 6
-		"cf: trading regional gross" = "cf: trading regional completed" * "cf: trading regional trip payout"
-		"cf: trading regional expenses" = "cf: trading regional completed" * "cf: trading regional trip expenses"
-		"cf: trading regional profit" = "cf: trading regional gross" - "cf: trading regional expenses"
-		"cf: trading day gross" += "cf: trading regional gross"
-		"cf: trading day expenses" += "cf: trading regional expenses"
-		"cf: trading day profit" += "cf: trading regional profit"
-		"cf: trading revenue" += "cf: trading regional gross"
-		"cf: trading regional progress" -= "cf: trading regional completed" * 6
-		"cf: trading long progress" += "cf: trading long ships"
-		"cf: trading long completed" = "cf: trading long progress" / 8
-		"cf: trading long gross" = "cf: trading long completed" * "cf: trading long trip payout"
-		"cf: trading long expenses" = "cf: trading long completed" * "cf: trading long trip expenses"
-		"cf: trading long profit" = "cf: trading long gross" - "cf: trading long expenses"
-		"cf: trading day gross" += "cf: trading long gross"
-		"cf: trading day expenses" += "cf: trading long expenses"
-		"cf: trading day profit" += "cf: trading long profit"
-		"cf: trading revenue" += "cf: trading long gross"
-		"cf: trading long progress" -= "cf: trading long completed" * 8
-		"cf: trading frontier progress" += "cf: trading frontier ships"
-		"cf: trading frontier completed" = "cf: trading frontier progress" / 10
-		"cf: trading frontier gross" = "cf: trading frontier completed" * "cf: trading frontier trip payout"
-		"cf: trading frontier expenses" = "cf: trading frontier completed" * "cf: trading frontier trip expenses"
-		"cf: trading frontier profit" = "cf: trading frontier gross" - "cf: trading frontier expenses"
-		"cf: trading day gross" += "cf: trading frontier gross"
-		"cf: trading day expenses" += "cf: trading frontier expenses"
-		"cf: trading day profit" += "cf: trading frontier profit"
-		"cf: trading revenue" += "cf: trading frontier gross"
-		"cf: trading frontier progress" -= "cf: trading frontier completed" * 10
-		"cf: last gross" = "cf: trading day gross"
-		"cf: last expenses" = "cf: trading day expenses"
-		"cf: last net profit" = "cf: trading day profit"
-		"cf: manager daily cost" = 0
-		"cf: trading last gross" = "cf: trading day gross"
-		"cf: trading last expenses" = "cf: trading day expenses"
-		"cf: trading last net" = "cf: trading day profit"
-		"cf: trading total gross" += "cf: trading day gross"
-		"cf: trading total expenses" += "cf: trading day expenses"
-		"cf: trading total net" += "cf: trading day profit"
-		"cf: trading month gross" += "cf: trading day gross"
-		"cf: trading month expenses" += "cf: trading day expenses"
-		"cf: trading month net" += "cf: trading day profit"
-		"cf: worker staff" = 0
-		"cf: worker staff" += "cf: shuttle local daily crew" / 100
-		"cf: worker staff" += "cf: shuttle regional daily crew" / 100
-		"cf: worker staff" += "cf: shuttle long daily crew" / 100
-		"cf: worker staff" += "cf: shuttle frontier daily crew" / 100
-		"cf: worker staff" += "cf: mining local daily crew" / 100
-		"cf: worker staff" += "cf: mining regional daily crew" / 100
-		"cf: worker staff" += "cf: mining deep daily crew" / 100
-		"cf: worker staff" += "cf: mining frontier daily crew" / 100
-		"cf: worker staff" += "cf: trading local daily crew" / 100
-		"cf: worker staff" += "cf: trading regional daily crew" / 100
-		"cf: worker staff" += "cf: trading long daily crew" / 100
-		"cf: worker staff" += "cf: trading frontier daily crew" / 100
-		"cf: worker staff" += "cf: security local daily crew" / 100
-		"cf: worker staff" += "cf: security regional daily crew" / 100
-		"cf: worker staff" += "cf: security long daily crew" / 100
-		"cf: worker staff" += "cf: security frontier daily crew" / 100
-		"cf: worker staff" += "cf: admiral daily crew" / 100
-		"cf: worker staff" += "cf: station crew"
-		"cf: office staff" = "cf: worker staff"
-		"cf: office staff" -= 1
-		"cf: office staff" >?= 0
-		"cf: office staff" /= 2
-		"cf: specialist staff" = 0
-		"cf: specialist staff" += "cf: trading local trader"
-		"cf: specialist staff" += "cf: trading regional trader"
-		"cf: specialist staff" += "cf: trading long trader"
-		"cf: specialist staff" += "cf: trading frontier trader"
-		"cf: specialist staff" += "cf: managed"
-		"cf: specialist staff" += "cf: security admiral"
-		"cf: total staff" = "cf: worker staff"
-		"cf: total staff" += "cf: office staff"
-		"cf: total staff" += "cf: specialist staff"
-		"cf: office daily cost" = "cf: office staff" * 100
-		"cf: employee tax" = "cf: total staff" * 5
-		"cf: employee tax" += "cf: total staff" / 5 * 20
-		"cf: employee tax" += "cf: total staff" / 10 * 40
-		"cf: employee tax" += "cf: total staff" / 20 * 100
-		"cf: employee tax" += "cf: total staff" / 50 * 250
-		"cf: employee tax" += "cf: total staff" / 100 * 600
-		"cf: employee tax" += "cf: total staff" / 500 * 4000
-		"cf: employee tax" += "cf: total staff" / 1000 * 10000
-		"cf: hq daily tax" = "cf: hq base tax"
-		"cf: hq daily tax" += "cf: employee tax"
-		"cf: hq daily tax" -= "cf: hq tax relief"
-		"cf: hq daily tax" >?= 0
-		"cf: last expenses" += "cf: office daily cost"
-		"cf: last net profit" -= "cf: office daily cost"
-		"cf: total operating expenses" += "cf: office daily cost"
-		"cf: total office staff costs" += "cf: office daily cost"
-		"cf: total net profit" -= "cf: office daily cost"
-		"cf: month office staff costs" += "cf: office daily cost"
-		"cf: last gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: station daily upkeep"
-		"cf: last net profit" += "cf: station daily income"
-		"cf: last net profit" -= "cf: station daily upkeep"
-		"cf: total station revenue" += "cf: station daily income"
-		"cf: total station upkeep" += "cf: station daily upkeep"
-		"cf: total gross" += "cf: station daily income"
-		"cf: total operating expenses" += "cf: station daily upkeep"
-		"cf: total net profit" += "cf: station daily income"
-		"cf: total net profit" -= "cf: station daily upkeep"
-		"cf: month station revenue" += "cf: station daily income"
-		"cf: month station upkeep" += "cf: station daily upkeep"
-		"cf: month gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: hq daily tax"
-		"cf: last net profit" -= "cf: hq daily tax"
-		"cf: total tax paid" += "cf: hq daily tax"
-		"cf: month tax paid" += "cf: hq daily tax"
-		"cf: last owner payout" = 0
-		"cf: last retained earnings" = "cf: last net profit"
-		"cf: reserve" += "cf: last retained earnings"
-		"cf: unallocated net" += "cf: last net profit"
 		"cf: total gross" += "cf: trading day gross"
 		"cf: total operating expenses" += "cf: trading day expenses"
-		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" += "cf: trading day profit"
-		"cf: total net profit" -= "cf: hq daily tax"
-		"cf: total retained earnings" += "cf: last retained earnings"
 		"cf: month gross" += "cf: trading day gross"
-		"cf: month expenses" += "cf: last expenses"
-		"cf: month net profit" += "cf: last net profit"
-		"cf: month retained earnings" += "cf: last retained earnings"
-
-mission "Company Foundations: Security Manual Operations"
-	name "Security Company Operations"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: security"
-		has "cf: manual"
-		has "cf: manual pending"
-		not "cf: hq suspended"
-	to complete
-		never
-	on offer
-		conversation
-			action
-				clear "cf: manual pending"
-				set "cf: manual active"
-			`Your security company has finished its first operating schedule. Operating profit will now be split according to the payout share set at headquarters.`
-				accept
-	on daily
-		"cf: days operated" ++
-		"cf: security day gross" = 0
-		"cf: security day expenses" = 0
-		"cf: security day profit" = 0
-		"cf: security local progress" += "cf: security local ships"
-		"cf: security local completed" = "cf: security local progress" / 4
-		"cf: security local gross" = "cf: security local completed" * "cf: security local trip payout"
-		"cf: security local expenses" = "cf: security local completed" * "cf: security local trip expenses"
-		"cf: security local profit" = "cf: security local gross" - "cf: security local expenses"
-		"cf: security day gross" += "cf: security local gross"
-		"cf: security day expenses" += "cf: security local expenses"
-		"cf: security day profit" += "cf: security local profit"
-		"cf: security contract revenue" += "cf: security local gross"
-		"cf: security local progress" -= "cf: security local completed" * 4
-		"cf: security regional progress" += "cf: security regional ships"
-		"cf: security regional completed" = "cf: security regional progress" / 6
-		"cf: security regional gross" = "cf: security regional completed" * "cf: security regional trip payout"
-		"cf: security regional expenses" = "cf: security regional completed" * "cf: security regional trip expenses"
-		"cf: security regional profit" = "cf: security regional gross" - "cf: security regional expenses"
-		"cf: security day gross" += "cf: security regional gross"
-		"cf: security day expenses" += "cf: security regional expenses"
-		"cf: security day profit" += "cf: security regional profit"
-		"cf: security contract revenue" += "cf: security regional gross"
-		"cf: security regional progress" -= "cf: security regional completed" * 6
-		"cf: security long progress" += "cf: security long ships"
-		"cf: security long completed" = "cf: security long progress" / 8
-		"cf: security long gross" = "cf: security long completed" * "cf: security long trip payout"
-		"cf: security long expenses" = "cf: security long completed" * "cf: security long trip expenses"
-		"cf: security long profit" = "cf: security long gross" - "cf: security long expenses"
-		"cf: security day gross" += "cf: security long gross"
-		"cf: security day expenses" += "cf: security long expenses"
-		"cf: security day profit" += "cf: security long profit"
-		"cf: security contract revenue" += "cf: security long gross"
-		"cf: security long progress" -= "cf: security long completed" * 8
-		"cf: security frontier progress" += "cf: security frontier ships"
-		"cf: security frontier completed" = "cf: security frontier progress" / 10
-		"cf: security frontier gross" = "cf: security frontier completed" * "cf: security frontier trip payout"
-		"cf: security frontier expenses" = "cf: security frontier completed" * "cf: security frontier trip expenses"
-		"cf: security frontier profit" = "cf: security frontier gross" - "cf: security frontier expenses"
-		"cf: security day gross" += "cf: security frontier gross"
-		"cf: security day expenses" += "cf: security frontier expenses"
-		"cf: security day profit" += "cf: security frontier profit"
-		"cf: security contract revenue" += "cf: security frontier gross"
-		"cf: security frontier progress" -= "cf: security frontier completed" * 10
-		"cf: security admiral cost" = "cf: security admiral" * 20000
-		"cf: admiral travel days" --
-		"cf: admiral travel days" >?= 0
-		"cf: security day gross" += "cf: admiral tribute income"
-		"cf: admiral tribute revenue" += "cf: admiral tribute income"
-		"cf: security day expenses" += "cf: admiral daily crew"
-		"cf: security day expenses" += "cf: security admiral cost"
-		"cf: security day profit" += "cf: admiral tribute income"
-		"cf: security day profit" -= "cf: admiral daily crew"
-		"cf: security day profit" -= "cf: security admiral cost"
-		"cf: last gross" = "cf: security day gross"
-		"cf: last expenses" = "cf: security day expenses"
-		"cf: last net profit" = "cf: security day profit"
-		"cf: manager daily cost" = 0
-		"cf: security last gross" = "cf: security day gross"
-		"cf: security last expenses" = "cf: security day expenses"
-		"cf: security last net" = "cf: security day profit"
-		"cf: security total gross" += "cf: security day gross"
-		"cf: security total expenses" += "cf: security day expenses"
-		"cf: security total net" += "cf: security day profit"
-		"cf: security month gross" += "cf: security day gross"
-		"cf: security month expenses" += "cf: security day expenses"
-		"cf: security month net" += "cf: security day profit"
-		"cf: security admiral costs" += "cf: security admiral cost"
-		"cf: worker staff" = 0
-		"cf: worker staff" += "cf: shuttle local daily crew" / 100
-		"cf: worker staff" += "cf: shuttle regional daily crew" / 100
-		"cf: worker staff" += "cf: shuttle long daily crew" / 100
-		"cf: worker staff" += "cf: shuttle frontier daily crew" / 100
-		"cf: worker staff" += "cf: mining local daily crew" / 100
-		"cf: worker staff" += "cf: mining regional daily crew" / 100
-		"cf: worker staff" += "cf: mining deep daily crew" / 100
-		"cf: worker staff" += "cf: mining frontier daily crew" / 100
-		"cf: worker staff" += "cf: trading local daily crew" / 100
-		"cf: worker staff" += "cf: trading regional daily crew" / 100
-		"cf: worker staff" += "cf: trading long daily crew" / 100
-		"cf: worker staff" += "cf: trading frontier daily crew" / 100
-		"cf: worker staff" += "cf: security local daily crew" / 100
-		"cf: worker staff" += "cf: security regional daily crew" / 100
-		"cf: worker staff" += "cf: security long daily crew" / 100
-		"cf: worker staff" += "cf: security frontier daily crew" / 100
-		"cf: worker staff" += "cf: admiral daily crew" / 100
-		"cf: worker staff" += "cf: station crew"
-		"cf: office staff" = "cf: worker staff"
-		"cf: office staff" -= 1
-		"cf: office staff" >?= 0
-		"cf: office staff" /= 2
-		"cf: specialist staff" = 0
-		"cf: specialist staff" += "cf: trading local trader"
-		"cf: specialist staff" += "cf: trading regional trader"
-		"cf: specialist staff" += "cf: trading long trader"
-		"cf: specialist staff" += "cf: trading frontier trader"
-		"cf: specialist staff" += "cf: managed"
-		"cf: specialist staff" += "cf: security admiral"
-		"cf: total staff" = "cf: worker staff"
-		"cf: total staff" += "cf: office staff"
-		"cf: total staff" += "cf: specialist staff"
-		"cf: office daily cost" = "cf: office staff" * 100
-		"cf: employee tax" = "cf: total staff" * 5
-		"cf: employee tax" += "cf: total staff" / 5 * 20
-		"cf: employee tax" += "cf: total staff" / 10 * 40
-		"cf: employee tax" += "cf: total staff" / 20 * 100
-		"cf: employee tax" += "cf: total staff" / 50 * 250
-		"cf: employee tax" += "cf: total staff" / 100 * 600
-		"cf: employee tax" += "cf: total staff" / 500 * 4000
-		"cf: employee tax" += "cf: total staff" / 1000 * 10000
-		"cf: hq daily tax" = "cf: hq base tax"
-		"cf: hq daily tax" += "cf: employee tax"
-		"cf: hq daily tax" -= "cf: hq tax relief"
-		"cf: hq daily tax" >?= 0
-		"cf: last expenses" += "cf: office daily cost"
-		"cf: last net profit" -= "cf: office daily cost"
-		"cf: total operating expenses" += "cf: office daily cost"
-		"cf: total office staff costs" += "cf: office daily cost"
-		"cf: total net profit" -= "cf: office daily cost"
-		"cf: month office staff costs" += "cf: office daily cost"
-		"cf: last gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: station daily upkeep"
-		"cf: last net profit" += "cf: station daily income"
-		"cf: last net profit" -= "cf: station daily upkeep"
-		"cf: total station revenue" += "cf: station daily income"
-		"cf: total station upkeep" += "cf: station daily upkeep"
-		"cf: total gross" += "cf: station daily income"
-		"cf: total operating expenses" += "cf: station daily upkeep"
-		"cf: total net profit" += "cf: station daily income"
-		"cf: total net profit" -= "cf: station daily upkeep"
-		"cf: month station revenue" += "cf: station daily income"
-		"cf: month station upkeep" += "cf: station daily upkeep"
-		"cf: month gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: hq daily tax"
-		"cf: last net profit" -= "cf: hq daily tax"
-		"cf: total tax paid" += "cf: hq daily tax"
-		"cf: month tax paid" += "cf: hq daily tax"
-		"cf: last owner payout" = 0
-		"cf: last retained earnings" = "cf: last net profit"
-		"cf: reserve" += "cf: last retained earnings"
-		"cf: unallocated net" += "cf: last net profit"
 		"cf: total gross" += "cf: security day gross"
 		"cf: total operating expenses" += "cf: security day expenses"
-		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" += "cf: security day profit"
+		"cf: month gross" += "cf: security day gross"
+		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" -= "cf: hq daily tax"
 		"cf: total retained earnings" += "cf: last retained earnings"
-		"cf: month gross" += "cf: security day gross"
 		"cf: month expenses" += "cf: last expenses"
 		"cf: month net profit" += "cf: last net profit"
 		"cf: month retained earnings" += "cf: last retained earnings"
+		"cf: audit sequence" ++
+		"cf: audit last day" = "cf: days operated"
 
-mission "Company Foundations: Shuttle Managed Operations"
-	name "Shuttle Manager Operations"
+mission "Company Foundations: Company Managed Operations"
+	name "Managed Company Operations"
 	invisible
 	landing
 	repeat
 	to offer
-		has "cf: shuttle"
+		has "cf: active"
 		has "cf: managed"
 		has "cf: manager pending"
 		not "cf: hq suspended"
@@ -1576,7 +997,7 @@ mission "Company Foundations: Shuttle Managed Operations"
 			action
 				clear "cf: manager pending"
 				set "cf: manager active"
-			`Your shuttle manager files the first autonomous operating plan. From now on, the company pays 10,000 credits per day for management and follows your payout policy while the manager reinvests retained reserve when there is at least twice the required purchase cost available.`
+			`The operations manager activates one unified company ledger. Every founded division advances each day, while the 10,000 credit manager salary and other company overhead are charged once.`
 				accept
 	on daily
 		"cf: days operated" ++
@@ -1631,29 +1052,207 @@ mission "Company Foundations: Shuttle Managed Operations"
 		"cf: shuttle day profit" += "cf: shuttle frontier profit"
 		"cf: shuttle route revenue" += "cf: shuttle frontier gross"
 		"cf: shuttle frontier progress" -= "cf: shuttle frontier completed" * 10
-		"cf: last gross" = "cf: shuttle day gross"
-		"cf: last expenses" = "cf: shuttle day expenses"
-		"cf: last net profit" = "cf: shuttle day profit"
-		"cf: manager daily cost" = 0
 		"cf: shuttle last gross" = "cf: shuttle day gross"
 		"cf: shuttle last expenses" = "cf: shuttle day expenses"
 		"cf: shuttle last net" = "cf: shuttle day profit"
-		"cf: shuttle last expenses" += 10000
-		"cf: shuttle last net" -= 10000
 		"cf: shuttle total gross" += "cf: shuttle day gross"
 		"cf: shuttle total expenses" += "cf: shuttle day expenses"
-		"cf: shuttle total expenses" += 10000
 		"cf: shuttle total net" += "cf: shuttle day profit"
-		"cf: shuttle total net" -= 10000
 		"cf: shuttle month gross" += "cf: shuttle day gross"
 		"cf: shuttle month expenses" += "cf: shuttle day expenses"
-		"cf: shuttle month expenses" += 10000
 		"cf: shuttle month net" += "cf: shuttle day profit"
-		"cf: shuttle month net" -= 10000
+		"cf: mining day gross" = 0
+		"cf: mining day expenses" = 0
+		"cf: mining day profit" = 0
+		"cf: mining local progress" += "cf: mining local ships"
+		"cf: mining local completed" = "cf: mining local progress" / 3
+		"cf: mining local bonus payout" = "cf: mining local trip payout" * "cf: mining efficiency bonus" / 100
+		"cf: mining local income" = "cf: mining local trip payout" + "cf: mining local bonus payout"
+		"cf: mining local gross" = "cf: mining local completed" * "cf: mining local income"
+		"cf: mining local expenses" = "cf: mining local completed" * "cf: mining local trip expenses"
+		"cf: mining local profit" = "cf: mining local gross" - "cf: mining local expenses"
+		"cf: mining day gross" += "cf: mining local gross"
+		"cf: mining day expenses" += "cf: mining local expenses"
+		"cf: mining day profit" += "cf: mining local profit"
+		"cf: mining revenue" += "cf: mining local gross"
+		"cf: mining local progress" -= "cf: mining local completed" * 3
+		"cf: mining regional progress" += "cf: mining regional ships"
+		"cf: mining regional completed" = "cf: mining regional progress" / 5
+		"cf: mining regional bonus payout" = "cf: mining regional trip payout" * "cf: mining efficiency bonus" / 100
+		"cf: mining regional income" = "cf: mining regional trip payout" + "cf: mining regional bonus payout"
+		"cf: mining regional gross" = "cf: mining regional completed" * "cf: mining regional income"
+		"cf: mining regional expenses" = "cf: mining regional completed" * "cf: mining regional trip expenses"
+		"cf: mining regional profit" = "cf: mining regional gross" - "cf: mining regional expenses"
+		"cf: mining day gross" += "cf: mining regional gross"
+		"cf: mining day expenses" += "cf: mining regional expenses"
+		"cf: mining day profit" += "cf: mining regional profit"
+		"cf: mining revenue" += "cf: mining regional gross"
+		"cf: mining regional progress" -= "cf: mining regional completed" * 5
+		"cf: mining deep progress" += "cf: mining deep ships"
+		"cf: mining deep completed" = "cf: mining deep progress" / 7
+		"cf: mining deep bonus payout" = "cf: mining deep trip payout" * "cf: mining efficiency bonus" / 100
+		"cf: mining deep income" = "cf: mining deep trip payout" + "cf: mining deep bonus payout"
+		"cf: mining deep gross" = "cf: mining deep completed" * "cf: mining deep income"
+		"cf: mining deep expenses" = "cf: mining deep completed" * "cf: mining deep trip expenses"
+		"cf: mining deep profit" = "cf: mining deep gross" - "cf: mining deep expenses"
+		"cf: mining day gross" += "cf: mining deep gross"
+		"cf: mining day expenses" += "cf: mining deep expenses"
+		"cf: mining day profit" += "cf: mining deep profit"
+		"cf: mining revenue" += "cf: mining deep gross"
+		"cf: mining deep progress" -= "cf: mining deep completed" * 7
+		"cf: mining frontier progress" += "cf: mining frontier ships"
+		"cf: mining frontier completed" = "cf: mining frontier progress" / 9
+		"cf: mining frontier bonus payout" = "cf: mining frontier trip payout" * "cf: mining efficiency bonus" / 100
+		"cf: mining frontier income" = "cf: mining frontier trip payout" + "cf: mining frontier bonus payout"
+		"cf: mining frontier gross" = "cf: mining frontier completed" * "cf: mining frontier income"
+		"cf: mining frontier expenses" = "cf: mining frontier completed" * "cf: mining frontier trip expenses"
+		"cf: mining frontier profit" = "cf: mining frontier gross" - "cf: mining frontier expenses"
+		"cf: mining day gross" += "cf: mining frontier gross"
+		"cf: mining day expenses" += "cf: mining frontier expenses"
+		"cf: mining day profit" += "cf: mining frontier profit"
+		"cf: mining revenue" += "cf: mining frontier gross"
+		"cf: mining frontier progress" -= "cf: mining frontier completed" * 9
+		"cf: mining last gross" = "cf: mining day gross"
+		"cf: mining last expenses" = "cf: mining day expenses"
+		"cf: mining last net" = "cf: mining day profit"
+		"cf: mining total gross" += "cf: mining day gross"
+		"cf: mining total expenses" += "cf: mining day expenses"
+		"cf: mining total net" += "cf: mining day profit"
+		"cf: mining month gross" += "cf: mining day gross"
+		"cf: mining month expenses" += "cf: mining day expenses"
+		"cf: mining month net" += "cf: mining day profit"
+		"cf: trading day gross" = 0
+		"cf: trading day expenses" = 0
+		"cf: trading day profit" = 0
+		"cf: trading local progress" += "cf: trading local ships"
+		"cf: trading local completed" = "cf: trading local progress" / 4
+		"cf: trading local gross" = "cf: trading local completed" * "cf: trading local trip payout"
+		"cf: trading local expenses" = "cf: trading local completed" * "cf: trading local trip expenses"
+		"cf: trading local profit" = "cf: trading local gross" - "cf: trading local expenses"
+		"cf: trading day gross" += "cf: trading local gross"
+		"cf: trading day expenses" += "cf: trading local expenses"
+		"cf: trading day profit" += "cf: trading local profit"
+		"cf: trading revenue" += "cf: trading local gross"
+		"cf: trading local progress" -= "cf: trading local completed" * 4
+		"cf: trading regional progress" += "cf: trading regional ships"
+		"cf: trading regional completed" = "cf: trading regional progress" / 6
+		"cf: trading regional gross" = "cf: trading regional completed" * "cf: trading regional trip payout"
+		"cf: trading regional expenses" = "cf: trading regional completed" * "cf: trading regional trip expenses"
+		"cf: trading regional profit" = "cf: trading regional gross" - "cf: trading regional expenses"
+		"cf: trading day gross" += "cf: trading regional gross"
+		"cf: trading day expenses" += "cf: trading regional expenses"
+		"cf: trading day profit" += "cf: trading regional profit"
+		"cf: trading revenue" += "cf: trading regional gross"
+		"cf: trading regional progress" -= "cf: trading regional completed" * 6
+		"cf: trading long progress" += "cf: trading long ships"
+		"cf: trading long completed" = "cf: trading long progress" / 8
+		"cf: trading long gross" = "cf: trading long completed" * "cf: trading long trip payout"
+		"cf: trading long expenses" = "cf: trading long completed" * "cf: trading long trip expenses"
+		"cf: trading long profit" = "cf: trading long gross" - "cf: trading long expenses"
+		"cf: trading day gross" += "cf: trading long gross"
+		"cf: trading day expenses" += "cf: trading long expenses"
+		"cf: trading day profit" += "cf: trading long profit"
+		"cf: trading revenue" += "cf: trading long gross"
+		"cf: trading long progress" -= "cf: trading long completed" * 8
+		"cf: trading frontier progress" += "cf: trading frontier ships"
+		"cf: trading frontier completed" = "cf: trading frontier progress" / 10
+		"cf: trading frontier gross" = "cf: trading frontier completed" * "cf: trading frontier trip payout"
+		"cf: trading frontier expenses" = "cf: trading frontier completed" * "cf: trading frontier trip expenses"
+		"cf: trading frontier profit" = "cf: trading frontier gross" - "cf: trading frontier expenses"
+		"cf: trading day gross" += "cf: trading frontier gross"
+		"cf: trading day expenses" += "cf: trading frontier expenses"
+		"cf: trading day profit" += "cf: trading frontier profit"
+		"cf: trading revenue" += "cf: trading frontier gross"
+		"cf: trading frontier progress" -= "cf: trading frontier completed" * 10
+		"cf: trading last gross" = "cf: trading day gross"
+		"cf: trading last expenses" = "cf: trading day expenses"
+		"cf: trading last net" = "cf: trading day profit"
+		"cf: trading total gross" += "cf: trading day gross"
+		"cf: trading total expenses" += "cf: trading day expenses"
+		"cf: trading total net" += "cf: trading day profit"
+		"cf: trading month gross" += "cf: trading day gross"
+		"cf: trading month expenses" += "cf: trading day expenses"
+		"cf: trading month net" += "cf: trading day profit"
+		"cf: security day gross" = 0
+		"cf: security day expenses" = 0
+		"cf: security day profit" = 0
+		"cf: security local progress" += "cf: security local ships"
+		"cf: security local completed" = "cf: security local progress" / 4
+		"cf: security local gross" = "cf: security local completed" * "cf: security local trip payout"
+		"cf: security local expenses" = "cf: security local completed" * "cf: security local trip expenses"
+		"cf: security local profit" = "cf: security local gross" - "cf: security local expenses"
+		"cf: security day gross" += "cf: security local gross"
+		"cf: security day expenses" += "cf: security local expenses"
+		"cf: security day profit" += "cf: security local profit"
+		"cf: security contract revenue" += "cf: security local gross"
+		"cf: security local progress" -= "cf: security local completed" * 4
+		"cf: security regional progress" += "cf: security regional ships"
+		"cf: security regional completed" = "cf: security regional progress" / 6
+		"cf: security regional gross" = "cf: security regional completed" * "cf: security regional trip payout"
+		"cf: security regional expenses" = "cf: security regional completed" * "cf: security regional trip expenses"
+		"cf: security regional profit" = "cf: security regional gross" - "cf: security regional expenses"
+		"cf: security day gross" += "cf: security regional gross"
+		"cf: security day expenses" += "cf: security regional expenses"
+		"cf: security day profit" += "cf: security regional profit"
+		"cf: security contract revenue" += "cf: security regional gross"
+		"cf: security regional progress" -= "cf: security regional completed" * 6
+		"cf: security long progress" += "cf: security long ships"
+		"cf: security long completed" = "cf: security long progress" / 8
+		"cf: security long gross" = "cf: security long completed" * "cf: security long trip payout"
+		"cf: security long expenses" = "cf: security long completed" * "cf: security long trip expenses"
+		"cf: security long profit" = "cf: security long gross" - "cf: security long expenses"
+		"cf: security day gross" += "cf: security long gross"
+		"cf: security day expenses" += "cf: security long expenses"
+		"cf: security day profit" += "cf: security long profit"
+		"cf: security contract revenue" += "cf: security long gross"
+		"cf: security long progress" -= "cf: security long completed" * 8
+		"cf: security frontier progress" += "cf: security frontier ships"
+		"cf: security frontier completed" = "cf: security frontier progress" / 10
+		"cf: security frontier gross" = "cf: security frontier completed" * "cf: security frontier trip payout"
+		"cf: security frontier expenses" = "cf: security frontier completed" * "cf: security frontier trip expenses"
+		"cf: security frontier profit" = "cf: security frontier gross" - "cf: security frontier expenses"
+		"cf: security day gross" += "cf: security frontier gross"
+		"cf: security day expenses" += "cf: security frontier expenses"
+		"cf: security day profit" += "cf: security frontier profit"
+		"cf: security contract revenue" += "cf: security frontier gross"
+		"cf: security frontier progress" -= "cf: security frontier completed" * 10
+		"cf: security admiral cost" = "cf: security admiral" * 5000
+		"cf: admiral travel days" --
+		"cf: admiral travel days" >?= 0
+		"cf: security day gross" += "cf: admiral tribute income"
+		"cf: admiral tribute revenue" += "cf: admiral tribute income"
+		"cf: security day expenses" += "cf: admiral daily crew"
+		"cf: security day expenses" += "cf: security admiral cost"
+		"cf: security day profit" += "cf: admiral tribute income"
+		"cf: security day profit" -= "cf: admiral daily crew"
+		"cf: security day profit" -= "cf: security admiral cost"
+		"cf: security admiral costs" += "cf: security admiral cost"
+		"cf: security last gross" = "cf: security day gross"
+		"cf: security last expenses" = "cf: security day expenses"
+		"cf: security last net" = "cf: security day profit"
+		"cf: security total gross" += "cf: security day gross"
+		"cf: security total expenses" += "cf: security day expenses"
+		"cf: security total net" += "cf: security day profit"
+		"cf: security month gross" += "cf: security day gross"
+		"cf: security month expenses" += "cf: security day expenses"
+		"cf: security month net" += "cf: security day profit"
+		"cf: last gross" = "cf: shuttle day gross"
+		"cf: last gross" += "cf: mining day gross"
+		"cf: last gross" += "cf: trading day gross"
+		"cf: last gross" += "cf: security day gross"
+		"cf: last expenses" = "cf: shuttle day expenses"
+		"cf: last expenses" += "cf: mining day expenses"
+		"cf: last expenses" += "cf: trading day expenses"
+		"cf: last expenses" += "cf: security day expenses"
+		"cf: last net profit" = "cf: shuttle day profit"
+		"cf: last net profit" += "cf: mining day profit"
+		"cf: last net profit" += "cf: trading day profit"
+		"cf: last net profit" += "cf: security day profit"
 		"cf: manager daily cost" = 10000
 		"cf: last expenses" += 10000
 		"cf: last net profit" -= 10000
 		"cf: total manager costs" += 10000
+		"cf: month manager costs" += 10000
 		"cf: worker staff" = 0
 		"cf: worker staff" += "cf: shuttle local daily crew" / 100
 		"cf: worker staff" += "cf: shuttle regional daily crew" / 100
@@ -1729,559 +1328,28 @@ mission "Company Foundations: Shuttle Managed Operations"
 		"cf: unallocated net" += "cf: last net profit"
 		"cf: total gross" += "cf: shuttle day gross"
 		"cf: total operating expenses" += "cf: shuttle day expenses"
-		"cf: total operating expenses" += 10000
-		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" += "cf: shuttle day profit"
-		"cf: total net profit" -= 10000
-		"cf: total net profit" -= "cf: hq daily tax"
-		"cf: total retained earnings" += "cf: last retained earnings"
 		"cf: month gross" += "cf: shuttle day gross"
-		"cf: month expenses" += "cf: last expenses"
-		"cf: month net profit" += "cf: last net profit"
-		"cf: month retained earnings" += "cf: last retained earnings"
-		"cf: month manager costs" += 10000
-		clear "cf: manager salary checked"
-
-mission "Company Foundations: Mining Managed Operations"
-	name "Mining Manager Operations"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: mining"
-		has "cf: managed"
-		has "cf: manager pending"
-		not "cf: hq suspended"
-	to complete
-		never
-	on offer
-		conversation
-			action
-				clear "cf: manager pending"
-				set "cf: manager active"
-			`Your mining manager files the first autonomous operating plan. From now on, the company pays 10,000 credits per day for management, follows your payout policy, and reinvests retained reserve into mining rights, Sunders, and drones when the balance allows it.`
-				accept
-	on daily
-		"cf: days operated" ++
-		"cf: mining day gross" = 0
-		"cf: mining day expenses" = 0
-		"cf: mining day profit" = 0
-		"cf: mining local progress" += "cf: mining local ships"
-		"cf: mining local completed" = "cf: mining local progress" / 3
-		"cf: mining local bonus payout" = "cf: mining local trip payout" * "cf: mining efficiency bonus" / 100
-		"cf: mining local income" = "cf: mining local trip payout" + "cf: mining local bonus payout"
-		"cf: mining local gross" = "cf: mining local completed" * "cf: mining local income"
-		"cf: mining local expenses" = "cf: mining local completed" * "cf: mining local trip expenses"
-		"cf: mining local profit" = "cf: mining local gross" - "cf: mining local expenses"
-		"cf: mining day gross" += "cf: mining local gross"
-		"cf: mining day expenses" += "cf: mining local expenses"
-		"cf: mining day profit" += "cf: mining local profit"
-		"cf: mining revenue" += "cf: mining local gross"
-		"cf: mining local progress" -= "cf: mining local completed" * 3
-		"cf: mining regional progress" += "cf: mining regional ships"
-		"cf: mining regional completed" = "cf: mining regional progress" / 5
-		"cf: mining regional bonus payout" = "cf: mining regional trip payout" * "cf: mining efficiency bonus" / 100
-		"cf: mining regional income" = "cf: mining regional trip payout" + "cf: mining regional bonus payout"
-		"cf: mining regional gross" = "cf: mining regional completed" * "cf: mining regional income"
-		"cf: mining regional expenses" = "cf: mining regional completed" * "cf: mining regional trip expenses"
-		"cf: mining regional profit" = "cf: mining regional gross" - "cf: mining regional expenses"
-		"cf: mining day gross" += "cf: mining regional gross"
-		"cf: mining day expenses" += "cf: mining regional expenses"
-		"cf: mining day profit" += "cf: mining regional profit"
-		"cf: mining revenue" += "cf: mining regional gross"
-		"cf: mining regional progress" -= "cf: mining regional completed" * 5
-		"cf: mining deep progress" += "cf: mining deep ships"
-		"cf: mining deep completed" = "cf: mining deep progress" / 7
-		"cf: mining deep bonus payout" = "cf: mining deep trip payout" * "cf: mining efficiency bonus" / 100
-		"cf: mining deep income" = "cf: mining deep trip payout" + "cf: mining deep bonus payout"
-		"cf: mining deep gross" = "cf: mining deep completed" * "cf: mining deep income"
-		"cf: mining deep expenses" = "cf: mining deep completed" * "cf: mining deep trip expenses"
-		"cf: mining deep profit" = "cf: mining deep gross" - "cf: mining deep expenses"
-		"cf: mining day gross" += "cf: mining deep gross"
-		"cf: mining day expenses" += "cf: mining deep expenses"
-		"cf: mining day profit" += "cf: mining deep profit"
-		"cf: mining revenue" += "cf: mining deep gross"
-		"cf: mining deep progress" -= "cf: mining deep completed" * 7
-		"cf: mining frontier progress" += "cf: mining frontier ships"
-		"cf: mining frontier completed" = "cf: mining frontier progress" / 9
-		"cf: mining frontier bonus payout" = "cf: mining frontier trip payout" * "cf: mining efficiency bonus" / 100
-		"cf: mining frontier income" = "cf: mining frontier trip payout" + "cf: mining frontier bonus payout"
-		"cf: mining frontier gross" = "cf: mining frontier completed" * "cf: mining frontier income"
-		"cf: mining frontier expenses" = "cf: mining frontier completed" * "cf: mining frontier trip expenses"
-		"cf: mining frontier profit" = "cf: mining frontier gross" - "cf: mining frontier expenses"
-		"cf: mining day gross" += "cf: mining frontier gross"
-		"cf: mining day expenses" += "cf: mining frontier expenses"
-		"cf: mining day profit" += "cf: mining frontier profit"
-		"cf: mining revenue" += "cf: mining frontier gross"
-		"cf: mining frontier progress" -= "cf: mining frontier completed" * 9
-		"cf: last gross" = "cf: mining day gross"
-		"cf: last expenses" = "cf: mining day expenses"
-		"cf: last net profit" = "cf: mining day profit"
-		"cf: manager daily cost" = 0
-		"cf: mining last gross" = "cf: mining day gross"
-		"cf: mining last expenses" = "cf: mining day expenses"
-		"cf: mining last net" = "cf: mining day profit"
-		"cf: mining last expenses" += 10000
-		"cf: mining last net" -= 10000
-		"cf: mining total gross" += "cf: mining day gross"
-		"cf: mining total expenses" += "cf: mining day expenses"
-		"cf: mining total expenses" += 10000
-		"cf: mining total net" += "cf: mining day profit"
-		"cf: mining total net" -= 10000
-		"cf: mining month gross" += "cf: mining day gross"
-		"cf: mining month expenses" += "cf: mining day expenses"
-		"cf: mining month expenses" += 10000
-		"cf: mining month net" += "cf: mining day profit"
-		"cf: mining month net" -= 10000
-		"cf: manager daily cost" = 10000
-		"cf: last expenses" += 10000
-		"cf: last net profit" -= 10000
-		"cf: total manager costs" += 10000
-		"cf: worker staff" = 0
-		"cf: worker staff" += "cf: shuttle local daily crew" / 100
-		"cf: worker staff" += "cf: shuttle regional daily crew" / 100
-		"cf: worker staff" += "cf: shuttle long daily crew" / 100
-		"cf: worker staff" += "cf: shuttle frontier daily crew" / 100
-		"cf: worker staff" += "cf: mining local daily crew" / 100
-		"cf: worker staff" += "cf: mining regional daily crew" / 100
-		"cf: worker staff" += "cf: mining deep daily crew" / 100
-		"cf: worker staff" += "cf: mining frontier daily crew" / 100
-		"cf: worker staff" += "cf: trading local daily crew" / 100
-		"cf: worker staff" += "cf: trading regional daily crew" / 100
-		"cf: worker staff" += "cf: trading long daily crew" / 100
-		"cf: worker staff" += "cf: trading frontier daily crew" / 100
-		"cf: worker staff" += "cf: security local daily crew" / 100
-		"cf: worker staff" += "cf: security regional daily crew" / 100
-		"cf: worker staff" += "cf: security long daily crew" / 100
-		"cf: worker staff" += "cf: security frontier daily crew" / 100
-		"cf: worker staff" += "cf: admiral daily crew" / 100
-		"cf: worker staff" += "cf: station crew"
-		"cf: office staff" = "cf: worker staff"
-		"cf: office staff" -= 1
-		"cf: office staff" >?= 0
-		"cf: office staff" /= 2
-		"cf: specialist staff" = 0
-		"cf: specialist staff" += "cf: trading local trader"
-		"cf: specialist staff" += "cf: trading regional trader"
-		"cf: specialist staff" += "cf: trading long trader"
-		"cf: specialist staff" += "cf: trading frontier trader"
-		"cf: specialist staff" += "cf: managed"
-		"cf: specialist staff" += "cf: security admiral"
-		"cf: total staff" = "cf: worker staff"
-		"cf: total staff" += "cf: office staff"
-		"cf: total staff" += "cf: specialist staff"
-		"cf: office daily cost" = "cf: office staff" * 100
-		"cf: employee tax" = "cf: total staff" * 5
-		"cf: employee tax" += "cf: total staff" / 5 * 20
-		"cf: employee tax" += "cf: total staff" / 10 * 40
-		"cf: employee tax" += "cf: total staff" / 20 * 100
-		"cf: employee tax" += "cf: total staff" / 50 * 250
-		"cf: employee tax" += "cf: total staff" / 100 * 600
-		"cf: employee tax" += "cf: total staff" / 500 * 4000
-		"cf: employee tax" += "cf: total staff" / 1000 * 10000
-		"cf: hq daily tax" = "cf: hq base tax"
-		"cf: hq daily tax" += "cf: employee tax"
-		"cf: hq daily tax" -= "cf: hq tax relief"
-		"cf: hq daily tax" >?= 0
-		"cf: last expenses" += "cf: office daily cost"
-		"cf: last net profit" -= "cf: office daily cost"
-		"cf: total operating expenses" += "cf: office daily cost"
-		"cf: total office staff costs" += "cf: office daily cost"
-		"cf: total net profit" -= "cf: office daily cost"
-		"cf: month office staff costs" += "cf: office daily cost"
-		"cf: last gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: station daily upkeep"
-		"cf: last net profit" += "cf: station daily income"
-		"cf: last net profit" -= "cf: station daily upkeep"
-		"cf: total station revenue" += "cf: station daily income"
-		"cf: total station upkeep" += "cf: station daily upkeep"
-		"cf: total gross" += "cf: station daily income"
-		"cf: total operating expenses" += "cf: station daily upkeep"
-		"cf: total net profit" += "cf: station daily income"
-		"cf: total net profit" -= "cf: station daily upkeep"
-		"cf: month station revenue" += "cf: station daily income"
-		"cf: month station upkeep" += "cf: station daily upkeep"
-		"cf: month gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: hq daily tax"
-		"cf: last net profit" -= "cf: hq daily tax"
-		"cf: total tax paid" += "cf: hq daily tax"
-		"cf: month tax paid" += "cf: hq daily tax"
-		"cf: last owner payout" = 0
-		"cf: last retained earnings" = "cf: last net profit"
-		"cf: reserve" += "cf: last retained earnings"
-		"cf: unallocated net" += "cf: last net profit"
 		"cf: total gross" += "cf: mining day gross"
 		"cf: total operating expenses" += "cf: mining day expenses"
-		"cf: total operating expenses" += 10000
-		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" += "cf: mining day profit"
-		"cf: total net profit" -= 10000
-		"cf: total net profit" -= "cf: hq daily tax"
-		"cf: total retained earnings" += "cf: last retained earnings"
 		"cf: month gross" += "cf: mining day gross"
-		"cf: month expenses" += "cf: last expenses"
-		"cf: month net profit" += "cf: last net profit"
-		"cf: month retained earnings" += "cf: last retained earnings"
-		"cf: month manager costs" += 10000
-		clear "cf: manager salary checked"
-
-mission "Company Foundations: Trading Managed Operations"
-	name "Trading Manager Operations"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: trading"
-		has "cf: managed"
-		has "cf: manager pending"
-		not "cf: hq suspended"
-	to complete
-		never
-	on offer
-		conversation
-			action
-				clear "cf: manager pending"
-				set "cf: manager active"
-			`Your trading manager files the first autonomous operating plan. From now on, manager salary is a fixed operating cost before any owner payout is calculated.`
-				accept
-	on daily
-		"cf: days operated" ++
-		"cf: trading day gross" = 0
-		"cf: trading day expenses" = 0
-		"cf: trading day profit" = 0
-		"cf: trading local progress" += "cf: trading local ships"
-		"cf: trading local completed" = "cf: trading local progress" / 4
-		"cf: trading local gross" = "cf: trading local completed" * "cf: trading local trip payout"
-		"cf: trading local expenses" = "cf: trading local completed" * "cf: trading local trip expenses"
-		"cf: trading local profit" = "cf: trading local gross" - "cf: trading local expenses"
-		"cf: trading day gross" += "cf: trading local gross"
-		"cf: trading day expenses" += "cf: trading local expenses"
-		"cf: trading day profit" += "cf: trading local profit"
-		"cf: trading revenue" += "cf: trading local gross"
-		"cf: trading local progress" -= "cf: trading local completed" * 4
-		"cf: trading regional progress" += "cf: trading regional ships"
-		"cf: trading regional completed" = "cf: trading regional progress" / 6
-		"cf: trading regional gross" = "cf: trading regional completed" * "cf: trading regional trip payout"
-		"cf: trading regional expenses" = "cf: trading regional completed" * "cf: trading regional trip expenses"
-		"cf: trading regional profit" = "cf: trading regional gross" - "cf: trading regional expenses"
-		"cf: trading day gross" += "cf: trading regional gross"
-		"cf: trading day expenses" += "cf: trading regional expenses"
-		"cf: trading day profit" += "cf: trading regional profit"
-		"cf: trading revenue" += "cf: trading regional gross"
-		"cf: trading regional progress" -= "cf: trading regional completed" * 6
-		"cf: trading long progress" += "cf: trading long ships"
-		"cf: trading long completed" = "cf: trading long progress" / 8
-		"cf: trading long gross" = "cf: trading long completed" * "cf: trading long trip payout"
-		"cf: trading long expenses" = "cf: trading long completed" * "cf: trading long trip expenses"
-		"cf: trading long profit" = "cf: trading long gross" - "cf: trading long expenses"
-		"cf: trading day gross" += "cf: trading long gross"
-		"cf: trading day expenses" += "cf: trading long expenses"
-		"cf: trading day profit" += "cf: trading long profit"
-		"cf: trading revenue" += "cf: trading long gross"
-		"cf: trading long progress" -= "cf: trading long completed" * 8
-		"cf: trading frontier progress" += "cf: trading frontier ships"
-		"cf: trading frontier completed" = "cf: trading frontier progress" / 10
-		"cf: trading frontier gross" = "cf: trading frontier completed" * "cf: trading frontier trip payout"
-		"cf: trading frontier expenses" = "cf: trading frontier completed" * "cf: trading frontier trip expenses"
-		"cf: trading frontier profit" = "cf: trading frontier gross" - "cf: trading frontier expenses"
-		"cf: trading day gross" += "cf: trading frontier gross"
-		"cf: trading day expenses" += "cf: trading frontier expenses"
-		"cf: trading day profit" += "cf: trading frontier profit"
-		"cf: trading revenue" += "cf: trading frontier gross"
-		"cf: trading frontier progress" -= "cf: trading frontier completed" * 10
-		"cf: last gross" = "cf: trading day gross"
-		"cf: last expenses" = "cf: trading day expenses"
-		"cf: last net profit" = "cf: trading day profit"
-		"cf: manager daily cost" = 0
-		"cf: trading last gross" = "cf: trading day gross"
-		"cf: trading last expenses" = "cf: trading day expenses"
-		"cf: trading last net" = "cf: trading day profit"
-		"cf: trading last expenses" += 10000
-		"cf: trading last net" -= 10000
-		"cf: trading total gross" += "cf: trading day gross"
-		"cf: trading total expenses" += "cf: trading day expenses"
-		"cf: trading total expenses" += 10000
-		"cf: trading total net" += "cf: trading day profit"
-		"cf: trading total net" -= 10000
-		"cf: trading month gross" += "cf: trading day gross"
-		"cf: trading month expenses" += "cf: trading day expenses"
-		"cf: trading month expenses" += 10000
-		"cf: trading month net" += "cf: trading day profit"
-		"cf: trading month net" -= 10000
-		"cf: manager daily cost" = 10000
-		"cf: last expenses" += 10000
-		"cf: last net profit" -= 10000
-		"cf: total manager costs" += 10000
-		"cf: worker staff" = 0
-		"cf: worker staff" += "cf: shuttle local daily crew" / 100
-		"cf: worker staff" += "cf: shuttle regional daily crew" / 100
-		"cf: worker staff" += "cf: shuttle long daily crew" / 100
-		"cf: worker staff" += "cf: shuttle frontier daily crew" / 100
-		"cf: worker staff" += "cf: mining local daily crew" / 100
-		"cf: worker staff" += "cf: mining regional daily crew" / 100
-		"cf: worker staff" += "cf: mining deep daily crew" / 100
-		"cf: worker staff" += "cf: mining frontier daily crew" / 100
-		"cf: worker staff" += "cf: trading local daily crew" / 100
-		"cf: worker staff" += "cf: trading regional daily crew" / 100
-		"cf: worker staff" += "cf: trading long daily crew" / 100
-		"cf: worker staff" += "cf: trading frontier daily crew" / 100
-		"cf: worker staff" += "cf: security local daily crew" / 100
-		"cf: worker staff" += "cf: security regional daily crew" / 100
-		"cf: worker staff" += "cf: security long daily crew" / 100
-		"cf: worker staff" += "cf: security frontier daily crew" / 100
-		"cf: worker staff" += "cf: admiral daily crew" / 100
-		"cf: worker staff" += "cf: station crew"
-		"cf: office staff" = "cf: worker staff"
-		"cf: office staff" -= 1
-		"cf: office staff" >?= 0
-		"cf: office staff" /= 2
-		"cf: specialist staff" = 0
-		"cf: specialist staff" += "cf: trading local trader"
-		"cf: specialist staff" += "cf: trading regional trader"
-		"cf: specialist staff" += "cf: trading long trader"
-		"cf: specialist staff" += "cf: trading frontier trader"
-		"cf: specialist staff" += "cf: managed"
-		"cf: specialist staff" += "cf: security admiral"
-		"cf: total staff" = "cf: worker staff"
-		"cf: total staff" += "cf: office staff"
-		"cf: total staff" += "cf: specialist staff"
-		"cf: office daily cost" = "cf: office staff" * 100
-		"cf: employee tax" = "cf: total staff" * 5
-		"cf: employee tax" += "cf: total staff" / 5 * 20
-		"cf: employee tax" += "cf: total staff" / 10 * 40
-		"cf: employee tax" += "cf: total staff" / 20 * 100
-		"cf: employee tax" += "cf: total staff" / 50 * 250
-		"cf: employee tax" += "cf: total staff" / 100 * 600
-		"cf: employee tax" += "cf: total staff" / 500 * 4000
-		"cf: employee tax" += "cf: total staff" / 1000 * 10000
-		"cf: hq daily tax" = "cf: hq base tax"
-		"cf: hq daily tax" += "cf: employee tax"
-		"cf: hq daily tax" -= "cf: hq tax relief"
-		"cf: hq daily tax" >?= 0
-		"cf: last expenses" += "cf: office daily cost"
-		"cf: last net profit" -= "cf: office daily cost"
-		"cf: total operating expenses" += "cf: office daily cost"
-		"cf: total office staff costs" += "cf: office daily cost"
-		"cf: total net profit" -= "cf: office daily cost"
-		"cf: month office staff costs" += "cf: office daily cost"
-		"cf: last gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: station daily upkeep"
-		"cf: last net profit" += "cf: station daily income"
-		"cf: last net profit" -= "cf: station daily upkeep"
-		"cf: total station revenue" += "cf: station daily income"
-		"cf: total station upkeep" += "cf: station daily upkeep"
-		"cf: total gross" += "cf: station daily income"
-		"cf: total operating expenses" += "cf: station daily upkeep"
-		"cf: total net profit" += "cf: station daily income"
-		"cf: total net profit" -= "cf: station daily upkeep"
-		"cf: month station revenue" += "cf: station daily income"
-		"cf: month station upkeep" += "cf: station daily upkeep"
-		"cf: month gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: hq daily tax"
-		"cf: last net profit" -= "cf: hq daily tax"
-		"cf: total tax paid" += "cf: hq daily tax"
-		"cf: month tax paid" += "cf: hq daily tax"
-		"cf: last owner payout" = 0
-		"cf: last retained earnings" = "cf: last net profit"
-		"cf: reserve" += "cf: last retained earnings"
-		"cf: unallocated net" += "cf: last net profit"
 		"cf: total gross" += "cf: trading day gross"
 		"cf: total operating expenses" += "cf: trading day expenses"
-		"cf: total operating expenses" += 10000
-		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" += "cf: trading day profit"
-		"cf: total net profit" -= 10000
-		"cf: total net profit" -= "cf: hq daily tax"
-		"cf: total retained earnings" += "cf: last retained earnings"
 		"cf: month gross" += "cf: trading day gross"
-		"cf: month expenses" += "cf: last expenses"
-		"cf: month net profit" += "cf: last net profit"
-		"cf: month retained earnings" += "cf: last retained earnings"
-		"cf: month manager costs" += 10000
-		clear "cf: manager salary checked"
-
-mission "Company Foundations: Security Managed Operations"
-	name "Security Manager Operations"
-	invisible
-	landing
-	repeat
-	to offer
-		has "cf: security"
-		has "cf: managed"
-		has "cf: manager pending"
-		not "cf: hq suspended"
-	to complete
-		never
-	on offer
-		conversation
-			action
-				clear "cf: manager pending"
-				set "cf: manager active"
-			`Your security manager files the first autonomous operating plan. From now on, manager salary is a fixed operating cost before any owner payout is calculated.`
-				accept
-	on daily
-		"cf: days operated" ++
-		"cf: security day gross" = 0
-		"cf: security day expenses" = 0
-		"cf: security day profit" = 0
-		"cf: security local progress" += "cf: security local ships"
-		"cf: security local completed" = "cf: security local progress" / 4
-		"cf: security local gross" = "cf: security local completed" * "cf: security local trip payout"
-		"cf: security local expenses" = "cf: security local completed" * "cf: security local trip expenses"
-		"cf: security local profit" = "cf: security local gross" - "cf: security local expenses"
-		"cf: security day gross" += "cf: security local gross"
-		"cf: security day expenses" += "cf: security local expenses"
-		"cf: security day profit" += "cf: security local profit"
-		"cf: security contract revenue" += "cf: security local gross"
-		"cf: security local progress" -= "cf: security local completed" * 4
-		"cf: security regional progress" += "cf: security regional ships"
-		"cf: security regional completed" = "cf: security regional progress" / 6
-		"cf: security regional gross" = "cf: security regional completed" * "cf: security regional trip payout"
-		"cf: security regional expenses" = "cf: security regional completed" * "cf: security regional trip expenses"
-		"cf: security regional profit" = "cf: security regional gross" - "cf: security regional expenses"
-		"cf: security day gross" += "cf: security regional gross"
-		"cf: security day expenses" += "cf: security regional expenses"
-		"cf: security day profit" += "cf: security regional profit"
-		"cf: security contract revenue" += "cf: security regional gross"
-		"cf: security regional progress" -= "cf: security regional completed" * 6
-		"cf: security long progress" += "cf: security long ships"
-		"cf: security long completed" = "cf: security long progress" / 8
-		"cf: security long gross" = "cf: security long completed" * "cf: security long trip payout"
-		"cf: security long expenses" = "cf: security long completed" * "cf: security long trip expenses"
-		"cf: security long profit" = "cf: security long gross" - "cf: security long expenses"
-		"cf: security day gross" += "cf: security long gross"
-		"cf: security day expenses" += "cf: security long expenses"
-		"cf: security day profit" += "cf: security long profit"
-		"cf: security contract revenue" += "cf: security long gross"
-		"cf: security long progress" -= "cf: security long completed" * 8
-		"cf: security frontier progress" += "cf: security frontier ships"
-		"cf: security frontier completed" = "cf: security frontier progress" / 10
-		"cf: security frontier gross" = "cf: security frontier completed" * "cf: security frontier trip payout"
-		"cf: security frontier expenses" = "cf: security frontier completed" * "cf: security frontier trip expenses"
-		"cf: security frontier profit" = "cf: security frontier gross" - "cf: security frontier expenses"
-		"cf: security day gross" += "cf: security frontier gross"
-		"cf: security day expenses" += "cf: security frontier expenses"
-		"cf: security day profit" += "cf: security frontier profit"
-		"cf: security contract revenue" += "cf: security frontier gross"
-		"cf: security frontier progress" -= "cf: security frontier completed" * 10
-		"cf: security admiral cost" = "cf: security admiral" * 20000
-		"cf: admiral travel days" --
-		"cf: admiral travel days" >?= 0
-		"cf: security day gross" += "cf: admiral tribute income"
-		"cf: admiral tribute revenue" += "cf: admiral tribute income"
-		"cf: security day expenses" += "cf: admiral daily crew"
-		"cf: security day expenses" += "cf: security admiral cost"
-		"cf: security day profit" += "cf: admiral tribute income"
-		"cf: security day profit" -= "cf: admiral daily crew"
-		"cf: security day profit" -= "cf: security admiral cost"
-		"cf: last gross" = "cf: security day gross"
-		"cf: last expenses" = "cf: security day expenses"
-		"cf: last net profit" = "cf: security day profit"
-		"cf: manager daily cost" = 0
-		"cf: security last gross" = "cf: security day gross"
-		"cf: security last expenses" = "cf: security day expenses"
-		"cf: security last net" = "cf: security day profit"
-		"cf: security last expenses" += 10000
-		"cf: security last net" -= 10000
-		"cf: security total gross" += "cf: security day gross"
-		"cf: security total expenses" += "cf: security day expenses"
-		"cf: security total expenses" += 10000
-		"cf: security total net" += "cf: security day profit"
-		"cf: security total net" -= 10000
-		"cf: security month gross" += "cf: security day gross"
-		"cf: security month expenses" += "cf: security day expenses"
-		"cf: security month expenses" += 10000
-		"cf: security month net" += "cf: security day profit"
-		"cf: security month net" -= 10000
-		"cf: manager daily cost" = 10000
-		"cf: last expenses" += 10000
-		"cf: last net profit" -= 10000
-		"cf: total manager costs" += 10000
-		"cf: security admiral costs" += "cf: security admiral cost"
-		"cf: worker staff" = 0
-		"cf: worker staff" += "cf: shuttle local daily crew" / 100
-		"cf: worker staff" += "cf: shuttle regional daily crew" / 100
-		"cf: worker staff" += "cf: shuttle long daily crew" / 100
-		"cf: worker staff" += "cf: shuttle frontier daily crew" / 100
-		"cf: worker staff" += "cf: mining local daily crew" / 100
-		"cf: worker staff" += "cf: mining regional daily crew" / 100
-		"cf: worker staff" += "cf: mining deep daily crew" / 100
-		"cf: worker staff" += "cf: mining frontier daily crew" / 100
-		"cf: worker staff" += "cf: trading local daily crew" / 100
-		"cf: worker staff" += "cf: trading regional daily crew" / 100
-		"cf: worker staff" += "cf: trading long daily crew" / 100
-		"cf: worker staff" += "cf: trading frontier daily crew" / 100
-		"cf: worker staff" += "cf: security local daily crew" / 100
-		"cf: worker staff" += "cf: security regional daily crew" / 100
-		"cf: worker staff" += "cf: security long daily crew" / 100
-		"cf: worker staff" += "cf: security frontier daily crew" / 100
-		"cf: worker staff" += "cf: admiral daily crew" / 100
-		"cf: worker staff" += "cf: station crew"
-		"cf: office staff" = "cf: worker staff"
-		"cf: office staff" -= 1
-		"cf: office staff" >?= 0
-		"cf: office staff" /= 2
-		"cf: specialist staff" = 0
-		"cf: specialist staff" += "cf: trading local trader"
-		"cf: specialist staff" += "cf: trading regional trader"
-		"cf: specialist staff" += "cf: trading long trader"
-		"cf: specialist staff" += "cf: trading frontier trader"
-		"cf: specialist staff" += "cf: managed"
-		"cf: specialist staff" += "cf: security admiral"
-		"cf: total staff" = "cf: worker staff"
-		"cf: total staff" += "cf: office staff"
-		"cf: total staff" += "cf: specialist staff"
-		"cf: office daily cost" = "cf: office staff" * 100
-		"cf: employee tax" = "cf: total staff" * 5
-		"cf: employee tax" += "cf: total staff" / 5 * 20
-		"cf: employee tax" += "cf: total staff" / 10 * 40
-		"cf: employee tax" += "cf: total staff" / 20 * 100
-		"cf: employee tax" += "cf: total staff" / 50 * 250
-		"cf: employee tax" += "cf: total staff" / 100 * 600
-		"cf: employee tax" += "cf: total staff" / 500 * 4000
-		"cf: employee tax" += "cf: total staff" / 1000 * 10000
-		"cf: hq daily tax" = "cf: hq base tax"
-		"cf: hq daily tax" += "cf: employee tax"
-		"cf: hq daily tax" -= "cf: hq tax relief"
-		"cf: hq daily tax" >?= 0
-		"cf: last expenses" += "cf: office daily cost"
-		"cf: last net profit" -= "cf: office daily cost"
-		"cf: total operating expenses" += "cf: office daily cost"
-		"cf: total office staff costs" += "cf: office daily cost"
-		"cf: total net profit" -= "cf: office daily cost"
-		"cf: month office staff costs" += "cf: office daily cost"
-		"cf: last gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: station daily upkeep"
-		"cf: last net profit" += "cf: station daily income"
-		"cf: last net profit" -= "cf: station daily upkeep"
-		"cf: total station revenue" += "cf: station daily income"
-		"cf: total station upkeep" += "cf: station daily upkeep"
-		"cf: total gross" += "cf: station daily income"
-		"cf: total operating expenses" += "cf: station daily upkeep"
-		"cf: total net profit" += "cf: station daily income"
-		"cf: total net profit" -= "cf: station daily upkeep"
-		"cf: month station revenue" += "cf: station daily income"
-		"cf: month station upkeep" += "cf: station daily upkeep"
-		"cf: month gross" += "cf: station daily income"
-		"cf: last expenses" += "cf: hq daily tax"
-		"cf: last net profit" -= "cf: hq daily tax"
-		"cf: total tax paid" += "cf: hq daily tax"
-		"cf: month tax paid" += "cf: hq daily tax"
-		"cf: last owner payout" = 0
-		"cf: last retained earnings" = "cf: last net profit"
-		"cf: reserve" += "cf: last retained earnings"
-		"cf: unallocated net" += "cf: last net profit"
 		"cf: total gross" += "cf: security day gross"
 		"cf: total operating expenses" += "cf: security day expenses"
-		"cf: total operating expenses" += 10000
-		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" += "cf: security day profit"
+		"cf: month gross" += "cf: security day gross"
+		"cf: total operating expenses" += 10000
 		"cf: total net profit" -= 10000
+		"cf: total operating expenses" += "cf: hq daily tax"
 		"cf: total net profit" -= "cf: hq daily tax"
 		"cf: total retained earnings" += "cf: last retained earnings"
-		"cf: month gross" += "cf: security day gross"
 		"cf: month expenses" += "cf: last expenses"
 		"cf: month net profit" += "cf: last net profit"
 		"cf: month retained earnings" += "cf: last retained earnings"
-		"cf: month manager costs" += 10000
+		"cf: audit sequence" ++
+		"cf: audit last day" = "cf: days operated"
 		clear "cf: manager salary checked"

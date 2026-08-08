@@ -1,0 +1,432 @@
+# Company Foundations
+
+# Persistent location IDs. These comments are also consumed by the save watcher.
+# hq 1	Aava-Aasa-Khora
+# hq 2	Ablub's Invention
+# hq 3	Ada
+# hq 4	Ahr
+# hq 5	Albatross
+# hq 6	Alexandria
+# hq 7	Alfheim
+# hq 8	Allhome
+# hq 9	Alta Hai
+# hq 10	Alvorada
+# hq 11	Amathil
+# hq 12	Amazon
+# hq 13	Angko
+# hq 14	Antipode
+# hq 15	Arabia
+# hq 16	Araio
+# hq 17	Arroharg
+# hq 18	Asgard
+# hq 19	Ashy Reach
+# hq 20	Aventine
+# hq 21	Aviskir
+# hq 22	Bailey
+# hq 23	Bank of Blugtad
+# hq 24	Belug's Plunge
+# hq 25	Big Sky
+# hq 26	Bivrost
+# hq 27	Bloodsea
+# hq 28	Bloptab's Furnace
+# hq 29	Blubipad's Workshop
+# hq 30	Blue Interior
+# hq 31	Bluestone
+# hq 32	Bosunothro
+# hq 33	Bounty
+# hq 34	Bourne
+# hq 35	Brass Second
+# hq 36	Bright Echo
+# hq 37	Buccaneer Bay
+# hq 38	Bunthro
+# hq 39	Burthen
+# hq 40	Caelian
+# hq 41	Calda
+# hq 42	Canyon
+# hq 43	Celestial Third
+# hq 44	Charon Station
+# hq 45	Chiron
+# hq 46	Chosen Nexus
+# hq 47	Cipi
+# hq 48	Clark
+# hq 49	Cloudfire
+# hq 50	Cold Horizon
+# hq 51	Cool Forest
+# hq 52	Cornucopia
+# hq 53	Corral of Meblumem
+# hq 54	Covert
+# hq 55	Crossroads
+# hq 56	Cyreal
+# hq 57	Dancer
+# hq 58	Darkcloak
+# hq 59	Darkmetal
+# hq 60	Darkstone
+# hq 61	Deadman's Cove
+# hq 62	Deep
+# hq 63	Deep Treasure
+# hq 64	Deep Water
+# hq 65	Deli Kasi
+# hq 66	Deli Kat
+# hq 67	Delve
+# hq 68	Delve of Bloptab
+# hq 69	Disara
+# hq 70	Double Haze
+# hq 71	Dueitch Ae
+# hq 72	Dueyu Eitch
+# hq 73	Dune
+# hq 74	Dusk Companion
+# hq 75	Dustmaker
+# hq 76	Dwelling of Speloog
+# hq 77	Earth
+# hq 78	Echo
+# hq 79	Ef Aourtdye
+# hq 80	Ef Osch
+# hq 81	Ember Reaches
+# hq 82	Ember Wormhole
+# hq 83	Enbye
+# hq 84	Enn Bue
+# hq 85	Erabuthro
+# hq 86	Eragarthro
+# hq 87	Ergastirio Station
+# hq 88	Essime
+# hq 89	Everhope
+# hq 90	Factory of Eblumab
+# hq 91	Far Garden
+# hq 92	Far Home
+# hq 93	Farpoint
+# hq 94	Farseer
+# hq 95	Farwater
+# hq 96	Featherweight
+# hq 97	Fenrir Station
+# hq 98	Feo Platform
+# hq 99	Firelode
+# hq 100	Flood
+# hq 101	Flowing Fields
+# hq 102	Follower
+# hq 103	Forpelog
+# hq 104	Foundry
+# hq 105	Fourth Shadow
+# hq 106	Freedom
+# hq 107	Frostmark
+# hq 108	Furnace
+# hq 109	Gagarin
+# hq 110	Garden Empyreal
+# hq 111	Geminus
+# hq 112	Gemstone
+# hq 113	Gentle Rain
+# hq 114	Geyser
+# hq 115	Gi Tiures
+# hq 116	Giaru Gegno
+# hq 117	Giverstone
+# hq 118	Glaze
+# hq 119	Glittering Ice
+# hq 120	Glory
+# hq 121	Graede
+# hq 122	Grakhord
+# hq 123	Greenbloom
+# hq 124	Greenrock
+# hq 125	Greenview
+# hq 126	Greenwater
+# hq 127	Gresku Fodar
+# hq 128	Greymoon
+# hq 129	Guardian Array Sapphire
+# hq 130	Gue Faur
+# hq 131	Hai-home
+# hq 132	Hammer of Debrugt
+# hq 133	Harmony
+# hq 134	Haven
+# hq 135	Haze
+# hq 136	Heartland
+# hq 137	Heartvalley
+# hq 138	Helheim
+# hq 139	Hephaestus
+# hq 140	Hermes
+# hq 141	Hestia
+# hq 142	Hippocrates
+# hq 143	Hopper
+# hq 144	Humanika
+# hq 145	Icefall
+# hq 146	Icelake
+# hq 147	Iddesato
+# hq 148	Iemn Eitch
+# hq 149	Illbo Avo
+# hq 150	Illbo Elo
+# hq 151	Ingot
+# hq 152	Inmost Blue
+# hq 153	Into White
+# hq 154	Iyra-Ijasa-Iret
+# hq 155	Jakobsen
+# hq 156	Jentuthro
+# hq 157	Karek Fornati
+# hq 158	Kasii-Cavasaa-Oa
+# hq 159	Kasii-Tuur-Saqru
+# hq 160	Kasi-Osolaa-Sossa
+# hq 161	Kessel Sepret
+# hq 162	Khora-Vasa-Reyyaa
+# hq 163	Ki Patek Ka
+# hq 164	Kisarra
+# hq 165	Korati Efreti
+# hq 166	Kort Kehai
+# hq 167	Kort Vek'kri
+# hq 168	Kraken Station
+# hq 169	Kua-Oa-Aava
+# hq 170	Kuwaru Efreti
+# hq 171	Lagrange
+# hq 172	Laki Nemparu
+# hq 173	Leviathan Station
+# hq 174	Lichen
+# hq 175	Livolua
+# hq 176	Lodestone
+# hq 177	Longjump
+# hq 178	Luna
+# hq 179	Maelstrom
+# hq 180	Mainsail
+# hq 181	Maker
+# hq 182	Makerplace
+# hq 183	Mani
+# hq 184	Market of Gupta
+# hq 185	Mars
+# hq 186	Martini
+# hq 187	Mavra-Sol-Kvel
+# hq 188	Mebla's Portion
+# hq 189	Melenci
+# hq 190	Memory
+# hq 191	Mere
+# hq 192	Miblulub's Plenty
+# hq 193	Midgard
+# hq 194	Midway Emerald
+# hq 195	Millrace
+# hq 196	Mirrorlake
+# hq 197	Moonshake
+# hq 198	Mordente-Bridi
+# hq 199	Mosaa-Oa-Vyret
+# hq 200	Muninn Station
+# hq 201	Muspel
+# hq 202	Navigeo Yards
+# hq 203	Nearby Jade
+# hq 204	New Argentina
+# hq 205	New Austria
+# hq 206	New Boston
+# hq 207	New Britain
+# hq 208	New China
+# hq 209	New Finding
+# hq 210	New Greenland
+# hq 211	New Holland
+# hq 212	New Iceland
+# hq 213	New India
+# hq 214	New Kansas
+# hq 215	New Portland
+# hq 216	New Sahara
+# hq 217	New Switzerland
+# hq 218	New Tibet
+# hq 219	New Tortuga
+# hq 220	New Wales
+# hq 221	New Washington
+# hq 222	Newhome
+# hq 223	Nifel
+# hq 224	Nimbus
+# hq 225	Norn
+# hq 226	Oasis
+# hq 227	Oblivion
+# hq 228	Ochrescoop
+# hq 229	Ogmur's Siphon
+# hq 230	Okoity
+# hq 231	Oup Je
+# hq 232	Outpost Enka
+# hq 233	Outpost Leto
+# hq 234	Outpost Pilos
+# hq 235	Outpost Tekis
+# hq 236	O-Vasa-Oa
+# hq 237	Pearl
+# hq 238	Pelubta Station
+# hq 239	Periaxle Circuit
+# hq 240	Peripheria
+# hq 241	Pilot
+# hq 242	Placer
+# hq 243	Plort's Water
+# hq 244	Poisonwood
+# hq 245	Pon'tes
+# hq 246	Poseidos
+# hq 247	Prime
+# hq 248	Pugglemug
+# hq 249	Pugglequat
+# hq 250	Quicksilver
+# hq 251	Raaqa-Kvelq-Ryuit
+# hq 252	Raaqa-Puan-Uuoru
+# hq 253	Rand
+# hq 254	Redias
+# hq 255	Refuge of Belugt
+# hq 256	Relic
+# hq 257	Remnant Wormhole
+# hq 258	Remote Blue
+# hq 259	Reunion
+# hq 260	Ring of Friendship
+# hq 261	Ring of Power
+# hq 262	Ring of Wisdom
+# hq 263	Ruelogakk
+# hq 264	Rust
+# hq 265	Rusty Second
+# hq 266	Safaresk Enlai
+# hq 267	Sandy Two
+# hq 268	Sardva
+# hq 269	Saros
+# hq 270	Saska-Aa-Noorr
+# hq 271	Second Cerulean
+# hq 272	Second Rose
+# hq 273	Second Viridian
+# hq 274	Secret Sky
+# hq 275	Separa Tiklar
+# hq 276	Septar Lorku
+# hq 277	Serpens
+# hq 278	Sessiliki Far
+# hq 279	Setar Fort
+# hq 280	Shadow of Leaves
+# hq 281	Shadowed Valley
+# hq 282	Shangri-La
+# hq 283	Shassa-Wyra-Orrou
+# hq 284	Shifting Sand
+# hq 285	Shiver
+# hq 286	Shorebreak
+# hq 287	Shroud
+# hq 288	Siedi
+# hq 289	Sies Upi
+# hq 290	Silo of Ablodab
+# hq 291	Silver
+# hq 292	Sinter
+# hq 293	Skillet
+# hq 294	Skyfarm
+# hq 295	Skymoot
+# hq 296	Smuggler's Den
+# hq 297	Snowfeather
+# hq 298	Solace
+# hq 299	Sopoyra
+# hq 300	Spec Inci
+# hq 301	Splashdown
+# hq 302	Staja-Kella-Oa
+# hq 303	Starcross
+# hq 304	Starting Rubin
+# hq 305	Station Cian
+# hq 306	Stilacrest
+# hq 307	Stonebreak
+# hq 308	Stormhold
+# hq 309	Stronghold of Flugbu
+# hq 310	Successor Wormhole
+# hq 311	Sundive
+# hq 312	Sundrinker
+# hq 313	Sunracer
+# hq 314	Swiftsong
+# hq 315	Tebuteb's Table
+# hq 316	Ternituul
+# hq 317	Thilos
+# hq 318	Third Umber
+# hq 319	Thrall
+# hq 320	Thshybothro
+# hq 321	Thule
+# hq 322	Thunder
+# hq 323	Tik Klai
+# hq 324	Tinker
+# hq 325	Trinket
+# hq 326	Triton Station
+# hq 327	Trove
+# hq 328	Truklar
+# hq 329	Tschyss
+# hq 330	Tundra
+# hq 331	Turquoise Four
+# hq 332	Tuur-Aasa-Kaska
+# hq 333	Twinstar
+# hq 334	Uo-Oraa-Vayya
+# hq 335	Ut Divitas
+# hq 336	Vail
+# hq 337	Valhalla
+# hq 338	Var' Kar'i'i
+# hq 339	Var' Kayi
+# hq 340	Var' Roi
+# hq 341	Vara Kehi'ki
+# hq 342	Vara Ke'sok
+# hq 343	Vara Ke'stai
+# hq 344	Vara Pug
+# hq 345	Vara Rakak
+# hq 346	Varu Ek'lak'lai
+# hq 347	Varu K'est
+# hq 348	Varu K'prai
+# hq 349	Varu Mer'ek
+# hq 350	Varu Tek'kai
+# hq 351	Varu Tev'kei
+# hq 352	Vibrant Water
+# hq 353	Viminal
+# hq 354	Vinci
+# hq 355	Warfeed
+# hq 356	Warm Slope
+# hq 357	Warm Wind
+# hq 358	Wayfarer
+# hq 359	Weir of Glubatub
+# hq 360	Weledos
+# hq 361	Windblain
+# hq 362	Winter
+# hq 363	Wyvern Station
+# hq 364	Yoqqa-Vasa-Vasa
+# hq 365	Zenith
+# hq 366	Zug
+# admiral headquarters 367
+# station 1	Acamar
+# station 2	Algieba
+# station 3	Alnasl
+# station 4	Alpha Arae
+# station 5	Aspidiske
+# station 6	Atik
+# station 7	Beta Lupi
+# station 8	Boral
+# station 9	Cardax
+# station 10	Danoa
+# station 11	Durax
+# station 12	Eber
+# station 13	Eltanin
+# station 14	Eteron
+# station 15	Fala
+# station 16	Fingol
+# station 17	Fumalsamakah
+# station 18	Gacrux
+# station 19	Gamma Cassiopeiae
+# station 20	Gorvi
+# station 21	Hassaleh
+# station 22	Hatysa
+# station 23	Hintar
+# station 24	Holeb
+# station 25	Ildaria
+# station 26	Ipsing
+# station 27	Kugel
+# station 28	Lesath
+# station 29	Limen
+# station 30	Lolami
+# station 31	Lurata
+# station 32	Menkalinan
+# station 33	Minkar
+# station 34	Mintaka
+# station 35	Mirzam
+# station 36	Mizar
+# station 37	Moktar
+# station 38	Mora
+# station 39	Muphrid
+# station 40	Naper
+# station 41	Nocte
+# station 42	Oblate
+# station 43	Orbona
+# station 44	Orvala
+# station 45	Persian
+# station 46	Procyon
+# station 47	Rajak
+# station 48	Regulus
+# station 49	Rigel
+# station 50	Sadr
+# station 51	Sospi
+# station 52	Sumar
+# station 53	Tais
+# station 54	Terminus
+# station 55	Thuban
+# station 56	Tortor
+# station 57	Umbral
+# station 58	Unagi
+# station 59	Volax
+# station 60	Wei
+# station 61	Zubenelgenubi
+

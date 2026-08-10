@@ -1,0 +1,96 @@
+name: Bug report
+description: Report a reproducible problem with Company Foundations.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please search the existing issues before submitting a new one.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      description: Describe what went wrong and when you first noticed it.
+      placeholder: A clear and concise description of the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest set of steps that consistently triggers the problem.
+      placeholder: |
+        1. Load a pilot with ...
+        2. Land on ...
+        3. Open ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: Describe what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: Describe what happened instead, including any error messages.
+    validations:
+      required: true
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Company Foundations version
+      description: Enter the release, commit, or download date you are using.
+      placeholder: e.g. v0.2.0 or commit 1a2b3c4
+    validations:
+      required: true
+
+  - type: input
+    id: endless-sky-version
+    attributes:
+      label: Endless Sky version
+      placeholder: e.g. 0.11.2
+    validations:
+      required: true
+
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating system
+      placeholder: e.g. Windows 11, macOS 15, or Ubuntu 24.04
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Logs, save data, or screenshots
+      description: Attach any useful diagnostics. Remove personal or sensitive data before uploading files.
+      placeholder: Drag and drop files here, or paste a relevant excerpt.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add anything else that may help investigate the problem.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I searched the existing issues for this problem.
+          required: true
+        - label: I can reproduce this problem with the versions listed above.
+          required: true

@@ -2,7 +2,7 @@
 
 All notable changes to Company Foundations are documented in this file.
 
-## [0.2.0-alpha.1] - 2026-08-09
+## [0.2a] - 2026-08-09
 
 This entry covers the changes between `v0.1` (`09cbdd4`) and the merged
 `develop` release commit (`5f03ee2`).

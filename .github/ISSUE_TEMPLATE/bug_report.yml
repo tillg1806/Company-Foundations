@@ -52,7 +52,7 @@ body:
     attributes:
       label: Company Foundations version
       description: Enter the release, commit, or download date you are using.
-      placeholder: e.g. v0.2.0 or commit 1a2b3c4
+      placeholder: e.g. v0.2a or commit 1a2b3c4
     validations:
       required: true
 

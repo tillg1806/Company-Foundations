@@ -1,0 +1,58 @@
+name: Wish or suggestion
+description: Suggest an improvement or a new idea for Company Foundations.
+title: "[Suggestion]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Company Foundations. Please search the existing issues before submitting a new suggestion.
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Problem or opportunity
+      description: What problem would this solve, or what opportunity would it create?
+      placeholder: Explain the player need or use case behind the suggestion.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe how you would like Company Foundations to behave.
+      placeholder: A clear and concise description of your idea.
+    validations:
+      required: true
+
+  - type: textarea
+    id: player-experience
+    attributes:
+      label: Player experience
+      description: How would this improve gameplay, balance, usability, or immersion?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe any workarounds or alternative approaches you considered.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add examples, mockups, references, or other useful details.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I searched the existing issues for similar suggestions.
+          required: true
+        - label: This suggestion is related to Company Foundations rather than the base game.
+          required: true
